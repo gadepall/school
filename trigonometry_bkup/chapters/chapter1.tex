@@ -1,0 +1,144 @@
+%\chapter{The Optimum Receiver}
+
+%\subsection{Problem}
+\begin{definition}
+
+
+A right angled triangle looks like Fig. \ref{ch1_right}.
+\begin{figure}[!h]
+\begin{center}
+	
+\includegraphics[width=\columnwidth]{./figs/ch1_right_triangle}
+\vspace*{-10cm}
+\end{center}
+\caption{Right Angled Triangle}
+\label{ch1_right}	
+\end{figure}
+%\vspace*{-10cm}
+with angles $\angle A,\angle B$ and $\angle C$ and sides $a, b$ and $c$.  The unique feature of this triangle is $\angle C$ which is defined to be $90^{\degree}$.
+\end{definition}
+\begin{definition}
+	For simplicity, let the greek letter $\theta = \angle B$.  We have the following definitions.
+\begin{equation}
+\label{ch1_trig_defs}
+\begin{matrix}
+	\sin \theta = \frac{a}{c} & 	\cos \theta = \frac{b}{c} \\
+	\tan \theta = \frac{b}{a} & \cot \theta = \frac{1}{\tan \theta} \\
+	\csc \theta = \frac{1}{\sin \theta} & \sec \theta = \frac{1}{\cos \theta}
+	\end{matrix}
+\end{equation}
+\end{definition}
+
+\subsection{Sum of Angles}
+\begin{figure}[!h]
+	\begin{center}
+		
+		\includegraphics[width=\columnwidth]{./figs/ch1_parallel_triangle}
+		\vspace*{-10cm}
+	\end{center}
+	\caption{Sum of angles of a triangle}
+	\label{ch1_parallel_triangle}	
+\end{figure}
+
+\begin{definition}
+	In Fig. \ref{ch1_parallel_triangle}, the sum of all the angles on the top or bottom side of the straight line $XY$ is $180^{\degree}$.
+\end{definition}
+
+\begin{definition}
+In Fig. \ref{ch1_parallel_triangle}, the straight line making an angle of $90^{\degree}$ to the side $AC$ is said to be parallel to the side $BC$. Note there is an angle at $A$ that is equal to $\theta$.  This is one property of parallel lines.  Thus, $\angle YAZ = 90^{\degree}$.
+\end{definition}
+
+\begin{problem}
+	Show that $\angle VAZ = 90^{\degree} - \theta$
+\end{problem}		
+	\proof Considering the line $XAZ$,
+	\begin{align}
+	\theta + 90^{\degree} + \angle VAZ &= 180^{\degree} \\
+	\Rightarrow  \angle VAZ =  90^{\degree} - \theta
+	\end{align}
+
+\begin{problem}
+	\label{ch1_compl_angle}
+	Show that $\angle BAC = 90^{\degree} - \theta$.
+\end{problem}	
+	\proof Consider the line $VAB$ and and use the approach in the previous problem.  Note that this implies that $\angle VAZ = \angle BAC$.  Such angles are known as vertically opposite angles. 
+	 
+\begin{problem}
+Sum of the angles of a triangle is equal to $180^{\degree}$
+\end{problem}
+\subsection{Budhayana Theorem}
+
+
+
+\begin{figure}[!h]
+	\begin{center}
+		
+		\includegraphics[width=\columnwidth]{./figs/ch1_budh_triangle}
+		\vspace*{-10cm}
+	\end{center}
+	\caption{Budhayana Theorem}
+	\label{ch1_budh_triangle}	
+\end{figure}
+
+\begin{problem}
+	Using Fig. \ref{ch1_right}, show that
+	\begin{equation}
+	\cos \theta = \sin \brak{90^{\degree} - \theta}
+	\end{equation}
+\end{problem}
+\proof From Problem \ref{ch1_compl_angle} and  \eqref{ch1_trig_defs}
+%
+\begin{equation}
+	\cos \brak{90^{\degree}-\theta} = \frac{b}{c} = \sin \theta
+\end{equation}
+%
+\begin{problem}
+Using Fig. \ref{ch1_budh_triangle}, show that 
+%
+\begin{equation}
+\label{ch1_budh_basic}
+c = a \cos \theta + b \sin \theta
+\end{equation}
+%
+\end{problem}
+\proof We observe that
+%
+\begin{align}
+BD &= a \cos \theta \\
+AD &= b \cos\brak{90-\theta} = b \sin \theta \quad \brak{\text{From} \quad \eqref{ch1_compl_angle}}
+\end{align}
+%
+Thus,
+\begin{equation}
+BD + AD = c = a \cos \theta + b \sin \theta
+\end{equation}
+\begin{problem}
+From \eqref{ch1_budh_basic}, show that
+%
+\begin{equation}
+\sin ^2 \theta + \cos ^2 \theta = 1
+\end{equation}
+
+\end{problem}
+%
+\proof Dividing both sides of \eqref{ch1_budh_basic} by $c$, 
+\begin{align}
+1 &= \frac{a}{c}\cos\theta + \frac{b}{c}\sin\theta\\
+\Rightarrow &\sin ^2 \theta + \cos ^2 \theta = 1 \quad \brak{\text{from} \quad \eqref{ch1_trig_defs}}
+\end{align}
+
+\begin{problem}
+	Using \eqref{ch1_budh_basic}, show that
+	\begin{equation}
+	\label{ch1_budhayana_them}
+	c^2 = a^2 + b^2
+	\end{equation}
+	\eqref{ch1_budhayana_them} is known as the Budhayana theorem.  It is also known as the Pythagoras theorem.
+\end{problem}
+\proof From \eqref{ch1_budh_basic},
+\begin{align}
+c &= a\frac{a}{c} + b \frac{b}{c} \quad \brak{\text{from} \quad \eqref{ch1_trig_defs}}\\
+\Rightarrow c^2 &= a^2 + b^2
+\end{align}
+
+

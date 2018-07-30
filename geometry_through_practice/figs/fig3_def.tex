@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+[
+ scale=2,
+  >=stealth,
+  point/.style = {draw, circle, fill = black, inner sep = 1pt},
+]
+
+\node (B) at (0,0) [point,label = below left:$B$] {};
+\node (A) at (0,3)[point,label = above left:$A$] {};
+\node (C) at (3,0)[point,label = below right:$C$] {};
+\draw (A) -- (B) -- (C) -- (A);
+
+\tkzMarkRightAngle[fill=blue!20,size=0.5](A,B,C)
+
+\node [left] at (0,1.5) {\strut 6cm};
+\node [below] at (1.5,0) {\strut 8cm};
+\node [right] at (1.5,1.5) {\strut 10cm};
+
+
+
+
+\end{tikzpicture}
