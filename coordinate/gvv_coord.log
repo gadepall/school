@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.5.9)  2 JUL 2018 05:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.7.30)  8 AUG 2018 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,36 +995,50 @@ ABD: EveryShipout initializing macros
 \c@lemma=\count173
 \c@example=\count174
 \c@rem=\count175
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 201.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 201.
+File: iith_logo.eps Graphic file (type eps)
+ <iith_logo.eps>
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 202.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 202.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 201.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 202.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 201.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 202.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 201.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 202.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 201.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 202.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) (./gvv_coord.toc)
+)
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps>
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 202.
+File: iith_logo.eps Graphic file (type eps)
+
+<iith_logo.eps>
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps>
+File: iith_logo.eps Graphic file (type eps)
+ <iith_logo.eps>
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps> (./gvv_coord.toc)
 \tf@toc=\write4
 \openout4 = `gvv_coord.toc'.
 
@@ -1049,11 +1063,8 @@ Overfull \hbox (8.43799pt too wide) detected at line 63
 [1
 
 
-] (./figs/chapter1/ch1_ratio.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(./figs/chapter1/ch1_median_def.tex) [2] (./figs/chapter1/ch1_two_median.tex)
+] (./figs/chapter1/ch1_ratio.tex) (./figs/chapter1/ch1_median_def.tex)
+[2] (./figs/chapter1/ch1_two_median.tex)
 (./figs/chapter1/ch1_two_median_conv.tex) [3]
 (./figs/chapter1/ch1_median_concurrent.tex)
 
@@ -1094,12 +1105,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ] (./gvv_coord.aux) ) 
 Here is how much of TeX's memory you used:
- 26019 strings out of 494946
- 584629 string characters out of 6181059
- 757475 words of memory out of 5000000
- 28758 multiletter control sequences out of 15000+600000
- 64402 words of font info for 156 fonts, out of 8000000 for 9000
+ 26049 strings out of 494946
+ 585093 string characters out of 6181058
+ 757729 words of memory out of 5000000
+ 28785 multiletter control sequences out of 15000+600000
+ 71317 words of font info for 178 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  55i,15n,70p,629b,1108s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_coord.dvi (9 pages, 166296 bytes).
+Output written on gvv_coord.dvi (9 pages, 166584 bytes).
