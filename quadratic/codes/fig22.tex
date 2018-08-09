@@ -1,0 +1,43 @@
+\documentclass[border=5mm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\begin{document}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+
+
+\begin{tikzpicture}
+[
+scale =2,
+>=stealth,
+point/.style = {draw, circle, fill = black, inner sep = 1pt},
+]
+\def\rad{3}
+\coordinate [point, label={above : $O$ }] (O) at (0, 0);
+\draw (O) circle (\rad);
+
+\coordinate [point, label={below :$B$}] (B) at (0,-3);
+%\node (B) at (270:{\rad})[point,label = below:$B$] {};
+
+\draw (B) -- ($(B)!1!-90:(O)$);
+\draw (B) -- ($(B)!1!90:(O)$);
+
+
+\node (A) at (130:{\rad}) [point,label = left:$A$] {};
+\draw (A) -- (B);
+
+\node (C) at (340:{\rad}) [point,label = right:$C$] {};
+\draw (C) -- (A);
+\draw (B) -- (C);
+
+
+\tkzMarkAngle[fill=blue!40,size=.3](B,A,C)
+\tkzDefPoint (2,-3){P}
+\tkzLabelPoints(P)
+\tkzMarkAngle[fill=blue!40,size=.3](P,B,C)
+
+
+\end{tikzpicture}
+
+\end{document}

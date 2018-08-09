@@ -1,0 +1,36 @@
+\documentclass[border=5mm]{standalone}
+\usepackage{tikz}
+\begin{document}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+
+
+\begin{tikzpicture}
+[
+scale =2,
+>=stealth,
+point/.style = {draw, circle, fill = black, inner sep = 1pt},
+]
+\def\rad{3}
+\coordinate [point, label={below : $O$ }] (O) at (0, 0);
+\draw (O) circle (\rad);
+
+\coordinate [point, label={left :$P$}] (P) at (0,-1.5);
+\node (D) at +(17:{\rad}) [point,label = above right:$D$] {};
+
+\draw (P) -- (D);
+  
+\node(C) at +(243:{\rad}) [point,label = left:$C$] {};
+
+\draw (P) -- (C);
+
+\node (A) at +(163:{\rad}) [point,label = above left:$A$] {};
+
+\draw (P) -- (A);
+
+\node (B) at +(-62:{\rad}) [point,label =right:$B$] {};
+
+\draw (P) -- (B);
+
+\end{tikzpicture}
+
+\end{document}

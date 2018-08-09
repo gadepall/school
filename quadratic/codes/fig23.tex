@@ -1,0 +1,37 @@
+\documentclass[border=5mm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\begin{document}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+
+
+\begin{tikzpicture}
+[
+scale =2,
+>=stealth,
+point/.style = {draw, circle, fill = black, inner sep = 1pt},
+]
+\def\rad{3}
+\coordinate [point, label={above : $O$ }] (O) at (0, 0);
+\draw (O) circle (\rad);
+
+\coordinate [point, label={below :$T$}] (T) at (0,-3);
+
+\draw (T) -- ($(T)!1!-90:(O)$);
+\draw (T) -- ($(T)!1!90:(O)$);
+
+\tkzDefPoint (-3,-3){P}
+\tkzLabelPoints(P)
+
+\node (A) at (215:{\rad}) [point,label = left:$A$] {};
+ \node (B) at +(100:{\rad}) [point,label = above left:$B$] {};
+ 
+ \draw (P) -- (B);
+
+
+
+\end{tikzpicture}
+
+\end{document}
