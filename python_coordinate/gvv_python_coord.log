@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.7.30)  8 AUG 2018 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.7.30)  15 AUG 2018 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,17 +1122,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./figs/triangle.eps Graphic file (type eps)
 
 <./figs/triangle.eps>
-Underfull \vbox (badness 3323) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./codes/coeffs.py) (./codes/all_coeffs.py [2]) (./codes/mid_points.py)
-(./codes/line_intersect.py [3]) (./codes/alt_eq.py) [4] (./codes/side_length.py
-) (./codes/angle_bisect_coord.py) [5] (./codes/inradius.py)
-(./codes/In_circle.py)
+(./codes/coeffs.py) [2] (./codes/mid_points.py) (./codes/line_intersect.py)
+[3] (./codes/alt_eq.py)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./codes/side_length.py [4]) (./codes/angle_bisect_coord.py)
+(./codes/inradius.py [5]) (./codes/In_circle.py)
 File: ./figs/incircle.eps Graphic file (type eps)
  <./figs/incircle.eps>
 File: ./figs/tri_incircle.eps Graphic file (type eps)
- <./figs/tri_incircle.eps>
+
+<./figs/tri_incircle.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1140,13 +1144,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7] (./codes/derivatives.py)
-Underfull \vbox (badness 1194) has occurred while \output is active []
-
-
-(./codes/unit_circle.py)
+(./codes/derivatives.py [7]) (./codes/unit_circle.py)
 File: ./figs/parabola_projection.eps Graphic file (type eps)
- <./figs/parabola_projection.eps>
+
+<./figs/parabola_projection.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1162,20 +1163,18 @@ File: ./figs/ellipse_transform.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 2846) has occurred while \output is active []
-
- [9]
 File: ./figs/parabola_area.eps Graphic file (type eps)
-
-<./figs/parabola_area.eps> (./codes/parabola_area.py)
+<./figs/parabola_area.eps> [9] (./codes/parabola_area.py)
 File: ./figs/parabola_inverted_area.eps Graphic file (type eps)
 
 <./figs/parabola_inverted_area.eps> (./codes/parabola_inverted_area.py)
-[10] (./codes/parabola_hist_gp.py)
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [10]
+(./codes/parabola_hist_gp.py)
 File: ./figs/parabola_area_gp.eps Graphic file (type eps)
- <./figs/parabola_area_gp.eps> [11]
-(./codes/parabola_area_gp.py) [12
+ <./figs/parabola_area_gp.eps>
+(./codes/parabola_area_gp.py [11]) [12
 
 ] (./gvv_python_coord.aux)
 
@@ -1183,12 +1182,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27938 strings out of 494946
- 609440 string characters out of 6181058
- 934685 words of memory out of 5000000
- 30632 multiletter control sequences out of 15000+600000
+ 27929 strings out of 494946
+ 609304 string characters out of 6181058
+ 961685 words of memory out of 5000000
+ 30626 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  55i,13n,67p,637b,2295s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_python_coord.dvi (12 pages, 105908 bytes).
+Output written on gvv_python_coord.dvi (12 pages, 104460 bytes).

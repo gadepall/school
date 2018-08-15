@@ -303,9 +303,13 @@ B =
 %
 If $AB$ is expressed by the equation
 \begin{equation}
-p_0x + p_1y + p_2 = 0,
+y = p_0x + p_1, 
 \end{equation}
-find $p_0,p_1$ and $p_2$.
+find $p_0$ and $p_1$.
+%\begin{equation}
+%p_0x + p_1y + p_2 = 0,
+%\end{equation}
+%find $p_0,p_1$ and $p_2$.
 \end{problem}
 \solution
 Let
@@ -330,17 +334,27 @@ The equation of $AB$ is given by
 \label{eq:line_two_pt}
 \frac{y - A_1}{x-A_0} &= \frac{A_1 \! - \! B_1}{A_0 \! - \! B_0} 
 \\
-\implies \brak{A_1 - B_1}x &+ \brak{B_0-A_0}y + A_0B_1 - A_1 B_0 = 0
+\implies  y &= \frac{A_1 \! - \! B_1}{A_0 \! - \! B_0} x + A_1 - A_0 \frac{A_1 \! - \! B_1}{A_0 \! - \! B_0}
+\\
+&= \frac{A_1 \! - \! B_1}{A_0 \! - \! B_0} x + \frac{A_0 B_1 - A_1B_0}{A_0 \! - \! B_0} 
+%\implies \brak{A_1 - B_1}x &+ \brak{B_0-A_0}y + A_0B_1 - A_1 B_0 = 0
 \label{eq:CA}
 \end{align}
 %
 after some algebra. Thus,
-\begin{equation}
-p_0 = A_1 - B_1, p_1 = B_0-A_0, p_2 = A_0B_1 - A_1 B_0.
-\end{equation}
+\begin{align}
+p_0 &= \frac{A_1 \! - \! B_1}{A_0 \! - \! B_0} 
+\\
+p_1 &= \frac{A_0 B_1 - A_1B_0}{A_0 \! - \! B_0} 
+\end{align}
+
+%\begin{equation}
+%p_0 = A_1 - B_1, p_1 = B_0-A_0, p_2 = A_0B_1 - A_1 B_0.
+%\end{equation}
 The following python code computes the numerical values and the equation for $AB$ is
 \begin{equation}
-5x -3y +4 = 0
+y =1.67x +1.33
+%5x -3y +4 = 0
 \end{equation}
 \lstinputlisting{./codes/coeffs.py}
 \begin{problem}
@@ -356,44 +370,44 @@ C =
 %
 Find the equations of $BC$ and $CA$
 \end{problem}
-\solution
-The following code yields the coefficients resulting in the respective equations
-%
-\begin{align}
-4x + 3y -13 &= 0
-\\
-x - 6y - 10 &= 0
-\end{align}
-%
-\lstinputlisting{./codes/all_coeffs.py}
-\begin{problem}
-An alternative equation of the line $AB$ is
-\begin{equation}
-y = p_0x + p_1 
-\end{equation}
-%
-Find the equations of $AB,BC$ and $CA$.
-\end{problem}
-\solution From \eqref{eq:line_two_pt},
-\begin{align}
-p_0 &= \frac{A_1 \! - \! B_1}{A_0 \! - \! B_0} 
-\\
-p_1 &= A_1 - A_0\frac{A_1 \! - \! B_1}{A_0 \! - \! B_0} 
-\nonumber\\
-&= \frac{A_0 B_1 - A_1B_0}{A_0 \! - \! B_0} 
-\end{align}
-%
-The following python code calculates the above coefficients resulting in the equations for $AB,BC,CA$
-\begin{align}
-y &=1.67x +1.33
-\\
-y &=-1.33x + 4.33
-\\
-y &=0.16x -1.67
-\end{align}
-\begin{problem}
-Draw the lines $AB,BC$ and $CA$.
-\end{problem}
+%\solution
+%The following code yields the coefficients resulting in the respective equations
+%%
+%\begin{align}
+%4x + 3y -13 &= 0
+%\\
+%x - 6y - 10 &= 0
+%\end{align}
+%%
+%\lstinputlisting{./codes/all_coeffs.py}
+%\begin{problem}
+%An alternative equation of the line $AB$ is
+%\begin{equation}
+%y = p_0x + p_1 
+%\end{equation}
+%%
+%Find the equations of $AB,BC$ and $CA$.
+%\end{problem}
+%\solution From \eqref{eq:line_two_pt},
+%\begin{align}
+%p_0 &= \frac{A_1 \! - \! B_1}{A_0 \! - \! B_0} 
+%\\
+%p_1 &= A_1 - A_0\frac{A_1 \! - \! B_1}{A_0 \! - \! B_0} 
+%\nonumber\\
+%&= \frac{A_0 B_1 - A_1B_0}{A_0 \! - \! B_0} 
+%\end{align}
+%%
+%The following python code calculates the above coefficients resulting in the equations for $AB,BC,CA$
+%\begin{align}
+%y &=1.67x +1.33
+%\\
+%y &=-1.33x + 4.33
+%\\
+%y &=0.16x -1.67
+%\end{align}
+%\begin{problem}
+%Draw the lines $AB,BC$ and $CA$.
+%\end{problem}
 %
 \section{Medians of a Triangle}
 \begin{problem}
@@ -428,14 +442,15 @@ F = \begin{pmatrix}
 \begin{problem}
 Find the equations of $AD,BE$ and $CF$. These lines are the {\em medians} of $\Delta ABC$
 \end{problem}
-\solution Using the code in Problem \ref{prob:line_eq} and simplifying, the respective equations are
-\begin{align}
-2x -3y-2 &=0
-\\
-x-1 &= 0
-\\
-x+3y-1 &=0
-\end{align}
+\solution Use the code in Problem \ref{prob:line_eq}. 
+%and simplifying, the respective equations are
+%\begin{align}
+%2x -3y-2 &=0
+%\\
+%x-1 &= 0
+%\\
+%x+3y-1 &=0
+%\end{align}
 %
 \begin{problem}
 \label{prob:median}
@@ -444,16 +459,19 @@ Find the point of intersection of $AD$ and $CF$.
 \solution
 Let the respective equations  be
 \begin{align}
-p_0 x + p_1 + p_2 &= 0
+y &= p_0x + p_1 \text{ and}
 \\
-q_0 x + q_1 + q_2 &= 0
+y &= q_0x+q_1
+%p_0 x + p_1 + p_2 &= 0
+%\\
+%q_0 x + q_1 + q_2 &= 0
 \end{align}
 This can be written as the matrix equation
 \begin{equation}
 \begin{pmatrix*}[r]
-p_0 & p_1 
+p_0 & -1 
 \\
-q_0 & q_1 
+q_0 & -1 
 \end{pmatrix*}
 \begin{pmatrix}
 x
@@ -462,9 +480,9 @@ y
 \end{pmatrix}
 =-
 \begin{pmatrix}
-p_2
+p_1
 \\
-q_2
+q_1
 \end{pmatrix}
 \end{equation}
 The following code yields the point of intersection 
@@ -638,7 +656,10 @@ W &= \frac{AW.B+WB.A}{AW + WB} = \frac{\frac{AW}{WB}.B+A}{\frac{AW}{WB} + 1}
 &= \frac{\frac{CA}{BC}.B+A}{\frac{CA}{BC} + 1}
 \\
 &= \frac{{CA}\times B+{BC}\times A}{{BC} + {CA}}
+\\
+&= \frac{a\times A + b\times B}{a + b}
 \end{align}
+where $a = BC, b = CA$, 
 since the angle bisector has the property that
 %
 \begin{equation}
@@ -713,9 +734,9 @@ IX = IY = IZ = r
 $r$ is known as the {\em inradius} of $\Delta ABC$.
 \end{problem}
 \solution
-The distance of a point $\brak{a,b}$ from the line $p_0x+p_1y+p_2=0$ is given by 
+The distance of a point $\brak{a,b}$ from the line $y = p_0x+p_1$ is given by 
 \begin{equation}
-\frac{\abs{ap_0+bp_1+p_2}}{\sqrt{p_0^2+p_1^2}}
+\frac{\abs{ap_0-b+p_1}}{\sqrt{p_0^2+1}}
 \end{equation}
 The following code computes IX.
 \lstinputlisting{./codes/inradius.py}

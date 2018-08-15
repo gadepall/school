@@ -6,9 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def side_length(A,B):
-	return np.sqrt((A[0]-B[0])**2 + (A[1]-B[1])**2)
-
 def angle_bisect_coord(b,c,B,C):
 	return np.multiply((np.multiply(b,B)+np.multiply(c,C)),1/(b+c))
 
