@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.5.9)  23 JUL 2018 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.7.30)  28 AUG 2018 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1079,22 +1079,21 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-)
+)) (./chapters/chapter4.tex (./figs/fig_4.0.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chapters/chapter4.tex (./figs/fig_4.0.tex)
+(./figs/fig_4.1.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] (./figs/fig_4.1.tex)
+[8] (./figs/fig_4.2.tex) (./figs/fig_4.3.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./figs/fig_4.2.tex) (./figs/fig_4.3.tex) [9] (./figs/fig_4.6.tex
+[9] (./figs/fig_4.6.tex
 Missing character: There is no ; in font nullfont!
-)
-(./figs/fig_4.6_1.tex
+) (./figs/fig_4.6_1.tex
 Missing character: There is no ; in font nullfont!
 )
 
@@ -1137,11 +1136,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) [12]
-Underfull \vbox (badness 1019) has occurred while \output is active []
+)
 
- [13])
-[14
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13]) [14
 
 ] (./gvv_trig.aux)
 
@@ -1150,11 +1153,11 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  20347 strings out of 494946
- 407707 string characters out of 6181059
- 484596 words of memory out of 5000000
+ 407707 string characters out of 6181058
+ 484399 words of memory out of 5000000
  23099 multiletter control sequences out of 15000+600000
  51706 words of font info for 114 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  55i,17n,70p,599b,1145s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_trig.dvi (14 pages, 281180 bytes).
+Output written on gvv_trig.dvi (14 pages, 281204 bytes).

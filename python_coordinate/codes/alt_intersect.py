@@ -9,7 +9,7 @@ def line_intersect(p,q):
 	return np.matmul(np.linalg.inv(P),c)
 
 
-def slope_coeff(A,B):
+def line_coeff(A,B):
 	p = np.zeros((2,1))
 	p[0] = (A[1]-B[1])/(A[0]-B[0])
 	p[1] = (A[0]*B[1]-A[1]*B[0])/(A[0]-B[0])
@@ -30,9 +30,9 @@ A = np. matrix('-2;-2')
 B = np. matrix('1;3')
 C = np. matrix('4;-1')
 
-a = slope_coeff(B,C)
-b = slope_coeff(C,A)
-c = slope_coeff(A,B)
+a = line_coeff(B,C)
+b = line_coeff(C,A)
+c = line_coeff(A,B)
 p = alt_coeff(a,A)
 q = alt_coeff(b,B)
 r = alt_coeff(c,C)

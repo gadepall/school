@@ -3,7 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def slope_coeff(A,B):
+def line_coeff(A,B):
 	p = np.zeros((2,1))
 	p[0] = (A[1]-B[1])/(A[0]-B[0])
 	p[1] = (A[0]*B[1]-A[1]*B[0])/(A[0]-B[0])
@@ -19,7 +19,7 @@ A = np. matrix('-2;-2')
 B = np. matrix('1;3')
 C = np. matrix('4;-1')
 
-p = slope_coeff(B,C)
+p = line_coeff(B,C)
 q = alt_coeff(p,A)
 print (q)
 
