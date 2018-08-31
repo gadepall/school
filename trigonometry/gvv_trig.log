@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.7.30)  28 AUG 2018 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.7.30)  31 AUG 2018 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,26 +400,9 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen153
 \l_MT_below_shortintertext_sep=\dimen154
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks29
-\pgfutil@tempdima=\dimen155
-\pgfutil@tempdimb=\dimen156
+(/home/linaro/texmf/tex/latex/iithtlc/iithtlc.sty
+Package: iithtlc 10/04/2016 IITH TLC
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box35
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -437,9 +420,29 @@ Package graphics Info: Driver file: dvips.def on input line 99.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
 File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
 ))
-\Gin@req@height=\dimen157
-\Gin@req@width=\dimen158
-)
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box35
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
@@ -972,32 +975,50 @@ ABD: EveryShipout initializing macros
 \c@example=\count174
 \c@definition=\count175
 \c@rem=\count176
- (./gvv_trig.toc
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
+File: iith_logo.eps Graphic file (type eps)
+ <iith_logo.eps>
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 198.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 198.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 2.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 198.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 2.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 198.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 2.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 198.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 2.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 198.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-))
+)
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps>
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 198.
+File: iith_logo.eps Graphic file (type eps)
+
+<iith_logo.eps>
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps>
+File: iith_logo.eps Graphic file (type eps)
+ <iith_logo.eps>
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps> (./gvv_trig.toc)
 \tf@toc=\write4
 \openout4 = `gvv_trig.toc'.
 
@@ -1010,84 +1031,88 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[1
 
-] (./figs/fig_1.3_def.tex)) (./chapters/chapter2.tex (./figs/fig1_def.tex)
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [1
+
+
+]
+(./figs/fig_1.3_def.tex)) (./chapters/chapter2.tex (./figs/fig1_def.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 (./figs/fig2.1.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2] (./figs/fig_2.4.tex) [3] (./figs/fig_2.6.tex
+[2] (./figs/fig_2.4.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] (./figs/fig_2.6.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 ) (./figs/fig_2.7.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-)
-(./figs/fig_2.9.tex
+) (./figs/fig_2.9.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[4]
 Overfull \hbox (0.9727pt too wide) in paragraph at lines 273--273
 [] 
  []
 
-[4] (./figs/fig2.1.tex)
+(./figs/fig2.1.tex)
+Underfull \vbox (badness 1097) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 1132) has occurred while \output is active []
-
-
+ [5]
 (./figs/fig_2.11.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] (./figs/fig_2.14.tex
+) (./figs/fig_2.14.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 ) (./figs/fig_2.15.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) [6]) (./chapters/chapter3.tex
-(./figs/fig_3.0.tex
+) [6])
+(./chapters/chapter3.tex (./figs/fig_3.0.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) [7]
+File: ./figs/fig_3.8.eps Graphic file (type eps)
+ <./figs/fig_3.8.eps>
+(./figs/fig_3.10.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
-File: ./figs/fig_3.8.eps Graphic file (type eps)
- <./figs/fig_3.8.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7] (./figs/fig_3.10.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)) (./chapters/chapter4.tex (./figs/fig_4.0.tex)
+) (./chapters/chapter4.tex (./figs/fig_4.0.tex) [8] (./figs/fig_4.1.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./figs/fig_4.1.tex)
+(./figs/fig_4.2.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] (./figs/fig_4.2.tex) (./figs/fig_4.3.tex)
+(./figs/fig_4.3.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1095,14 +1120,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Missing character: There is no ; in font nullfont!
 ) (./figs/fig_4.6_1.tex
 Missing character: There is no ; in font nullfont!
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(./figs/fig_4.8.tex
+) [10] (./figs/fig_4.8.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1111,24 +1129,24 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10] (./figs/fig_4.11.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapters/chapter5.tex (./figs/fig_5.0.tex
+(./figs/fig_4.11.tex)) (./chapters/chapter5.tex (./figs/fig_5.0.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) [11] (./figs/fig_5.1.tex
 Missing character: There is no ; in font nullfont!
 )
-(./figs/fig_5.2.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./figs/fig_5.1.tex
+Missing character: There is no ; in font nullfont!
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11] (./figs/fig_5.2.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1144,20 +1162,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-[13]) [14
+Underfull \vbox (badness 1817) has occurred while \output is active []
 
-] (./gvv_trig.aux)
+ [13])
+[14] (./gvv_trig.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20347 strings out of 494946
- 407707 string characters out of 6181058
- 484399 words of memory out of 5000000
- 23099 multiletter control sequences out of 15000+600000
- 51706 words of font info for 114 fonts, out of 8000000 for 9000
+ 20419 strings out of 494946
+ 408889 string characters out of 6181058
+ 483022 words of memory out of 5000000
+ 23164 multiletter control sequences out of 15000+600000
+ 67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 55i,17n,70p,599b,1145s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,17n,70p,599b,1141s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_trig.dvi (14 pages, 281204 bytes).
+Output written on gvv_trig.dvi (14 pages, 281396 bytes).
