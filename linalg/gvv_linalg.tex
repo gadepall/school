@@ -484,8 +484,54 @@ resulting in \eqref{eq:ratio}.
 \begin{equation}
 k_1\vec{A} + k_2\vec{B} = 0 \implies k_1=k_2=0
 \end{equation}
-Show that 
-%%
+\item $BE$ and $CF$ are medians of $\triangle ABC$ intersecting at $O$ as shown in Fig. \ref{fig:median}. 
+$AD$ passes through $O$.  Show that $AD$ is a median.
+%
+\\
+\solution Let
+\begin{align}
+\frac{CO}{OF} &= k_1
+\\
+\frac{BO}{OE} &= k_2
+\end{align}
+%
+Using  \eqref{eq:ratio},
+\begin{align}
+\vec{E}&= \frac{\vec{A} + \vec{C}}{2}
+\\
+\vec{F}&= \frac{\vec{A} + \vec{B}}{2}
+\end{align}
+%
+and
+\begin{align}
+\label{eq:o1}
+\vec{O}&= \frac{k_1\vec{F} + \vec{C}}{k_1+1} = \frac{k_1\frac{\vec{A} + \vec{B}}{2} + \vec{C}}{k_1+1}
+\\
+\vec{O}&= \frac{k_2\vec{E} + \vec{B}}{k_2+1} = \frac{k_2\frac{\vec{A} + \vec{C}}{2} + \vec{B}}{k_2+1}
+\label{eq:o2}
+\end{align}
+%
+From \eqref{eq:o1} and \eqref{eq:o2},
+\begin{align}
+ \frac{k_1\frac{\vec{A} + \vec{B}}{2} + \vec{C}}{k_1+1} &= 
+ \frac{k_2\frac{\vec{A} + \vec{C}}{2} + \vec{B}}{k_2+1}
+\end{align}
+\begin{multline}
+\implies \sbrak{\frac{k_1\brak{k_2+1}}{2}
+-\frac{k_2\brak{k_1+1}}{2}}\vec{A} 
+\\
++ 
+\sbrak{\frac{k_1\brak{k_2+1}}{2}-\brak{k_1+1}}\vec{B} 
+\\
++ \sbrak{\brak{k_2+1}-\frac{k_2\brak{k_1+1}}{2}}\vec{C} 
+= 0
+\end{multline}
+resulting in $k_1 = k_2$,
+\begin{align}
+k_1^2-k_1-2  &= 0
+\implies k_1 = k_2 = 2,
+\end{align}
+provided $\vec{A},\vec{B},\vec{C}$ are linearly independent. If they are linearly dependent,
 \end{enumerate}
 %
 \end{document}
