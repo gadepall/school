@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  6 JAN 2019 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  6 JAN 2019 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1327,36 +1327,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./figs/ratio.eps Graphic file (type eps)
 
 <./figs/ratio.eps>
+File: ./figs/median.eps Graphic file (type eps)
+ <./figs/median.eps>
+Underfull \hbox (badness 2277) in paragraph at lines 542--544
+\OT1/txr/m/n/12 provided $\OT1/txr/bx/n/12 A\OML/txmi/m/it/12 ; \OT1/txr/bx/n/1
+2 B\OML/txmi/m/it/12 ; \OT1/txr/bx/n/12 C$ \OT1/txr/m/n/12 are lin-early in-de-
+pen-dent.
+ []
 
-LaTeX Warning: Reference `fig:median' on page 3 undefined on input line 487.
 
-
-Underfull \vbox (badness 1701) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 585.
 
-(./gvv_linalg.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 536.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 536.
+[4
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 585.
+ (./gvv_linalg.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 585.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 585.
 Package rerunfilecheck Info: File `gvv_linalg.out' has not changed.
 (rerunfilecheck)             Checksum: 55BBB162ACD7A687E3280DE8BA742415;156.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23977 strings out of 494591
- 472637 string characters out of 6176027
- 569164 words of memory out of 5000000
- 27170 multiletter control sequences out of 15000+600000
+ 23983 strings out of 494591
+ 472737 string characters out of 6176027
+ 570164 words of memory out of 5000000
+ 27175 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 54i,19n,67p,796b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,19n,67p,796b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg.dvi (3 pages, 36140 bytes).
+Output written on gvv_linalg.dvi (4 pages, 41516 bytes).

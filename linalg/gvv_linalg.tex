@@ -485,9 +485,17 @@ resulting in \eqref{eq:ratio}.
 k_1\vec{A} + k_2\vec{B} = 0 \implies k_1=k_2=0
 \end{equation}
 \item $BE$ and $CF$ are medians of $\triangle ABC$ intersecting at $O$ as shown in Fig. \ref{fig:median}. 
-$AD$ passes through $O$.  Show that $AD$ is a median.
+Show that
+\begin{equation}
+\frac{CO}{OF} = \frac{BO}{OE} = 2
+\end{equation}
 %
-\\
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\columnwidth]{./figs/median.eps}
+\caption{}
+\label{fig:median}
+\end{figure}
 \solution Let
 \begin{align}
 \frac{CO}{OF} &= k_1
@@ -517,6 +525,7 @@ From \eqref{eq:o1} and \eqref{eq:o2},
  \frac{k_2\frac{\vec{A} + \vec{C}}{2} + \vec{B}}{k_2+1}
 \end{align}
 \begin{multline}
+\label{eq:lin_comb}
 \implies \sbrak{\frac{k_1\brak{k_2+1}}{2}
 -\frac{k_2\brak{k_1+1}}{2}}\vec{A} 
 \\
@@ -531,7 +540,46 @@ resulting in $k_1 = k_2$,
 k_1^2-k_1-2  &= 0
 \implies k_1 = k_2 = 2,
 \end{align}
-provided $\vec{A},\vec{B},\vec{C}$ are linearly independent. If they are linearly dependent,
+provided $\vec{A},\vec{B},\vec{C}$ are linearly independent. Thus, substituting $k_1=2$ in \eqref{eq:o2},
+\begin{equation}
+\vec{O} = \frac{\vec{A}+\vec{B}+\vec{C}}{3}
+\end{equation}
+%
+If $\vec{A},\vec{B},\vec{C}$ are linearly dependent,
+\begin{align}
+\label{eq:lin_dep}
+\vec{A} = \alpha \vec{B} + \beta \vec{C} 
+\end{align}
+%
+Note that $\vec{B},\vec{C}$ are linearly independent.
+Substituting \eqref{eq:lin_dep} in \eqref{eq:lin_comb},
+\begin{multline}
+%\label{eq:lin_comb}
+ \sbrak{\frac{k_1\brak{k_2+1}}{2}
+-\frac{k_2\brak{k_1+1}}{2}}\sbrak{\alpha \vec{B} + \beta \vec{C}  }
+\\
++ 
+\sbrak{\frac{k_1\brak{k_2+1}}{2}-\brak{k_1+1}}\vec{B} 
+\\
++ \sbrak{\brak{k_2+1}-\frac{k_2\brak{k_1+1}}{2}}\vec{C} 
+= 0
+\end{multline}
+\begin{align}
+\implies
+\begin{split}
+\brak{k_1-k_2}\alpha + k_1k_2 - k_1-2 &=0
+\\
+\brak{k_1-k_2}\beta - k_1k_2 + k_2+2 &=0
+\end{split}
+\label{eq:median_contra}
+\\
+\implies \brak{k_1-k_2}\brak{\alpha +\beta - 1} = 0
+\end{align}
+If $\alpha+\beta = 1, \vec{A},\vec{B},\vec{C}$ are collinear according to \eqref{eq:ratio} resulting in a 
+contradiction.  Hence, $k_1=k_2$, which, upon substitution in \eqref{eq:median_contra}, yields
+\begin{equation}
+k_1^2 - k_1-2 = 0 \implies k_1 = 2.
+\end{equation}
 \end{enumerate}
 %
 \end{document}
