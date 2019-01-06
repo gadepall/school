@@ -439,13 +439,15 @@ which completes the proof.
 ,ref=\thesection.\theenumi]
 \item In Fig. \ref{fig:ratio},
 \begin{equation}
-\frac{AB}{BC} = k.
+\frac{AB}{BC} = \frac{\norm{\vec{A}-\vec{B}}}{\norm{\vec{B}-\vec{C}}} = k.
+\label{eq:k}
 \end{equation}
 %
 Show that
 %
 \begin{equation}
 \frac{\vec{A}+k\vec{C}}{k+1} = \vec{B}.
+\label{eq:ratio}
 \end{equation}
 %
 \begin{figure}[!hb]
@@ -454,23 +456,35 @@ Show that
 \caption{}
 \label{fig:ratio}
 \end{figure}
-\solution
-\begin{equation}
-\vec{x} = \vec{b} + \lambda \myvec{1 \\ m},
-\end{equation}
-where
-\begin{equation}
-m = \frac{c_2-c_1}{b_2-b_1}
-\end{equation}
+\solution From \eqref{eq:nhomog}, 
+\begin{align}
+\begin{split}
+\vec{B} &= \vec{A} + \lambda_1 \myvec{1 \\ m},
+\\
+\vec{B} &= \vec{C} - \lambda_2 \myvec{1 \\ m}.
+\end{split}
+\\
+\label{eq:rat_1}
+\implies \frac{\norm{\vec{A}-\vec{B}}}{\norm{\vec{B}-\vec{C}}} &= 
+\frac{\lambda_1}{\lambda_2} = k
+\\
+\text{and } \frac{\vec{B}- \vec{A}}{\lambda_1} &= \frac{\vec{C}- 
+\vec{B}}{\lambda_2} =  \myvec{1 \\ m},
+\label{eq:rat_2}
+\end{align}
 %
-\item Consider
+from \eqref{eq:k}. Using \eqref{eq:rat_1} and \eqref{eq:rat_1},
+\begin{align}
+\vec{A}- \vec{B} &=  k\brak{\vec{B}- \vec{C}}
+\end{align}
+%
+resulting in \eqref{eq:ratio}.
+%
+\item If $\vec{A}$ and $\vec{B}$ are linearly independent,  
 \begin{equation}
-\frac{AB}{BC} = k
+k_1\vec{A} + k_2\vec{B} = 0 \implies k_1=k_2=0
 \end{equation}
 Show that 
-\begin{equation}
-\vec{B} = \frac{k\vec{C}+\vec{A}}{k+1}
-\end{equation}
 %%
 \end{enumerate}
 %
