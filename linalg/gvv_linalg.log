@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.1)  6 JAN 2019 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.1)  6 JAN 2019 10:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1300,12 +1300,7 @@ File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
 File: tlc.eps Graphic file (type eps)
  <tlc.eps>
-(./gvv_linalg.toc
-Overfull \hbox (17.60426pt too wide) in paragraph at lines 9--9
- [][] [] [][]  
- []
-
-)
+(./gvv_linalg.toc)
 \tf@toc=\write6
 \openout6 = `gvv_linalg.toc'.
 
@@ -1326,43 +1321,37 @@ File: ./figs/orth.eps Graphic file (type eps)
  <./figs/orth.eps>
 File: ./figs/alt.eps Graphic file (type eps)
  <./figs/alt.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-(./figs/sigs.tex
-\gnumericTableWidth=\skip66
-\gnumericTableWidthComplete=\skip67
-\gnumericMultiRowLength=\skip68
-\gnumericColA=\skip69
-\gnumericColB=\skip70
-\gnumericColC=\skip71
-\gnumericColD=\skip72
-\gnumericColE=\skip73
+LaTeX Warning: Reference `fig:ratio' on page 2 undefined on input line 440.
 
-Overfull \hbox (59.10123pt too wide) in paragraph at lines 156--266
- [][] 
- []
+[2]
+File: ./figs/ratio.eps Graphic file (type eps)
+ <./figs/ratio.eps>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 477.
+ [3
 
-) [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 893.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 893.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 477.
  (./gvv_linalg.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 893.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 893.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 477.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 477.
 Package rerunfilecheck Info: File `gvv_linalg.out' has not changed.
-(rerunfilecheck)             Checksum: 8C8C2340A958AB321012A6F4F06B7F9E;533.
+(rerunfilecheck)             Checksum: 55BBB162ACD7A687E3280DE8BA742415;156.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24286 strings out of 492645
- 475311 string characters out of 6118921
- 594125 words of memory out of 5000000
- 27727 multiletter control sequences out of 15000+600000
- 74604 words of font info for 188 fonts, out of 8000000 for 9000
+ 23970 strings out of 492645
+ 472575 string characters out of 6118921
+ 573125 words of memory out of 5000000
+ 27414 multiletter control sequences out of 15000+600000
+ 67844 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 54i,15n,67p,796b,1145s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,15n,67p,796b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg.dvi (4 pages, 56096 bytes).
+Output written on gvv_linalg.dvi (3 pages, 28692 bytes).
