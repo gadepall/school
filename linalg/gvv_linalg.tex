@@ -281,15 +281,8 @@ In general, the above equation is written as
 \vec{x} = \myvec{x_1\\m x_1} = \lambda \myvec{1 \\ m}
 \end{align}
 
-\item Find the length of $\vec{A}$.
-\\
-\solution Using Baudhayana's theorem, the length of the vector $\vec{A}$ is defined as
-\begin{equation}
- \norm{\vec{A}} = OA = \sqrt{a_1^2 + a_2^2}
-=\sqrt{\vec{A}^T\vec{A}}.
-\end{equation}
 
-\item Find the equation of $AB$.
+\item Find the equation of $AB$ in Fig. \ref{fig:line_nhomog}
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{./figs/line_nhomog.eps}
@@ -301,13 +294,145 @@ In general, the above equation is written as
 From Fig. \ref{fig:line_nhomog}, 
 %
 \begin{align}
-\frac{x_2-a_2}{x_1-a_1} = \frac{b_2-a_2}b_1-a_1} = m
+\frac{x_2-a_2}{x_1-a_1} = \frac{b_2-a_2}{b_1-a_1} = m
 \\
 \implies x_2 = m x_1 + a_2-ma_1
+\label{eq:line_shift}
 \end{align}
 %
-This can be simplified as
-it is obvious that the desired equation is
+From \eqref{eq:line_shift},
+\begin{align}
+\myvec{x_1 \\ x_2} &= 
+\myvec{x_1 \\   m x_1 + a_2-ma_1
+} 
+\\
+&=\vec{A} + \brak{x_1-a_1}  \myvec{1 \\ m}
+\\
+&=\vec{A} + \lambda  \myvec{1 \\ m}
+\label{eq:nhomog}
+\end{align}
+
+\item Find the length of $\vec{A}$ in Fig. \ref{fig:line_homog}
+\\
+\solution Using Baudhayana's theorem, the length of the vector $\vec{A}$ is defined as
+\begin{equation}
+ \norm{\vec{A}} = OA = \sqrt{a_1^2 + a_2^2}
+=\sqrt{\vec{A}^T\vec{A}}.
+\end{equation}
+%
+Also, from \eqref{eq:homog}, 
+\begin{equation}
+\norm{\vec{A}} = \lambda \sqrt{1+m^2}
+\end{equation}
+%
+Note that $\lambda$ is the variable that determines the length of $\vec{A}$, 
+since $m$ is constant for all points on the line.
+%
+\item Find $\vec{A}-\vec{B}$.
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/ab.eps}
+\caption{}
+\label{fig:ab}
+\end{figure}
+%
+\\
+\solution See Fig. \ref{fig:ab}. From \eqref{eq:nhomog}, for some 
+$\lambda$,
+\begin{align}
+\vec{B} &=\vec{A} + \lambda \myvec{1 \\ m}
+\\
+\implies \vec{A} - \vec{B} &= - \lambda \myvec{1 \\ m},
+\end{align}
+%
+$\vec{A} - \vec{B}$ is marked in Fig. \ref{fig:ab}.
+%
+\item Show that $AB = \norm{\vec{A}-\vec{B}}$
+\end{enumerate}
+%
+\section{Orthogonality}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item See Fig. \ref{fig:orth}.  In $\triangle ABC, AB \perp BC$. Show that
+\begin{equation}
+\brak{\vec{A}-\vec{B}}^T\brak{\vec{B}-\vec{C}} = 0
+\label{eq:orth}
+\end{equation}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/orth.eps}
+\caption{}
+\label{fig:orth}
+\end{figure}
+%
+\solution Using Baudhayana's theorem,
+\begin{align}
+\norm{\vec{A}-\vec{B}}^2 + \norm{\vec{B}-\vec{C}}^2 &= 
+\norm{\vec{C}-\vec{A}}^2
+\\
+\implies 
+\brak{\vec{A}-\vec{B}}^T\brak{\vec{A}-\vec{B}} 
+&+ 
+\brak{\vec{B}-\vec{C}}^T\brak{\vec{B}-\vec{C}} 
+\nonumber \\
+&= 
+\brak{\vec{C}-\vec{A}}^T \brak{\vec{C}-\vec{A}}
+\nonumber \\
+\implies 
+2\vec{A}^T\vec{B} - 2\vec{B}^T\vec{B}&+2\vec{B}^T\vec{C}-2\vec{A}^T\vec{C}
+=0
+\end{align}
+which can be simplified to obtain \eqref{eq:orth}.
+%
+\item Let $\vec{x}$ be any point on $AB$ in Fi.g \ref{fig:orth}.  Show that
+\begin{equation}
+\brak{\vec{x}-\vec{A}}^T\brak{\vec{B}-\vec{C}} = 0
+\end{equation}
+%
+\item If $\vec{x,y}$ are any two points on $AB$, show that 
+\begin{equation}
+\label{eq:orth_any}
+\brak{\vec{x}-\vec{y}}^T\brak{\vec{B}-\vec{C}} = 0
+\end{equation}
+%
+\item In Fig. \ref{fig:alt}, $BE \perp AC, CF \perp AB$.  Show that $AD \perp BC$.
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\columnwidth]{./figs/alt.eps}
+\caption{}
+\label{fig:alt}
+\end{figure}
+\\
+\solution Let $\vec{x}$ be the intersection of $BE$ and $CF$. Then, using 
+\eqref{eq:orth_any},
+\begin{align}
+\label{eq:alt_1}
+\begin{split}
+\brak{\vec{x}-\vec{B}}^T
+\brak{\vec{A}-\vec{C}} &= 0
+\\
+\brak{\vec{x}-\vec{C}}^T
+\brak{\vec{A}-\vec{B}} &=0
+\end{split}
+\\
+\label{eq:alt_3}
+\implies \vec{x}^T\brak{\vec{A}-\vec{C}}-\vec{B}^T\brak{\vec{A}-\vec{C}} &= 0
+\\
+\text{and }\vec{x}^T\brak{\vec{A}-\vec{B}}-\vec{C}^T\brak{\vec{A}-\vec{B}} &= 0
+\label{eq:alt_4}
+\end{align}
+%
+Subtracting \eqref{eq:alt_4} from \label{eq:alt_3},
+\begin{align}
+\vec{x}^T\brak{\vec{B}-\vec{C}} + \vec{A}^T\brak{\vec{C}-\vec{B}} &= 0
+\\
+\implies \brak{\vec{x}^T - \vec{A}^T}\brak{\vec{B}-\vec{C}}  &= 0
+\\
+\implies \brak{\vec{x} - \vec{A}}^T\brak{\vec{B}-\vec{C}}  &= 0
+\end{align}
+%
+which completes the proof.
+
 \begin{equation}
 \vec{x} = \vec{b} + \lambda \myvec{1 \\ m},
 \end{equation}
@@ -316,7 +441,7 @@ where
 m = \frac{c_2-c_1}{b_2-b_1}
 \end{equation}
 %
-\item In Fig. \ref{}, 
+\item 
 \begin{equation}
 \frac{AB}{BC} = k
 \end{equation}
