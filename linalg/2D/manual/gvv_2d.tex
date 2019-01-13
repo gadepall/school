@@ -225,7 +225,7 @@ columns=fullflexible
 
 \title{ 
 	\logo{
-Geometry through Linear Algebra
+Linear Algebra through Coordinate Geometry 
 	}
 }
 
@@ -248,21 +248,106 @@ Geometry through Linear Algebra
 
 \begin{abstract}
 	
-This textbook  introduces linear algebra by exploring Euclidean geometry.
+This manual introduces linear algebra through coordinate geometry using a problem solving approach.
 \end{abstract}
 \section{The Straight Line}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item The points $\vec{O}=\myvec{0\\0},\vec{A}=\myvec{a_1\\a_2}$ are as shown in Fig. \ref{fig:line_homog}. 
-Find the equation of  $OA$. 
+\item The equation of the line between two points $\vec{A}$ and $\vec{B}$ is given by
+\begin{equation}
+\vec{x} = \vec{A} + \lambda \brak{\vec{A}-\vec{B}}
+\end{equation}
+%
+Alternatively, it can be expressed as
+\begin{equation}
+\label{eq:line_normal}
+\vec{m}^T\brak{\vec{x}-\vec{A}} = 0
+\end{equation}
+%
+where $\vec{m}$ is the solution of
+\begin{equation}
+\label{eq:normal_slope}
+\brak{\vec{A}-\vec{B}}^T\vec{m} = 0
+\end{equation}
+\item The line through
+\begin{equation}
+\label{eq:locus}
+\vec{A}=\myvec{2\\3}
+\end{equation}
+intersects the coordinate axes at $\vec{P}$ and $\vec{Q}$. If $\vec{O}$ is the origin and rectangle $OPRQ$ is 
+completed, find the locus of $\vec{R}$.
 \begin{figure}
 \centering
-\includegraphics[width=\columnwidth]{./figs/line_homog.eps}
+\includegraphics[width=\columnwidth]{./figs/locus.eps}
 \caption{}
-\label{fig:line_homog}
+\label{fig:locus}
 \end{figure}
 \\
-\solution
+\solution From Fig. \eqref{fig:locus},
+\begin{align}
+\vec{P}&= \myvec{1 & 0\\ 0 & 0}\vec{R}
+\label{eq:locusp}
+\\
+\vec{Q}&= \myvec{0 & 0\\ 0 & 1}\vec{R}
+\label{eq:locusq}
+\\
+\vec{P}+\vec{Q} &=\vec{R}
+\label{eq:locusr}
+\end{align}
+From \eqref{eq:line_normal} and \eqref{eq:normal_slope},
+\begin{align}
+\begin{split}
+\brak{\vec{A}-\vec{P}}^T\vec{m} &= 0
+\\
+\brak{\vec{A}-\vec{Q}}^T\vec{m} &= 0
+\\
+\brak{\vec{P}-\vec{Q}}^T\vec{m} &= 0
+\end{split}
+\label{eq:locus_apq}
+\end{align}
+%
+From \eqref{eq:locus_apq} and \eqref{eq:locus_ar}
+\begin{align}
+\sbrak{\vec{2A}-\brak{\vec{P}+\vec{Q}}}^T\vec{m} &= 0
+\\
+\implies \brak{\vec{2A}-\vec{R}}^T\vec{m} &= 0
+\end{align}
+%
+From \eqref{eq:locus_apq} and \eqref{eq:locusp},\eqref{eq:locusq}
+
+%\\
+%\implies 
+%\frac{\vec{P}- \myvec{2 \\ 3}}{\lambda_1}
+%&=
+%\frac{\vec{Q}-\myvec{2 \\ 3}}{ \lambda_2}
+%\\
+%\implies \vec{P} - k\vec{Q} &= \brak{1-k}\myvec{2 \\ 3}
+%\\
+%\implies \myvec{\vec{P} & \vec{Q} }\myvec{1 \\ - k}
+% &= \brak{1-k}\myvec{2 \\ 3}
+%\label{eq:locus_one}
+Also,
+\begin{align}
+\vec{P}+\vec{Q}&= \vec{R}
+\\
+\implies \myvec{\vec{P} & \vec{Q} }\myvec{1 \\ 1} &= \vec{R}
+\label{eq:locus_two}
+\end{align}
+%
+From \eqref{eq:locus_one} and \eqref{eq:locus_two}
+%
+\begin{align}
+\myvec{\vec{P} & \vec{Q} }\myvec{1 & 1  \\ 1 & -k} &= \myvec{\vec{R} & \brak{1-k}\myvec{2 \\ 3}}
+\label{eq:locus_two}
+\end{align}
+
+\begin{align}
+\implies \frac{\myvec{1 & 0 \\ 0 & 0}\vec{R} -  \myvec{2 \\ 3}}{ \lambda_1 } &= \frac{\myvec{0 & 0 \\ 0 & 
+1}\vec{R} -  \myvec{2 \\ 3}}{ \lambda_2 }
+\\
+\implies \myvec{1 & 0 \\ 0 & -k}\vec{R}  &= \brak{1-k}  \myvec{2 \\ 3}
+\end{align}
+
 Let $\vec{x}=\myvec{x_1\\x_2}$ be any point on $OA$.
 Then, using similar triangles,
 \begin{align}
