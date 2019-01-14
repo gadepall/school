@@ -354,11 +354,48 @@ where $k$ is some constant.
 \section{Conics}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item The tangent at $\myvec{1 \\ 7}$ to the curve 
+\item The equation of quadratic curve is given by
 \begin{equation}
-\vec{x}^T\myvec{1 & 0 \\ 0 & 1}\vec{x} + \myvec{0 & -1}\vec{x} = 6
+Ax_1^2+Bx_1x_2+Cx_2^2+Dx_1+Ex_2+F = 0
+\label{eq:quadratic}
 \end{equation}
 %
+Show that  \eqref{eq:quadratic} can be expressed as
+\begin{equation}
+\vec{x}^TV\vec{x}+2\vec{u}^T\vec{x}+ F = 0
+\label{eq:quadratic_vec}
+\end{equation}
+%
+Find the matrix $V$ and vector $\vec{u}$.
+\item The tangent to \eqref{eq:quadratic} at a point $\vec{p}$ on the curve is given by
+\begin{equation}
+\myvec{\vec{p}^T & 1}\myvec{V & \vec{u} \\ \vec{u}^T & F} \myvec{\vec{x} \\ 1} = 0
+\label{eq:tangent_one}
+\end{equation}
+%
+Show that \eqref{eq:tangent_one} can be expressed as
+\begin{equation}
+\brak{\vec{p}^TV+\vec{u}^T}\vec{x} + \vec{p}^T\vec{u} +F = 0
+\label{eq:tangent}
+\end{equation}
+\item Find the tangent at $\myvec{1 \\ 7}$ to the parabola
+\begin{equation}
+\vec{x}^T\myvec{1 & 0 \\ 0 & 0}\vec{x} + \myvec{0 & -1}\vec{x} + 6 = 0
+\end{equation}
+\\
+\solution Substituting
+\begin{equation}
+\vec{p} = \myvec{1 \\ 7}, V = \myvec{1 & 0 \\ 0 & 0}, \vec{u} = \myvec{0 \\ -1}
+\end{equation}
+%
+in \eqref{eq:tangent}, the desired equation is
+\begin{multline}
+\sbrak{\myvec{ 1 & 7}\myvec{1 & 0 \\ 0 & 0}+\myvec{0 & -1}}\vec{x} 
+\\
++ \myvec{ 1 & 7}\myvec{0 \\
+-1} 
++6 = 0
+\end{multline}
 touches the circle
 \begin{equation}
 \vec{x}^T\myvec{1 & 0\\ 0 & 1}\vec{x} + 4 \myvec{4 & 3}\vec{x} + c = 0
