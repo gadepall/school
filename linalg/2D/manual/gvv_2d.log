@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  13 JAN 2019 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  14 JAN 2019 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,11 +1145,7 @@ Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ls
 cape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) (./gvv_2d.aux
-
-LaTeX Warning: Label `eq:locus_two' multiply defined.
-
-)
+) (./gvv_2d.aux)
 \openout1 = `gvv_2d.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 122.
@@ -1312,77 +1308,31 @@ ar al-ge-bra
 
 File: ./figs/locus.eps Graphic file (type eps)
 <./figs/locus.eps>
-Underfull \vbox (badness 1742) has occurred while \output is active []
-
-
-
-LaTeX Warning: Reference `eq:locus_ar' on page 1 undefined on input line 309.
-
-
-LaTeX Warning: Reference `eq:locus_one' on page 1 undefined on input line 337.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ]
-File: ./figs/line_nhomog.eps Graphic file (type eps)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
 
-<./figs/line_nhomog.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[2
 
-
-
-LaTeX Warning: Reference `fig:line_homog' on page 2 undefined on input line 400
-.
-
-File: ./figs/ab.eps Graphic file (type eps)
-<./figs/ab.eps>
-File: ./figs/orth.eps Graphic file (type eps)
- <./figs/orth.eps> [2]
-File: ./figs/alt.eps Graphic file (type eps)
- <./figs/alt.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./figs/ratio.eps Graphic file (type eps)
-
-<./figs/ratio.eps> [3]
-File: ./figs/median.eps Graphic file (type eps)
- <./figs/median.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 627--629
-\OT1/txr/m/n/12 provided $\OT1/txr/bx/n/12 A\OML/txmi/m/it/12 ; \OT1/txr/bx/n/1
-2 B\OML/txmi/m/it/12 ; \OT1/txr/bx/n/12 C$ \OT1/txr/m/n/12 are lin-early in-de-
-pen-dent.
- []
-
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 670.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 670.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
  (./gvv_2d.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 670.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 670.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 368.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
 Package rerunfilecheck Info: File `gvv_2d.out' has not changed.
-(rerunfilecheck)             Checksum: 55BBB162ACD7A687E3280DE8BA742415;156.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: D5D66749F08181A08349D3FD8EE98F16;133.
  ) 
 Here is how much of TeX's memory you used:
- 23994 strings out of 494591
- 472804 string characters out of 6176027
- 574160 words of memory out of 5000000
- 27186 multiletter control sequences out of 15000+600000
+ 23954 strings out of 494591
+ 472206 string characters out of 6176027
+ 567160 words of memory out of 5000000
+ 27149 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 54i,19n,67p,792b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,15n,67p,792b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_2d.dvi (4 pages, 48152 bytes).
+Output written on gvv_2d.dvi (2 pages, 20404 bytes).
