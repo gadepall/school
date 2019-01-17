@@ -326,7 +326,7 @@ From \eqref{eq:line_medc} and \eqref{eq:line_ctemp},
 \implies \myvec{1 & 1}\vec{C}&=  7
 \label{eq:line_ctemp2}
 \end{align}
-From \eqref{eq:line_ctemp2} and \eqref{eq:line_medc}, $\vec{C}$can be obtained by solving 
+From \eqref{eq:line_ctemp2} and \eqref{eq:line_medc}, $\vec{C}$ can be obtained by solving 
 \begin{align}
 \myvec{1 & 1 \\1 & 0}\vec{C}&=\myvec{7 \\ 4}
 \label{eq:line_cmatrix}
@@ -360,6 +360,98 @@ Thus,
 \end{vmatrix} = 9
 \end{align}
 \end{enumerate}
+\section{Orthogonality}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item $\vec{u}^T\vec{x} = 0 \implies \vec{u} \perp \vec{x}$. Show that 
+\begin{align}
+\label{eq:orth_parallel}
+\vec{u}^T\vec{x}  = \vec{P}^T\vec{x} = 0 \implies \vec{P} =\alpha 
+\vec{u}
+\end{align}
+%
+\item The foot of the perpendicular drawn from the origin on the line 
+\begin{align}
+\label{eq:orth_line}
+AB: \vec{u}^T\vec{x}  =\lambda
+\end{align}
+where
+\begin{align}
+\vec{u}=\myvec{3 \\ 1}
+\end{align}
+is $\vec{P}$.  The line meets the $x$-axis at $\vec{A}$ and $y$-axis at $\vec{B}$. Show that $\vec{P} =\alpha 
+\vec{u}$ and find $\alpha$.
+\\
+\solution From \eqref{eq:orth_line},
+\begin{align}
+\vec{u}^T\vec{A}=\vec{u}^T\vec{B}=\lambda
+\\
+\implies \vec{u}^T\brak{\vec{A}-\vec{B}}=0
+\end{align}
+%
+Since $OP \perp AB$,
+\begin{align}
+\vec{P}^T\brak{\vec{A}-\vec{B}}=0
+\end{align}
+%
+Thus, from \eqref{eq:orth_parallel},
+\begin{align}
+\vec{P} =\alpha \vec{u}
+\label{eq:orth_purel}
+\end{align}
+%
+Since $\vec{P} $ lies on \eqref{eq:orth_line},
+\begin{align}
+\vec{u}^T\vec{P}=\alpha\vec{u}^T\vec{u}=\lambda
+\\
+\implies \alpha = \frac{\lambda}{\vec{u}^T\vec{u}} = \frac{\lambda}{10}.
+\label{eq:orth_alpha}
+\end{align}
+%
+\item Find $\vec{A} $.
+\\
+\solution Let
+\begin{equation}
+\vec{A} = a\myvec{1 \\ 0}
+\label{eq:orth_adef}
+\end{equation}
+From \eqref{eq:orth_line},
+\begin{align}
+\vec{u}^T\vec{A} &= a\myvec{3 & 1}\myvec{1 \\ 0} = \lambda
+\\
+\implies a &= \frac{\lambda}{3}
+\label{eq:orth_a}
+\\
+\text{and } \vec{A} &= \frac{\lambda}{3}\myvec{1 \\ 0}
+\end{align}
+
+\item Find the ratio $BP:PA$.
+\\
+\solution Let
+\begin{align}
+\frac{BP}{PA}= k
+\end{align}
+%
+Then, 
+\begin{align}
+k\vec{A} + \vec{B} &= \brak{k+1}\vec{P}
+\\
+\implies k\vec{A}^T\vec{A} + \vec{A}^T\vec{B} &= \brak{k+1}\vec{P}^T\vec{A}
+\\
+\implies ka^2  &= \alpha\brak{k+1}\lambda
+\end{align}
+%
+using \eqref{eq:orth_purel},  \eqref{eq:orth_adef}, \eqref{eq:orth_line} and $\vec{A}\perp \vec{B}$. 
+Substituting from \eqref{eq:orth_alpha} and 
+\eqref{eq:orth_a},
+\begin{align}
+\implies k\frac{\lambda^2}{9}  &= \brak{k+1}\frac{\lambda^2}{10}
+\\
+\implies k  &= 9
+\end{align}
+
+\end{enumerate}
+
 \section{Locus}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
@@ -369,7 +461,7 @@ Thus,
 \vec{A}=\myvec{2\\3}
 \end{equation}
 intersects the coordinate axes at $\vec{P}$ and $\vec{Q}$.  $\vec{O}$ is the origin and rectangle $OPRQ$ is 
-completed as shown i Fig. \eqref{fig:locus},
+completed as shown in Fig. \eqref{fig:locus},
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{./figs/locus.eps}
@@ -404,7 +496,7 @@ Trivial using \eqref{eq:line_normal} and \eqref{eq:normal_slope}.
 %
 \item Show that
 \begin{align}
-\brak{\vec{2A}-\vec{R}}^T\vec{n} &= 0
+\brak{2\vec{A}-\vec{R}}^T\vec{n} &= 0
 \label{eq:locusm1}
 \\
 \label{eq:locusm2}
@@ -414,7 +506,7 @@ Trivial using \eqref{eq:line_normal} and \eqref{eq:normal_slope}.
 \solution
 From \eqref{eq:locus_apq} and \eqref{eq:locusr}
 \begin{align}
-\sbrak{\vec{2A}-\brak{\vec{P}+\vec{Q}}}^T\vec{n} = 0
+\sbrak{2\vec{A}-\brak{\vec{P}+\vec{Q}}}^T\vec{n} = 0
 \end{align}
 %
 resulting in  \eqref{eq:locusm1}.
@@ -429,7 +521,7 @@ From \eqref{eq:locus_apq} and \eqref{eq:locusp},\eqref{eq:locusq}, \eqref{eq:loc
 \solution
 For $\vec{n}$ to be unique in \eqref{eq:locusm1},\eqref{eq:locusm2},
 \begin{multline}
-\brak{\vec{2A}-\vec{R}} = k \myvec{1 & 0\\ 0 & -1}\vec{R}
+\brak{2\vec{A}-\vec{R}} = k \myvec{1 & 0\\ 0 & -1}\vec{R}
 \\
 \implies \vec{R}^{T}\myvec{0 & 1\\ 1 & 0}\brak{\vec{2A}-\vec{R}} 
 \\
@@ -438,7 +530,14 @@ For $\vec{n}$ to be unique in \eqref{eq:locusm1},\eqref{eq:locusm2},
 = k \vec{R}^{T}\myvec{0 & -1\\ 1 & 0}\vec{R} = 0
 \end{multline}
 %
-where $k$ is some constant.
+where $k$ is some constant.  Thus, the desired locus is
+\begin{align}
+ \vec{R}^{T}\myvec{0 & 1\\ 1 & 0}\brak{2\vec{A}-\vec{R}} 
+&= 0
+\\
+\implies \vec{R}^{T}\myvec{0 & 1\\ 1 & 0}\vec{R}- 2\vec{A}^T\vec{R}
+&= 0
+\end{align}
 \end{enumerate}
 %
 \section{Conics}
@@ -468,6 +567,28 @@ Show that \eqref{eq:tangent_one} can be expressed as
 \brak{\vec{p}^TV+\vec{u}^T}\vec{x} + \vec{p}^T\vec{u} +F = 0
 \label{eq:tangent}
 \end{equation}
+\item Classify the various conic sections based on $\eqref{eq:quadratic_vec}$.
+\\
+\solution 
+\begin{table}[!hb]
+\centering
+\input{./figs/conics.tex}
+\caption{}
+\label{table:conics}
+\end{table}
+
+\end{enumerate}
+\section{Circle}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item The tangent to the circle
+\begin{equation}
+C_1: \vec{x}^T\vec{x} - \myvec{2 & 0}\vec{x} + 
+-1 = 0 
+\end{equation}
+%
+at the point $\myvec{2 \\1}$, cuts off a chord of length 4 from a circle $C_2$ whose centre is $\myvec{3 \\ 
+-2}$.  Find the radius of $C_2$.
 \end{enumerate}
 \section{Parabola}
 \begin{enumerate}[label=\thesection.\arabic*
@@ -683,6 +804,84 @@ on the parabola
 %
 which intersect the axis of the parabola at $\vec{A}$ and $\vec{B}$ respectively.  If $\vec{C}$ is the centre 
 of the circle through the ponts $\vec{P}$ $\vec{A}$ and $\vec{B}$, find $\tan  CPB$.
-\item 
+\item A circle passes through the points $\myvec{2 \\ 3}$ and $\myvec{4 \\  5}$.  If its centre lies on the 
+line
+\begin{equation}
+\myvec{-1 & 4}\vec{x} + 3 =0
+\end{equation}
+%
+find its radius.
+%
+\item Two parabolas with a common vertex and with axes along $x$-axis and $y$-axis, respectively, intersect 
+each other in the first quadrant.  If the length of the latus rectum of each parabola is 3, find the equation 
+of the common tangent to the two parabolas.
+%
+\item If the tangents drawn to the hyperbola 
+\begin{equation}
+\vec{x}^TV\vec{x} +1=0
+\end{equation}
+%
+where
+\begin{equation}
+V = \myvec{1 & 0 \\ 0 & -4}
+\end{equation}
+%
+intersect the coordinate axes at the distinct points $\vec{A}$ and $\vec{B}$, find the locus of the mid point 
+of $AB$.
+\item $\beta$ is one of the angles between the normals to the ellipse
+\begin{equation}
+\vec{x}^TV\vec{x} =9
+\end{equation}
+%
+where
+\begin{equation}
+V = \myvec{1 & 0 \\ 0 & 3}
+\end{equation}
+%
+at the points
+\begin{equation}
+\myvec{3\cos\theta\\ \sqrt{3}\sin \theta},
+\myvec{-3\sin\theta\\ \sqrt{3}\cos \theta}, \quad \theta \in \brak{0,\frac{\pi}{2}},
+\end{equation}
+then find $\frac{2\cot \beta}{\sin 2\theta}$.
+\item The sides of a rhombus $ABC$ are parallel to the lines
+\begin{align}
+\myvec{1 & -1}\vec{x} + 2 &=0
+\\
+\myvec{7 & -1}\vec{x} + 3 &=0.
+\end{align}
+If the diagonals of the rhombus intersect at
+\begin{align}
+\vec{P} = \myvec{1 \\ 2}
+\end{align}
+and the vertex $\vec{A}$ (different) from the origin is on the $y$-axis, then find the ordinate of $A$.
+\item Tangents drawn from the point $\myvec{-8\\0}$ to the parabola
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} + \myvec{-8 & 0}\vec{x} 
+ = 0
+\end{equation}
+%
+touch the parabola at $\vec{P}$ and  $\vec{Q}$. If $\vec{F}$ is the focus of the parabola, then find the area 
+of $\triangle PFQ$.
+\item A normal to the hyperbola 
+\begin{equation}
+\vec{x}^T\myvec{4 & 0 \\ 0 & -9}\vec{x} 
+ = 36
+\end{equation}
+%
+meets the coordinate axes $x$ and $y$ at $\vec{A}$ and $\vec{B}$ respectively.  If the parallelogram $OABP$ is 
+formed, find the locus of $\vec{P}$.
+\item Find the locus of the point of intersection of the lines
+\begin{align}
+\myvec{\sqrt{2} & -1 }\vec{x} + 4 \sqrt{2}k &= 0
+\\
+\myvec{\sqrt{2}k & k }\vec{x} - 4 \sqrt{2} &= 0
+\end{align}
+\item If a circle $C$,whose radius is 3, touches externally the circle 
+\begin{equation}
+\vec{x}^T\vec{x} + \myvec{2 & -4}\vec{x} = 4
+\end{equation}
+%
+at the point $\myvec{2\\2}$, then find the length of the intercept cut by this circle $C$ on the $x$-axis.
 \end{enumerate}
 \end{document}

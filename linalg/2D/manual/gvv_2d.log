@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  16 JAN 2019 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  17 JAN 2019 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1315,29 +1315,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 File: ./figs/locus.eps Graphic file (type eps)
 
-<./figs/locus.eps> [2]
+<./figs/locus.eps>
+Underfull \vbox (badness 6658) has occurred while \output is active []
+
+ [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+
+(./figs/conics.tex
+\gnumericTableWidth=\skip66
+\gnumericTableWidthComplete=\skip67
+\gnumericMultiRowLength=\skip68
+\gnumericColA=\skip69
+\gnumericColB=\skip70
+\gnumericColC=\skip71
+) [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 688.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 688.
+Underfull \vbox (badness 3068) has occurred while \output is active []
 
-(./gvv_2d.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 688.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 688.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 887.
+
+[6
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 887.
+ (./gvv_2d.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 887.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 887.
 Package rerunfilecheck Info: File `gvv_2d.out' has not changed.
-(rerunfilecheck)             Checksum: 3EF4B5853B680FF304CB818ED9BB7CAD;258.
+(rerunfilecheck)             Checksum: 09FA1A1C6CB47CCD5405A8799AECBC1C;347.
  ) 
 Here is how much of TeX's memory you used:
- 23983 strings out of 494591
- 472578 string characters out of 6176027
- 576160 words of memory out of 5000000
- 27178 multiletter control sequences out of 15000+600000
+ 24011 strings out of 494591
+ 472982 string characters out of 6176027
+ 578160 words of memory out of 5000000
+ 27203 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 54i,19n,67p,792b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,19n,67p,792b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_2d.dvi (4 pages, 52484 bytes).
+Output written on gvv_2d.dvi (6 pages, 73328 bytes).
