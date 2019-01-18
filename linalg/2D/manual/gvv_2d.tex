@@ -581,15 +581,138 @@ Show that \eqref{eq:tangent_one} can be expressed as
 \section{Circle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item The tangent to the circle
+\item Find the tangent to the circle
 \begin{equation}
-C_1: \vec{x}^T\vec{x} - \myvec{2 & 0}\vec{x} + 
+C_1: \vec{x}^T\vec{x} - \myvec{2 & 0}\vec{x} 
 -1 = 0 
 \end{equation}
 %
-at the point $\myvec{2 \\1}$, cuts off a chord of length 4 from a circle $C_2$ whose centre is $\myvec{3 \\ 
--2}$.  Find the radius of $C_2$.
+at the point $\myvec{2 \\1}$.
+\\
+\solution From \eqref{eq:tangent_one}, the tangent $T$ is given by
+\begin{align}
+\sbrak{\myvec{2 & 1}-\myvec{1 & 0}}\vec{x} -\myvec{2 & 1}\myvec{1 \\ 0}  &= 1
+\\
+\implies T: \vec{n}^T\vec{x}   &= 3
+\label{eq:circle_tangent}
+\end{align}
+%
+where
+\begin{equation}
+\vec{n}=\myvec{1 \\ 1}
+\end{equation}
+\item The tangent $T$ in \eqref{eq:circle_tangent} cuts off a chord $AB$
+from a circle $C_2$ whose 
+centre is 
+\begin{equation}
+\vec{C}=\myvec{3 \\ 
+-2}. 
+\end{equation}
+Find $\vec{A}+ \vec{B}$.
+\\
+\solution Let the radius of $C_2$ be $r$.  From the given information,
+\begin{align}
+\brak{\vec{A}-\vec{C}}^T\brak{ \vec{A}-\vec{C} } &= r^2
+\label{eq:circle_x1}
+\\
+\brak{\vec{B}-\vec{C}}^T\brak{ \vec{B}-\vec{C} } &= r^2
+\label{eq:circle_x2}
+\end{align}
+%
+ Subtracting 
+\eqref{eq:circle_x2} from \eqref{eq:circle_x1},
+\begin{flalign}
+&\vec{A}^T \vec{A}-\vec{B}^T \vec{B}-2\vec{C}^T\brak{\vec{A}- \vec{B}}  = 0
+\\
+&\implies \brak{\vec{A}+\vec{B}}^T\brak{ \vec{A}-\vec{B} }-2\vec{C}^T\brak{\vec{A}- \vec{B}} = 0
+\nonumber \\
+&\implies  \brak{\vec{A}+\vec{B}-2\vec{C}}^T\brak{ \vec{A}-\vec{B} } = 0
+\label{eq:circle_aborth}
+\end{flalign}
+ $\because \vec{A},\vec{B}$ lie on $T$, from \eqref{eq:circle_tangent},
+\begin{align}
+\label{eq:circle_abtangent}
+\vec{n}^T\vec{A} = \vec{n}^T\vec{B}   &= 3
+\\
+\implies \vec{n}^T\brak{\vec{A} -\vec{B}}   &= 0,
+\label{eq:circle_north}
+\end{align}
+From \eqref{eq:circle_aborth} and \eqref{eq:circle_north}
+\begin{align}
+\label{eq:circle_abkn}
+\vec{A}+\vec{B}-2\vec{C} &= k\vec{n}
+\\
+\implies \vec{n}^T\vec{A}+\vec{n}^T\vec{B}-2\vec{n}^T\vec{C} &= k\vec{n}^T\vec{n}
+\\
+\implies \frac{\vec{n}^T\vec{A}+\vec{n}^T\vec{B}-2\vec{n}^T\vec{C}}{\vec{n}^T\vec{n}} &= k
+\\
+\implies k &= 2
+\end{align}
+using \eqref{eq:circle_abtangent}.
+Substituting in \eqref{eq:circle_abkn}
+\begin{align}
+\vec{A}+\vec{B} &= 2\brak{\vec{n}+\vec{C}}
+\label{eq:circle_a+b}
+\end{align}
+%
+\item If $AB = 4$, find $\vec{A}^T\vec{B}$.
+%
+\\
+\solution From the given information,
+\begin{align}
+\norm{\vec{A}-\vec{B}}^2 &= 4^2
+\end{align}
+resulting in
+\begin{align}
+\norm{\vec{A}+\vec{B}}^2-\norm{\vec{A}-\vec{B}}^2 &= 4\norm{\vec{n}+\vec{C}}^2-4^2
+\\
+\implies\vec{A}^T\vec{B} &= \norm{\vec{n}+\vec{C}}^2-4 = 17
+\end{align}
+using \eqref{eq:circle_a+b} and simplifying.
+%
+\item Show that
+\begin{equation}
+\label{eq:circle_acb}
+\brak{\vec{A}-\vec{C}}^T\brak{\vec{B}-\vec{C}} =8 - r^2
+\end{equation}
+\\
+\solution
+\begin{align}
+\norm{\vec{A}-\vec{B}}^2 &= 4^2
+\\
+\implies\brak{\vec{A}-\vec{B}}^T\brak{ \vec{A}-\vec{B} } &= 4^2
+\label{eq:circle_x1x2}
+\end{align}
+%
+From \eqref{eq:circle_x1x2},
+\begin{align}
+\sbrak{\brak{\vec{A}-\vec{C}}-\brak{\vec{B}- \vec{C}}}^T\sbrak{ 
+\brak{\vec{A}-\vec{C}}-\brak{\vec{B}- \vec{C}}} = 4^2
+\end{align}
+%
+which can be expressed as
+\begin{align}
+\norm{\vec{A}-\vec{C}}^2+\norm{\vec{B}-\vec{C}}^2 &
++ 2\brak{\vec{A}-\vec{C}}^T\brak{\vec{B}-\vec{C}} 
+= 4^2
+\end{align}
+Upon substituting from \eqref{eq:circle_x2} and  \eqref{eq:circle_x1} and simplifying, \eqref{eq:circle_acb}
+is obtained.
+\item Find $r$.
+\\
+\solution \eqref{eq:circle_acb} can be expressed as
+\begin{align}
+ \vec{A}^T\vec{B}  -\vec{C}^T\brak{\vec{A}+\vec{B}}+\vec{C}^T\vec{C} &=8 - r^2
+\\
+\implies 8 - \vec{A}^T\vec{B}  +\vec{C}^T\brak{\vec{A}+\vec{B}}-\vec{C}^T\vec{C} &= r^2
+\\
+\implies 8 - \vec{A}^T\vec{B}  +\vec{C}^T\brak{2\vec{n}+\vec{C}} &= r^2
+\\
+\implies r =  \sqrt{6}.
+\end{align}
+
 \end{enumerate}
+%
 \section{Parabola}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
@@ -652,6 +775,24 @@ c +\vec{p}^T\vec{u}&= 5
  &= 95
 %\label{eq:tangent}
 \end{align}
+\end{enumerate}
+\section{Ellipse}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item A tangent at a point on the ellipse 
+\begin{equation}
+\vec{x}^TV\vec{x} =51
+\label{eq:ellipse}
+\end{equation}
+%
+where
+\begin{equation}
+V = \myvec{3 & 0 \\ 0 & 27}
+\label{eq:ellipsev}
+\end{equation}
+%
+meets the coordinate axes at  $\vec{A}$  and  $\vec{B}$.  If   $\vec{O}$  be the origin, find the minimum area 
+of $\triangle OAB$.
 \end{enumerate}
 \section{Hyperbola}
 \begin{enumerate}[label=\thesection.\arabic*
@@ -883,5 +1024,236 @@ formed, find the locus of $\vec{P}$.
 \end{equation}
 %
 at the point $\myvec{2\\2}$, then find the length of the intercept cut by this circle $C$ on the $x$-axis.
+\item Let $\vec{P}$ 
+be the parabola
+\begin{equation}
+\vec{x}^T\myvec{1 & 0 \\ 0 & 0}\vec{x} +\myvec{0 & 4 }\vec{x} 
+ = 0
+\end{equation}
+%%
+Given that the distance of $\vec{P}$ from the centre of the circle
+\begin{equation}
+\vec{x}^T\vec{x} +\myvec{6 \\ 0 }\vec{x} + 8 = 0
+\end{equation}
+%
+is minimum.  Find the equation of the tangent to the parabola at $\vec{P}$.
+\item The length of the latus rectum of an ellipse is 4 ad the distance between a focus and its nearest
+vertex on the major axis is $\frac{3}{2}$.  Find its eccentricity.
+\item A square, of each side 2, lies above the $x$-axis and has one vertex at the origin.  If one of the sides 
+passing through the origin makes an angle $30^{\degree}$ with the positive direction of the $x$-axis, then 
+find the 
+sum of the $x$-coordinates of the vertices of the square.
+\item A line drawn through the point 
+\begin{equation}
+\vec{P} = \myvec{4\\7} 
+\end{equation}
+cuts the circle
+\begin{equation}
+\vec{x}^T\vec{x}  = 9
+\end{equation}
+at the points $\vec{P}$ and $\vec{P}$. Find $PA.PB$.
+\item Find the eccentricity of an ellipse having centre at the origin, axes along the coordinate axes and 
+passing through the points 
+\begin{equation}
+\vec{P} = \myvec{4\\-1}, 
+\vec{Q} = \myvec{-2\\2}. 
+\end{equation}
+\item $\myvec{m & -1}\vec{x} + c =0$ is the normal at a point on the parabola
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} -\myvec{8 & 0 }\vec{x} = 0
+ = 0
+\end{equation}
+%
+whose focal distance is 8.  Find $\abs{c}$.
+\item Find the locus of the point of intersection of the straight lines
+\begin{align}
+\myvec{t & -2 }\vec{x} -3t &= 0
+\\
+\myvec{1 & -2t }\vec{x} +3 &= 0
+\end{align}
+\item The common tangents to the parabola
+\begin{equation}
+\vec{x}^T\myvec{1 & 0 \\ 0 & 0}\vec{x} -\myvec{0\\ 4 }\vec{x} = 0
+ = 0
+\end{equation}
+%
+intersect at the point $\vec{P}$.  Find the distance of $\vec{P}$ from the origin.
+\item  Consider an ellipse, whose centre is at the origin and its major axis is along the $x$-axis.  If its 
+eccentricity is $\frac{3}{5}$ and the distance between its foci is 6, then find the area of the quadrilateral 
+inscribed in the ellipse,  with the vertices as the vertices of the ellipse.
+\item Let $k$ be an integer such that the triangle with vertices
+\begin{equation}
+\myvec{k\\-3k},
+\myvec{5\\k},
+\myvec{-k\\2}
+\end{equation}
+has area 28.  Find the orthocentre of this triangle.
+\item A hyperbola passes through the point 
+\begin{equation}
+\vec{P}=\myvec{\sqrt{2}\\ \sqrt{3}}
+\end{equation}
+and has foci at $\myvec{\pm 2\\ 0}$.  Find the equation of the tangent to this hyperbola at 
+$\vec{P}$.
+\item If an equlateral triangle, having centroid at the origin, has a side along the line
+\begin{equation}
+\myvec{1 & 1}\vec{x} = 2,
+\end{equation}
+then find the area of this triangle.
+\item Find the equation of the circle, which is the mirror image of the circle
+\begin{equation}
+\vec{x}^T\vec{x} -\myvec{2 & 0 }\vec{x} = 0
+ = 0
+\end{equation}
+in the line
+\begin{equation}
+\myvec{1 & 1}\vec{x} = 3.
+\end{equation}
+\item Find the product of the perpendiculars drawn from the foci of the ellipse
+\begin{equation}
+\vec{x}^T\myvec{25 & 0 \\ 0 & 9}\vec{x}  = 225
+\end{equation}
+upon the tangent to it at the point
+\begin{equation}
+\frac{1}{2}\myvec{3\\ 5 \sqrt{3}}
+\end{equation}
+\item Find the equation of the normal to the hyperbola
+\begin{equation}
+\vec{x}^T\myvec{9 & 0 \\ 0 & -16}\vec{x}  = 144
+\end{equation}
+drawn at the point
+\begin{equation}
+\myvec{8\\ 3 \sqrt{3}}
+\end{equation}
+\item Two sides of a rhombus are along the lines
+\begin{align}
+\myvec{1 & -1}\vec{x} + 1 &=0
+\\
+\myvec{7 & -1}\vec{x} -5 &=0.
+\end{align}
+%
+If its diagonals intersect at 
+\begin{equation}
+\myvec{-1\\ -2},
+\end{equation}
+find its vertices.
+\item Find the locus of the centres of those circles which touch the circle
+\begin{equation}
+\vec{x}^T\vec{x} -8\myvec{1 & 1 }\vec{x} = 4
+\end{equation}
+and also touch the $x$-axis.
+\item One of the diameters of the circle, given by 
+\begin{equation}
+\vec{x}^T\vec{x} +2\myvec{-2 & 3 }\vec{x} = 12
+ = 0
+\end{equation}
+is a chord of a circle $S$, whose centre is at 
+\begin{equation}
+\myvec{-3\\ 2}.
+\end{equation}
+Find the radius of $S$.
+\item Let $P$ be the point on the parabola
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} -\myvec{8 & 0 }\vec{x} 
+ = 0
+\end{equation}
+which is at a minimum distance from the centre $C$ of the circle
+\begin{equation}
+\vec{x}^T\vec{x} +\myvec{0 & 12 }\vec{x} 
+ = 1 
+\end{equation} 
+Find the equation of the circle passing through $C$ and having its centre at $\myvec{P}$. 
+\item Find the eccentricity of the hyperbola whose length of the latus rectum is equal to 8 and the length of 
+its conjugate axis is equal to half the distance between its foci. 
+\item A variable line drawn through the 
+intersection of the lines 
+\begin{align} \myvec{4 & 3}\vec{x} &=12 
+\\ 
+\myvec{3 & 4}\vec{x} &=12 
+\end{align} 
+meets the coordinate axes at $\vec{A}$ and $\vec{B}$, then find the locus of the midpoint of $AB$. 
+\item The 
+point 
+\begin{equation} 
+\myvec{2\\ 1} 
+\end{equation} 
+is translated parallel to the line 
+\begin{equation} 
+\myvec{1 & -1}\vec{x} = 4 
+\end{equation} 
+% 
+by $2\sqrt{3}$ units.  If the new point $\vec{Q}$ lies in the third 
+quadrant, then find the equation of the line passing through $\vec{Q}$ and perpendicular to $L$. 
+\item A circle passes through 
+\begin{equation} 
+\myvec{-2\\ 4} 
+\end{equation} 
+and touches the $y$-axis at 
+\begin{equation} 
+\myvec{0\\ 2}. 
+\end{equation}
+Which one of the  following equations can represent a diameter of this circle?
+\begin{enumerate} 
+\item $\myvec{4 & 5}\vec{x} = 6 $
+\item $\myvec{2 & -3}\vec{x} +10 = 0 $
+\item $\myvec{3 & 4}\vec{x} = 3 $
+\item $\myvec{5 & 2}\vec{x} +4= 0 $
+\end{enumerate} 
+\item Let $a$ and $b$ respectively be the semi-transverse and semi-conjugate axes of a hyperbola whose 
+eccentricity satisfies the equation
+\begin{equation}
+9e^2-18e+5 = 0
+\end{equation}
+If 
+\begin{equation} 
+\vec{S}=\myvec{5\\ 0}
+\end{equation}
+is a focus and 
+\begin{equation} 
+\myvec{5 & 0}\vec{x} = 9
+\end{equation} 
+%
+is the corresponding directrix of this hyperbola, then find $a^2-b^2$.
+\item A straight line through the origin   $\vec{O}$ meets the lines
+\begin{align} 
+\myvec{4 & 3}\vec{x} &= 10
+\\
+\myvec{8 & 6}\vec{x} +5&= 0
+\end{align} 
+%
+at $\vec{A}$ and $\vec{B}$ respectively.  Find the ratio in which  $\vec{O}$ divides $AB$.
+\item Find the equation of the tangent to the circle, at the point
+\begin{equation}
+\myvec{1\\ -1},
+\end{equation}
+whose centre is the point of intersection of the straight lines
+\begin{align} 
+\myvec{2 & 1}\vec{x} &= 3
+\\
+\myvec{1 & -1}\vec{x} &= 1
+\end{align} 
+\item $\vec{P}$ and $\vec{Q}$ are two distinct points on the parabola
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} -\myvec{4 & 0 }\vec{x} 
+ = 0
+\end{equation}
+with parameters $t$ and $t_1$ respectively.  If the normal at $\vec{P} $ passes through $\vec{Q}$, then find 
+the minimum value of $t_1^2$.
+\item A hyperbola whose transverse axis is along the major axis of the conic
+\begin{equation}
+\vec{x}^TV\vec{x} =51
+\end{equation}
+%
+where
+\begin{equation}
+V = \myvec{3 & 0 \\ 0 & 27}
+\end{equation}
+and has vertices at the foci of this conic.  If the eccentricity of the hyperbola is $\frac{3}{2}$, which of 
+the following points doesnot lie on it?
+\begin{enumerate}
+\item $\myvec{ 0 \\ 2}$
+\item $\myvec{\sqrt{5}  \\ 2\sqrt{2}}$
+\item $\myvec{\sqrt{10}  \\ 2\sqrt{3}}$
+\item $\myvec{5 \\ 2\sqrt{3}}$
 \end{enumerate}
+\end{enumerate} 
 \end{document}
