@@ -479,7 +479,7 @@ Find $\norm{\vec{u}}^2$.
 \implies 
 \vec{u} &= 4 \myvec{-1 \\ 2 \\ 4}
 \\
-\implies \norm{\vec{u}} &= 336
+\implies \norm{\vec{u}}^2 &= 336
 \end{align}
 \end{enumerate}
 \section{Least Squares}
@@ -489,24 +489,24 @@ Find $\norm{\vec{u}}^2$.
 containing the vectors 
 %
 \begin{align}
-\vec{a}_1 = \myvec{1 \\ 1 \\ 1}
+\vec{x}_1 = \myvec{1 \\ 1 \\ 1}
 ,
-\vec{a}_2 = \myvec{0 \\ 1 \\ 2}
+\vec{x}_2 = \myvec{0 \\ 1 \\ 2}
 \end{align}
 %
 \item Show that the vector 
 \begin{align}
-\vec{b} = \myvec{6 \\ 0 \\ 0}
+\vec{y} = \myvec{6 \\ 0 \\ 0}
 \end{align}
 lies outside $P$.
-\item Find the point $\vec{b}_0 \in P$ closest to $\vec{b}$.
+\item Find the point $\vec{w} \in P$ closest to $\vec{y}$.
 \item Let 
 \begin{align}
-\vec{A} = \myvec{\vec{a}_1 & \vec{a}_2}.
+\vec{X} = \myvec{\vec{x}_1 & \vec{x}_2}.
 \end{align}
 Show that 
 \begin{align}
-\brak{\vec{A}^T\vec{A}}\vec{b}_0=\vec{A}^T\vec{b}
+\brak{\vec{X}^T\vec{X}}\vec{w}=\vec{X}^T\vec{y}
 \end{align}
 
 \end{enumerate}
