@@ -452,6 +452,73 @@ Substituting from \eqref{eq:orth_alpha} and
 
 \end{enumerate}
 
+\section{Matrix Transformations}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+
+\item Find $\vec{R}$, the reflection  of $\vec{P}=\myvec{4 \\ 1}$ about the line
+\begin{align}
+L: \quad \myvec{1 & -1}\vec{x} &= 0
+%\\
+%\text{or},\quad \vec{n}^T\vec{x} = c
+\end{align}
+%\begin{figure}
+%\centering
+%\includegraphics[width=\columnwidth]{./figs/reflection.eps}
+%\caption{}
+%\label{fig:locus}
+%\end{figure}
+\solution The reflection of $\vec{P}$ about  $L$ is given by
+\begin{align}
+\label{eq:reflect_bisect}
+\frac{\vec{R}}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{P} + c 
+\vec{n}
+\end{align}
+%
+where 
+\begin{align}
+L: \vec{n}^T\vec{x} &= c
+\\
+\vec{m}^T\vec{n} &= 0
+\end{align}
+%
+Substituting
+\begin{align}
+\vec{n} = \myvec{1 \\ -1}, \vec{m} = \myvec{1 \\ 1}, c = 0
+\end{align}
+%
+in \eqref{eq:reflect_bisect},
+\begin{align}
+\label{eq:reflect_bisect}
+\frac{\vec{R}}{2} &= \frac{\myvec{1 & 1 \\ 1 & 1}-\myvec{1 & -1 \\ -1 & 1} }{4}\myvec{4 \\ 1}
+\implies \vec{R} &= \myvec{1 \\ 4}
+\end{align}
+
+\item   $\vec{R}$ is translated through a distance 2 units along the positive direction of x-axis to obtain
+$\vec{S}$.  Find $\vec{S}$.
+\\
+\solution 
+\begin{align}
+\vec{S} &= \vec{R}+\myvec{2 \\ 0}
+\\
+&= \myvec{3 \\ 4}
+\end{align}
+\item Rotate $\vec{S}$ through an angle of  $ \frac{\pi}{4} $  about the origin in the counter clockwise 
+direction to obtain $\vec{T}$.
+\\
+\solution 
+\begin{align}
+\label{eq:rotate}
+\vec{T} &= \myvec{\cos \theta &- \sin \theta \\ \sin \theta & \cos \theta} \vec{S}
+\\
+&= \myvec{\frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}} \myvec{3 \\ 4}
+\\
+&=  \frac{1}{\sqrt{2}}\myvec{-1 \\ 7}
+\end{align}
+
+\end{enumerate}
+
+
 \section{Locus}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
