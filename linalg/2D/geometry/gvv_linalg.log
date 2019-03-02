@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  1 MAR 2019 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.1)  2 MAR 2019 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **gvv_linalg.tex
 (./gvv_linalg.tex
 LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 85 language(s) loaded.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IE
 EEtran.cls
@@ -1313,37 +1313,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./figs/ab.eps Graphic file (type eps)
 
 <./figs/ab.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./figs/orth.eps Graphic file (type eps)
- <./figs/orth.eps>
+
+<./figs/orth.eps>
 File: ./figs/alt.eps Graphic file (type eps)
  <./figs/alt.eps> [2]
 File: ./figs/ratio.eps Graphic file (type eps)
  <./figs/ratio.eps>
 File: ./figs/median.eps Graphic file (type eps)
+ <./figs/median.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./figs/median.eps>
-Underfull \hbox (badness 2277) in paragraph at lines 542--544
+ [3]
+Underfull \hbox (badness 2277) in paragraph at lines 548--550
 \OT1/txr/m/n/12 provided $\OT1/txr/bx/n/12 A\OML/txmi/m/it/12 ; \OT1/txr/bx/n/1
 2 B\OML/txmi/m/it/12 ; \OT1/txr/bx/n/12 C$ \OT1/txr/m/n/12 are lin-early in-de-
 pen-dent.
  []
 
-
+File: ./figs/reflection.eps Graphic file (type eps)
+<./figs/reflection.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-File: ./figs/reflection.eps Graphic file (type eps)
-
-<./figs/reflection.eps>
-Underfull \vbox (badness 1152) has occurred while \output is active []
-
  [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 685.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 685.
+Underfull \vbox (badness 2119) has occurred while \output is active []
+
+ [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 781.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 781.
 
 (./gvv_linalg.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 685.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 685.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 781.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 781.
 
 
 Package rerunfilecheck Warning: File `gvv_linalg.out' has changed.
@@ -1351,19 +1354,16 @@ Package rerunfilecheck Warning: File `gvv_linalg.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `gvv_linalg.out':
-(rerunfilecheck)             Before: ED81CE56F927EC01534D637946D27799;213
-(rerunfilecheck)             After:  9B7D72A152A1749982B0993355885AA4;260.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Before: C3B790C934852F49C49FB53CAB4B72FA;303
+(rerunfilecheck)             After:  73830AD8A977A1329CC690E025A6700E;351.
  ) 
 Here is how much of TeX's memory you used:
- 23998 strings out of 494591
- 472992 string characters out of 6176027
- 574164 words of memory out of 5000000
- 27189 multiletter control sequences out of 15000+600000
+ 24007 strings out of 492645
+ 473119 string characters out of 6118921
+ 580125 words of memory out of 5000000
+ 27449 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
- 17 hyphenation exceptions out of 8191
- 54i,19n,67p,796b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1144 hyphenation exceptions out of 8191
+ 54i,19n,67p,796b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg.dvi (4 pages, 50052 bytes).
+Output written on gvv_linalg.dvi (5 pages, 58588 bytes).

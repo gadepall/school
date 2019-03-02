@@ -348,6 +348,12 @@ $\lambda$,
 $\vec{A} - \vec{B}$ is marked in Fig. \ref{fig:ab}.
 %
 \item Show that $AB = \norm{\vec{A}-\vec{B}}$
+\item Show that the equation of $AB$ is
+\begin{align}
+\label{eq:line_ab}
+\vec{x} = \vec{A}+ \lambda\brak{\vec{B}-\vec{A}}
+\end{align}
+
 \end{enumerate}
 %
 \section{Orthogonality}
@@ -666,7 +672,7 @@ direction to obtain $\vec{S}$.
 \section{Circumcircle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item A circle with centre at  $\vec{c}$ and radius $r$ has the equation 
+\item A circle with centre at  $\vec{O}$ and radius $r$ has the equation 
 \begin{align}
 \norm{\vec{x}-\vec{O}}&=r
 \\
@@ -674,6 +680,7 @@ direction to obtain $\vec{S}$.
 \label{eq:circle}
 \end{align}
 \item Let $\vec{A},\vec{B}$ and $\vec{C}$ be three points on the circle and 
+$D$ be a point on $BC$ such that
 $OD \perp BC$.  Show that 
 \begin{align}
 \vec{D}=\frac{\vec{B}+\vec{C}}{2}
@@ -681,11 +688,94 @@ $OD \perp BC$.  Show that
 %
 \solution From \eqref{eq:circle},
 \begin{align}
-\vec{D}=\frac{\vec{B}+\vec{C}}{2}
+\norm{\vec{B}-\vec{O}}^2=\norm{\vec{C}-\vec{O}}^2=r^2
+\\
+ \implies \brak{\vec{B}-\vec{O}}^T\brak{\vec{B}-\vec{O}} = 
+\brak{\vec{C}-\vec{O}}^T\brak{\vec{C}-\vec{O}} 
+\\
+ \implies \brak{\vec{B}-\vec{C}}^T\brak{\frac{\vec{B}+\vec{C}}{2} - 
+\vec{O}}  = 0
+\label{eq:circle_mid}
 \end{align}
-\item Let  $\vec{D}$ be the mid point of $AB$.  Show that $OD \perp AB$.
-\item Show that the direction vector of the normal to the tangent at $\vec{P}$ is $\vec{P}$.
-\item Let $\vec{A}$ be any point on the tangent. Show that $OP \perp AP$.
-\item Show that the angle in a semi-circle is a right angle.
+after simplification. Since $OD \perp BC$,
+\begin{align}
+\brak{\vec{B}-\vec{C}}^T\brak{\vec{D}-\vec{O}} = 0 
+\label{eq:circle_D}
+\end{align}
+Since $D$ and $\frac{\vec{B}+\vec{C}}{2}$ lie on $BC$, using 
+\eqref{eq:line_ab},
+\begin{align}
+\label{eq:circle_mid_D1}
+\frac{\vec{B}+\vec{C}}{2}
+&= \vec{B}+ \lambda_1\brak{\vec{B}-\vec{C}}
+\\
+\vec{D}
+&= \vec{B}+ \lambda_2\brak{\vec{B}-\vec{C}}
+\label{eq:circle_mid_D2}
+\end{align}
+Multiplying \eqref{eq:circle_mid_D1} and \eqref{eq:circle_mid_D2} with 
+$\brak{\vec{B}-\vec{C}}^T$ and subtracting, $\lambda_1=\lambda_2$
+%
+\begin{align}
+\implies \vec{D} = \frac{\vec{B}+\vec{C}}{2}
+\label{eq:circle_bisect}
+\end{align}
+%
+\item Let  $\vec{D}$ be the mid point of $BC$.  Show that $OD \perp BC$.
+%
 \end{enumerate}
+
+
+\section{Incircle}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item The circle with centre $\vec{O}$ and radius $r$ in Fig. is inside 
+$\triangle ABC$ and touches $AB, BC$ 
+and $CA$ at $\vec{F}, \vec{D}$ and $\vec{E}$ respectively. $AB, BC$ and 
+$CA$ are known as {\em tangents} to the circle.
+\item Show that $OD \perp BC$.
+\\
+\solution Let $\vec{x}_1,\vec{x}_2$ be two points on the circle such that 
+$x_1x_2 \parallel BC$. Then
+%
+\begin{align}
+\norm{\vec{x}_1-\vec{O}}^2- 
+\norm{\vec{x}_2-\vec{O}}^2 &= 0 
+\\
+\implies 
+\brak{\vec{x}_1-\vec{x}_2}^T\brak{\frac{\vec{x}_1+\vec{x}_2}{2}-\vec{O}} &= 
+0 
+\\
+\implies 
+\brak{\vec{B}-\vec{C}}^T\brak{\frac{\vec{x}_1+\vec{x}_2}{2}-\vec{O}} &= 
+0 
+%\label{eq:circle_bisect}
+\end{align}
+%
+For $\vec{x}_1=\vec{x}_2=\vec{D}$, $x_1x_2$ merges into $BC$ and the above 
+equation becomes 
+%
+\begin{align}
+\brak{\vec{B}-\vec{C}}^T\brak{\vec{D}-\vec{O}} = 
+0 
+\implies OD \perp BC
+%\label{eq:circle_bisect}
+\end{align}
+%
+\item Find the equation of the tangent at $\vec{D}$.
+\\
+\solution The equation of the tangent is given by 
+\begin{align}
+\brak{\vec{O}-\vec{D}}^T\brak{\vec{x}-\vec{D}}=0
+%\label{eq:circle_bisect}
+\end{align}
+
+\end{enumerate}
+\section{Miscellaneous}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Show that the angle in a semi-circle is a right angle.
+
+\end{enumerate}
+
 \end{document}
