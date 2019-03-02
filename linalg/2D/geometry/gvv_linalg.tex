@@ -663,16 +663,25 @@ direction to obtain $\vec{S}$.
 \end{enumerate}
 
 
-\section{Circle}
+\section{Circumcircle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item A circle with centre at origin $\vec{O}$ and radius $r$ has the equation 
+\item A circle with centre at  $\vec{c}$ and radius $r$ has the equation 
 \begin{align}
-\vec{x}^T\vec{x} = r^2
+\norm{\vec{x}-\vec{O}}&=r
+\\
+\implies \brak{\vec{x}-\vec{O}}^T\brak{\vec{x}-\vec{O}} &= r^2
+\label{eq:circle}
 \end{align}
-Let $\vec{A}$ and $\vec{B}$ be two points on the circle.  Show that 
+\item Let $\vec{A},\vec{B}$ and $\vec{C}$ be three points on the circle and 
+$OD \perp BC$.  Show that 
 \begin{align}
-\brak{\vec{A}-\vec{B}}^T\brak{\vec{A}+\vec{B}} = 0
+\vec{D}=\frac{\vec{B}+\vec{C}}{2}
+\end{align}
+%
+\solution From \eqref{eq:circle},
+\begin{align}
+\vec{D}=\frac{\vec{B}+\vec{C}}{2}
 \end{align}
 \item Let  $\vec{D}$ be the mid point of $AB$.  Show that $OD \perp AB$.
 \item Show that the direction vector of the normal to the tangent at $\vec{P}$ is $\vec{P}$.
