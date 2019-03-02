@@ -298,14 +298,6 @@ AB: \quad \vec{x} &= \vec{A}+ \lambda_1 \brak{\vec{B}-\vec{A}}
 &= -\myvec{2\\2}+ \lambda_1\myvec{3\\5}
 \end{align}
 %
-Alternatively, the desired equation is
-\begin{align}
-\label{eq:line_norm}
-\myvec{5&-3}\brak{\vec{x} - \vec{A}}&= 0
-\\
-\implies \myvec{5&-3}\vec{x} = -\myvec{5&-3}\myvec{2\\2} = -4
-\end{align}
-%
 \item Find the direction vector and the normal vector for $AB$
 \\
 \solution Let
@@ -330,10 +322,57 @@ The normal vector $\vec{n}$ is defined as
 %
 \label{prob:line_eq}
 \lstinputlisting{./codes/coeffs.py}
+
+\item Find the equation of the line in terms of the normal 
+vector.
+\\
+\solution The desired equation is
+\begin{align}
+\label{eq:line_norm}
+\vec{n}^T\brak{\vec{x} - \vec{A}}=\vec{n}^T\brak{\vec{x} - \vec{B}}&= 0
+\\
+\implies \myvec{5&-3}\vec{x} = -\myvec{5&-3}\myvec{2\\2} &= -4
+\end{align}
+%
 \item
 %
-Find the equations of $BC$ and $CA$
+Find the equations of $BC$ and $CA$.
 \end{enumerate}
+\section{Altitudes of a Triangle}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item
+In $\Delta ABC$,  Let $\vec{P}$ be a point on $BC$ such that $AP \perp BC$.  Then $AP$ is defined to be 
+an {\em altitude} of $\Delta ABC$.
+
+\item
+\label{prob:alt_eq}
+Find the equation of $AP$.
+\\
+\solution The normal vector of $AP$ is $\vec{B} - \vec{C}$. From 
+\eqref{eq:line_norm}, the equation of $AP$ is
+\begin{align}
+\label{eq:alt}
+\brak{\vec{B} - \vec{C}}^T\brak{\vec{x} - \vec{A}}&= 0
+\\
+\implies \myvec{-3&4}\vec{x} = -\myvec{-3&4}\myvec{2\\2} &= -2
+\end{align}
+
+%\lstinputlisting{./codes/alt_eq.py}
+%
+\item Find the equation of the altitude $BQ$.
+
+\item Find the equation of the altitude $CR$.
+%
+\item Find the point of intersection of $AP$ and $BQ$.
+\item Find the point of intersection of  and $BQ$ and $CR$. Comment.
+\item Find $\vec{P},\vec{Q},\vec{R}$.
+%
+\item Draw $AP, BQ$ and $CR$ and verify that they meet at a point 
+$\vec{H}$.  
+
+\end{enumerate}
+
 \section{Medians of a Triangle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
@@ -433,71 +472,6 @@ Verify that
 \begin{equation}
 G = \frac{A+B+C}{3}
 \end{equation}
-\end{enumerate}
-\section{Altitudes of a Triangle}
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
-\item
-In $\Delta ABC$,  Let $\vec{P}$ be a point on $BC$ such that $AP \perp BC$.  Then $AP$ is defined to be 
-an {\em altitude} of $\Delta ABC$.
-
-\item
-\label{prob:alt_eq}
-Find the equation of $AP$.
-%\lstinputlisting{./codes/alt_eq.py}
-%
-\item
-Find the equations of the altitudes $BQ$ and $CR$. 
-%
-\item
-Find the point of intersection of $AP$ and $BQ$.
-\\
-\solution Using the code in Problem \ref{prob:median}, the desired point of intersection is
-%
-\begin{equation}
-\vec{H} = 
-\begin{pmatrix}
- 1.407
- \\
- 0.56
-\end{pmatrix}
-\end{equation}
-%
-Interestingly, $BQ$ and $CR$ also intersect at the same point.  Thus, the altitudes of a triangle
-meet at a single point known as the {\em orthocentre}
-%
-\item
-Find $\vec{P},\vec{Q},\vec{R}$.
-\\
-\solution $\vec{P}$ is the intersection of $AP$ and $BC$.  Thus, the code in Problem \ref{prob:median} can be 
-used to find 
-$\vec{P}$.  The desired coordinates are
-%
-\begin{align}
-\vec{P} =
-\begin{pmatrix}
- 2.32
- \\
-  1.24
-\end{pmatrix}
-,
-\vec{Q}=
-\begin{pmatrix}
- 1.73
- \\
- -1.38
-\end{pmatrix},
-\vec{R}=
-\begin{pmatrix}
- 0.03
- \\
-  1.38
-\end{pmatrix}
-\end{align}
-%
-\item
-Draw $AP, BQ$ and $CR$ and verify that they meet at $\vec{H}$.  
-
 \end{enumerate}
 \section{Angle Bisectors of a Triangle}
 %
