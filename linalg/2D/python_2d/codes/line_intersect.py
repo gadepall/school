@@ -6,8 +6,10 @@ def mid_pt(B,C):
   D = (B+C)/2
   return D
 
+def dir_vec(AB):
+  return np.matmul(AB,dvec)
 def norm_vec(AB):
-  return np.matmul(omat,np.matmul(AB,dvec))
+  return np.matmul(omat,dir_vec(AB))
 
 def line_intersect(AD,CF):
   n1=norm_vec(AD)
@@ -31,5 +33,7 @@ CF =np.vstack((C,F)).T
 dvec = np.array([-1,1]) 
 omat = np.array([[0,1],[-1,0]]) 
 
-print(line_intersect(AD,CF))
+
+
+#print(line_intersect(AD,CF))
 

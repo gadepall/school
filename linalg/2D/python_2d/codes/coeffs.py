@@ -13,8 +13,8 @@ dvec = np.array([-1,1])
 omat = np.array([[0,1],[-1,0]]) 
 AB =np.vstack((A,B)).T
 
-print (dir_vec(AB))
-print (norm_vec(AB))
+#print (dir_vec(AB))
+#print (norm_vec(AB))
 
 
 
