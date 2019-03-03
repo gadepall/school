@@ -12,7 +12,7 @@ CA =np.vstack((C,A)).T
 
 p = np.zeros(2)
 
-#AD
+#AP
 n1 = dir_vec(BC)
 p[0] = np.matmul(n1,A)
 #BQ

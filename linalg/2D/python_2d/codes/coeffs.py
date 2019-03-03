@@ -5,7 +5,7 @@ def dir_vec(AB):
   return np.matmul(AB,dvec)
 
 def norm_vec(AB):
-  return np.matmul(omat,np.matmul(AB,dvec))
+  return np.matmul(omat, dir_vec(AB))
 
 A = np.array([-2,-2]) 
 B = np.array([1,3]) 
