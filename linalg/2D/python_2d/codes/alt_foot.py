@@ -6,12 +6,8 @@ A = np.array([-2,-2])
 B = np.array([1,3]) 
 C = np.array([4,-1]) 
 
-AB =np.vstack((A,B)).T
-BC =np.vstack((B,C)).T
-CA =np.vstack((C,A)).T
-
-m = dir_vec(BC)
-n = norm_vec(BC)
+m = dir_vec(B,C)
+n = norm_vec(B,C)
 p = np.zeros(2)
 p[0] = np.matmul(m,A)
 p[1] = np.matmul(n,B)
