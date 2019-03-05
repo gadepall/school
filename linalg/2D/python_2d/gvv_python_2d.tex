@@ -645,126 +645,51 @@ from \eqref{eq:incirc_r}.  Letting
 \norm{\vec{n}_1}&= \frac{\vec{n}}{\norm{\vec{n}}},
 \\
 r &= \abs{\vec{n}_1^T\brak{\vec{I}-\vec{B}}}
+\label{eq:incirc_rad}
 \end{align}
-\item Show that 
-\begin{align}
-r = \frac{\abs{\brak{\vec{B}-\vec{C}}^T\brak{\vec{I}-\vec{B}}}}{\norm{\vec{B}-\vec{C}}}
-\end{align}
-\solution Since $\vec{U}$ lies on $BC$,
-\begin{align}
-\vec{U} = \vec{B} + \lambda\brak{\vec{B}-\vec{C}}
-\end{align}
-
-\begin{align}
-r = \norm{\vec{I}-\vec{U}}
-\end{align}
-
-\item 
-\item Find $\vec{U}$
+\item Find $\vec{I}$.
 \\
-\solution Since $\vec{U}$ lies on $BC$,
+\solution Since $r = IU = IV = IW$, from \eqref{eq:incirc_rad},
 \begin{align}
-\vec{n}_{BC}^T\brak{\vec{U}-\vec{B}} = 0
+\abs{\vec{n}_1^T\brak{\vec{I}-\vec{B}}} = \abs{\vec{n}_2^T\brak{\vec{I}-\vec{C}}} = 
+\abs{\vec{n}_3^T\brak{\vec{I}-\vec{A}}}
+\label{eq:incirc_radeq}
 \end{align}
 %
-where $\vec{n}_{BC}$ is the normal vector of $BC$.  Sinc $IU \perp BC$, 
+where $\vec{n}_2, \vec{n}_3$ are unit normals of $CA, AB$ respectively.  \eqref{eq:incirc_radeq} can be 
+expressed as 
 \begin{align}
-\vec{B-C}^T = \vec{B}+\lambda\brak{\vec{B}-\vec{A}}
+\vec{n}_1^T\brak{\vec{I}-\vec{B}} &= k_1\vec{n}_2^T\brak{\vec{I}-\vec{C}} 
+\\
+\vec{n}_2^T\brak{\vec{I}-\vec{C}} &= k_2\vec{n}_3^T\brak{\vec{I}-\vec{A}}
+\label{eq:incirc_k1k2}
 \end{align}
 %
-Since $\vec{U}$ lies on the circle, 
+where $k_1,k_2 = \pm 1$. The above equations can be expressed as the matrix equation
 \begin{align}
-\brak{\vec{U} -\vec{I}}^T \brak{\vec{U} -\vec{I}} = c^2
+\myvec{\vec{n}_1-k_1\vec{n}_2 & \vec{n}_2 - k_2\vec{n}_3}^T\vec{I} &= 
+\myvec{\vec{n}_1^T\vec{B}-k_1\vec{n}_2^T\vec{C} \\ \vec{n}_2^T \vec{C} - k_2\vec{n}_3^T\vec{A}}
+\label{eq:incirc_k1k2fin}
 \end{align}
-
-\item 
-In $\Delta ABC$, let $U$ be a point on $BC$ such that $\angle BAU = \angle CAU$. Then $AU$ is known as the {\em angle bisector}.
-
-Find the length of $AB,BC$ and $CA$
+\item Show that $\vec{I}$ lies inside $\triangle ABC$ for $k_1=k_2=1$
+\item Compute $\vec{I}$ and $r$.
 \\
-\solution The length of $CA$ is given by
-\begin{align}
-CA = \norm{\vec{C}-\vec{A}}
-%&= \sqrt{37}.
-\end{align}
-The following code calculates the respective values as
-%
-\begin{equation}
-AB =  5.83, BC =  5, CA =  6.08
-\end{equation}
-%
-\lstinputlisting{./codes/side_length.py}
-\item
-If $AU,BV$ and $CW$ are the angle bisectors, find the coordinates of $\vec{U},\vec{V}$ and $\vec{W}$.
+\solution
+\begin{lstlisting}
+https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/codes/incentre.py
+\end{lstlisting}
+\item Plot the incircle of $\triangle ABC$
 \\
-\solution Using the section formula,
-\begin{align}
-\vec{W} &= \frac{AW.\vec{B}+WB.\vec{A}}{AW + WB} = \frac{\frac{AW}{WB}.\vec{B}+\vec{A}}{\frac{AW}{WB} + 1}
-\\
-&= \frac{\frac{CA}{BC}.\vec{B}+\vec{A}}{\frac{CA}{BC} + 1}
-\\
-&= \frac{{CA}\times \vec{B}+{BC}\times \vec{A}}{{BC} + {CA}}
-\\
-&= \frac{a\times \vec{A} + b\times \vec{B}}{a + b}
-\end{align}
-where $a = BC, b = CA$, 
-since the angle bisector has the property that
-%
-\begin{equation}
-\frac{AW}{WB} = \frac{CA}{AB}
-\end{equation}
-%
-\item Write a program to find $\vec{U},\vec{V},\vec{W}$.
-%
-%\lstinputlisting{./codes/angle_bisect_coord.py}
-\item
-Find the intersection of $AU$ and $BV$.% and $CW$ and verify that they meet at a point $I$.  
-\\
-\solution Using the code in Problem \ref{prob:median}, the desired point of intersection is
-\begin{equation}
-\vec{I} = 
-\begin{pmatrix}
-1.15
-\\
-0.14
-\end{pmatrix}
-\end{equation}
-%
-It is easy to verify that even $BV$ and $CW$ meet at the same point.  $\vec{I}$ is known as
-the {\em incentre} of $\Delta ABC$. 
-\item
-Draw $AU, BV$ and $CW$ and verify that they meet at a point $\vec{I}$.  
-%%
-\item
-Verify that
-\begin{align}
-\vec{I} = \frac{BC.\vec{A} + CA.\vec{B} + AB.\vec{C}}{AB+BC+CA}
-\end{align}
-%
-\\
-\item
-\label{prob:incircle_normal}
-Let the perpendicular from $\vec{I}$ to $AB$ be $IX$. If the equation of $AB$ is
-%
-\begin{align}
-\vec{n}^T\brak{\vec{x}-\vec{A}} = 0
-\end{align}
-%
-show that
-\begin{align}
-IX = \frac{\abs{\vec{n}^T\brak{\vec{I}-\vec{A}}}}{\norm{\vec{n}}}
-\end{align}
-%
-Verify through a Python script.
-\item If $IY \perp BC$ and $IZ \perp CA$,
-verify that
-\begin{equation}
-IX = IY = IZ = r
-\end{equation}
-$r$ is known as the {\em inradius} of $\Delta ABC$.
-%\lstinputlisting{./codes/inradius.py}
-\item Draw the incircle of $\triangle ABC$
-\item Draw the circumcircle of $\triangle ABC$
+\solution The following code plots the incircle in Fig. \ref{fig:incircle}
+\begin{lstlisting}
+https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/codes/incircle.py
+\end{lstlisting}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/incircle.eps}
+\caption{}
+\label{fig:incircle}
+\end{figure}
 
 \end{enumerate}
 \end{document}

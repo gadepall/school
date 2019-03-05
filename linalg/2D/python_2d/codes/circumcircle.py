@@ -36,7 +36,7 @@ x_circ = (x_circ.T + O).T
 plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
 plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
 plt.plot(x_CA[0,:],x_CA[1,:],label='$CA$')
-plt.plot(x_circ[0,:],x_circ[1,:],label='$circle$')
+plt.plot(x_circ[0,:],x_circ[1,:],label='$circumcircle$')
 
 plt.plot(A[0], A[1], 'o')
 plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.1) , 'A')
@@ -49,7 +49,7 @@ plt.text(O[0] * (1 + 0.1), O[1] * (1 - 0.1) , 'O')
 
 plt.xlabel('$x$')
 plt.ylabel('$y$')
-plt.legend(loc='best')
+plt.legend(loc='upper right')
 plt.grid() # minor
 plt.axis('equal')
 
