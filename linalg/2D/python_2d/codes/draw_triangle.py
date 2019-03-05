@@ -3,30 +3,27 @@
 #released under GNU GPL
 import numpy as np
 import matplotlib.pyplot as plt
+from coeffs import *
+
 #if using termux
 import subprocess
 import shlex
 #end if
 
+
+
+#Triangle vertices
 A = np.array([-2,-2]) 
 B = np.array([1,3]) 
 C = np.array([4,-1]) 
 
-len =10
-lam_1 = np.linspace(0,1,len)
 
-x_AB = np.zeros((2,len))
-x_BC = np.zeros((2,len))
-x_CA = np.zeros((2,len))
-for i in range(len):
-  temp1 = A + lam_1[i]*(B-A)
-  x_AB[:,i]= temp1.T
-  temp2 = B + lam_1[i]*(C-B)
-  x_BC[:,i]= temp2.T
-  temp3 = C + lam_1[i]*(A-C)
-  x_CA[:,i]= temp3.T
+#Generating all lines
+x_AB = line_gen(A,B)
+x_BC = line_gen(B,C)
+x_CA = line_gen(C,A)
 
-#print(x_AB[0,:],x_AB[1,:])
+#Plotting all lines
 plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
 plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
 plt.plot(x_CA[0,:],x_CA[1,:],label='$CA$')

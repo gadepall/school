@@ -251,6 +251,7 @@ This manual introduces matrix computations using python and the properties of a 
 \section{Line}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
+%
 \item
 \label{prob:draw_triangle}
 Let
@@ -274,19 +275,6 @@ Let
 -1
 \end{pmatrix*}.
 \end{equation}
-Draw $\Delta ABC$.
-\\
-\solution
-The following code yields the desired plot in Fig. \ref{fig:triangle_def}
-\lstinputlisting{./codes/draw_triangle.py}
-\begin{figure}
-\centering
-\includegraphics[width=\columnwidth]{./figs/triangle.eps}
-\caption{}
-\label{fig:triangle_def}
-\end{figure}
-%
-\item
 %
 Find the equation of $AB$.
 \\
@@ -300,14 +288,16 @@ AB: \quad \vec{x} &= \vec{A}+ \lambda_1 \brak{\vec{B}-\vec{A}}
 %
 \item Find the direction vector and the normal vector for $AB$
 \\
-\solution Let
-\begin{align}
-T_{AB} = \myvec{\vec{A} & \vec{B}} = \myvec{-2 & 1\\ -2 & 3}
-\end{align}
+\solution 
+%Let
+%\begin{align}
+%T_{AB} = \myvec{\vec{A} & \vec{B}} = \myvec{-2 & 1\\ -2 & 3}
+%\end{align}
 The direction vector of $AB$ is 
 \begin{equation}
 \label{eq:dir_vec}
-\vec{m} = \vec{B}-\vec{A} = T_{AB} \myvec{-1 \\ 1} = \myvec{3\\5}
+\vec{m} = \vec{B}-\vec{A} 
+%= T_{AB} \myvec{-1 \\ 1} = \myvec{3\\5}
 \end{equation}
 %
 The normal vector $\vec{n}$ is defined as
@@ -318,12 +308,32 @@ The normal vector $\vec{n}$ is defined as
 \implies \vec{n}&= \myvec{0 & 1 \\ -1 & 0}\vec{m} = \myvec{5\\-3}
 \end{align}
 %
-\item Write a python code for computing the direction and normal vectors. 
-%
-\solution 
-Save the following code  as \textbf{coeffs.py} and execute.
-\label{prob:line_eq}
-\lstinputlisting{./codes/coeffs.py}
+Draw $\Delta ABC$.
+\\
+\solution
+The following codes yields the desired plot in Fig. \ref{fig:triangle_def}
+\begin{lstlisting}
+https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/codes/coeffs.py
+\end{lstlisting}
+\begin{lstlisting}
+https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/codes/draw_triangle.py
+\end{lstlisting}
+
+%\lstinputlisting{./codes/draw_triangle.py}
+
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/triangle.eps}
+\caption{}
+\label{fig:triangle_def}
+\end{figure}
+
+%\item Write a python code for computing the direction and normal vectors. 
+%%
+%\solution 
+%Save the following code  as \textbf{coeffs.py} and execute.
+%\label{prob:line_eq}
+%\lstinputlisting{./codes/coeffs.py}
 
 \item Find the equation of the line in terms of the normal 
 vector.
@@ -396,11 +406,72 @@ https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/cod
 \item Draw $AP, BQ$ and $CR$ and verify that they meet at a point 
 $\vec{H}$.  
 \\
-\solution 
+\solution The following code plots the altitudes in Fig. \ref{fig:alt_triangle}
 \begin{lstlisting}
 https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/codes/alt_draw.py
 \end{lstlisting}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/alt_triangle.eps}
+\caption{}
+\label{fig:alt_triangle}
+\end{figure}
 
+\end{enumerate}
+\section{Circumcircle}
+%
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+
+\item Let $\vec{A},\vec{B} $ and $\vec{C}$ be points on a circle with centre $\vec{O}$ and radius $r$.
+\item Find $\vec{O}$.
+\\
+\solution The equation of the circle is 
+\begin{align}
+\label{eq:circle_def}
+\norm{\vec{x}-\vec{O}} = R
+\\
+\implies \norm{\vec{x}-\vec{O}}^2 =\brak{\vec{x}-\vec{O}}^T\brak{\vec{x}-\vec{O}} = R^2
+\end{align}
+From \eqref{eq:circle_def},
+\begin{align}
+\label{eq:circle_AB}
+\norm{\vec{A}-\vec{O}}^2 - \norm{\vec{B}-\vec{O}}^2  = 0
+\end{align}
+\begin{multline}
+\implies \brak{\vec{A}-\vec{O}}^T\brak{\vec{A}-\vec{O}} 
+\\
+- \brak{\vec{B}-\vec{O}}^T\brak{\vec{B}-\vec{O}} = 0
+\end{multline}
+%
+which can be simplified as
+\begin{align}
+\label{eq:circle_chord_ab}
+\brak{\vec{A}-\vec{B}}^T\vec{O} =   \frac{\norm{\vec{A}}^2- \norm{\vec{B}}^2}{2}
+\end{align}
+Similarly,
+\begin{align}
+\label{eq:circle_chord_bc}
+\brak{\vec{B}-\vec{C}}^T\vec{O} =   \frac{\norm{\vec{B}}^2- \norm{\vec{C}}^2}{2}
+\end{align}
+%
+The following code computes $\vec{O}$ using the above two equations.
+\begin{lstlisting}
+https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/codes/circumcentre.py
+\end{lstlisting}
+\item Find the radius $R$.
+\item Plot the {\em circumcircle} of $\triangle ABC$.
+\\
+\solution The following code plots Fig. \ref{fig:circumcircle}
+\begin{lstlisting}
+https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/codes/circumcircle.py
+\end{lstlisting}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/circumcircle.eps}
+\caption{}
+\label{fig:circumcircle}
+\end{figure}
 \end{enumerate}
 
 \section{Medians of a Triangle}
@@ -408,110 +479,207 @@ https://raw.githubusercontent.com/gadepall/school/master/linalg/2D/python_2d/cod
 ,ref=\thesection.\theenumi]
 
 \item
-Find the coordinates of $D, E$ and $F$ of the mid points of $AB, BC$ and $CA$ respectively for  $\Delta ABC$. 
-\\ 
-\solution
-The coordinates of the mid points are given by
-%
-\begin{align}
-D &= \frac{B+C}{2}, E = \frac{C+A}{2}, F = \frac{A+B}{2}
-\end{align}
-%
-The following code computes the values resulting in
-\begin{equation}
-D = \begin{pmatrix}
-2.5
-\\
-1
-\end{pmatrix},
-E = \begin{pmatrix}
-1
-\\
--1.5
-\end{pmatrix},
-F = \begin{pmatrix}
--0.5
-\\
-0.5
-\end{pmatrix},
-\end{equation}
-\lstinputlisting{./codes/mid_points.py}
+Find the coordinates of $\vec{D}, \vec{E}$ and $\vec{F}$ of the mid points of $AB, BC$ and $CA$ respectively 
+for  $\Delta ABC$. 
+%\\ 
+%\solution
+%The coordinates of the mid points are given by
+%%
+%\begin{align}
+%D &= \frac{B+C}{2}, E = \frac{C+A}{2}, F = \frac{A+B}{2}
+%\end{align}
+%%
+%The following code computes the values resulting in
+%\begin{equation}
+%D = \begin{pmatrix}
+%2.5
+%\\
+%1
+%\end{pmatrix},
+%E = \begin{pmatrix}
+%1
+%\\
+%-1.5
+%\end{pmatrix},
+%F = \begin{pmatrix}
+%-0.5
+%\\
+%0.5
+%\end{pmatrix},
+%\end{equation}
+%\lstinputlisting{./codes/mid_points.py}
 \item
 Find the equations of $AD,BE$ and $CF$. These lines are the {\em medians} of $\Delta ABC$
-\\
-\solution Use the code in Problem \ref{prob:line_eq}. 
+%\\
+%\solution Use the code in Problem \ref{prob:line_eq}. 
 %
 \item
 \label{prob:median}
 Find the point of intersection of $AD$ and $CF$.
-\\
-\solution
-Let the respective equations  be
-\begin{align}
-\vec{n}_1^T\vec{x} &= p_1 \text{ and}
-\\
-\vec{n}_2^T\vec{x} &= p_2
-\end{align}
-This can be written as the matrix equation
-\begin{align}
-\myvec{ \vec{n}_1^T
-\\
-\vec{n}_2^T}
-\vec{x}
-&=
-\vec{p}
-\\
-\implies N^T \vec{x}
-&=
-\vec{p}
-\end{align}
-%
-where
-\begin{equation}
-N = \myvec{ \vec{n}_1 &
-\vec{n}_2},
-\end{equation}
-%
-The point of intersection is then obtained as
-\begin{align}
-\vec{x} &= \brak{N^T}^{-1}  \vec{p}
-\\
-&= N^{-T} \vec{p}
-\end{align}
-%
-The following code yields the point of intersection 
-\begin{equation}
-\vec{G} =
-\begin{pmatrix}
-1
-\\
-0
-\end{pmatrix}
-\end{equation}
-\lstinputlisting{./codes/line_intersect.py}
+%\\
+%\solution
+%Let the respective equations  be
+%\begin{align}
+%\vec{n}_1^T\vec{x} &= p_1 \text{ and}
+%\\
+%\vec{n}_2^T\vec{x} &= p_2
+%\end{align}
+%This can be written as the matrix equation
+%\begin{align}
+%\myvec{ \vec{n}_1^T
+%\\
+%\vec{n}_2^T}
+%\vec{x}
+%&=
+%\vec{p}
+%\\
+%\implies N^T \vec{x}
+%&=
+%\vec{p}
+%\end{align}
+%%
+%where
+%\begin{equation}
+%N = \myvec{ \vec{n}_1 &
+%\vec{n}_2},
+%\end{equation}
+%%
+%The point of intersection is then obtained as
+%\begin{align}
+%\vec{x} &= \brak{N^T}^{-1}  \vec{p}
+%\\
+%&= N^{-T} \vec{p}
+%\end{align}
+%%
+%The following code yields the point of intersection 
+%\begin{equation}
+%\vec{G} =
+%\begin{pmatrix}
+%1
+%\\
+%0
+%\end{pmatrix}
+%\end{equation}
+%\lstinputlisting{./codes/line_intersect.py}
 \item
-Using the code in Problem \ref{prob:median}, verify that $\vec{G}$ is the point of intersection of $BE,CF$ as 
+%Using the code in Problem \ref{prob:median}, 
+Verify that $\vec{G}$ is the point of intersection of $BE,CF$ as 
 well as
 $AD,BE$.  $\vec{G}$ is known as the {\em centroid} of $\Delta ABC$.
-\\
+%\\
 \item
 Graphically show that the medians of $\Delta ABC$ meet at the centroid.
-\\
+%\\
 \item
 Verify that
 \begin{equation}
-G = \frac{A+B+C}{3}
+\vec{G} = \frac{\vec{A}+\vec{B}+\vec{C}}{3}
 \end{equation}
 \end{enumerate}
-\section{Angle Bisectors of a Triangle}
+\section{Incircle}
 %
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
 
-\item
+\item Consider a circle with centre $\vec{I}$ and radius $r$ that lies within $\triangle ABC$ and touches 
+$BC, CA$ and $AB$ at $\vec{U}, \vec{V}$ and $\vec{W}$ respectively.
+
+\item Show that $IU \perp BC$.
+\\
+\solution Let $\vec{x}_1,\vec{x}_2$ be two points on the circle such that 
+$x_1x_2 \parallel BC$. Then
+%
+\begin{align}
+\norm{\vec{x}_1-\vec{I}}^2- 
+\norm{\vec{x}_2-\vec{I}}^2 &= 0 
+\\
+\implies 
+\brak{\vec{x}_1-\vec{x}_2}^T\brak{\frac{\vec{x}_1+\vec{x}_2}{2}-\vec{I}} &= 
+0 
+\\
+\implies 
+\brak{\vec{B}-\vec{C}}^T\brak{\frac{\vec{x}_1+\vec{x}_2}{2}-\vec{I}} &= 
+0 
+%\label{eq:circle_bisect}
+\end{align}
+%
+For $\vec{x}_1=\vec{x}_2=\vec{U}$, $x_1x_2$ merges into $BC$ and the above 
+equation becomes 
+%
+\begin{align}
+\brak{\vec{B}-\vec{C}}^T\brak{\vec{U}-\vec{I}} = 
+0 
+\implies OD \perp BC
+%\label{eq:circle_bisect}
+\end{align}
+\item Find an expression for $r$ if $\vec{I}$ is known.
+\\
+\solution Let $\vec{n}$ be the normal vector of $BC$.  The equation for $BC$ is then given by
+\begin{align}
+\vec{n}^T\brak{\vec{x}-\vec{B}} &= 0
+\\
+\implies \vec{n}^T\brak{\vec{U}-\vec{B}} &= 0
+\label{eq:incirc_ub}
+\end{align}
+since $\vec{U}$ lies on $BC$.
+Since $IU \perp BC$, 
+\begin{align}
+\label{eq:incirc_iu}
+\vec{I}&=\vec{U}+\lambda\vec{n}
+\\
+\implies \vec{I}-\vec{U}&=\lambda\vec{n}
+\\
+\text{or}\quad r=\norm{\vec{I}-\vec{U}}&=\abs{\lambda}\norm{\vec{n}}
+\label{eq:incirc_r}
+\end{align}
+From \eqref{eq:incirc_ub} and \eqref{eq:incirc_iu}
+\begin{align}
+\vec{n}^T\vec{I}&=\vec{n}^T\vec{B}+\lambda\vec{n}^T\vec{n}
+\\
+\implies \vec{n}^T\brak{\vec{I}-\vec{B}}&=\lambda\norm{\vec{n}}^2
+\\
+\implies r = \abs{\lambda}\norm{\vec{n}}&=\frac{\abs{\vec{n}^T\brak{\vec{I}-\vec{B}}}}{\norm{\vec{n}}}
+\end{align}
+from \eqref{eq:incirc_r}.  Letting 
+\begin{align}
+\norm{\vec{n}_1}&= \frac{\vec{n}}{\norm{\vec{n}}},
+\\
+r &= \abs{\vec{n}_1^T\brak{\vec{I}-\vec{B}}}
+\end{align}
+\item Show that 
+\begin{align}
+r = \frac{\abs{\brak{\vec{B}-\vec{C}}^T\brak{\vec{I}-\vec{B}}}}{\norm{\vec{B}-\vec{C}}}
+\end{align}
+\solution Since $\vec{U}$ lies on $BC$,
+\begin{align}
+\vec{U} = \vec{B} + \lambda\brak{\vec{B}-\vec{C}}
+\end{align}
+
+\begin{align}
+r = \norm{\vec{I}-\vec{U}}
+\end{align}
+
+\item 
+\item Find $\vec{U}$
+\\
+\solution Since $\vec{U}$ lies on $BC$,
+\begin{align}
+\vec{n}_{BC}^T\brak{\vec{U}-\vec{B}} = 0
+\end{align}
+%
+where $\vec{n}_{BC}$ is the normal vector of $BC$.  Sinc $IU \perp BC$, 
+\begin{align}
+\vec{B-C}^T = \vec{B}+\lambda\brak{\vec{B}-\vec{A}}
+\end{align}
+%
+Since $\vec{U}$ lies on the circle, 
+\begin{align}
+\brak{\vec{U} -\vec{I}}^T \brak{\vec{U} -\vec{I}} = c^2
+\end{align}
+
+\item 
 In $\Delta ABC$, let $U$ be a point on $BC$ such that $\angle BAU = \angle CAU$. Then $AU$ is known as the {\em angle bisector}.
 
-\item
 Find the length of $AB,BC$ and $CA$
 \\
 \solution The length of $CA$ is given by
