@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.1)  2 MAR 2019 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  8 MAR 2019 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **gvv_linalg.tex
 (./gvv_linalg.tex
 LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 85 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IE
 EEtran.cls
@@ -1347,23 +1347,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 781.
 (./gvv_linalg.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 781.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 781.
-
-
-Package rerunfilecheck Warning: File `gvv_linalg.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gvv_linalg.out':
-(rerunfilecheck)             Before: C3B790C934852F49C49FB53CAB4B72FA;303
-(rerunfilecheck)             After:  73830AD8A977A1329CC690E025A6700E;351.
+Package rerunfilecheck Info: File `gvv_linalg.out' has not changed.
+(rerunfilecheck)             Checksum: 73830AD8A977A1329CC690E025A6700E;351.
  ) 
 Here is how much of TeX's memory you used:
- 24007 strings out of 492645
- 473119 string characters out of 6118921
- 580125 words of memory out of 5000000
- 27449 multiletter control sequences out of 15000+600000
+ 24008 strings out of 494591
+ 473130 string characters out of 6176027
+ 575164 words of memory out of 5000000
+ 27199 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
+ 17 hyphenation exceptions out of 8191
  54i,19n,67p,796b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg.dvi (5 pages, 58588 bytes).
+Output written on gvv_linalg.dvi (5 pages, 58904 bytes).
