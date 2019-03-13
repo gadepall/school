@@ -17,7 +17,6 @@ def line_gen(A,B):
     x_AB[:,i]= temp1.T
   return x_AB
 
-
 A = np.array([-2,-2]) 
 B = np.array([1,3]) 
 dvec = np.array([-1,1]) 
