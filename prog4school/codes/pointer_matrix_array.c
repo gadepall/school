@@ -12,7 +12,7 @@ int  main() //main function begins
 
 //Defining the variables
 int m,n;//integers
-double **a,det;
+double **A,det;
 
 printf("Enter the size of the matrix m  n \n");
 scanf("%d %d", &m,&n);
@@ -26,7 +26,7 @@ A[1][1] = -1;
 
 det = A[0][0]*A[1][1]-A[0][1]*A[1][0];
 printf("%f\n",det);
-
+free(A);
 return 0;
 }
 

@@ -286,6 +286,11 @@ Find $\det(\vec{A})$.
 \\
 \solution The following routine finds the determinant.
 \lstinputlisting{./codes/mydet.py}
+\item Write a program to check if two lines intersect.
+\\
+\solution Two lines intersect if $\det\brak{\vec{A}} \ne 0$.  The following
+code checks for this condtion.
+\lstinputlisting[language=C]{./codes/consistent.py}
 
 
 \item Find $\vec{A}^{-1}$.
@@ -347,19 +352,6 @@ number of terms 20.  Write your own linspace function and verify.
 \solution The code is available below.
 \lstinputlisting{./codes/arith_seq.py}
 \end{enumerate}
-\section{Exercises}
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
-\item A geometric sequence is defined as
-\begin{align}
-\label{eq:geo}
-t_{n-1} = t_0r^{n-1}
-\end{align}
-Write a function for generating a geometric sequence from $t_0, r$ and $n$.
-\item Write a program to find the sum of the first  $n$ terms of an arithmetic sequence.
-\item Write a program to find the sum of the first  $n$ terms of a geometric sequence.
-\item Write a program to check if two lines intersect.
-\end{enumerate}
 \section{C programming}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
@@ -381,10 +373,23 @@ so that Python is used only for plotting.
 \\
 \solution
 \lstinputlisting[language=C]{./codes/pointer_matrix_array.c}
+
+\end{enumerate}
+\section{C programming exercises}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
 \item Write a program to find $\vec{A}^{-1}$ and print it.
 \item Write a function to print $\vec{A}^{-1}$.
 \item Write a function to find $\vec{A}^{-1}$.
 \item Write a program to find $\vec{A}^{-1}\vec{c}$.
+\item A geometric sequence is defined as
+\begin{align}
+\label{eq:geo}
+t_{n-1} = t_0r^{n-1}
+\end{align}
+Write a function for generating a geometric sequence from $t_0, r$ and $n$.
+\item Write a program to find the sum of the first  $n$ terms of an arithmetic sequence.
+\item Write a program to find the sum of the first  $n$ terms of a geometric sequence.
 
 \end{enumerate}
 

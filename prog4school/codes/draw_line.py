@@ -3,7 +3,6 @@
 #released under GNU GPL
 import numpy as np
 import matplotlib.pyplot as plt
-from coeffs import *
 
 #if using termux
 import subprocess
