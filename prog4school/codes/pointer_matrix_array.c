@@ -5,6 +5,8 @@
 
 //Function declaration
 double **createMat(int m,int n);
+void readMat(int m,int n,double **p);
+void print(int m,int n,double **p);
 //End function declaration
 
 int  main() //main function begins
@@ -12,21 +14,17 @@ int  main() //main function begins
 
 //Defining the variables
 int m,n;//integers
-double **A,det;
+double **a;
 
 printf("Enter the size of the matrix m  n \n");
 scanf("%d %d", &m,&n);
 
 
-A = createMat(m,n);//creating the matrix a
-A[0][0] = 1;
-A[0][1] = 1;
-A[1][0] = 3;
-A[1][1] = -1;
+printf("Enter the values of the matrix\n");
+a = createMat(m,n);//creating the matrix a
+readMat(m,n,a);//reading values into the matrix a
+print(m,n,a);//printing the matrix a
 
-det = A[0][0]*A[1][1]-A[0][1]*A[1][0];
-printf("%f\n",det);
-free(A);
 return 0;
 }
 
@@ -47,3 +45,31 @@ a = (double **)malloc(m * sizeof( *a));
 //End function for matrix creation
 
 
+//Defining the function for reading matrix 
+void readMat(int m,int n,double **p)
+{
+ int i,j;
+ for(i=0;i<m;i++)
+ {
+  for(j=0;j<n;j++)
+  {
+   scanf("%lf",&p[i][j]);
+  }
+ }
+}
+//End function for reading matrix
+
+
+
+//Defining the function for printing
+void print(int m,int n,double **p)
+{
+ int i,j;
+
+ for(i=0;i<m;i++)
+ {
+  for(j=0;j<n;j++)
+  printf("%lf ",p[i][j]);
+ printf("\n");
+ }
+}
