@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  31 MAR 2019 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  31 MAR 2019 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1306,6 +1306,12 @@ File: tlc.eps Graphic file (type eps)
 tlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 ) (./codes/draw_line.py
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [1
+
+
+]
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 18.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
@@ -1314,47 +1320,44 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 18.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-
-])
+)
 File: ./figs/draw_line.eps Graphic file (type eps)
-
-<./figs/draw_line.eps>
+ <./figs/draw_line.eps>
 File: ./figs/triangle.eps Graphic file (type eps)
- <./figs/triangle.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
+ <./figs/triangle.eps> [2]
 File: ./figs/alt_triangle.eps Graphic file (type eps)
 
 <./figs/alt_triangle.eps>
+Underfull \vbox (badness 1320) has occurred while \output is active []
+
 File: ./figs/circumcircle.eps Graphic file (type eps)
- <./figs/circumcircle.eps> [3]
+
+<./figs/circumcircle.eps> [3]
 File: ./figs/incircle.eps Graphic file (type eps)
- <./figs/incircle.eps>
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
+ <./figs/incircle.eps> [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 718.
  [5
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
- (./gvv_python_2d.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 706.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 706.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 718.
+
+(./gvv_python_2d.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 718.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 718.
 Package rerunfilecheck Info: File `gvv_python_2d.out' has not changed.
 (rerunfilecheck)             Checksum: 5F934A4373222ADFCB9C4AD174597373;243.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  24470 strings out of 494591
  477581 string characters out of 6176027
- 875938 words of memory out of 5000000
+ 913613 words of memory out of 5000000
  27651 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 54i,14n,67p,799b,2100s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,14n,67p,799b,2096s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_python_2d.dvi (5 pages, 59712 bytes).
+Output written on gvv_python_2d.dvi (5 pages, 61220 bytes).

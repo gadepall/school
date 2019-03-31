@@ -297,6 +297,14 @@ and can be obtained as
 \\
 &= \myvec{0\times 3 + 1 \times 5  \\ -1\times 3 + 0 \times 5}=\myvec{5\\-3}
 \end{align}
+\item Verify \eqref{eq:line_nor}.
+\\
+\solution 
+\begin{align}
+\vec{n}^T\vec{m} &= \myvec{5\\-3}^T\myvec{3\\5} = \myvec{5 & -3}\myvec{3\\5}
+\\
+ &= 5 \times 3 + (-3)\times 5 = 0 
+\end{align}
 \item Find the equation of $AB$.
 \\
 \solution  The desired equation is obtained as
@@ -352,11 +360,15 @@ vector.
 \solution The desired equation is
 \begin{align}
 \label{eq:line_norm}
-\vec{n}^T\brak{\vec{x} - \vec{A}}=\vec{n}^T\brak{\vec{x} - \vec{B}}&= 0
+\vec{n}^T\brak{\vec{x} - \vec{A}}&= 0
 \\
 \implies \myvec{5&-3}\vec{x} = -\myvec{5&-3}\myvec{2\\2} &= -4
 \end{align}
 %
+\item Verify that the above equation can be obtained by 
+\begin{align}
+\vec{n}^T\brak{\vec{x} - \vec{B}} = 0
+\end{align}
 \item
 %
 Find the equations of $BC$ and $CA$.
