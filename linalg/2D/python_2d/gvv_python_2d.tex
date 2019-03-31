@@ -257,36 +257,14 @@ This manual introduces matrix computations using python and the properties of a 
 Let
 \begin{equation}
 \vec{A} =
-\begin{pmatrix}
--2
-\\
--2
-\end{pmatrix},
+\myvec{-2\\-2},
 \vec{B} =
-\begin{pmatrix}
-1
-\\
-3
-\end{pmatrix},
+\myvec{1\\3},
 \vec{C} =
-\begin{pmatrix*}[r]
-4
-\\
--1
-\end{pmatrix*}.
+\myvec{4\\-1},
 \end{equation}
 %
-Find the equation of $AB$.
-\\
-\solution  The desired equation is obtained as
-\begin{align}
-\label{eq:line_dir}
-AB: \quad \vec{x} &= \vec{A}+ \lambda_1 \brak{\vec{B}-\vec{A}}
-\\
-&= -\myvec{2\\2}+ \lambda_1\myvec{3\\5}
-\end{align}
-%
-\item Find the direction vector and the normal vector for $AB$
+Find the direction vector and the normal vector for $AB$
 \\
 \solution 
 %Let
@@ -298,23 +276,50 @@ The direction vector of $AB$ is
 \label{eq:dir_vec}
 \vec{m} &= \vec{B}-\vec{A} 
 \\
-%= T_{AB} \myvec{-1 \\ 1} 
-&= \myvec{3\\5}
+&=  
+\myvec{1 \\ 3} - \myvec{-2\\-2}
+\\
+&= \myvec{1-(-2)\\3-(-2)}=\myvec{3\\5}
 \end{align}
 %
-The normal vector $\vec{n}$ is defined as
+\item Find the {\em normal} vector of $AB$.
+\\
+\solution The normal vector $\vec{n}$ is defined as
 \begin{align}
 \label{eq:line_nor}
 \vec{n}^T\vec{m} &= 0
-\\
-\implies \vec{n}&= \myvec{0 & 1 \\ -1 & 0}\vec{m} 
+\end{align}
+and can be obtained as
+\begin{align}
+\vec{n}&= \myvec{0 & 1 \\ -1 & 0}\vec{m} 
 \\
 &=\myvec{0 & 1 \\ -1 & 0}\myvec{3\\5}
 \\
-&= \myvec{5\\-3}
+&= \myvec{0\times 3 + 1 \times 5  \\ -1\times 3 + 0 \times 5}=\myvec{5\\-3}
+\end{align}
+\item Find the equation of $AB$.
+\\
+\solution  The desired equation is obtained as
+\begin{align}
+\label{eq:line_dir}
+\quad \vec{x} &= \vec{A}+ \lambda \brak{\vec{B}-\vec{A}}
+\\
+&= -\myvec{2\\2}+ \lambda\myvec{3\\5}
 \end{align}
 %
-Draw $\Delta ABC$.
+\item Draw the line $AB$
+\\
+\solution The following code plots $AB$ in Fig. \ref{fig:draw_line}
+\lstinputlisting[language=python]{./codes/draw_line.py}
+%
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/draw_line.eps}
+\caption{}
+\label{fig:draw_line}
+\end{figure}
+
+\item Draw $\triangle ABC$.
 \\
 \solution
 The following codes yields the desired plot in Fig. \ref{fig:triangle_def}
