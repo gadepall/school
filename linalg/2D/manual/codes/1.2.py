@@ -1,54 +1,72 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from coeffs import *
 
-def normal_vector(v):
-	#returns normal vector of v
-	omat = np.array([[0,1],[-1,0]])
-	return np.matmul(omat,v)
+#if using termux
+import subprocess
+import shlex
+#end if
 
-def plot_point(A,s):
-	plt.plot(A[0],A[1],'o')
-	plt.annotate(s,xy=(A[0],A[1]))
+#setting up plot
+ax = plt.figure().add_subplot(111, aspect='equal')
 
-def plot_line_bw_points(A,B,s):
-	plt.plot([A[0],B[0]],[A[1],B[1]],label=s)
+#defining points
+A =  np.array([1.0,2.0])
 
-def plot_line_from_eqn(slope, intercept , labelstr):
-    axes = plt.gca()
-    axes.set_xlim([-10,10])
-    axes.set_ylim([-10,10])
-    x_vals = np.array(axes.get_xlim())*1000
-    y_vals = intercept + slope * x_vals
-    plt.plot(x_vals, y_vals, label=labelstr)
+#Normal vectors
+n_1 = np.array([1.0,1.0])
+n_2 = np.array([1.0,0])
+#Normal matrix
+N = np.vstack((n_1,n_2))
 
-def plot_vert_line(x,s):
-	plt.axvline(x,label=s)
 
-A = np.array([1.0,2.0])
-plot_point(A,"A")
+#finding centroid O
+c = np.array([5,4])
+O = np.linalg.inv(N)@c
+print(O)
 
-#line BO
-m1, s1 = -1, 5
-plot_line_from_eqn(m1,s1,"BO")
-#line CO
-plot_vert_line(4.0,"CO")
+#finding vertex C
+c_1 =  np.array([7,4])
+C = np.linalg.inv(N)@c_1
 
-O=np.linalg.inv(np.array([[1, 1],[1, 0]])) @ np.array([[5],[4]])
+#finding vertex B
+B = np.array([11,1]) - C
+
+#printing points
+print("A=\n",A)
 print ("O=\n",O)
-plot_point(O,"O")
-
-C = np.linalg.inv(np.array([[1, 1],[1, 0]])) @ np.array([[7],[4]])
 print ("C=\n",C)
-plot_point(C,"C")
-
-B = np.array([[11],[1]]) - C
 print ("B=\n",B)
-plot_point(B,"B")
 
-plot_line_bw_points(A,B,"AB")
-plot_line_bw_points(C,B,"BC")
-plot_line_bw_points(A,C,"CA")
+#Generating all lines
+x_AB = line_gen(A,B)
+x_BC = line_gen(B,C)
+x_CA = line_gen(C,A)
 
-plt.xlabel('$x$');plt.ylabel('$y$')
-plt.legend(loc='best');plt.grid()
-plt.show()
+#Plotting all lines
+plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
+plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
+plt.plot(x_CA[0,:],x_CA[1,:],label='$CA$')
+
+plt.plot(O[0], O[1], 'o')
+plt.text(O[0] * (1 + 0.1), O[1] * (1 - 0.1) , 'O')
+plt.plot(A[0], A[1], 'o')
+plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.1) , 'A')
+plt.plot(B[0], B[1], 'o')
+plt.text(B[0] * (1 - 0.05), B[1] * (1) , 'B')
+plt.plot(C[0], C[1], 'o')
+plt.text(C[0] * (1 + 0.03), C[1] * (1 - 0.1) , 'C')
+
+ax.plot()
+
+plt.xlabel('$x$')
+plt.ylabel('$y$')
+plt.legend(loc='best')
+plt.grid() # minor
+
+#if using termux
+plt.savefig('../figs/triangle.pdf')
+plt.savefig('../figs/triangle.eps')
+subprocess.run(shlex.split("termux-open ../figs/triangle.pdf"))
+#else
+#plt.show()
