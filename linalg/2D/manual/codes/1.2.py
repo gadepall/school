@@ -23,7 +23,6 @@ N = np.vstack((n_1,n_2))
 #finding centroid O
 c = np.array([5,4])
 O = np.linalg.inv(N)@c
-print(O)
 
 #finding vertex C
 c_1 =  np.array([7,4])
@@ -32,11 +31,18 @@ C = np.linalg.inv(N)@c_1
 #finding vertex B
 B = np.array([11,1]) - C
 
+#Area of triangle ABC
+#tri_mat = np.vstack((np.hstack(((A,B,C)),np.ones(3,1)))
+tri_mat = np.vstack((A,B,C))
+tri_mat = np.hstack(((tri_mat),np.ones((3,1))))
+#print(np.transpose(A.T))
+
 #printing points
 print("A=\n",A)
 print ("O=\n",O)
 print ("C=\n",C)
 print ("B=\n",B)
+print ("Area=\n",0.5*np.linalg.det(tri_mat))
 
 #Generating all lines
 x_AB = line_gen(A,B)
