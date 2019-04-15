@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  14 APR 2019 09:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  15 APR 2019 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1314,12 +1314,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [2]
+File: ./figs/reflection.eps Graphic file (type eps)
+ <./figs/reflection.eps>
 File: ./figs/locus.eps Graphic file (type eps)
  <./figs/locus.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3579) has occurred while \output is active []
 
  [3]
 (./figs/conics.tex
@@ -1329,16 +1328,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \gnumericColA=\skip69
 \gnumericColB=\skip70
 \gnumericColC=\skip71
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Overfull \hbox (2.42593pt too wide) detected at line 785
-[]
- []
-
-
-Overfull \hbox (2.6579pt too wide) detected at line 792
+) [4]
+Overfull \hbox (2.42593pt too wide) detected at line 791
 []
  []
 
@@ -1346,38 +1337,40 @@ Overfull \hbox (2.6579pt too wide) detected at line 792
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 2334) has occurred while \output is active []
+Overfull \hbox (2.6579pt too wide) detected at line 798
+[]
+ []
+
+
+Underfull \vbox (badness 3291) has occurred while \output is active []
 
  [5]
-Underfull \vbox (badness 2903) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1172.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1178.
 
 [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1178.
  (./gvv_2d.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1172.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1178.
 
 Package rerunfilecheck Info: File `gvv_2d.out' has not changed.
 (rerunfilecheck)             Checksum: 96EA3C894A33A2B5D6EFDB8B0D070562;408.
  ) 
 Here is how much of TeX's memory you used:
- 24296 strings out of 494591
- 475335 string characters out of 6176027
+ 24300 strings out of 494591
+ 475420 string characters out of 6176027
  589160 words of memory out of 5000000
- 27488 multiletter control sequences out of 15000+600000
+ 27491 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 54i,19n,67p,792b,1146s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,19n,67p,792b,1151s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_2d.dvi (8 pages, 102348 bytes).
+Output written on gvv_2d.dvi (8 pages, 104212 bytes).

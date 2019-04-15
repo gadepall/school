@@ -468,17 +468,11 @@ L: \quad \myvec{1 & -1}\vec{x} &= 0
 %\\
 %\text{or},\quad \vec{n}^T\vec{x} = c
 \end{align}
-%\begin{figure}
-%\centering
-%\includegraphics[width=\columnwidth]{./figs/reflection.eps}
-%\caption{}
-%\label{fig:locus}
-%\end{figure}
 \solution The reflection of $\vec{P}$ about  $L$ is given by
 \begin{align}
 \label{eq:reflect_bisect}
 \frac{\vec{R}}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{P} + c 
-\vec{n}
+\frac{\vec{n}}{\norm{\vec{n}}}
 \end{align}
 %
 where 
@@ -501,6 +495,18 @@ in \eqref{eq:reflect_bisect},
 \frac{\vec{R}}{2} &= \frac{\myvec{1 & 1 \\ 1 & 1}-\myvec{1 & -1 \\ -1 & 1} }{4}\myvec{4 \\ 1}
 \implies \vec{R} &= \myvec{1 \\ 4}
 \end{align}
+\item Summarize all the above computations through a Python script and plot $L, P, R$.
+\\
+\solution The following code generates Fig. \ref{fig:reflection}.
+\begin{lstlisting}
+wget https://github.com/gadepall/school/raw/master/linalg/2D/manual/codes/3.1.py
+\end{lstlisting}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/reflection.eps}
+\caption{}
+\label{fig:reflection}
+\end{figure}
 
 \item   $\vec{R}$ is translated through a distance 2 units along the positive direction of x-axis to obtain
 $\vec{S}$.  Find $\vec{S}$.
