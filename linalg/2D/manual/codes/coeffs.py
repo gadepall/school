@@ -18,10 +18,10 @@ def line_gen(A,B):
   return x_AB
 
 #Generate line points
-def line_dir_pt(m,A):
+def line_dir_pt(m,A,k1,k2):
   len =10
   x_AB = np.zeros((2,len))
-  lam_1 = np.linspace(0,1,len)
+  lam_1 = np.linspace(k1,k2,len)
   for i in range(len):
     temp1 = A + lam_1[i]*m
     x_AB[:,i]= temp1.T
