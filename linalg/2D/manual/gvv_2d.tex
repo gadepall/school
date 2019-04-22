@@ -643,13 +643,47 @@ Show that  \eqref{eq:quadratic} can be expressed as
 \end{equation}
 %
 Find the matrix $V$ and vector $\vec{u}$.
-\item The tangent to \eqref{eq:quadratic} at a point $\vec{p}$ on the curve is given by
-\begin{equation}
-\myvec{\vec{p}^T & 1}\myvec{V & \vec{u} \\ \vec{u}^T & F} \myvec{\vec{x} \\ 1} = 0
-\label{eq:tangent_one}
-\end{equation}
+\item Show that 
+\begin{align}
+\frac{d\brak{\vec{u}^T\vec{x}}}{d\vec{x}} = \vec{u}^T 
+%+ \frac{d\vec{x}}{dx_1}V^T
+%= 0
+\end{align}
+\item Show that 
+\begin{align}
+\frac{d\brak{\vec{x}^TV\vec{x}}}{d\vec{x}} = 2\vec{x}^T V
+\end{align}
+\item Show that 
+\begin{align}
+\frac{d\vec{x}}{dx_1} = \vec{m}
+\end{align}
 %
-Show that \eqref{eq:tangent_one} can be expressed as
+\item Find the normal vector to the curve in \eqref{eq:quadratic_vec} at 
+point $\vec{p}$.
+\\
+\solution Differentiating \eqref{eq:quadratic_vec} with respect to 
+$x_1$,
+\begin{align}
+\frac{d\brak{\vec{x}^TV\vec{x}}}{d\vec{x}}\frac{d\vec{x}}{dx_1}+\frac{d\brak{\vec{u}^T\vec{x}}}{d\vec{x}}\frac{d\vec{x}}{dx_1}
+&= 0
+\\
+\implies 2\vec{x}^TV\vec{m}+2\vec{u}^T\vec{m}
+& = 0  \because \brak{\frac{d\vec{x}}{dx_1} = \vec{m}}
+\end{align}
+Substituting  $\vec{x} = \vec{p}$ and simplifying
+\begin{align}
+\brak{ \vec{p}V+\vec{u}}^T\vec{m} & = 0 
+\\
+\implies \vec{n} &= \vec{p}V+\vec{u}
+\end{align}
+\item Show that the tangent to \eqref{eq:quadratic} at a point $\vec{p}$ on 
+the curve is given by
+%\begin{equation}
+%\myvec{\vec{p}^T & 1}\myvec{V & \vec{u} \\ \vec{u}^T & F} \myvec{\vec{x} \\ 1} = 0
+%\label{eq:tangent_one}
+%\end{equation}
+%
+%Show that \eqref{eq:tangent_one} can be expressed as
 \begin{equation}
 \brak{\vec{p}^TV+\vec{u}^T}\vec{x} + \vec{p}^T\vec{u} +F = 0
 \label{eq:tangent}
@@ -657,7 +691,7 @@ Show that \eqref{eq:tangent_one} can be expressed as
 \item Classify the various conic sections based on $\eqref{eq:quadratic_vec}$.
 \\
 \solution 
-\begin{table}[!hb]
+\begin{table}[!ht]
 \centering
 \input{./figs/conics.tex}
 \caption{}
