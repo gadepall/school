@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  8 MAR 2019 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  23 APR 2019 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,22 +1341,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2119) has occurred while \output is active []
 
  [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 781.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 781.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 875.
 
-(./gvv_linalg.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 781.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 781.
+[6
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 875.
+ (./gvv_linalg.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 875.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 875.
 Package rerunfilecheck Info: File `gvv_linalg.out' has not changed.
-(rerunfilecheck)             Checksum: 73830AD8A977A1329CC690E025A6700E;351.
+(rerunfilecheck)             Checksum: 8C0B29CC5E7C91B15362EF7072B997DD;394.
  ) 
 Here is how much of TeX's memory you used:
- 24008 strings out of 494591
- 473130 string characters out of 6176027
+ 24017 strings out of 494591
+ 473261 string characters out of 6176027
  575164 words of memory out of 5000000
- 27199 multiletter control sequences out of 15000+600000
+ 27208 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  54i,19n,67p,796b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg.dvi (5 pages, 58904 bytes).
+Output written on gvv_linalg.dvi (6 pages, 66884 bytes).

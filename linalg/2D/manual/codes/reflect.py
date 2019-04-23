@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from numpy import linalg as LA
 from coeffs import *
 
 #if using termux
