@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 from funcs import *
 import numpy as np
 
+#if using termux
+import subprocess
+import shlex
+#end if
+
 #creating x,y for 3D plotting
 xx, yy = np.meshgrid([-30,10], range(50))
 #setting up plot
@@ -23,6 +28,9 @@ c1 = -3
 l1_p = line_dir_pt(l1,A1)
 l2_p = line_dir_pt(l2,A2)
 
+#finding cross product
+
+
 #plotting line
 plt.plot(l1_p[0,:],l1_p[1,:],l1_p[2,:],label="Line L1")
 plt.plot(l2_p[0,:],l2_p[1,:],l2_p[2,:],label="Line L2")
@@ -36,4 +44,12 @@ ax.plot_surface(xx, yy, z1, color='r',alpha=0.2)
 #show plot
 plt.xlabel('$x$');plt.ylabel('$y$')
 plt.legend(loc='best');plt.grid()
-plt.show()
+#if using termux
+plt.savefig('../figs/2.2.pdf')
+plt.savefig('../figs/2.2.eps')
+subprocess.run(shlex.split("termux-open ../figs/2.2.pdf"))
+#else
+#plt.show()
+
+	
+

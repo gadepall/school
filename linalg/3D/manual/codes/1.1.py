@@ -39,7 +39,7 @@ ax.plot_surface(xx, yy, z1, color='r',alpha=0.2)
 ax.plot_surface(xx, yy, z2, color='b',alpha=0.2)
 
 #plotting line
-plt.plot(l1_p[0,:],l1_p[1,:],l1_p[2,:],label="Line L")
+plt.plot(l1_p[0,:],l1_p[1,:],l1_p[2,:],label="Line $L_1$")
 
 
 plt.xlabel('$x$');plt.ylabel('$y$')

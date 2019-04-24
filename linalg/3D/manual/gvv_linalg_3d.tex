@@ -310,7 +310,22 @@ Show that its equation is
 \vec{x} = \frac{1}{7}\myvec{ 5 \\ 8 \\ 0} + \lambda_2 \myvec{ -3 \\ 5 \\ 7}
 \label{eq:l2}
 \end{align}
-\item Do $L_1$ and $L_2$ intersect? If so, find their point of intersection.
+\item Plot 
+$L_2$.
+\\
+\solution The following code generates Fig. \ref{fig:1.2}.
+\begin{lstlisting}
+wget 
+https://github.com/gadepall/school/raw/master/linalg/3D/manual/codes/1.2.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/1.2.eps}
+\caption{}
+\label{fig:1.2}
+\end{figure}
+
+\item Do $L_1$ and $L_2$ intersect? If so, find their point of intersection $P$.
 \\
 \solution From \eqref{eq:l1},\eqref{eq:l2}, the point of intersection is given by
 \begin{align}
@@ -334,6 +349,19 @@ Substituting $\lambda_1 = 4$ in \eqref{eq:l1l2pt}
 \begin{align}
 \vec{x} = \myvec{4 \\ 4 \\ 0} + \myvec{-5 \\ 0 \\ 4} = \myvec{-1\\ 4\\ 4}
 \end{align}
+\item Plot $P$.
+\\
+\solution The following code generates Fig. \ref{fig:1.3}.
+\begin{lstlisting}
+wget 
+https://github.com/gadepall/school/raw/master/linalg/3D/manual/codes/1.3.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/1.3.eps}
+\caption{}
+\label{fig:1.3}
+\end{figure}
 \end{enumerate}
 \section{Normal to a Plane}
 \begin{enumerate}[label=\thesection.\arabic*
@@ -355,6 +383,19 @@ respectively. Find the direction vector of the normal to the plane spanned by $L
  \myvec{0 & 0 & 1 \\ 0 & 0 & -1 \\ -1 & 1 & 0}\myvec{-3 \\ 5 \\ 7}
 = \myvec{7 \\ -7 \\ 8} = \vec{n}
 \end{align}
+\item Summarize all the above computations through a plot 
+\\
+\solution The following code generates Fig. \ref{fig:2.1}.
+\begin{lstlisting}
+wget 
+https://github.com/gadepall/school/raw/master/linalg/3D/manual/codes/2.1.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/2.1.eps}
+\caption{}
+\label{fig:2.1}
+\end{figure}
 \item Find the equation of the plane spanned by $L_1$ and $L_2$.
 \\
 \solution Let $\vec{x}_0$ be the intersection of $L_1$ and $L_2$.  Then the equation of the plane is
@@ -365,6 +406,19 @@ respectively. Find the direction vector of the normal to the plane spanned by $L
 \\
 \implies \vec{x}^T\myvec{7 \\ -7 \\ 8} &= \myvec{-1 & 4 & 4}\myvec{7 \\ -7 \\ 8} =  -3
 \end{align}
+\item Summarize  the above through a plot. 
+\\
+\solution The following code generates Fig. \ref{fig:2.2}.
+\begin{lstlisting}
+wget 
+https://github.com/gadepall/school/raw/master/linalg/3D/manual/codes/2.2.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/2.2.eps}
+\caption{}
+\label{fig:2.2}
+\end{figure}
 \item
 Find the distance of the origin from the plane containing the lines $L_1$ and $L_2$.
 \\
@@ -390,6 +444,19 @@ Find the distance of the origin from the plane containing the lines $L_1$ and $L
 &= \myvec{4 \\ -1 \\ 3} + \lambda \myvec{1 \\ 0 \\ 1}
 \label{eq:Lproj}
 \end{align}
+\item Plot the above line. 
+\\
+\solution The following code generates Fig. \ref{fig:3.1}.
+\begin{lstlisting}
+wget 
+https://github.com/gadepall/school/raw/master/linalg/3D/manual/codes/3.1.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/3.1.eps}
+\caption{}
+\label{fig:3.1}
+\end{figure}
 \item Find the intersection of $L$ and the plane $P$ given by
 \begin{equation}
 \myvec{1 & 1 & 1}\vec{x} = 7
@@ -410,6 +477,19 @@ Substituting in \eqref{eq:Lproj},
 \begin{equation}
 \vec{x} = \frac{1}{2}\myvec{9 & -1 & 7}
 \end{equation}
+\item Sketch the line, plane and the point of intersection.
+\\
+\solution The following code generates Fig. \ref{fig:3.2}.
+\begin{lstlisting}
+wget 
+https://github.com/gadepall/school/raw/master/linalg/3D/manual/codes/3.2.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/3.2.eps}
+\caption{}
+\label{fig:3.2}
+\end{figure}
 \item Find $\vec{C} \in P$  such that $AC \perp P$.  
 \\
 \solution From \eqref{eq:Pproj}, the direction vector of $AC$ is $\myvec{1 & 1 & 1}^T$.  Hence, the equation of 
@@ -430,6 +510,19 @@ Thus,
 \begin{align}
 \vec{C} = \frac{1}{3}\myvec{14 \\ -4 \\ 11}
 \end{align}
+%\item Summarize the above through a plot.
+%\\
+%\solution The following code generates Fig. \ref{fig:3.3}.
+%\begin{lstlisting}
+%wget 
+%https://github.com/gadepall/school/raw/master/linalg/3D/manual/codes/3.3.py
+%\end{lstlisting}
+%\begin{figure}[!ht]
+%\centering
+%\includegraphics[width=\columnwidth]{./figs/3.3.eps}
+%\caption{}
+%\label{fig:3.3}
+%\end{figure}
 \item Show that if $BD \perp P$  such that $\vec{D} \in P$,
 \begin{equation}
 \vec{D} = \frac{1}{3}\myvec{13 \\ -2 \\ 10}

@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 from funcs import *
 import numpy as np
 
+#if using termux
+import subprocess
+import shlex
+#end if
+
 #creating x,y for 3D plotting
 xx, yy = np.meshgrid(range(10), [-10,10])
 #setting up plot
@@ -38,4 +43,9 @@ ax.plot_surface(xx, yy, z1, color='r',alpha=0.2)
 #show plot
 plt.xlabel('$x$');plt.ylabel('$y$')
 plt.legend(loc='best');plt.grid()
-plt.show()
+#if using termux
+plt.savefig('../figs/3.2.pdf')
+plt.savefig('../figs/3.2.eps')
+subprocess.run(shlex.split("termux-open ../figs/3.2.pdf"))
+#else
+#plt.show()
