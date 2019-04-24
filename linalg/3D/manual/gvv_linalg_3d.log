@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  20 FEB 2019 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  24 APR 2019 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1304,39 +1304,37 @@ File: tlc.eps Graphic file (type eps)
 
 Underfull \vbox (badness 4792) has occurred while \output is active []
 
+File: ./figs/1.1.eps Graphic file (type eps)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+<./figs/1.1.eps> [1
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1888) has occurred while \output is active []
 
  [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
 
-(./gvv_linalg_3d.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 536.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 536.
+[4
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
+ (./gvv_linalg_3d.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 551.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
 Package rerunfilecheck Info: File `gvv_linalg_3d.out' has not changed.
 (rerunfilecheck)             Checksum: F89375E6DD37487E9932E8CD27810417;258.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 23951 strings out of 494591
- 472222 string characters out of 6176027
- 586167 words of memory out of 5000000
- 27148 multiletter control sequences out of 15000+600000
+ 24218 strings out of 494591
+ 474297 string characters out of 6176027
+ 588167 words of memory out of 5000000
+ 27413 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 54i,19n,67p,799b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,19n,67p,799b,1150s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg_3d.dvi (3 pages, 47272 bytes).
+Output written on gvv_linalg_3d.dvi (4 pages, 49868 bytes).
