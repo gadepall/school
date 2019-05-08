@@ -962,13 +962,13 @@ as a matrix equation.
 \\
 \solution  \eqref{eq:parab} can be expressed as
 \begin{align}
-\vec{y}^T\vec{W}\vec{y}+2\vec{g}^T\vec{y} = 0
+\vec{y}^T\vec{D}\vec{y}+2\vec{g}^T\vec{y} = 0
 \label{eq:parab_mat}
 \end{align}
 %
 where 
 \begin{align}
-\vec{W} = \myvec{1 & 0 \\ 0 & 0} 
+\vec{D} = \myvec{1 & 0 \\ 0 & 0} 
 ,
 \vec{g} &= -\frac{1}{2}\myvec{0 \\ 1}
 \label{eq:parab_coeffs}
@@ -994,7 +994,7 @@ and $\vec{P}, \vec{c}$ such that
 Show that
 \begin{align}
 \begin{split}
-\vec{W} &= \vec{P}^T\vec{V}\vec{P}
+\vec{D} &= \vec{P}^T\vec{V}\vec{P}
 \\
 \vec{g} &= \vec{P}^T\brak{\vec{V}\vec{c}+\vec{u}}
 \\
@@ -1024,7 +1024,7 @@ Comparing \eqref{eq:parab_simp} with \eqref{eq:parab_mat} \eqref{eq:parab_parmas
 %
 Find $\vec{P}$ using
 \begin{align}
-\vec{W} = \vec{P}^T\vec{V}\vec{P}
+\vec{D} = \vec{P}^T\vec{V}\vec{P}
 \end{align}
 \item Find $\vec{c}$ from \eqref{eq:parab_parmas}.
 \\
@@ -1065,45 +1065,56 @@ where
 V = \myvec{5 & -3 \\ -3 & 5}, \vec{u} = \myvec{11 \\ -13}
 \label{eq:ellipsevu}
 \end{equation}
-\item Find $\vec{c}$ and $K$ such that 
-\begin{equation}
-\brak{\vec{x}-\vec{c}}^TV\brak{\vec{x}-\vec{c}} = K 
-\label{eq:ellipsec}
-\end{equation}
+%\item Find $\vec{c}$ and $K$ such that 
+%\begin{equation}
+%\brak{\vec{x}-\vec{c}}^TV\brak{\vec{x}-\vec{c}} = K 
+%\label{eq:ellipsec}
+%\end{equation}
+%%
+%\solution \eqref{eq:ellipsec} can be expressed as
+%\begin{align}
+%\vec{x}^TV\vec{x}-2\vec{c}^TV\vec{x} +\vec{c}^TV\vec{c}-K = 0.
+%\end{align}
+%%
+%Comparing with \eqref{eq:ellipse_quadc},
+%\begin{align}
+%V\vec{c}&=-\vec{u}
+%\\
+%\vec{c}^TV\vec{c} - K &=29
+%\\
+%\implies \vec{c} &=-V^{-1}\vec{u} = \myvec{-1 \\ 2},
+%\\
+%\text{and }K& = 8
+%\end{align}
 %
-\solution \eqref{eq:ellipsec} can be expressed as
-\begin{align}
-\vec{x}^TV\vec{x}-2\vec{c}^TV\vec{x} +\vec{c}^TV\vec{c}-K = 0.
-\end{align}
-%
-Comparing with \eqref{eq:ellipse_quadc},
-\begin{align}
-V\vec{c}&=-\vec{u}
-\\
-\vec{c}^TV\vec{c} - K &=29
-\\
-\implies \vec{c} &=-V^{-1}\vec{u} = \myvec{-1 \\ 2},
-\\
-\text{and }K& = 8
-\end{align}
-%
-\item Show that \eqref{eq:ellipsec} can be expressed as
+\item Using the affine transformation in \eqref{eq:parab_affine}, show that 
+\eqref{eq:ellipse_quadc} can be expressed as
 \begin{equation}
 \vec{y}^TD\vec{y}= 1
 \label{eq:ellipseo}
 \end{equation}
 %
-\solution Let 
+where
 \begin{align}
-PDP^T&= V
-\label{eq:ellipse_sd}
+\label{eq:ellipse_parmas_d}
+\vec{D} &= 
+\vec{P}^T\vec{V}\vec{P}
+\\
+\vec{c}&= -\vec{V}^{-1}\vec{u}
+\label{eq:ellipse_parmas_c}
 \end{align}
-For 
-\begin{align}
-\vec{y}= \frac{P^T\brak{\vec{x}-\vec{c}}}{\sqrt{K}},
-\label{eq:ellipse_xy}
-\end{align}
-\eqref{eq:ellipsec} transforms to \eqref{eq:ellipseo}.
+for 
+\begin{equation}
+\vec{P}^\vec{T}\vec{P} = \vec{I}
+\label{eq:ellipse_trans}
+\end{equation}
+%\item 
+%For 
+%\begin{align}
+%\vec{y}= \frac{P^T\brak{\vec{x}-\vec{c}}}{\sqrt{K}},
+%\label{eq:ellipse_xy}
+%\end{align}
+%\eqref{eq:ellipsec} transforms to \eqref{eq:ellipseo}.
 \item If 
 \begin{align}
 D &= \myvec{\lambda_1 & 0 \\ 0 & \lambda_2 }
@@ -1114,11 +1125,6 @@ show that $\brak{\lambda_1, \vec{P}_1}$ and $\brak{\lambda_2, \vec{P}_2}$ satisf
 \begin{equation}
 V\vec{y} = \lambda \vec{y}
 \label{eq:ellipse_eig}
-\end{equation}
-if 
-\begin{equation}
-P^TP = I
-\label{eq:ellipse_trans}
 \end{equation}
 
 \item Find the length of the semi-major and semi-minor axes of $E$.
@@ -1206,6 +1212,21 @@ which is the major axis of $E$.
 +\norm{\vec{x}-\vec{F}_2} =2k
 \end{equation}
 Find $\vec{F}_1, \vec{F}_2$ and $k$.
+\item Summarize all the above computations through a Python script and plot 
+the ellipses in \eqref{eq:ellipse} and \eqref{eq:ellipseo}.
+\\
+\solution The following script plots Fig. \ref{fig:ellipse} using the 
+principles of an affine transformation. 
+\begin{lstlisting}
+https://github.com/gadepall/school/raw/master/linalg/2D/manual/codes/ellipse.py
+\end{lstlisting}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/ellipse.eps}
+\caption{}
+\label{fig:ellipse}
+\end{figure}
+
 \end{enumerate}
 \section{Hyperbola}
 \begin{enumerate}[label=\thesection.\arabic*
