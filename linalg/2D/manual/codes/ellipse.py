@@ -26,7 +26,7 @@ D = np.diag(eigval)
 P = eigvec
 print("D=\n",D)
 print("P=\n",P)
-#Generating points on the circle C1
+#Generating points on the ellipse at origin
 y = np.zeros((2,len))
 y[0,:] = 1/eigval[0]*np.cos(theta)
 y[1,:] = 1/eigval[1]*np.sin(theta)
