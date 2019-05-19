@@ -10,14 +10,14 @@ p = np.zeros(2)
 
 #AP
 n1 = dir_vec(B,C)
-p[0] = np.matmul(n1,A)
+p[0] = n1@A
 #BQ
 n2 = dir_vec(C,A)
-p[1] = np.matmul(n2,B)
+p[1] = n2@B
 
 #Intersection
 N=np.vstack((n1,n2))
-H=np.matmul(np.linalg.inv(N),p)
+H=np.linalg.inv(N)@p
 print(H)
 
 

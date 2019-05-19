@@ -26,10 +26,10 @@ def alt_foot(A,B,C):
   n = np.matmul(omat,m) 
   N=np.vstack((m,n))
   p = np.zeros(2)
-  p[0] = np.matmul(m,A) 
-  p[1] = np.matmul(n,B)
+  p[0] = m@A 
+  p[1] = n@B
   #Intersection
-  P=np.matmul(np.linalg.inv(N.T),p)
+  P=np.linalg.inv(N.T)@p
   return P
 
 #Triangle vertices

@@ -10,11 +10,11 @@ def icentre(A,B,C,k1,k2):
   n2 = t/np.linalg.norm(t)
   t = norm_vec(A,B)
   n3 = t/np.linalg.norm(t)
-  p[0] = np.matmul(n1,B)- k1*np.matmul(n2,C)
-  p[1] = np.matmul(n2,C)- k2*np.matmul(n3,A)
+  p[0] = n1@B- k1*n2@C
+  p[1] = n2@C- k2*n3@A
   N=np.vstack((n1-k1*n2,n2-k2*n3))
   I=np.matmul(np.linalg.inv(N),p)
-  r = np.abs(np.matmul(n1,I-B))
+  r = n1@(I-B)
   #Intersection
   return I,r
 
