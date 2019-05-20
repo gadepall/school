@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.1)  7 MAY 2019 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  9 MAY 2019 08:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **gvv_2d.tex
 (./gvv_2d.tex
 LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 85 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IE
 EEtran.cls
@@ -1358,39 +1358,40 @@ File: ./figs/parab.eps Graphic file (type eps)
 Underfull \vbox (badness 5681) has occurred while \output is active []
 
 
-Underfull \vbox (badness 7468) has occurred while \output is active []
+Underfull \vbox (badness 1968) has occurred while \output is active []
 
  [7]
-
-LaTeX Warning: Reference `eq:ellipse_xy' on page 8 undefined on input line 1183
-.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./figs/ellipse.eps Graphic file (type eps)
 
-<./figs/ellipse.eps> [8] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1368.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1368.
+<./figs/ellipse.eps> [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1388.
+
+[10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1388.
  (./gvv_2d.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1368.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1368.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1388.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1388.
 
 Package rerunfilecheck Info: File `gvv_2d.out' has not changed.
 (rerunfilecheck)             Checksum: 63E327D0C68AD20D920B486C33AC0377;466.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 24322 strings out of 492645
- 475820 string characters out of 6118921
- 594561 words of memory out of 5000000
- 27762 multiletter control sequences out of 15000+600000
+ 24321 strings out of 494591
+ 475810 string characters out of 6176027
+ 589601 words of memory out of 5000000
+ 27510 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
+ 17 hyphenation exceptions out of 8191
  54i,19n,67p,792b,1151s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_2d.dvi (9 pages, 120252 bytes).
+Output written on gvv_2d.dvi (10 pages, 123040 bytes).
