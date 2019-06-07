@@ -6,7 +6,7 @@
 	The area of the rectangle $ACBD$ shown in Fig. \ref{ch2_sq_ar} is defined as $ab$. Note that all the angles in the rectangles are $90^{\degree}$
 	\label{ch2_sq_ar}
 \end{definition}
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\begin{center}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch2_sq_ar}
@@ -29,7 +29,7 @@
 \begin{problem}
 	Show that the area of $\Delta ABC$ is $\frac{ab}{2}$
 \end{problem}
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\begin{center}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch2_triang_ar}
@@ -101,7 +101,7 @@ This is known as the sine formula.
 \begin{definition}
 	The line AD in Fig. \ref{ch2_median_def} that divides the side $a$ in two equal halfs is known as the median.
 \end{definition}
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\begin{center}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch2_median_def}
@@ -146,7 +146,7 @@ ar \brak{\Delta BFC} = ar \brak{\Delta BEC}
 \end{equation}
 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\begin{center}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch2_median_ratio}
@@ -189,16 +189,7 @@ Using the sine formula for area of a triangle, the above equation can be express
 
 \begin{definition}
 	We know that the median of a triangle  divides it into two triangles with equal area. Using this result along with the sine formula for the area of a triangle in Fig. \ref{ch2_supp_sin},
-\begin{align}
-\frac{1}{2}\frac{a}{2}AD \sin \theta &= \frac{1}{2}\frac{a}{2}AD \sin \brak{180^{\degree}-\theta} \\
-\Rightarrow \sin \theta &= \sin \brak{180^{\degree} - \theta}.
-\label{sin_supp}
-\end{align}
-Note that our geometric definition of $\sin \theta$ holds only for $\theta < 90^{\degree}$.  \eqref{sin_supp} allows us to extend this definition for $\angle ADC > 90^{\degree}$.
-\end{definition}
-
-
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\begin{center}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch2_supp_sin}
@@ -208,86 +199,14 @@ Note that our geometric definition of $\sin \theta$ holds only for $\theta < 90^
 	\caption{$\sin \theta = \sin \brak{180^{\degree}-\theta}$}
 	\label{ch2_supp_sin}	
 \end{figure}
-%
-\begin{figure}[!h]
-	\begin{center}
-		
-\begin{problem}
-	In Fig. \ref{ch2_median_ratio_val}, show that
-	\begin{equation}
-	ar\brak{\Delta AFE} = 	\frac{1}{4} ar\brak{\Delta ABC}
-	\end{equation}
-	\label{ch2_small_triang}
-\end{problem}
-\proof We have
-%
-\begin{align}
-ar\brak{\Delta AFE} &= \frac{1}{2} \frac{b}{2}\frac{c}{2}\sin A = \frac{1}{4}.\frac{1}{2}bc \sin A \\
-&=\frac{1}{4}ar\brak{\Delta ABC}
-\end{align}
-%
-\begin{problem}
-	Using Fig. \ref{ch2_median_ratio_val}, show that
-	\begin{align}
-	\frac{OB}{OE} = \frac{OC}{OF} = 2
-	\end{align}
-\end{problem}
-		%\includegraphics[width=\columnwidth]{./figs/ch2_median_ratio_val}
-		%\vspace*{-10cm}
-		\resizebox{\columnwidth}{!}{\input{./figs/fig_2.9.tex}}
-	\end{center}
-	\caption{$O$ divides medians in the ratio $2:1$}
-	\label{ch2_median_ratio_val}	
-\end{figure}
-%
 
-\proof Using the sine formula and \eqref{ch2_small_triang}, areas of some triangles in Fig. \ref{ch2_median_ratio_val} are listed in the following table
-\begin{center}
-\begin{tabular}{|c|c|}
-	\hline  Triangle& Area  \\ 
-	\hline  OFE & $\frac{1}{2}pq \sin \theta $ \\ 
-	\hline  BOF &  $\frac{k}{2}pq \sin \theta$\\ 
-	\hline  COE & $\frac{k}{2}pq \sin \theta$ \\ 
-	\hline  BOC&  $\frac{k^2}{2}pq \sin \theta$\\
-	\hline  BOC&  $\frac{1}{2} ar \brak{\Delta ABC}$\\  
-	\hline 
-\end{tabular} 
-\end{center}
-%
-where we have used the fact that 
-%
-\begin{equation}
-\sin \angle BOC = \sin \brak{180^{\degree}-\theta} = \sin \theta
-\end{equation}
-%
-Since $BE$ is the median
 \begin{align}
-\begin{split}
-ar\brak{\Delta BEC} &= \frac{1}{2} ar\brak{\Delta ABC}  
-\\
-& = ar\brak{\Delta BOC} + ar\brak{\Delta COE}\\
-ar\brak{\Delta BEA} &= \frac{1}{2} ar\brak{\Delta ABC}
-\\
-& = ar\brak{\Delta AFE} + ar\brak{\Delta BOF} +  ar\brak{\Delta FOE}  
-\end{split}
+\frac{1}{2}\frac{a}{2}AD \sin \theta &= \frac{1}{2}\frac{a}{2}AD \sin \brak{180^{\degree}-\theta} \\
+\Rightarrow \sin \theta &= \sin \brak{180^{\degree} - \theta}.
+\label{sin_supp}
 \end{align}
-%
-Substituting the respective values from the above table,
-\begin{align}
-\begin{split}
-\frac{1}{2} ar\brak{\Delta ABC} &= \frac{k^2}{2}pq \sin \theta + \frac{k}{2}pq \sin \theta
-\\
-\frac{1}{2} ar\brak{\Delta ABC} &= \frac{k}{2}pq \sin \theta + \frac{1}{2}pq \sin \theta + \frac{1}{4} ar\brak{\Delta ABC}
-\end{split}
-\end{align}
-%
-Simplifying the above,
-%
-\begin{align}
-k(k+1) = 2(k+1)
-\end{align}
-%
-Since $k \neq -1$, $k = 2$ and the proof is complete.
+Note that our geometric definition of $\sin \theta$ holds only for $\theta < 90^{\degree}$.  \eqref{sin_supp} allows us to extend this definition for $\angle ADC > 90^{\degree}$.
+\end{definition}
 
 \subsection{Similar Triangles}
 \begin{problem}
@@ -299,7 +218,7 @@ In Fig. \ref{ch2_cosine_formula}, show that
 %
 \
 \end{problem}
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\begin{center}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch2_triang_ar}
@@ -364,7 +283,7 @@ b & a & 0
 	In Fig. \ref{ch2_sim_triang}, show that $EF = \frac{a}{2}$.  
 \end{problem}
 %
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\begin{center}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch2_median_ratio_val}
@@ -384,8 +303,9 @@ EF^2 &= \brak{\frac{b}{2}}^2 + \brak{\frac{c}{2}}^2 - 2 \brak{\frac{b}{2}}\brak{
 \Rightarrow EF &= \frac{a}{2}
 \end{align}
 %
+
 \begin{definition}
-	The ratio of sides of triangels AEF and ABC is the same.  Such triangles are known as similar triangles.
+	The ratio of sides of triangles AEF and ABC is the same.  Such triangles are known as similar triangles.
 \end{definition}
 \begin{problem}
 	Show that similar triangles have the same angles.
@@ -394,56 +314,142 @@ EF^2 &= \brak{\frac{b}{2}}^2 + \brak{\frac{c}{2}}^2 - 2 \brak{\frac{b}{2}}\brak{
 \begin{problem}
 	Show that in Fig. \ref{ch2_sim_triang}, $EF || BC$.
 \end{problem}
-\proof Since $\Delta AEF \sim \Delta ABC$, $\angle AEB = \angle ACB$.  Hence the line $EF||BC$
-%
+\proof Since $\Delta AEF \sim \Delta ABC$, $\angle AEF = \angle ACB$.  Hence the line $EF||BC$
 %
 \begin{problem}
-	In Fig. \ref{ch2_median_3}, the line $AO$ cuts $EF$ at $G$ and is extended to meet the side $BC$ at $D$.  Show that 
-	%
-	\begin{equation}
-	\frac{OA}{OD} = 2.
-	\end{equation}
-	%  
+	Show that $\triangle OEF \sim \triangle OEC$.
 \end{problem}
-\begin{figure}[!h]
-	\begin{center}
-		
-		%\includegraphics[width=\columnwidth]{./figs/ch2_median_3}
+\begin{problem}
+%	Using Fig. \ref{ch2_median_ratio_val}, 
+Show that
+	\begin{align}
+	\frac{OB}{OE} = \frac{OC}{OF} = 2
+	\end{align}
+\end{problem}
+%\begin{problem}
+%	In Fig. \ref{ch2_median_ratio_val}, show that
+%	\begin{equation}
+%	ar\brak{\Delta AFE} = 	\frac{1}{4} ar\brak{\Delta ABC}
+%	\end{equation}
+%	\label{ch2_small_triang}
+%\end{problem}
+%\proof We have
+%%
+%\begin{align}
+%ar\brak{\Delta AFE} &= \frac{1}{2} \frac{b}{2}\frac{c}{2}\sin A = \frac{1}{4}.\frac{1}{2}bc \sin A \\
+%&=\frac{1}{4}ar\brak{\Delta ABC}
+%\end{align}
+%
+		%\includegraphics[width=\columnwidth]{./figs/ch2_median_ratio_val}
 		%\vspace*{-10cm}
-		\resizebox{\columnwidth}{!}{\input{./figs/fig_2.14.tex}}
-	\end{center}
-	\caption{Similar Triangles and Median}
-	\label{ch2_median_3}	
-\end{figure}
 
-\proof Since $EF || BC$,
 %
-\begin{equation}
-\Delta AGE \sim \Delta ADC \Rightarrow AG = GD = \frac{AD}{2}
-\end{equation}
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		\resizebox{\columnwidth}{!}{\input{./figs/fig_2.9.tex}}
+%	\end{center}
+%	\caption{$O$ divides medians in the ratio $2:1$}
+%	\label{ch2_median_ratio_val}	
+%\end{figure}
 %
-Also,
-\begin{align}
-\Delta OGE \sim \Delta ODB \Rightarrow OD = 2r
-\end{align}
-Thus, we have the following relations
-\begin{align}
-GD &= OG + OD  = r + 2r = 3r\\
-AG &= GD = 3r\\
-OA &= OG + AG = r + 3r = 4r
-\end{align}
-Hence
+
+%\proof Using the sine formula and \eqref{ch2_small_triang}, areas of some triangles in Fig. \ref{ch2_median_ratio_val} are listed in the following table
+%\begin{center}
+%\begin{tabular}{|c|c|}
+%	\hline  Triangle& Area  \\ 
+%	\hline  OFE & $\frac{1}{2}pq \sin \theta $ \\ 
+%	\hline  BOF &  $\frac{k}{2}pq \sin \theta$\\ 
+%	\hline  COE & $\frac{k}{2}pq \sin \theta$ \\ 
+%	\hline  BOC&  $\frac{k^2}{2}pq \sin \theta$\\
+%	\hline  BOC&  $\frac{1}{2} ar \brak{\Delta ABC}$\\  
+%	\hline 
+%\end{tabular} 
+%\end{center}
 %
-\begin{equation}
-\frac{OA}{OD} = \frac{4r}{2r} = 2
-\end{equation}
+%where we have used the fact that 
 %
+%\begin{equation}
+%\sin \angle BOC = \sin \brak{180^{\degree}-\theta} = \sin \theta
+%\end{equation}
+%%
+%Since $BE$ is the median
+%\begin{align}
+%\begin{split}
+%ar\brak{\Delta BEC} &= \frac{1}{2} ar\brak{\Delta ABC}  
+%\\
+%& = ar\brak{\Delta BOC} + ar\brak{\Delta COE}\\
+%ar\brak{\Delta BEA} &= \frac{1}{2} ar\brak{\Delta ABC}
+%\\
+%& = ar\brak{\Delta AFE} + ar\brak{\Delta BOF} +  ar\brak{\Delta FOE}  
+%\end{split}
+%\end{align}
+%
+%Substituting the respective values from the above table,
+%\begin{align}
+%\begin{split}
+%\frac{1}{2} ar\brak{\Delta ABC} &= \frac{k^2}{2}pq \sin \theta + \frac{k}{2}pq \sin \theta
+%\\
+%\frac{1}{2} ar\brak{\Delta ABC} &= \frac{k}{2}pq \sin \theta + \frac{1}{2}pq \sin \theta + \frac{1}{4} ar\brak{\Delta ABC}
+%\end{split}
+%\end{align}
+%%
+%Simplifying the above,
+%%
+%\begin{align}
+%k(k+1) = 2(k+1)
+%\end{align}
+%%
+%Since $k \neq -1$, $k = 2$ and the proof is complete.
+%
+%
+%\begin{problem}
+%	In Fig. \ref{ch2_median_3}, the line $AO$ cuts $EF$ at $G$ and is extended to meet the side $BC$ at $D$.  Show that 
+%	%
+%	\begin{equation}
+%	\frac{OA}{OD} = 2.
+%	\end{equation}
+%	%  
+%\end{problem}
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch2_median_3}
+%		%\vspace*{-10cm}
+%		\resizebox{\columnwidth}{!}{\input{./figs/fig_2.14.tex}}
+%	\end{center}
+%	\caption{Similar Triangles and Median}
+%	\label{ch2_median_3}	
+%\end{figure}
+%
+%\proof Since $EF || BC$,
+%%
+%\begin{equation}
+%\Delta AGE \sim \Delta ADC \Rightarrow AG = GD = \frac{AD}{2}
+%\end{equation}
+%%
+%Also,
+%\begin{align}
+%\Delta OGE \sim \Delta ODB \Rightarrow OD = 2r
+%\end{align}
+%Thus, we have the following relations
+%\begin{align}
+%GD &= OG + OD  = r + 2r = 3r\\
+%AG &= GD = 3r\\
+%OA &= OG + AG = r + 3r = 4r
+%\end{align}
+%Hence
+%%
+%\begin{equation}
+%\frac{OA}{OD} = \frac{4r}{2r} = 2
+%\end{equation}
+%%
 %
 \begin{problem}
-	In Fig. \ref{ch2_median_final},$BE$ is a median of $\Delta ABC$ and $\frac{OA}{OD} = 2$.  Show that AD is also a median. 
+	In Fig. \ref{ch2_median_final},$BE$ is a median of $\Delta ABC$ and $\frac{OB}{OE} = 2$.  Show that AD is also a median. 
 \end{problem}
 %
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\begin{center}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch2_median_final}
@@ -454,35 +460,69 @@ Hence
 	\label{ch2_median_final}	
 \end{figure}
 
-\proof Using the cosine formula for $\Delta ODE$ and $\Delta OAB$, 
+\proof Since BE is a median, the areas of  triangles  $\triangle BEC$ and $\triangle BEA$ are equal. Hence,
 \begin{align}
-DE^2 &= p^2 + t^2 -2pq\cos \theta \\
-c^2 & = (2)p^2 + (2t)^2 -2(2p)(2q)\cos \theta \\
-\Rightarrow DE &= \frac{c}{2}.
-\end{align}
-%
-Now using the cosine formula in $\Delta CDE$ and $\Delta ABC$, 
-\begin{align}
-\brak{\frac{c}{2}}^2 &= \brak{\frac{b}{2}}^2 +CD^2 -2CD \brak{\frac{b}{2}} \cos C\\
-c^2 &= b^2 + a^2 -2 a b \cos C,
-\end{align}
-which can be simplified to obtain
-%
-\begin{align}
-a^2 - 2ab \cos C = \brak{2CD}^2 - 2(2CD)b  \cos C 
-\end{align}
-\begin{multline}
-\Rightarrow  \brak{2CD}^2 - 2(2CD)b  \cos C  + \brak{b \cos C }^2 
+\frac{1}{2}BE.BC\sin \theta_1 &= \frac{1}{2}BE.AB\sin \theta_2
 \\
-= a^2 - 2ab \cos C + \brak{b \cos C }^2 
-\end{multline}
-\begin{align}
-\Rightarrow \brak{2CD - b\cos C}^2 &= \brak{a - b\cos C}^2 \\
-\Rightarrow 2CD - b\cos C &= a - 2\cos C \\
-\Rightarrow CD &= \frac{a}{2}
+\implies a\sin \theta_1 &= c\sin \theta_2
+\label{eq:med_conv_area}
 \end{align}
 %
-Thus, $AD$ is a median of $\Delta ABC$.  
+Using the sine formula in $\triangle OBD$ and $\triangle BOA$,
+\begin{align}
+\label{eq:med_conv_sin1}
+\frac{q}{\sin \theta_1} &= \frac{x}{\sin \alpha} 
 \\
+\frac{c}{\sin \alpha} &= \frac{kq}{\sin \theta_2}
+\label{eq:med_conv_sin2}
+\end{align}
+Mutiplying \eqref{eq:med_conv_area},\eqref{eq:med_conv_sin1}
+and \eqref{eq:med_conv_sin2},
 %
+we obtain
+\begin{align}
+x = \frac{a}{k}
+\label{eq:med_conv_ak}
+\end{align}
+after simplification.
+Let the area of $\triangle ABC = \Delta$. Then, in terms of area,
+\begin{align}
+\triangle ABD &= \triangle OBD + \triangle OBA
+\\
+\implies \frac{1}{2}(c)(x)\sin B &=\frac{1}{2}(2p)(q)\sin \alpha 
+\\
+&\quad + \frac{1}{2}(2p)(kq)\sin \alpha
+\\
+\implies k\brak{k+1}pq \sin \alpha  &= \frac{1}{2}ca \sin B = \Delta
+\label{eq:med_conv_del1}
+\end{align}
+%
+Similarly,
+\begin{align}
+\triangle ABE &= \triangle AOB + \triangle AOE
+\\
+\implies \frac{\Delta}{2} &=\frac{1}{2}(2p)(kq)\sin \alpha 
+\\
+&\quad + \frac{1}{2}(p)(kq)\sin \alpha
+\\
+\implies 3kpq \sin \alpha  &=  \Delta
+\label{eq:med_conv_del2}
+\end{align}
+%
+after simplification. From \eqref{eq:med_conv_del1}
+and \eqref{eq:med_conv_del2},
+%
+\begin{align}
+k\brak{k+1}pq \sin \alpha &=  3kpq \sin \alpha  
+\\
+\implies k = 2.
+\end{align}
+Thus, 
+\begin{align}
+BD &= DC
+\\
+\frac{OA}{OD} &= 2.
+\end{align}
+Thus, $AD$ is a median.
+\\
 {\em Conculusion:} The medians of a triangle meet at a point.
