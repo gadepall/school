@@ -1,0 +1,24 @@
+\begin{tikzpicture}
+  [
+    scale=2,
+    >=stealth,
+    point/.style = {draw, circle,  fill = black, inner sep = 0.5pt},
+    dot/.style   = {draw, circle,  fill = black, inner sep = .2pt},
+  ]
+  \coordinate [point, label={below left:$B$ $\brak{0,0}$}] (B) at (0, 0);
+    \node (A) at +(60:{2*sqrt(3)}) [point, label = above:$A$ $\brak{a,b}$] {};
+  \coordinate [point, label={below right:$C$ $\brak{c,0}$}] (C) at ($ (3,0) + sqrt(3)*(1,0) $);
+  \node (D) at ({sqrt(3)},0) [point, label = below:$D$ $\brak{a,0}$] {};
+    \node (E) at +(45:{(3+sqrt(3))/sqrt(2)}) [point, label = above right:$E$] {};
+    \node (O) at +(45:{sqrt(6)}) [point, label = right:$O$] {};    
+    \node (F) at +(60:{(3+sqrt(3))/2}) [point, label = left:$F$] {};        
+  \draw  (A) -- (C) -- (B) -- (A);
+%  \node (D) at ($(B)!0.5!(C)$) [point, label = {below:$D$}]{};
+  \draw (A) -- (D);  
+  \draw (B) -- (E);    
+  \draw[dashed] (C) -- (F);      
+  \tkzMarkRightAngle[fill=blue!20,size=.2](A,D,C)
+  \tkzMarkRightAngle[fill=blue!20,size=.2](B,E,A)  
+
+\end{tikzpicture}
+
