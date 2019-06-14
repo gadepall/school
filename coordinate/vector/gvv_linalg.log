@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.1)  14 JUN 2019 08:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Termux) (preloaded format=latex 2018.11.30)  14 JUN 2019 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **gvv_linalg.tex
 (./gvv_linalg.tex
 LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 85 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IE
 EEtran.cls
@@ -794,15 +794,15 @@ ries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen259
 ))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/circuitikz/
 circuitikz.sty
 Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
  0.8.3
 
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
-endlayer/tikz/libraries/tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
-)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcirc.defines.tex
 \pgf@circ@res@up=\dimen260
@@ -1570,32 +1570,32 @@ File: ./figs/reflection.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Underfull \vbox (badness 2119) has occurred while \output is active []
+(./figs/ccircle.tex)
+Underfull \vbox (badness 1442) has occurred while \output is active []
 
 
-(./figs/semi_circle.tex) [5] (./figs/tangent_secant.tex)
+(./figs/ang_bisect.tex) [5] (./figs/semi_circle.tex) (./figs/tangent_secant.tex
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 978.
-
-[7
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 978.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1043.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1043.
  (./gvv_linalg.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 978.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 978.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1043.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1043.
+
 Package rerunfilecheck Info: File `gvv_linalg.out' has not changed.
 (rerunfilecheck)             Checksum: 8C0B29CC5E7C91B15362EF7072B997DD;394.
  ) 
 Here is how much of TeX's memory you used:
- 33936 strings out of 492645
- 747401 string characters out of 6118921
- 975442 words of memory out of 5000000
- 37185 multiletter control sequences out of 15000+600000
+ 33988 strings out of 494591
+ 748225 string characters out of 6176027
+ 970470 words of memory out of 5000000
+ 36980 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
+ 17 hyphenation exceptions out of 8191
  54i,19n,67p,796b,958s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg.dvi (7 pages, 85144 bytes).
+Output written on gvv_linalg.dvi (7 pages, 102400 bytes).

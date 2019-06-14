@@ -19,7 +19,7 @@
 \usepackage{iithtlc}
 \usepackage{color}
 \usepackage{tikz}
-\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shapes,arrows,calc}
 \usepackage{circuitikz}
 \usepackage{tkz-euclide} % loads  TikZ and tkz-base
 \usetkzobj{all}
@@ -684,11 +684,23 @@ direction to obtain $\vec{S}$.
 \end{align}
 \item Let $\vec{A},\vec{B}$ and $\vec{C}$ be three points on the circle and 
 $D$ be a point on $BC$ such that
-$OD \perp BC$.  Show that 
+$OD \perp BC$ as in Fig. \ref{fig:ccircle}.  Show that 
 \begin{align}
 \vec{D}=\frac{\vec{B}+\vec{C}}{2}
 \end{align}
 %
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch3_angle_bisector}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/ccircle.tex}}
+	\end{center}
+	\caption{Circumcircle.}
+	\label{fig:ccircle}	
+\end{figure}
+
+
 \solution From \eqref{eq:circle},
 \begin{align}
 \norm{\vec{B}-\vec{O}}^2=\norm{\vec{C}-\vec{O}}^2=r^2
@@ -732,11 +744,32 @@ $\brak{\vec{B}-\vec{C}}^T$ and subtracting, $\lambda_1=\lambda_2$
 \section{Incircle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item The circle with centre $\vec{O}$ and radius $r$ in Fig. is inside 
+\item The circle with centre $\vec{O}$ and radius $r$ in Fig.\ref{fig:ang_bisect}	
+ is inside 
 $\triangle ABC$ and touches $AB, BC$ 
 and $CA$ at $\vec{F}, \vec{D}$ and $\vec{E}$ respectively. $AB, BC$ and 
 $CA$ are known as {\em tangents} to the circle.
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch3_angle_bisector}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/ang_bisect.tex}}
+	\end{center}
+	\caption{Tangent and incircle.}
+	\label{fig:ang_bisect}	
+\end{figure}
+
+
 \item Show that $OD \perp BC$.
+%\begin{figure}[!h]
+%\centering
+%\resizebox {\columnwidth} {!} {
+%\input{./figs/derivative.tex}
+%}
+%\caption{Notion of the derivative.}
+%\label{fig:derivative}
+%\end{figure}
 \\
 \solution Let $\vec{x}_1,\vec{x}_2$ be two points on the circle such that 
 $x_1x_2 \parallel BC$. Then
@@ -765,6 +798,38 @@ equation becomes
 %\label{eq:circle_bisect}
 \end{align}
 %
+\item Give an alternative proof for the above.
+\\
+\solution Let 
+\begin{align}
+\vec{B} & = \mbf{0}
+\\
+\vec{D} &= \lambda \vec{m}
+\end{align}
+Then
+\begin{align}
+\norm{\vec{D} - \vec{O}}^2 = r^2 &
+\\
+\implies \lambda^2\norm{\vec{m}}^2 - 2\lambda\vec{m}^T\vec{O} + \norm{\vec{O}}^2 &= r^2 
+\end{align}
+Since the above equation has a single root,
+\begin{align}
+\lambda = \frac{\vec{m}^T\vec{O}}{\norm{\vec{m}}^2}
+\label{eq:incircle_lam}
+\end{align}
+%
+Thus, 
+\begin{align}
+\brak{\vec{D} - \vec{B}}^T\brak{\vec{D} - \vec{O}}
+&= \brak{\lambda\vec{m}}^T
+\brak{\lambda\vec{m}-\vec{O}}
+\\
+&=\lambda^2\norm{\vec{m}}^2-\lambda\vec{m}^T\vec{O}
+\\
+&= \mbf{O} \text{ (from \ref{eq:incircle_lam})}.
+\\
+\implies & OD \perp BC
+\end{align}
 \item Find the equation of the tangent at $\vec{D}$.
 \\
 \solution The equation of the tangent is given by 
