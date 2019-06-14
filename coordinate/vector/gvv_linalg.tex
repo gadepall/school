@@ -20,6 +20,9 @@
 \usepackage{color}
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
+\usepackage{circuitikz}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usetkzobj{all}
 
 
 
@@ -774,8 +777,73 @@ equation becomes
 \section{Miscellaneous}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
+%
 \item Show that the angle in a semi-circle is a right angle.
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./figs/semi_circle.tex}
+}
+\caption{The straight line.}
+\label{fig:ch2_line}
+\end{figure}
+\solution Let 
+\begin{align}
+\vec{O} = 0
+\end{align}
+From the given information,
+\begin{align}
+\label{eq:semi_circ_pt}
+\norm{\vec{A}}^2 = \norm{\vec{B}}^2 = \norm{\vec{C}}^2 = r^2
+\\
+\norm{\vec{B}-\vec{C}}^2 =  \brak{2r}^2
+\\
+\vec{B} + \vec{C} = 0
+\label{eq:semcirc_mid}
+\end{align}
+%
+where $r$ is the radius of the circle. Thus,
+\begin{multline}
+\norm{\vec{A}-\vec{B}}^2 + \norm{\vec{A}-\vec{C}}^2 = 
+2\norm{\vec{A}}^2 + \norm{\vec{B}}^2 + \norm{\vec{C}}^2
+\\
+-2\vec{A}^T\brak{\vec{B}+\vec{C}}
+%\\
+%\norm{\vec{B}-\vec{C}}^2 =  \brak{2r}^2
+%\\
+%\vec{B} + \vec{C} = 0
+\end{multline}
+From \eqref{eq:semcirc_mid} and \eqref{eq:semi_circ_pt},
+\begin{multline}
+\norm{\vec{A}-\vec{B}}^2 + \norm{\vec{A}-\vec{C}}^2 = 4r^2 = \norm{\vec{B}-\vec{C}}^2 
+%\\
+%\norm{\vec{B}-\vec{C}}^2 =  \brak{2r}^2
+%\\
+%\vec{B} + \vec{C} = 0
+\end{multline}
+Thus, using Baudhayana's theorem, $\triangle ABC$ is right angled.
+\item 	Show that $PA.PB = PC^2$, where $PC$ is the tangent to the circle in Fig. \ref{fig:tangent_secant}.
 
+	\begin{figure}[!hb]
+		\begin{center}
+			
+			%\includegraphics[width=\columnwidth]{./figs/ch4_tangent_prod}
+			%\vspace*{-10cm}
+			\resizebox{\columnwidth}{!}{\input{./figs/tangent_secant.tex}}
+		\end{center}
+		\caption{$PA.PB = PC^2$.}
+		\label{fig:tangent_secant}	
+	\end{figure}
+\solution Let $\vec{P} = \mbf{0}$.  Then, we have the following equations
+\begin{align}
+\label{eq:tan_sec_AB}
+PA.PB &= \lambda \norm{\vec{A}}^2 \quad \because (\vec{B} = \lambda \vec{A})
+\\
+\norm{\vec{A}-\vec{O}}^2 &= \norm{\vec{B}-\vec{O}}^2 = \norm{\vec{C}-\vec{O}}^2 = r^2
+\\
+\norm{\vec{O}-\vec{C}}^2 &=  r^2 \quad \triangle PCO\text{ is right angled}
+\label{eq:tan_sec_boudh}
+\end{align}
 \end{enumerate}
 \section{Parabola}
 \begin{enumerate}[label=\thesection.\arabic*
