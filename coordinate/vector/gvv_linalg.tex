@@ -841,9 +841,44 @@ PA.PB &= \lambda \norm{\vec{A}}^2 \quad \because (\vec{B} = \lambda \vec{A})
 \\
 \norm{\vec{A}-\vec{O}}^2 &= \norm{\vec{B}-\vec{O}}^2 = \norm{\vec{C}-\vec{O}}^2 = r^2
 \\
-\norm{\vec{O}-\vec{C}}^2 &=  r^2 \quad \triangle PCO\text{ is right angled}
+\norm{\vec{O}}^2-\norm{\vec{C}}^2 &=  r^2 \quad \triangle PCO\text{ is 
+right angled}
 \label{eq:tan_sec_boudh}
 \end{align}
+$\because$
+\begin{align}
+%\label{eq:tan_sec_AB}
+%PA.PB &= \lambda \norm{\vec{A}}^2 \quad \because (\vec{B} = \lambda 
+%\vec{A})
+%\\
+\norm{\vec{B}-\vec{O}}^2-\norm{\vec{A}-\vec{O}}^2   &=0,
+\\
+\brak{\lambda^2-1}\norm{\vec{A}}^2 - 2 \brak{\lambda-1}\vec{A}^T\vec{O} &= 
+0
+\\
+\implies PA.PB = \lambda\norm{\vec{A}}^2 =  2 
+\vec{A}^T\vec{O}-\norm{\vec{A}}^2 &
+%\norm{\vec{C}-\vec{O}}^2 = r^2
+%\\
+%\norm{\vec{O}}^2-\norm{\vec{C}}^2 &=  r^2 \quad \triangle PCO\text{ is 
+%right angled}
+%\label{eq:tan_sec_boudh}
+\label{eq:tan_sec_first}
+\end{align}
+after substituting from \eqref{eq:tan_sec_AB} and simplifying. From 
+\eqref{eq:tan_sec_boudh},
+\begin{align}
+\norm{\vec{A}-\vec{O}}^2 = \norm{\vec{O}}^2-\norm{\vec{C}}^2  &= r^2
+\\
+\implies 2 \vec{A}^T\vec{O}-\norm{\vec{A}}^2   = \norm{\vec{C}}^2 = PC^2&
+\label{eq:tan_sec_second}
+\end{align}
+From \eqref{eq:tan_sec_first} and \eqref{eq:tan_sec_second},
+\begin{align}
+PA.PB = PC^2
+\end{align}
+
+
 \end{enumerate}
 \section{Parabola}
 \begin{enumerate}[label=\thesection.\arabic*
