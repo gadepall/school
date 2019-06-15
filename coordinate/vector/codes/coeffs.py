@@ -55,6 +55,15 @@ def line_intersect(n1,c1,n2,c2):
   return P
 #Intersection
 
+def line_seg_intersect(A,B,C,D):
+  n1=omat@(A-D)
+  n2=omat@(B-C)
+  c1 =  n1@A
+  c2 =  n2@B
+  P=line_intersect(n1,c1,n2,c2)
+  return P
+#Intersection
+
 def circ_chord(m,R,O):
   return R - 2*(m.T@(R-O))/(np.linalg.norm(m)**2)*m
 
