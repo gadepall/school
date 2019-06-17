@@ -22,7 +22,6 @@ p = np.zeros(2)
 k1 = 1
 k2 = 1
 I,r = icentre(A,B,C,k1,k2)
-
 #Generating all lines
 x_AB = line_gen(A,B)
 x_BC = line_gen(B,C)
