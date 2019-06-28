@@ -290,12 +290,35 @@ q = \sqrt{c^2-p^2}
 \caption{}
 \label{fig:triangle}
 \end{figure}
-\item In $\triangle ABC$,  $a = 7, \angle B = 75^{\degree}$ and $b+c = 13$. If 
+\item In $\triangle ABC$,  $a$ and  $\angle B$ are known and $b+c = k$. If 
 \begin{align}
 \label{eq:cos_formula}
-a^2+c^2-b^2 = 2ac \cos B
+b^2  = a^2+c^2- 2ac \cos B
 \end{align}
-find $b$ and $c$ and sketch $\triangle ABC$.
+%
+find $b$ and $c$.
+\\
+\solution From \eqref{eq:cos_formula}, 
+\begin{align}
+\label{eq:aB}
+\brak{k-c}^2 &= a^2+c^2- 2ac \cos B
+\\
+\implies k^2 -2kc+c^2 &= a^2+c^2- 2ac \cos B
+\\
+\implies -2kc+ 2ac \cos B&= a^2-k^2 
+\\
+\implies 2c\brak{a \cos B -k}&= a^2-k^2 
+\\
+\text{or, } c &= \frac{ a^2-k^2 }{2\brak{a \cos B -k}}
+\end{align}
+
+\item In $\triangle ABC$,  $a = 7, \angle B = 75^{\degree}$ and $b+c = 13$. 
+%If 
+%\begin{align}
+%\label{eq:cos_formula}
+%a^2+c^2-b^2 = 2ac \cos B
+%\end{align}
+Find $b$ and $c$ and sketch $\triangle ABC$.
 \item In $\triangle ABC$,  $a = 8, \angle B = 45^{\degree}$ and $c-b = 3.5$.
 Sketch $\triangle ABC$.
 \item In $\triangle ABC$,  $a = 6, \angle B = 60^{\degree}$ and $b-c = 2$. 
