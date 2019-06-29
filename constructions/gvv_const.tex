@@ -255,6 +255,11 @@ Class 9 and 10.
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
 %
+\item Draw the rectangle $ABCD$ where $AB = 5, BC = 8$.
+\item Draw a square of side $3$.
+\item Draw a parallelogram with sides $12$ and $5$.
+\item Draw $\triangle ABC$  right angled at $\vec{B}$ such that $a = 5, c =13$.
+
 \item Consider $\triangle ABC$ with $BC = a, CA = b$ and $AB= c$.  Let
 \begin{align}
 \label{eq:triangle_coord_def}
@@ -290,6 +295,8 @@ q = \sqrt{c^2-p^2}
 \caption{}
 \label{fig:triangle}
 \end{figure}
+\item Let $\vec{D}, \vec{F}, \vec{F}$ be the mid points of $BC,CA$ and $AB$ respectively in $\triangle ABC$. Draw $AD,BE$ and $CF$.
+\item Draw $\triangle DEF$ in the previous problem.
 \item In $\triangle ABC$,  $a$ and  $\angle B$ are known and $b+c = k$. If 
 \begin{align}
 \label{eq:cos_formula}
@@ -326,14 +333,18 @@ Sketch $\triangle ABC$.
 \item $\triangle ABC$ is right angled at $\vec{B}$.  If $a = 12$ and $b+c = 18$, find $a,b,c$ and draw the 
 triangle.
 \\
-\solution The solution of any equation of the form
+\solution From Baudhayana's theorem, 
 \begin{align}
-px^2+qx+r = 0
+b^2 = a^2 + c^2
 \end{align}
-is given by 
-\begin{align}
-x = \frac{-q \pm \sqrt{q^2-4pr}}{2p}
-\end{align}
+%Hence, 
+%\begin{align}
+%\brak{18-c}^2 &= a^2 + c^2
+%\implies c &= \frac{18^2-a^2}{36} = 5
+%\end{align}
+%%
+%and $b = 13$.
+%
 \item In $\triangle ABC$,  given that $a+b+c = 11, \angle B = 45^{\degree}$ and $\angle C = 45^{\degree}$, 
 find 
 $a,b,c$.
@@ -346,6 +357,21 @@ b \sin C = c \sin B
 \\
 a + b+c = 11
 \end{align}
+%
+resulting  in the matrix equation 
+\begin{align}
+\begin{pmatrix}
+1 & -\cos C & - \cos B
+\\
+0 & \sin C &- \sin B
+\\
+1 & 1 & 1
+\end{pmatrix}
+%\myvec{
+%}
+\myvec{a \\b\\c} = \myvec{0 \\ 0 \\ 11}
+\end{align}
+
 Solving the equivalent matrix equation gives the desired answer.
 \item Draw $\triangle ABC$,  given that $a+b+c = 11, \angle B = 30^{\degree}$ and $\angle C = 90^{\degree}$, 
 find 
@@ -372,6 +398,24 @@ The following code draws the circle and tangents in Fig. \ref{fig:circle}
 \caption{}
 \label{fig:circle}
 \end{figure}
+\item Draw a circle with centre $\vec{O}$ and diameter $AC = 6$.  Choose any point $B$ on the circle and draw $\triangle ABC$.
+\item In $\triangle ABC$, $a =8, b = 11, c = 13$. Find 
+\begin{align}
+R = \frac{a}{2\sin A}.
+\end{align}
+%
+Let $\vec{D}$ be the mid point of $BC$.  Find the point $\vec{O}$ such that $\triangle ODB$ is right angled at $\vec{D}$ and $OD=R$. Draw the circle with centre $\vec{O}$ and radius $R$.
+\item Let 
+\begin{align}
+r = \frac{abc}{2\brak{a+b+c}}.
+\end{align}
+and 
+\begin{align}
+IB = r\sqrt{\frac{2}{1-\cos B}}.
+\end{align}
+%
+Draw a circle with centre $\vec{I}$ and radius $r$.
+
 \item Construct a tangent to a circle of radius 4 units from a point on the concentric circle of radius 6 
 units.
 \item Draw a circle of radius 3 units. Take  two points $\vec{P}$ and $\vec{Q}$ on one of its extended 
