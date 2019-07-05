@@ -255,34 +255,102 @@ Class 9 and 10.
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
 %
-\item Draw the rectangle $ABCD$ where $AB = 5, BC = 8$.
-\item Draw a square of side $3$.
-\item Draw a parallelogram with sides $12$ and $5$.
-\item Draw $\triangle ABC$  right angled at $\vec{B}$ such that $a = 5, c =13$.
-
+%\item Draw the rectangle $ABCD$ where $AB = c=6, BC = a= 8$.
+%\\
+\item Draw $\triangle ABC$  right angled at $\vec{B}$ such that $AB = 6, BC =8$.
+\solution The coordinates are
+\begin{align}
+\label{eq:rt_tang_pair}
+\vec{A}=\myvec{0 \\ c}
+,
+\vec{B}=\myvec{0 \\ 0}
+,
+\vec{C}=\myvec{0 \\ a}
+\end{align}
+\item Let $\vec{D}, \vec{F}, \vec{F}$ be the mid points of $BC,CA$ and $AB$ respectively in $\triangle ABC$. Draw $AD,BE$ and $CF$.
+\\
+\solution 
+\begin{align}
+\label{eq:rt_tang_pair}
+\vec{D} = \frac{\vec{B}+\vec{C}}{2}
+\\
+\vec{E} = \frac{\vec{C}+\vec{A}}{2}
+\\
+\vec{F} = \frac{\vec{A}+\vec{B}}{2}
+\end{align}
+\item  Draw $AD, BE$ and $CF$.
+\item Draw $\triangle DEF$ in the previous problem.
+\end{enumerate}
+\section{Circle}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Find the radius and centre of $\triangle ABC$ and draw its circumcircle.
+\\
+\solution The centre of the circumcircle is given by 
+\begin{align}
+\label{eq:rt_triang_circum}
+\vec{O}=\frac{\vec{A}+\vec{C}}{2}
+\end{align}
+The radius is 
+\begin{align}
+\label{eq:rt_triang_circum_rad}
+r=\frac{\sqrt{a^2+c^2}}{2}
+\end{align}
+%
 \item Consider $\triangle ABC$ with $BC = a, CA = b$ and $AB= c$.  Let
 \begin{align}
 \label{eq:triangle_coord_def}
-\vec{A}=\myvec{p \\q},
+\vec{A}=\myvec{p \\p},
 \vec{B}=\myvec{0 \\0},
-\vec{C}=\myvec{a \\0}
+\vec{C}=\myvec{0 \\a}
 \end{align}
-Find the $p$ and $q$.
+Find  $p$ and $q$.
 \\
 \solution 
 %
 Since
 \begin{align}
 \label{eq:triangle_dist}
-\vec{p^2+q^2}&= c^2
+p^2+q^2&= c^2
 \\
-\vec{\brak{p-a}^2+q^2}&= b^2,
+\brak{p-a}^2+q^2&= b^2,
 \end{align}
 we obtain
 \begin{align}
 p = \frac{a^2+c^2-b^2}{2a},
 q = \sqrt{c^2-p^2}
 \end{align}
+%
+\item Draw the tangent $CD$ to the circle.
+\\
+\solution The coordinate
+\begin{align}
+\label{eq:rt_tang_pair}
+D=\myvec{p \\ -q}
+\end{align}
+The following code draws the circle and tangents in Fig. \ref{fig:circle}
+\lstinputlisting{./codes/draw_circle.py}
+%
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/circle.eps}
+\caption{}
+\label{fig:circle}
+\end{figure}
+\end{enumerate}
+%
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Draw a circle with centre $\vec{B}$ and radius 6.  If $\vec{C}$ be  a point 10 units  away from its 
+centre, construct the pair of tangents $AC$ and $CD$ to the 
+circle.
+\\
+\solution From the given information, in $\triangle ABC, AC \perp AB, a = 
+10$ and $c = 6$.
+\begin{align}
+b =  \sqrt{a^2-c^2}
+\end{align}
+\item Draw a circle with centre $\vec{A}$ and radius $c$.
 \item Write a program to compute $p$ and $q$ when $a = 8, b = 11$ and $c = 13$. 
 \item Plot $\triangle ABC$ for $a = 8, b = 11$ and $c = 13$. 
 \\
@@ -295,8 +363,6 @@ q = \sqrt{c^2-p^2}
 \caption{}
 \label{fig:triangle}
 \end{figure}
-\item Let $\vec{D}, \vec{F}, \vec{F}$ be the mid points of $BC,CA$ and $AB$ respectively in $\triangle ABC$. Draw $AD,BE$ and $CF$.
-\item Draw $\triangle DEF$ in the previous problem.
 \item In $\triangle ABC$,  $a$ and  $\angle B$ are known and $b+c = k$. If 
 \begin{align}
 \label{eq:cos_formula}
@@ -376,28 +442,9 @@ Solving the equivalent matrix equation gives the desired answer.
 \item Draw $\triangle ABC$,  given that $a+b+c = 11, \angle B = 30^{\degree}$ and $\angle C = 90^{\degree}$, 
 find 
 $a,b,c$.
-\end{enumerate}
-\section{Circle}
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
-\item Draw a circle with centre $\vec{B}$ and radius 6.  If $\vec{C}$ be  a point 10 units  away from its 
-centre, construct the pair of tangents $AC$ and $CD$ to the 
-circle.
-\\
-\solution From the given information, in $\triangle ABC, AC \perp AB, a = 
-10$ and $c = 6$.
-\begin{align}
-b =  \sqrt{a^2-c^2}
-\end{align}
-The following code draws the circle and tangents in Fig. \ref{fig:circle}
-\lstinputlisting{./codes/draw_circle.py}
-%
-\begin{figure}
-\centering
-\includegraphics[width=\columnwidth]{./figs/circle.eps}
-\caption{}
-\label{fig:circle}
-\end{figure}
+\item Draw a square of side $3$.
+\item Draw a parallelogram with sides $12$ and $5$.
+
 \item Draw a circle with centre $\vec{O}$ and diameter $AC = 6$.  Choose any point $B$ on the circle and draw $\triangle ABC$.
 \item In $\triangle ABC$, $a =8, b = 11, c = 13$. Find 
 \begin{align}
