@@ -280,27 +280,70 @@ Class 9 and 10.
 \end{align}
 \item  Draw $AD, BE$ and $CF$.
 \item Draw $\triangle DEF$ in the previous problem.
+
 \end{enumerate}
 \section{Circle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item Find the radius and centre of $\triangle ABC$ and draw its circumcircle.
-\\
-\solution The centre of the circumcircle is given by 
+\item Now redraw $\triangle ABC$ with 
 \begin{align}
 \label{eq:rt_triang_circum}
-\vec{O}=\frac{\vec{A}+\vec{C}}{2}
+\vec{O}=\frac{\vec{A}+\vec{C}}{2}=\myvec{0 \\0}
 \end{align}
-The radius is 
+\item Draw the circumcircle of  $\triangle ABC$ with centre $\vec{O}$.  
+\\
+\solution The radius of the circumcircle is 
 \begin{align}
 \label{eq:rt_triang_circum_rad}
-r=\frac{\sqrt{a^2+c^2}}{2}
+r=\frac{b}{2}=\frac{\sqrt{a^2+c^2}}{2}
 \end{align}
+%\item Now redraw $\triangle ABC$ with 
+%\begin{align}
+%\vec{A}=\myvec{0 \\0}
+%\end{align}
+%\\
+%\solution The new coordinates are
+%\begin{align}
+%\vec{B}=\myvec{0 \\-c}
+%\vec{C}=\myvec{0 \\a-c}
+%\end{align}
+\item Draw a circle with centre 
+\begin{align}
+\vec{A}=\myvec{0 \\0}
+\end{align}
+%
+$\vec{A}$ 
+and radius $c$.
+\item For 
+\begin{align}
+\vec{C}=\myvec{b \\0}, 
+\end{align}
+find $p,q$ such that
+\begin{align}
+\vec{B}=\myvec{p \\q}, 
+\end{align}
+\item Redraw $\triangle ABC$ with centre $\vec{A}$ and radius $c$.
+\item Draw the tangent $CD$ to the circle.
+\\
+\solution The coordinate
+\begin{align}
+\label{eq:rt_tang_pair}
+D=\myvec{p \\ -q}
+\end{align}
+The following code draws the circle and tangents in Fig. \ref{fig:circle}
+\lstinputlisting{./codes/draw_circle.py}
+%
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/circle.eps}
+\caption{}
+\label{fig:circle}
+\end{figure}
 %
 \item Consider $\triangle ABC$ with $BC = a, CA = b$ and $AB= c$.  Let
 \begin{align}
 \label{eq:triangle_coord_def}
-\vec{A}=\myvec{p \\p},
+\vec{A}=\myvec{p \\q},
 \vec{B}=\myvec{0 \\0},
 \vec{C}=\myvec{0 \\a}
 \end{align}
@@ -321,37 +364,6 @@ p = \frac{a^2+c^2-b^2}{2a},
 q = \sqrt{c^2-p^2}
 \end{align}
 %
-\item Draw the tangent $CD$ to the circle.
-\\
-\solution The coordinate
-\begin{align}
-\label{eq:rt_tang_pair}
-D=\myvec{p \\ -q}
-\end{align}
-The following code draws the circle and tangents in Fig. \ref{fig:circle}
-\lstinputlisting{./codes/draw_circle.py}
-%
-\begin{figure}
-\centering
-\includegraphics[width=\columnwidth]{./figs/circle.eps}
-\caption{}
-\label{fig:circle}
-\end{figure}
-\end{enumerate}
-%
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
-\item Draw a circle with centre $\vec{B}$ and radius 6.  If $\vec{C}$ be  a point 10 units  away from its 
-centre, construct the pair of tangents $AC$ and $CD$ to the 
-circle.
-\\
-\solution From the given information, in $\triangle ABC, AC \perp AB, a = 
-10$ and $c = 6$.
-\begin{align}
-b =  \sqrt{a^2-c^2}
-\end{align}
-\item Draw a circle with centre $\vec{A}$ and radius $c$.
-\item Write a program to compute $p$ and $q$ when $a = 8, b = 11$ and $c = 13$. 
 \item Plot $\triangle ABC$ for $a = 8, b = 11$ and $c = 13$. 
 \\
 \solution The following program plots $\triangle ABC$ in Fig. \ref{fig:triangle}
@@ -363,6 +375,60 @@ b =  \sqrt{a^2-c^2}
 \caption{}
 \label{fig:triangle}
 \end{figure}
+\item Find $\vec{O}$ and $R$ such that 
+\begin{align}
+R = OA = OB = OC
+\end{align}
+\item Let
+\begin{align}
+\label{eq:tang_len}
+x+y = a
+y+z = b
+z+x = c
+\end{align}
+Find $x,y,z$.
+\\
+\solution  The given information can be expressed as the matrix equation
+\begin{align}
+\myvec{
+1 & 1 & 0
+\\
+0 & 1 & 1
+\\
+1 & 0 & 1
+}
+\myvec{x \\ y \\ z} = \myvec{a \\b\\c}
+\end{align}
+%
+which can be solved to obtain $x,y,z$.
+\item Find $\vec{D}, \vec{E}, \vec{F}$ such that 
+\begin{align}
+\label{eq:incircle}
+AE = AF = z
+BE = BD = x
+CD = CF = y
+\end{align}
+\item Find $\vec{I}$ such that 
+\begin{align}
+\label{eq:inradius}
+ID = IE = IF =r
+\end{align}
+
+\end{enumerate}
+%
+\section{Exercises}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Draw a circle with centre $\vec{B}$ and radius 6.  If $\vec{C}$ be  a point 10 units  away from its 
+centre, construct the pair of tangents $AC$ and $CD$ to the 
+circle.
+\\
+\solution From the given information, in $\triangle ABC, AC \perp AB, a = 
+10$ and $c = 6$.
+\begin{align}
+b =  \sqrt{a^2-c^2}
+\end{align}
+\item Write a program to compute $p$ and $q$ when $a = 8, b = 11$ and $c = 13$. 
 \item In $\triangle ABC$,  $a$ and  $\angle B$ are known and $b+c = k$. If 
 \begin{align}
 \label{eq:cos_formula}
