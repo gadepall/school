@@ -247,9 +247,7 @@ GPL.  Free and open source.}
 \renewcommand{\thetable}{\theenumi}
 
 \begin{abstract}
-This manual shows how to construct geometric figures using Python. The problems are based on  NCERT math 
-textbooks of 
-Class 9 and 10.
+This manual shows how to construct geometric figures using Python. Exercises are based on  NCERT math textbooks of Class 9 and 10.
 \end{abstract}
 \section{Triangle}
 \begin{enumerate}[label=\thesection.\arabic*
@@ -257,7 +255,8 @@ Class 9 and 10.
 %
 %\item Draw the rectangle $ABCD$ where $AB = c=6, BC = a= 8$.
 %\\
-\item Draw $\triangle ABC$  right angled at $\vec{B}$ such that $AB = 6, BC =8$.
+\item Draw $\triangle ABC$  right angled at $\vec{B}$ such that $AB = c =6, BC = a =8$.
+\\
 \solution The coordinates are
 \begin{align}
 \label{eq:rt_tang_pair}
@@ -285,11 +284,25 @@ Class 9 and 10.
 \section{Circle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item Now redraw $\triangle ABC$ with 
+\item Now redraw $\triangle ABC$ as $\triangle PQR$ with 
 \begin{align}
-\label{eq:rt_triang_circum}
-\vec{O}=\frac{\vec{A}+\vec{C}}{2}=\myvec{0 \\0}
+\label{eq:rt_triang_orig}
+\vec{O}=\frac{\vec{P}+\vec{R}}{2}=\myvec{0 \\0}
 \end{align}
+\\
+\solution The coordinates of the $\triangle PQR$ are
+\begin{align}
+\label{eq:rt_triang_circum_coord}
+\vec{P}=\vec{A}-\vec{E}
+\\
+\vec{Q}=\vec{B}-\vec{E}
+\\
+\vec{R}=\vec{A}-\vec{E}
+\end{align}
+%
+\item Find $r$ such that $\vec{O}$ is equidistant from $\vec{P}, \vec{Q}$ and $\vec{R}$.
+\\
+\solution We have 
 \item Draw the circumcircle of  $\triangle ABC$ with centre $\vec{O}$.  
 \\
 \solution The radius of the circumcircle is 
@@ -312,7 +325,6 @@ r=\frac{b}{2}=\frac{\sqrt{a^2+c^2}}{2}
 \vec{A}=\myvec{0 \\0}
 \end{align}
 %
-$\vec{A}$ 
 and radius $c$.
 \item For 
 \begin{align}
