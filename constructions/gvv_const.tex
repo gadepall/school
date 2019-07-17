@@ -249,7 +249,7 @@ GPL.  Free and open source.}
 \begin{abstract}
 This manual shows how to construct geometric figures using Python. Exercises are based on  NCERT math textbooks of Class 9 and 10.
 \end{abstract}
-\section{Triangle}
+\section{Right Triangle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
 %
@@ -264,43 +264,56 @@ This manual shows how to construct geometric figures using Python. Exercises are
 ,
 \vec{B}=\myvec{0 \\ 0}
 ,
-\vec{C}=\myvec{0 \\ a}
+\vec{C}=\myvec{a \\ 0}
 \end{align}
 \item Let $\vec{D}, \vec{F}, \vec{F}$ be the mid points of $BC,CA$ and $AB$ respectively in $\triangle ABC$. Draw $AD,BE$ and $CF$.
 \\
 \solution 
 \begin{align}
 \label{eq:rt_tang_pair}
-\vec{D} = \frac{\vec{B}+\vec{C}}{2}
+\vec{D} = \frac{\vec{B}+\vec{C}}{2} = \frac{1}{2}\myvec{a \\ 0}
 \\
-\vec{E} = \frac{\vec{C}+\vec{A}}{2}
+\vec{E} = \frac{\vec{C}+\vec{A}}{2} = \frac{1}{2}\myvec{a \\ c}
 \\
-\vec{F} = \frac{\vec{A}+\vec{B}}{2}
+\vec{F} = \frac{\vec{A}+\vec{B}}{2} = \frac{1}{2}\myvec{0 \\ c}
 \end{align}
 \item  Draw $AD, BE$ and $CF$.
 \item Draw $\triangle DEF$ in the previous problem.
 
 \end{enumerate}
-\section{Circle}
+\section{Cirumcircle of Right Triangle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item Now redraw $\triangle ABC$ as $\triangle PQR$ with 
-\begin{align}
-\label{eq:rt_triang_orig}
-\vec{O}=\frac{\vec{P}+\vec{R}}{2}=\myvec{0 \\0}
-\end{align}
-\\
-\solution The coordinates of the $\triangle PQR$ are
+\item Find 
+%Now redraw $\triangle ABC$ as $\triangle PQR$ with the same sides and 
 \begin{align}
 \label{eq:rt_triang_circum_coord}
 \vec{P}=\vec{A}-\vec{E}
 \\
 \vec{Q}=\vec{B}-\vec{E}
 \\
-\vec{R}=\vec{A}-\vec{E}
+\vec{R}=\vec{C}-\vec{E}
 \end{align}
 %
-\item Find $r$ such that $\vec{O}$ is equidistant from $\vec{P}, \vec{Q}$ and $\vec{R}$.
+\solution 
+\begin{align}
+\label{eq:rt_triang_circum_coord_sol}
+\vec{P}= \frac{1}{2}\myvec{-a \\ c}
+\\
+\vec{Q}=-\frac{1}{2}\myvec{a \\ c}
+\\
+\vec{R}=\frac{1}{2}\myvec{a \\ -c}
+\end{align}
+\item Verify that 
+\begin{align}
+\label{eq:rt_triang_orig}
+\vec{O}=\frac{\vec{P}+\vec{R}}{2}=\myvec{0 \\0}
+\end{align}
+%
+\item Find $OP^2$.
+\item Find $OQ^2$.
+\item Find $OR^2$.
+%$r$ such that $\vec{O}$ is equidistant from $\vec{P}, \vec{Q}$ and $\vec{R}$.
 \\
 \solution We have 
 \item Draw the circumcircle of  $\triangle ABC$ with centre $\vec{O}$.  
