@@ -164,7 +164,7 @@ columns=fullflexible
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
 \providecommand{\abs}[1]{\left\vert#1\right\vert}
 \providecommand{\res}[1]{\Res\displaylimits_{#1}} 
-\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\norm}[1]{\left\Vert#1\right\Vert}
 \providecommand{\mtx}[1]{\mathbf{#1}}
 \providecommand{\mean}[1]{E\left[ #1 \right]}
 \providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
@@ -270,7 +270,7 @@ This manual shows how to construct geometric figures using Python. Exercises are
 \\
 \solution 
 \begin{align}
-\label{eq:rt_tang_pair}
+\label{eq:rt_tang_pair_def}
 \vec{D} = \frac{\vec{B}+\vec{C}}{2} = \frac{1}{2}\myvec{a \\ 0}
 \\
 \vec{E} = \frac{\vec{C}+\vec{A}}{2} = \frac{1}{2}\myvec{a \\ c}
@@ -295,14 +295,27 @@ This manual shows how to construct geometric figures using Python. Exercises are
 \vec{R}=\vec{C}-\vec{E}
 \end{align}
 %
-\solution 
+\solution Substituting $\vec{A}$ from \eqref{eq:rt_tang_pair} and $\vec{E}$ from \eqref{eq:rt_tang_pair_def}
 \begin{align}
 \label{eq:rt_triang_circum_coord_sol}
-\vec{P}= \frac{1}{2}\myvec{-a \\ c}
+\vec{P}= \myvec{0 \\ c} - \frac{1}{2}\myvec{a \\ c} = \myvec{0 \\ c} - k\myvec{a \\ c}
+\end{align}
+where 
+\begin{align}
+k = \frac{1}{2}
+\end{align}
+Thus, 
+\begin{align}
+\label{eq:rt_triang_circum_coord_sol}
+\vec{P}&=  \myvec{0 \\ c} - k\myvec{a \\ c} =  \myvec{0 \\ c} - \myvec{ka \\ kc}  =  \myvec{0-(ka) \\ c - (kc)} 
 \\
-\vec{Q}=-\frac{1}{2}\myvec{a \\ c}
+& =  \myvec{0-ka \\ c - kc} = \myvec{-ka \\ c-kc} 
+\end{align}
+Similarly,
+\begin{align}
+\vec{Q}&=-k\myvec{a \\ c}
 \\
-\vec{R}=\frac{1}{2}\myvec{a \\ -c}
+\vec{R}&=\myvec{a-ak \\ -kc}
 \end{align}
 \item Verify that 
 \begin{align}
@@ -310,7 +323,49 @@ This manual shows how to construct geometric figures using Python. Exercises are
 \vec{O}=\frac{\vec{P}+\vec{R}}{2}=\myvec{0 \\0}
 \end{align}
 %
+\solution 
+\begin{align}
+\vec{P}+\vec{R} &=  \myvec{-ka \\ c-kc} + \myvec{a-ka \\ -kc}\\
+&=  \myvec{-ka+a-ka \\ c-kc-kc} =  \myvec{a-2ka \\ c-2kc}
+\end{align}
+%
+Since $2k = 1$,
+\begin{align}
+\vec{P}+\vec{R} &=  \myvec{a-2ka \\ c-2kc} = \myvec{a-a \\ c-c} = \vec{0}
+\end{align}
 \item Find $OP^2$.
+\\
+\solution Let 
+\begin{align*}
+%\label{eq:rt_triang_orig}
+OP^2 &= \norm{\vec{O}-\vec{P}}^2=\norm{\myvec{0 \\0}-\myvec{-ka \\c-kc}}^2 
+\\
+&= \norm{\myvec{0 -\brak{-ka}\\0-\brak{c-kc}}}^2 
+=\norm{\myvec{ka\\-c+kc}}^2 
+\\
+&=\brak{ka}^2+\brak{-c+kc}^2 
+\\
+&= k^2a^2+\brak{-c+kc}\brak{-c+kc}
+\\
+&= k^2a^2+\brak{-c}\brak{-c+kc}+\brak{kc}\brak{-c+kc}
+\\
+&=\brak{-c}\brak{-c}+\brak{-c}\brak{kc}+\brak{kc}\brak{-c}
+\\
+&\quad +\brak{kc}\brak{kc}
+\\
+&= k^2a^2+c^2-kc^2-kc^2+k^2c^2
+\\
+&=k^2a^2+c^2+\brak{-1-1}kc^2+k^2c^2
+\\
+&=k^2a^2+c^2-2kc^2+k^2c^2
+\end{align*}
+$\because 2k=1$,
+\begin{align}
+k^2a^2+c^2-2kc^2+k^2c^2 &= k^2a^2+c^2-c^2+k^2c^2  
+\\
+&= k^2a^2 + k^2c^2
+\end{align}
+
 \item Find $OQ^2$.
 \item Find $OR^2$.
 %$r$ such that $\vec{O}$ is equidistant from $\vec{P}, \vec{Q}$ and $\vec{R}$.
