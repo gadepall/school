@@ -259,7 +259,7 @@ This manual shows how to construct geometric figures using Python. Exercises are
 \\
 \solution The coordinates are
 \begin{align}
-\label{eq:rt_tang_pair}
+\label{eq:rt_triang}
 \vec{A}=\myvec{0 \\ c}
 ,
 \vec{B}=\myvec{0 \\ 0}
@@ -270,7 +270,7 @@ This manual shows how to construct geometric figures using Python. Exercises are
 \\
 \solution 
 \begin{align}
-\label{eq:rt_tang_pair_def}
+\label{eq:rt_triang_mid}
 \vec{D} = \frac{\vec{B}+\vec{C}}{2} = \frac{1}{2}\myvec{a \\ 0}
 \\
 \vec{E} = \frac{\vec{C}+\vec{A}}{2} = \frac{1}{2}\myvec{a \\ c}
@@ -284,61 +284,75 @@ This manual shows how to construct geometric figures using Python. Exercises are
 \section{Cirumcircle of Right Triangle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item Find 
-%Now redraw $\triangle ABC$ as $\triangle PQR$ with the same sides and 
+\item Show that
 \begin{align}
 \label{eq:rt_triang_circum_coord}
-\vec{P}=\vec{A}-\vec{E}
+\vec{A}-\vec{E} &= \myvec{-ka \\ c-kc} 
 \\
-\vec{Q}=\vec{B}-\vec{E}
+\vec{B}-\vec{E} &=-k\myvec{a \\ c}
 \\
-\vec{R}=\vec{C}-\vec{E}
+\vec{C}-\vec{E} &=\myvec{a-ak \\ -kc}
 \end{align}
 %
-\solution Substituting $\vec{A}$ from \eqref{eq:rt_tang_pair} and $\vec{E}$ from \eqref{eq:rt_tang_pair_def}
-\begin{align}
-\label{eq:rt_triang_circum_coord_sol}
-\vec{P}= \myvec{0 \\ c} - \frac{1}{2}\myvec{a \\ c} = \myvec{0 \\ c} - k\myvec{a \\ c}
-\end{align}
 where 
 \begin{align}
 k = \frac{1}{2}
 \end{align}
-Thus, 
+
+%Find 
+%Now redraw $\triangle ABC$ as $\triangle PQR$ with the same sides and 
+%\begin{align}
+%\label{eq:rt_triang_circum_coord}
+%\vec{P}=\vec{A}-\vec{E}
+%\\
+%\vec{Q}=\vec{B}-\vec{E}
+%\\
+%\vec{R}=\vec{C}-\vec{E}
+%\end{align}
+%
+\solution Substituting $\vec{A}$ from \eqref{eq:rt_triang} and $\vec{E}$ from \eqref{eq:rt_triang_mid}
 \begin{align}
 \label{eq:rt_triang_circum_coord_sol}
-\vec{P}&=  \myvec{0 \\ c} - k\myvec{a \\ c} =  \myvec{0 \\ c} - \myvec{ka \\ kc}  =  \myvec{0-(ka) \\ c - (kc)} 
-\\
+\vec{A}-\vec{E}= \myvec{0 \\ c} - \frac{1}{2}\myvec{a \\ c} = \myvec{0 \\ c} - k\myvec{a \\ c}
+\end{align}
+Thus, 
+\begin{align}
+\vec{A}-\vec{E}&=  \myvec{0 \\ c} - k\myvec{a \\ c} =  \myvec{0 \\ c} - \myvec{ka \\ kc}  =  \myvec{0-(ka) \\ c - (kc)} 
+\nonumber \\
 & =  \myvec{0-ka \\ c - kc} = \myvec{-ka \\ c-kc} 
 \end{align}
 Similarly,
-\begin{align}
-\vec{Q}&=-k\myvec{a \\ c}
-\\
-\vec{R}&=\myvec{a-ak \\ -kc}
-\end{align}
-\item Verify that 
-\begin{align}
-\label{eq:rt_triang_orig}
-\vec{O}=\frac{\vec{P}+\vec{R}}{2}=\myvec{0 \\0}
-\end{align}
+$\vec{B}-\vec{E}, 
+\vec{C}-\vec{E}$ 
 %
+can be obtained.
+%\begin{align}
+%\vec{Q}&=-k\myvec{a \\ c}
+%\\
+%\vec{R}&=\myvec{a-ak \\ -kc}
+%\end{align}
+%\item Verify that 
+%\begin{align}
+%\label{eq:rt_triang_orig}
+%\vec{O}=\frac{\vec{P}+\vec{R}}{2}=\myvec{0 \\0}
+%\end{align}
+%%
+%\solution 
+%\begin{align}
+%\vec{P}+\vec{R} &=  \myvec{-ka \\ c-kc} + \myvec{a-ka \\ -kc}\\
+%&=  \myvec{-ka+a-ka \\ c-kc-kc} =  \myvec{a-2ka \\ c-2kc}
+%\end{align}
+%%
+%Since $2k = 1$,
+%\begin{align}
+%\vec{P}+\vec{R} &=  \myvec{a-2ka \\ c-2kc} = \myvec{a-a \\ c-c} = \vec{0}
+%\end{align}
+\item Find $EA^2$.
+\\
 \solution 
-\begin{align}
-\vec{P}+\vec{R} &=  \myvec{-ka \\ c-kc} + \myvec{a-ka \\ -kc}\\
-&=  \myvec{-ka+a-ka \\ c-kc-kc} =  \myvec{a-2ka \\ c-2kc}
-\end{align}
-%
-Since $2k = 1$,
-\begin{align}
-\vec{P}+\vec{R} &=  \myvec{a-2ka \\ c-2kc} = \myvec{a-a \\ c-c} = \vec{0}
-\end{align}
-\item Find $OP^2$.
-\\
-\solution Let 
 \begin{align*}
 %\label{eq:rt_triang_orig}
-OP^2 &= \norm{\vec{O}-\vec{P}}^2=\norm{\myvec{0 \\0}-\myvec{-ka \\c-kc}}^2 
+EA^2 &= \norm{\vec{A}-\vec{E}}^2=\norm{\myvec{0 \\0}-\myvec{-ka \\c-kc}}^2 
 \\
 &= \norm{\myvec{0 -\brak{-ka}\\0-\brak{c-kc}}}^2 
 =\norm{\myvec{ka\\-c+kc}}^2 
@@ -349,7 +363,7 @@ OP^2 &= \norm{\vec{O}-\vec{P}}^2=\norm{\myvec{0 \\0}-\myvec{-ka \\c-kc}}^2
 \\
 &= k^2a^2+\brak{-c}\brak{-c+kc}+\brak{kc}\brak{-c+kc}
 \\
-&=\brak{-c}\brak{-c}+\brak{-c}\brak{kc}+\brak{kc}\brak{-c}
+&=k^2a^2+\brak{-c}\brak{-c}+\brak{-c}\brak{kc}+\brak{kc}\brak{-c}
 \\
 &\quad +\brak{kc}\brak{kc}
 \\
@@ -360,56 +374,127 @@ OP^2 &= \norm{\vec{O}-\vec{P}}^2=\norm{\myvec{0 \\0}-\myvec{-ka \\c-kc}}^2
 &=k^2a^2+c^2-2kc^2+k^2c^2
 \end{align*}
 $\because 2k=1$,
-\begin{align}
+\begin{align*}
 k^2a^2+c^2-2kc^2+k^2c^2 &= k^2a^2+c^2-c^2+k^2c^2  
 \\
 &= k^2a^2 + k^2c^2
+\\
+&= k^2\brak{a^2 + c^2}
+\end{align*}
+
+\item Show that 
+\begin{align}
+EB^2 =  k^2\brak{a^2 + c^2}
+\end{align}
+\item Show that 
+\begin{align}
+EC^2 =  k^2\brak{a^2 + c^2}
 \end{align}
 
-\item Find $OQ^2$.
-\item Find $OR^2$.
-%$r$ such that $\vec{O}$ is equidistant from $\vec{P}, \vec{Q}$ and $\vec{R}$.
-\\
-\solution We have 
-\item Draw the circumcircle of  $\triangle ABC$ with centre $\vec{O}$.  
-\\
-\solution The radius of the circumcircle is 
+\item Draw the circumcircle of  $\triangle ABC$ with centre $\vec{E}$
+and radius 
 \begin{align}
-\label{eq:rt_triang_circum_rad}
-r=\frac{b}{2}=\frac{\sqrt{a^2+c^2}}{2}
+R =  EA = EB=EC=k\sqrt{\brak{a^2 + c^2}}
 \end{align}
-%\item Now redraw $\triangle ABC$ with 
-%\begin{align}
-%\vec{A}=\myvec{0 \\0}
-%\end{align}
-%\\
-%\solution The new coordinates are
-%\begin{align}
-%\vec{B}=\myvec{0 \\-c}
-%\vec{C}=\myvec{0 \\a-c}
-%\end{align}
-\item Draw a circle with centre 
+\end{enumerate}
+\section{Tangent}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item In the right $\triangle ABC$, right angled at $\vec{A}$, $AC = b = 8, AB=c=6$ and
 \begin{align}
-\vec{A}=\myvec{0 \\0}
+\vec{B}=\myvec{0 \\0}, \vec{C}=\myvec{a \\0}, 
 \end{align}
 %
-and radius $c$.
-\item For 
+find 
 \begin{align}
-\vec{C}=\myvec{b \\0}, 
+\vec{A}=\myvec{p \\q}
 \end{align}
-find $p,q$ such that
+\solution $\because$ 
 \begin{align}
-\vec{B}=\myvec{p \\q}, 
-\end{align}
-\item Redraw $\triangle ABC$ with centre $\vec{A}$ and radius $c$.
-\item Draw the tangent $CD$ to the circle.
+AB^2 &= \norm{\vec{A}-\vec{B}}^2,
 \\
-\solution The coordinate
+%
+\implies AB^2 &= \norm{\myvec{p \\q}-\myvec{0 \\0}}^2 
+\\
+&=\norm{\myvec{p-0 \\q-0}}^2=\norm{\myvec{p \\q}}^2
+\\
+\implies c^2 &= p^2+q^2
+\\
+\text{or, } c^2 -q^2 &= p^2
+\label{eq:rt_tang_pair_ab}
+\end{align}
+%
+Similarly,
 \begin{align}
-\label{eq:rt_tang_pair}
+AC^2 = \norm{\vec{A}-\vec{C}}^2 &= \norm{\myvec{p \\q}-\myvec{a \\0}}^2 
+\\
+=\norm{\myvec{p-a \\q-0}}^2&=\norm{\myvec{p-a \\q}}^2
+\end{align}
+Thus, 
+\begin{align}
+AC^2 &=b^2 = (p-a)^2+q^2 
+\nonumber \\
+&= \brak{p-a}\brak{p-a}+q^2
+\nonumber \\
+&=\brak{p}\brak{p-a}+\brak{-a}\brak{p-a}+q^2 
+\nonumber \\
+&=p^2 +p\brak{-a} +\brak{-a}\brak{ p} 
+\\
+&\quad +\brak{-a}\brak{-a} + q^2
+\nonumber \\
+&= p^2 -pa -pa +a^2 
+\nonumber \\
+&= p^2 +pa\brak{-1-1}+a^2 + q^2
+\nonumber \\
+\implies b^2 &=p^2 -2pa + a^2 + q^2
+\nonumber \\
+\implies b^2 &-\brak{-2pa +a^2 +q^2} = p^2
+\nonumber \\
+\implies b^2 &+2pa -a^2 -q^2 = p^2
+\label{eq:rt_tang_pair_ac}
+\end{align}
+From \eqref{eq:rt_tang_pair_ab} and \eqref{eq:rt_tang_pair_ac}, equating the L.H.S,\begin{align}
+c^2 -q^2 = b^2 +2pa -a^2 &-q^2
+\nonumber \\
+\implies c^2 -q^2 -\brak{ b^2 +2pa -a^2 -q^2} &=0
+\nonumber \\
+\implies c^2 -q^2 - b^2 -2pa +a^2 +q^2 &=0
+\nonumber \\
+\implies c^2 -q^2+q^2 - b^2 -2pa +a^2  &=0
+\nonumber \\
+\implies c^2 +q^2\brak{-1+1} - b^2 -2pa +a^2  &=0
+\nonumber \\
+\implies c^2 +q^2\brak{0} - b^2 -2pa +a^2  &=0
+\nonumber \\
+\implies c^2  - b^2 -2pa +a^2  &=0
+\nonumber \\
+\implies c^2  - b^2  +a^2  &=2pa
+\nonumber\\
+\implies \frac{c^2  - b^2  +a^2}{2a}  &=p
+\label{eq:rt_tang_pair_p}
+\end{align}
+%
+From \eqref{eq:rt_tang_pair_p}, $p$ is obtained. $q$ can be obtained from 
+\eqref{eq:rt_tang_pair_ab} as 
+\begin{align}
+ c^2 &= p^2+q^2
+\nonumber\\ 
+\implies c^2 - p^2 &=q^2
+\nonumber\\ 
+\implies \sqrt{c^2 - p^2} &=q
+\end{align}
+
+\item Draw a circle with centre $\vec{B}$
+%
+and radius $c = 6$.
+\item Let 
+\begin{align}
 D=\myvec{p \\ -q}
 \end{align}
+%
+Draw $\triangle ABC$ and $\triangle ADC$.
+\\
+\solution 
 The following code draws the circle and tangents in Fig. \ref{fig:circle}
 \lstinputlisting{./codes/draw_circle.py}
 %
@@ -420,30 +505,90 @@ The following code draws the circle and tangents in Fig. \ref{fig:circle}
 \label{fig:circle}
 \end{figure}
 %
-\item Consider $\triangle ABC$ with $BC = a, CA = b$ and $AB= c$.  Let
+\end{enumerate}
+\section{Incircle}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+
+\item Consider the right angled $\triangle ABC$, right angled at $\vec{B}$ with $a = 8, b = 10, c = 6$.  Let
 \begin{align}
-\label{eq:triangle_coord_def}
-\vec{A}=\myvec{p \\q},
-\vec{B}=\myvec{0 \\0},
-\vec{C}=\myvec{0 \\a}
-\end{align}
-Find  $p$ and $q$.
-\\
-\solution 
-%
-Since
-\begin{align}
-\label{eq:triangle_dist}
-p^2+q^2&= c^2
-\\
-\brak{p-a}^2+q^2&= b^2,
-\end{align}
-we obtain
-\begin{align}
-p = \frac{a^2+c^2-b^2}{2a},
-q = \sqrt{c^2-p^2}
+x+y = a
+\nonumber \\
+y+z = b
+\nonumber \\
+z+x = c
+\label{eq:tang_len}
 \end{align}
 %
+Show that 
+\begin{align}
+x &=\frac{a+c-b}{2}
+\nonumber \\
+y &=\frac{b+a-c}{2}
+\nonumber \\
+z &=\frac{c+b-a}{2}
+\end{align}
+%\solution  The given information can be expressed as the matrix equation
+%\begin{align}
+%\myvec{
+%1 & 1 & 0
+%\\
+%0 & 1 & 1
+%\\
+%1 & 0 & 1
+%}
+%\myvec{x \\ y \\ z} = \myvec{a \\b\\c}
+%\end{align}
+%%
+%which can be solved to obtain $x,y,z$.
+\item Find $\vec{D}, \vec{E}, \vec{F}$ such that 
+\begin{align}
+\label{eq:incircle}
+\vec{D} = \frac{x\vec{C}+y\vec{B}}{x+y}
+\nonumber \\
+\vec{E} = \frac{y\vec{A}+z\vec{C}}{y+z}
+\nonumber \\
+\vec{F} = \frac{z\vec{B}+x\vec{A}}{z+x}
+\end{align}
+\item Let 
+\begin{align}
+\label{eq:inradius}
+\vec{I} = \myvec{p \\ q}
+\end{align}
+If 
+\begin{align}
+\vec{D} = \myvec{d_1 \\ d_2},
+\vec{E} = \myvec{e_1 \\ e_2},
+\end{align}
+and 
+\begin{align}
+ID = IE 
+\end{align}
+show that 
+\begin{align}
+p\brak{d_1-e_1}+ q\brak{d_2-e_2} &= \frac{e_1^2+e_2^2-d_1^2-d_2^2}{2}
+\end{align}
+%
+\item If 
+\begin{align}
+IE = IF,
+\end{align}
+show that 
+\begin{align}
+p\brak{e_1-f_1}+ q\brak{e_2-f_2} &= \frac{f_1^2+f_2^2-e_1^2-e_2^2}{2}
+\end{align}
+
+\item Find $\vec{I}$ and $r$ if 
+\begin{align}
+ID = IE = IF =r
+\end{align}
+
+\end{enumerate}
+%
+%
+\section{Exercises}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
 \item Plot $\triangle ABC$ for $a = 8, b = 11$ and $c = 13$. 
 \\
 \solution The following program plots $\triangle ABC$ in Fig. \ref{fig:triangle}
@@ -459,46 +604,6 @@ q = \sqrt{c^2-p^2}
 \begin{align}
 R = OA = OB = OC
 \end{align}
-\item Let
-\begin{align}
-\label{eq:tang_len}
-x+y = a
-y+z = b
-z+x = c
-\end{align}
-Find $x,y,z$.
-\\
-\solution  The given information can be expressed as the matrix equation
-\begin{align}
-\myvec{
-1 & 1 & 0
-\\
-0 & 1 & 1
-\\
-1 & 0 & 1
-}
-\myvec{x \\ y \\ z} = \myvec{a \\b\\c}
-\end{align}
-%
-which can be solved to obtain $x,y,z$.
-\item Find $\vec{D}, \vec{E}, \vec{F}$ such that 
-\begin{align}
-\label{eq:incircle}
-AE = AF = z
-BE = BD = x
-CD = CF = y
-\end{align}
-\item Find $\vec{I}$ such that 
-\begin{align}
-\label{eq:inradius}
-ID = IE = IF =r
-\end{align}
-
-\end{enumerate}
-%
-\section{Exercises}
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
 \item Draw a circle with centre $\vec{B}$ and radius 6.  If $\vec{C}$ be  a point 10 units  away from its 
 centre, construct the pair of tangents $AC$ and $CD$ to the 
 circle.
@@ -515,22 +620,25 @@ b =  \sqrt{a^2-c^2}
 b^2  = a^2+c^2- 2ac \cos B
 \end{align}
 %
-find $b$ and $c$.
-\\
-\solution From \eqref{eq:cos_formula}, 
+show that
 \begin{align}
-\label{eq:aB}
-\brak{k-c}^2 &= a^2+c^2- 2ac \cos B
-\\
-\implies k^2 -2kc+c^2 &= a^2+c^2- 2ac \cos B
-\\
-\implies -2kc+ 2ac \cos B&= a^2-k^2 
-\\
-\implies 2c\brak{a \cos B -k}&= a^2-k^2 
-\\
-\text{or, } c &= \frac{ a^2-k^2 }{2\brak{a \cos B -k}}
+c = \frac{ a^2-k^2 }{2\brak{a \cos B -k}}
 \end{align}
 
+%find $b$ and $c$.
+%\\
+%\solution From \eqref{eq:cos_formula}, 
+%\begin{align}
+%\label{eq:aB}
+%\brak{k-c}^2 &= a^2+c^2- 2ac \cos B
+%\\
+%\implies k^2 -2kc+c^2 &= a^2+c^2- 2ac \cos B
+%\\
+%\implies -2kc+ 2ac \cos B&= a^2-k^2 
+%\\
+%\implies 2c\brak{a \cos B -k}&= a^2-k^2 
+%\\
+%
 \item In $\triangle ABC$,  $a = 7, \angle B = 75^{\degree}$ and $b+c = 13$. 
 %If 
 %\begin{align}
