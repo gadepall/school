@@ -602,7 +602,7 @@ resulting in
 \end{align}
 \item If an equilateral triangle, having centroid at the origin, has a side along the line
 \begin{equation}
-\label{eq:lines_5_ab}
+\label{eq:lines_6_ab}
 \myvec{1 & 1}\vec{x} = 2,
 \end{equation}
 then find the area of this triangle.
@@ -613,18 +613,18 @@ then find the area of this triangle.
 \nonumber \\
 \implies 
 \vec{A}+\vec{B}+\vec{C} = \vec{0}
-\label{eq:lines_5_abc}
+\label{eq:lines_6_abc}
 \end{align}
 %
-If $AB$ be the line in \eqref{eq:lines_5_ab},
+If $AB$ be the line in \eqref{eq:lines_6_ab},
 %\begin{equation}
-%\label{eq:lines_5_nab}
+%\label{eq:lines_6_nab}
 %\myvec{1 & 1}\brak{\vec{A}-\vec{B}} = 0
 %\end{equation}
 %%
 %Thus, the direction vector of $AB$ is 
 %\begin{align}
-%\label{eq:lines_5_mab}
+%\label{eq:lines_6_mab}
 %\vec{m} = \myvec{1 \\ -1}
 %\end{align}
 the equation of 
@@ -635,13 +635,13 @@ $CF$, where
 is 
 %
 \begin{align}
-\label{eq:lines_5_cf}
+\label{eq:lines_6_cf}
 \myvec{1 & -1}\vec{x} = 0
 \end{align}
-since $CF$ passes through the origin and $CF\perp AB$. From \eqref{eq:lines_5_ab}
-and \eqref{eq:lines_5_cf},
+since $CF$ passes through the origin and $CF\perp AB$. From \eqref{eq:lines_6_ab}
+and \eqref{eq:lines_6_cf},
 \begin{align}
-\label{eq:lines_5_fmat}
+\label{eq:lines_6_fmat}
 \myvec{1 & 1 \\1 & -1}\vec{F} = \myvec{2 \\ 0}
 \end{align}
 %
@@ -650,42 +650,64 @@ Forming the augmented matrix,
 \myvec{1 & 1 &2 \\1 & -1 & 0} &\leftrightarrow \myvec{1 & 1 &2 \\0 & 2 & 2} \leftrightarrow \myvec{1 & 1 &2 \\0 & 1 & 1} 
 \nonumber \\
 &\leftrightarrow \myvec{1 & 0 &1 \\0 & 1 & 1} \implies \vec{F} = \myvec{1 \\ 1}
-\label{eq:lines_5_f}
+\label{eq:lines_6_f}
 \end{align}
-From \eqref{eq:lines_5_abc},
+From \eqref{eq:lines_6_abc},
 \begin{align}
 \vec{C}=-\brak{\vec{A}+\vec{B}}=-2\vec{F} = -2\myvec{1 \\ 1}
-\label{eq:lines_5_c}
+\label{eq:lines_6_c}
 \end{align}
-after substituting from \eqref{eq:lines_5_f}.
-
-\item Find the locus of the point of intersection of the straight lines
+after substituting from \eqref{eq:lines_6_f}.  Thus, 
 \begin{align}
-\myvec{t & -2 }\vec{x} -3t &= 0
+CF &= \norm{\vec{C}-\vec{F}} = 3\sqrt{2} 
 \\
-\myvec{1 & -2t }\vec{x} +3 &= 0
+\implies AB &=  CF\frac{2}{\sqrt{3}} = \sqrt{6}
+\label{eq:lines_6_cflen}
 \end{align}
+and the area of the triangle is 
+\begin{align}
+\frac{1}{2} AB \times CF = 3\sqrt{3}
+\end{align}
+
+
 \item A square, of each side 2, lies above the $x$-axis and has one vertex at the origin.  If one of the sides 
 passing through the origin makes an angle $30^{\degree}$ with the positive direction of the $x$-axis, then 
 find the 
 sum of the $x$-coordinates of the vertices of the square.
-\item Find the locus of the point of intersection of the lines
-\begin{align}
-\myvec{\sqrt{2} & -1 }\vec{x} + 4 \sqrt{2}k &= 0
 \\
-\myvec{\sqrt{2}k & k }\vec{x} - 4 \sqrt{2} &= 0
-\end{align}
-\item The sides of a rhombus $ABC$ are parallel to the lines
+\solution Consider the square $ABCD$ with $\vec{A} = \vec{0}, AB = 2$ such that $\vec{B}$ and $\vec{D}$ lie on the $x$ and $y$-axis respectively. Then 
 \begin{align}
-\myvec{1 & -1}\vec{x} + 2 &=0
+\vec{A}+\vec{B}+\vec{C}+\vec{D} = 4\myvec{1 \\ 1}
+\label{eq:lines_7_abcdsum}
+\end{align}
+%
+Multiplying \eqref{eq:lines_7_abcdsum} with the rotation matrix 
+\begin{align}
+\label{eq:lines_7_t}
+\vec{T} = \myvec{\cos \theta & -\sin \theta \\ \sin \theta & \cos \theta},
+\end{align}
+\begin{align}
+\vec{T}\brak{\vec{A}+\vec{B}+\vec{C}+\vec{D}} &= 4\myvec{\cos \theta & -\sin \theta \\ \sin \theta & \cos \theta}\myvec{1 \\ 1}
+\nonumber \\
+&= 4\myvec{\cos \theta  -\sin \theta \\ \cos \theta + \sin \theta}
+%\nonumber \\
+\end{align}
+\begin{multline}
+\implies \myvec{1 & 0}\vec{T}\brak{\vec{A}+\vec{B}+\vec{C}+\vec{D}} 
 \\
-\myvec{7 & -1}\vec{x} + 3 &=0.
-\end{align}
-If the diagonals of the rhombus intersect at
-\begin{align}
-\vec{P} = \myvec{1 \\ 2}
-\end{align}
-and the vertex $\vec{A}$ (different) from the origin is on the $y$-axis, then find the ordinate of $A$.
+= 4\brak{\cos \theta  -\sin \theta}
+= 2\brak{\sqrt{3}-1}
+\end{multline}
+%
+for $\theta = 30^{\degree}$.
+
+
+%\item Find the locus of the point of intersection of the lines
+%\begin{align}
+%\myvec{\sqrt{2} & -1 }\vec{x} + 4 \sqrt{2}k &= 0
+%\\
+%\myvec{\sqrt{2}k & k }\vec{x} - 4 \sqrt{2} &= 0
+%\end{align}
 
 \end{enumerate}
 \end{document}
