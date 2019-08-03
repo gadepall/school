@@ -311,22 +311,141 @@ resulting in
 \item The 
 point 
 \begin{equation} 
-\myvec{2\\ 1} 
+\vec{P}=\myvec{2\\ 1} 
 \end{equation} 
 is translated parallel to the line 
 \begin{equation} 
-\myvec{1 & -1}\vec{x} = 4 
+\label{line_2}
+L: \myvec{1 & -1}\vec{x} = 4 
 \end{equation} 
 % 
 by $2\sqrt{3}$ units.  If the new point $\vec{Q}$ lies in the third 
 quadrant, then find the equation of the line passing through $\vec{Q}$ and perpendicular to $L$. 
+\\
+\solution From \eqref{line_2}, the direction vector of $L$ is
+\begin{equation} 
+\label{line_2_m}
+\vec{m} = \myvec{1 \\ 1} 
+\end{equation} 
+Thus, 
+\begin{equation} 
+\label{line_2_q}
+\vec{Q}= \vec{P} + \lambda \vec{m}
+\end{equation} 
+However, 
+\begin{align} 
+PQ &= 2\sqrt{3}
+\\
+\implies\norm{\vec{P}- \vec{Q}} &= \abs{\lambda}\norm{\vec{m}} =  2\sqrt{3}
+\\
+\implies \lambda &= \pm \frac{2\sqrt{3}}{\norm{\vec{m}}} = \pm \sqrt{6}
+\label{line_2_lam}
+\end{align} 
+%
+\begin{align} 
+\because \norm{\vec{m}} = \sqrt{\vec{m}^T\vec{m}}= \sqrt{2}
+\end{align} 
+%
+from \eqref{line_2_m}.  Since $\vec{Q}$ lies in the third quadrant, from \eqref{line_2_q} and \eqref{line_2_lam},
+\begin{align} 
+\vec{Q} = \myvec{2\\ 1}  -  \sqrt{6}\myvec{1\\ 1} =  \myvec{2-\sqrt{6}\\ 1-\sqrt{6}}
+\end{align} 
+%
+The equation of the desired line is then obtained as 
+\begin{align} 
+\label{line_2_final}
+\vec{m}^T\brak{\vec{x}-\vec{Q}}&= 0
+\\
+ \myvec{1 & 1}\vec{x} &= 3 -\sqrt{6}
+\end{align} 
 \item A variable line drawn through the 
 intersection of the lines 
-\begin{align} \myvec{4 & 3}\vec{x} &=12 
+\begin{align} 
+\label{lines_3}
+\myvec{4 & 3}\vec{x} &=12 
 \\ 
 \myvec{3 & 4}\vec{x} &=12 
 \end{align} 
 meets the coordinate axes at $\vec{A}$ and $\vec{B}$, then find the locus of the midpoint of $AB$. 
+\\
+\solution The intersection of the lines in \eqref{lines_3} is obtained through the matrix equation 
+\begin{align}
+\myvec{4 & 3 \\ 3 & 4}\vec{x}  &=\myvec{12\\12}
+\end{align}
+by forming the augmented matrix and row reduction as  
+\begin{align}
+\myvec{4 & 3 &12 \\ 3 & 4 &12} &\leftrightarrow \myvec{4 & 3 &12 \\ 0 & 7 &12} \leftrightarrow \myvec{28 & 0 & 48 \\ 0 & 7 &12}
+\nonumber \\
+\leftrightarrow \myvec{7 & 0 & 12 \\ 0 & 7 &12}&
+\end{align}
+resulting in 
+\begin{align}
+\vec{C}=\frac{1}{7}\myvec{12\\12}
+\end{align}
+%
+Let the $\vec{R}$ be the mid point of $AB$. Then,
+\begin{align}
+\label{eq:lines_3_abr}
+\vec{A} =2 \myvec{1 & 0\\0 & 0}\vec{R} 
+\\
+\vec{B} =2 \myvec{0 & 0\\0 & 1}\vec{R} 
+\end{align}
+%
+Let the equation of $AB$ be 
+%equation of a line passing through $\vec{C}$ be 
+\begin{align}
+\vec{n}^T\brak{\vec{x} - \vec{C}} = 0
+\label{eq:lines_3_def}
+\end{align}
+Since $\vec{R}$ lies on $AB$, 
+\begin{align}
+\vec{n}^T\brak{\vec{R} - \vec{C}} = 0
+\label{eq:lines_3_rc}
+\end{align}
+Also, 
+\begin{align}
+\vec{n}^T\brak{\vec{A} - \vec{B}} = 0
+\label{eq:lines_3_ab}
+\end{align}
+%
+Substituting from \eqref{eq:lines_3_abr} in \eqref{eq:lines_3_ab},
+\begin{align}
+\vec{n}^T\myvec{1 & 0 \\ 0 & -1}\vec{R} = 0
+\label{eq:lines_3_r_sub}
+\end{align}
+%
+From \eqref{eq:lines_3_rc} and \eqref{eq:lines_3_r_sub},
+\begin{align}
+\brak{\vec{R} - \vec{C}} = k\myvec{1 & 0 \\ 0 & -1}\vec{R}
+\label{eq:lines_3_k}
+\end{align}
+%
+for some constant $k$.
+Multiplying both sides of \eqref{eq:lines_3_k} by 
+\begin{align}
+\vec{R}^T\myvec{0 & 1 \\ 1 & 0},
+\end{align}
+\begin{align}
+\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\brak{\vec{R} - \vec{C}} &= k\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\myvec{1 & 0 \\ 0 & -1}\vec{R}
+\nonumber \\
+&= k\vec{R}^T\myvec{0 & -1 \\ 1 & 0}\vec{R} = 0
+\label{eq:lines_3_mul}
+\end{align}
+\begin{align}
+\because \vec{R}^T\myvec{0 & -1 \\ 1 & 0}\vec{R} = 0
+\end{align}
+which can be easily verified for any $\vec{R}$.
+%
+from \eqref{eq:lines_3_mul},
+\begin{align}
+\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\brak{\vec{R} - \vec{C}} = 0
+\nonumber \\
+\implies \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} - \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{C} = 0
+\nonumber \\
+\implies \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} - \vec{C}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} = 0
+\end{align}
+%
+which is the desired locus.
 \item Two sides of a rhombus are along the lines
 \begin{align}
 \myvec{1 & -1}\vec{x} + 1 &=0
