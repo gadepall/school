@@ -175,7 +175,6 @@ columns=fullflexible
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
-%\numberwithin{equation}{subsection}
 %\numberwithin{equation}{section}
 %\numberwithin{problem}{subsection}
 %\numberwithin{definition}{subsection}
@@ -250,7 +249,9 @@ The Straight Line
 	Solved problems from JEE mains papers related to 2D lines in coordinate geometry are 
 available in this document.  These problems are solved using linear algebra/matrix analysis.
 \end{abstract}
-\begin{enumerate}[label=\arabic*.]
+\begin{enumerate}[label=\arabic*]
+\numberwithin{equation}{enumi}
+
 \item A straight line through the origin   $\vec{O}$ meets the lines
 \begin{align} 
 \label{eq:line_1}
@@ -448,16 +449,63 @@ from \eqref{eq:lines_3_mul},
 which is the desired locus.
 \item Two sides of a rhombus are along the lines
 \begin{align}
-\myvec{1 & -1}\vec{x} + 1 &=0
+\label{eq:lines_4_ab}
+AB: \myvec{1 & -1}\vec{x} + 1 &=0
 \\
-\myvec{7 & -1}\vec{x} -5 &=0.
+AD: \myvec{7 & -1}\vec{x} -5 &=0.
+\label{eq:lines_4_ad}
 \end{align}
 %
 If its diagonals intersect at 
 \begin{equation}
-\myvec{-1\\ -2},
+\vec{P}=\myvec{-1\\ -2},
+\label{eq:lines_4_p}
 \end{equation}
 find its vertices.
+\\
+\solution From \eqref{eq:lines_4_ab} and \eqref{eq:lines_4_ad},
+\begin{align}
+\myvec{1 & -1 \\ 7 & -1}\vec{A}  &=\myvec{-1 \\ 5}
+\end{align}
+%
+By row reducing the augmented matrix
+\begin{align}
+\myvec{1 & -1 & -1\\ 7 & -1 & 5}  &\leftrightarrow \myvec{1 & -1 & -1\\ 0 & 6 & 12}\leftrightarrow \myvec{1 & -1 & -1\\ 0 & 1 & 2}
+\nonumber \\
+&\leftrightarrow \myvec{1 & 0 & 1\\ 0 & 1 & 2} \implies \vec{A}=\myvec{1\\ 2},
+\label{eq:lines_4_a}
+\end{align}
+%
+From \eqref{eq:lines_4_p} and \eqref{eq:lines_4_a}
+\begin{align}
+AP =\norm{\vec{A}-\vec{P}} = 2\sqrt{5} =d (say)
+\end{align}
+%
+The direction vector of $AP$ is 
+\begin{align}
+\vec{m} &=\vec{A}-\vec{P} = 2\myvec{1\\ 2}
+\\
+\implies \norm{\vec{m}} &= 2\sqrt{5}
+\end{align}
+Since the direction of $AP$ is the same as $AC$,
+\begin{align}
+\vec{C} &=\vec{P}-d\frac{\vec{m}}{\norm{\vec{m}}} 
+\nonumber \\
+&= -\myvec{1\\ 2}- 2\myvec{1\\ 2} = \myvec{-3\\ -6}
+\end{align}
+%
+Let $\vec{n}\perp\vec{m}$. Then 
+\begin{align}
+\vec{n} &=\myvec{2\\ -1}
+\end{align}
+%
+and 
+\begin{align}
+\vec{B,D} &=\vec{P}\pm d\frac{\vec{n}}{\norm{\vec{n}}} 
+\nonumber \\
+&=-\myvec{1\\ 2}\pm 2\myvec{2\\ -1} = \myvec{5\\ 0}, \myvec{-3\\ 4}
+\end{align}
+
 \item Let $k$ be an integer such that the triangle with vertices
 \begin{equation}
 \myvec{k\\-3k},
