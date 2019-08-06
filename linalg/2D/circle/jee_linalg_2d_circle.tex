@@ -164,7 +164,7 @@ columns=fullflexible
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
 \providecommand{\abs}[1]{\left\vert#1\right\vert}
 \providecommand{\res}[1]{\Res\displaylimits_{#1}} 
-\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\norm}[1]{\left\Vert#1\right\Vert}
 \providecommand{\mtx}[1]{\mathbf{#1}}
 \providecommand{\mean}[1]{E\left[ #1 \right]}
 \providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
@@ -400,29 +400,103 @@ The product of the roots in \eqref{eq:circle_3_quad} is
 \label{eq:circle_3_prod}
 PA.PB =\norm{\vec{P}}^2-9 = 56
 \end{align}
-\item Find the equation of the circle, which is the mirror image of the circle
+%
+\item Find the equation of the circle $C_2$, which is the mirror image of the circle
 \begin{equation}
+C_1: 
 \vec{x}^T\vec{x} -\myvec{2 & 0 }\vec{x} = 0
+\label{eq:circle_4}
 \end{equation}
 in the line
 \begin{equation}
-\myvec{1 & 1}\vec{x} = 3.
+L: \myvec{1 & 1}\vec{x} = 3.
+\label{eq:circle_4_line}
 \end{equation}
+\solution From  \eqref{eq:circle_4}, circle $C_1$ has centre at 
+\begin{align}
+\label{eq:circle_4_o1}
+\vec{O}_1 = \myvec{1 \\ 0 }
+\end{align}
+%
+and radius 
+\begin{align}
+\label{eq:circle_4_r1}
+r_1 = \vec{O}_1^T\vec{O}_1 = 1
+\end{align}
+%
+The centre of $C_2$ is the reflection of $\vec{O}_1$ about $L$ and is obtained as 
+\begin{align}
+\label{eq:circle_4_o2}
+\frac{\vec{O}_2}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{O}_1 + c 
+\frac{\vec{n}}{\norm{\vec{n}}}
+\end{align}
+%
+where the relevant parameters are obtained from \eqref{eq:circle_4_line} as
+\begin{align}
+\vec{n} =  \myvec{1 & 1}, \vec{m} =  \myvec{1 & -1}, c = 3.
+\end{align}
+%
+Substituting the above in \eqref{eq:circle_4_o2},
+\begin{align}
+\label{eq:circle_4_o2_final}
+\frac{\vec{O}_2}{2} &= \frac{\myvec{1 & 1 \\ 1 & 1}-\myvec{1 & -1 \\ -1 & 1}}{4}\vec{O}_1 + c 
+\frac{\vec{n}}{\sqrt{2}}
+\nonumber \\
+\implies \vec{O}_2 &= \myvec{\sqrt{2} \\ 1 - \sqrt{2}}
+\end{align}
+%
+Thus
+\begin{align}
+C_2: \norm{\vec{x}- \myvec{\sqrt{2} \\ 1 - \sqrt{2}}} = 1
+\label{eq:circle_4_c2}
+\end{align}
+
 \item Find the locus of the centres of those circles which touch the circle
 \begin{equation}
+C:
 \vec{x}^T\vec{x} -8\myvec{1 & 1 }\vec{x} = 4
+\label{eq:circle_5}
 \end{equation}
 and also touch the $x$-axis.
+\\
+\solution $C$ has centre at 
+\begin{align}
+\vec{O} = 4 \myvec{1 \\ 1 } 
+\label{eq:circle_5_o}
+\end{align}
+%
+Let $\vec{y}$ be the centre of the desired circle. 
+If $\vec{p}$ be the point of contact, since $\vec{y},\vec{p},\vec{O}$ are collinear, 
+\begin{align}
+\vec{p} = \frac{\vec{y}+\vec{O}}{2}
+\label{eq:circle_5_p}
+\end{align}
+
+
+Since the circle touches the $x-axis$, the x-axis is its tangent.
 \item One of the diameters of the circle, given by 
 \begin{equation}
-\vec{x}^T\vec{x} +2\myvec{-2 & 3 }\vec{x} = 12
- = 0
+C: \vec{x}^T\vec{x} +2\myvec{-2 & 3 }\vec{x} = 12
+\label{eq:circle_6_c}
 \end{equation}
 is a chord of a circle $S$, whose centre is at 
 \begin{equation}
-\myvec{-3\\ 2}.
+\vec{O}_2=\myvec{-3\\ 2}.
+\label{eq:circle_6_o2}
 \end{equation}
 Find the radius of $S$.
+\\
+\solution From \eqref{eq:circle_6_c}, the centre of $C$ is 
+\begin{align}
+\vec{O}_1 = \myvec{2\\ -3} 
+\label{eq:circle_6_p}
+\end{align}
+%
+and the radius is 
+\begin{align}
+r_1 = \sqrt{\vec{O}_1^T\vec{O}_1} = \myvec{2\\ -3} 
+\label{eq:circle_6_p}
+\end{align}
 \item A circle passes through 
 \begin{equation} 
 \myvec{-2\\ 4} 
@@ -449,462 +523,6 @@ whose centre is the point of intersection of the straight lines
 \myvec{1 & -1}\vec{x} &= 1
 \end{align} 
 
-\item A straight line through the origin   $\vec{O}$ meets the lines
-\begin{align} 
-\label{eq:line_1}
-\myvec{4 & 3}\vec{x} &= 10
-\\
-\myvec{8 & 6}\vec{x} +5&= 0
-\end{align} 
-%
-at $\vec{A}$ and $\vec{B}$ respectively.  Find the ratio in which  $\vec{O}$ divides $AB$.
-\\
-\solution Let 
-\begin{align} 
-\vec{n} =\myvec{4 & 3}
-\end{align} 
-%
-Then \eqref{eq:line_1} can be expressed as
-\begin{align} 
-\label{eq:line_1_normal}
-\vec{n}^T\vec{x} &= 10
-\\
-2\vec{n}^T\vec{x} &= -5
-\end{align} 
-%
-and since $\vec{A}, \vec{B}$ satisfy \eqref{eq:line_1_normal} respectively,
-\begin{align} 
-\label{eq:line_1_normal_a}
-\vec{n}^T\vec{A} &= 10
-\\
-2\vec{n}^T\vec{B} &= -5
-\label{eq:line_1_normal_b}
-\end{align} 
-%
-Let  $\vec{O}$ divide the segment $AB$ in the ratio $k:1$. Then
-\begin{align} 
-\label{eq:line_1_section}
-\vec{O}=\frac{k\vec{B} +\vec{A} }{k+1}
-\end{align} 
-%
-\begin{align} 
-%\label{eq:line_1_section}
-\because \vec{O}&= \vec{0},
-\\
-\vec{A} &=-k\vec{B}
-\end{align} 
-%
-Substituting in \eqref{eq:line_1_normal_a}, and simplifying, 
-\begin{align} 
-\label{eq:line_1_normal_subs_a}
-\vec{n}^T\vec{B} &= \frac{10}{-k}
-\\
-\vec{n}^T\vec{B} &= \frac{-5}{2}
-%\label{eq:line_1_normal_b}
-\end{align} 
-resulting in 
-\begin{align} 
-\frac{10}{-k} = \frac{-5}{2} \implies k = 4
-\end{align} 
-\item The 
-point 
-\begin{equation} 
-\vec{P}=\myvec{2\\ 1} 
-\end{equation} 
-is translated parallel to the line 
-\begin{equation} 
-\label{line_2}
-L: \myvec{1 & -1}\vec{x} = 4 
-\end{equation} 
-% 
-by $2\sqrt{3}$ units.  If the new point $\vec{Q}$ lies in the third 
-quadrant, then find the equation of the line passing through $\vec{Q}$ and perpendicular to $L$. 
-\\
-\solution From \eqref{line_2}, the direction vector of $L$ is
-\begin{equation} 
-\label{line_2_m}
-\vec{m} = \myvec{1 \\ 1} 
-\end{equation} 
-Thus, 
-\begin{equation} 
-\label{line_2_q}
-\vec{Q}= \vec{P} + \lambda \vec{m}
-\end{equation} 
-However, 
-\begin{align} 
-PQ &= 2\sqrt{3}
-\\
-\implies\norm{\vec{P}- \vec{Q}} &= \abs{\lambda}\norm{\vec{m}} =  2\sqrt{3}
-\\
-\implies \lambda &= \pm \frac{2\sqrt{3}}{\norm{\vec{m}}} = \pm \sqrt{6}
-\label{line_2_lam}
-\end{align} 
-%
-\begin{align} 
-\because \norm{\vec{m}} = \sqrt{\vec{m}^T\vec{m}}= \sqrt{2}
-\end{align} 
-%
-from \eqref{line_2_m}.  Since $\vec{Q}$ lies in the third quadrant, from \eqref{line_2_q} and \eqref{line_2_lam},
-\begin{align} 
-\vec{Q} = \myvec{2\\ 1}  -  \sqrt{6}\myvec{1\\ 1} =  \myvec{2-\sqrt{6}\\ 1-\sqrt{6}}
-\end{align} 
-%
-The equation of the desired line is then obtained as 
-\begin{align} 
-\label{line_2_final}
-\vec{m}^T\brak{\vec{x}-\vec{Q}}&= 0
-\\
- \myvec{1 & 1}\vec{x} &= 3 -\sqrt{6}
-\end{align} 
-\item A variable line drawn through the 
-intersection of the lines 
-\begin{align} 
-\label{lines_3}
-\myvec{4 & 3}\vec{x} &=12 
-\\ 
-\myvec{3 & 4}\vec{x} &=12 
-\end{align} 
-meets the coordinate axes at $\vec{A}$ and $\vec{B}$, then find the locus of the midpoint of $AB$. 
-\\
-\solution The intersection of the lines in \eqref{lines_3} is obtained through the matrix equation 
-\begin{align}
-\myvec{4 & 3 \\ 3 & 4}\vec{x}  &=\myvec{12\\12}
-\end{align}
-by forming the augmented matrix and row reduction as  
-\begin{align}
-\myvec{4 & 3 &12 \\ 3 & 4 &12} &\leftrightarrow \myvec{4 & 3 &12 \\ 0 & 7 &12} \leftrightarrow \myvec{28 & 0 & 48 \\ 0 & 7 &12}
-\nonumber \\
-\leftrightarrow \myvec{7 & 0 & 12 \\ 0 & 7 &12}&
-\end{align}
-resulting in 
-\begin{align}
-\vec{C}=\frac{1}{7}\myvec{12\\12}
-\end{align}
-%
-Let the $\vec{R}$ be the mid point of $AB$. Then,
-\begin{align}
-\label{eq:lines_3_abr}
-\vec{A} =2 \myvec{1 & 0\\0 & 0}\vec{R} 
-\\
-\vec{B} =2 \myvec{0 & 0\\0 & 1}\vec{R} 
-\end{align}
-%
-Let the equation of $AB$ be 
-%equation of a line passing through $\vec{C}$ be 
-\begin{align}
-\vec{n}^T\brak{\vec{x} - \vec{C}} = 0
-\label{eq:lines_3_def}
-\end{align}
-Since $\vec{R}$ lies on $AB$, 
-\begin{align}
-\vec{n}^T\brak{\vec{R} - \vec{C}} = 0
-\label{eq:lines_3_rc}
-\end{align}
-Also, 
-\begin{align}
-\vec{n}^T\brak{\vec{A} - \vec{B}} = 0
-\label{eq:lines_3_ab}
-\end{align}
-%
-Substituting from \eqref{eq:lines_3_abr} in \eqref{eq:lines_3_ab},
-\begin{align}
-\vec{n}^T\myvec{1 & 0 \\ 0 & -1}\vec{R} = 0
-\label{eq:lines_3_r_sub}
-\end{align}
-%
-From \eqref{eq:lines_3_rc} and \eqref{eq:lines_3_r_sub},
-\begin{align}
-\brak{\vec{R} - \vec{C}} = k\myvec{1 & 0 \\ 0 & -1}\vec{R}
-\label{eq:lines_3_k}
-\end{align}
-%
-for some constant $k$.
-Multiplying both sides of \eqref{eq:lines_3_k} by 
-\begin{align}
-\vec{R}^T\myvec{0 & 1 \\ 1 & 0},
-\end{align}
-\begin{align}
-\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\brak{\vec{R} - \vec{C}} &= k\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\myvec{1 & 0 \\ 0 & -1}\vec{R}
-\nonumber \\
-&= k\vec{R}^T\myvec{0 & -1 \\ 1 & 0}\vec{R} = 0
-\label{eq:lines_3_mul}
-\end{align}
-\begin{align}
-\because \vec{R}^T\myvec{0 & -1 \\ 1 & 0}\vec{R} = 0
-\end{align}
-which can be easily verified for any $\vec{R}$.
-%
-from \eqref{eq:lines_3_mul},
-\begin{align}
-\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\brak{\vec{R} - \vec{C}} = 0
-\nonumber \\
-\implies \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} - \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{C} = 0
-\nonumber \\
-\implies \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} - \vec{C}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} = 0
-\end{align}
-%
-which is the desired locus.
-\item Two sides of a rhombus are along the lines
-\begin{align}
-\label{eq:lines_4_ab}
-AB: \myvec{1 & -1}\vec{x} + 1 &=0
-\\
-AD: \myvec{7 & -1}\vec{x} -5 &=0.
-\label{eq:lines_4_ad}
-\end{align}
-%
-If its diagonals intersect at 
-\begin{equation}
-\vec{P}=\myvec{-1\\ -2},
-\label{eq:lines_4_p}
-\end{equation}
-find its vertices.
-\\
-\solution From \eqref{eq:lines_4_ab} and \eqref{eq:lines_4_ad},
-\begin{align}
-\myvec{1 & -1 \\ 7 & -1}\vec{A}  &=\myvec{-1 \\ 5}
-\end{align}
-%
-By row reducing the augmented matrix
-\begin{align}
-\myvec{1 & -1 & -1\\ 7 & -1 & 5}  &\leftrightarrow \myvec{1 & -1 & -1\\ 0 & 6 & 12}\leftrightarrow \myvec{1 & -1 & -1\\ 0 & 1 & 2}
-\nonumber \\
-&\leftrightarrow \myvec{1 & 0 & 1\\ 0 & 1 & 2} \implies \vec{A}=\myvec{1\\ 2},
-\label{eq:lines_4_a}
-\end{align}
-%
-From \eqref{eq:lines_4_p} and \eqref{eq:lines_4_a}
-\begin{align}
-AP =\norm{\vec{A}-\vec{P}} = 2\sqrt{5} =d (say)
-\end{align}
-%
-The direction vector of $AP$ is 
-\begin{align}
-\vec{m} &=\vec{A}-\vec{P} = 2\myvec{1\\ 2}
-\\
-\implies \norm{\vec{m}} &= 2\sqrt{5}
-\end{align}
-Since the direction of $AP$ is the same as $AC$,
-\begin{align}
-\vec{C} &=\vec{P}-d\frac{\vec{m}}{\norm{\vec{m}}} 
-\nonumber \\
-&= -\myvec{1\\ 2}- 2\myvec{1\\ 2} = \myvec{-3\\ -6}
-\end{align}
-%
-Let $\vec{n}\perp\vec{m}$. Then 
-\begin{align}
-\vec{n} &=\myvec{2\\ -1}
-\end{align}
-%
-and 
-\begin{align}
-\vec{B,D} &=\vec{P}\pm d\frac{\vec{n}}{\norm{\vec{n}}} 
-\nonumber \\
-&=-\myvec{1\\ 2}\pm 2\myvec{2\\ -1} = \myvec{5\\ 0}, \myvec{-3\\ 4}
-\end{align}
-
-\item Let $k$ be an integer such that the triangle with vertices
-\begin{equation}
-\label{eq:lines_5}
-\vec{A} = \myvec{k\\-3k},
-\vec{B} =\myvec{5\\k},
-\vec{C} =\myvec{-k\\2}
-\end{equation}
-has area 28.  Find the orthocentre of this triangle.
-%
-\\
-\solution Let $\vec{m}_1$ be the direction vector of $BC$.  Then,
-\begin{align}
-\label{eq:lines_5_m1}
-\vec{m}_1 = \myvec{5+k\\k-2},
-\end{align}
-%
-If $AD$ be an altitude, its equation can be obtained as
-\begin{align}
-\label{eq:lines_5_m1a}
-\vec{m}_1^{T}\brak{\vec{x}-\vec{A}} = 0
-\end{align}
-%
-Similarly, considering the side $AC$  the equation of the altitude $BE$ is
-\begin{align}
-\label{eq:lines_5_m2b}
-\vec{m}_2^{T}\brak{\vec{x}-\vec{B}} = 0
-\end{align}
-%
-where 
-\begin{align}
-\label{eq:lines_5_m2}
-\vec{m}_2 = \myvec{2k\\-2-3k},
-\end{align}
-The orthocentre is obtained by solving \eqref{eq:lines_5_m1a}
-and \eqref{eq:lines_5_m2b} using the matrix equation
-\begin{align}
-\myvec{\vec{m}_1\\ \vec{m}_2}^T \vec{x} 
-= \myvec{ \vec{m}_1^T\vec{A}\\ \vec{m}_2^T
-\vec{B}}
-\end{align}
-%
-which can be expressed using \eqref{eq:lines_5_m1}, 
-\eqref{eq:lines_5_m2}, 
-\eqref{eq:lines_5_m1a} and 
-\eqref{eq:lines_5_m2b}
-as 
-\begin{align}
-\myvec{5+k & k-2 \\2k & -2-3k} \vec{x} 
-&= \myvec{ k^2+5k+6k-3k^2\\ 10k-2k-3k^2}
-\nonumber \\
-&= k\myvec{ 11-4k\\ 8-3k}
-\end{align}
-%
-The solution to the above is 
-\begin{align}
-\vec{x} &= k\myvec{5+k & k-2 \\2k & -2-3k}^{-1} \myvec{ 11-4k\\ 8-3k}
-\nonumber \\
-&= \frac{k}{-3k^2-17k-10-2k^2+4k}
-\nonumber \\
-&\times \myvec{-2-3k & -k+2 \\-2k & 5+k} \myvec{ 11-4k\\ 8-3k}
-\nonumber \\
-&= \frac{k}{5k^2+13k+10}
-\nonumber \\
-&\times \myvec{2+3k & k-2 \\2k & -5-k} \myvec{ 11-4k\\ 8-3k}
-\nonumber \\
-&= \frac{k}{5k^2+13k+10}
-\nonumber \\
-&\times 
-\myvec{ 22-12k^2-8k+33k -3k^2+6k+8k-16 \\ 22k-8k^2-40+15k-8k+3k^2}
-\nonumber \\
-&= \frac{k}{5k^2+13k+10}
-\myvec{ 6+39k-15k^2 \\ -40+29k-5k^2}
-\end{align}
-From the given information,
-\begin{align}
-\begin{vmatrix}
-k & 5 & -k\\-3k & k & 2 \\ 1 & 1 & 1
-\end{vmatrix} = 56
-\nonumber \\
-\implies
-\begin{vmatrix}
-k & 5-k & -2k\\-3k & 4k & 2+3k \\ 1 & 0 & 0
-\end{vmatrix} = 56
-\end{align}
-%
-resulting in
-\begin{align}
-\brak{5-k}
-\brak{2+3k}+8k^2=56
-\\
-\implies 5k^2+13k-46 = 0
-\\
-\text{or, } k = 2, -\frac{23}{5}
-\end{align}
-\item If an equilateral triangle, having centroid at the origin, has a side along the line
-\begin{equation}
-\label{eq:lines_6_ab}
-\myvec{1 & 1}\vec{x} = 2,
-\end{equation}
-then find the area of this triangle.
-\\
-\solution Let the vertices be $\vec{A},\vec{B},\vec{C}$. From the given information, 
-\begin{align}
-\frac{\vec{A}+\vec{B}+\vec{C}}{3} &= \vec{0}
-\nonumber \\
-\implies 
-\vec{A}+\vec{B}+\vec{C} = \vec{0}
-\label{eq:lines_6_abc}
-\end{align}
-%
-If $AB$ be the line in \eqref{eq:lines_6_ab},
-%\begin{equation}
-%\label{eq:lines_6_nab}
-%\myvec{1 & 1}\brak{\vec{A}-\vec{B}} = 0
-%\end{equation}
-%%
-%Thus, the direction vector of $AB$ is 
-%\begin{align}
-%\label{eq:lines_6_mab}
-%\vec{m} = \myvec{1 \\ -1}
-%\end{align}
-the equation of 
-$CF$, where 
-\begin{align}
-\vec{F} = \frac{\vec{A}+\vec{B}}{2} 
-\end{align}
-is 
-%
-\begin{align}
-\label{eq:lines_6_cf}
-\myvec{1 & -1}\vec{x} = 0
-\end{align}
-since $CF$ passes through the origin and $CF\perp AB$. From \eqref{eq:lines_6_ab}
-and \eqref{eq:lines_6_cf},
-\begin{align}
-\label{eq:lines_6_fmat}
-\myvec{1 & 1 \\1 & -1}\vec{F} = \myvec{2 \\ 0}
-\end{align}
-%
-Forming the augmented matrix, 
-\begin{align}
-\myvec{1 & 1 &2 \\1 & -1 & 0} &\leftrightarrow \myvec{1 & 1 &2 \\0 & 2 & 2} \leftrightarrow \myvec{1 & 1 &2 \\0 & 1 & 1} 
-\nonumber \\
-&\leftrightarrow \myvec{1 & 0 &1 \\0 & 1 & 1} \implies \vec{F} = \myvec{1 \\ 1}
-\label{eq:lines_6_f}
-\end{align}
-From \eqref{eq:lines_6_abc},
-\begin{align}
-\vec{C}=-\brak{\vec{A}+\vec{B}}=-2\vec{F} = -2\myvec{1 \\ 1}
-\label{eq:lines_6_c}
-\end{align}
-after substituting from \eqref{eq:lines_6_f}.  Thus, 
-\begin{align}
-CF &= \norm{\vec{C}-\vec{F}} = 3\sqrt{2} 
-\\
-\implies AB &=  CF\frac{2}{\sqrt{3}} = \sqrt{6}
-\label{eq:lines_6_cflen}
-\end{align}
-and the area of the triangle is 
-\begin{align}
-\frac{1}{2} AB \times CF = 3\sqrt{3}
-\end{align}
-
-
-\item A square, of each side 2, lies above the $x$-axis and has one vertex at the origin.  If one of the sides 
-passing through the origin makes an angle $30^{\degree}$ with the positive direction of the $x$-axis, then 
-find the 
-sum of the $x$-coordinates of the vertices of the square.
-\\
-\solution Consider the square $ABCD$ with $\vec{A} = \vec{0}, AB = 2$ such that $\vec{B}$ and $\vec{D}$ lie on the $x$ and $y$-axis respectively. Then 
-\begin{align}
-\vec{A}+\vec{B}+\vec{C}+\vec{D} = 4\myvec{1 \\ 1}
-\label{eq:lines_7_abcdsum}
-\end{align}
-%
-Multiplying \eqref{eq:lines_7_abcdsum} with the rotation matrix 
-\begin{align}
-\label{eq:lines_7_t}
-\vec{T} = \myvec{\cos \theta & -\sin \theta \\ \sin \theta & \cos \theta},
-\end{align}
-\begin{align}
-\vec{T}\brak{\vec{A}+\vec{B}+\vec{C}+\vec{D}} &= 4\myvec{\cos \theta & -\sin \theta \\ \sin \theta & \cos \theta}\myvec{1 \\ 1}
-\nonumber \\
-&= 4\myvec{\cos \theta  -\sin \theta \\ \cos \theta + \sin \theta}
-%\nonumber \\
-\end{align}
-\begin{multline}
-\implies \myvec{1 & 0}\vec{T}\brak{\vec{A}+\vec{B}+\vec{C}+\vec{D}} 
-\\
-= 4\brak{\cos \theta  -\sin \theta}
-= 2\brak{\sqrt{3}-1}
-\end{multline}
-%
-for $\theta = 30^{\degree}$.
-
-
-%\item Find the locus of the point of intersection of the lines
-%\begin{align}
-%\myvec{\sqrt{2} & -1 }\vec{x} + 4 \sqrt{2}k &= 0
-%\\
-%\myvec{\sqrt{2}k & k }\vec{x} - 4 \sqrt{2} &= 0
-%\end{align}
 
 \end{enumerate}
 \end{document}
