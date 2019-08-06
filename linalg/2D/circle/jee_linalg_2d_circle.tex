@@ -369,13 +369,37 @@ after substituting from \eqref{eq:circle_2_m} and \eqref{eq:circle_2_o1}.
 
 \item A line drawn through the point 
 \begin{equation}
+\label{eq:circle_3_p}
 \vec{P} = \myvec{4\\7} 
 \end{equation}
 cuts the circle
 \begin{equation}
-\vec{x}^T\vec{x}  = 9
+\label{eq:circle_3}
+C: \vec{x}^T\vec{x}  = 9
 \end{equation}
 at the points $\vec{A}$ and $\vec{B}$. Find $PA.PB$.
+\\
+\solution Since the points $\vec{P},\vec{A},\vec{B}$ are collinear, the line $PAB$ can be expressed as
+\begin{align}
+L: \vec{x} = \vec{P} + \lambda \vec{m}
+\label{eq:circle_3_pab}
+\end{align}
+%
+for $\norm{\vec{m}} = 1$. The intersection of $L$ and $C$  yields
+\begin{align}
+\brak{\vec{P}+ \lambda \vec{m}}
+% }
+\brak{\vec{P} + \lambda \vec{m}} &= 9
+\nonumber \\
+\implies \lambda^2 + 2\lambda \vec{m}^T\vec{P} + \norm{\vec{P}}^2-9 &= 0
+\label{eq:circle_3_quad}
+\end{align}
+%
+The product of the roots in \eqref{eq:circle_3_quad} is 
+\begin{align}
+\label{eq:circle_3_prod}
+PA.PB =\norm{\vec{P}}^2-9 = 56
+\end{align}
 \item Find the equation of the circle, which is the mirror image of the circle
 \begin{equation}
 \vec{x}^T\vec{x} -\myvec{2 & 0 }\vec{x} = 0
