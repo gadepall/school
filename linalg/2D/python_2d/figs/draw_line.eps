@@ -1,12 +1,12 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: ../figs/draw_line.eps
 %%Creator: matplotlib version 3.0.2, http://matplotlib.org/
-%%CreationDate: Sun Mar 31 20:49:47 2019
+%%CreationDate: Tue Aug  6 06:42:38 2019
 %%Orientation: portrait
 %%BoundingBox: 75 223 536 568
 %%EndComments
 %%BeginProlog
-/mpldict 8 dict def
+/mpldict 9 dict def
 mpldict begin
 /m { moveto } bind def
 /l { lineto } bind def
@@ -229,6 +229,84 @@ _cl}_e}_d
 732 272 _l
 106 272 _l
 106 355 _l
+_cl}_d
+end readonly def
+
+/BuildGlyph
+ {exch begin
+ CharStrings exch
+ 2 copy known not{pop /.notdef}if
+ true 3 1 roll get exec
+ end}_d
+
+/BuildChar {
+ 1 index /Encoding get exch get
+ 1 index /BuildGlyph get exec
+}_d
+
+FontName currentdict end definefont pop
+%!PS-Adobe-3.0 Resource-Font
+%%Title: DejaVu Sans Oblique
+%%Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain 
+%%Creator: Converted from TrueType to type 3 by PPR
+25 dict begin
+/_d{bind def}bind def
+/_m{moveto}_d
+/_l{lineto}_d
+/_cl{closepath eofill}_d
+/_c{curveto}_d
+/_sc{7 -1 roll{setcachedevice}{pop pop pop pop pop pop}ifelse}_d
+/_e{exec}_d
+/FontName /DejaVuSans-Oblique def
+/PaintType 0 def
+/FontMatrix[.001 0 0 .001 0 0]def
+/FontBBox[-1016 -350 1659 1068]def
+/FontType 3 def
+/Encoding [ /x /y ] def
+/FontInfo 10 dict dup begin
+/FamilyName (DejaVu Sans) def
+/FullName (DejaVu Sans Oblique) def
+/Notice (Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain ) def
+/Weight (Oblique) def
+/Version (Version 2.35) def
+/ItalicAngle -11.0 def
+/isFixedPitch false def
+/UnderlinePosition -130 def
+/UnderlineThickness 90 def
+end readonly def
+/CharStrings 3 dict dup begin
+/.notdef 0 def
+/x{592 0 -25 0 600 547 _sc
+600 547 _m
+349 279 _l
+503 0 _l
+400 0 _l
+284 217 _l
+83 0 _l
+-25 0 _l
+243 288 _l
+100 547 _l
+203 547 _l
+308 349 _l
+491 547 _l
+600 547 _l
+_cl}_d
+/y{592 0 -24 -207 603 547 _sc
+248 -50 _m
+206 -120 172 -163 146 -181 _c
+120 -198 86 -207 46 -207 _c
+-24 -207 _l
+-9 -132 _l
+42 -132 _l
+67 -132 88 -125 106 -111 _c
+123 -97 143 -71 165 -31 _c
+193 20 _l
+72 547 _l
+167 547 _l
+258 128 _l
+509 547 _l
+603 547 _l
+248 -50 _l
 _cl}_d
 end readonly def
 
@@ -537,6 +615,17 @@ gsave
 6.362305 0.000000 m /period glyphshow
 9.541016 0.000000 m /zero glyphshow
 grestore
+gsave
+233.160000 9.750375 translate
+0.000000 rotate
+/DejaVuSans-Oblique findfont
+10.0 scalefont
+setfont
+0.000000 0.531250 moveto
+/x glyphshow
+
+
+grestore
 2 setlinecap
 0.690 setgray
 gsave
@@ -749,6 +838,17 @@ gsave
 0.000000 rotate
 0.000000 0.000000 m /three glyphshow
 grestore
+gsave
+28.865625 168.072000 translate
+90.000000 rotate
+/DejaVuSans-Oblique findfont
+10.0 scalefont
+setfont
+0.000000 0.531250 moveto
+/y glyphshow
+
+
+grestore
 1.500 setlinewidth
 2 setlinecap
 0.122 0.467 0.706 setrgbcolor
@@ -854,7 +954,7 @@ gsave
 stroke
 grestore
 gsave
-52.189091 59.788800 translate
+95.476364 40.435200 translate
 0.000000 rotate
 0.000000 0.000000 m /A glyphshow
 grestore
