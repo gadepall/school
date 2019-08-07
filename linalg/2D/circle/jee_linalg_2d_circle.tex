@@ -451,29 +451,29 @@ C_2: \norm{\vec{x}- \myvec{\sqrt{2} \\ 1 - \sqrt{2}}} = 1
 \label{eq:circle_4_c2}
 \end{align}
 
-\item Find the locus of the centres of those circles which touch the circle
-\begin{equation}
-C:
-\vec{x}^T\vec{x} -8\myvec{1 & 1 }\vec{x} = 4
-\label{eq:circle_5}
-\end{equation}
-and also touch the $x$-axis.
-\\
-\solution $C$ has centre at 
-\begin{align}
-\vec{O} = 4 \myvec{1 \\ 1 } 
-\label{eq:circle_5_o}
-\end{align}
+%\item Find the locus of the centres of those circles which touch the circle
+%\begin{equation}
+%C:
+%\vec{x}^T\vec{x} -8\myvec{1 & 1 }\vec{x} = 4
+%\label{eq:circle_5}
+%\end{equation}
+%and also touch the $x$-axis.
+%\\
+%\solution $C$ has centre at 
+%\begin{align}
+%\vec{O} = 4 \myvec{1 \\ 1 } 
+%\label{eq:circle_5_o}
+%\end{align}
+%%
+%Let $\vec{y}$ be the centre of the desired circle. 
+%If $\vec{p}$ be the point of contact, since $\vec{y},\vec{p},\vec{O}$ are collinear, 
+%\begin{align}
+%\vec{p} = \frac{\vec{y}+\vec{O}}{2}
+%\label{eq:circle_5_p}
+%\end{align}
 %
-Let $\vec{y}$ be the centre of the desired circle. 
-If $\vec{p}$ be the point of contact, since $\vec{y},\vec{p},\vec{O}$ are collinear, 
-\begin{align}
-\vec{p} = \frac{\vec{y}+\vec{O}}{2}
-\label{eq:circle_5_p}
-\end{align}
-
-
-Since the circle touches the $x-axis$, the x-axis is its tangent.
+%
+%Since the circle touches the $x-axis$, the x-axis is its tangent.
 \item One of the diameters of the circle, given by 
 \begin{equation}
 C: \vec{x}^T\vec{x} +2\myvec{-2 & 3 }\vec{x} = 12
@@ -489,21 +489,32 @@ Find the radius of $S$.
 \solution From \eqref{eq:circle_6_c}, the centre of $C$ is 
 \begin{align}
 \vec{O}_1 = \myvec{2\\ -3} 
-\label{eq:circle_6_p}
+\label{eq:circle_6_o1}
 \end{align}
 %
 and the radius is 
 \begin{align}
-r_1 = \sqrt{\vec{O}_1^T\vec{O}_1} = \myvec{2\\ -3} 
-\label{eq:circle_6_p}
+r_1 = \sqrt{\vec{O}_1^T\vec{O}_1-12} = 1
+\label{eq:circle_6_r1}
 \end{align}
-\item A circle passes through 
+%
+From \eqref{eq:circle_6_o1} and \eqref{eq:circle_6_o2},
+\begin{align}
+O_1O_2 = \norm{\vec{O}_1-\vec{O}_2}=5\sqrt{2}
+\nonumber \\
+\label{eq:circle_6_o1o2}
+\implies r_2 = \sqrt{O_1O_2^2-r_1^2} = 7
+\end{align}
+
+\item A circle $C$ passes through 
 \begin{equation} 
-\myvec{-2\\ 4} 
+\vec{P}=\myvec{-2\\ 4} 
+\label{eq:circle_7_p}
 \end{equation} 
 and touches the $y$-axis at 
 \begin{equation} 
-\myvec{0\\ 2}. 
+\vec{Q}=\myvec{0\\ 2}. 
+\label{eq:circle_7_q}
 \end{equation}
 Which one of the  following equations can represent a diameter of this circle?
 \begin{enumerate} 
@@ -512,17 +523,66 @@ Which one of the  following equations can represent a diameter of this circle?
 \item $\myvec{3 & 4}\vec{x} = 3 $
 \item $\myvec{5 & 2}\vec{x} +4= 0 $
 \end{enumerate} 
+\solution Let $\vec{O}$ be the centre of $C$. Then the equation of the normal, OQ is
+\begin{align}
+%\vec{x}^T\vec{x}-2\vec{O}^T\vec{x} +F = 0
+\myvec{0 & 1}\brak{\vec{O}-\vec{Q}} &= 0
+\nonumber \\ 
+\implies \myvec{0 & 1}\vec{O} = 2
+\label{eq:circle_7_o1}
+\end{align}
+%
+Also, 
+%Substituting \eqref{eq:circle_7_p} in \eqref{eq:circle_7_c}, 
+\begin{align}
+\norm{\vec{O}-\vec{P}}^2&=\norm{\vec{O}-\vec{Q}}^2 
+\nonumber \\
+\implies 2\brak{\vec{P}-\vec{Q}}^T\vec{O} &= \norm{\vec{P}}^2-\norm{\vec{Q}}^2 
+\nonumber \\
+\text{or, } \myvec{1 & -1}\vec{O} &= -4
+\label{eq:circle_7_o2}
+\end{align}
+%
+\eqref{eq:circle_7_o1} and \eqref{eq:circle_7_o2} result in the matrix equation
+\begin{align}
+\myvec{1 & -1 \\ 0 & 1}\vec{O} = \myvec{-4\\2}
+\label{eq:circle_7_matrix}
+\end{align}
+yielding the augmented matrix
+\begin{align}
+\myvec{1 & -1 & -4\\ 0 & 1 & 2} \leftrightarrow \myvec{1 & 0 & -2\\ 0 & 1 & 2}\implies \vec{O} = \myvec{-2 \\2}
+\label{eq:circle_7_o}
+\end{align}
+Hence, option b)  is correct.
 \item Find the equation of the tangent to the circle, at the point
 \begin{equation}
-\myvec{1\\ -1},
+\vec{P}=\myvec{1\\ -1},
 \end{equation}
-whose centre is the point of intersection of the straight lines
+whose centre $\vec{O}$ is the point of intersection of the straight lines
 \begin{align} 
+\label{eq:circle_8_o1}
 \myvec{2 & 1}\vec{x} &= 3
 \\
 \myvec{1 & -1}\vec{x} &= 1
+\label{eq:circle_8_o2}
 \end{align} 
-
-
+\solution From \eqref{eq:circle_8_o1} and \eqref{eq:circle_8_o2}, we obtain the matrix equation
+\begin{align} 
+\myvec{2 & 1\\1 & -1}\vec{O} &= \myvec{3 \\ 1}
+\end{align} 
+yielding the augmented matrix
+\begin{align} 
+\myvec{1 & -1 & 1\\2 & 1 & 3}&\leftrightarrow\myvec{1 & -1 & 1\\0 & 3 & 1}
+\nonumber \\
+\leftrightarrow\myvec{3 & 0 & 4\\0 & 3 & 1}&\implies \vec{O} = \frac{1}{3}\myvec{4 \\ 1}
+\end{align} 
+%
+Thus, the equation of the desired tangent is 
+\begin{align} 
+\brak{\vec{O}-\vec{P}}^T\brak{\vec{x}-\vec{P}} &= 0
+\nonumber \\
+\implies
+\myvec{1 & 4}\vec{x}=-3
+\end{align} 
 \end{enumerate}
 \end{document}
