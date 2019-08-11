@@ -6,7 +6,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from coeffs import *
-from circumcentre import  ccircle
+#from circumcentre import  ccircle
 #if using termux
 import subprocess
 import shlex

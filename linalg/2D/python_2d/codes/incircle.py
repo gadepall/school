@@ -6,7 +6,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from coeffs import *
-from incentre import  icentre
+#from incentre import  icentre
 #if using termux
 import subprocess
 import shlex
