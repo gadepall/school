@@ -264,7 +264,7 @@ at $\vec{A}$ and $\vec{B}$ respectively.  Find the ratio in which  $\vec{O}$ div
 \\
 \solution Let 
 \begin{align} 
-\vec{n} =\myvec{4 & 3}
+\vec{n} =\myvec{4 \\ 3}
 \end{align} 
 %
 Then \eqref{eq:line_1} can be expressed as
@@ -320,7 +320,7 @@ is translated parallel to the line
 L: \myvec{1 & -1}\vec{x} = 4 
 \end{equation} 
 % 
-by $2\sqrt{3}$ units.  If the new point $\vec{Q}$ lies in the third 
+by $d =2\sqrt{3}$ units.  If the new point $\vec{Q}$ lies in the third 
 quadrant, then find the equation of the line passing through $\vec{Q}$ and perpendicular to $L$. 
 \\
 \solution From \eqref{line_2}, the direction vector of $L$ is
@@ -335,11 +335,11 @@ Thus,
 \end{equation} 
 However, 
 \begin{align} 
-PQ &= 2\sqrt{3}
+PQ &= d
 \\
-\implies\norm{\vec{P}- \vec{Q}} &= \abs{\lambda}\norm{\vec{m}} =  2\sqrt{3}
+\implies\norm{\vec{P}- \vec{Q}} &= \abs{\lambda}\norm{\vec{m}} =  d
 \\
-\implies \lambda &= \pm \frac{2\sqrt{3}}{\norm{\vec{m}}} = \pm \sqrt{6}
+\implies \lambda &= \pm \frac{d}{\norm{\vec{m}}} = \pm \sqrt{6}
 \label{line_2_lam}
 \end{align} 
 %
@@ -357,96 +357,8 @@ The equation of the desired line is then obtained as
 \label{line_2_final}
 \vec{m}^T\brak{\vec{x}-\vec{Q}}&= 0
 \\
- \myvec{1 & 1}\vec{x} &= 3 -\sqrt{6}
+ \myvec{1 & 1}\vec{x} &= 3 -2\sqrt{6}
 \end{align} 
-\item A variable line drawn through the 
-intersection of the lines 
-\begin{align} 
-\label{lines_3}
-\myvec{4 & 3}\vec{x} &=12 
-\\ 
-\myvec{3 & 4}\vec{x} &=12 
-\end{align} 
-meets the coordinate axes at $\vec{A}$ and $\vec{B}$, then find the locus of the midpoint of $AB$. 
-\\
-\solution The intersection of the lines in \eqref{lines_3} is obtained through the matrix equation 
-\begin{align}
-\myvec{4 & 3 \\ 3 & 4}\vec{x}  &=\myvec{12\\12}
-\end{align}
-by forming the augmented matrix and row reduction as  
-\begin{align}
-\myvec{4 & 3 &12 \\ 3 & 4 &12} &\leftrightarrow \myvec{4 & 3 &12 \\ 0 & 7 &12} \leftrightarrow \myvec{28 & 0 & 48 \\ 0 & 7 &12}
-\nonumber \\
-\leftrightarrow \myvec{7 & 0 & 12 \\ 0 & 7 &12}&
-\end{align}
-resulting in 
-\begin{align}
-\vec{C}=\frac{1}{7}\myvec{12\\12}
-\end{align}
-%
-Let the $\vec{R}$ be the mid point of $AB$. Then,
-\begin{align}
-\label{eq:lines_3_abr}
-\vec{A} =2 \myvec{1 & 0\\0 & 0}\vec{R} 
-\\
-\vec{B} =2 \myvec{0 & 0\\0 & 1}\vec{R} 
-\end{align}
-%
-Let the equation of $AB$ be 
-%equation of a line passing through $\vec{C}$ be 
-\begin{align}
-\vec{n}^T\brak{\vec{x} - \vec{C}} = 0
-\label{eq:lines_3_def}
-\end{align}
-Since $\vec{R}$ lies on $AB$, 
-\begin{align}
-\vec{n}^T\brak{\vec{R} - \vec{C}} = 0
-\label{eq:lines_3_rc}
-\end{align}
-Also, 
-\begin{align}
-\vec{n}^T\brak{\vec{A} - \vec{B}} = 0
-\label{eq:lines_3_ab}
-\end{align}
-%
-Substituting from \eqref{eq:lines_3_abr} in \eqref{eq:lines_3_ab},
-\begin{align}
-\vec{n}^T\myvec{1 & 0 \\ 0 & -1}\vec{R} = 0
-\label{eq:lines_3_r_sub}
-\end{align}
-%
-From \eqref{eq:lines_3_rc} and \eqref{eq:lines_3_r_sub},
-\begin{align}
-\brak{\vec{R} - \vec{C}} = k\myvec{1 & 0 \\ 0 & -1}\vec{R}
-\label{eq:lines_3_k}
-\end{align}
-%
-for some constant $k$.
-Multiplying both sides of \eqref{eq:lines_3_k} by 
-\begin{align}
-\vec{R}^T\myvec{0 & 1 \\ 1 & 0},
-\end{align}
-\begin{align}
-\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\brak{\vec{R} - \vec{C}} &= k\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\myvec{1 & 0 \\ 0 & -1}\vec{R}
-\nonumber \\
-&= k\vec{R}^T\myvec{0 & -1 \\ 1 & 0}\vec{R} = 0
-\label{eq:lines_3_mul}
-\end{align}
-\begin{align}
-\because \vec{R}^T\myvec{0 & -1 \\ 1 & 0}\vec{R} = 0
-\end{align}
-which can be easily verified for any $\vec{R}$.
-%
-from \eqref{eq:lines_3_mul},
-\begin{align}
-\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\brak{\vec{R} - \vec{C}} = 0
-\nonumber \\
-\implies \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} - \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{C} = 0
-\nonumber \\
-\implies \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} - \vec{C}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} = 0
-\end{align}
-%
-which is the desired locus.
 \item Two sides of a rhombus are along the lines
 \begin{align}
 \label{eq:lines_4_ab}
@@ -755,6 +667,94 @@ Multiplying \eqref{eq:lines_7_abcdsum} with the rotation matrix
 \end{multline}
 %
 for $\theta = 30^{\degree}$.
+\item A variable line drawn through the 
+intersection of the lines 
+\begin{align} 
+\label{lines_3}
+\myvec{4 & 3}\vec{x} &=12 
+\\ 
+\myvec{3 & 4}\vec{x} &=12 
+\end{align} 
+meets the coordinate axes at $\vec{A}$ and $\vec{B}$, then find the locus of the midpoint of $AB$. 
+\\
+\solution The intersection of the lines in \eqref{lines_3} is obtained through the matrix equation 
+\begin{align}
+\myvec{4 & 3 \\ 3 & 4}\vec{x}  &=\myvec{12\\12}
+\end{align}
+by forming the augmented matrix and row reduction as  
+\begin{align}
+\myvec{4 & 3 &12 \\ 3 & 4 &12} &\leftrightarrow \myvec{4 & 3 &12 \\ 0 & 7 &12} \leftrightarrow \myvec{28 & 0 & 48 \\ 0 & 7 &12}
+\nonumber \\
+\leftrightarrow \myvec{7 & 0 & 12 \\ 0 & 7 &12}&
+\end{align}
+resulting in 
+\begin{align}
+\vec{C}=\frac{1}{7}\myvec{12\\12}
+\end{align}
+%
+Let the $\vec{R}$ be the mid point of $AB$. Then,
+\begin{align}
+\label{eq:lines_3_abr}
+\vec{A} =2 \myvec{1 & 0\\0 & 0}\vec{R} 
+\\
+\vec{B} =2 \myvec{0 & 0\\0 & 1}\vec{R} 
+\end{align}
+%
+Let the equation of $AB$ be 
+%equation of a line passing through $\vec{C}$ be 
+\begin{align}
+\vec{n}^T\brak{\vec{x} - \vec{C}} = 0
+\label{eq:lines_3_def}
+\end{align}
+Since $\vec{R}$ lies on $AB$, 
+\begin{align}
+\vec{n}^T\brak{\vec{R} - \vec{C}} = 0
+\label{eq:lines_3_rc}
+\end{align}
+Also, 
+\begin{align}
+\vec{n}^T\brak{\vec{A} - \vec{B}} = 0
+\label{eq:lines_3_ab}
+\end{align}
+%
+Substituting from \eqref{eq:lines_3_abr} in \eqref{eq:lines_3_ab},
+\begin{align}
+\vec{n}^T\myvec{1 & 0 \\ 0 & -1}\vec{R} = 0
+\label{eq:lines_3_r_sub}
+\end{align}
+%
+From \eqref{eq:lines_3_rc} and \eqref{eq:lines_3_r_sub},
+\begin{align}
+\brak{\vec{R} - \vec{C}} = k\myvec{1 & 0 \\ 0 & -1}\vec{R}
+\label{eq:lines_3_k}
+\end{align}
+%
+for some constant $k$.
+Multiplying both sides of \eqref{eq:lines_3_k} by 
+\begin{align}
+\vec{R}^T\myvec{0 & 1 \\ 1 & 0},
+\end{align}
+\begin{align}
+\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\brak{\vec{R} - \vec{C}} &= k\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\myvec{1 & 0 \\ 0 & -1}\vec{R}
+\nonumber \\
+&= k\vec{R}^T\myvec{0 & -1 \\ 1 & 0}\vec{R} = 0
+\label{eq:lines_3_mul}
+\end{align}
+\begin{align}
+\because \vec{R}^T\myvec{0 & -1 \\ 1 & 0}\vec{R} = 0
+\end{align}
+which can be easily verified for any $\vec{R}$.
+%
+from \eqref{eq:lines_3_mul},
+\begin{align}
+\vec{R}^T\myvec{0 & 1 \\ 1 & 0}\brak{\vec{R} - \vec{C}} = 0
+\nonumber \\
+\implies \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} - \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{C} = 0
+\nonumber \\
+\implies \vec{R}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} - \vec{C}^T\myvec{0 & 1 \\ 1 & 0}\vec{R} = 0
+\end{align}
+%
+which is the desired locus.
 
 
 %\item Find the locus of the point of intersection of the lines
