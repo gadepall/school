@@ -387,7 +387,7 @@ L: \vec{x} = \vec{P} + \lambda \vec{m}
 %
 for $\norm{\vec{m}} = 1$. The intersection of $L$ and $C$  yields
 \begin{align}
-\brak{\vec{P}+ \lambda \vec{m}}
+\brak{\vec{P}+ \lambda \vec{m}}^T
 % }
 \brak{\vec{P} + \lambda \vec{m}} &= 9
 \nonumber \\
@@ -428,7 +428,7 @@ The centre of $C_2$ is the reflection of $\vec{O}_1$ about $L$ and is obtained a
 \begin{align}
 \label{eq:circle_4_o2}
 \frac{\vec{O}_2}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{O}_1 + c 
-\frac{\vec{n}}{\norm{\vec{n}}}
+\frac{\vec{n}}{\norm{\vec{n}}^2}
 \end{align}
 %
 where the relevant parameters are obtained from \eqref{eq:circle_4_line} as
@@ -440,14 +440,14 @@ Substituting the above in \eqref{eq:circle_4_o2},
 \begin{align}
 \label{eq:circle_4_o2_final}
 \frac{\vec{O}_2}{2} &= \frac{\myvec{1 & 1 \\ 1 & 1}-\myvec{1 & -1 \\ -1 & 1}}{4}\vec{O}_1 + c 
-\frac{\vec{n}}{\sqrt{2}}
+\frac{\vec{n}}{2}
 \nonumber \\
-\implies \vec{O}_2 &= \myvec{\sqrt{2} \\ 1 - \sqrt{2}}
+\implies \vec{O}_2 &= \myvec{3 \\ 4}
 \end{align}
 %
 Thus
 \begin{align}
-C_2: \norm{\vec{x}- \myvec{\sqrt{2} \\ 1 - \sqrt{2}}} = 1
+C_2: \norm{\vec{x}- \myvec{3 \\ 4}} = 1
 \label{eq:circle_4_c2}
 \end{align}
 
