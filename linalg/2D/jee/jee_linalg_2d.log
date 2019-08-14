@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.6.30)  4 AUG 2019 11:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.6.30)  14 AUG 2019 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1329,25 +1329,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 717.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 682.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 682.
 
-[5
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 717.
- (./jee_linalg_2d.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 717.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 717.
+(./jee_linalg_2d.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 682.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 682.
 Package rerunfilecheck Info: File `jee_linalg_2d.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 24174 strings out of 492615
- 477351 string characters out of 6118492
- 582904 words of memory out of 5000000
- 27650 multiletter control sequences out of 15000+600000
+ 24176 strings out of 492615
+ 477379 string characters out of 6118492
+ 583904 words of memory out of 5000000
+ 27652 multiletter control sequences out of 15000+600000
  57903 words of font info for 135 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 54i,14n,67p,799b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,14n,67p,799b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jee_linalg_2d.dvi (5 pages, 52012 bytes).
+Output written on jee_linalg_2d.dvi (4 pages, 47188 bytes).
