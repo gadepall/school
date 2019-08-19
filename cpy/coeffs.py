@@ -17,7 +17,22 @@ def line_gen(A,B):
     x_AB[:,i]= temp1.T
   return x_AB
 
-#Centre and Radius  of the circumcircle
+def icentre(A,B,C,k1,k2):
+  p = np.zeros(2)
+  t = norm_vec(B,C)
+  n1 = t/np.linalg.norm(t)
+  t = norm_vec(C,A)
+  n2 = t/np.linalg.norm(t)
+  t = norm_vec(A,B)
+  n3 = t/np.linalg.norm(t)
+  p[0] = n1@B- k1*n2@C
+  p[1] = n2@C- k2*n3@A
+  N=np.vstack((n1-k1*n2,n2-k2*n3))
+  I=np.matmul(np.linalg.inv(N),p)
+  r = n1@(I-B)
+  #Intersection
+  return I,r
+
 def ccircle(A,B,C):
   p = np.zeros(2)
   n1 = dir_vec(B,A)
@@ -30,35 +45,14 @@ def ccircle(A,B,C):
   r = np.linalg.norm(A -O)
   return O,r
 
-#Intersection
-def line_intersect(n1,c1,n2,c2):
-  N=np.vstack((n1,n2))
-  p = np.zeros(2)
-  p[0] = c1
-  p[1] = c2
-  P=np.linalg.inv(N)@p
-  return P
-
-#y intercept
-def y_icept(n,c):
-  A = np.zeros(2)
-  m_y = np.array([0,1])
-  A[0] = 0
-  A[1] = c/(n@m_y)
-  return A
-
-#Generate line points
-def line_dir_pt(m,A,k1,k2):
-  len =10
-  x_AB = np.zeros((2,len))
-  lam_1 = np.linspace(k1,k2,len)
-  for i in range(len):
-    temp1 = A + lam_1[i]*m
-    x_AB[:,i]= temp1.T
-  return x_AB
-
+A = np.array([-2,-2]) 
+B = np.array([1,3]) 
 dvec = np.array([-1,1]) 
 omat = np.array([[0,1],[-1,0]]) 
+#AB =np.vstack((A,B)).T
+
+#print (dir_vec(A,B))
+#print (norm_vec(A,B))
 
 
 
