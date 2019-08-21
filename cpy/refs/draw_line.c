@@ -14,11 +14,9 @@ scanf("%d %d", &m,&n);
 
 
 printf("Enter the values of the matrix\n");
-array = createMat(m,n);//creating the matrix a
-//array[][]
-//a = array()
-//readMat(m,n,a);//reading values into the matrix a
-//print(m,n,a);//printing the matrix a
+a = createMat(m,n);//creating the matrix a
+readMat(m,n,a);//reading values into the matrix a
+print(m,n,a);//printing the matrix a
 
 return 0;
 }

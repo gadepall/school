@@ -35,29 +35,6 @@ void readMat(int m,int n,double **p)
 }
 //End function for reading matrix
 
-//Read  matrix from file
-double **loadtxt(int m,int n,char *str)
-{
-FILE *fp;
-double **a;
-int i,j;
-
-
-a = createMat(m,n);
-fp = fopen(str, "r");
-
- for(i=0;i<m;i++)
- {
-  for(j=0;j<n;j++)
-  {
-   fscanf(fp,"%lf",&a[i][j]);
-  }
- }
-
-fclose(fp);
- return a;
-
-}
 
 
 //Defining the function for printing
