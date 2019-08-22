@@ -6,6 +6,8 @@ double **loadtxt(char *str,int m,int n);
 double linalg_norm(double **a, int m);
 double **linalg_sub(double **a, double **b, int m, int n);
 double **linalg_inv(double **mat, int m);
+double **matmul(double **a, double **b, int m, int n, int p);
+double **transpose(double **a,  int m, int n);
 //End function declaration
 
 
@@ -108,7 +110,6 @@ c = createMat(m,n);
   for(j=0;j<n;j++)
   {
 c[i][j]= a[i][j]-b[i][j];
-//printf("%lf\n",c[i][j]);
   }
  }
 return c;
@@ -126,12 +127,60 @@ c = createMat(m,m);
 
 det = mat[0][0]*mat[1][1]-mat[0][1]*mat[1][0];
 
-c[0][0] = -mat[0][0]/det;
-c[0][1] = mat[1][0]/det;
-c[1][0] = mat[0][1]/det;
-c[1][1] = -mat[1][1]/det;
+c[0][0] = mat[1][1]/det;
+c[0][1] = -mat[1][0]/det;
+c[1][0] = -mat[0][1]/det;
+c[1][1] = mat[0][0]/det;
 
 return c;
 
 }
 // End  function for inverse of 2x2 matrix
+
+
+//Defining the function for difference of matrices
+
+double **matmul(double **a, double **b, int m, int n, int p)
+{
+int i, j, k;
+double **c, temp =0;
+c = createMat(m,p);
+
+ for(i=0;i<m;i++)
+ {
+  for(k=0;k<p;k++)
+  {
+    for(j=0;j<n;j++)
+    {
+	temp= temp+a[i][j]*b[j][k];
+    }
+	c[i][k]=temp;
+	temp = 0;
+  }
+ }
+return c;
+
+}
+//End function for difference of matrices
+
+//Defining the function for transpose of matrix
+
+double **transpose(double **a,  int m, int n)
+{
+int i, j;
+double **c;
+//printf("I am here");
+c = createMat(n,m);
+
+ for(i=0;i<n;i++)
+ {
+  for(j=0;j<m;j++)
+  {
+c[i][j]= a[j][i];
+//  printf("%lf ",c[i][j]);
+  }
+ }
+return c;
+
+}
+//End function for transpose of matrix
