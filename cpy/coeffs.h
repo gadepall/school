@@ -1,7 +1,11 @@
 //Function declaration
 double **createMat(int m,int n);
-void readMat(int m,int n,double **p);
-void print(int m,int n,double **p);
+void readMat(double **p, int m,int n);
+void print(double **p,int m,int n);
+double **loadtxt(char *str,int m,int n);
+double linalg_norm(double **a, int m);
+double **linalg_sub(double **a, double **b, int m, int n);
+double **linalg_inv(double **mat, int m);
 //End function declaration
 
 
@@ -22,7 +26,7 @@ a = (double **)malloc(m * sizeof( *a));
 
 
 //Defining the function for reading matrix 
-void readMat(int m,int n,double **p)
+void readMat(double **p, int m,int n)
 {
  int i,j;
  for(i=0;i<m;i++)
@@ -36,7 +40,7 @@ void readMat(int m,int n,double **p)
 //End function for reading matrix
 
 //Read  matrix from file
-double **loadtxt(int m,int n,char *str)
+double **loadtxt(char *str,int m,int n)
 {
 FILE *fp;
 double **a;
@@ -53,6 +57,7 @@ fp = fopen(str, "r");
    fscanf(fp,"%lf",&a[i][j]);
   }
  }
+//End function for reading matrix from file
 
 fclose(fp);
  return a;
@@ -61,7 +66,7 @@ fclose(fp);
 
 
 //Defining the function for printing
-void print(int m,int n,double **p)
+void print(double **p, int m,int n)
 {
  int i,j;
 
@@ -72,16 +77,61 @@ void print(int m,int n,double **p)
  printf("\n");
  }
 }
+//End function for printing
+
+//Defining the function for norm
+
+double linalg_norm(double **a, int m)
+{
+int i;
+double norm=0.0;
+
+ for(i=0;i<m;i++)
+ {
+norm = norm + a[i][0]*a[i][0];
+}
+return sqrt(norm);
+
+}
+//End function for norm
+
+//Defining the function for difference of matrices
+
+double **linalg_sub(double **a, double **b, int m, int n)
+{
+int i, j;
+double **c;
+c = createMat(m,n);
+
+ for(i=0;i<m;i++)
+ {
+  for(j=0;j<n;j++)
+  {
+c[i][j]= a[i][j]-b[i][j];
+//printf("%lf\n",c[i][j]);
+  }
+ }
+return c;
+
+}
+//End function for difference of matrices
+
+//Defining the function for inverse of 2x2 matrix
 
 
+double **linalg_inv(double **mat, int m)
+{
+double **c, det;
+c = createMat(m,m);
 
+det = mat[0][0]*mat[1][1]-mat[0][1]*mat[1][0];
 
-//Defining linspace
-//double linspace(double a, double b, int n)
-//{
-//double d;
-//
-//d = (b-1)/(n-1);
-//
-//
-//}
+c[0][0] = -mat[0][0]/det;
+c[0][1] = mat[1][0]/det;
+c[1][0] = mat[0][1]/det;
+c[1][1] = -mat[1][1]/det;
+
+return c;
+
+}
+// End  function for inverse of 2x2 matrix

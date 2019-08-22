@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include "coeffs.h"
 
 int  main() //main function begins
@@ -7,33 +8,35 @@ int  main() //main function begins
 
 //Defining the variables
 int m,n, len ;//integers
-double **a,**P,**Q,**mat,**c;
+double **a,**P,**Q,**mat,**c,**temp, r;
 
 //Generate line points
 len = 100;
 
 //Given points
-P = loadtxt(2,1,"P.dat");
-Q = loadtxt(2,1,"Q.dat");
+P = loadtxt("P.dat",2,1);
+Q = loadtxt("Q.dat",2,1);
 
 //Matrix equation
-mat = loadtxt(2,2,"mat.dat");
-c = loadtxt(2,1,"c.dat");
+mat = loadtxt("mat.dat",2,2);
+c = loadtxt("c.dat",2,1);
 
-//Q = np.array([0,2]) 
-//printf("Enter the size of the matrix m  n \n");
-//scanf("%d %d", &m,&n);
-//
-//
-//printf("Enter the values of the matrix\n");
-//a = createMat(m,n);//creating the matrix a
-//P =createMat(m,n);//creating the matrix a
+//Circle centre and radius
+//O = linalg_inv(mat)@c
+//linalg_norm(O-P)
+
 // readMat(m,n,a);//reading values into the matrix a
-//print(2,1,P);//printing the matrix P
+temp = linalg_sub(P,c,2,1);
+r = linalg_norm(temp,2);
+printf("\n %lf\n",r);
+//print(2,1,temp);//printing the matrix Q
 //print(2,1,Q);//printing the matrix Q
-print(2,2,mat);//printing the matrix Q
-print(2,1,c);//printing the matrix Q
 
+free(P);
+free(Q);
+free(mat);
+free(c);
+free(temp);
 return 0;
 }
 
