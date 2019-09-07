@@ -254,6 +254,73 @@ available in this document.  These problems are solved using linear algebra/matr
 \item Two parabolas with a common vertex and with axes along $x$-axis and $y$-axis, respectively, intersect 
 each other in the first quadrant.  If the length of the latus rectum of each parabola is 3, find the equation 
 of the common tangent to the two parabolas.
+\\
+\solution The equation of a conic is given by 
+%
+\begin{align}
+\label{eq:conic_gen}
+\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+F=0
+\end{align}
+%
+For the standard parabola, 
+\begin{align}
+\label{eq:conic_parab_V}
+\vec{V}&=\myvec{0 & 0 \\ 0& 1}
+\\
+\vec{u}&=-2a\myvec{1 \\ 0}
+\label{eq:conic_parab_u}
+\\
+F&=0
+\label{eq:conic_parab_const}
+\end{align}
+%
+The focus
+\begin{align}
+\label{eq:conic_parab_focus}
+\vec{F}&=a\myvec{1 \\ 0}
+\end{align}
+%
+The Latus rectum is the line passing through $\vec{F}$ with direction vector 
+\begin{align}
+\label{eq:conic_parab_latus_m}
+\vec{m}&=\myvec{0 \\ 1}
+\end{align}
+%
+Thus, the equation of the Latus rectum is 
+\begin{align}
+\label{eq:conic_parab_latus}
+\vec{x}&= \vec{F}+\lambda \vec{m}
+\end{align}
+%
+The intersection of the latus rectum and the parabola is obtained from \eqref{eq:conic_parab_const}
+, \eqref{eq:conic_parab_latus}
+and \eqref{eq:conic_gen} as
+\begin{align}
+\brak{\vec{F}+\lambda \vec{m}}^T\vec{V}\brak{\vec{F}+\lambda \vec{m}}+2\vec{u}^T\brak{\vec{F}+\lambda \vec{m}}=0
+\end{align}
+\begin{multline}
+\implies \brak{\vec{m}^T\vec{V}\vec{m}}\lambda^2+2\brak{\vec{V}\vec{m}+\vec{u}}^T\vec{F}\lambda 
+\\
++\brak{\vec{V}\vec{F}+2\vec{u}}^T\vec{F} = 0
+\end{multline}
+{\footnotesize
+\begin{align}
+\text{or, } \lambda =\frac{-\brak{\vec{V}\vec{m}+\vec{u}}^T\vec{F}\pm\sqrt{\sbrak{\brak{\vec{V}\vec{m}+\vec{u}}^T\vec{F}}^2-\brak{\vec{m}^T\vec{V}\vec{m}}\brak{\vec{F}^T\vec{V}\vec{F}}}}{\vec{m}^T\vec{V}\vec{m}}
+\end{align}
+}
+From \eqref{eq:conic_parab_V}, \eqref{eq:conic_parab_u}, \eqref{eq:conic_parab_focus} and \eqref{eq:conic_parab_latus_m}, 
+\begin{align}
+\label{eq:conic_parab_lam_b}
+\brak{\vec{V}\vec{m}+\vec{u}}^T\vec{F} &= \myvec{-2a & 1}a\myvec{1 \\ 0} = -2a^2
+\\
+\vec{m}^T\vec{V}\vec{m} &= 1
+\\
+\vec{F}^T\vec{V}\vec{F} &= 0
+\end{align}
+
+
+
+
 \item A hyperbola passes through the point 
 \begin{equation}
 \vec{P}=\myvec{\sqrt{2}\\ \sqrt{3}}
