@@ -427,60 +427,6 @@ The product of the perpendiculars is
 =9
 \end{align}
 
-\item Let $\vec{P}$ be the point on the parabola
-\begin{equation}
-\label{eq:parab_circ_parab}
-\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} -\myvec{8 & 0 }\vec{x} 
- = 0
-\end{equation}
-which is at a minimum distance from the centre $\vec{C}$ of the circle
-\begin{equation}
-\label{eq:parab_circ_circ}
-\vec{x}^T\vec{x} +\myvec{0 & 12 }\vec{x} 
- = 1 
-\end{equation} 
-Find the equation of the circle passing through $\vec{C}$ and having its centre at $\vec{P}$. 
-\\
-\solution From \eqref{eq:parab_circ_circ},
-\begin{align}
-\vec{C} = \myvec{0 \\ -6}
-\end{align}
-%
-Thus, the given problem can be expressed as 
-\begin{align}
-\min_{\vec{x}}\norm{\vec{x}-\vec{C}}^2
-\\
-s.t.\quad \vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x} =0
-\end{align}
-%
-Using Lagrange multipliers,
-\begin{align}
-2\brak{\vec{x}-\vec{C}}-2\lambda \brak{\vec{V}\vec{x}+\vec{u}} &= 0
-\\
-\implies \brak{\vec{I}-\lambda \vec{V}}\vec{x} &=\vec{C}+\lambda\vec{u}
-\\
-\implies \vec{x} &= \brak{\vec{I}-\lambda \vec{V}}^{-1}\brak{\vec{C}+\lambda\vec{u}}
-\\
-&=\myvec{1 & 0 \\ 0 & -\frac{1}{\lambda}}\myvec{-4\lambda \\ -6}
-\\
-&=\myvec{-4\lambda \\ \frac{6}{\lambda}}
-\end{align}
-%
-Substituting in \eqref{eq:parab_circ_parab},
-\begin{align}
-\brak{\frac{6}{\lambda}}^2 &= 8\brak{-4\lambda}
-\\
-\implies \lambda^3 =- \frac{3}{16}
-\end{align}
-%
-Thus, 
-\begin{align}
-\vec{P} = \vec{C}+\lambda\vec{u},
-\end{align}
-and the equation of the circle is
-\begin{align}
-\norm{\vec{x}-\vec{P}}=\norm{\vec{P}-\vec{C}}
-\end{align}
 \item  Consider an ellipse, whose centre is at the origin and its major axis is along the $x$-axis.  If its 
 eccentricity is $\frac{3}{5}$ and the distance between its foci is 6, then find the area of the quadrilateral 
 inscribed in the ellipse,  with the vertices as the vertices of the ellipse.
