@@ -430,21 +430,115 @@ The product of the perpendiculars is
 \item  Consider an ellipse, whose centre is at the origin and its major axis is along the $x$-axis.  If its 
 eccentricity is $\frac{3}{5}$ and the distance between its foci is 6, then find the area of the quadrilateral 
 inscribed in the ellipse,  with the vertices as the vertices of the ellipse.
+\\
+\solution If $a$ and $b$ be the semi-major and minor-axis respectively, 
+the foci of the ellipse are 
+\begin{align}
+\vec{F}_1=ae\myvec{1\\0},
+\vec{F}_2=-ae\myvec{1\\0}
+\end{align}
+%
+From the given information,
+\begin{align}
+e &= \frac{3}{5}, 2ae = 6 
+\\
+\implies a &= 5, b = a\sqrt{1-e^2} = 4
+\end{align}
+%
+Thus, the vertices of the ellipse are
+\begin{align}
+\myvec{a\\0},
+\myvec{-a\\0},
+\myvec{0\\b},
+\myvec{0\\-b}
+\end{align}
+and the area of the quadrilateral is
+\begin{align}
+\frac{1}{2}
+\begin{vmatrix}
+1 & 1 & 1
+\\
+a & -a & 0
+\\
+0 & 0 & b
+\end{vmatrix}
++
+\frac{1}{2}
+\begin{vmatrix}
+1 & 1 & 1
+\\
+a & -a & 0
+\\
+0 & 0 & -b
+\end{vmatrix}
+=2ab = 40
+\end{align}
+
 \item Let $a$ and $b$ respectively be the semi-transverse and semi-conjugate axes of a hyperbola whose 
 eccentricity satisfies the equation
 \begin{equation}
+\label{eq:hyper_ecc}
 9e^2-18e+5 = 0
 \end{equation}
 If 
 \begin{equation} 
+\label{eq:hyper_ecc_focus}
 \vec{S}=\myvec{5\\ 0}
 \end{equation}
 is a focus and 
 \begin{equation} 
+\label{eq:hyper_ecc_direc}
 \myvec{5 & 0}\vec{x} = 9
 \end{equation} 
 %
 is the corresponding directrix of this hyperbola, then find $a^2-b^2$.
+\\
+\solution From \eqref{eq:hyper_ecc},
+\begin{align}
+\brak{3e-1}\brak{3e-5} = 0
+\\
+\implies e = \frac{5}{3}, \because e > 1
+\label{eq:hyper_ecc_e}
+\end{align}
+%
+for a hyperbola.  
+Let $\vec{x}$ be a point on the hyperbola.  
+From \eqref{eq:hyper_ecc_direc}, its distance from the directrix is
+%
+\begin{align}
+\label{eq:hyper_ecc_direc_dist}
+\frac{\abs{\myvec{5 & 0}\vec{x} - 9}}{5}
+\end{align}
+%
+and from the focus is 
+\begin{align}
+\label{eq:hyper_ecc_focus_dist}
+\norm{\vec{x}-\myvec{5\\0}}
+\end{align}
+From the definition of a hyperbola, the eccentricity is the ratio of these distances and \eqref{eq:hyper_ecc_e}
+, \eqref{eq:hyper_ecc_direc_dist}
+ and \eqref{eq:hyper_ecc_focus_dist},
+\begin{align}
+\frac{5\norm{\vec{x}-\myvec{5\\0}}}{\abs{\myvec{5 & 0}\vec{x} - 9}} &= \frac{5}{3}
+\\
+\implies 9\cbrak{\brak{x_1-5}^2+x_2^2}&=  \brak{5x_1-9}^2
+\\
+\text{or, } \vec{x}^T\myvec{16 & 0 \\ 0 & -9}\vec{x} = 225
+\end{align}
+%
+which is the equation of the hyperbola.  Thus, 
+\begin{align}
+a^2 = \frac{225}{16}, b^2 = \frac{225}{9}
+\\
+\implies a^2-b^2 = -\frac{175}{16}
+\end{align}
+
+
+%From \eqref{eq:hyper_ecc_focus},
+%\begin{align}
+%ae = 5 \implies a= 3
+%\end{align}
+
 \item A variable line drawn through the 
 intersection of the lines 
 \begin{align} 
