@@ -588,5 +588,91 @@ Thus, the equation of the desired tangent is
 \implies
 \myvec{1 & 4}\vec{x}=-3
 \end{align} 
+%\end{enumerate}
+%\section{Vector Algebra}
+%\begin{enumerate}[label=\thesection.\arabic*
+%,ref=\thesection.\theenumi]
+
+\item The line 
+\begin{align}
+\Gamma: \vec{x} = \myvec{0 \\ 1} + \lambda \myvec{1 \\ m}
+\label{eq:coord_line}
+\end{align}
+intersects the circle
+\begin{align}
+\Omega: \norm{\vec{x}-\myvec{3 \\ -2}} = 5
+\label{eq:coord_circ}
+\end{align}
+at points $\vec{P}$ and $\vec{Q}$ respectively. The mid point of $PQ$ is 
+$\vec{R}$ such that
+\begin{align}
+\myvec{1 & 0}\vec{R} = -\frac{3}{5}
+\label{eq:coord_mid}
+\end{align}
+%
+Find $m$.
+\\
+\solution Let 
+\begin{align}
+\vec{c} = \myvec{0 \\ 1}, \vec{O} = \myvec{3 \\ -2} \text{ and } \vec{m} = 
+\myvec{1 \\ m}
+\label{eq:coord_defs}
+\end{align}
+%
+The intersection of  \eqref{eq:coord_line} and \eqref{eq:coord_circ} is 
+\begin{align}
+\norm{\vec{c}+\lambda\vec{m} -\vec{O}}^2 = 25
+\end{align}
+\begin{multline}
+\label{eq:coord_quad}
+\implies \lambda^2 \norm{\vec{m}}^2+ 2\lambda\vec{m}^{T}\brak{\vec{c} 
+-\vec{O}}
+\\
++\norm{\vec{c} -\vec{O}}^2-25 = 0
+\end{multline}
+%
+Since $\vec{P}, \vec{Q}$ lie on $\Gamma$,
+\begin{align}
+\vec{P} &= \vec{c}+\lambda_1\vec{m} 
+\\
+\vec{Q} &= \vec{c}+\lambda_2\vec{m} 
+\\
+\implies \frac{\vec{P}+\vec{Q}}{2} &= \vec{c} + 
+\frac{\lambda_1+\lambda_2}{2}\vec{m} 
+\\
+\implies \myvec{1 & 0}\frac{\vec{P}+\vec{Q}}{2} &= \myvec{1 & 0}\vec{c}
+\nonumber \\
+& \,+ \frac{\lambda_1+\lambda_2}{2}\myvec{1 & 0}\vec{m} 
+\\
+&= \myvec{1 & 0}\vec{c} -
+\frac{\vec{m}^{T}\brak{\vec{c} -\vec{O}}}{\norm{\vec{m}}^2}
+\end{align}
+using the sum of roots in \eqref{eq:coord_quad}.  From 
+\eqref{eq:coord_mid} and \eqref{eq:coord_defs},
+\begin{align}
+-\myvec{1 & m}\myvec{-3\\3}= -\frac{3}{5}\brak{1+m^2}
+\\
+\implies m^2 -5m + 6 = 0
+\\
+\implies m = 2 \text{ or } 3
+\end{align}
+From \eqref{eq:coord_quad}, 
+\begin{multline}
+\lambda = \frac{-\vec{m}^{T}\brak{\vec{c} -\vec{O}}}{{\norm{\vec{m}}^2}}
+\\
+\pm \frac{\sqrt{\brak{\vec{m}^{T}\brak{\vec{c} -\vec{O}}}^2
+-\norm{\vec{c} -\vec{O}}^2+25}}{\norm{\vec{m}}^2}
+\end{multline}
+Fig. \ref{fig:2019_3} summarizes the solution for $m = 2$.
+
+%\renewcommand\thefigure{\theenumi}
+
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/2019_3.eps}
+\caption{}
+\label{fig:2019_3}
+\end{figure}
 \end{enumerate}
+
 \end{document}
