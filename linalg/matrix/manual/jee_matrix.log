@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.6.30)  10 SEP 2019 10:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.6.30)  11 SEP 2019 06:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1304,7 +1304,7 @@ File: tlc.eps Graphic file (type eps)
 LaTeX Warning: No \author given.
 
 
-Underfull \vbox (badness 1292) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
@@ -1313,6 +1313,9 @@ Underfull \vbox (badness 1292) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (./figs/2019_15.tex
 \gnumericTableWidth=\skip66
 \gnumericTableWidthComplete=\skip67
@@ -1321,10 +1324,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \gnumericColB=\skip70
 \gnumericColC=\skip71
 )
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \hbox (badness 5217) detected at line 625
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 5217) detected at line 727
  []$[]  \OT1/txr/bx/n/12 QP \OT1/txr/m/n/12 = [] + \OML/txmi/m/it/12 x []$ [][]
 []  []  
  []
@@ -1332,23 +1345,23 @@ Underfull \hbox (badness 5217) detected at line 625
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 782.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 782.
+ [5]
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 884.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 884.
  (./jee_matrix.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 782.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 782.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 884.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 884.
 Package rerunfilecheck Info: File `jee_matrix.out' has not changed.
-(rerunfilecheck)             Checksum: 4F641919321CF6E7C08621205E616205;426.
+(rerunfilecheck)             Checksum: 960529AA726CF5AA46D8E1F50C88FD27;475.
  ) 
 Here is how much of TeX's memory you used:
- 24236 strings out of 492615
- 478211 string characters out of 6118492
- 604901 words of memory out of 5000000
- 27707 multiletter control sequences out of 15000+600000
+ 24239 strings out of 492615
+ 478242 string characters out of 6118492
+ 601900 words of memory out of 5000000
+ 27710 multiletter control sequences out of 15000+600000
  62683 words of font info for 148 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  54i,19n,67p,796b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jee_matrix.dvi (5 pages, 69564 bytes).
+Output written on jee_matrix.dvi (6 pages, 79964 bytes).
