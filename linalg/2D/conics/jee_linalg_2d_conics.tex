@@ -628,4 +628,139 @@ from \eqref{eq:lines_3_mul},
 %
 which is the desired locus.
 \end{enumerate}
+\section{Ellipse}
+Let the ellipse $E_1, n = 1, 2,  \dots$ have the equation 
+\begin{align}
+\vec{x}^T\vec{D}\vec{x} = 1,
+\end{align}
+%
+where 
+\begin{align}
+\vec{D} = \myvec{\frac{1}{a^2} & 0 \\ 0 & \frac{1}{b^2}} 
+\end{align}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Let the largest rectangle inside $E_1$  with sides parallel to the axes be be $R_1$.
+Show that the coordinates of the $R_1$ have the form
+\begin{align}
+ \myvec{\pm p_1 \\ \pm p_2}
+\end{align}
+\solution Let $R_1$ be the rectangle $PQRS$, where $PQ \parallel RS \parallel x-axis, QR \parallel PS \parallel y-axis $. Their corresponding equations are 
+\begin{align}
+\label{eq:9_pq}
+PQ: \vec{x} = \vec{P} +  \lambda_1 \vec{m}_1
+\\
+\label{eq:9_ps}
+PS: \vec{x} = \vec{P} +  \lambda_2 \vec{m}_2
+\\
+\label{eq:9_qr}
+QR: \vec{x} = \vec{Q} +  \lambda_3 \vec{m}_2
+%RS: \vec{x} = \vec{S} +  \lambda_2 \vec{m}_1
+\end{align}
+%
+where 
+\begin{align}
+\vec{m}_1=\myvec{1\\  0},
+\vec{m}_2=\myvec{0\\  1}
+\end{align}
+The intersection of $PQ$ with $E_1$ is
+\begin{align}
+\sbrak{\vec{P} +  \lambda_1 \vec{m}_1}^T\vec{D}\sbrak{\vec{P} +  \lambda_1 \vec{m}_1} &= 1
+\nonumber \\
+\implies \lambda_1^2 \norm{\vec{m}_1}^2 + 2\lambda_1 \vec{m}_1^T\vec{P}+\vec{P}^T\vec{D}\vec{P} -1 & = 0
+\nonumber 
+\end{align}
+\begin{align}
+\because \vec{P} \in E_1, \norm{\vec{m}_1}^2  = 1, \vec{P}^T\vec{D}\vec{P} -1 &= 0
+\nonumber \\
+\implies \lambda_1 = 0, -2\vec{m}_1^T\vec{P}
+\end{align}
+%
+Thus,
+\begin{align}
+\vec{Q} &= \vec{P}   -2\vec{m}_1^T\vec{P} \vec{m}_1
+\nonumber \\
+&= \myvec{-p_1 \\ p_2}
+\end{align}
+%
+Similarly, 
+\begin{align}
+\vec{S} &= \vec{P}   -2\vec{m}_2^T\vec{P} \vec{m}_2
+\nonumber \\
+&= \myvec{p_1 \\ -p_2}
+\end{align}
+%
+and 
+\begin{align}
+\vec{R} &= \vec{Q}   -2\vec{m}_2^T\vec{Q} \vec{m}_2
+\nonumber \\
+&= \myvec{-p_1 \\ -p_2}
+\end{align}
+\item Find an expression for the square of the area of $R_1$.
+\\
+\solution 
+\begin{align}
+\because \frac{p_1^2}{a^2}+\frac{p_2^2}{b^2} = 1,
+\nonumber \\
+p_2 = b \sqrt{1 - \frac{p_1^2}{a^2}}.
+\label{eq:9_p2}
+\end{align}
+%
+Hence the desired expression is 
+\begin{align}
+\label{eq:9_f}
+F = \brak{PQ\times QR}^2 = 16 p_1^2 p_2^2 = 16 p_1^2b^2 \brak{1 - \frac{p_1^2}{a^2}}.
+\end{align}
+%
+\item Find $p_1$ that maximises $F$.
+\\
+\solution \eqref{eq:9_f} can be expressed as
+\begin{align}
+F &=  a^2b^2 \brak{16 a^2p_1^2 - 16p_1^4}
+\nonumber \\
+ &=  a^2b^2 \cbrak{a^4-\brak{a^2-4p_1^2}^2 }
+\end{align}
+%
+Thus, $F$ is maximum when 
+\begin{align}
+\brak{a^2-4p_1^2}^2 &= 0
+\nonumber \\
+\implies p_1 = \pm \frac{a}{2}
+\label{eq:9_p1sol}
+\end{align}
+\item Verify the above result graphically.
+\item Find $p_2$.
+\\
+\solution From \eqref{eq:9_p2}
+\begin{align}
+ p_2 = \pm\frac{ \sqrt{3}}{2}b
+\label{eq:9_p2sol}
+\end{align}
+%
+\item Find $E_2$, the largest ellipse within $R_1$.
+\\
+\solution From \eqref{eq:9_p1sol} and \eqref{eq:9_p2sol}, the  semi-major/minor axes of $E_2$ are
+\begin{align}
+E_2: \brak{ \frac{a}{2},\frac{\sqrt{3}}{2}b}
+\end{align}
+%
+\item find $E_n$ and $R_n$,
+\\
+\solution From \eqref{eq:9_p1sol} and \eqref{eq:9_p2sol}, the vertices of $R_n$ and semi-major/minor axes of $E_n$ are
+\begin{align}
+R_n: \cbrak{\pm \frac{a}{2^{n}},\pm\brak{\frac{\sqrt{3}}{2}}^nb}
+\nonumber \\
+E_n: \cbrak{ \frac{a}{2^{n-1}},\brak{\frac{\sqrt{3}}{2}}^{n-1}b}
+\end{align}
+In the following questions, $a=3,b=2$. Use a computer program.
+\item Is the eccentricity $e_18=e_19$?
+\item Verify if 
+\begin{align}
+\sum_{n=1}^{N}\brak{\text{Area of } R_n} < 24, 
+\end{align}
+for each positive integer $N$.
+\item Is the length of the latus rectum of $E_9 = \frac{1}{6}$?
+\item Is the distance of a focus from the centre in $E_9 = \frac{\sqrt{5}}{32}$?
+\end{enumerate}
+
 \end{document}

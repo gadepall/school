@@ -677,4 +677,83 @@ for $\theta = 30^{\degree}$. Draw the square with sides on the axis as well as t
 %\end{align}
 
 \end{enumerate}
+\section{Trigonometry}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+
+\item In $\triangle PQR$, which is not right angled, let
+\begin{align}
+PQ = r, QR = p, RP = q
+\end{align}
+%
+The median $RS$ and the altitude $PE$  intersect at $\vec{O}$. $p =\sqrt{3}, q = 1$ and the radius of the circumcircle  of $\triangle PQR = k = 1$.  
+\item Find  $RS$
+\\
+\solution Using the sine formula,
+\begin{align}
+\frac{p}{\sin P}=\frac{q}{\sin Q} = 2k
+\\
+\implies \sin P = \frac{\sqrt{3}}{2}, \sin Q = \frac{1}{2}
+\end{align}
+If $\angle R \ne \frac{\pi}{2}$, the only possible solution is 
+\begin{align}
+\angle P = \frac{2\pi}{3},
+\angle Q = \frac{\pi}{6},
+\angle R = \frac{\pi}{6}
+\end{align}
+%
+$\because \angle Q = \angle R, q = r = 1$.  The given information is shown in Fig. \ref{fig:2019_8}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/2019_8.eps}
+\caption{}
+\label{fig:2019_8}
+\end{figure}
+%
+Using the cosine formula, 
+\begin{align}
+RS &= \sqrt{q^2+\brak{\frac{r}{2}}^2-qr\cos P}
+\\
+&= \sqrt{1+\frac{1}{4}+\frac{1}{2}} = \sqrt{\frac{7}{2}}
+\end{align}
+\item Find $OE$.
+\\
+\solution 
+Using Baudhayana's theorem,
+\begin{align}
+OE  &= \sqrt{OR^2 - ER^2}
+\\
+&= \sqrt{\brak{\frac{2RS}{3}}^2 - \brak{\frac{p}{2}}^2} 
+\\
+&= \sqrt{\frac{7}{9}-\frac{3}{4}} = \frac{1 }{6}
+\end{align}
+%
+\item Find the area of $\triangle SOE$
+\\
+\solution
+$\because$ $PE$ and $RS$ are medians, 
+\begin{align}
+\text{ar}\brak{\triangle SOE }&= \frac{1}{4}\text{ar}\brak{\triangle POR},
+\\
+\text{ar}\brak{\triangle POR }&=  \frac{2}{3}\text{ar}\brak{\triangle PER},
+\\
+\text{ar}\brak{\triangle PER }&=  \frac{1}{2}\text{ar}\brak{\triangle PQR},
+\\
+\implies \text{ar}\brak{\triangle SOE} &= \frac{1}{12}\text{ar}\brak{\triangle PQR}
+&= \frac{\sqrt{3}}{24}
+\end{align}
+
+\item Find the radius of the incircle of $\triangle PQR $.
+%
+\\
+\solution
+I is the incentre in Fig. \ref{fig:2019_8}.  The radius of the incircle is 
+\begin{align}
+\frac{p}{2\cos\frac{Q}{2}} &= \frac{p}{\sqrt{2\brak{1+\cos Q}}}
+\\ &= \sqrt{\frac{3}{1+\sqrt{3}}}
+\end{align}
+%
+\item Repeat all the above exercises using vector algebra and plot Fig. \ref{fig:2019_8}.
+\end{enumerate}
+%
 \end{document}

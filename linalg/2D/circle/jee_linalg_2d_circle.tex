@@ -674,5 +674,97 @@ Fig. \ref{fig:2019_3} summarizes the solution for $m = 2$.
 \label{fig:2019_3}
 \end{figure}
 \end{enumerate}
+\section{Linear Algebra: Reflection}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Let $\vec{B}$ be the reflection of $\vec{A} = \myvec{2 \\ 3}$ with respect to the line 
+\begin{align}
+L: \myvec{8 & -6}\vec{x} = 23
+\end{align}
+%
+Show that $\vec{B} = \myvec{6 \\ 0}$.
+%\\
+%\solution The normal vector of $L$ is 
+%\begin{align}
+%\vec{n} &= \myvec{8 & -6}
+%\\
+%\implies \vec{m} &= \myvec{6 & 8}
+%\end{align}
+%%
+%Letting $c = 23$, 
+%\begin{align}
+%\frac{\vec{B}}{2}= \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{A}+c\frac{\vec{n}}{\vec{\norm{n}}}
+%\end{align}
+
+\item Find the equation of $AB$.
+\\
+\solution The normal vector of $L$ is
+\begin{align}
+\vec{n} = \myvec{6 \\ 8}
+\end{align}
+%
+Thus, the equation of $AB$  is
+\begin{align}
+AB: \vec{n}^T\brak{\vec{x}-\vec{A}} &= 0
+\\
+\implies \myvec{6 & 8}\vec{x} & = 36 
+\end{align}
+
+\item Let $\Gamma_A$ and $\Gamma_B$ be circles of radii $r_1 = 2, r_2 = 1$ with centres at $\vec{A}$ and $\vec{B}$ respectively. Let $T$ be the common tangent to both the circles such that they are on the same side of $T$. 
+\item Find the point $\vec{C}$ where $AB$ meets $T$.
+\\
+\solution Let $\vec{D}, \vec{E}$ be the points of contact for $T$ with $\Gamma_A$ and 4$\Gamma_B$ respectively. It is obvious that $\triangle ADC \sim \triangle BEC$. Hence, 
+\begin{align}
+AB &= BC 
+\\
+\implies \vec{C} &= 2\vec{B}-A = \myvec{10 \\ -3}
+\end{align}
+\item Find $AC$.
+\\
+\solution 
+\begin{align}
+AC = \norm{\vec{A}-\vec{C}} = 10
+\end{align}
+-\item Find  $\vec{D}$ and  $\vec{E}$.
+\end{enumerate}
+\section{Linear Algebra: Coordinate Geometry}
+%
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Find the points $\vec{X},\vec{Y}$ where 
+\begin{align}
+\label{eq:2019_qp2_17_c1c2}
+C_1: \norm{\vec{x}} &= 3
+\\
+C_2: \norm{\vec{x}-\myvec{3 \\4}} &= 4
+\end{align}
+%
+intersect. 
+\item Find the centre $\vec{O}_3$ and radius $r$ of $C_3$ such that
+\begin{enumerate}
+\item $\vec{O}_1, \vec{O}_2, \vec{O}_3$ are collinear.
+\item $C_1, C_2$ lie inside $C_3$ and 
+\item $C_3$ touches $C_1$ at $\vec{M}$ and $C_2$ at $\vec{N}$.
+\end{enumerate}
+\item Find the equation of $XY$.
+\item Find $\vec{Z}, \vec{W}$ the points of intersection of $XY$ and $C_3$.
+\item A common tangent of $C_1$ and $C_3$ is also a tangent to 
+\begin{align}
+\label{eq:2019_qp2_17_c1c2}
+P: \vec{x}^T\myvec{1 & 0 \\ 0 & 0}\vec{x} - 2\alpha\myvec{0 & 1}\vec{x} = 0
+\end{align}
+%
+Find $\alpha$.
+\end{enumerate}
+\section{Linear Algebra: Coordinate Geometry}
+Find the following based on the previous problem
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+%
+\item $\myvec{2 & 1}\vec{O}_3$
+\item $\frac{ZW}{XY}$
+\item $\frac{\text{ar}\brak{\triangle MZN}}{\text{ar}\brak{\triangle ZMW}}$
+\end{enumerate}
+
 
 \end{document}

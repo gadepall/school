@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.6.30)  11 SEP 2019 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.6.30)  11 SEP 2019 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1144,7 +1144,11 @@ Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ls
 cape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) (./jee_linalg_2d_circle.aux)
+) (./jee_linalg_2d_circle.aux
+
+LaTeX Warning: Label `eq:2019_qp2_17_c1c2' multiply defined.
+
+)
 \openout1 = `jee_linalg_2d_circle.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 122.
@@ -1313,35 +1317,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3]
 File: ./figs/2019_3.eps Graphic file (type eps)
 
-<./figs/2019_3.eps>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 678.
- [4
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 678.
+<./figs/2019_3.eps> [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 770.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 770.
  (./jee_linalg_2d_circle.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 678.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 678.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 770.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 770.
+Package rerunfilecheck Info: File `jee_linalg_2d_circle.out' has not changed.
+(rerunfilecheck)             Checksum: ED31941DAFC0CF76E01955ECFEF7F92F;201.
 
 
-Package rerunfilecheck Warning: File `jee_linalg_2d_circle.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `jee_linalg_2d_circle.out':
-(rerunfilecheck)             Before: 790F9EE1148AC8C99052A4FC050FD358;49
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24263 strings out of 492615
- 478818 string characters out of 6118492
+ 24269 strings out of 492615
+ 478906 string characters out of 6118492
  590911 words of memory out of 5000000
- 27736 multiletter control sequences out of 15000+600000
- 67126 words of font info for 166 fonts, out of 8000000 for 9000
+ 27741 multiletter control sequences out of 15000+600000
+ 67844 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  54i,14n,67p,806b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jee_linalg_2d_circle.dvi (4 pages, 41880 bytes).
+Output written on jee_linalg_2d_circle.dvi (4 pages, 50480 bytes).

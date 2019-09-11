@@ -722,8 +722,83 @@ Substituting $n=4$ in the above,
 \sum_{k=0}^{n}\frac{\nCr{n}{k}}{k+1}= \frac{2^{5}-1}{5} = \frac{31}{5}
 \end{align}
 \end{enumerate}
-\section{Exercises}
-\begin{enumerate}[label=\arabic*.]
-\item
+\section{Probability}
+Table \ref{table:2019_7} lists the number of red (R) and green (G) balls in bags $B_1, B_2$ and $B_3$. Also listed are the probabilities of each bag.
+\begin{table}[!h]
+\centering
+%\resizebox {0.5\columnwidth} {!} {
+%\input{./figs/components.tex}
+\input{./figs/2019_7.tex}
+%}
+\caption{}
+\label{table:2019_7}
+\end{table}
+
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Show that 
+\begin{align}
+\pr{G|B_3} = \frac{3}{8}
+\end{align}
+\item Show that 
+\begin{align}
+\pr{G} = \frac{39}{80} 
+\end{align}
+\solution 
+\begin{align}
+\because \pr{G|B_1} &= \frac{1}{2}, \pr{G|B_2} = \frac{5}{8}, \pr{G|B_3} = \frac{3}{8},
+\nonumber \\
+\pr{G} &= \sum_{i=1}^{3}\pr{G|B_i}\pr{B_i}
+\\
+ &= \frac{1}{2}\times\frac{3}{10}+\frac{5}{8} \times\frac{3}{10}+\frac{3}{8}\times \frac{4}{10}
+\\
+ &= \frac{39}{80}
+\end{align}
+\item Is
+\begin{align}
+\pr{B_3|G} = \frac{5}{13}\, ?
+\end{align}
+\solution 
+\begin{align}
+\pr{B_3|G} &= \frac{\pr{G|B_3}\pr{B_3}}{\pr{G}}
+\\
+&= \frac{\frac{3}{8}\times \frac{4}{10}}{\frac{39}{80}} = \frac{4}{13} \ne \frac{5}{13}
+\end{align}
+\item Is
+\begin{align}
+\pr{B_3 \cap G} = \frac{3}{10}\, ?
+\end{align}
+\solution 
+\begin{align}
+\pr{B_3 \cap G} &= \pr{G|B_3}\pr{B_3} \\
+\\
+=& \frac{3}{8} \times \frac{4}{10}=\frac{3}{20}\ne\frac{3}{10}
+\end{align}
+\end{enumerate}
+\section{Combinatorics}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Five persons $A, B, C, D $ and $E$ are seated in a circuar arrangment. Let $A, C, E$ be given the colour green. Find the number of ways to distribute blue and red to $B$ and $D$.
+\\
+\solution Both $B$  and $D$ can be given either blue or red.  The number of possible ways is
+\begin{align}
+\label{eq:qp2_10_ace_g}
+2\times 2 = 4
+\end{align}
+\item Repeat the above exercise with $B,D, A$ having the colour green.
+\item Find the total number of ways in which the colour green can be distributed to alternate persons so that persons seated in adjacent seats get different coloured hats.
+\\
+\solution The number of such ways is
+\begin{align}
+\label{eq:qp2_10_g}
+2\times 2 \times 2= 8
+\end{align}
+\item  If each person  is given a hat of one of 3 colours red, blue and green, then find the number of ways of distributing the hats such that the persons seated in adjacent seats get different coloured hats.
+\\
+\solution The number of ways is 
+\begin{align}
+\label{eq:qp2_10_sol}
+2\times 2 \times 2 \times 3= 24
+\end{align}
 \end{enumerate}
 \end{document}
