@@ -8,6 +8,8 @@ double **linalg_sub(double **a, double **b, int m, int n);
 double **linalg_inv(double **mat, int m);
 double **matmul(double **a, double **b, int m, int n, int p);
 double **transpose(double **a,  int m, int n);
+double **linspace(double a, double l, int n);
+void savetxt(double **a, char *str,int m,int n);
 //End function declaration
 
 
@@ -184,3 +186,53 @@ return c;
 
 }
 //End function for transpose of matrix
+
+//Linspace function
+double **linspace(double a, double l, int m)
+{
+//Variable declarations
+double d, **ap;
+int i,j;
+
+ap = createMat(m,1);
+
+//Common difference
+d = (l-a)/(m-1);
+
+ for(i=0;i<1;i++)
+ {
+  for(j=0;j<m;j++)
+  {
+ap[i][j] = a+j*d;
+
+  }
+ }
+//Returning the address of the first memory block
+return ap;
+
+}
+
+//End linspace function
+
+//Write matrix into file
+void savetxt(double **a, char *str,int m,int n)
+{
+FILE *fp;
+int i,j;
+
+
+fp = fopen(str, "w");
+
+ for(i=0;i<m;i++)
+ {
+  for(j=0;j<n;j++)
+  {
+   fprintf(fp,"%lf ",a[i][j]);
+  }
+   fprintf(fp,"\n");
+
+ }
+fclose(fp);
+
+}
+//End function for writing matrix into file

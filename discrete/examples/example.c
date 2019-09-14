@@ -9,7 +9,7 @@ int  main() //main function begins
 //Defining the variables
 int m,n, len ;//integers
 double **a,**P,**Q,**mat,**c,**temp, r, **O, **mat_inv;
-double **n_1,**n_2,**n_3,**n_4, **temp1;
+double **n_1,**n_2,**n_3,**n_4, **temp1,**theta;
 double c_1,c_2,c_3,c_4;
 //Generate line points
 len = 100;
@@ -34,8 +34,8 @@ r = linalg_norm(temp,2);
 
 free(temp);
 
-//print(O,2,1);//printing the matrix Q
-//printf("\n %lf\n",r);
+//print(O,2,1);//printing the matrix O
+//printf("\n %lf\n",r);//printing the radius r
 
 //(i)
 n_1 = loadtxt("./data/n_1.dat",2,1);
@@ -93,7 +93,11 @@ else
 
 free(temp);
 
-temp = matmul(transpose(n_2,2,1),O,1,2,1);
+//Generating theta
+
+theta = linspace(0,2*M_PI,len);
+//print(theta,len,1);//printing theta
+savetxt(theta,"theta.dat",len,1);
 
 
 free(P);

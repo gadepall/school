@@ -87,8 +87,10 @@ x_3= line_dir_pt(m_3,A_3,k1,k2)
 x_4= line_dir_pt(m_4,A_4,k1,k2)
 
 
-#Generating Circumcircle
-theta = np.linspace(0,2*np.pi,len)
+#Generating Circle
+#theta = np.linspace(0,2*np.pi,len)
+#loading theta from data generated using C code
+theta = np.loadtxt('theta.dat',dtype='double')
 x_circ = np.zeros((2,len))
 x_circ[0,:] = r*np.cos(theta)
 x_circ[1,:] = r*np.sin(theta)
