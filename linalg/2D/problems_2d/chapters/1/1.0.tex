@@ -1,0 +1,57 @@
+%\begin{enumerate}[label=\arabic*.,ref=\thesection]
+%\begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
+%\begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
+\renewcommand{\theequation}{\theenumi}
+
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+
+\item The {\em inner product} of  $\vec{P}$ and $\vec{Q}$ is defined as
+%\numberwithin{equation}{enumi}
+\begin{align}
+\vec{P}^T\vec{Q} = p_1q_1+p_2q_2
+\end{align}
+\item The {\em norm} of a vector 
+\begin{align}
+\vec{P} = \myvec{p_1\\p_2}
+\end{align}
+is defined as
+\begin{align}
+\norm{\vec{P}} = \sqrt{p_1^2+p_2^2}
+\end{align}
+\item The {\em length} of $PQ$ is defined as
+\begin{align}
+\norm{\vec{P}-\vec{Q}}
+\end{align}
+
+%\renewcommand{\theequation}{\theenumi}
+
+%
+\item The {\em direction vector} of the line $PQ$ is defined as 
+\begin{align}
+\vec{P}-\vec{Q} = \myvec{p_1-q_1\\p_2-q_2}
+\end{align}
+%
+\item {\em Orthogonality}
+\begin{equation}
+PQ \perp RS
+\iff \brak{\vec{P}-\vec{Q}}^T\brak{\vec{R}-\vec{S}} = 0
+\end{equation}
+\item The point dividing   $PQ$  in the ratio $k:1$ is
+\begin{equation}
+\vec{R} = \frac{k\vec{P}+\vec{Q}}{k+1}
+\end{equation}
+%
+\item The {\em area} of $\triangle PQR$ is the {\em determinant}
+\begin{equation}
+\begin{vmatrix}
+1 & 1 & 1
+\\
+\vec{P} & \vec{Q} &\vec{R}
+\end{vmatrix}
+\end{equation}
+
+%\numberwithin{equation}{enumi}
+
+%\renewcommand{\theequation}{\theenumi}
+\end{enumerate}
+.
