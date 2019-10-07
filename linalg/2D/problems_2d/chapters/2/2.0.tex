@@ -225,6 +225,33 @@ where
 \begin{align}
 \cos ^{-1} \frac{\vec{n}_1 ^T \vec{n}_2}{\norm{\vec{n}_1}  \norm{\vec{n}_2}}
 \end{align}
+\item Show that the distance of a point $\vec{x}_0$ from the line 
+\begin{align}
+L: \quad \vec{n}^T\vec{x} &=c
+\end{align}
+is 
+\begin{align}
+\frac{\abs{\vec{n}^T\vec{x}_0-c}}{\norm{\vec{n}}} 
+\end{align}
+\solution Let the equation of the line be 
+\begin{align}
+\vec{x} = \vec{A} + \lambda \vec{m}
+\end{align}
+%
+where 
+\begin{align}
+\label{eq:line_dist_orig_pt}
+\vec{n}^T\vec{A} = 0, \vec{n}^T\vec{m} = 0
+\end{align}
+If $\vec{x}_0$ is translated to the origin, the equation of the line $L$ becomes 
+\begin{align}
+\vec{x} &= \vec{A}- \vec{x}_0+ \lambda \vec{m}
+\\
+\implies 
+\vec{n}^T\vec{x} &=c-\vec{n}^T\vec{x}_0
+\end{align}
+From \eqref{eq:line_dist_orig}, \eqref{eq:line_dist_orig_pt} is obtained.
+
 \end{enumerate}
 %
 %\section{Orthogonality}
