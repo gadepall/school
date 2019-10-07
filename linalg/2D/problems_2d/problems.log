@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  7 OCT 2019 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  7 OCT 2019 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1330,38 +1330,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4])
 (./chapters/2/2.1.tex) (./chapters/2/2.2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 Underfull \hbox (badness 3679) in paragraph at lines 29--30
 []\OT1/txr/m/n/12 Find the equa-tion of a line par-al-lel to
  []
 
-
+) (./chapters/2/2.3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
-(./chapters/2/2.3.tex) (./chapters/2/2.4.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 2735) has occurred while \output is active []
-
-
+ [6])
+(./chapters/2/2.4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7])
-[8
+(./chapters/2/2.5.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./problems.aux)
+)
+(./chapters/2/2.6.tex [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [9]
+(./problems.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27547 strings out of 492624
- 621427 string characters out of 6119217
+ 27596 strings out of 492624
+ 622093 string characters out of 6119217
  1004964 words of memory out of 5000000
- 30896 multiletter control sequences out of 15000+600000
- 51706 words of font info for 114 fonts, out of 8000000 for 9000
+ 30938 multiletter control sequences out of 15000+600000
+ 64380 words of font info for 156 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,18n,69p,500b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on problems.dvi (8 pages, 52468 bytes).
+Output written on problems.dvi (9 pages, 64324 bytes).
