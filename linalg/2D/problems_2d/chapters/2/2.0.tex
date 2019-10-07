@@ -138,6 +138,75 @@ on the $x-$axis, then $\myvec{a\\0}$  is a point on the line.  Thus,
 \\
 \implies a &= \frac{c}{\vec{n}^T\vec{e}_1}
 \end{align}
+%
+\renewcommand{\theequation}{\theenumi}
+%
+\item The {\em rotation matrix} is defined as
+\begin{align}
+\vec{Q} = \myvec{\cos \theta & -\sin \theta\\ \sin \theta & \cos \theta}
+\end{align}
+%
+where $\theta$ is anti-clockwise.
+\item 
+\begin{align}
+\vec{Q}^T\vec{Q} = \myvec{1 & 0 \\ 0 & 1} = \vec{I}
+\end{align}
+%
+where $\vec{I}$ is the {\em identity matrix}. The rotation matrix $\vec{Q}$ is also an {\em orthogonal matrix}.
+
+\numberwithin{equation}{enumi}
+%
+\item Find the equation of  line $L$ in Fig. \ref{fig:line_dist}.
+\\
+\solution The equation of the $x-$axis is
+\begin{align}
+\vec{x} =\lambda \vec{e}_1
+\end{align}
+Translation by $p$ units along the $y-$axis results in 
+\begin{align}
+L_0: \quad \vec{x} = \lambda \vec{e}_1 + p \vec{e}_2 
+\end{align}
+Rotation by $90\degree-\alpha$ in the anti-clockwise direction yields
+\begin{align}
+L: \quad \vec{x} &= \vec{Q}\cbrak{\lambda \vec{e}_1 + p \vec{e}_2 }
+\\
+&=\lambda \vec{Q}\vec{e}_1 + p \vec{Q}\vec{e}_2 
+\label{eq:line_dist_temp}
+\end{align}
+%
+where 
+\begin{align}
+\vec{Q} &= \myvec{\cos \brak{\alpha-90} & -\sin \brak{\alpha-90}\\ \sin \brak{\alpha-90} & \cos \brak{\alpha-90}}
+\\
+&= \myvec{\sin \alpha & \cos \alpha \\ -\cos \alpha & \sin \alpha}
+\end{align}
+%
+From \eqref{eq:line_dist_temp},
+\begin{align}
+L: \quad \vec{e}_2^T\vec{Q}^T\vec{x}&=\lambda \vec{e}_2^T\vec{Q}^T\vec{Q}\vec{e}_1 + p \vec{e}_2^T\vec{Q}^T\vec{Q}\vec{e}_2 
+\nonumber \\
+&=\lambda \vec{e}_2^T\vec{e}_1 + p \vec{e}_2^T\vec{e}_2 
+\end{align}
+resulting in 
+\begin{align}
+L: \quad \myvec{\cos \alpha & \sin \alpha}\vec{x}=p
+\label{eq:line_dist_temp_final}
+\end{align}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/line_dist.eps}
+\caption{}
+\label{fig:line_dist}
+\end{figure}
+\item Show that the distance from the orgin to the line 
+\begin{align}
+\vec{n}^T\vec{x} &=c
+\end{align}
+is 
+\begin{align}
+p = \frac{c}{\norm{n}}
+\label{eq:line_dist_orig}
+\end{align}
 \end{enumerate}
 %
 %\section{Orthogonality}
