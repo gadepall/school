@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  8 OCT 2019 09:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  8 OCT 2019 14:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1334,32 +1334,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./figs/ratio.eps Graphic file (type eps)
 
 <./figs/ratio.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 324--327
+Underfull \hbox (badness 10000) in paragraph at lines 326--329
 \OT1/txr/m/n/12 from []. Us-ing [] and
  []
 
-[5]) (./chapters/2/2.1.tex) (./chapters/2/2.2.tex
+
+Underfull \vbox (badness 1810) has occurred while \output is active []
+
+ [5])
+(./chapters/2/2.1.tex) (./chapters/2/2.2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 Underfull \hbox (badness 3679) in paragraph at lines 29--30
 []\OT1/txr/m/n/12 Find the equa-tion of a line par-al-lel to
  []
 
-
+) (./chapters/2/2.3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6])
-(./chapters/2/2.3.tex) (./chapters/2/2.4.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \vbox (badness 2735) has occurred while \output is active []
-
-
+ [7])
+(./chapters/2/2.4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
 File: ./figs/median.eps Graphic file (type eps)
 
 <./figs/median.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 2277) in paragraph at lines 154--156
 \OT1/txr/m/n/12 provided $\OT1/txr/bx/n/12 A\OML/txmi/m/it/12 ; \OT1/txr/bx/n/1
 2 B\OML/txmi/m/it/12 ; \OT1/txr/bx/n/12 C$ \OT1/txr/m/n/12 are lin-early in-de-
@@ -1387,20 +1391,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11])
-[12
-
-] (./problems.aux)
+(./chapters/3/3.0.tex) (./chapters/3/3.1.tex) [12] (./problems.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27581 strings out of 492624
- 621902 string characters out of 6119217
+ 27624 strings out of 492624
+ 622492 string characters out of 6119217
  1005964 words of memory out of 5000000
- 30922 multiletter control sequences out of 15000+600000
- 51706 words of font info for 114 fonts, out of 8000000 for 9000
+ 30957 multiletter control sequences out of 15000+600000
+ 62106 words of font info for 147 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,18n,69p,500b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on problems.dvi (12 pages, 77704 bytes).
+Output written on problems.dvi (12 pages, 83768 bytes).

@@ -257,34 +257,36 @@ ax^2+2bxy+cy^2+2dx+2ey+f=0
 \end{align}
 can be expressed as
 \begin{align}
-\vec{x}^T\myvec{a & b\\ b & c}\vec{x}+2\myvec{d & e}+f=0
+\label{eq:quad_form}
+\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+f=0
+\end{align}
+%
+where
+\begin{align}
+\vec{V} &= \vec{V}^T
+\\
+\vec{u} &= \myvec{d & e}
 \end{align}
 
-\item {\em Pair of straight lines:} The equation
-\begin{align}
-\vec{x}^T\myvec{a & b\\ b & c}\vec{x}+2\myvec{d & e}+f=0
-\end{align}
+\item {\em Pair of straight lines:} \eqref{eq:quad_form}
+%The equation
+%\begin{align}
+%\vec{x}^T\myvec{a & b\\ b & c}\vec{x}+2\myvec{d & e}+f=0
+%\end{align}
 %
 represents a pair of straight lines if 
 \begin{align}
 \begin{vmatrix}
-a & b & d
+\vec{V}&\vec{u}
 \\
-b & c & e
-\\
-d & e & f
+\vec{u}^T&f
 \end{vmatrix}
 = 0
 \end{align}
 %
 Two intersecting lines are obtained if 
 \begin{align}
-\begin{vmatrix}
-a & b 
-\\
-b & c 
-\end{vmatrix}
-< 0
+\abs{\vec{V}} < 0
 \end{align}
 \item  In Fig. \ref{fig:ratio}, let
 \begin{equation}
