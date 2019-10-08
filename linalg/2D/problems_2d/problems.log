@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  8 OCT 2019 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  8 OCT 2019 20:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1306,11 +1306,13 @@ File: utxsyc.fd 2000/12/15 v3.1
  (./chapters/1/1.0.tex
 File: ./figs/orth.eps Graphic file (type eps)
  <./figs/orth.eps>) (./chapters/1/1.1.tex
-[1
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2012) has occurred while \output is active []
 
 )
 (./chapters/1/1.2.tex [2]) (./chapters/2/2.0.tex
@@ -1342,15 +1344,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--329
 Underfull \vbox (badness 1810) has occurred while \output is active []
 
  [5])
-(./chapters/2/2.1.tex) (./chapters/2/2.2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
+(./chapters/2/2.1.tex) (./chapters/2/2.2.tex [6]
 Underfull \hbox (badness 3679) in paragraph at lines 29--30
 []\OT1/txr/m/n/12 Find the equa-tion of a line par-al-lel to
  []
 
 ) (./chapters/2/2.3.tex
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7])
@@ -1361,9 +1363,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./figs/median.eps Graphic file (type eps)
 
 <./figs/median.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 2277) in paragraph at lines 154--156
 \OT1/txr/m/n/12 provided $\OT1/txr/bx/n/12 A\OML/txmi/m/it/12 ; \OT1/txr/bx/n/1
 2 B\OML/txmi/m/it/12 ; \OT1/txr/bx/n/12 C$ \OT1/txr/m/n/12 are lin-early in-de-
@@ -1376,33 +1375,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9]
 File: ./figs/alt.eps Graphic file (type eps)
 
-<./figs/alt.eps>) (./chapters/2/2.5.tex
-Underfull \vbox (badness 3713) has occurred while \output is active []
+<./figs/alt.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./chapters/2/2.5.tex
 Overfull \hbox (9.85712pt too wide) in paragraph at lines 26--32
 []$\OT1/txr/bx/n/12 x[] [] x \OT1/txr/m/n/12 =
  []
 
 ) (./chapters/2/2.6.tex [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2875) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11])
-(./chapters/3/3.0.tex) (./chapters/3/3.1.tex) [12] (./problems.aux)
+(./chapters/3/3.0.tex) (./chapters/3/3.1.tex [12]) (./chapters/3/3.2.tex)
+(./chapters/3/3.3.tex [13]) (./chapters/3/3.4.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14])
+[15
+
+] (./problems.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27624 strings out of 492624
- 622492 string characters out of 6119217
- 1005964 words of memory out of 5000000
- 30957 multiletter control sequences out of 15000+600000
+ 27634 strings out of 492624
+ 622632 string characters out of 6119217
+ 1009964 words of memory out of 5000000
+ 30958 multiletter control sequences out of 15000+600000
  62106 words of font info for 147 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,18n,69p,500b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on problems.dvi (12 pages, 83768 bytes).
+Output written on problems.dvi (15 pages, 102180 bytes).

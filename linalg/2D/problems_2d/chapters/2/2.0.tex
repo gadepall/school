@@ -357,7 +357,25 @@ such that
 is
 \begin{align}
 \frac{\vec{n}_1^T\vec{x}-c_1}{\norm{\vec{n}_1}}=\pm\frac{\vec{n}_2^T\vec{x} -c_2}{\norm{\vec{n}_2}}\end{align}
-
+\item Find the equation of a line passing through the intersection of the lines
+\begin{align}
+\vec{n}_1^T\vec{x} &=c_1
+\\
+\vec{n}_2^T\vec{x} &=c_2
+\end{align}
+and passing through the point $\vec{p}$.
+\\
+\solution The intersection of the lines is 
+\begin{align}
+\vec{x} = \vec{N}^{-T}\vec{c}
+\end{align}
+%
+Thus, the equation of the desired line is 
+\begin{align}
+\vec{x} = \vec{p}+ \lambda\brak{\vec{N}^{-T}\vec{c}-\vec{p}}&
+\\
+\implies \brak{\vec{c}-\vec{N}\vec{p}}^T\myvec{0 & -1 \\ 1 & 0}\vec{N}\vec{x} &= \brak{\vec{c}-\vec{N}\vec{p}}^T\vec{N}\vec{p}
+\end{align}
 \end{enumerate}
 %
 %
