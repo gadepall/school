@@ -251,9 +251,18 @@ If $\vec{x}_0$ is translated to the origin, the equation of the line $L$ becomes
 \vec{n}^T\vec{x} &=c-\vec{n}^T\vec{x}_0
 \end{align}
 From \eqref{eq:line_dist_orig}, \eqref{eq:line_dist_orig_pt} is obtained.
-\item {\em Pair of straight lines:} The equation
+\item Show that 
 \begin{align}
 ax^2+2bxy+cy^2+2dx+2ey+f=0
+\end{align}
+can be expressed as
+\begin{align}
+\vec{x}^T\myvec{a & b\\ b & c}\vec{x}+2\myvec{d & e}+f=0
+\end{align}
+
+\item {\em Pair of straight lines:} The equation
+\begin{align}
+\vec{x}^T\myvec{a & b\\ b & c}\vec{x}+2\myvec{d & e}+f=0
 \end{align}
 %
 represents a pair of straight lines if 
@@ -277,42 +286,79 @@ b & c
 \end{vmatrix}
 < 0
 \end{align}
+\item  In Fig. \ref{fig:ratio}, let
+\begin{equation}
+\frac{AB}{BC} = \frac{\norm{\vec{A}-\vec{B}}}{\norm{\vec{B}-\vec{C}}} = k.
+\label{eq:k}
+\end{equation}
+%
+Show that
+\begin{equation}
+\frac{\vec{A}+k\vec{C}}{k+1} = \vec{B}.
+\label{eq:ratio}
+\end{equation}
+%
+\solution
+%
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\columnwidth]{./figs/ratio.eps}
+\caption{}
+\label{fig:ratio}
+\end{figure}
+From \eqref{eq:nhomog}, 
+\begin{align}
+\begin{split}
+\vec{B} &= \vec{A} + \lambda_1 \vec{m}
+\\
+\vec{B} &= \vec{C} - \lambda_2 \vec{m}
+\end{split}
+\\
+\label{eq:rat_1}
+\implies \frac{\norm{\vec{A}-\vec{B}}}{\norm{\vec{B}-\vec{C}}} &= 
+\frac{\lambda_1}{\lambda_2} = k
+\\
+\text{and } \frac{\vec{B}- \vec{A}}{\lambda_1} &= \frac{\vec{C}- 
+\vec{B}}{\lambda_2} = \vec{m},
+\label{eq:rat_2}
+\end{align}
+%
+from \eqref{eq:k}. Using \eqref{eq:rat_1} and \eqref{eq:rat_2},
+\begin{align}
+\vec{A}- \vec{B} &=  k\brak{\vec{B}- \vec{C}}
+\end{align}
+%
+resulting in \eqref{eq:ratio}
+
+%
+\item If $\vec{A}$ and $\vec{B}$ are linearly independent,  
+\begin{equation}
+k_1\vec{A} + k_2\vec{B} = 0 \implies k_1=k_2=0
+\end{equation}
+\item Show that $\vec{D}$ lies inside $\triangle ABC$ iff
+\begin{align}
+\vec{D} = \vec{A} + \lambda_1\brak{\vec{B}-\vec{A}} + \lambda_2\brak{\vec{C}-\vec{A}}
+\end{align}
+such that
+\begin{align}
+0 \le \lambda_1 \le 1,
+0 \le \lambda_2 \le 1,
+0 \le \lambda_1+\lambda_2 \le 1,
+\end{align}
+\item Show that the equation of the angle bisectors of the lines
+\begin{align}
+\vec{n}_1^T\vec{x} &=c_1
+\\
+\vec{n}_2^T\vec{x} &=c_2
+\end{align}
+%
+is
+\begin{align}
+\frac{\vec{n}_1^T\vec{x}-c_1}{\norm{\vec{n}_1}}=\pm\frac{\vec{n}_2^T\vec{x} -c_2}{\norm{\vec{n}_2}}\end{align}
+
 \end{enumerate}
 %
-%\section{Orthogonality}
-%\begin{enumerate}[label=\thesection.\arabic*
-%,ref=\thesection.\theenumi]
-%\item See Fig. \ref{fig:orth}.  In $\triangle ABC, AB \perp BC$. Show that
-%\begin{equation}
-%\brak{\vec{A}-\vec{B}}^T\brak{\vec{B}-\vec{C}} = 0
-%\label{eq:orth}
-%\end{equation}
-%\begin{figure}
-%\centering
-%\includegraphics[width=\columnwidth]{./figs/orth.eps}
-%\caption{}
-%\label{fig:orth}
-%\end{figure}
-%%
-%\solution Using Baudhayana's theorem,
-%\begin{align}
-%\norm{\vec{A}-\vec{B}}^2 + \norm{\vec{B}-\vec{C}}^2 &= 
-%\norm{\vec{C}-\vec{A}}^2
-%\\
-%\implies 
-%\brak{\vec{A}-\vec{B}}^T\brak{\vec{A}-\vec{B}} 
-%&+ 
-%\brak{\vec{B}-\vec{C}}^T\brak{\vec{B}-\vec{C}} 
-%\nonumber \\
-%&= 
-%\brak{\vec{C}-\vec{A}}^T \brak{\vec{C}-\vec{A}}
-%\nonumber \\
-%\implies 
-%2\vec{A}^T\vec{B} - 2\vec{B}^T\vec{B}&+2\vec{B}^T\vec{C}-2\vec{A}^T\vec{C}
-%=0
-%\end{align}
-%which can be simplified to obtain \eqref{eq:orth}.
-%%
+%
 %\item Let $\vec{x}$ be any point on $AB$ in Fi.g \ref{fig:orth}.  Show that
 %\begin{equation}
 %\brak{\vec{x}-\vec{A}}^T\brak{\vec{B}-\vec{C}} = 0
@@ -363,150 +409,3 @@ b & c
 %which completes the proof.
 %\end{enumerate}
 %
-%\section{Medians of a triangle}
-%\begin{enumerate}[label=\thesection.\arabic*
-%,ref=\thesection.\theenumi]
-%\item In Fig. \ref{fig:ratio},
-%\begin{equation}
-%\frac{AB}{BC} = \frac{\norm{\vec{A}-\vec{B}}}{\norm{\vec{B}-\vec{C}}} = k.
-%\label{eq:k}
-%\end{equation}
-%%
-%Show that
-%%
-%\begin{equation}
-%\frac{\vec{A}+k\vec{C}}{k+1} = \vec{B}.
-%\label{eq:ratio}
-%\end{equation}
-%%
-%\begin{figure}[!hb]
-%\centering
-%\includegraphics[width=\columnwidth]{./figs/ratio.eps}
-%\caption{}
-%\label{fig:ratio}
-%\end{figure}
-%\solution From \eqref{eq:nhomog}, 
-%\begin{align}
-%\begin{split}
-%\vec{B} &= \vec{A} + \lambda_1 \myvec{1 \\ m},
-%\\
-%\vec{B} &= \vec{C} - \lambda_2 \myvec{1 \\ m}.
-%\end{split}
-%\\
-%\label{eq:rat_1}
-%\implies \frac{\norm{\vec{A}-\vec{B}}}{\norm{\vec{B}-\vec{C}}} &= 
-%\frac{\lambda_1}{\lambda_2} = k
-%\\
-%\text{and } \frac{\vec{B}- \vec{A}}{\lambda_1} &= \frac{\vec{C}- 
-%\vec{B}}{\lambda_2} =  \myvec{1 \\ m},
-%\label{eq:rat_2}
-%\end{align}
-%%
-%from \eqref{eq:k}. Using \eqref{eq:rat_1} and \eqref{eq:rat_1},
-%\begin{align}
-%\vec{A}- \vec{B} &=  k\brak{\vec{B}- \vec{C}}
-%\end{align}
-%%
-%resulting in \eqref{eq:ratio}.
-%%
-%\item If $\vec{A}$ and $\vec{B}$ are linearly independent,  
-%\begin{equation}
-%k_1\vec{A} + k_2\vec{B} = 0 \implies k_1=k_2=0
-%\end{equation}
-%\item $BE$ and $CF$ are medians of $\triangle ABC$ intersecting at $O$ as shown in Fig. \ref{fig:median}. 
-%Show that
-%\begin{equation}
-%\frac{CO}{OF} = \frac{BO}{OE} = 2
-%\end{equation}
-%%
-%\begin{figure}[!hb]
-%\centering
-%\includegraphics[width=\columnwidth]{./figs/median.eps}
-%\caption{}
-%\label{fig:median}
-%\end{figure}
-%\solution Let
-%\begin{align}
-%\frac{CO}{OF} &= k_1
-%\\
-%\frac{BO}{OE} &= k_2
-%\end{align}
-%%
-%Using  \eqref{eq:ratio},
-%\begin{align}
-%\vec{E}&= \frac{\vec{A} + \vec{C}}{2}
-%\\
-%\vec{F}&= \frac{\vec{A} + \vec{B}}{2}
-%\end{align}
-%%
-%and
-%\begin{align}
-%\label{eq:o1}
-%\vec{O}&= \frac{k_1\vec{F} + \vec{C}}{k_1+1} = \frac{k_1\frac{\vec{A} + \vec{B}}{2} + \vec{C}}{k_1+1}
-%\\
-%\vec{O}&= \frac{k_2\vec{E} + \vec{B}}{k_2+1} = \frac{k_2\frac{\vec{A} + \vec{C}}{2} + \vec{B}}{k_2+1}
-%\label{eq:o2}
-%\end{align}
-%%
-%From \eqref{eq:o1} and \eqref{eq:o2},
-%\begin{align}
-% \frac{k_1\frac{\vec{A} + \vec{B}}{2} + \vec{C}}{k_1+1} &= 
-% \frac{k_2\frac{\vec{A} + \vec{C}}{2} + \vec{B}}{k_2+1}
-%\end{align}
-%\begin{multline}
-%\label{eq:lin_comb}
-%\implies \sbrak{\frac{k_1\brak{k_2+1}}{2}
-%-\frac{k_2\brak{k_1+1}}{2}}\vec{A} 
-%\\
-%+ 
-%\sbrak{\frac{k_1\brak{k_2+1}}{2}-\brak{k_1+1}}\vec{B} 
-%\\
-%+ \sbrak{\brak{k_2+1}-\frac{k_2\brak{k_1+1}}{2}}\vec{C} 
-%= 0
-%\end{multline}
-%resulting in $k_1 = k_2$,
-%\begin{align}
-%k_1^2-k_1-2  &= 0
-%\implies k_1 = k_2 = 2,
-%\end{align}
-%provided $\vec{A},\vec{B},\vec{C}$ are linearly independent. Thus, substituting $k_1=2$ in \eqref{eq:o2},
-%\begin{equation}
-%\vec{O} = \frac{\vec{A}+\vec{B}+\vec{C}}{3}
-%\end{equation}
-%%
-%If $\vec{A},\vec{B},\vec{C}$ are linearly dependent,
-%\begin{align}
-%\label{eq:lin_dep}
-%\vec{A} = \alpha \vec{B} + \beta \vec{C} 
-%\end{align}
-%%
-%Note that $\vec{B},\vec{C}$ are linearly independent.
-%Substituting \eqref{eq:lin_dep} in \eqref{eq:lin_comb},
-%\begin{multline}
-%%\label{eq:lin_comb}
-% \sbrak{\frac{k_1\brak{k_2+1}}{2}
-%-\frac{k_2\brak{k_1+1}}{2}}\sbrak{\alpha \vec{B} + \beta \vec{C}  }
-%\\
-%+ 
-%\sbrak{\frac{k_1\brak{k_2+1}}{2}-\brak{k_1+1}}\vec{B} 
-%\\
-%+ \sbrak{\brak{k_2+1}-\frac{k_2\brak{k_1+1}}{2}}\vec{C} 
-%= 0
-%\end{multline}
-%\begin{align}
-%\implies
-%\begin{split}
-%\brak{k_1-k_2}\alpha + k_1k_2 - k_1-2 &=0
-%\\
-%\brak{k_1-k_2}\beta - k_1k_2 + k_2+2 &=0
-%\end{split}
-%\label{eq:median_contra}
-%\\
-%\implies \brak{k_1-k_2}\brak{\alpha +\beta - 1} = 0
-%\end{align}
-%If $\alpha+\beta = 1, \vec{A},\vec{B},\vec{C}$ are collinear according to \eqref{eq:ratio} resulting in a 
-%contradiction.  Hence, $k_1=k_2$, which, upon substitution in \eqref{eq:median_contra}, yields
-%\begin{equation}
-%k_1^2 - k_1-2 = 0 \implies k_1 = 2.
-%\end{equation}
-%\end{enumerate}

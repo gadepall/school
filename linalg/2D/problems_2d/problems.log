@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  7 OCT 2019 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  8 OCT 2019 09:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1303,24 +1303,24 @@ File: utxsyc.fd 2000/12/15 v3.1
 \tf@toc=\write4
 \openout4 = `problems.toc'.
 
- (./chapters/1/1.0.tex) (./chapters/1/1.1.tex [1
+ (./chapters/1/1.0.tex
+File: ./figs/orth.eps Graphic file (type eps)
+ <./figs/orth.eps>) (./chapters/1/1.1.tex
+[1
 
 
-])
-(./chapters/1/1.2.tex) (./chapters/2/2.0.tex
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./chapters/1/1.2.tex [2]) (./chapters/2/2.0.tex
 File: ./figs/line_homog.eps Graphic file (type eps)
- <./figs/line_homog.eps> [2]
+ <./figs/line_homog.eps>
 File: ./figs/line_nhomog.eps Graphic file (type eps)
 
 <./figs/line_nhomog.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: ./figs/ab.eps Graphic file (type eps)
-
-<./figs/ab.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
+ <./figs/ab.eps> [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./figs/line_dist.eps Graphic file (type eps)
@@ -1328,43 +1328,79 @@ File: ./figs/line_dist.eps Graphic file (type eps)
 <./figs/line_dist.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4])
-(./chapters/2/2.1.tex) (./chapters/2/2.2.tex
+ [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+File: ./figs/ratio.eps Graphic file (type eps)
+
+<./figs/ratio.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
+\OT1/txr/m/n/12 from []. Us-ing [] and
+ []
+
+[5]) (./chapters/2/2.1.tex) (./chapters/2/2.2.tex
 Underfull \hbox (badness 3679) in paragraph at lines 29--30
 []\OT1/txr/m/n/12 Find the equa-tion of a line par-al-lel to
  []
 
-) (./chapters/2/2.3.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6])
-(./chapters/2/2.4.tex
+(./chapters/2/2.3.tex) (./chapters/2/2.4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7])
-(./chapters/2/2.5.tex
+ [7]
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./chapters/2/2.6.tex [8]
+ [8]
+File: ./figs/median.eps Graphic file (type eps)
+
+<./figs/median.eps>
+Underfull \hbox (badness 2277) in paragraph at lines 154--156
+\OT1/txr/m/n/12 provided $\OT1/txr/bx/n/12 A\OML/txmi/m/it/12 ; \OT1/txr/bx/n/1
+2 B\OML/txmi/m/it/12 ; \OT1/txr/bx/n/12 C$ \OT1/txr/m/n/12 are lin-early in-de-
+pen-dent.
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [9]
-(./problems.aux)
+ [9]
+File: ./figs/alt.eps Graphic file (type eps)
+
+<./figs/alt.eps>) (./chapters/2/2.5.tex
+Underfull \vbox (badness 3713) has occurred while \output is active []
+
+
+Overfull \hbox (9.85712pt too wide) in paragraph at lines 26--32
+[]$\OT1/txr/bx/n/12 x[] [] x \OT1/txr/m/n/12 =
+ []
+
+) (./chapters/2/2.6.tex [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11])
+[12
+
+] (./problems.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27596 strings out of 492624
- 622093 string characters out of 6119217
- 1004964 words of memory out of 5000000
- 30938 multiletter control sequences out of 15000+600000
- 64380 words of font info for 156 fonts, out of 8000000 for 9000
+ 27581 strings out of 492624
+ 621902 string characters out of 6119217
+ 1005964 words of memory out of 5000000
+ 30922 multiletter control sequences out of 15000+600000
+ 51706 words of font info for 114 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,18n,69p,500b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,69p,500b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on problems.dvi (9 pages, 64324 bytes).
+Output written on problems.dvi (12 pages, 77700 bytes).

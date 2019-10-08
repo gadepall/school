@@ -3,28 +3,36 @@
 \item What lines are represented by the following equations:
 \begin{multicols}{2}
 \begin{enumerate}
-{\footnotesize
+%{\footnotesize
 \item 
 $
-xy=0
-$
-\item 
-$
-x^2-y^2 = 0
-$
-\item 
-$
-6x^2+xy-y^2 = 0
+\vec{x}^T
+\myvec{0 & 1\\1 & 0}
+\vec{x} = 0
 $
 \item 
 $
-y^2 -2xy\tan\theta - x^2 = 0
+\vec{x}^T
+\myvec{1 & 0\\0 & -1}
+\vec{x} = 0
+$
+\item 
+$
+\vec{x}^T
+\myvec{6 & \frac{1}{2}\\\frac{1}{2} & -1}
+\vec{x} = 0
+$
+\item 
+$
+\vec{x}^T
+\myvec{-1 & -\tan\theta\\\-\tan\theta & 1}
+\vec{x} = 0
 $
 \item 
 $
 x^3+3x^2y-3xy^2-y^3 = 0
 $
-}
+%}
 \end{enumerate}
 \end{multicols}
 \item Find the angles between the pairs of straight lines represented by the following equations:
@@ -32,29 +40,43 @@ $
 \begin{enumerate}
 \item
 $
-x^2-4xy+y^2 = 0
+\vec{x}^T
+\myvec{1 & -2\\\-2 & 1}
+\vec{x} = 0
 $
 \item
 $
-x^2-y^2 = 0
+\vec{x}^T
+\myvec{1 & 0\\0 & -1}
+\vec{x} = 0
 $
 \item
 $
-x^2-5xy+4y^2 = 0
+\vec{x}^T
+\myvec{1 & -\frac{5}{2}\\-\frac{5}{2} & 4}
+\vec{x} = 0
 $
 \item
 $
-x\brak{x+4y} = 0
+\vec{x}^T
+\myvec{1 & 2\\2 & 0}
+\vec{x} = 0
 $
 \item
 $
-x^2+xy-6y^2 = 0
+\vec{x}^T
+\myvec{1 & \frac{1}{2}\\ \frac{1}{2} & -6}
+\vec{x} = 0
 $
 \end{enumerate}
 \end{multicols}
 \item Prove that the equations
-\begin{align*}
-x^2-4xy+y^2 = 0 \text{ and } x+y = 3
-\end{align*}
+\begin{align}
+\vec{x}^T
+\myvec{1 & -2\\-2 & 1}
+\vec{x} = 0
+\\
+\myvec{1 & 1}\vec{x} = 3
+\end{align}
 are the sides of an equilateral triangle.
 \end{enumerate}
