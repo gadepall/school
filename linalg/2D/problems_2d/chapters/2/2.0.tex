@@ -339,13 +339,13 @@ k_1\vec{A} + k_2\vec{B} = 0 \implies k_1=k_2=0
 \end{equation}
 \item Show that $\vec{D}$ lies inside $\triangle ABC$ iff
 \begin{align}
-\vec{D} = \vec{A} + \lambda_1\brak{\vec{B}-\vec{A}} + \lambda_2\brak{\vec{C}-\vec{A}}
+\vec{D} = \lambda_1\vec{A} + \lambda_2\vec{B} + \lambda_3\vec{C}
 \end{align}
 such that
 \begin{align}
-0 \le \lambda_1 \le 1,
-0 \le \lambda_2 \le 1,
-0 \le \lambda_1+\lambda_2 \le 1,
+0 \le \lambda_1, \lambda_2, \lambda_3 &\le 1,
+\\
+0 \le \lambda_1+\lambda_2+\lambda_3 &\le 1,
 \end{align}
 \item Show that the equation of the angle bisectors of the lines
 \begin{align}
@@ -357,25 +357,86 @@ such that
 is
 \begin{align}
 \frac{\vec{n}_1^T\vec{x}-c_1}{\norm{\vec{n}_1}}=\pm\frac{\vec{n}_2^T\vec{x} -c_2}{\norm{\vec{n}_2}}\end{align}
+%\item Show that if 
+%\begin{align}
+%\vec{m}_1 + k\vec{m}_2 \ne 0,
+%\end{align}
+%%
+%there exists $k$ such that for any point $\vec{m}$,
+%\begin{align}
+%\label{eq:line_basis}
+%\vec{m} = \vec{m}_1 + k\vec{m}_2 
+%\end{align}
 \item Find the equation of a line passing through the intersection of the lines
 \begin{align}
+\label{eq:line1}
 \vec{n}_1^T\vec{x} &=c_1
 \\
 \vec{n}_2^T\vec{x} &=c_2
+\label{eq:line2}
 \end{align}
 and passing through the point $\vec{p}$.
 \\
-\solution The intersection of the lines is 
+\solution 
+%Let the equation of any line through the intersection of \eqref{eq:line1} and \eqref{eq:line2} be 
+%\begin{align}
+%\vec{n}^T\vec{x} &=c
+%\label{eq:line12}
+%\end{align}
+%
+%If $\vec{u}$ be the point of intersection, 
+%\begin{align}
+%\myvec{\vec{n}_1^T\\ \vec{n}_2^T\\ \vec{n}^T}\vec{u} &= \myvec{c_1\\c_2\\c}
+%\\
+%\implies \myvec{\vec{n}_1^T & c_1\\ \vec{n}_2^T & c_2\\ \vec{n}^T & c}&
+%\label{eq:line12_mat}
+%\end{align}
+%has rank 2.  Thus, 
+%%
+%\begin{align}
+%\label{eq:line_basis_normal}
+%\myvec{\vec{n}\\c} &= k_1\myvec{\vec{n}_1 \\ c_1}+ k_2\myvec{\vec{n}_2\\c_2} 
+%\end{align}
+%Substituting in \eqref{eq:line12},
+%\begin{align}
+%\vec{n}^T\vec{x} = c &
+%\implies \vec{n}_1^T\vec{x} + k\vec{n}_2^T\vec{x} =  c_1+kc_2=c
+%\label{eq:line_basis_normal_temp}
+%\end{align}
+%%
+%Thus, 
+%\begin{align}
+%k = \frac{\vec{n}_1^T\vec{p}-c_1}{\vec{n}_2^T\vec{p}-c_2}
+%\end{align}
+%%
+%which can be used to obtain the desired equation using \eqref{eq:line_basis_normal_temp}
+%
+%Alternatively, 
+%
+%
+The intersection of the lines is 
 \begin{align}
 \vec{x} = \vec{N}^{-T}\vec{c}
 \end{align}
 %
+where 
+\begin{align}
+\vec{N} &= \myvec{\vec{n}_1 &\vec{n}_2}
+\\
+\vec{c} &= \myvec{c_1 \\ c_2} 
+\end{align}
 Thus, the equation of the desired line is 
 \begin{align}
 \vec{x} = \vec{p}+ \lambda\brak{\vec{N}^{-T}\vec{c}-\vec{p}}&
 \\
-\implies \brak{\vec{c}-\vec{N}\vec{p}}^T\myvec{0 & -1 \\ 1 & 0}\vec{N}\vec{x} &= \brak{\vec{c}-\vec{N}\vec{p}}^T\vec{N}\vec{p}
+\implies \vec{N}^{T}\vec{x} = \vec{N}^{T}\vec{p}+ \lambda\brak{\vec{c}-\vec{N}^{T}\vec{p}}&
 \end{align}
+resulting in 
+\begin{multline}
+ \brak{\vec{c}-\vec{N}^T\vec{p}}^T\myvec{0 & -1 \\ 1 & 0}\vec{N}^T\vec{x} 
+\\
+= \brak{\vec{c}-\vec{N}^T\vec{p}}^T\myvec{0 & -1 \\ 1 & 0}\vec{N}^T\vec{p}
+\end{multline}
 \end{enumerate}
 %
 %
