@@ -11,10 +11,10 @@ where $\vec{c}$ is the centre and $r$ is the radius.
 %
 \numberwithin{equation}{enumi}
 \begin{align}
-\label{eq:circ_quad}
 \norm{\vec{x}-\vec{c}}^2 = r^2&
 \\
 \implies \vec{x}^T\vec{x}-2\vec{c}^T\vec{x} + \vec{c}^T\vec{c}-r^2 = 0
+\label{eq:circ_quad}
 \end{align}
 \item The direction vector of {\em normal to the circle}  in \eqref{eq:circ_quad} at point $\vec{p}$ is
 \begin{align}
@@ -388,7 +388,61 @@ The pole of the line  in \eqref{eq:polar} is obtained as $\frac{1}{x_3}\myvec{x_
 \myvec{\vec{n}^T\\ - c}
 \end{align}
 \item $\vec{x}_1$ and $\vec{x}_2$ are said to be conjugate points for \eqref{eq:quad_form_polar} if $\vec{x}_2$ lies on the polar of $\vec{x}_1$ and vice-versa.  A similar definition holds for conjugate lines as well.
-
+\item Let $\vec{p}$ be a point of intersection of two circles with centres $\vec{c}_1$ and $\vec{c}_2$.  The circles are said to be orthogonal if their tangents at $\vec{p}$ are perpendicular to each other.  Show that if $r_1$ and $r_2$ are their respective radii, 
+\begin{align}
+\label{eq:circ_orth}
+\norm{\vec{c_1}-\vec{c}_2}^2 = r_1^2+r_2^2 
+\end{align}
+\item Show that the length of the tangent from a point $\vec{p}$ to the circle 
+\begin{align}
+\label{eq:circ_quad_len}
+\vec{x}^T\vec{x}-2\vec{c}^T\vec{x} + f = 0
+\end{align}
+%
+is 
+\begin{align}
+\label{eq:circ_tang_len}
+\vec{p}^T\vec{p}-2\vec{c}^T\vec{p} + f 
+\end{align}
+This length is also known as the {\em power} of the point $\vec{p}$ with respect to the circle.
+\item  The {\em radical axis} of the circles 
+\begin{align}
+\label{eq:circs_two}
+\vec{x}^T\vec{x}-2\vec{c}_1^T\vec{x} + f_1 = 0
+\\
+\vec{x}^T\vec{x}-2\vec{c}_2^T\vec{x} + f_2 = 0
+\end{align}
+%
+is the locus of the points from which lengths of the tangents to the circles are equal.  From \eqref{eq:circs_two}, this locus is
+\begin{align}
+\vec{x}^T\vec{x}-2\vec{c}_1^T\vec{x} + f_1 -
+%\nonumber \\
+\vec{x}^T\vec{x}-2\vec{c}_2^T\vec{x} + f_2 = 0
+\\
+\implies 2\brak{\vec{c}_1-\vec{c}_2}^T\vec{x} + f_2 - f_1 = 0
+\label{eq:circs_rad_axis}
+\end{align}
+\item Show that the radical axis of the circles is perpendicular to the line joining their centres.\item {\em Coaxal circles} have the same radical axis.
+\item Obtain a family of coaxal circles from \label{eq:circs_two} and find their {\em limit points}.
+\\
+\solution The family of circles is obtained as
+\begin{align}
+\label{eq:circs_coaxal_family}
+\vec{x}^T\vec{x}-2\brak{\vec{c}_1 +\lambda\vec{c}_2}^T\vec{x} + f_1 +\lambda f_2= 0
+\end{align}
+%
+The limit points are the centres of those circles whose radii are 0. From \eqref{eq:circs_coaxal_family} and \eqref{eq:circ_quad},
+this results in
+\begin{align}
+\label{eq:circs_coaxal_family}
+f_1 +\lambda f_2 =  \brak{\vec{c}_1 +\lambda\vec{c}_2}^T\brak{\vec{c}_1 +\lambda\vec{c}_2} &
+\\
+\implies \lambda^2 \norm{\vec{c}_2}^2 + \lambda \brak{2\vec{c}_1^T\vec{c}_2-f_2} + \norm{\vec{c}_1}^2-f_1 = 0&
+\end{align}
+Solving for $\lambda$, the limit points are given by  
+\begin{align}
+\vec{c}_1+\lambda\vec{c}_2
+\end{align}
 \end{enumerate}
 
 
