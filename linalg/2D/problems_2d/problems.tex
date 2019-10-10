@@ -32,10 +32,20 @@
 \usepackage{tikz}
 \usepackage{circuitikz}
 \usepackage{verbatim}
+\usepackage{hyperref}
 %\usepackage{stmaryrd}
 \usepackage{tkz-euclide} % loads  TikZ and tkz-base
 \usetkzobj{all}
 \usepackage{listings}
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+    \usepackage{lscape}     
 \usepackage{multicol}
 \usepackage{chngcntr}
 %\usepackage{enumerate}
@@ -54,6 +64,7 @@
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
+\def\inputGnumericTable{}                                 %%
 
 \lstset{
 language=tex,
@@ -300,8 +311,8 @@ Problems in Linear Algebra
 \input{./chapters/4/4.3.tex} 
 \subsection{Systems of Circles}
 \input{./chapters/4/4.4.tex} 
-%\subsection{Miscellaneous}
-%\input{./chapters/4/4.5.tex} 
+\subsection{Miscellaneous}
+\input{./chapters/4/4.5.tex} 
 %\section{Parabola}
 %\subsection{Tangent and Normal}
 %\input{./chapters/5/5.1.tex} 
