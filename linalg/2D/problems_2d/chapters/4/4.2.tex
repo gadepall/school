@@ -1,99 +1,157 @@
-\begin{enumerate}[1.]
-\item Without drawing a figure determine whether the points $\brak{-1,2}$, $\brak{0,0}$, $\brak{3,-4}$ lie outside, on the circumference, or inside the circle
-\begin{align*}
-x^2+y^2-5x+2y-5 = 0
-\end{align*}
-\item Find the points of intersection of the line $3x+2y=12$ and the circle $x^2+y^2=13$ and find for what values of $c$ the line $3x+2y=c$ touches the circle.
-\item Prove that the line $3x+2y=30$ touches the circle
-\begin{align*}
-x^2+y^2-10x-2y+13 = 0
-\end{align*}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\item Without drawing a figure, determine whether the points $\myvec{-1\\2}$, $\myvec{0\\0}$, $\myvec{3\\-4}$ lie outside, on the circumference, or inside the circle
+\begin{align}
+\vec{x}^T\vec{x}+\myvec{-5 & 2}\vec{x}-5 = 0
+\end{align}
+\numberwithin{equation}{enumi}
+\item Find the points of intersection of the line 
+\begin{align}
+\myvec{3 &2}\vec{x}=12
+\end{align}
+and the circle 
+\begin{align}
+\norm{\vec{x}}^2=13
+\end{align}
+ and find for what values of $c$ the line 
+\begin{align}
+\myvec{3 &2}\vec{x}=c
+\end{align}
+touches the circle.
+\item Prove that the line 
+\begin{align}
+\myvec{3 &2}\vec{x}=30
+\end{align}
+touches the circle
+\begin{align}
+\vec{x}^T\vec{x}-\myvec{10 & 2}\vec{x}+13 = 0
+\end{align}
 and find the coordinates of the point of contact.
-\item For what values of $m$ does the line $y=mx$ touch the circle
-\begin{align*}
-x^2+y^2-6x-2y+8 = 0
-\end{align*}
-\item Prove that the circle $\brak{x-a}^2+\brak{y-a}^2=a^2$ touches the coordinate axes.
-\item Show that two circles can be drawn to pass through the point $\brak{1,2}$ and touch the coordinate axes, and find their equations.
-\item Find the length of the tangent from the point $\brak{7,4}$ to the circle 
-\begin{align*}
-x^2+y^2-4x-6y+12 = 0
-\end{align*}
+\item For what values of $m$ does the line 
+\begin{align}
+\myvec{m &-1}\vec{x}=0
+\end{align}
+touch the circle
+\begin{align}
+\vec{x}^T\vec{x}-\myvec{6 & 2}\vec{x}+8 = 0
+\end{align}
+\renewcommand{\theequation}{\theenumi}
+\item Prove that the circle 
+\begin{align}
+\vec{x}^T\vec{x}-2a\myvec{1 & 1}\vec{x}+a^2 = 0
+\end{align}
+touches the coordinate axes.
+\item Show that two circles can be drawn to pass through the point $\myvec{1\\2}$ and touch the coordinate axes, and find their equations.
+\item Find the length of the tangent from the point $\myvec{7\\4}$ to the circle 
+\begin{align}
+\vec{x}^T\vec{x}-\myvec{4 & 6}\vec{x}+12 = 0
+\end{align}
+\numberwithin{equation}{enumi}
 \item  Find the equations of the tangents to the circle
-\begin{align*}
-x^2+y^2 -4x -3y+5 = 0
-\end{align*}
-that are parallel to the line $y+x=0$.
+\begin{align}
+\vec{x}^T\vec{x}-\myvec{4 & 3}\vec{x}+5 = 0
+\end{align}
+that are parallel to the line 
+\begin{align}
+\myvec{1 & 1}\vec{x}=0
+\end{align}
+\renewcommand{\theequation}{\theenumi}
 \item Find the equations of the tangents to the circle
-\begin{align*}
-x^2+y^2-7x-5y+18=0
-\end{align*}
-at the points $\brak{4,3}$ and $\brak{3,2}$, showing that they are parallel.
+\begin{align}
+\vec{x}^T\vec{x}-\myvec{7 & 5}\vec{x}+18 = 0
+\end{align}
+at the points $\myvec{4\\3}$ and $\myvec{3\\2}$, showing that they are parallel.
 \item Find the equations of the tangent and normal to the circle
-\begin{align*}
-x^2+y^2-6x+4y-12=0
-\end{align*}
-at the point $\brak{6,2}$.
-\item Prove that the line $x+y=1$ touches the circle
-\begin{align*}
-x^2+y^2-8x-6y+7 = 0
-\end{align*}
+\begin{align}
+\vec{x}^T\vec{x}+\myvec{-6 & 4}\vec{x}-12 = 0
+\end{align}
+at the point $\myvec{6\\2}$.
+\numberwithin{equation}{enumi}
+\item Prove that the line 
+\begin{align}
+\myvec{1 & 1}\vec{x} = 1
+\end{align}
+touches the circle
+\begin{align}
+\vec{x}^T\vec{x}-\myvec{8 & 6}\vec{x}+7 = 0
+\end{align}
 and find the equations of the parallel and perpendicular tangents.
+\renewcommand{\theequation}{\theenumi}
 \item Find the equation of the tangent at the origin to the circle
-\begin{align*}
-x^2+y^2+2gx+2fy=0
-\end{align*}
-\item Prove that the line $x\cos\alpha+y\sin\alpha = p$ touches the circle
-\begin{align*}
-\brak{x-a}^2+\brak{y-b}^2 = r^2
-\end{align*}
+\begin{align}
+\vec{x}^T\vec{x}+2\myvec{g & f}\vec{x} = 0
+\end{align}
+\numberwithin{equation}{enumi}
+%
+\item Prove that the line 
+\begin{align}
+\myvec{\cos\alpha &\sin\alpha}\vec{x} = p
+\end{align}
+touches the circle
+\begin{align}
+\norm{\vec{x}-\myvec{a\\b}}=r
+\end{align}
 if
-\begin{align*}
+\begin{align}
 r = \pm \brak{p-a\cos\alpha-b\sin\alpha}
-\end{align*}
+\end{align}
+\renewcommand{\theequation}{\theenumi}
 \item Find the points of contact of the tangents to the circle
-\begin{align*}
-x^2+y^2=25
-\end{align*}
-that pass through the point $\brak{7,1}$ and write down the equations of the tangents.
-\item Prove that the tangent to the circle $x^2+y^2=5$ at the point $\brak{1,-2}$ also touches the circle
-\begin{align*}
-x^2+y^2-8x+6y+20=0
-\end{align*}
+\begin{align}
+\norm{\vec{x}}=5
+\end{align}
+that pass through the point $\myvec{7\\1}$ and write down the equations of the tangents.
+\numberwithin{equation}{enumi}
+
+\item Prove that the tangent to the circle 
+\begin{align}
+\norm{\vec{x}}^2=5
+\end{align}
+at the point $\myvec{1\\-2}$ also touches the circle
+\begin{align}
+\vec{x}^T\vec{x}+\myvec{-8 & 6}\vec{x}+20 = 0
+\end{align}
 and find the coordinates of the point of contact.
 \item Find the equations of the circles that touch the lines
-\begin{align*}
-y=0, y=4, 2x+y = 2
-\end{align*}
+\begin{align}
+\myvec{0 & 1}\vec{x} &= 0
+\\
+\myvec{0 & 1}\vec{x} &= 4
+\\
+\myvec{2 & 1}\vec{x} &= 2
+\end{align}
 \item Find the coordinates of the middle point of the chord
-\begin{align*}
-x+7y=25
-\end{align*}
+\begin{align}
+\myvec{1 & 7}\vec{x} &= 25
+\end{align}
 of the circle
-\begin{align*}
-x^2+y^2=25
-\end{align*}
+\begin{align}
+\norm{\vec{x}}=5
+\end{align}
+\renewcommand{\theequation}{\theenumi}
 \item Find the equation of the chord of the circle
-\begin{align*}
-x^2+y^2-6x-4y-23 = 0
-\end{align*}
-which has the point $\brak{4,1}$ as its middle point.
+\begin{align}
+\vec{x}^T\vec{x}-\myvec{6 & 4}\vec{x}-23 = 0
+\end{align}
+which has the point $\myvec{4\\1}$ as its middle point.
 \item Prove that the circle
-\begin{align*}
-x^2+y^2-6x-4y+9 = 0
-\end{align*}
+\begin{align}
+\vec{x}^T\vec{x}-\myvec{6 & 4}\vec{x}+9 = 0
+\end{align}
 subtends an angle $\tan^{-1}\frac{12}{5}$ at the origin.
+\numberwithin{equation}{enumi}
 \item Find the condition that the line
-\begin{align*}
-lx+my+n = 0
-\end{align*}
+\begin{align}
+\myvec{l & m}\vec{x} + n &= 0
+\end{align}
 should touch the circle
-\begin{align*}
-\brak{x-a}^2+\brak{y-b}^2 = r^2
-\end{align*}
-\item Verify that the perpendicular bisector of the chord joining two points $\brak{x_1,y_1}$, $\brak{x_2,y_2}$ on the circle
-\begin{align*}
-x^2+y^2+2gx+2fy+c = 0
-\end{align*}
+\begin{align}
+\norm{\vec{x}-\myvec{a\\b}}=r
+\end{align}
+\renewcommand{\theequation}{\theenumi}
+\item Verify that the perpendicular bisector of the chord joining two points $\vec{x}_1, \vec{x}_2$ on the circle
+\begin{align}
+\vec{x}^T\vec{x}+2\myvec{g & f}\vec{x} + c = 0
+\end{align}
 passes through the centre.
 \end{enumerate}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  9 OCT 2019 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  10 OCT 2019 07:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,7 +1328,7 @@ File: ./figs/line_dist.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Underfull \vbox (badness 4967) has occurred while \output is active []
+Underfull \vbox (badness 4779) has occurred while \output is active []
 
 File: ./figs/ratio.eps Graphic file (type eps)
 
@@ -1343,8 +1343,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--329
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./chapters/2/2.1.tex) (./chapters/2/2.2.tex [6]
+File: ./figs/reflection.eps Graphic file (type eps)
+
+<./figs/reflection.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
+(./chapters/2/2.1.tex) (./chapters/2/2.2.tex
 Underfull \hbox (badness 3679) in paragraph at lines 29--30
 []\OT1/txr/m/n/12 Find the equa-tion of a line par-al-lel to
  []
@@ -1352,17 +1357,20 @@ Underfull \hbox (badness 3679) in paragraph at lines 29--30
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./chapters/2/2.3.tex [7]) (./chapters/2/2.4.tex
+ [7])
+(./chapters/2/2.3.tex) (./chapters/2/2.4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
 File: ./figs/median.eps Graphic file (type eps)
 
 <./figs/median.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 2277) in paragraph at lines 154--156
 \OT1/txr/m/n/12 provided $\OT1/txr/bx/n/12 A\OML/txmi/m/it/12 ; \OT1/txr/bx/n/1
 2 B\OML/txmi/m/it/12 ; \OT1/txr/bx/n/12 C$ \OT1/txr/m/n/12 are lin-early in-de-
@@ -1372,63 +1380,79 @@ pen-dent.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [10]
 File: ./figs/alt.eps Graphic file (type eps)
 
-<./figs/alt.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<./figs/alt.eps>) (./chapters/2/2.5.tex
+Underfull \vbox (badness 3713) has occurred while \output is active []
 
-)
-(./chapters/2/2.5.tex
+
 Overfull \hbox (9.85712pt too wide) in paragraph at lines 26--32
 []$\OT1/txr/bx/n/12 x[] [] x \OT1/txr/m/n/12 =
  []
 
-[10]) (./chapters/2/2.6.tex
+) (./chapters/2/2.6.tex [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./chapters/3/3.0.tex [12]) (./chapters/3/3.1.tex) (./chapters/3/3.2.tex)
-(./chapters/3/3.3.tex
-Underfull \vbox (badness 2662) has occurred while \output is active []
-
- [13]
+ [12])
+(./chapters/3/3.0.tex) (./chapters/3/3.1.tex [13]) (./chapters/3/3.2.tex)
+(./chapters/3/3.3.tex [14]) (./chapters/3/3.4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./chapters/3/3.4.tex [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
+ [15])
 (./chapters/4/4.0.tex (./figs/ccircle.tex)
-Underfull \vbox (badness 4899) has occurred while \output is active []
-
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
 \OT1/txr/m/n/12 Multiplying [] and [] with
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
 (./figs/ang_bisect.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
-(./chapters/4/4.1.tex) [17
 
-] (./problems.aux)
+(./figs/semi_circle.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+(./figs/tangent_secant.tex)
+Underfull \vbox (badness 3514) has occurred while \output is active []
+
+
+(./figs/chords.tex)
+Overfull \hbox (4.67291pt too wide) detected at line 328
+[]
+ []
+
+[18]
+Underfull \hbox (badness 5374) in paragraph at lines 348--351
+\OT1/txr/m/n/12 after sim-pli-fi-ca-tion. Us-ing this re-sult in
+ []
+
+) (./chapters/4/4.1.tex) (./chapters/4/4.2.tex [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20])
+(./chapters/4/4.3.tex) [21] (./problems.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27790 strings out of 492624
- 625524 string characters out of 6119217
- 1007964 words of memory out of 5000000
- 31101 multiletter control sequences out of 15000+600000
+ 27909 strings out of 492624
+ 627905 string characters out of 6119217
+ 1008963 words of memory out of 5000000
+ 31204 multiletter control sequences out of 15000+600000
  62106 words of font info for 147 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,18n,69p,500b,1012s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,69p,500b,1014s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on problems.dvi (17 pages, 126912 bytes).
+Output written on problems.dvi (21 pages, 169304 bytes).

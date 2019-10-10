@@ -437,6 +437,76 @@ resulting in
 \\
 = \brak{\vec{c}-\vec{N}^T\vec{p}}^T\myvec{0 & -1 \\ 1 & 0}\vec{N}^T\vec{p}
 \end{multline}
+\item Find $\vec{R}$, the {\em reflection}  of $\vec{P}$ about the line
+\begin{align}
+L: \quad \vec{n}^T\vec{x} = c
+\end{align}
+%
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/reflection.eps}
+\caption{}
+\label{fig:locus}
+\end{figure}
+\solution Since $\vec{R}$ is the reflection of $\vec{P}$ and $\vec{Q}$ lies on $L$, $\vec{Q}$ bisects $PR$.  
+This leads to the following equations
+Hence, 
+\begin{align}
+\label{eq:reflect_bisect}
+2\vec{Q} &= \vec{P}+\vec{R}
+\\
+\label{eq:reflect_Q}
+\vec{n}^{T}\vec{Q} &= c
+\\
+\label{eq:reflect_R}
+\vec{m}^{T}\vec{R} &= \vec{m}^{T}\vec{P}
+\end{align}
+%
+where $\vec{m}$ is the direction vector of $L$.  From \eqref{eq:reflect_bisect} and \eqref{eq:reflect_Q},
+\begin{align}
+\label{eq:reflect_bisectQ}
+\vec{n}^{T}\vec{R}  &= 2c - \vec{n}^{T}\vec{P}
+\end{align}
+%
+From \eqref{eq:reflect_bisectQ} and \eqref{eq:reflect_R},
+\begin{align}
+\label{eq:reflect_bisectQR}
+\myvec{\vec{m} & \vec{n}}^T\vec{R} &= \myvec{\vec{m} & -\vec{n}}^T\vec{P}+ \myvec{0 \\ 2c}
+\end{align}
+%
+Letting 
+\begin{align}
+\label{eq:reflect_mat}
+\vec{V}=  \myvec{\vec{m} & \vec{n}}
+\end{align}
+with the condition that $\vec{m},\vec{n}$ are orthonormal, i.e.
+\begin{align}
+\label{eq:reflect_ortho}
+\vec{V}^T\vec{V}=  \vec{I}
+\end{align}
+%
+Noting that 
+\begin{align}
+\label{eq:reflect_trans}
+\myvec{\vec{m} & -\vec{n}} &= \myvec{\vec{m} & \vec{n}} \myvec{1 & 0 \\ 0 & -1},
+\end{align}
+\eqref{eq:reflect_bisectQR} can be expressed as
+%
+\begin{align}
+\label{eq:reflect_}
+\vec{V}^T\vec{R} &=  \sbrak{\vec{V}\myvec{1 & 0 \\ 0 & -1}}^T\vec{P}+\myvec{0 \\ 2c}
+\\
+\implies \vec{R} &= \sbrak{\vec{V}\myvec{1 & 0 \\ 0 & -1}\vec{V}^{-1}}^T\vec{P}+ \vec{V}\myvec{0 \\ 2c}
+\\
+ &=\vec{V}\myvec{1 & 0 \\ 0 & -1}\vec{V}^T \vec{P}+2c \vec{n}
+\end{align}
+\item Show that, for any $\vec{m},\vec{n}$, the reflection is also given by
+\begin{align}
+\label{eq:reflect_bisect}
+\frac{\vec{R}}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{P} + c 
+\frac{\vec{n}}{\norm{\vec{n}}^2}
+\end{align}
+
 \end{enumerate}
 %
 %
