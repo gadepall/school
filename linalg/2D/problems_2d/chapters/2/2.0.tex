@@ -118,6 +118,7 @@ $\vec{A} - \vec{B}$ is marked in Fig. \ref{fig:ab}.
 \vec{n}^T\vec{x} &= \vec{n}^T\vec{A}+ \lambda\vec{n}^T\brak{\vec{B}-\vec{A}}
 \\
 \implies \vec{n}^T\vec{x} &=c
+\label{eq:line_normal}
 \end{align}
 \item The unit vectors on the $x$ and $y$ axis are defined as
 \begin{align}
@@ -133,7 +134,7 @@ $\vec{A} - \vec{B}$ is marked in Fig. \ref{fig:ab}.
 \end{align}
 on the $x-$axis, then $\myvec{a\\0}$  is a point on the line.  Thus, 
 \begin{align}
-\label{eq:line_intercept}
+%\label{eq:line_intercept}
 \vec{n}^T\myvec{a\\0} &=c
 \\
 \implies a &= \frac{c}{\vec{n}^T\vec{e}_1}
@@ -502,7 +503,7 @@ Noting that
 \end{align}
 \item Show that, for any $\vec{m},\vec{n}$, the reflection is also given by
 \begin{align}
-\label{eq:reflect_bisect}
+%\label{eq:reflect_bisect}
 \frac{\vec{R}}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{P} + c 
 \frac{\vec{n}}{\norm{\vec{n}}^2}
 \end{align}
