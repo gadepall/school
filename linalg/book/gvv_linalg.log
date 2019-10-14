@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  14 OCT 2019 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  14 OCT 2019 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,10 +1523,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./line/figs/triangle.eps Graphic file (type eps)
 
-<./line/figs/triangle.eps>) (./line/1.3.tex [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<./line/figs/triangle.eps>
 
+LaTeX Warning: Reference `eq:line_norm' on page 6 undefined on input line 129.
 
+[6]
+
+LaTeX Warning: Reference `fig:alt_triangle' on page 7 undefined on input line 1
+73.
+
+) (./line/1.3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
@@ -1536,26 +1542,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 762.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[9
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+
+[10
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 762.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./gvv_linalg.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 762.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 762.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `gvv_linalg.out' has not changed.
-(rerunfilecheck)             Checksum: B2E86E6151269C8B64ADCEE0C89EBF97;272.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 762.
- ) ) 
+(rerunfilecheck)             Checksum: B095B117EA53A6E3DEA81A4ADD7A19C3;273.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
+ ) 
 Here is how much of TeX's memory you used:
- 32681 strings out of 492624
- 697416 string characters out of 6119216
- 1104984 words of memory out of 5000000
- 35982 multiletter control sequences out of 15000+600000
+ 32695 strings out of 492624
+ 697607 string characters out of 6119216
+ 1143984 words of memory out of 5000000
+ 35996 multiletter control sequences out of 15000+600000
  51706 words of font info for 114 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,17n,69p,502b,2004s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg.dvi (9 pages, 104316 bytes).
+Output written on gvv_linalg.dvi (10 pages, 114740 bytes).
