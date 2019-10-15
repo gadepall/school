@@ -31,6 +31,8 @@ C = np.linalg.inv(N)@c_1
 #finding vertex B
 B = np.array([11,1]) - C
 
+#Saving vertices to file
+np.savetxt('./codes/vert.dat', (A,B,C))
 #Area of triangle ABC
 #tri_mat = np.vstack((np.hstack(((A,B,C)),np.ones(3,1)))
 tri_mat = np.vstack((A,B,C))
@@ -71,8 +73,8 @@ plt.legend(loc='best')
 plt.grid() # minor
 
 #if using termux
-plt.savefig('../figs/triangle.pdf')
-plt.savefig('../figs/triangle.eps')
-subprocess.run(shlex.split("termux-open ../figs/triangle.pdf"))
+plt.savefig('./line/figs/triangle.pdf')
+plt.savefig('./line/figs/triangle.eps')
+subprocess.run(shlex.split("termux-open ./line/figs/triangle.pdf"))
 #else
 #plt.show()

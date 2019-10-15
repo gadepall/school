@@ -27,6 +27,28 @@ def line_dir_pt(m,A,k1,k2):
     x_AB[:,i]= temp1.T
   return x_AB
 
+#Generate line points
+def line_gen(A,B):
+  len =10
+  x_AB = np.zeros((2,len))
+  lam_1 = np.linspace(0,1,len)
+  for i in range(len):
+    temp1 = A + lam_1[i]*(B-A)
+    x_AB[:,i]= temp1.T
+  return x_AB
+
+#Foot of the Altitude
+def alt_foot(A,B,C):
+  m = B-C
+  n = np.matmul(omat,m) 
+  N=np.vstack((m,n))
+  p = np.zeros(2)
+  p[0] = m@A 
+  p[1] = n@B
+  #Intersection
+  P=np.linalg.inv(N.T)@p
+  return P
+
 A = np.array([-2,-2]) 
 B = np.array([1,3]) 
 dvec = np.array([-1,1]) 
