@@ -34,7 +34,6 @@ B = np.array([11,1]) - C
 #Saving vertices to file
 np.savetxt('./codes/vert.dat', (A,B,C))
 #Area of triangle ABC
-#tri_mat = np.vstack((np.hstack(((A,B,C)),np.ones(3,1)))
 tri_mat = np.vstack((A,B,C))
 tri_mat = np.hstack(((tri_mat),np.ones((3,1))))
 #print(np.transpose(A.T))

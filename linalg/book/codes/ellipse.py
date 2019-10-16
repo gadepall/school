@@ -48,9 +48,9 @@ plt.legend(loc='best')
 plt.grid()
 
 #if using termux
-plt.savefig('../figs/ellipse.pdf')
-plt.savefig('../figs/ellipse.eps')
-subprocess.run(shlex.split("termux-open ../figs/ellipse.pdf"))
+plt.savefig('./conics/figs/ellipse.pdf')
+plt.savefig('./conics/figs/ellipse.eps')
+subprocess.run(shlex.split("termux-open ./conics/figs/ellipse.pdf"))
 #else
 
 #plt.show()

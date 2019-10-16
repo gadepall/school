@@ -117,7 +117,7 @@ $\vec{A} - \vec{B}$ is marked in Fig. \ref{fig:ab}.
 \label{eq:line_ab_normal}
 \vec{n}^T\vec{x} &= \vec{n}^T\vec{A}+ \lambda\vec{n}^T\brak{\vec{B}-\vec{A}}
 \\
-\implies \vec{n}^T\vec{x} &=c
+\implies \vec{n}^T\vec{x} &=\vec{n}^T\vec{A}=c
 \label{eq:line_normal}
 \end{align}
 \item The unit vectors on the $x$ and $y$ axis are defined as
@@ -216,6 +216,7 @@ p = \frac{c}{\norm{n}}
 \end{align}
 is given by 
 \begin{align}
+\label{eq:line_intersection}
 \vec{x} &=\brak{\vec{N}^T}^{-1}\vec{c}
 \end{align}
 where 
@@ -233,6 +234,7 @@ L: \quad \vec{n}^T\vec{x} &=c
 is 
 \begin{align}
 \frac{\abs{\vec{n}^T\vec{x}_0-c}}{\norm{\vec{n}}} 
+\label{eq:line_dist_pt}
 \end{align}
 \solution Let the equation of the line be 
 \begin{align}
@@ -348,16 +350,6 @@ such that
 \\
 0 \le \lambda_1+\lambda_2+\lambda_3 &\le 1,
 \end{align}
-\item Show that the equation of the angle bisectors of the lines
-\begin{align}
-\vec{n}_1^T\vec{x} &=c_1
-\\
-\vec{n}_2^T\vec{x} &=c_2
-\end{align}
-%
-is
-\begin{align}
-\frac{\vec{n}_1^T\vec{x}-c_1}{\norm{\vec{n}_1}}=\pm\frac{\vec{n}_2^T\vec{x} -c_2}{\norm{\vec{n}_2}}\end{align}
 %\item Show that if 
 %\begin{align}
 %\vec{m}_1 + k\vec{m}_2 \ne 0,
@@ -368,6 +360,38 @@ is
 %\label{eq:line_basis}
 %\vec{m} = \vec{m}_1 + k\vec{m}_2 
 %\end{align}
+\item
+In $\Delta ABC$,  Let $\vec{P}$ be a point on $BC$ such that $AP \perp BC$.  Then $AP$ is defined to be 
+an {\em altitude} of $\Delta ABC$.
+
+\item
+\label{prob:alt_eq}
+Find the intersection of $AP$ and $BQ$.
+\\
+\solution The normal vector of $AP$ is $\vec{B} - \vec{C}$. From \label{eq:normal}
+and \label{eq:line_normal},
+%\eqref{eq:line_norm}
+ the equation of $AP$ and $BQ$ are
+\begin{align}
+\label{eq:alt_ap}
+\brak{\vec{B} - \vec{C}}^T\brak{\vec{x} - \vec{A}}&= 0
+\\
+\label{eq:alt_bq}
+\brak{\vec{C} - \vec{A}}^T\brak{\vec{x} - \vec{B}}&= 0
+%\\
+%\implies \myvec{-3&4}\vec{x} = -\myvec{-3&4}\myvec{2\\2} &= -2
+\end{align}
+which can be solved to obtain the intersection point using \eqref{eq:line_intersection}.
+\item Show that the equation of the angle bisectors of the lines
+\begin{align}
+\vec{n}_1^T\vec{x} &=c_1
+\\
+\vec{n}_2^T\vec{x} &=c_2
+\end{align}
+%
+is
+\begin{align}
+\frac{\vec{n}_1^T\vec{x}-c_1}{\norm{\vec{n}_1}}=\pm\frac{\vec{n}_2^T\vec{x} -c_2}{\norm{\vec{n}_2}}\end{align}
 \item Find the equation of a line passing through the intersection of the lines
 \begin{align}
 \label{eq:line1}

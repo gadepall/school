@@ -74,8 +74,8 @@ ax.plot()
 plt.xlabel('$x$');plt.ylabel('$y$')
 plt.legend(loc='best');plt.grid()
 #if using termux
-plt.savefig('../figs/circle.pdf')
-plt.savefig('../figs/circle.eps')
-subprocess.run(shlex.split("termux-open ../figs/circle.pdf"))
+plt.savefig('./circle/figs/circle.pdf')
+plt.savefig('./circle/figs/circle.eps')
+subprocess.run(shlex.split("termux-open ./circle/figs/circle.pdf"))
 #else
 #plt.show()

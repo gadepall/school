@@ -49,14 +49,38 @@ def alt_foot(A,B,C):
   P=np.linalg.inv(N.T)@p
   return P
 
-A = np.array([-2,-2]) 
-B = np.array([1,3]) 
+#Radius and centre of the circumcircle
+#of triangle ABC
+def ccircle(A,B,C):
+  p = np.zeros(2)
+  n1 = dir_vec(B,A)
+  p[0] = 0.5*(np.linalg.norm(A)**2-np.linalg.norm(B)**2)
+  n2 = dir_vec(C,B)
+  p[1] = 0.5*(np.linalg.norm(B)**2-np.linalg.norm(C)**2)
+  #Intersection
+  N=np.vstack((n1,n2))
+  O=np.linalg.inv(N)@p
+  r = np.linalg.norm(A -O)
+  return O,r
+
+#Radius and centre of the incircle
+#of triangle ABC
+def icentre(A,B,C,k1,k2):
+  p = np.zeros(2)
+  t = norm_vec(B,C)
+  n1 = t/np.linalg.norm(t)
+  t = norm_vec(C,A)
+  n2 = t/np.linalg.norm(t)
+  t = norm_vec(A,B)
+  n3 = t/np.linalg.norm(t)
+  p[0] = n1@B- k1*n2@C
+  p[1] = n2@C- k2*n3@A
+  N=np.vstack((n1-k1*n2,n2-k2*n3))
+  I=np.matmul(np.linalg.inv(N),p)
+  r = n1@(I-B)
+  #Intersection
+  return I,r
+
 dvec = np.array([-1,1]) 
+#Orthogonal matrix
 omat = np.array([[0,1],[-1,0]]) 
-#AB =np.vstack((A,B)).T
-
-#print (dir_vec(A,B))
-#print (norm_vec(A,B))
-
-
-

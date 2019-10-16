@@ -82,8 +82,8 @@ ax.plot()
 plt.xlabel('$x$');plt.ylabel('$y$')
 plt.legend(loc='best');plt.grid()
 #if using termux
-plt.savefig('../figs/parab.pdf')
-plt.savefig('../figs/parab.eps')
-subprocess.run(shlex.split("termux-open ../figs/parab.pdf"))
+plt.savefig('./conics/figs/parab.pdf')
+plt.savefig('./conics/figs/parab.eps')
+subprocess.run(shlex.split("termux-open ./conics/figs/parab.pdf"))
 #else
 #plt.show()
