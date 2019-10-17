@@ -1,0 +1,49 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Find the equation of the plane $P$
+containing the vectors 
+%
+\begin{align}
+\label{eq:least_vecs}
+\vec{x}_1 = \myvec{1 \\ 1 \\ 1}
+,
+\vec{x}_2 = \myvec{0 \\ 1 \\ 2}
+\end{align}
+%
+\item Show that the vector 
+\begin{align}
+\vec{y} = \myvec{6 \\ 0 \\ 0}
+\end{align}
+lies outside $P$.
+\item Find the point $\vec{w} \in P$ closest to $\vec{y}$.
+\item Show that
+\begin{align}
+\norm{\vec{y}-\vec{X}\vec{w}}^2 &= \norm{\vec{y}}^2 - \vec{w}^T\vec{X}^T\vec{y} 
+\\
+& \quad - \vec{y}^TA\vec{w}+\vec{w}^T\vec{X}^T\vec{X}\vec{w}
+\end{align}
+%
+\item Assuming $2\times 2$ matrices and $2 \times 1$ vectors, show that
+\begin{align}
+\frac{\partial}{\partial\vec{w}}\vec{w}^T\vec{X}^T\vec{y} = \frac{\partial}{\partial\vec{w}}\vec{y}^T\vec{X}\vec{w} = 
+\vec{y}^T\vec{X}
+\end{align}
+\item Show that
+\begin{align}
+\frac{\partial}{\partial\vec{w}}\vec{w}^T\vec{X}^T\vec{X}\vec{w} = 2\vec{w}^T\brak{\vec{X}^T\vec{X}}
+\end{align}
+\item Show that 
+\begin{align}
+\hat{\vec{w}} &= \min_{\vec{w}}\norm{\vec{y}-\vec{X}\vec{w}}^2
+\\
+ &= \brak{\vec{X}^T\vec{X}}^{-1}\vec{X}^T \vec{y}
+\label{eq:least_sol}
+\end{align}
+\item Let 
+\begin{align}
+\vec{X} = \myvec{\vec{x}_1 & \vec{x}_2}.
+\end{align}
+from \eqref{eq:least_vecs}.
+Verify \eqref{eq:least_sol}.
+\end{enumerate}
