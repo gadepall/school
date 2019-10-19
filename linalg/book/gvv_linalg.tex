@@ -33,7 +33,7 @@
 \usepackage{tikz}
 \usepackage{circuitikz}
 \usepackage{verbatim}
-\usepackage{hyperref}
+\usepackage[breaklinks=true]{hyperref}
 %\usepackage{stmaryrd}
 \usepackage{tkz-euclide} % loads  TikZ and tkz-base
 \usetkzobj{all}
@@ -275,9 +275,12 @@ Linear Algebra through Coordinate Geometry
 %\IEEEpeerreviewmaketitle
 
 \begin{abstract}
-This book provides a computational approach to linear algebra and matrices by solving problems in 2D and 3D coordinate geometry from IIT-JEE. An introduction to convex optimization is also provided in the process.  Links to sample Python codes are available in the text.  The book provides sufficient math basics for Machine Learning and is also recommended for high school students who wish to explore Artificial Intelligence.  
+This book provides a computational approach to linear algebra and matrices by solving problems in 2D and 3D coordinate geometry from IIT-JEE. An introduction to convex optimization is also provided in the process.  Links to sample Python codes are available in the text.  The book provides sufficient math basics for Machine Learning and is also recommended for high school students who wish to explore topics in Artificial Intelligence.  
 \end{abstract}
-
+Download python codes using 
+\begin{lstlisting}
+svn co https://github.com/gadepall/school/trunk/linalg/book/codes
+\end{lstlisting}
 \section{The Straight Line}
 \subsection{Point}
 \input{./line/1.0.tex}

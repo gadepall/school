@@ -32,7 +32,7 @@ The following code plots Fig. \ref{fig.2.1}
 
 %	
 \begin{lstlisting}
-wget https://raw.githubusercontent.com/gadepall/school/master/book/optimization/codes/2.1.py
+codes/optimization/2.1.py
 \end{lstlisting}
 
 %
@@ -82,12 +82,12 @@ where
 is the direction vector of the normal at $\vec{x}$.
 \item From Fig. \ref{fig.2.1}, show that 
 \begin{align}
-\label{eq:normal}
+\label{eq:opt_normal}
 \nabla f(\vec{p}) = \lambda \nabla g(\vec{p}),
 \end{align}
 %
 where $\vec{p}$ is the point of contact.
-\item Use \eqref{eq:normal} and $\vec{g(p)}=0$ from \eqref{eq2_1_line} to obtain $\vec{p}$.
+\item Use \eqref{eq:opt_normal} and $\vec{g(p)}=0$ from \eqref{eq2_1_line} to obtain $\vec{p}$.
 \item
 \label{lagrange}
 	Define 
@@ -154,6 +154,6 @@ What is the sign of $\lambda$?  $L$ is known as the Lagrangian and the above tec
 %using the following python script.  Note that this method yields the same result as the previous exercises.  Thus, $\lambda$ is negative.
 %	
 \begin{lstlisting}
-wget https://raw.githubusercontent.com/gadepall/school/master/book/optimization/codes/2.3.py
+codes/optimization/2.3.py
 \end{lstlisting}
 \end{enumerate}
