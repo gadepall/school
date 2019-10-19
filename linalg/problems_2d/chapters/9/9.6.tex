@@ -1,4 +1,6 @@
-\begin{enumerate}[1.]
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
 \item Prove that, if a variable line moves with its ends on the coordinate axes so as
 to enclose with them a constant area, then the locus of the middle point of the line
 is a rectangular hyperbola.

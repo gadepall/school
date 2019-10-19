@@ -1,4 +1,6 @@
-\begin{enumerate}[1.]
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
 \item Find the equations of the tangents to the curves $y=x^3-x$ and $x^2-3x+2$ at their point of intersection, and the angle at which the
 curves cut.
 \item Prove that the line $3y=9x-16$ is a tangent to the curve $3y=x^3-3x$, and find the coordinates of the 

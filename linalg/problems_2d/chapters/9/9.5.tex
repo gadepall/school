@@ -1,4 +1,6 @@
-\begin{enumerate}[1.]
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
 \item An ellipse has its foci at the points $\brak{2,0}$, $\brak{-2,0}$
 and passes through the point $\brak{2,3}$.  Find its equation.
 \item Prove that the line $x+2y=8$ touches the ellipse $3x^2+4y^2=48$,
