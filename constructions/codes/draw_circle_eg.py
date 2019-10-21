@@ -3,21 +3,11 @@
 #released under GNU GPL
 import numpy as np
 import matplotlib.pyplot as plt
-
+from coeffs import *
 #if using termux
 import subprocess
 import shlex
 #end if
-
-#Generate line points
-def line_gen(A,B):
-  len =10
-  x_AB = np.zeros((2,len))
-  lam_1 = np.linspace(0,1,len)
-  for i in range(len):
-    temp1 = A + lam_1[i]*(B-A)
-    x_AB[:,i]= temp1.T
-  return x_AB
 
 
 #Triangle sides

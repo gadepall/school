@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  21 OCT 2019 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  21 OCT 2019 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1299,33 +1299,43 @@ File: tlc.eps Graphic file (type eps)
 \tf@toc=\write6
 \openout6 = `gvv_const.toc'.
 
+File: ./figs/section.eps Graphic file (type eps)
+ <./figs/section.eps>
+File: ./figs/rt_triangle.eps Graphic file (type eps)
+ <./figs/rt_triangle.eps>
+Underfull \vbox (badness 2443) has occurred while \output is active []
 
-Underfull \hbox (badness 1748) in paragraph at lines 673--679
+ [1
+
+
+]
+File: ./figs/triangle.eps Graphic file (type eps)
+
+<./figs/triangle.eps>
+Underfull \hbox (badness 1748) in paragraph at lines 415--421
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 From the given in-for-ma-tion, in
  []
 
-[1
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 744.
- [2
+File: ./figs/circle.eps Graphic file (type eps)
+<./figs/circle.eps> [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 496.
+ [3
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 744.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 496.
  (./gvv_const.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 744.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 744.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 496.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 496.
 Package rerunfilecheck Info: File `gvv_const.out' has not changed.
 (rerunfilecheck)             Checksum: 188B4BCF4E1C95D7150F55D2B931B811;84.
  ) 
 Here is how much of TeX's memory you used:
- 24219 strings out of 492624
- 477935 string characters out of 6119216
- 580856 words of memory out of 5000000
- 27689 multiletter control sequences out of 15000+600000
+ 24496 strings out of 492624
+ 480258 string characters out of 6119216
+ 590856 words of memory out of 5000000
+ 27964 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 54i,14n,67p,795b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,14n,67p,795b,1155s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_const.dvi (2 pages, 19112 bytes).
+Output written on gvv_const.dvi (3 pages, 28884 bytes).
