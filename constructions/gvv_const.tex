@@ -249,396 +249,353 @@ GPL.  Free and open source.}
 \begin{abstract}
 This manual shows how to construct geometric figures using Python. Exercises are based on  NCERT math textbooks of Class 9 and 10.
 \end{abstract}
-\section{Right Triangle}
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
-%
-%\item Draw the rectangle $ABCD$ where $AB = c=6, BC = a= 8$.
-%\\
-\item Draw $\triangle ABC$  right angled at $\vec{B}$ such that $AB = c =6, BC = a =8$.
-\\
-\solution The coordinates are
-\begin{align}
-\label{eq:rt_triang}
-\vec{A}=\myvec{0 \\ c}
-,
-\vec{B}=\myvec{0 \\ 0}
-,
-\vec{C}=\myvec{a \\ 0}
-\end{align}
-\item Let $\vec{D}, \vec{E}, \vec{F}$ be the mid points of $BC,CA$ and $AB$ respectively in $\triangle ABC$. Draw $AD,BE$ and $CF$.
-\\
-\solution 
-\begin{align}
-\label{eq:rt_triang_mid}
-\vec{D} = \frac{\vec{B}+\vec{C}}{2} = \frac{1}{2}\myvec{a \\ 0}
-\\
-\vec{E} = \frac{\vec{C}+\vec{A}}{2} = \frac{1}{2}\myvec{a \\ c}
-\\
-\vec{F} = \frac{\vec{A}+\vec{B}}{2} = \frac{1}{2}\myvec{0 \\ c}
-\end{align}
-\item  Draw $AD, BE$ and $CF$.
-\item Draw $\triangle DEF$ in the previous problem.
-
-\end{enumerate}
-\section{Cirumcircle of Right Triangle}
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
-\item Show that
-\begin{align}
-\label{eq:rt_triang_circum_coord}
-\vec{A}-\vec{E} &= \myvec{-ka \\ c-kc} 
-\\
-\vec{B}-\vec{E} &=-k\myvec{a \\ c}
-\\
-\vec{C}-\vec{E} &=\myvec{a-ak \\ -kc}
-\end{align}
-%
-where 
-\begin{align}
-k = \frac{1}{2}
-\end{align}
-
-%Find 
-%Now redraw $\triangle ABC$ as $\triangle PQR$ with the same sides and 
-%\begin{align}
-%\label{eq:rt_triang_circum_coord}
-%\vec{P}=\vec{A}-\vec{E}
-%\\
-%\vec{Q}=\vec{B}-\vec{E}
-%\\
-%\vec{R}=\vec{C}-\vec{E}
-%\end{align}
-%
-\solution Substituting $\vec{A}$ from \eqref{eq:rt_triang} and $\vec{E}$ from \eqref{eq:rt_triang_mid}
-\begin{align}
-\label{eq:rt_triang_circum_coord_sol}
-\vec{A}-\vec{E}= \myvec{0 \\ c} - \frac{1}{2}\myvec{a \\ c} = \myvec{0 \\ c} - k\myvec{a \\ c}
-\end{align}
-Thus, 
-\begin{align}
-\vec{A}-\vec{E}&=  \myvec{0 \\ c} - k\myvec{a \\ c} =  \myvec{0 \\ c} - \myvec{ka \\ kc}  =  \myvec{0-(ka) \\ c - (kc)} 
-\nonumber \\
-& =  \myvec{0-ka \\ c - kc} = \myvec{-ka \\ c-kc} 
-\end{align}
-Similarly,
-$\vec{B}-\vec{E}, 
-\vec{C}-\vec{E}$ 
-%
-can be obtained.
-%\begin{align}
-%\vec{Q}&=-k\myvec{a \\ c}
-%\\
-%\vec{R}&=\myvec{a-ak \\ -kc}
-%\end{align}
-%\item Verify that 
-%\begin{align}
-%\label{eq:rt_triang_orig}
-%\vec{O}=\frac{\vec{P}+\vec{R}}{2}=\myvec{0 \\0}
-%\end{align}
+%\section{Right Triangle}
+%\begin{enumerate}[label=\thesection.\arabic*
+%,ref=\thesection.\theenumi]
 %%
+%%\item Draw the rectangle $ABCD$ where $AB = c=6, BC = a= 8$.
+%%\\
+%\item Draw $\triangle ABC$  right angled at $\vec{B}$ such that $AB = c =6, BC = a =8$.
+%\\
+%\solution The coordinates are
+%\begin{align}
+%\label{eq:rt_triang}
+%\vec{A}=\myvec{0 \\ c}
+%,
+%\vec{B}=\myvec{0 \\ 0}
+%,
+%\vec{C}=\myvec{a \\ 0}
+%\end{align}
+%\item Let $\vec{D}, \vec{E}, \vec{F}$ be the mid points of $BC,CA$ and $AB$ respectively in $\triangle ABC$. Draw $AD,BE$ and $CF$.
+%\\
 %\solution 
 %\begin{align}
-%\vec{P}+\vec{R} &=  \myvec{-ka \\ c-kc} + \myvec{a-ka \\ -kc}\\
-%&=  \myvec{-ka+a-ka \\ c-kc-kc} =  \myvec{a-2ka \\ c-2kc}
+%\label{eq:rt_triang_mid}
+%\vec{D} = \frac{\vec{B}+\vec{C}}{2} = \frac{1}{2}\myvec{a \\ 0}
+%\\
+%\vec{E} = \frac{\vec{C}+\vec{A}}{2} = \frac{1}{2}\myvec{a \\ c}
+%\\
+%\vec{F} = \frac{\vec{A}+\vec{B}}{2} = \frac{1}{2}\myvec{0 \\ c}
+%\end{align}
+%\item  Draw $AD, BE$ and $CF$.
+%\item Draw $\triangle DEF$ in the previous problem.
+%
+%\end{enumerate}
+%\section{Cirumcircle of Right Triangle}
+%\begin{enumerate}[label=\thesection.\arabic*
+%,ref=\thesection.\theenumi]
+%\item Show that
+%\begin{align}
+%\label{eq:rt_triang_circum_coord}
+%\vec{A}-\vec{E} &= \myvec{-ka \\ c-kc} 
+%\\
+%\vec{B}-\vec{E} &=-k\myvec{a \\ c}
+%\\
+%\vec{C}-\vec{E} &=\myvec{a-ak \\ -kc}
 %\end{align}
 %%
-%Since $2k = 1$,
+%where 
 %\begin{align}
-%\vec{P}+\vec{R} &=  \myvec{a-2ka \\ c-2kc} = \myvec{a-a \\ c-c} = \vec{0}
+%k = \frac{1}{2}
 %\end{align}
-\item Find $EA^2$.
-\\
-\solution 
-\begin{align*}
-%\label{eq:rt_triang_orig}
-EA^2 &= \norm{\vec{A}-\vec{E}}^2=\norm{\myvec{0 \\0}-\myvec{-ka \\c-kc}}^2 
-\\
-&= \norm{\myvec{0 -\brak{-ka}\\0-\brak{c-kc}}}^2 
-=\norm{\myvec{ka\\-c+kc}}^2 
-\\
-&=\brak{ka}^2+\brak{-c+kc}^2 
-\\
-&= k^2a^2+\brak{-c+kc}\brak{-c+kc}
-\\
-&= k^2a^2+\brak{-c}\brak{-c+kc}+\brak{kc}\brak{-c+kc}
-\\
-&=k^2a^2+\brak{-c}\brak{-c}+\brak{-c}\brak{kc}+\brak{kc}\brak{-c}
-\\
-&\quad +\brak{kc}\brak{kc}
-\\
-&= k^2a^2+c^2-kc^2-kc^2+k^2c^2
-\\
-&=k^2a^2+c^2+\brak{-1-1}kc^2+k^2c^2
-\\
-&=k^2a^2+c^2-2kc^2+k^2c^2
-\end{align*}
-$\because 2k=1$,
-\begin{align*}
-k^2a^2+c^2-2kc^2+k^2c^2 &= k^2a^2+c^2-c^2+k^2c^2  
-\\
-&= k^2a^2 + k^2c^2
-\\
-&= k^2\brak{a^2 + c^2}
-\end{align*}
-
-\item Show that 
-\begin{align}
-EB^2 =  k^2\brak{a^2 + c^2}
-\end{align}
-\item Show that 
-\begin{align}
-EC^2 =  k^2\brak{a^2 + c^2}
-\end{align}
-
-\item Draw the circumcircle of  $\triangle ABC$ with centre $\vec{E}$
-and radius 
-\begin{align}
-R =  EA = EB=EC=k\sqrt{\brak{a^2 + c^2}}
-\end{align}
-\end{enumerate}
-\section{Tangent}
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
-\item In the right $\triangle ABC$, right angled at $\vec{A}$, $AC = b = 8, AB=c=6$ and
-\begin{align}
-\vec{B}=\myvec{0 \\0}, \vec{C}=\myvec{a \\0}, 
-\end{align}
 %
-find 
-\begin{align}
-\vec{A}=\myvec{p \\q}
-\end{align}
-\solution $\because$ 
-\begin{align}
-AB^2 &= \norm{\vec{A}-\vec{B}}^2,
-\\
-%
-\implies AB^2 &= \norm{\myvec{p \\q}-\myvec{0 \\0}}^2 
-\\
-&=\norm{\myvec{p-0 \\q-0}}^2=\norm{\myvec{p \\q}}^2
-\\
-\implies c^2 &= p^2+q^2
-\\
-\text{or, } c^2 -q^2 &= p^2
-\label{eq:rt_tang_pair_ab}
-\end{align}
-%
-Similarly,
-\begin{align}
-AC^2 = \norm{\vec{A}-\vec{C}}^2 &= \norm{\myvec{p \\q}-\myvec{a \\0}}^2 
-\\
-=\norm{\myvec{p-a \\q-0}}^2&=\norm{\myvec{p-a \\q}}^2
-\end{align}
-Thus, 
-\begin{align}
-AC^2 &=b^2 = (p-a)^2+q^2 
-\nonumber \\
-&= \brak{p-a}\brak{p-a}+q^2
-\nonumber \\
-&=\brak{p}\brak{p-a}+\brak{-a}\brak{p-a}+q^2 
-\nonumber \\
-&=p^2 +p\brak{-a} +\brak{-a}\brak{ p} 
-\\
-&\quad +\brak{-a}\brak{-a} + q^2
-\nonumber \\
-&= p^2 -pa -pa +a^2 
-\nonumber \\
-&= p^2 +pa\brak{-1-1}+a^2 + q^2
-\nonumber \\
-\implies b^2 &=p^2 -2pa + a^2 + q^2
-\nonumber \\
-\implies b^2 &-\brak{-2pa +a^2 +q^2} = p^2
-\nonumber \\
-\implies b^2 &+2pa -a^2 -q^2 = p^2
-\label{eq:rt_tang_pair_ac}
-\end{align}
-From \eqref{eq:rt_tang_pair_ab} and \eqref{eq:rt_tang_pair_ac}, equating the L.H.S,\begin{align}
-c^2 -q^2 = b^2 +2pa -a^2 &-q^2
-\nonumber \\
-\implies c^2 -q^2 -\brak{ b^2 +2pa -a^2 -q^2} &=0
-\nonumber \\
-\implies c^2 -q^2 - b^2 -2pa +a^2 +q^2 &=0
-\nonumber \\
-\implies c^2 -q^2+q^2 - b^2 -2pa +a^2  &=0
-\nonumber \\
-\implies c^2 +q^2\brak{-1+1} - b^2 -2pa +a^2  &=0
-\nonumber \\
-\implies c^2 +q^2\brak{0} - b^2 -2pa +a^2  &=0
-\nonumber \\
-\implies c^2  - b^2 -2pa +a^2  &=0
-\nonumber \\
-\implies c^2  - b^2  +a^2  &=2pa
-\nonumber\\
-\implies \frac{c^2  - b^2  +a^2}{2a}  &=p
-\label{eq:rt_tang_pair_p}
-\end{align}
-%
-From \eqref{eq:rt_tang_pair_p}, $p$ is obtained. $q$ can be obtained from 
-\eqref{eq:rt_tang_pair_ab} as 
-\begin{align}
- c^2 &= p^2+q^2
-\nonumber\\ 
-\implies c^2 - p^2 &=q^2
-\nonumber\\ 
-\implies \sqrt{c^2 - p^2} &=q
-\end{align}
-
-\item Draw a circle with centre $\vec{B}$
-%
-and radius $c = 6$.
-\item Let 
-\begin{align}
-D=\myvec{p \\ -q}
-\end{align}
-%
-Draw $\triangle ABC$ and $\triangle ADC$.
-\\
-\solution 
-The following code draws the circle and tangents in Fig. \ref{fig:circle}
-\lstinputlisting{./codes/draw_circle.py}
-%
-\begin{figure}
-\centering
-\includegraphics[width=\columnwidth]{./figs/circle.eps}
-\caption{}
-\label{fig:circle}
-\end{figure}
-%
-\end{enumerate}
-\section{Incircle}
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
-
-\item Consider the right angled $\triangle ABC$, right angled at $\vec{B}$ with $a = 8, b = 10, c = 6$.  Let
-\begin{align}
-x+y = a
-\nonumber \\
-y+z = b
-\nonumber \\
-z+x = c
-\label{eq:tang_len}
-\end{align}
-%
-Show that 
-\begin{align}
-x &=\frac{a+c-b}{2}
-\nonumber \\
-y &=\frac{b+a-c}{2}
-\nonumber \\
-z &=\frac{c+b-a}{2}
-\end{align}
-%\solution  The given information can be expressed as the matrix equation
+%%Find 
+%%Now redraw $\triangle ABC$ as $\triangle PQR$ with the same sides and 
+%%\begin{align}
+%%\label{eq:rt_triang_circum_coord}
+%%\vec{P}=\vec{A}-\vec{E}
+%%\\
+%%\vec{Q}=\vec{B}-\vec{E}
+%%\\
+%%\vec{R}=\vec{C}-\vec{E}
+%%\end{align}
+%%
+%\solution Substituting $\vec{A}$ from \eqref{eq:rt_triang} and $\vec{E}$ from \eqref{eq:rt_triang_mid}
 %\begin{align}
-%\myvec{
-%1 & 1 & 0
+%\label{eq:rt_triang_circum_coord_sol}
+%\vec{A}-\vec{E}= \myvec{0 \\ c} - \frac{1}{2}\myvec{a \\ c} = \myvec{0 \\ c} - k\myvec{a \\ c}
+%\end{align}
+%Thus, 
+%\begin{align}
+%\vec{A}-\vec{E}&=  \myvec{0 \\ c} - k\myvec{a \\ c} =  \myvec{0 \\ c} - \myvec{ka \\ kc}  =  \myvec{0-(ka) \\ c - (kc)} 
+%\nonumber \\
+%& =  \myvec{0-ka \\ c - kc} = \myvec{-ka \\ c-kc} 
+%\end{align}
+%Similarly,
+%$\vec{B}-\vec{E}, 
+%\vec{C}-\vec{E}$ 
+%%
+%can be obtained.
+%%\begin{align}
+%%\vec{Q}&=-k\myvec{a \\ c}
+%%\\
+%%\vec{R}&=\myvec{a-ak \\ -kc}
+%%\end{align}
+%%\item Verify that 
+%%\begin{align}
+%%\label{eq:rt_triang_orig}
+%%\vec{O}=\frac{\vec{P}+\vec{R}}{2}=\myvec{0 \\0}
+%%\end{align}
+%%%
+%%\solution 
+%%\begin{align}
+%%\vec{P}+\vec{R} &=  \myvec{-ka \\ c-kc} + \myvec{a-ka \\ -kc}\\
+%%&=  \myvec{-ka+a-ka \\ c-kc-kc} =  \myvec{a-2ka \\ c-2kc}
+%%\end{align}
+%%%
+%%Since $2k = 1$,
+%%\begin{align}
+%%\vec{P}+\vec{R} &=  \myvec{a-2ka \\ c-2kc} = \myvec{a-a \\ c-c} = \vec{0}
+%%\end{align}
+%\item Find $EA^2$.
 %\\
-%0 & 1 & 1
+%\solution 
+%\begin{align*}
+%%\label{eq:rt_triang_orig}
+%EA^2 &= \norm{\vec{A}-\vec{E}}^2=\norm{\myvec{0 \\0}-\myvec{-ka \\c-kc}}^2 
 %\\
-%1 & 0 & 1
-%}
-%\myvec{x \\ y \\ z} = \myvec{a \\b\\c}
+%&= \norm{\myvec{0 -\brak{-ka}\\0-\brak{c-kc}}}^2 
+%=\norm{\myvec{ka\\-c+kc}}^2 
+%\\
+%&=\brak{ka}^2+\brak{-c+kc}^2 
+%\\
+%&= k^2a^2+\brak{-c+kc}\brak{-c+kc}
+%\\
+%&= k^2a^2+\brak{-c}\brak{-c+kc}+\brak{kc}\brak{-c+kc}
+%\\
+%&=k^2a^2+\brak{-c}\brak{-c}+\brak{-c}\brak{kc}+\brak{kc}\brak{-c}
+%\\
+%&\quad +\brak{kc}\brak{kc}
+%\\
+%&= k^2a^2+c^2-kc^2-kc^2+k^2c^2
+%\\
+%&=k^2a^2+c^2+\brak{-1-1}kc^2+k^2c^2
+%\\
+%&=k^2a^2+c^2-2kc^2+k^2c^2
+%\end{align*}
+%$\because 2k=1$,
+%\begin{align*}
+%k^2a^2+c^2-2kc^2+k^2c^2 &= k^2a^2+c^2-c^2+k^2c^2  
+%\\
+%&= k^2a^2 + k^2c^2
+%\\
+%&= k^2\brak{a^2 + c^2}
+%\end{align*}
+%
+%\item Show that 
+%\begin{align}
+%EB^2 =  k^2\brak{a^2 + c^2}
+%\end{align}
+%\item Show that 
+%\begin{align}
+%EC^2 =  k^2\brak{a^2 + c^2}
+%\end{align}
+%
+%\item Draw the circumcircle of  $\triangle ABC$ with centre $\vec{E}$
+%and radius 
+%\begin{align}
+%R =  EA = EB=EC=k\sqrt{\brak{a^2 + c^2}}
+%\end{align}
+%\end{enumerate}
+%\section{Tangent}
+%\begin{enumerate}[label=\thesection.\arabic*
+%,ref=\thesection.\theenumi]
+%\item In the right $\triangle ABC$, right angled at $\vec{A}$, $AC = b = 8, AB=c=6$ and
+%\begin{align}
+%\vec{B}=\myvec{0 \\0}, \vec{C}=\myvec{a \\0}, 
 %\end{align}
 %%
-%which can be solved to obtain $x,y,z$.
-\item Find $\vec{D}, \vec{E}, \vec{F}$ such that 
-\begin{align}
-\label{eq:incircle}
-\vec{D} = \frac{x\vec{C}+y\vec{B}}{x+y}
-\nonumber \\
-\vec{E} = \frac{y\vec{A}+z\vec{C}}{y+z}
-\nonumber \\
-\vec{F} = \frac{z\vec{B}+x\vec{A}}{z+x}
-\end{align}
-\item Let 
-\begin{align}
-\label{eq:inradius}
-\vec{I} = \myvec{p \\ q}
-\end{align}
-If 
-\begin{align}
-\vec{D} = \myvec{d_1 \\ d_2},
-\vec{E} = \myvec{e_1 \\ e_2},
-\end{align}
-and 
-\begin{align}
-ID = IE 
-\end{align}
-show that 
-\begin{align}
-p\brak{d_1-e_1}+ q\brak{d_2-e_2} &= \frac{e_1^2+e_2^2-d_1^2-d_2^2}{2}
-\end{align}
+%find 
+%\begin{align}
+%\vec{A}=\myvec{p \\q}
+%\end{align}
+%\solution $\because$ 
+%\begin{align}
+%AB^2 &= \norm{\vec{A}-\vec{B}}^2,
+%\\
+%%
+%\implies AB^2 &= \norm{\myvec{p \\q}-\myvec{0 \\0}}^2 
+%\\
+%&=\norm{\myvec{p-0 \\q-0}}^2=\norm{\myvec{p \\q}}^2
+%\\
+%\implies c^2 &= p^2+q^2
+%\\
+%\text{or, } c^2 -q^2 &= p^2
+%\label{eq:rt_tang_pair_ab}
+%\end{align}
+%%
+%Similarly,
+%\begin{align}
+%AC^2 = \norm{\vec{A}-\vec{C}}^2 &= \norm{\myvec{p \\q}-\myvec{a \\0}}^2 
+%\\
+%=\norm{\myvec{p-a \\q-0}}^2&=\norm{\myvec{p-a \\q}}^2
+%\end{align}
+%Thus, 
+%\begin{align}
+%AC^2 &=b^2 = (p-a)^2+q^2 
+%\nonumber \\
+%&= \brak{p-a}\brak{p-a}+q^2
+%\nonumber \\
+%&=\brak{p}\brak{p-a}+\brak{-a}\brak{p-a}+q^2 
+%\nonumber \\
+%&=p^2 +p\brak{-a} +\brak{-a}\brak{ p} 
+%\\
+%&\quad +\brak{-a}\brak{-a} + q^2
+%\nonumber \\
+%&= p^2 -pa -pa +a^2 
+%\nonumber \\
+%&= p^2 +pa\brak{-1-1}+a^2 + q^2
+%\nonumber \\
+%\implies b^2 &=p^2 -2pa + a^2 + q^2
+%\nonumber \\
+%\implies b^2 &-\brak{-2pa +a^2 +q^2} = p^2
+%\nonumber \\
+%\implies b^2 &+2pa -a^2 -q^2 = p^2
+%\label{eq:rt_tang_pair_ac}
+%\end{align}
+%From \eqref{eq:rt_tang_pair_ab} and \eqref{eq:rt_tang_pair_ac}, equating the L.H.S,\begin{align}
+%c^2 -q^2 = b^2 +2pa -a^2 &-q^2
+%\nonumber \\
+%\implies c^2 -q^2 -\brak{ b^2 +2pa -a^2 -q^2} &=0
+%\nonumber \\
+%\implies c^2 -q^2 - b^2 -2pa +a^2 +q^2 &=0
+%\nonumber \\
+%\implies c^2 -q^2+q^2 - b^2 -2pa +a^2  &=0
+%\nonumber \\
+%\implies c^2 +q^2\brak{-1+1} - b^2 -2pa +a^2  &=0
+%\nonumber \\
+%\implies c^2 +q^2\brak{0} - b^2 -2pa +a^2  &=0
+%\nonumber \\
+%\implies c^2  - b^2 -2pa +a^2  &=0
+%\nonumber \\
+%\implies c^2  - b^2  +a^2  &=2pa
+%\nonumber\\
+%\implies \frac{c^2  - b^2  +a^2}{2a}  &=p
+%\label{eq:rt_tang_pair_p}
+%\end{align}
+%%
+%From \eqref{eq:rt_tang_pair_p}, $p$ is obtained. $q$ can be obtained from 
+%\eqref{eq:rt_tang_pair_ab} as 
+%\begin{align}
+% c^2 &= p^2+q^2
+%\nonumber\\ 
+%\implies c^2 - p^2 &=q^2
+%\nonumber\\ 
+%\implies \sqrt{c^2 - p^2} &=q
+%\end{align}
 %
-\item If 
-\begin{align}
-IE = IF,
-\end{align}
-show that 
-\begin{align}
-p\brak{e_1-f_1}+ q\brak{e_2-f_2} &= \frac{f_1^2+f_2^2-e_1^2-e_2^2}{2}
-\end{align}
-
-\item Find $\vec{I}$ and $r$ if 
-\begin{align}
-ID = IE = IF =r
-\end{align}
-
-\end{enumerate}
+%\item Draw a circle with centre $\vec{B}$
+%%
+%and radius $c = 6$.
+%\item Let 
+%\begin{align}
+%D=\myvec{p \\ -q}
+%\end{align}
+%%
+%Draw $\triangle ABC$ and $\triangle ADC$.
+%\\
+%\solution 
+%The following code draws the circle and tangents in Fig. \ref{fig:circle}
+%\lstinputlisting{./codes/draw_circle.py}
+%%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\columnwidth]{./figs/circle.eps}
+%\caption{}
+%\label{fig:circle}
+%\end{figure}
+%%
+%\end{enumerate}
+%\section{Incircle}
+%\begin{enumerate}[label=\thesection.\arabic*
+%,ref=\thesection.\theenumi]
 %
+%\item Consider the right angled $\triangle ABC$, right angled at $\vec{B}$ with $a = 8, b = 10, c = 6$.  Let
+%\begin{align}
+%x+y = a
+%\nonumber \\
+%y+z = b
+%\nonumber \\
+%z+x = c
+%\label{eq:tang_len}
+%\end{align}
+%%
+%Show that 
+%\begin{align}
+%x &=\frac{a+c-b}{2}
+%\nonumber \\
+%y &=\frac{b+a-c}{2}
+%\nonumber \\
+%z &=\frac{c+b-a}{2}
+%\end{align}
+%%\solution  The given information can be expressed as the matrix equation
+%%\begin{align}
+%%\myvec{
+%%1 & 1 & 0
+%%\\
+%%0 & 1 & 1
+%%\\
+%%1 & 0 & 1
+%%}
+%%\myvec{x \\ y \\ z} = \myvec{a \\b\\c}
+%%\end{align}
+%%%
+%%which can be solved to obtain $x,y,z$.
+%\item Find $\vec{D}, \vec{E}, \vec{F}$ such that 
+%\begin{align}
+%\label{eq:incircle}
+%\vec{D} = \frac{x\vec{C}+y\vec{B}}{x+y}
+%\nonumber \\
+%\vec{E} = \frac{y\vec{A}+z\vec{C}}{y+z}
+%\nonumber \\
+%\vec{F} = \frac{z\vec{B}+x\vec{A}}{z+x}
+%\end{align}
+%\item Let 
+%\begin{align}
+%\label{eq:inradius}
+%\vec{I} = \myvec{p \\ q}
+%\end{align}
+%If 
+%\begin{align}
+%\vec{D} = \myvec{d_1 \\ d_2},
+%\vec{E} = \myvec{e_1 \\ e_2},
+%\end{align}
+%and 
+%\begin{align}
+%ID = IE 
+%\end{align}
+%show that 
+%\begin{align}
+%p\brak{d_1-e_1}+ q\brak{d_2-e_2} &= \frac{e_1^2+e_2^2-d_1^2-d_2^2}{2}
+%\end{align}
+%%
+%\item If 
+%\begin{align}
+%IE = IF,
+%\end{align}
+%show that 
+%\begin{align}
+%p\brak{e_1-f_1}+ q\brak{e_2-f_2} &= \frac{f_1^2+f_2^2-e_1^2-e_2^2}{2}
+%\end{align}
 %
-\section{Exercises}
+%\item Find $\vec{I}$ and $r$ if 
+%\begin{align}
+%ID = IE = IF =r
+%\end{align}
+%
+%\end{enumerate}
+%%
+%%
+\section{Triangle}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item Plot $\triangle ABC$ for $a = 8, b = 11$ and $c = 13$. 
-\\
-\solution The following program plots $\triangle ABC$ in Fig. \ref{fig:triangle}
-\lstinputlisting{./codes/draw_triangle.py}
-%
-\begin{figure}
-\centering
-\includegraphics[width=\columnwidth]{./figs/triangle.eps}
-\caption{}
-\label{fig:triangle}
-\end{figure}
-\item Find $\vec{O}$ and $R$ such that 
-\begin{align}
-R = OA = OB = OC
-\end{align}
-\item Draw a circle with centre $\vec{B}$ and radius 6.  If $\vec{C}$ be  a point 10 units  away from its 
-centre, construct the pair of tangents $AC$ and $CD$ to the 
-circle.
-\\
-\solution From the given information, in $\triangle ABC, AC \perp AB, a = 
-10$ and $c = 6$.
-\begin{align}
-b =  \sqrt{a^2-c^2}
-\end{align}
-\item Write a program to compute $p$ and $q$ when $a = 8, b = 11$ and $c = 13$. 
-\item In $\triangle ABC$,  $a$ and  $\angle B$ are known and $b+c = k$. If 
-\begin{align}
-\label{eq:cos_formula}
-b^2  = a^2+c^2- 2ac \cos B
-\end{align}
-%
-show that
-\begin{align}
-c = \frac{ a^2-k^2 }{2\brak{a \cos B -k}}
-\end{align}
-
-%find $b$ and $c$.
-%\\
-%\solution From \eqref{eq:cos_formula}, 
-%\begin{align}
-%\label{eq:aB}
-%\brak{k-c}^2 &= a^2+c^2- 2ac \cos B
-%\\
-%\implies k^2 -2kc+c^2 &= a^2+c^2- 2ac \cos B
-%\\
-%\implies -2kc+ 2ac \cos B&= a^2-k^2 
-%\\
-%\implies 2c\brak{a \cos B -k}&= a^2-k^2 
-%\\
-%
+\item Draw $\triangle ABC$ where $\angle B = 90\degree, a = 4$ and $b = 3$.
+\item Draw a line segement of length 7.6 cm and divide it in the ratio $5:8$.
+\item Construct a triangle of sides $a=4$cm, $b=5$ cm and $c=6$ cm.  
+\item Construct a triangle of sides $a=5$cm, $b=6$ cm and $c=7$ cm.  Construct a similar triangle whose sides are $\frac{7}{5}$ times the corresponding sides of the first triangle.
+\item Construct an isosceles triangle whose base is $a=8$cm and altitude $AD=4$cm 
+\item Draw $\triangle ABC$ with $a = 6, c = 5$ and $\angle ABC = 60 \degree$. 
+\item Draw $\triangle ABC$ with $a = 7, \angle B = 45\degree$ and $\angle A = 105 \degree$. 
 \item In $\triangle ABC$,  $a = 7, \angle B = 75^{\degree}$ and $b+c = 13$. 
 %If 
 %\begin{align}
@@ -650,8 +607,7 @@ Find $b$ and $c$ and sketch $\triangle ABC$.
 Sketch $\triangle ABC$.
 \item In $\triangle ABC$,  $a = 6, \angle B = 60^{\degree}$ and $b-c = 2$. 
 Sketch $\triangle ABC$.
-\item $\triangle ABC$ is right angled at $\vec{B}$.  If $a = 12$ and $b+c = 18$, find $a,b,c$ and draw the 
-triangle.
+\item $\triangle ABC$ is right angled at $\vec{B}$.  If $a = 12$ and $b+c = 18$, find $a,b,c$ and draw the triangle.
 \\
 \solution From Baudhayana's theorem, 
 \begin{align}
@@ -664,7 +620,21 @@ b^2 = a^2 + c^2
 %\end{align}
 %%
 %and $b = 13$.
-%
+%\item Plot $\triangle ABC$ for $a = 8, b = 11$ and $c = 13$. 
+%\\
+%\solution The following program plots $\triangle ABC$ in Fig. \ref{fig:triangle}
+%\lstinputlisting{./codes/draw_triangle.py}
+%%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\columnwidth]{./figs/triangle.eps}
+%\caption{}
+%\label{fig:triangle}
+%\end{figure}
+%\item Find $\vec{O}$ and $R$ such that 
+%\begin{align}
+%R = OA = OB = OC
+%\end{align}
 \item In $\triangle ABC$,  given that $a+b+c = 11, \angle B = 45^{\degree}$ and $\angle C = 45^{\degree}$, 
 find 
 $a,b,c$.
@@ -696,26 +666,66 @@ Solving the equivalent matrix equation gives the desired answer.
 \item Draw $\triangle ABC$,  given that $a+b+c = 11, \angle B = 30^{\degree}$ and $\angle C = 90^{\degree}$, 
 find 
 $a,b,c$.
-\item Draw a square of side $3$.
-\item Draw a parallelogram with sides $12$ and $5$.
+\end{enumerate}
+\section{Circle}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Draw a circle with centre $\vec{B}$ and radius 6.  If $\vec{C}$ be  a point 10 units  away from its 
+centre, construct the pair of tangents $AC$ and $CD$ to the 
+circle.
+\\
+\solution From the given information, in $\triangle ABC, AC \perp AB, a = 
+10$ and $c = 6$.
+\begin{align}
+b =  \sqrt{a^2-c^2}
+\end{align}
+%\item Write a program to compute $p$ and $q$ when $a = 8, b = 11$ and $c = 13$. 
+%\item In $\triangle ABC$,  $a$ and  $\angle B$ are known and $b+c = k$. If 
+%\begin{align}
+%\label{eq:cos_formula}
+%b^2  = a^2+c^2- 2ac \cos B
+%\end{align}
+%
+%show that
+%\begin{align}
+%c = \frac{ a^2-k^2 }{2\brak{a \cos B -k}}
+%\end{align}
 
-\item Draw a circle with centre $\vec{O}$ and diameter $AC = 6$.  Choose any point $B$ on the circle and draw $\triangle ABC$.
-\item In $\triangle ABC$, $a =8, b = 11, c = 13$. Find 
-\begin{align}
-R = \frac{a}{2\sin A}.
-\end{align}
+%find $b$ and $c$.
+%\\
+%\solution From \eqref{eq:cos_formula}, 
+%\begin{align}
+%\label{eq:aB}
+%\brak{k-c}^2 &= a^2+c^2- 2ac \cos B
+%\\
+%\implies k^2 -2kc+c^2 &= a^2+c^2- 2ac \cos B
+%\\
+%\implies -2kc+ 2ac \cos B&= a^2-k^2 
+%\\
+%\implies 2c\brak{a \cos B -k}&= a^2-k^2 
+%\\
 %
-Let $\vec{D}$ be the mid point of $BC$.  Find the point $\vec{O}$ such that $\triangle ODB$ is right angled at $\vec{D}$ and $OD=R$. Draw the circle with centre $\vec{O}$ and radius $R$.
-\item Let 
-\begin{align}
-r = \frac{abc}{2\brak{a+b+c}}.
-\end{align}
-and 
-\begin{align}
-IB = r\sqrt{\frac{2}{1-\cos B}}.
-\end{align}
 %
-Draw a circle with centre $\vec{I}$ and radius $r$.
+%\item Draw a square of side $3$.
+%\item Draw a parallelogram with sides $12$ and $5$.
+%
+%\item Draw a circle with centre $\vec{O}$ and diameter $AC = 6$.  Choose any point $B$ on the circle and draw $\triangle ABC$.
+%\item In $\triangle ABC$, $a =8, b = 11, c = 13$. Find 
+%\begin{align}
+%R = \frac{a}{2\sin A}.
+%\end{align}
+%%
+%Let $\vec{D}$ be the mid point of $BC$.  Find the point $\vec{O}$ such that $\triangle ODB$ is right angled at $\vec{D}$ and $OD=R$. Draw the circle with centre $\vec{O}$ and radius $R$.
+%\item Let 
+%\begin{align}
+%r = \frac{abc}{2\brak{a+b+c}}.
+%\end{align}
+%and 
+%\begin{align}
+%IB = r\sqrt{\frac{2}{1-\cos B}}.
+%\end{align}
+%
+%Draw a circle with centre $\vec{I}$ and radius $r$.
 
 \item Construct a tangent to a circle of radius 4 units from a point on the concentric circle of radius 6 
 units.
