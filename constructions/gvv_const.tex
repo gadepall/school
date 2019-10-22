@@ -20,6 +20,8 @@
 \usepackage{color}
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
 
 
 
@@ -323,6 +325,8 @@ codes/draw_triangle.py
 \label{fig:triangle}
 \end{figure}
 \item Construct a triangle of sides $a=5$cm, $b=6$ cm and $c=7$ cm.  Construct a similar triangle whose sides are $\frac{7}{5}$ times the corresponding sides of the first triangle.
+\\
+\solution The sides of the similar triangle are $\frac{7}{5}a, \frac{7}{5}b$ and $\frac{7}{5}c$.
 \item Construct an isosceles triangle whose base is $a=8$cm and altitude $AD=p=4$cm 
 \\
 \solution Using Baudhayana's theorem, 
@@ -332,12 +336,134 @@ b = c= \sqrt{p^2+\brak{\frac{a}{2}}^2}
 %
 \item Draw $\triangle ABC$ with $a = 6, c = 5$ and $\angle B = 60 \degree$. 
 \\
-\solution Using the cosine formula, 
+\solution 
+In Fig. \eqref{ch2_cosine_formula}, $AD \perp BC$.
 \begin{align}
+\cos C &= \frac{y}{b},
+\\
+\cos B &= \frac{x}{b},
+\end{align}
+%
+Thus, 
+%
+\begin{align}
+a=x+y &= b \cos C + c \cos B, \\
+b &= c \cos A + a \cos C \\
+c &= b \cos A + a \cos B
+\end{align}
+%
+  The above equations can be expressed in matrix form as
+%
+\begin{equation}
+\begin{pmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{pmatrix}
+\begin{pmatrix}
+\cos A \\
+\cos B \\
+\cos C
+\end{pmatrix}
+= 
+\begin{pmatrix}
+a\\
+b\\
+c
+\end{pmatrix}
+\end{equation}
+%
+Using the properties of determinants,
+%
+\begin{align}
+\cos A = \frac{
+\begin{vmatrix}
+a & c & b \\
+b & 0 & a \\
+c & a & 0
+\end{vmatrix}
+	}
+	{
+\begin{vmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{vmatrix}
+	}
+	&=\frac{ab^2 + ac^2 - a^3}{abc + abc} 
+\\
+&= \frac{b^2 + c^2 - a^2}{2bc}
+\label{eq:cosC}
+\end{align}
+From \eqref{eq:cosC}
+%Using the cosine formula, 
+\begin{align}
+\label{eq:b_cos_form}
 b^2 = c^2+a^2-2ca\cos B
 \end{align}
+which is computed by the following code
+\begin{lstlisting}
+codes/cos_form.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch2_triang_ar}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/fig2.1.tex}}
+	\end{center}
+	\caption{The cosine formula}
+	\label{ch2_cosine_formula}	
+\end{figure}
 
 \item Draw $\triangle ABC$ with $a = 7, \angle B = 45\degree$ and $\angle A = 105 \degree$. 
+\\
+\solution In Fig. \eqref{ch2_cosine_formula},	
+\begin{align}
+\label{eq:sin_form_def}
+\sin B &= \frac{h}{c}
+\\
+\sin C &= \frac{h}{b}
+\end{align}
+%
+which can be used to show that
+\begin{align}
+\label{eq:sin_form}
+\frac{\sin A}{a}=\frac{\sin B}{b}=\frac{\sin C}{c}
+\end{align}
+%
+Thus, 
+\begin{align}
+%\label{eq:sin_form}
+c = \frac{a\sin C}{\sin A}
+\end{align}
+where
+\begin{align}
+%\label{eq:sin_form}
+C = 180-A-B
+\end{align}
+\item $\triangle ABC$ is right angled at $\vec{B}$.  If $a = 12$ and $b+c = 18$, find $b,c$ and draw the triangle.
+\\
+\solution From Baudhayana's theorem, 
+\begin{align}
+b^2 &= a^2 + c^2
+\\
+\implies \brak{18-c}^2 &= 12^2 +c^2
+\end{align}
+which can be simplified to obtain
+\begin{align}
+c^2 + 36c^2 -180&= 0
+\\
+\implies\brak{c + 18}^2 -18^2 - 180 &= 0
+\\
+\end{align}
+which can be simplified as
+\begin{align}
+\implies \brak{c+18 }^2 &= \brak{18^2+180}
+\\
+\implies c &= -18 \pm \sqrt{18^2+180}
+\end{align}
 \item In $\triangle ABC$,  $a = 7, \angle B = 75^{\degree}$ and $b+c = 13$. 
 %If 
 %\begin{align}
@@ -349,12 +475,6 @@ Find $b$ and $c$ and sketch $\triangle ABC$.
 Sketch $\triangle ABC$.
 \item In $\triangle ABC$,  $a = 6, \angle B = 60^{\degree}$ and $b-c = 2$. 
 Sketch $\triangle ABC$.
-\item $\triangle ABC$ is right angled at $\vec{B}$.  If $a = 12$ and $b+c = 18$, find $a,b,c$ and draw the triangle.
-\\
-\solution From Baudhayana's theorem, 
-\begin{align}
-b^2 = a^2 + c^2
-\end{align}
 %Hence, 
 %\begin{align}
 %\brak{18-c}^2 &= a^2 + c^2
