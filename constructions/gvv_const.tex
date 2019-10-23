@@ -473,6 +473,21 @@ which can be simplified as
 Find $b$ and $c$ and sketch $\triangle ABC$.
 \item In $\triangle ABC$,  $a = 8, \angle B = 45^{\degree}$ and $c-b = 3.5$.
 Sketch $\triangle ABC$.
+\\
+\solution The general solution of a quadratic equation  
+\begin{align}
+\label{eq:quad_eq}
+\alpha x^2+\beta x+\gamma = 0
+\end{align}
+%
+is
+\begin{align}
+\label{eq:quad_eq_sol}
+x = \frac{-\beta \pm \sqrt{\beta^2-4\alpha\gamma}}{2\alpha}
+\end{align}
+%
+Using this and \eqref{eq:b_cos_form}, $b$ and $c$ can be obtained.
+
 \item In $\triangle ABC$,  $a = 6, \angle B = 60^{\degree}$ and $b-c = 2$. 
 Sketch $\triangle ABC$.
 %Hence, 
@@ -525,9 +540,26 @@ resulting  in the matrix equation
 \end{align}
 
 Solving the equivalent matrix equation gives the desired answer.
-\item Draw $\triangle ABC$,  given that $a+b+c = 11, \angle B = 30^{\degree}$ and $\angle C = 90^{\degree}$, 
-find 
-$a,b,c$.
+\item Draw $\triangle ABC$,  given that $a+b+c = 11, \angle B = 30^{\degree}$ and $\angle C = 90^{\degree}$.
+\item Construct $\triangle xyz$ where $xy = 4.5, yz = 5$ and $zx = 6$.
+\item Draw an equilateral triangle of side $5.5$.
+\item Draw $\triangle PQR$ with $PQ = 4, QR = 3.5$ and $PR = 4$.  What type of triangle is this?
+\item Construct $\triangle ABC$ such that $AB = 2.5, BC = 6$ and $AC = 6.5$.  Find $\angle B$.
+\item Construct $\triangle PQR$, given that $PQ = 3, QR = 5.5$ and $\angle PQR = 60 \degree$.
+\item Draw $\triangle ABC$ if $AB = 3, AC = 5$ and $\angle C = 30 \degree$.
+\item Construct $\triangle DEF$ such that $DE = 5, DF = 3$ and $\angle D = 90\degree$.
+\item Construct an isosceles triangle in which the lengths of the equal sides is 6.5 and the angle between them is $110\degree$.
+\item Construct $\triangle ABC$  with $BC = 7.5, AC = 5$ and $\angle C = 60\degree$.
+\item Construct $\triangle XYZ$ if $XY = 6, \angle X = 30\degree$ and $\angle Y = 100 \degree$.
+\item If $AC = 7, \angle A = 60\degree$ and $\angle B = 50 \degree$, can you draw the triangle?
+\item Construct $\triangle ABC$ given that $\angle A = 60\degree, \angle B = 30\degree$ and $AB = 5.8$.
+\item Construct $\triangle PQR$ if $PQ = 5, \angle Q = 105 \degree$ and $\angle R = 40 \degree$.
+\item Can you construct $\triangle DEF$ such that $EF = 7.2, \angle E = 110\degree$ and $\angle F = 180\degree$?
+\item Construct  $\triangle LMN$ right angled at $M$ such that $LN = 5$ and $MN = 3$.
+\item Construct  $\triangle PQR$ right angled at $Q$ such that $QR = 8$ and $PR = 10$.
+\item Construct  right angled $\triangle $ whose hypotenuse  is 6 and one of the legs is 4.
+\item Construct  an isoscelese right angled $\triangle ABC$ right angled at $C$ such $AC = 6$.
+\item Construct the following triangles.
 \end{enumerate}
 \section{Circle}
 \begin{enumerate}[label=\thesection.\arabic*
@@ -536,7 +568,9 @@ $a,b,c$.
 centre, construct the pair of tangents $AC$ and $CD$ to the 
 circle.
 \\
-\solution From the given information, in $\triangle ABC, AC \perp AB, a = 
+\solution The tangent is perpendicular to the radius.
+%
+From the given information, in $\triangle ABC, AC \perp AB, a = 
 10$ and $c = 6$.
 \begin{align}
 b =  \sqrt{a^2-c^2}
@@ -601,17 +635,72 @@ codes/draw_circle_eg.py
 
 \item Construct a tangent to a circle of radius 4 units from a point on the concentric circle of radius 6 
 units.
+\\
+\solution Take the centre of both circles to be at the origin.  For any angle $\theta$, a point on the circle with radius 6 has coordinates
+\begin{align}
+6\myvec{\cos \theta\\ \sin\theta}
+\end{align}
 \item Draw a circle of radius 3 units. Take  two points $\vec{P}$ and $\vec{Q}$ on one of its extended 
 diameter each at a distance of 7 units from its centre. Draw tangents to the circle from these two points 
 $\vec{P}$ and $\vec{Q}$.
+\\
+\solution Take the diameter to be on the $x$-axis.
 \item Draw a pair of tangents to a circle of radius 5 units which are inclined to each other at an angle of 
 $60^{\degree}$.
+\\
+\solution The tangent is perpendicular to the radius.
 \item Draw a line segment $AB$ of length 8 units. Taking $\vec{A}$ as centre, draw a circle of radius 4 units 
 and taking $\vec{B}$ as centre, draw another circle of radius 3 units. Construct tangents to each circle from 
 the centre of the other circle.
+\\
+\solution Let
+\begin{align}
+\vec{A} = \myvec{0 \\ 0}, \vec{B} = \myvec{8 \\ 0}.
+\end{align}
 \item Let ABC be a right triangle in which $a = 8, c = 6$ and $\angle B = 90^{\degree}$.  $BD$ is the 
 perpendicular from $\vec{B}$ on $AC$. The circle through $\vec{B}, \vec{C}, \vec{D}$ is drawn.  Construct the 
 tangents from $\vec{A}$ to this circle.
+\end{enumerate}
+\section{Quadrilaterals}
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Construct a quadrilateral $ABCD$ such that $AB=5, \angle A = 50\degree, AC = 4, BD = 5$ and $AD = 6$.
+\item Construct $PQRS$ where $PQ = 4, QR = 6, RS = 5, PS = 5.5$ and $PR = 7$.
+\item Draw $ABCD$ with $AB=4.5, BC = 5.5, CD = 4, AD =6$ and $AC = 7$.
+\item Draw $JUMP$ with $JU = 3.5, UM=4, MP = 5, PJ =4.5$ and $PU = 6.5$
+\item Draw the parallelogram $MORE$ with $OR = 6, RE = 4.5$ and $EO=7.5$.
+\\
+\solution
+Diagonals of a parallelogram bisect each other.  Opposite sides of a parallelogram are equal and parallel
+.
+\item Draw the rhombus $BEST$ with $BE = 4.5$ and $ET = 6$. 
+\\
+\solution Diagonals of a rhombus bisect each other at right angles.
+\item Construct a quadrilateral $ABCD$ such that $BC=4.5,  AC = 5.5, CD = 5, BD = 7$ and $AD = 5.5$.
+\item Can you construct a quadrilateral $PQRS$ with $PQ=3, RS=3, PS=7.5, PR=8$ and $SQ=4$?
+\item Construct $LIFT$ such that $LI = 4, IF = 3, TL = 2.5, LF = 4.5, IT=4$.
+\item Draw $GOLD$ such that $OL=7.5, GL=6, GD=6, LD = 5, OD = 10$.
+\item DRAW rhombus $BEND$ such that $BN = 5.6$, $DE = 6.5$.
+\item construct a quadrilateral MIST where $MI = 3.5, IS = 6.5, \angle M = 75 \degree, \angle I = 105 \degree$ and $\angle S = 120 \degree$.
+\item Can you construct the above quadrilateral MIST if $\angle M = 100 \degree$ instead of $75 \degree$.
+\item Can you constrcut the quadrilateral PLAN if $PL = 6, LA = 9.5, \angle P = 75 \degree, \angle L = 150 \degree$ and $\angle A = 140 \degree$?
+\item Construct $MORE$ where $MO = 6, OR = 4.5, \angle M = 60 \degree, \angle O = 105 \degree, \angle R = 105 \degree$.
+\item Construct $PLAN$ where $PL = 4, LA = 6.5, \angle P = 90 \degree, \angle A = 110\degree$ and $\angle N = 85\degree$.
+\item Constrcut parallelogram $HEAR$ where $HE = 5, EA = 6, \angle R = 85 \degree$.
+\item Draw  rectangle $OKAY$ with $OK = 7$ and $KA = 5$.
+\item Construct $ABCd $, where $AB = 4, BC = 5, Cd = 6.5, \angle B = 105 \degree$ and $\angle C = 80\degree$.
+\item Construct $DEAR$ with $DE = 4, EA = 5, AR = 4.5, \angle E = 60 \degree$ and $\angle A = 90 \degree$.\item Construct $TRUE$ with $TR = 3.5, RU = 3, UE = 4 \angle R = 75\degree$ and $\angle U = 120\degree$.
+\item Draw a square of side 4.5.
+
+\item Can you construct a rhombus $ABCD$ with $AC = 6$ and $BD = 7$?
+\item Construct a kite $EASY$ if $AY = 8, EY = 4$ and $SY = 6$.
+\\
+\solution The diagonals of a kite are perpendicular to each other.
+\item Draw a square $READ$ with $RE = 5.1$.
+\item Draw a rhombus who diagonals are $5.2$ and $6.4$.
+\item Draw a rectangle with adjacent sides $5$ and $4$.
+\item Draw a parallelogram $OKAY$ with $OK = 5.5$ and $KA = 4.2$.
+
 \end{enumerate}
 \end{document}
 
