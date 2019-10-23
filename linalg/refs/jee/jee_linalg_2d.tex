@@ -1,0 +1,682 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{caption}
+%\usepackage{multirow}
+%\usepackage{multicolumn}
+%\usepackage{subcaption}
+%\doublespacing
+\singlespacing
+\usepackage{csvsimple}
+\usepackage{amsmath}
+\usepackage{multicol}
+%\usepackage{enumerate}
+\usepackage{amssymb}
+%\usepackage{graphicx}
+\usepackage{newfloat}
+%\usepackage{syntax}
+\usepackage{listings}
+\usepackage{iithtlc}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+
+
+%\usepackage{graphicx}
+%\usepackage{amssymb}
+%\usepackage{relsize}
+%\usepackage[cmex10]{amsmath}
+%\usepackage{mathtools}
+%\usepackage{amsthm}
+%\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+%\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+%\usepackage{wasysym}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{txfonts}
+\usepackage{stfloats}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{enumerate}	
+\usepackage{enumitem}
+\usepackage{amsmath}
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{hyperref}
+%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{listings}
+    %\usepackage[latin1]{inputenc}                                 %%
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+    \usepackage{lscape}     
+
+
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+
+
+%\usepackage{stmaryrd}
+
+
+%\usepackage{wasysym}
+%\newcounter{MYtempeqncnt}
+\DeclareMathOperator*{\Res}{Res}
+%\renewcommand{\baselinestretch}{2}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+%\lstset{
+%language=C,
+%frame=single, 
+%breaklines=true
+%}
+
+%\lstset{
+	%%basicstyle=\small\ttfamily\bfseries,
+	%%numberstyle=\small\ttfamily,
+	%language=Octave,
+	%backgroundcolor=\color{white},
+	%%frame=single,
+	%%keywordstyle=\bfseries,
+	%%breaklines=true,
+	%%showstringspaces=false,
+	%%xleftmargin=-10mm,
+	%%aboveskip=-1mm,
+	%%belowskip=0mm
+%}
+
+%\surroundwithmdframed[width=\columnwidth]{lstlisting}
+\def\inputGnumericTable{}                                 %%
+\lstset{
+%language=C,
+frame=single, 
+breaklines=true,
+columns=fullflexible
+}
+ 
+
+\begin{document}
+%
+\tikzstyle{block} = [rectangle, draw,
+    text width=3em, text centered, minimum height=3em]
+\tikzstyle{sum} = [draw, circle, node distance=3cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}{Definition}[section]
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{ieeetr}
+
+\providecommand{\nCr}[2]{\,^{#1}C_{#2}} % nCr
+\providecommand{\nPr}[2]{\,^{#1}P_{#2}} % nPr
+\providecommand{\mbf}{\mathbf}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
+\providecommand{\rsbrak}[1]{\ensuremath{{}\left.#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+\providecommand{\abs}[1]{\left\vert#1\right\vert}
+\providecommand{\res}[1]{\Res\displaylimits_{#1}} 
+\providecommand{\norm}[1]{\left\Vert#1\right\Vert}
+\providecommand{\mtx}[1]{\mathbf{#1}}
+\providecommand{\mean}[1]{E\left[ #1 \right]}
+\providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
+%\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
+\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
+	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+%\numberwithin{equation}{subsection}
+%\numberwithin{equation}{section}
+%\numberwithin{problem}{subsection}
+%\numberwithin{definition}{subsection}
+\makeatletter
+\@addtoreset{figure}{section}
+\makeatother
+
+\let\StandardTheFigure\thefigure
+%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+\renewcommand{\thefigure}{\thesection}
+
+
+%\numberwithin{figure}{subsection}
+
+%\numberwithin{equation}{subsection}
+%\numberwithin{equation}{section}
+%\numberwithin{equation}{problem}
+%\numberwithin{problem}{subsection}
+\numberwithin{problem}{section}
+%%\numberwithin{definition}{subsection}
+%\makeatletter
+%\@addtoreset{figure}{problem}
+%\makeatother
+\makeatletter
+\@addtoreset{table}{section}
+\makeatother
+
+\let\StandardTheFigure\thefigure
+\let\StandardTheTable\thetable
+\let\vec\mathbf
+%%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+%\renewcommand{\thefigure}{\theproblem}
+
+%%\numberwithin{figure}{section}
+
+%%\numberwithin{figure}{subsection}
+
+
+
+\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+     \def\rightbox#1{\makebox[0in][r]{#1}}
+     \def\centbox#1{\makebox[0in]{#1}}
+     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
+
+\vspace{3cm}
+
+\title{ 
+	\logo{
+JEE Problems in Linear Algebra: 2D 
+	}
+}
+
+%\author{ G V V Sharma$^{*}$% <-this % stops a space
+%	\thanks{*The author is with the Department
+%		of Electrical Engineering, Indian Institute of Technology, Hyderabad
+%		502285 India e-mail:  gadepall@iith.ac.in. All content in this manual is released under GNU GPL.  Free and open source.}
+	
+%}	
+
+\maketitle
+
+%\tableofcontents
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{abstract}
+	A  collection of problems from JEE mains papers related to 2D coordinate geometry are 
+available in this document.  These problems should be solved using linear algebra.
+\end{abstract}
+\begin{enumerate}[label=\arabic*.]
+\item Draw the tangents through the point 
+\begin{equation}
+\label{eq:circle_3_p}
+\vec{P} = \myvec{4\\7} 
+\end{equation}
+to the circle
+\begin{equation}
+\label{eq:circle_3}
+C: \vec{x}^T\vec{x}  = 9.
+\end{equation}
+\item The sides of a rhombus $ABC$ are parallel to the lines
+\begin{align}
+\myvec{1 & -1}\vec{x} + 2 &=0
+\\
+\myvec{7 & -1}\vec{x} + 3 &=0.
+\end{align}
+If the diagonals of the rhombus intersect at
+\begin{align}
+\vec{P} = \myvec{1 \\ 2}
+\end{align}
+and the vertex $\vec{A}$ (different) from the origin is on the $y$-axis, then find the ordinate of $A$.
+\item The points 
+%
+\begin{align}
+\myvec{h \\ k},\myvec{1 \\ 2},\myvec{-3 \\ 4}
+\end{align}
+%
+lie on the line $L_1$. Given that $L_2 \perp L_1$ and passes through 
+\begin{align}
+\myvec{h \\ k},\myvec{4 \\ 3},
+\end{align}
+find $\frac{k}{h}$.
+%
+\item Tangent and normal are drawn at 
+\begin{equation}
+\vec{P}= \myvec{16 \\ 16}
+\end{equation}
+on the parabola 
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} + \myvec{16 & 0}\vec{x} =0
+\end{equation}
+%
+which intersect the axis of the parabola at $\vec{A}$ and $\vec{B}$ respectively.  If $\vec{C}$ is the centre 
+of the circle through the ponts $\vec{P}$, $\vec{A}$ and $\vec{B}$, find $\tan  CPB$.
+
+%
+%\item If the tangents drawn to the hyperbola 
+%\begin{equation}
+%\vec{x}^TV\vec{x} +1=0
+%\end{equation}
+%%
+%where
+%\begin{equation}
+%V = \myvec{1 & 0 \\ 0 & -4}
+%\end{equation}
+%%
+%intersect the coordinate axes at the distinct points $\vec{A}$ and $\vec{B}$, find the locus of the mid point 
+%of $AB$.
+\item $\beta$ is one of the angles between the normals to the ellipse
+\begin{equation}
+\vec{x}^TV\vec{x} =9
+\end{equation}
+%
+where
+\begin{equation}
+V = \myvec{1 & 0 \\ 0 & 3}
+\end{equation}
+%
+at the points
+\begin{equation}
+\myvec{3\cos\theta\\ \sqrt{3}\sin \theta},
+\myvec{-3\sin\theta\\ \sqrt{3}\cos \theta}, \quad \theta \in \brak{0,\frac{\pi}{2}},
+\end{equation}
+then find $\frac{2\cot \beta}{\sin 2\theta}$.
+\item Tangents drawn from the point $\myvec{-8\\0}$ to the parabola
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} + \myvec{-8 & 0}\vec{x} 
+ = 0
+\end{equation}
+%
+touch the parabola at $\vec{P}$ and  $\vec{Q}$. If $\vec{F}$ is the focus of the parabola, then find the area 
+of $\triangle PFQ$.
+\item A normal to the hyperbola 
+\begin{equation}
+\vec{x}^T\myvec{4 & 0 \\ 0 & -9}\vec{x} 
+ = 36
+\end{equation}
+%
+meets the coordinate axes $x$ and $y$ at $\vec{A}$ and $\vec{B}$ respectively.  If the parallelogram $OABP$ is 
+formed, find the locus of $\vec{P}$.
+%\item Let $\vec{P}$ 
+%be a point on the parabola
+%\begin{equation}
+%\vec{x}^T\myvec{1 & 0 \\ 0 & 0}\vec{x} +\myvec{0 & 4 }\vec{x} 
+% = 0
+%\end{equation}
+%%%
+%Given that the distance of $\vec{P}$ from the centre of the circle
+%\begin{equation}
+%\vec{x}^T\vec{x} +\myvec{6 \\ 0 }\vec{x} + 8 = 0
+%\end{equation}
+%%
+%is minimum.  Find the equation of the tangent to the parabola at $\vec{P}$.
+\item The length of the latus rectum of an ellipse is 4 ad the distance between a focus and its nearest
+vertex on the major axis is $\frac{3}{2}$.  Find its eccentricity.
+\item Find the eccentricity of an ellipse having centre at the origin, axes along the coordinate axes and 
+passing through the points 
+\begin{equation}
+\vec{P} = \myvec{4\\-1}, 
+\vec{Q} = \myvec{-2\\2}. 
+\end{equation}
+\item $\myvec{m & -1}\vec{x} + c =0$ is the normal at a point on the parabola
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} -\myvec{8 & 0 }\vec{x} = 0
+ = 0
+\end{equation}
+%
+whose focal distance is 8.  Find $\abs{c}$.
+\item The common tangents to the parabola
+\begin{equation}
+\vec{x}^T\myvec{1 & 0 \\ 0 & 0}\vec{x} -\myvec{0\\ 4 }\vec{x} = 0
+ = 0
+\end{equation}
+%
+intersect at the point $\vec{P}$.  Find the distance of $\vec{P}$ from the origin.
+\item Find the equation of the normal to the hyperbola
+\begin{equation}
+\vec{x}^T\myvec{9 & 0 \\ 0 & -16}\vec{x}  = 144
+\end{equation}
+drawn at the point
+\begin{equation}
+\myvec{8\\ 3 \sqrt{3}}
+\end{equation}
+\item Find the eccentricity of the hyperbola whose length of the latus rectum is equal to 8 and the length of 
+its conjugate axis is equal to half the distance between its foci. 
+%\item $\vec{P}$ and $\vec{Q}$ are two distinct points on the parabola
+%\begin{equation}
+%\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} -\myvec{4 & 0 }\vec{x} 
+% = 0
+%\end{equation}
+%with parameters $t$ and $t_1$ respectively.  If the normal at $\vec{P} $ passes through $\vec{Q}$, then find 
+%the minimum value of $t_1^2$.
+\item A hyperbola whose transverse axis is along the major axis of the conic
+\begin{equation}
+\vec{x}^TV\vec{x} =51
+\end{equation}
+%
+where
+\begin{equation}
+V = \myvec{3 & 0 \\ 0 & 27}
+\end{equation}
+and has vertices at the foci of this conic.  If the eccentricity of the hyperbola is $\frac{3}{2}$, which of 
+the following points doesnot lie on it?
+\begin{enumerate}
+\item $\myvec{ 0 \\ 2}$
+\item $\myvec{\sqrt{5}  \\ 2\sqrt{2}}$
+\item $\myvec{\sqrt{10}  \\ 2\sqrt{3}}$
+\item $\myvec{5 \\ 2\sqrt{3}}$
+\end{enumerate}
+%\item A tangent at a point on the ellipse 
+%\begin{equation}
+%\vec{x}^TV\vec{x} =51
+%\end{equation}
+%%
+%where
+%\begin{equation}
+%V = \myvec{3 & 0 \\ 0 & 27}
+%\end{equation}
+%%
+%meets the coordinate axes at  $\vec{A}$  and  $\vec{B}$.  If   $\vec{O}$  be the origin, find the minimum area 
+%of $\triangle OAB$.
+\item The eccentricity of the standard hyperbola passing through the point 
+\begin{equation}
+\vec{P}= \myvec{4 \\ 6}
+\end{equation}
+is 2.  Find the equation of the tangent to the hyperbola at $\vec{P}$.
+\item The tangent and normal lines at the point 
+\begin{equation}
+\vec{P}= \myvec{\sqrt{3} \\ 1}
+\end{equation}
+%
+to the circle 
+\begin{equation}
+\norm{\vec{x}}= 2
+\end{equation}
+and the $x-$axis form a triangle. Find the area of this triangle.
+\item An ellipse has centre at the origin and the difference of the lengths of its major and minor axis is 10. If one of its foci is at 
+\begin{equation}
+\vec{F}= \myvec{0 \\ 5\sqrt{3}},
+\end{equation}
+%
+find the length of its latus rectum.
+\item The tangent to the parabola 
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} - \myvec{4 & 0}\vec{x} =0
+\end{equation}
+%
+at the point where it intersects the circle 
+\begin{equation}
+\norm{\vec{x}}= \sqrt{5}
+\end{equation}
+%
+in the first quadrant, passes through the point
+\begin{enumerate}
+\item $\myvec{-\frac{1}{3}\\\frac{4}{3}}$
+\item $\myvec{\frac{1}{4}\\\frac{3}{4}}$
+\item $\myvec{\frac{3}{4}\\\frac{7}{4}}$
+\item $\myvec{-\frac{1}{4}\\\frac{1}{2}}$
+
+\end{enumerate}
+%\item Find the shortest distance between the line 
+%\begin{equation}
+%\myvec{1 & -1 }\vec{x}  =0
+%\end{equation}
+%%
+%and the curve
+%\begin{equation}
+%\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} - \myvec{1 & 0}\vec{x} + 2 =0
+%\end{equation}
+%%
+\item Find the sum of the squares of the lengths of the chords intercepted on the circle 
+\begin{equation}
+\norm{\vec{x}}= 4
+\end{equation}
+by the lines
+\begin{equation}
+\myvec{1 & 1 }\vec{x}  =n
+\end{equation}
+\item The tangents on the ellipse
+\begin{equation}
+\vec{x}^T\vec{V}\vec{x} =8
+\end{equation}
+%
+where
+\begin{equation}
+\vec{V} = \myvec{2 & 0 \\ 0 & 1}
+\end{equation}
+at the points 
+\begin{equation}
+ \myvec{2 \\ 2}, \myvec{a \\ b}
+\end{equation}
+%
+are perpendicular to each other. Find $a^2$.
+\item Let 
+\begin{equation}
+\vec{O} = \myvec{ 0 \\ 0 },
+\vec{A} = \myvec{ 0 \\ 1 }
+\end{equation}
+Find the locus of $\vec{P}$ such that the perimeter of $\triangle AOP = 4$.
+\item Find the area of the smaller of the two circles that touch the parabola 
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} - \myvec{4 & 0}\vec{x}  =0
+\end{equation}
+at the point 
+\begin{equation}
+\myvec{ 1 \\ 2 }
+\end{equation}
+and the $x$-axis.
+\item The lines 
+\begin{align}
+\myvec{1 & a-1 }\vec{x}  &=1
+\\
+\myvec{2 & a^2 }\vec{x}  &=1
+\end{align}
+%
+are perpendicular. Find the distance of their point of intersection from the origin.
+%
+\item The common tangent to the circles 
+\begin{align}
+\norm{\vec{x}}&= 2
+\\
+\norm{\vec{x}-\myvec{ 3 \\ 4 }}&= 7
+\end{align}
+passes through the point  
+\begin{enumerate}
+\item $\myvec{4\\-2}$
+\item $\myvec{-6\\4}$
+\item $\myvec{6\\-2}$
+\item $\myvec{-4\\6}$
+
+\end{enumerate}
+\item The tangent to the parabola 
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} - \myvec{1 & 0}\vec{x}  =0
+\end{equation}
+%
+at a point 
+\begin{equation}
+\myvec{ \alpha \\ \beta }, \beta > 0
+\end{equation}
+%
+is also a tangent to the ellipse 
+\begin{equation}
+\vec{x}^T\vec{V}\vec{x} =1
+\end{equation}
+%
+where
+\begin{equation}
+\vec{V} = \myvec{1 & 0 \\ 0 & 2}.
+\end{equation}
+Find $\alpha$.
+\item A rectangle is inscribed in a circle with a diameter lying along the line 
+\begin{equation}
+\myvec{1 & -3 }\vec{x}  =-7
+\end{equation}
+If two adjacent vertices of the rectangle are 
+\begin{equation}
+\myvec{ -8 \\ 5 },
+\myvec{ 6\\ 5 }
+\end{equation}
+%
+Find the area of the rectangle.
+\item Find the direction vector of a line passing through 
+\begin{equation}
+\vec{P}= \myvec{ 2 \\ 3 },
+\end{equation}
+%
+and intersecting the line 
+\begin{equation}
+\myvec{1 & 1 }\vec{x}  =7
+\end{equation}
+%
+at a distance of 4 units from $\vec{P}$.
+\item The line 
+\begin{equation}
+\myvec{-m & 1 }\vec{x}  =7\sqrt{3}
+\end{equation}
+%
+is normal to the hyperbola
+\begin{equation}
+\vec{x}^T\vec{V}\vec{x} = 72
+\end{equation}
+%
+where
+\begin{equation}
+V = \myvec{3 & 0 \\ 0 & -4}
+\end{equation}
+Find $m$.
+\item One end of the focal chord of the parabola
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} - \myvec{16 & 0}\vec{x}  =0
+\end{equation}
+%
+is at 
+\begin{equation}
+\myvec{ 1 \\ 4 }.
+\end{equation}
+%
+Find the length of this focal chord.
+\item Let $\vec{P}$ be the point on the parabola 
+\begin{equation}
+\vec{x}^T\myvec{0 & 0 \\ 0 & 1}\vec{x} - \myvec{3 & 0}\vec{x}  =0
+\end{equation}
+%
+such that $OP$ makes an angle $\frac{\pi}{6}$ with the $x-$axis, where $\vec{O}$ is the origin. A normal is drawn to the parabola intersecting the axis of the parabolat $\vec{Q}$.  If $\vec{S}$ is the focus of the parabola, then find $SQ$.
+\item Let ellipse 
+\begin{equation}
+\vec{x}^T\vec{V}\vec{x} =16
+\end{equation}
+%
+where
+\begin{equation}
+\vec{V} = \myvec{1 & 0 \\ 0 & 16}
+\end{equation}
+%
+be inscribed in a rectangle whose sides are parallel to the coordinate axes.  If the rectangle is inscribed in another ellipse that passes through the point 
+\begin{equation}
+\myvec{ 16 \\ 0 },
+\end{equation}
+%
+find the equation of the outer ellipse.
+\item Let 
+\begin{equation}
+\vec{A}=\myvec{1 \\ 3 },
+\vec{C}=\myvec{5 \\ 1 },
+\end{equation}
+be the opposite vertices of a rectangle.  The other two vertices
+\begin{equation}
+\vec{B}=\myvec{a \\ b },
+\vec{D}=\myvec{c \\ d },
+\end{equation}
+%
+lie on the line 
+\begin{equation}
+\myvec{-2 & 1 }\vec{x}  =k
+\end{equation}
+%
+for some $k$.  Find the value of 
+\begin{equation}
+\brak{a+b}\brak{c+d}
+\end{equation}
+\item The abscissae of $\vec{A},\vec{B}$ are roots of
+\begin{equation}
+x^2+2x-4 = 0
+\end{equation}
+and their ordinates are roots of 
+\begin{equation}
+y^2+4y-16 = 0
+\end{equation}
+If $AB$ is a diameter of a circle, find its radius.
+\item A line is drawn from a point 
+\begin{equation}
+\vec{P}=\myvec{-4 \\ 3 },
+\end{equation}
+%
+to cut the circle 
+\begin{equation}
+\norm{\vec{x}}= 2
+\end{equation}
+%
+at the points $\vec{A}$ and $\vec{B}$.  Find $PA.PB$.
+\item The normal to the ellipse
+\begin{equation}
+\vec{x}^T\vec{V}\vec{x} =144
+\end{equation}
+%
+where
+\begin{equation}
+\vec{V} = \myvec{ 4 & 0 \\ 0 & 9}
+\end{equation}
+%
+at a point $\vec{P}$ has direction vector 
+\begin{equation}
+\vec{m}=\myvec{3 \\ 2 }.
+\end{equation}
+%
+If this normal intersects the major axis of the ellipse at at a point $\vec{A}$, find $PA^2$.
+\end{enumerate}
+\end{document}
