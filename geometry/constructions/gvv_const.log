@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  27 OCT 2019 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  27 OCT 2019 10:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1336,14 +1336,7 @@ Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ls
 cape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) (./gvv_const.aux
-
-LaTeX Warning: Label `eq:c_tricoord' multiply defined.
-
-
-LaTeX Warning: Label `eq:tri_basic_new' multiply defined.
-
-)
+) (./gvv_const.aux)
 \openout1 = `gvv_const.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 124.
@@ -1584,16 +1577,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 747.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 747.
 Package rerunfilecheck Info: File `gvv_const.out' has not changed.
 (rerunfilecheck)             Checksum: 8F01BDF0B92B5A8D90606B63D0AFCC44;133.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 28131 strings out of 492624
- 560184 string characters out of 6119216
+ 28133 strings out of 492624
+ 560217 string characters out of 6119216
  709818 words of memory out of 5000000
- 31446 multiletter control sequences out of 15000+600000
+ 31448 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  54i,14n,69p,795b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
