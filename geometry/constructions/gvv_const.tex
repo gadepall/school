@@ -654,7 +654,7 @@ tangents from $\vec{A}$ to this circle.
 ,ref=\thesection.\theenumi]
 \item Draw $ABCD$ with $AB=a=4.5, BC = =b=5.5, CD =c= 4, AD =d=6$ and $AC=e = 7$.
 \\
-\solution Fig. \ref{fig:quad} shows a rough sketch of $ABCD$. Letting
+\solution Fig. \ref{fig:quad_ex} shows a rough sketch of $ABCD$. Letting
 \begin{align}
 \label{eq:tri_basic_new}
 \vec{C} = \myvec{p\\q}, \vec{A} = \myvec{0\\0}, \vec{B} = \myvec{a\\0}
@@ -693,10 +693,20 @@ where
 \vec{P} = \myvec{\cos\theta & -\sin \theta\\ \sin \theta & \cos \theta}
 \end{align}
 \begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./figs/quad_ex.eps}
+\caption{}
+\label{fig:quad_ex}
+\end{figure}
+The following code plots quadrilateral $ABCD$ in Fig. \ref{fig:quad}
+\begin{lstlisting}
+codes/draw_quad.py
+\end{lstlisting}
+\begin{figure}[!ht]
 \includegraphics[width=\columnwidth]{./figs/quad.eps}
 \caption{}
 \label{fig:quad}
 \end{figure}
+
 \item Construct a quadrilateral $ABCD$ such that $AB=5, \angle A = 50\degree, AC = 4, BD = 5$ and $AD = 6$.
 \item Construct $PQRS$ where $PQ = 4, QR = 6, RS = 5, PS = 5.5$ and $PR = 7$.
 \item Draw $JUMP$ with $JU = 3.5, UM=4, MP = 5, PJ =4.5$ and $PU = 6.5$
