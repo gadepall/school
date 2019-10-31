@@ -13,5 +13,5 @@ import shlex
 a = 6
 c = 5
 B = np.pi*60/180
-b = np.sqrt(a**+c**-2*a*c*np.cos(B))
+b = np.sqrt(a**2+c**2-2*a*c*np.cos(B))
 print (b)

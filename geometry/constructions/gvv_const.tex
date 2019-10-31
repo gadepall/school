@@ -253,7 +253,7 @@ This manual shows how to construct geometric figures using Python. Exercises are
 \end{abstract}
 Download all codes for this manual from 
 \begin{lstlisting}
-svn co
+svn co https://github.com/gadepall/school/trunk/geometry/constructions/codes
 \end{lstlisting}
 \section{Triangle}
 \begin{enumerate}[label=\thesection.\arabic*
@@ -475,17 +475,12 @@ b^2 &= a^2 + c^2
 \end{align}
 which can be simplified to obtain
 \begin{align}
-c^2 + 36c^2 -180&= 0
+ 36c -180&= 0
 \\
-\implies\brak{c + 18}^2 -18^2 - 180 &= 0
-\\
+\implies c&=5
 \end{align}
-which can be simplified as
-\begin{align}
-\implies \brak{c+18 }^2 &= \brak{18^2+180}
-\\
-\implies c &= -18 \pm \sqrt{18^2+180}
-\end{align}
+%
+and $b = 13$
 \item In $\triangle ABC$,  $a = 7, \angle B = 75^{\degree}$ and $b+c = 13$. 
 %If 
 %\begin{align}
@@ -493,22 +488,24 @@ which can be simplified as
 %a^2+c^2-b^2 = 2ac \cos B
 %\end{align}
 Find $b$ and $c$ and sketch $\triangle ABC$.
+\\
+\solution Use cosine formula.
 \item In $\triangle ABC$,  $a = 8, \angle B = 45^{\degree}$ and $c-b = 3.5$.
 Sketch $\triangle ABC$.
-\\
-\solution The general solution of a quadratic equation  
-\begin{align}
-\label{eq:quad_eq}
-\alpha x^2+\beta x+\gamma = 0
-\end{align}
-%
-is
-\begin{align}
-\label{eq:quad_eq_sol}
-x = \frac{-\beta \pm \sqrt{\beta^2-4\alpha\gamma}}{2\alpha}
-\end{align}
-%
-Using this and \eqref{eq:b_cos_form}, $b$ and $c$ can be obtained.
+%\\
+%\solution The general solution of a quadratic equation  
+%\begin{align}
+%\label{eq:quad_eq}
+%\alpha x^2+\beta x+\gamma = 0
+%\end{align}
+%%
+%is
+%\begin{align}
+%\label{eq:quad_eq_sol}
+%x = \frac{-\beta \pm \sqrt{\beta^2-4\alpha\gamma}}{2\alpha}
+%\end{align}
+%%
+%Using this and \eqref{eq:b_cos_form}, $b$ and $c$ can be obtained.
 
 \item In $\triangle ABC$,  $a = 6, \angle B = 60^{\degree}$ and $b-c = 2$. 
 Sketch $\triangle ABC$.
@@ -580,7 +577,7 @@ Solving the equivalent matrix equation gives the desired answer.
 \item Construct  $\triangle LMN$ right angled at $M$ such that $LN = 5$ and $MN = 3$.
 \item Construct  $\triangle PQR$ right angled at $Q$ such that $QR = 8$ and $PR = 10$.
 \item Construct  right angled $\triangle $ whose hypotenuse  is 6 and one of the legs is 4.
-\item Construct  an isoscelese right angled $\triangle ABC$ right angled at $C$ such $AC = 6$.
+\item Construct  an isosceles right angled $\triangle ABC$ right angled at $C$ such $AC = 6$.
 \item Construct the  triangles in Table \ref{table:triangle}.
 \begin{table}[!ht]
 \input{./figs/Triangle}
@@ -612,10 +609,11 @@ codes/draw_circle_eg.py
 \caption{}
 \label{fig:circle}
 \end{figure}
-\item Draw a circle of diamter 6.1
+\item Draw a circle of diameter 6.1
 
 \item Draw a circle of radius 3.  Mark any point $\vec{A}$ on the circle, point  $\vec{B}$ inside the circle  and point  $\vec{C}$ outside the circle.
 \\
+\solution 
 For any angle $\theta$, a point on the circle with radius 3 has coordinates
 \begin{align}
 3\myvec{\cos \theta\\ \sin\theta}
