@@ -154,11 +154,28 @@ a &= \frac{\mydet{11 & 2\\0 & -\sqrt{2}}}{\mydet{1 & 2\\1 & -\sqrt{2}}} = \frac{
 b &= \frac{\mydet{1 & 11\\1 & 0}}{\mydet{1 & 2\\1 & -\sqrt{2}}} = \frac{11}{2+\sqrt{2}}
 \end{align}
 %
-The following code may be used to compute $a, b$ and $c$.
+by expanding the determinants.  The following code may be used to compute $a, b$ and $c$.
 \begin{lstlisting}
 codes/constructions/triangle_det.py
 \end{lstlisting}
-
+\item Repeat Problem \ref{prob:const_tr_baudh_cramer} using a single matrix equation.
+\\
+\solution The equations 
+\begin{align}
+\label{eq:tr_const_ex_sum_abc}
+a + 2b &= 11
+\\
+a - b\sqrt{2} &=0
+\\
+b-c &=0
+\end{align}
+can be expressed as a single matrix equation
+\begin{align}
+\label{eq:tr_const_ex_sum_abc_mat}
+\myvec{1 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1} \myvec{a\\b\\c} &= \myvec{11\\0\\0}
+\end{align}
+%
+and can be solved using Cramer's rule
 \item Draw $\triangle ABC$ with $a = 6, c = 5$ and $\angle B = 60 \degree$. 
 \\
 \solution 
@@ -198,7 +215,7 @@ c
 \end{pmatrix}
 \end{align}
 %
-Using the properties of determinants,
+Using Cramer's rule and determinants,
 %
 \begin{align}
 \cos A = \frac{

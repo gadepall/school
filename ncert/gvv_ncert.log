@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  2 NOV 2019 07:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  2 NOV 2019 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1452,11 +1452,11 @@ File: ./constructions/figs/rt_triangle.eps Graphic file (type eps)
 
 ]
 File: ./constructions/figs/triangle.eps Graphic file (type eps)
- <./constructions/figs/triangle.eps> [2] (./constructions/figs/fig2.1.tex))
-(./constructions/triangle_exercises.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <./constructions/figs/triangle.eps> [2]
+Underfull \vbox (badness 4060) has occurred while \output is active []
 
- [3]
+
+(./constructions/figs/fig2.1.tex) [3]) (./constructions/triangle_exercises.tex
 (./constructions/figs/Triangle.tex
 \gnumericTableWidth=\skip75
 \gnumericTableWidthComplete=\skip76
@@ -1472,9 +1472,8 @@ Overfull \hbox (23.39996pt too wide) in paragraph at lines 158--323
 [][] 
  []
 
-))
+)) [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
- [4]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
  (./gvv_ncert.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 294.
@@ -1484,12 +1483,12 @@ Package rerunfilecheck Info: File `gvv_ncert.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
  ) 
 Here is how much of TeX's memory you used:
- 31924 strings out of 492624
- 687403 string characters out of 6119216
- 903352 words of memory out of 5000000
- 35246 multiletter control sequences out of 15000+600000
+ 31926 strings out of 492624
+ 687455 string characters out of 6119217
+ 897353 words of memory out of 5000000
+ 35248 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,18n,69p,501b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert.dvi (4 pages, 57872 bytes).
+Output written on gvv_ncert.dvi (4 pages, 60112 bytes).
