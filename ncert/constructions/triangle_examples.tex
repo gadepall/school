@@ -175,7 +175,30 @@ can be expressed as a single matrix equation
 \myvec{1 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1} \myvec{a\\b\\c} &= \myvec{11\\0\\0}
 \end{align}
 %
-and can be solved using Cramer's rule
+and can be solved using Cramer's rule as
+\begin{align}
+\label{eq:tr_const_ex_sum_abc_mat_sol}
+a &= \frac{\mydet{11 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1}}{\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1}} 
+\\
+b &= \frac{\mydet{0 & 11 & 0\\1 & 0 & 0\\0 & 0 & -1}}{\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1}} 
+\\
+c &= \frac{\mydet{0 & 2 & 11\\1 & -\sqrt{2} & 0\\0 & 1 & 0}}{\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1}} 
+\end{align}
+The determinant
+\begin{multline}
+\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1} = 0\times \mydet{-\sqrt{2} & 0\\ 1 & -1} 
+\\
+-2 \times  \mydet{1 &  0\\0 &  -1} + 0 \times \mydet{1 & -\sqrt{2} \\0 & 1 }
+\end{multline}
+%
+The determinant can also be expressed as
+\begin{multline}
+\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1} = 0\times \mydet{-\sqrt{2} & 0\\ 1 & -1} 
+\\
+-1 \times  \mydet{2 &  0\\1 &  -1} + 0 \times \mydet{2 & 0\\-\sqrt{2} & 0 }
+\end{multline}
+%
+The determinants of larger matrices can be expressed similarly.
 \item Draw $\triangle ABC$ with $a = 6, c = 5$ and $\angle B = 60 \degree$. 
 \\
 \solution 
