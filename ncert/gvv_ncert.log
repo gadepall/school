@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  7 NOV 2019 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  8 NOV 2019 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1444,35 +1444,41 @@ File: tlc.eps Graphic file (type eps)
  (./line/coord.tex
 File: ./line/figs/section.eps Graphic file (type eps)
  <./line/figs/section.eps>)
-(./line/coord_ex.tex [1
+(./line/coord_ex.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
 ]
-Underfull \vbox (badness 4713) has occurred while \output is active []
+Underfull \vbox (badness 1454) has occurred while \output is active []
 
 )
-(./line/section.tex [2]) (./line/line_equation.tex)
+(./line/section.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2])
+(./line/line_equation.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 (./triangle/triangle_const_examples.tex
 File: ./triangle/figs/rt_triangle.eps Graphic file (type eps)
  <./triangle/figs/rt_triangle.eps>
+[3]
 File: ./triangle/figs/triangle.eps Graphic file (type eps)
-
-<./triangle/figs/triangle.eps> [3]
+ <./triangle/figs/triangle.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-(./triangle/figs/fig2.1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+(./triangle/figs/fig2.1.tex) [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
-(./triangle/triangle_const_exercises.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-(./triangle/figs/Triangle.tex
+)
+(./triangle/triangle_const_exercises.tex [6] (./triangle/figs/Triangle.tex
 \gnumericTableWidth=\skip75
 \gnumericTableWidthComplete=\skip76
 \gnumericMultiRowLength=\skip77
@@ -1487,12 +1493,12 @@ Overfull \hbox (23.39996pt too wide) in paragraph at lines 158--323
 [][] 
  []
 
-)) (./triangle/tri_geo.tex [6]) (./quad/quad_exam.tex
+)) (./triangle/tri_geo.tex) (./quad/quad_exam.tex [7]
 File: ./quad/figs/quad_ex.eps Graphic file (type eps)
 
 <./quad/figs/quad_ex.eps>
 File: ./quad/figs/quad.eps Graphic file (type eps)
- <./quad/figs/quad.eps> [7]) (./quad/quad_exer.tex
+ <./quad/figs/quad.eps>) (./quad/quad_exer.tex
 Underfull \hbox (badness 1430) in paragraph at lines 9--10
 []\OT1/txr/m/n/12 Construct a quadri-lat-eral $\OML/txmi/m/it/12 ABCD$ \OT1/txr
 /m/n/12 such that
@@ -1503,7 +1509,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 15--16
 []\OT1/txr/m/n/12 Can you con-struct the above quadri-lat-eral
  []
 
-
+[8]
 Underfull \hbox (badness 2111) in paragraph at lines 18--19
 []\OT1/txr/m/n/12 Construct $\OML/txmi/m/it/12 PLAN$ \OT1/txr/m/n/12 where $\OM
 L/txmi/m/it/12 PL \OT1/txr/m/n/12 = 4\OML/txmi/m/it/12 ; LA \OT1/txr/m/n/12 =
@@ -1516,7 +1522,7 @@ Underfull \hbox (badness 1360) in paragraph at lines 22--23
 mi/m/it/12 ; RU \OT1/txr/m/n/12 =
  []
 
-) (./quad/quad_geo.tex [8]) (./circle/circle_examples.tex
+) (./quad/quad_geo.tex) (./circle/circle_examples.tex
 Underfull \hbox (badness 1454) in paragraph at lines 4--12
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The tan-gent is per-pen-dic-u-lar to
 
@@ -1535,15 +1541,19 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 317.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
 Package rerunfilecheck Info: File `gvv_ncert.out' has not changed.
 (rerunfilecheck)             Checksum: EC9577EB107520BF32D4C87709615AD1;1046.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
  ) 
 Here is how much of TeX's memory you used:
  31998 strings out of 492624
  688644 string characters out of 6119216
- 904353 words of memory out of 5000000
+ 902353 words of memory out of 5000000
  35281 multiletter control sequences out of 15000+600000
  67844 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,18n,69p,501b,1161s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert.dvi (10 pages, 127436 bytes).
+Output written on gvv_ncert.dvi (10 pages, 133852 bytes).
