@@ -2,9 +2,7 @@
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 
-\item Do the points $\myvec{3\\2}, \myvec{-2\\-3}, \myvec{2\\3} $ form a triangle?  If so, name the type of triangle formed.
 
-\item Show that the points $\myvec{1\\7}, \myvec{4\\2}, \myvec{-1\\-1}, \myvec{-4\\4} $  are the vertices of a square.
 \item Verify if $\vec{A} = \myvec{3\\1}, \vec{B} = \myvec{6\\4}, \vec{C} = \myvec{8\\6}$ are points on a line.
 \item Find the condition for $\vec{x} = \myvec{x_1\\x_2}$ to be equidistant from the points $\myvec{7\\1}, \myvec{3\\5}$.
 \item Find a point on the $y$-axis which is equidistant from the points $\vec{A} = \myvec{6\\5}, \vec{B} = \myvec{-4\\3}$.
@@ -28,33 +26,23 @@ codes/line/draw_section.py
 \caption{}
 \label{fig:section}
 \end{figure}
-\item Find a unit vector in the  direction of \myvec{2\\3\\1}.
-\item Find the direction vector of $PQ$, where 
+\item Find the coordinates of the point which divides the line segment joining the points \myvec{4\\-3} and \myvec{8\\5} in the ratio $3:1$ internally.
+\item In what ratio does the point \myvec{-4\\6} divide the line segment joining the points 
+%
 \begin{align}
-\vec{P} = \myvec{2\\3\\0},
-\vec{Q} = \myvec{-1\\-2\\-4}
+\vec{A} = \myvec{-6\\10},
+\vec{B} = \myvec{3\\-8}
 \end{align}
-\item Find the angle between the vectors 
+%
+\item Find the coordinates of the points of trisection of the line segement joining the points
+%
 \begin{align}
-\myvec{1\\-2\\3},
-\myvec{3\\-2\\1}
+\vec{A} = \myvec{2\\-2},
+\vec{B} = \myvec{-7\\4}
 \end{align}
-\item Find the projection of the vector 
-\begin{align}
-\myvec{1\\3\\7}
-\end{align}
-on the vector
-\begin{align}
-\myvec{7\\-1\\8}
-\end{align}
-\item Find a unit vector perpendicular to each of the vectors
-$\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$, where 
-\begin{align}
-\vec{a}=\myvec{1\\1\\1},
-\vec{b}=\myvec{1\\2\\3}.
-\end{align}
-\item Write down a unit vector in the xy-plane, makeing an angle of $30\degree$ with the positive direction of the x-axis.
-\item Find the value of $x$ for which $x\myvec{1\\1\\1}$ is a unit vector.
+%
+\item Find the ratio in which the y-axis divides the line segment joining the points \myvec{5\\-6} and \myvec{-1\\-4}.
+\item Find the value of $k$ if the points $\vec{A}=\myvec{2\\3}, \vec{B}=\myvec{4\\k}$ and $\vec{C}=\myvec{6\\-3}$ are collinear.
 \item Find the direction vectors and slopes of the lines passing through the points
 %
 \begin{enumerate}
@@ -66,8 +54,10 @@ $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$, where
 %
 \item If the angle between two lines is $\frac{\pi}{4}$ and the slope of one of the lines is $\frac{1}{4}$ find the slope of the other line.
 \item The line through the points \myvec{-2\\6} and \myvec{4\\8} is perpendicular to the line through the points \myvec{8\\12} and $\myvec{x\\24}$.  Find the value of $x$.
-\item Find the equations of the lines parallel to axes and passing through \myvec{– 2, 3}.
+\item Two positions of time and distance are recorded as, when $T = 0, D = 2$ and when $T = 3, D = 8$. Using the concept of slope, find law of motion, i.e., how distance depends upon time.
+\item Find the equations of the lines parallel to the axes and passing through \myvec{-2\\3}.
 \item Find the equation of the line through \myvec{– 2\\ 3} with slope –4.
+\item Find the equations of the lines parallel to axes and passing through \myvec{– 2, 3}.
 \item Write the equation of the line through the points \myvec{1\\-1} and \myvec{3\\5}.
 \item Wrire the equation of the lines for which $\tan \theta = \frac{1}{2}$, where $\theta$ is the inclination of the line and 
 \begin{enumerate}
@@ -76,7 +66,6 @@ $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$, where
 \end{enumerate}
 \item Find the equation of the line, which makes intercepts -3 and 2 on the x and y axes respectively.
 \item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
-\item Two positions of time and distance are recorded as, when $T = 0, D = 2$ and when $T = 3, D = 8$. Using the concept of slope, find law of motion, i.e., how distance depends upon time.
 \item The Farenheit temperature $F$ and absolute temperature $K$ satisfy a linear equation.  Given $K=273$ when $F=32$ and that $K=373$  when $F=212$, express $K$ in terms of $F$ and find the value of $F$, when $K=0$.
 \item Equation of a line is 
 \begin{align}
@@ -145,5 +134,314 @@ is bisected at the point \myvec{1\\5}.  Obtain its equation.
 \end{align}
 %
 are  equal is a straight line.
+%
+\item Find the distance between the points
+%
+\begin{align}
+\vec{P} = \myvec{1\\-3\\4},
+\vec{Q} = \myvec{-4\\1\\2}
+\end{align}
+%
+\item Show that the points 
+$
+\vec{A}=\myvec{-2\\3\\5}, 
+\vec{B}=\myvec{1\\2\\3}$ 
+and 
+$ \vec{C}=\myvec{7\\0\\-1}$ 
+are collinear.
+%
+\item Find the equation of set of points $\vec{P}$ such that
+\begin{align}
+PA^2+PB^2 =2k^2,
+\end{align}
+%
+\begin{align}
+\vec{A} = \myvec{3\\4 \\5},
+\vec{B} = \myvec{-1\\3 \\-7},
+\end{align}
+%
+respectively.
+%
+\item Find the coordinates of a point which divides the line segment joining the points \myvec{1\\-2\\3} and \myvec{3\\4\\-5} in the ratio $2:3$
+\begin{enumerate}
+\item internally, and
+\item externally.
+\end{enumerate}
+%
+\item Using section formular, prove that the three points \myvec{-4\\6\\10}, \myvec{2\\4\\6} and \myvec{14\\0\\-2} are collinear.
+%
+\item Find the ratio in which the line segment joining the points \myvec{4\\8\\10} and \myvec{6\\10\\-8} is divided by the YZ-plane.
+%
+\item Find the equation of the set of points $\vec{P}$ such that its distances from the points
+$
+\vec{A}=\myvec{3\\4\\-5}, 
+\vec{B}=\myvec{-2\\1\\4}
+$ 
+%
+\item Find the values of $x, y, z$ such that 
+\begin{align}
+\myvec{x\\2\\z}= \myvec{2\\y\\1}
+\end{align}
+%
+\item If
+\begin{align}
+\vec{a} = \myvec{1\\2}, \vec{b} = \myvec{2\\1},
+\end{align}
+verify if  
+\begin{enumerate}
+\item $\norm{\vec{a}}=\norm{\vec{b}}$
+
+\item $\vec{a}=\vec{b}$
+\end{enumerate}
+%
+\item Find a unit vector in the  direction of \myvec{2\\3\\1}.
+%
+\item Find a vector $\vec{x}$ in the direction of \myvec{1\\-2} such that $\norm{\vec{x}} = 7$.
+%
+\item Find a unit vector in the direction of $\vec{a}+\vec{b}$, where 
+%
+\begin{align}
+\vec{a} = \myvec{2\\2\\-5}, \vec{b} = \myvec{2\\1\\3}.
+\end{align}
+%
+\item Find a unit vector in the direction of 
+%
+\begin{align}
+\myvec{1\\1\\-2}.
+\end{align}
+%
+\item Find the direction vector of $PQ$, where 
+\begin{align}
+\vec{P} = \myvec{2\\3\\0},
+\vec{Q} = \myvec{-1\\-2\\-4}
+\end{align}
+%
+\item If 
+\begin{align}
+\vec{P} = 3\vec{a}-2\vec{b}
+\\
+\vec{Q} = \vec{a}+\vec{b}
+\end{align}
+%
+find $\vec{R}$, which divides $PQ$ 
+\begin{enumerate}
+\item internally,
+\item externally.
+\end{enumerate}
+%
+\item Find the angle between two vectors $\vec{a}$ and $\vec{b}$ where 
+%
+\begin{align}
+\norm{\vec{a}} = 1,
+\norm{\vec{b}} = 2,
+\vec{a}^T\vec{b} = 1.
+\end{align}
+%
+\item Find the angle between the vectors 
+$\vec{a}=\myvec{1\\1\\-1}$
+  and 
+$\vec{b}=\myvec{1\\-1\\1}$.
+\item If 
+$\vec{a}=\myvec{5\\-1\\-3}$
+  and 
+$\vec{b}=\myvec{1\\3\\-5}$,
+%
+then show that the vectors $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$ are perpendicular.
+%
+\item Find the projection of the vector 
+\begin{align}
+\vec{a} = \myvec{2\\3\\2}
+\end{align}
+on the vector
+\begin{align}
+\myvec{1\\2\\1}.
+\end{align}
+%
+\item Find $\norm{\vec{a}-\vec{b}}$, if 
+\begin{align}
+\norm{\vec{a}} = 2, 
+\norm{\vec{b}} = 3,
+\vec{a}^T\vec{b} = 4.
+\end{align}
+%
+\item If $\vec{a}$ is a unit vector and 
+%
+\begin{align}
+\brak{\vec{x}-\vec{a}}\brak{\vec{x}+\vec{a}} = 8, 
+\end{align}
+%
+then find $\vec{x}$.
+%
+\item Given
+\begin{align}
+\vec{a}=\myvec{2\\1\\3},
+\vec{b}=\myvec{3\\5\\-2},
+\end{align}
+find $\norm{\vec{a} \times \vec{b}}$.
+%
+\item Find a unit vector perpendicular to each of the vectors
+$\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$, where 
+\begin{align}
+\vec{a}=\myvec{1\\1\\1},
+\vec{b}=\myvec{1\\2\\3}.
+\end{align}
+%
+\item Show that 
+$\vec{A}=\myvec{1\\1\\1}, \vec{B}=\myvec{2\\5\\0}, \vec{C}=\myvec{3\\2\\-3}$  and $ \vec{D}=\myvec{1\\-6\\-1}$, are collinear.
+%
+\item Let $\norm{\vec{a}} = 3, \norm{\vec{b}}= 4, \norm{\vec{c}} = 5$ such that each vector is perpendicular to the other two.  Find $\norm{\vec{a}+\vec{b}+\vec{c}}$.
+%
+\item Given 
+\begin{align}
+ \vec{a}+\vec{b}+\vec{c} = \vec{0}, 
+\end{align}
+evaluate 
+\begin{align}
+ \vec{a}^T\vec{b}+\vec{b}^T\vec{c}+\vec{c}^T\vec{a},
+\end{align}
+given that $\norm{ \vec{a}}=3, \norm{ \vec{b}}= 4$ and $\norm{ \vec{c}} = 2 $.
+%
+\item Let $\bm{\alpha} = \myvec{3\\-1\\0}, \bm{\beta} = \myvec{2\\1\\-3}$.  Find $\bm{\beta}_1, \bm{\beta}_2 $ such that $\bm{\beta}=\bm{\beta}_1+\bm{\beta}_2, \bm{\beta}_1 \parallel  \bm{\alpha} $ and $\bm{\beta}_2 \perp \bm{\alpha} $.
+%
+\item Find a unit vector that makes an angle of $90\degree, 60\degree$ and $30\degree$ with the positive x, y and z axis respectively.
+%
+\item Find a unit vector in the direction of \myvec{2\\-1\\-2}.
+%
+\item Find a unit vector in the direction of the line passing through \myvec{-2\\4\\-5} and $\myvec{1\\2\\3}$.
+%
+\item Show that 
+$
+\vec{A}=\myvec{2\\3\\-4}, 
+\vec{B}=\myvec{1\\-2\\3} \text{ and } 
+\vec{C}=\myvec{3\\8\\-11}$  
+are collinear.
+%
+\item Find the equation of a line through the point \myvec{5\\2\\-4} and parallel to the vector \myvec{3\\2\\-8}.
+\item Find the equation of a line passing through the points \myvec{-1\\0\\2} and \myvec{3\\4\\6}.
+\item If
+\begin{align}
+\frac{x+3}{2} = \frac{y-5}{4} = \frac{z+6}{2}, 
+\end{align}
+%
+find the equation of the line.
+%
+\item Find the angle between the pair of lines given by 
+\begin{align}
+\bm{x} &= \myvec{3\\2\\-4} + \lambda_1\myvec{1 \\ 2 \\2}
+\\
+\bm{x} &= \myvec{5\\-2\\0} + \lambda_2\myvec{3 \\ 2 \\6}
+\end{align}
+%
+\item Find the angle between the pair of lines
+\begin{align}
+\frac{x+3}{3} = \frac{y-1}{5} &= \frac{z+3}{4}, 
+\\
+\frac{x+1}{1} = \frac{y-4}{1} &= \frac{z-5}{2} 
+\end{align}
+%
+\item Find the shortest distance between the lines 
+\begin{align}
+L_1: \quad \bm{x} &= \myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
+\\
+L_2: \quad \bm{x} &= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
+\end{align}
+\item Find the 
+distance between the lines 
+\begin{align}
+L_1: \quad \bm{x} &= \myvec{1\\2\\-4} + \lambda_1\myvec{2 \\ 3 \\6}
+\\
+L_2: \quad \bm{x} &= \myvec{3\\3\\-5} + \lambda_2\myvec{2 \\ 3 \\6}
+\end{align}
+%
+\item Find the equation of a plane which is at a distance of $\frac{6}{\sqrt{29}}$ from the origin and has  normal vector \myvec{2\\-3\\4}.
+\item Find the unit normal vector of the plane 
+\begin{align}
+\myvec{6 & -3 & -2}\bm{x}  = 1.
+\end{align}
+\item Find the distance of the plane 
+\begin{align}
+\myvec{2 & -3 & 4}\bm{x}-6  = 0
+\end{align}
+%
+from the origin.
+\item Find the coordinates of the foot of the perpendicular drawn from the origin to the plane 
+\begin{align}
+\myvec{2 & -3 & 4}\bm{x}-6  = 0
+\end{align}
+%
+\item Find the equation of the plane which passes through the point \myvec{5\\2\\-4} and perpendicular to the line with direction vector \myvec{2\\3\\-1}.
+\item Find the equation of the plane passing through 
+$
+\bm{R} = \myvec{2\\5\\-3},
+\bm{S}= \myvec{-2\\-3\\5}
+$ 
+and 
+$
+\bm{T}= \myvec{5\\3\\-3}.
+$
+\item Find the equation of the plane with intercepts 2, 3 and 4 on the x, y and z axis respectively.
+\item Find the equation of the plane passing through the intersection of the planes 
+\begin{align}
+\myvec{1 & 1 & 1}\bm{x}&=6  
+\\
+\myvec{2 & 3 & 4}\bm{x}&=-5
+\end{align}
+%
+and the point \myvec{1\\1\\1}.
+\item Show that the lines 
+\begin{align}
+\frac{x+3}{-3} = \frac{y-1}{1} &= \frac{z-5}{5}, 
+\\
+\frac{x+1}{-1} = \frac{y-2}{2} &= \frac{z-5}{5} 
+\end{align}
+%
+are coplanar.
+\item Find the angle between the two planes
+\begin{align}
+\myvec{2 & 1 & -2}\bm{x}&=5
+\\
+\myvec{3 &-6 & -2}\bm{x}&=7.
+\end{align}
+%
+\item Find the angle between the two planes
+\begin{align}
+\myvec{2 & 2 & -2}\bm{x}&=5
+\\
+\myvec{3 &-6 & 2}\bm{x}&=7.
+\end{align}
+%
+Find the distance of a point \myvec{2\\5\\-3} from the plane
+\begin{align}
+\myvec{6 & -3 & 2}\bm{x}=4
+\end{align}
+%
+Find the angle between the line 
+%
+\begin{align}
+\frac{x+1}{2} = \frac{y}{3} = \frac{z-3}{6} 
+\end{align}
+%
+and
+%
+the plane 
+\begin{align}
+\myvec{10 & 2 & -11}\bm{x}=3
+\end{align}
+%
+\item Find the equation of the plane that contains the point $\myvec{1\\-1\\2}$ and is perpedicular to each of the planes
+\begin{align}
+\myvec{2 & 3 & -2}\bm{x}&=5
+\\
+\myvec{1 & 2 & -3}\bm{x}&=8
+\end{align}
+%
+\item Find the distance between the point $\bm{P}=\myvec{6\\5\\9}$ and the plane determined by the points $\bm{A}=\myvec{3\\-1\\2}, \bm{B}=\myvec{5\\2\\4}$ and $\bm{C}=\myvec{-1\\-1\\6}$.
+\item Find the coordinates of the point where the lines through the points
+$
+\bm{A}=\myvec{3\\4\\1}, 
+\bm{B}=\myvec{5\\1\\6}
+$
+crosses the XY plane.
+%
 \end{enumerate}
 %
