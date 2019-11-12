@@ -17,6 +17,8 @@ A = np.array([3,2])
 B = np.array([-2,-3]) 
 C = np.array([2,3]) 
 
+N=np.vstack((B-A,C-A))
+print (np.linalg.matrix_rank(N))
 
 #Generating all lines
 x_AB = line_gen(A,B)
@@ -42,9 +44,9 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('../../triangle/figs/check_tri.pdf')
-plt.savefig('../../triangle/figs/check_tri.eps')
-subprocess.run(shlex.split("termux-open ../../triangle/figs/check_tri.pdf"))
+plt.savefig('./triangle/figs/check_tri.pdf')
+plt.savefig('./triangle/figs/check_tri.eps')
+subprocess.run(shlex.split("termux-open ./triangle/figs/check_tri.pdf"))
 #else
 #plt.show()
 

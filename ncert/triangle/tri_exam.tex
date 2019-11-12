@@ -7,24 +7,33 @@
 \\
 \solution The direction vectors of $AB$ and $BC$ are 
 \begin{align}
-\vec{A}-\vec{B} &= \myvec{5\\5}
+\label{eq:tri_geo_ex_baorth}
+\vec{B}-\vec{A} &= \myvec{-5\\-5}
 \\
-\vec{B}-\vec{C} &= \myvec{4\\6}
+\vec{C}-\vec{A} &= \myvec{-1\\1}
+\label{eq:tri_geo_ex_caorth}
 \end{align}
 %
 Since 
 %
 \begin{align}
-\vec{A}-\vec{B} \ne k\brak{\vec{B}-\vec{C}},
+\vec{B}-\vec{A} \ne k\brak{\vec{C}-\vec{A}},
 \end{align}
 %
 the points are not collinear and form a triangle.  An alternative method is to create the matrix
 \begin{align}
-\myvec{\vec{A}^T\\\vec{B}^T &= \myvec{5\\5}
-\\
-\vec{B}-\vec{C} &= \myvec{4\\6}
+\vec{M} = \myvec{\vec{B}-\vec{A} & \vec{B}-\vec{A}} 
 \end{align}
-
+%
+If $rank(\vec{M}) = 1$, the points are collinear.  In this problem, 
+%
+\begin{align}
+\vec{M} = \myvec{-5 & -1\\-5 & 1}\xleftrightarrow {R_2\leftarrow R_2-R_1}\myvec{-5 & -1\\0 & 2}
+\\
+\implies rank(\vec{M}) = 2
+\end{align}
+%
+as the number of non zero rows is 2.
 The following code plots Fig. \ref{fig:check_tri}
 %
 \begin{lstlisting}
@@ -37,6 +46,28 @@ codes/triangle/check_tri.py
 \label{fig:check_tri}
 \end{figure}
 %
+From the figure, it appears that $\triangle ABC$ is right angled, with $BC$ as the hypotenuse.  From Baudhayana's theorem, this would be true if 
+\begin{align}
+\norm{\vec{B}-\vec{A}}^2+\norm{\vec{C}-\vec{A}}^2&=\norm{\vec{B}-\vec{C}}^2
+\end{align}
+which, from \eqref{eq:tri_const_norm_ac} can be expressed as
+\begin{multline}
+\norm{\vec{A}}^2 + \norm{\vec{C}}^2 - 2\vec{A}^T\vec{C}+
+\norm{\vec{A}}^2 + \norm{\vec{B}}^2 - 2\vec{A}^T\vec{B}
+\\
+=
+\norm{\vec{B}}^2 + \norm{\vec{C}}^2 - 2\vec{B}^T\vec{C}
+\end{multline}
+%
+to obtain 
+\begin{align}
+\label{eq:tri_geo_ex_orth}
+\brak{\vec{B}-\vec{A}}^T\brak{{\vec{C}-\vec{A}}&=0
+\end{align}
+%
+after simplification.  From \eqref{eq:tri_geo_ex_baorth} and \eqref{eq:tri_geo_ex_caorth}, it is easy to verify that \eqref{eq:tri_geo_ex_orth} is true for $\triangle ABC$.
+
+
 \item Find the area of a triangle whose vertices are \myvec{1\\-1}, \myvec{-4\\6} and \myvec{-3\\-5}.
 %
 \item Find the area of a triangle formed by the vertices $\vec{A}=\myvec{5\\2}, \vec{B}=\myvec{4\\7}, \vec{C}=\myvec{7\\-4}$.
