@@ -60,9 +60,9 @@ plt.legend(loc='best')
 plt.grid() # minor
 plt.axis('equal')
 #if using termux
-plt.savefig('../figs/circle.pdf')
-plt.savefig('../figs/circle.eps')
-subprocess.run(shlex.split("termux-open ../figs/circle.pdf"))
+plt.savefig('circle.pdf')
+plt.savefig('circle.eps')
+subprocess.run(shlex.split("termux-open circle.pdf"))
 #else
 #plt.show()
 

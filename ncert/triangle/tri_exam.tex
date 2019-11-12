@@ -2,7 +2,40 @@
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 %
-\item Do the points $\myvec{3\\2}, \myvec{-2\\-3}, \myvec{2\\3} $ form a triangle?  If so, name the type of triangle formed.
+\item Do the points $\vec{A}=\myvec{3\\2}, \vec{B}=\myvec{-2\\-3}, \vec{C}=\myvec{2\\3} $ form a triangle?  If so, name the type of triangle formed.
+%
+\\
+\solution The direction vectors of $AB$ and $BC$ are 
+\begin{align}
+\vec{A}-\vec{B} &= \myvec{5\\5}
+\\
+\vec{B}-\vec{C} &= \myvec{4\\6}
+\end{align}
+%
+Since 
+%
+\begin{align}
+\vec{A}-\vec{B} \ne k\brak{\vec{B}-\vec{C}},
+\end{align}
+%
+the points are not collinear and form a triangle.  An alternative method is to create the matrix
+\begin{align}
+\myvec{\vec{A}^T\\\vec{B}^T &= \myvec{5\\5}
+\\
+\vec{B}-\vec{C} &= \myvec{4\\6}
+\end{align}
+
+The following code plots Fig. \ref{fig:check_tri}
+%
+\begin{lstlisting}
+codes/triangle/check_tri.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/check_tri.eps}
+\caption{}
+\label{fig:check_tri}
+\end{figure}
 %
 \item Find the area of a triangle whose vertices are \myvec{1\\-1}, \myvec{-4\\6} and \myvec{-3\\-5}.
 %
