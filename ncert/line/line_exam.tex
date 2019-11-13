@@ -4,7 +4,44 @@
 
 
 \item Verify if $\vec{A} = \myvec{3\\1}, \vec{B} = \myvec{6\\4}, \vec{C} = \myvec{8\\6}$ are points on a line.
+\\
+\solution Refer to Problem \ref{prob:tri_exam_coll_pts}.
+
 \item Find the condition for $\vec{x} = \myvec{x_1\\x_2}$ to be equidistant from the points $\myvec{7\\1}, \myvec{3\\5}$.
+%
+\\
+\solution From the given information,
+%
+\begin{align}
+\norm{\vec{x}-\myvec{7\\1}}^2&=\norm{\vec{x}-\myvec{3\\5}}^2
+\end{align}
+\begin{multline}
+\implies \norm{\vec{x}}^2 + \norm{\myvec{7\\1}}^2-2\myvec{7&1}\vec{x} 
+\\= 
+ \norm{\vec{x}}^2 + \norm{\myvec{3\\5}}^2-2\myvec{3&5}\vec{x} 
+\end{multline}
+%
+which can be simplified to obtain
+\begin{align}
+\label{eq:line_perp_bisect}
+\myvec{1 & -1}\vec{x} = 2
+\end{align}
+%
+which is the desired condition.  
+The following code plots Fig. \ref{fig:line_perp_bisect}
+%
+\begin{lstlisting}
+codes/line/line_perp_bisect.py
+\end{lstlisting}
+%
+cleearly showing that \eqref{eq:line_perp_bisect} is the perpendicular bisector of $AB$.
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_perp_bisect.eps}
+\caption{}
+\label{fig:line_perp_bisect}
+\end{figure}
+%
+
 \item Find a point on the $y$-axis which is equidistant from the points $\vec{A} = \myvec{6\\5}, \vec{B} = \myvec{-4\\3}$.
 \item Draw a line segement of length 7.6 cm and divide it in the ratio $5:8$.
 \\

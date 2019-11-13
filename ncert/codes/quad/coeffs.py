@@ -10,7 +10,8 @@ def norm_vec(A,B):
 #Generate line points
 def line_gen(A,B):
   len =10
-  x_AB = np.zeros((2,len))
+  dim = A.shape[0]
+  x_AB = np.zeros((dim,len))
   lam_1 = np.linspace(0,1,len)
   for i in range(len):
     temp1 = A + lam_1[i]*(B-A)
@@ -18,24 +19,35 @@ def line_gen(A,B):
   return x_AB
 
 #Generate line points
-def line_dir_pt(m,A,k1,k2):
-  len =10
-  x_AB = np.zeros((2,len))
-  lam_1 = np.linspace(k1,k2,len)
+#def line_dir_pt(m,A,k1,k2):
+#  len =10
+#  x_AB = np.zeros((2,len))
+#  lam_1 = np.linspace(k1,k2,len)
+#  for i in range(len):
+#    temp1 = A + lam_1[i]*m
+#    x_AB[:,i]= temp1.T
+#  return x_AB
+
+def line_dir_pt(m,A, dim):
+  len = 10
+  dim = A.shape[0]
+  x_AB = np.zeros((dim,len))
+  lam_1 = np.linspace(0,10,len)
   for i in range(len):
     temp1 = A + lam_1[i]*m
     x_AB[:,i]= temp1.T
   return x_AB
 
+
 #Generate line points
-def line_gen(A,B):
-  len =10
-  x_AB = np.zeros((2,len))
-  lam_1 = np.linspace(0,1,len)
-  for i in range(len):
-    temp1 = A + lam_1[i]*(B-A)
-    x_AB[:,i]= temp1.T
-  return x_AB
+#def line_gen(A,B):
+#  len =10
+#  x_AB = np.zeros((2,len))
+#  lam_1 = np.linspace(0,1,len)
+#  for i in range(len):
+#    temp1 = A + lam_1[i]*(B-A)
+#    x_AB[:,i]= temp1.T
+#  return x_AB
 
 #Foot of the Altitude
 def alt_foot(A,B,C):
