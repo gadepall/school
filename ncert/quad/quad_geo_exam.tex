@@ -1,7 +1,23 @@
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
-\item Show that the points $\myvec{1\\7}, \myvec{4\\2}, \myvec{-1\\-1}, \myvec{-4\\4} $  are the vertices of a square.
+\item Show that the points $\vec{A} = \myvec{1\\7}, \vec{B} = \myvec{4\\2}, \vec{C}=\myvec{-1\\-1},\vec{D}= \myvec{-4\\4} $  are the vertices of a square.
+\\
+\solution By inspection, 
+%
+\begin{align}
+\frac{\vec{A}+\vec{C}}{2}=\frac{\vec{B}+\vec{D}}{2} = \myvec{0\\3}
+\end{align}
+%
+Hence, the diagonals $AC$ and $BD$ bisect each other.
+%
+Also, 
+\begin{align}
+\brak{\vec{A}-\vec{C}}^T
+\brak{\vec{B}-\vec{D}} = 0
+\end{align}
+%
+$\implies AC \perp BD $.  Hence $ABCD$ is a square.
 \item If the points
 $
 \vec{A} = \myvec{6\\1}, 
@@ -10,8 +26,15 @@ $
 \vec{D} = \myvec{p\\3}
 $
 are the vertices of a parallelogram, taken in order, find the value of $p$.
+\\
+\solution $AC$ and $BD$ bisect each other.
 \item If $\vec{A} = \myvec{-5\\7}, \vec{B} = \myvec{-4\\-5}, \vec{C} = \myvec{-1\\-6}, \vec{D} = \myvec{4\\5}$, find the area of the quadrilateral $ABCD$.
 %
+\\
+\solution The area of the $ABCD$ is given by 
+\begin{align}
+
+\end{align}
 \item Show that the points 
 $\vec{A} = \myvec{1\\2\\3},
  \vec{B} = \myvec{-1\\-2\\-1},
