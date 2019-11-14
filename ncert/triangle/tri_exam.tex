@@ -230,12 +230,139 @@ it is proved that the triangle is indeed right angled.
 the vertices of a right angled triangle?
 %
 \item A tower stands vertically on the ground.  From a point on the ground, which is 15m away from the foot of the tower, the angle of elevation of the top of the tower is found to be 60$\degree$.  Find the height of the tower.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/Trig/pg1.eps}
+\caption{}
+\label{fig:trig_pg1}
+\end{figure}
+%
+\\
+\solution Fig. \ref{fig:trig_pg1} summarizes the problem. 
+%
+\begin{align}
+h = b\tan\theta = 15\tan60\degree = 15\sqrt{3}
+\end{align}
+%
 \item An electrician has to repair an electric fault pole of height 5m.  She needs to reach a point 1.3m below the top of the pole to undertake the repair work.  What should be the length of the ladder that she should use which, when inclined at an angle of 60$\degree$ to the horizontal, would enable her to reach the required position?  Also, how far from the foot of the pole should she place the foot of the ladder?
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/Trig/pg2.eps}
+\caption{}
+\label{fig:trig_pg2}
+\end{figure}
+%
+\\
+\solution Fig. \ref{fig:trig_pg2} summarizes the problem. The objective is to find $l$ and $b$.  From the figure,
+%
+\begin{align}
+h-x &= l\sin \theta = b\tan \theta
+\\
+\implies l &= \brak{h-x}\csc \theta = 3.7\csc60\degree 
+\\
+\text{and } b&=\brak{h-x}\cot\theta = 3.7 \cot \degree 
+\end{align}
 \item An observer 1.5m tall is 28.5m away from a chimney.  The angle of elevation of the top of the chimney from her eyes is 45$\degree$.  What is the height of the chimney?
 %
-\item From a point $\vec{P}$ on the goround the angle of elevation of the top of a 10m tall building is 30$\degree$.  A flag is hoisted at the top of the building and the angle of eleation of the top of the flagstaff from $\vec{P}$ is $45\degree$.  Find the length of the flagstaff and the distance of the building from the point $\vec{P}$.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/Trig/pg3.eps}
+\caption{}
+\label{fig:trig_pg3}
+\end{figure}
+%
+\\
+\solution Fig. \ref{fig:trig_pg3} summarizes the problem. The objective is to find $h$.  From the figure,
+%
+\begin{align}
+h-h_1 &=  b\tan \theta
+\\
+\implies h &= h_1+b\tan\theta 
+\\
+&= 1.5+28.5\tan45\degree 
+\\
+&= 30m
+\end{align}
+\item From a point $\vec{P}$ on the ground the angle of elevation of the top of a 10m tall building is 30$\degree$.  A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from $\vec{P}$ is $45\degree$.  Find the length of the flagstaff and the distance of the building from the point $\vec{P}$.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/Trig/pg4.eps}
+\caption{}
+\label{fig:trig_pg4}
+\end{figure}
+%
+\\
+\solution Fig. \ref{fig:trig_pg4} summarizes the problem. The objective is to find $h_2$ and $b$ while $h_1$ is known.  From the figure, 
+%
+\begin{align}
+h_1+h_2 &=  b\tan \theta_1
+\\
+h_1 &= b\tan \theta_2
+\end{align}
+%
+This can be expressed as the matrix equation 
+%
+\begin{align}
+\myvec{
+\tan \theta_1 & -1
+\\
+\tan \theta_2 &0
+}\myvec{b\\h_2}
+= h_1\myvec{1\\1}
+\end{align}
+%
+and solved.
 \item The shadow of a tower standing on a level ground is found to be 40m longer when the Sun's altitude is 30$\degree$ than when it is $60\degree$.  Find the height of the tower.
-\item The angles of depression of the top and the botto of an 8m tall building from the top of a multi-storeyed building are 30$\degree$ and 45$\degree$ respectively.  Find the height of the multi-storeyed building and the distance between the two buildings.
-
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/Trig/pg5.eps}
+\caption{}
+\label{fig:trig_pg5}
+\end{figure}
+%
+\\
+\solution Fig. \ref{fig:trig_pg5} summarizes the problem. The objective is to find $h$.  from the figure,
+%
+\begin{align}
+b_1 &= h\cot 60\degree
+\\
+b_2 &= h\cot 30\degree
+\\
+b_2-b_1 &= 40
+\\
+\implies h \brak{\cot 30\degree-\cot 60\degree}&= 40
+\\
+\text{or } h &= \frac{40}{\cot 30\degree-\cot 60\degree}
+\end{align}
+%
+\item The angles of depression of the top and the bottom of an 8m tall building from the top of a multi-storeyed building are 30$\degree$ and 45$\degree$ respectively.  Find the height of the multi-storeyed building and the distance between the two buildings.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/Trig/pg6.eps}
+\caption{}
+\label{fig:trig_pg6}
+\end{figure}
+%
+\\
+\solution Fig. \ref{fig:trig_pg6} summarizes the problem. The objective is to find $h_2$ and $b$.  From the figure, 
+%
+\begin{align}
+h_2 &= b\tan \theta_2
+\\
+h_2-h_1 &= b\tan \theta_1
+\end{align}
+%
+which can be expressed as
+%
+\begin{align}
+\myvec{
+ 1 & -\tan\theta_2 
+\\
+ 1 & -\tan\theta_1
+}\myvec{h_2\\b}
+= h_1\myvec{0\\1}
+\end{align}
+%
+and solved.
 \end{enumerate}
 %
