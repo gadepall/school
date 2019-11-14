@@ -8,6 +8,7 @@
 \solution Refer to Problem \ref{prob:tri_exam_coll_pts}.
 
 \item Find the condition for $\vec{x} = \myvec{x_1\\x_2}$ to be equidistant from the points $\myvec{7\\1}, \myvec{3\\5}$.
+\label{prob:line_perp_bisect}
 %
 \\
 \solution From the given information,
@@ -43,6 +44,9 @@ cleearly showing that \eqref{eq:line_perp_bisect} is the perpendicular bisector 
 %
 
 \item Find a point on the $y$-axis which is equidistant from the points $\vec{A} = \myvec{6\\5}, \vec{B} = \myvec{-4\\3}$.
+\\
+\solution Choose $\vec{x} = \myvec{0\\y}$ and follow the approach in Problem \eqref{prob:line_perp_bisect}. Solve for $y$.
+
 \item Draw a line segement of length 7.6 cm and divide it in the ratio $5:8$.
 \\
 \solution Let the end points of the line be 
@@ -51,6 +55,7 @@ cleearly showing that \eqref{eq:line_perp_bisect} is the perpendicular bisector 
 \end{align}
 Then the point $\vec{C}$
 \begin{align}
+\label{eq:line_section_form}
 \vec{C} = \frac{k \vec{A} + \vec{B}}{k+1}
 \end{align}
 divides $AB$ in the ration $k:1$. For the given problem, $k = \frac{5}{8}$.
@@ -64,6 +69,12 @@ codes/line/draw_section.py
 \label{fig:section}
 \end{figure}
 \item Find the coordinates of the point which divides the line segment joining the points \myvec{4\\-3} and \myvec{8\\5} in the ratio $3:1$ internally.
+\\
+\solution Using \eqref{eq:line_section_form},
+the desired point is 
+\begin{align}
+\vec{P} = \frac{3 \myvec{4\\-3} + \myvec{8\\5}}{4}
+\end{align}
 \item In what ratio does the point \myvec{-4\\6} divide the line segment joining the points 
 %
 \begin{align}
@@ -71,6 +82,8 @@ codes/line/draw_section.py
 \vec{B} = \myvec{3\\-8}
 \end{align}
 %
+\\
+\solution Use \eqref{eq:line_section_form}.
 \item Find the coordinates of the points of trisection of the line segement joining the points
 %
 \begin{align}
@@ -78,8 +91,43 @@ codes/line/draw_section.py
 \vec{B} = \myvec{-7\\4}
 \end{align}
 %
+\\
+\solution Using \eqref{eq:line_section_form}, the coordinates are
+%
+\begin{align}
+\label{eq:line_section_form_tri}
+\vec{P} &= \frac{2 \vec{A} + \vec{B}}{3}
+\\
+\vec{Q} &= \frac{ \vec{A} + 2\vec{B}}{3}
+\end{align}
+%
+
 \item Find the ratio in which the y-axis divides the line segment joining the points \myvec{5\\-6} and \myvec{-1\\-4}.
+\\
+\solution Let the corresponding point on the $y$-axis be$\myvec{0\\y}$. If the ratio be $k:1$,
+using \eqref{eq:line_section_form}, the coordinates are
+%
+\begin{align}
+\myvec{0\\y} &= k\myvec{5\\-6}+ \myvec{-1\\-4}
+\\
+\implies 0 &= 5k-1 \implies k = \frac{1}{5}
+\end{align}
+%
+
+
 \item Find the value of $k$ if the points $\vec{A}=\myvec{2\\3}, \vec{B}=\myvec{4\\k}$ and $\vec{C}=\myvec{6\\-3}$ are collinear.
+\\
+\solution Forming the matrix in \eqref{eq:tri_geo_ex_diff_mat},
+\begin{align}
+\vec{M} = \myvec{\vec{B}-\vec{A} & \vec{B}-\vec{A}} 
+= \myvec{2 & 4\\k-3 & -6}&
+\\
+\xleftrightarrow {R_1\leftarrow \frac{R_2}{2}}\myvec{1 & 2\\k-3 & -6}
+\xleftrightarrow {R_2\leftarrow R_2-\brak{k-3}R_1}\myvec{1 & 2\\0 & -2k}&
+\\
+\implies rank(\vec{M})= 1 \iff R_2 = \vec{0}, \text{or }k = 0 &
+\end{align}
+
 \item Find the direction vectors and slopes of the lines passing through the points
 %
 \begin{enumerate}
@@ -89,7 +137,51 @@ codes/line/draw_section.py
 \item Making an inclination of $60\degree$ with the positive direction of the x-axis.
 \end{enumerate}
 %
+\solution
+\begin{enumerate}
+\item If the direction vector is 
+\begin{align}
+\myvec{1\\m}, 
+\end{align}
+%
+the slope is $m$. Thus, the direction vector is
+\begin{align}
+\myvec{-1\\4} - \myvec{3\\-2} &= \myvec{-4\\6} = -\frac{1}{4} \myvec{-4\\6} 
+\\
+&=  \myvec{1\\-\frac{3}{2}} \implies m = -\frac{3}{2}
+\end{align}
+%
+\item The direction vector is
+\begin{align}
+\myvec{7\\-2} - \myvec{3\\-2} &= \myvec{4\\0} 
+\\
+&=  \myvec{1\\0} \implies m = 0
+\end{align}
+%
+\item The direction vector is
+\begin{align}
+\myvec{3\\4} - \myvec{3\\-2} &= \myvec{0\\6} 
+\\
+&=  \myvec{1\\ \infty} \implies m = \infty
+\end{align}
+%
+\item The slope is $m = \tan 60 \degree = \sqrt{3}$ and the  direction vector is
+\begin{align}
+\myvec{1\\\sqrt{3}}
+\end{align}
+\end{enumerate}
 \item If the angle between two lines is $\frac{\pi}{4}$ and the slope of one of the lines is $\frac{1}{4}$ find the slope of the other line.
+\\
+\solution The angle $\theta$ between two lines is given by 
+%
+\begin{align}
+\cos \theta &= \frac{\vec{m}_1^T\vec{m}_2}{\norm{\vec{m}_1}\norm{\vec{m}_2}}
+\\
+\implies \cos \frac{\pi}{4} &= \frac{\myvec{1\\\frac{1}{4}}^T\myvec{1\\m}}{\norm{\myvec{1\\\frac{1}{4}}}\norm{\myvec{1\\m}}}
+%\\
+%\implies \frac{1}{\sqrt{2}} = \frac{1+\frac{m}{4}}{\frac{\sqrt{17}}{4}\sqrt{1+m^2}}
+\end{align}
+%
 \item The line through the points \myvec{-2\\6} and \myvec{4\\8} is perpendicular to the line through the points \myvec{8\\12} and $\myvec{x\\24}$.  Find the value of $x$.
 \item Two positions of time and distance are recorded as, when $T = 0, D = 2$ and when $T = 3, D = 8$. Using the concept of slope, find law of motion, i.e., how distance depends upon time.
 \item Find the equations of the lines parallel to the axes and passing through \myvec{-2\\3}.
@@ -324,7 +416,11 @@ $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$, where
 \end{align}
 %
 \item Show that 
-$\vec{A}=\myvec{1\\1\\1}, \vec{B}=\myvec{2\\5\\0}, \vec{C}=\myvec{3\\2\\-3}$  and $ \vec{D}=\myvec{1\\-6\\-1}$, are collinear.
+$\vec{A}=\myvec{-2\\3\\5}, \vec{B}=\myvec{1\\2\\3}, \vec{C}=\myvec{7\\0\\-1}$, are collinear.
+%
+\item If 
+$\vec{A}=\myvec{1\\1\\1}, \vec{B}=\myvec{2\\5\\0}, \vec{C}=\myvec{3\\2\\-3}$  and $ \vec{D}=\myvec{1\\-6\\-1}$,
+show that  $\vec{A}-\vec{B}$ and $\vec{C}-\vec{D}$ are collinear.
 %
 \item Let $\norm{\vec{a}} = 3, \norm{\vec{b}}= 4, \norm{\vec{c}} = 5$ such that each vector is perpendicular to the other two.  Find $\norm{\vec{a}+\vec{b}+\vec{c}}$.
 %
