@@ -24,18 +24,20 @@
 %
 which can be simplified to obtain
 \begin{align}
-\label{eq:line_perp_bisect}
+\label{eq:line_p_bisect}
 \myvec{1 & -1}\vec{x} = 2
 \end{align}
 %
 which is the desired condition.  
-The following code plots Fig. \ref{fig:line_perp_bisect}
+The following code plots Fig. \ref{fig:line_perp_bisect}clearly showing that the above equation 
+%\eqref{eq:line_p_bisect}
+ is the perpendicular bisector of $AB$.
+
 %
 \begin{lstlisting}
 codes/line/line_perp_bisect.py
 \end{lstlisting}
 %
-cleearly showing that \eqref{eq:line_perp_bisect} is the perpendicular bisector of $AB$.
 \begin{figure}[!ht]
 \includegraphics[width=\columnwidth]{./line/figs/line_perp_bisect.eps}
 \caption{}
@@ -175,26 +177,136 @@ the slope is $m$. Thus, the direction vector is
 \solution The angle $\theta$ between two lines is given by 
 %
 \begin{align}
-\cos \theta &= \frac{\vec{m}_1^T\vec{m}_2}{\norm{\vec{m}_1}\norm{\vec{m}_2}}
+\tan \theta &= \frac{m_1-m_2}{1+m_1m_2}
 \\
-\implies \cos \frac{\pi}{4} &= \frac{\myvec{1\\\frac{1}{4}}^T\myvec{1\\m}}{\norm{\myvec{1\\\frac{1}{4}}}\norm{\myvec{1\\m}}}
-%\\
-%\implies \frac{1}{\sqrt{2}} = \frac{1+\frac{m}{4}}{\frac{\sqrt{17}}{4}\sqrt{1+m^2}}
+\implies 1 &= \frac{m_1-\frac{1}{4}}{1+\frac{m_1}{4}}
+\\
+\text{or } m_1 &= \frac{5}{3} 
 \end{align}
 %
 \item The line through the points \myvec{-2\\6} and \myvec{4\\8} is perpendicular to the line through the points \myvec{8\\12} and $\myvec{x\\24}$.  Find the value of $x$.
+%
+\\
+\solution Using \eqref{eq:tri_geo_ex_orth}
+\begin{align}
+\cbrak{\myvec{-2\\ 6}-\myvec{4\\8}}^T \cbrak{\myvec{8\\ 12}-\myvec{x\\24}}=  0 
+\end{align}
+%
+which can be used to obtain $x$.
 \item Two positions of time and distance are recorded as, when $T = 0, D = 2$ and when $T = 3, D = 8$. Using the concept of slope, find law of motion, i.e., how distance depends upon time.
-\item Find the equations of the lines parallel to the axes and passing through \myvec{-2\\3}.
-\item Find the equation of the line through \myvec{– 2\\ 3} with slope –4.
-\item Find the equations of the lines parallel to axes and passing through \myvec{– 2, 3}.
+%
+\\
+\solution The equation of the line joining the points $\vec{A}=\myvec{0\\2}$ and $\vec{B}=\myvec{3\\8}$ is obtained as
+%
+\begin{align}
+\vec{x} &= \vec{A}+\lambda\brak{\vec{B}-\vec{A}}
+\\
+\implies \myvec{T\\D} &= \myvec{0\\2}-\lambda\myvec{-3\\-6}
+\end{align}
+%
+which can be expressed as
+\begin{align}
+\myvec{2 & -1}\myvec{T\\D} &= \myvec{2 & -1}\myvec{0\\2}\\
+\implies \myvec{2 & -1}\myvec{T\\D} &= -2
+\\
+\implies D = 2+2T
+\end{align}
+%
+\item Find the equations of the lines parallel to the axes and passing through $\vec{A}=\myvec{-2\\3}$.
+%
+\\
+\solution The line parallel to the x-axis has direction vector $\vec{m}=\myvec{1\\0}$.  Hence,its equation is obtined as
+\begin{align}
+%
+\label{eq:line_dir_vec}
+\vec{x} = \myvec{-2\\3} + \lambda_1\myvec{1\\0}
+\end{align}
+%
+Similarly, the equation of the line parallel to the y-axis can be obtained as
+\begin{align}
+\vec{x} = \myvec{-2\\3} + \lambda_1\myvec{0\\1}
+\end{align}
+%
+The following code plots Fig. \ref{fig:line_parallel_axes}
+%
+\begin{lstlisting}
+codes/line/line_parallel_axes.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_parallel_axes.eps}
+\caption{}
+\label{fig:line_parallel_axes}
+\end{figure}
+
+\item Find the equation of the line through $\vec{A}=\myvec{– 2\\ 3}$ with slope –4.
+\\
+\solution The direction vector is $\vec{m} = \myvec{1\\-4}$.  Hence, the normal vector
+\begin{align}
+\label{eq:line_norm_dir}
+\vec{n} = \myvec{0&-1\\1&0}\vec{m} = \myvec{4\\1}
+\end{align}
+%
+The equation of the line in terms of the normal vector is then obtained as
+\begin{align}
+\label{eq:line_norm_vec}
+\vec{n}^T\brak{\vec{x}-\vec{A}} &= 0
+\\
+\implies \myvec{4 & 1} \vec{x} &= -5
+\end{align}
+%
 \item Write the equation of the line through the points \myvec{1\\-1} and \myvec{3\\5}.
-\item Wrire the equation of the lines for which $\tan \theta = \frac{1}{2}$, where $\theta$ is the inclination of the line and 
+%
+\\
+\solution Use \eqref{eq:line_dir_vec}.
+\item Write the equation of the lines for which $\tan \theta = \frac{1}{2}$, where $\theta$ is the inclination of the line and 
+\label{prob:line_intercept}
 \begin{enumerate}
 \item y-intercept is $-\frac{3}{2}$
 \item x-intercept is 4.
 \end{enumerate}
+%
+\solution From the given information, $\tan \theta = \frac{1}{2}=m $.
+\begin{enumerate}
+\item y-intercept is $-\frac{3}{2} \implies $ the line cuts through the y-axis at $\myvec{0\\-\frac{3}{2}}$.
+\item x-intercept is 4 $\implies$ the line cuts through the x-axis at $\myvec{4\\0}$.
+\end{enumerate}
+%
+Use the above information get the equations for the lines.
 \item Find the equation of the line, which makes intercepts -3 and 2 on the x and y axes respectively.
+\\
+\solution See Problem \ref{prob:line_intercept}.  The line passes through the points \myvec{-3\\0} and \myvec{0\\2}.
+
 \item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
+%
+\\
+\solution  The perpendicular distance of a point $\vec{A}$ from a line
+\begin{align}
+\vec{n}^T\vec{x} = c
+\end{align}
+%
+is given by 
+\begin{align}
+\label{eq:line_pt_dist}
+\frac{\abs{\vec{n}^T\vec{A} - c}}{\norm{\vec{n}}}
+\end{align}
+%
+From the given information, 
+\begin{align}
+\vec{n} = \myvec{1\\\tan 15\degree}
+\end{align}
+%
+$\because \vec{A} = \vec{0}$, 
+\begin{align}
+4 = \frac{\abs{ c}}{\norm{\vec{n}}} \implies c &= \pm 4\sqrt{1+\tan^2 15\degree} 
+\\
+&= \pm 4 \sec 15\degree
+\end{align}
+%
+Thus, the equation of the line is 
+\begin{align}
+\myvec{1 &\tan 15\degree} \vec{c} = \pm 4 \sec 15\degree
+\end{align}
 \item The Farenheit temperature $F$ and absolute temperature $K$ satisfy a linear equation.  Given $K=273$ when $F=32$ and that $K=373$  when $F=212$, express $K$ in terms of $F$ and find the value of $F$, when $K=0$.
 \item Equation of a line is 
 \begin{align}

@@ -21,7 +21,8 @@ def line_gen(A,B):
 #Generate line points
 def line_dir_pt(m,A,k1,k2):
   len =10
-  x_AB = np.zeros((2,len))
+  dim = A.shape[0]
+  x_AB = np.zeros((dim,len))
   lam_1 = np.linspace(k1,k2,len)
   for i in range(len):
     temp1 = A + lam_1[i]*m
