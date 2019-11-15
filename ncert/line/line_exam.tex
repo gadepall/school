@@ -244,7 +244,9 @@ codes/line/line_parallel_axes.py
 \solution The direction vector is $\vec{m} = \myvec{1\\-4}$.  Hence, the normal vector
 \begin{align}
 \label{eq:line_norm_dir}
-\vec{n} = \myvec{0&-1\\1&0}\vec{m} = \myvec{4\\1}
+\vec{n} &= \myvec{0&-1\\1&0}\vec{m} 
+\\
+&= \myvec{4\\1}
 \end{align}
 %
 The equation of the line in terms of the normal vector is then obtained as
@@ -308,28 +310,76 @@ Thus, the equation of the line is
 \myvec{1 &\tan 15\degree} \vec{c} = \pm 4 \sec 15\degree
 \end{align}
 \item The Farenheit temperature $F$ and absolute temperature $K$ satisfy a linear equation.  Given $K=273$ when $F=32$ and that $K=373$  when $F=212$, express $K$ in terms of $F$ and find the value of $F$, when $K=0$.
+%
+\solution Let 
+\begin{align}
+\vec{x}=\myvec{F & K} 
+\end{align}
+%
+Since the relation between $F, K$ is linear, \myvec{273\\32}, \myvec{373\\21} are on a line.  The corresponding equation is obtained from \eqref{eq:line_norm_vec} and \eqref{eq:line_norm_dir} as 
+%
+\begin{align}
+\myvec{11 & -100}\vec{x} &= \myvec{11 & -100}\myvec{273\\32} 
+\\
+\implies \myvec{11 & -100}\vec{x} &= -197
+\end{align}
+%
+If \myvec{F\\0} is a point on the line, 
+%
+\begin{align}
+\myvec{11 & -100}\myvec{F\\0} &= -197
+\implies F = -\frac{197}{11}
+\end{align}
+%
 \item Equation of a line is 
 \begin{align}
-\myvec{3 & – 4} + 10 = 0. 
+\myvec{3 & – 4}\vec{x} + 10 = 0. 
 \end{align}
 Find its 
 \begin{enumerate}
 \item  slope, 
 \item  x - and y-intercepts.
 \end{enumerate}
+%
+\solution From the given information, 
+%
+\begin{align}
+\vec{n} &= \myvec{3 \\ – 4}, 
+\\
+\vec{m} &= \myvec{4 \\ 3}, 
+\end{align}
+%
+\begin{enumerate}
+\item $m = \frac{3}{4}$
+\item x-intercept is $-\frac{10}{3}$ and y-intercept is $\frac{10}{4} = \frac{5}{2}$.
+\end{enumerate}
+%
 \item Find the angle between the lines 
+%
 \begin{align}
 \myvec{1 & – \sqrt{3}}\vec{x}  = 5
 \\
 \myvec{\sqrt{3} & –1}\vec{x}  = -6
 . 
 \end{align}
+%
+\solution The angle between the lines can also be expressed in terms of the normal vectors as
+%
+\begin{align}
+\cos \theta &= \frac{\vec{n}_1\vec{n}_2}{\norm{\vec{n}_1}\norm{\vec{n}_2}}
+\\
+&= \frac{\sqrt{3}}{2} \implies \theta = 30\degree
+\end{align}
+%
 \item Find the equation of a line perpendicular to the line 
 \begin{align}
 \myvec{1 & – 2}\vec{x}  = 3
 \end{align}
 %
 and passes through the point \myvec{1\\-2}.
+%
+\\
+\solution The normal vector is the perpendicular line is 
 \item Find the distance of the point \myvec{3\\-5} from the line 
 \begin{align}
 \myvec{3 & – 4}\vec{x}  = 26
