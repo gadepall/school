@@ -121,11 +121,11 @@ using \eqref{eq:line_section_form}, the coordinates are
 \\
 \solution Forming the matrix in \eqref{eq:tri_geo_ex_diff_mat},
 \begin{align}
-\vec{M} = \myvec{\vec{B}-\vec{A} & \vec{B}-\vec{A}} 
-= \myvec{2 & 4\\k-3 & -6}&
+\vec{M} = \myvec{\vec{B}-\vec{A} & \vec{B}-\vec{A}}^T 
+= \myvec{2 & k-3\\4 & -6}&
 \\
-\xleftrightarrow {R_1\leftarrow \frac{R_2}{2}}\myvec{1 & 2\\k-3 & -6}
-\xleftrightarrow {R_2\leftarrow R_2-\brak{k-3}R_1}\myvec{1 & 2\\0 & -2k}&
+\xleftrightarrow {R_2\leftarrow \frac{R_2}{2}}\myvec{2 & k-3\\2 & -3}
+\xleftrightarrow {R_2\leftarrow R_2-R_1}\myvec{2 & k-3\\0 & -k}&
 \\
 \implies rank(\vec{M})= 1 \iff R_2 = \vec{0}, \text{or }k = 0 &
 \end{align}
@@ -305,12 +305,36 @@ $\because \vec{A} = \vec{0}$,
 &= \pm 4 \sec 15\degree
 \end{align}
 %
+where 
+%
+\begin{align}
+\sec \theta = \frac{1}{\cos \theta}
+\end{align}
+%
+This follows from \eqref{eq:tri_geo_baudh}, where
+%
+\begin{align}
+\cos^2 \theta + \sin^2 \theta &= 1
+\\
+\implies 1 + \frac{\sin^2 \theta}{\cos^2 \theta} &= \frac{1}{\cos^2 \theta}
+\end{align}
+%
+It is easy to verify that 
+%
+\begin{align}
+\frac{\sin \theta}{\cos \theta} &= \tan \theta
+\\
+\implies 1 + \tan^2 \theta &= \sec^2 \theta
+\end{align}
+%
+
 Thus, the equation of the line is 
 \begin{align}
 \myvec{1 &\tan 15\degree} \vec{c} = \pm 4 \sec 15\degree
 \end{align}
 \item The Farenheit temperature $F$ and absolute temperature $K$ satisfy a linear equation.  Given $K=273$ when $F=32$ and that $K=373$  when $F=212$, express $K$ in terms of $F$ and find the value of $F$, when $K=0$.
 %
+\\
 \solution Let 
 \begin{align}
 \vec{x}=\myvec{F & K} 

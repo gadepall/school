@@ -24,13 +24,13 @@ Since
 the points are not collinear and form a triangle.  An alternative method is to create the matrix
 \begin{align}
 \label{eq:tri_geo_ex_diff_mat}
-\vec{M} = \myvec{\vec{B}-\vec{A} & \vec{B}-\vec{A}} 
+\vec{M} = \myvec{\vec{B}-\vec{A} & \vec{B}-\vec{A}}^T 
 \end{align}
 %
-If $rank(\vec{M}) = 1$, the points are collinear.  In this problem, 
+If $rank(\vec{M}) = 1$, the points are collinear.  The rank of a matrix is the number of nonzero rows left after doing row operations.  In this problem, 
 %
 \begin{align}
-\vec{M} = \myvec{-5 & -1\\-5 & 1}\xleftrightarrow {R_2\leftarrow R_2-R_1}\myvec{-5 & -1\\0 & 2}
+\vec{M} = \myvec{-5 & -5\\-1 & 1}\xleftrightarrow {R_2\leftarrow 5R_2-R_1}\myvec{-5 & -5\\0 & 10}
 \\
 \implies rank(\vec{M}) = 2
 \end{align}
@@ -255,7 +255,10 @@ h = b\tan\theta = 15\tan60\degree = 15\sqrt{3}
 \\
 \solution Fig. \ref{fig:trig_pg2} summarizes the problem. The objective is to find $l$ and $b$.  From the figure,
 %
+if 
 \begin{align}
+\cot \theta &=\frac{1}{\tan \theta},
+\\
 h-x &= l\sin \theta = b\tan \theta
 \\
 \implies l &= \brak{h-x}\csc \theta = 3.7\csc60\degree 
