@@ -535,15 +535,82 @@ substituting $\abs{\lambda}$ in \eqref{eq:line_L_2_P_dist} gives the desired ans
 \myvec{1 & -3}\vec{x}  = -4.
 \end{align}
 %
-\item A line is such that its segment between the lines %
+\solution The reflection of a point $\vec{P}$ about a line 
+%
 \begin{align}
-\myvec{5 & -1}\vec{x}  &= -4
-\\
-\myvec{3 & 4}\vec{x}  &= 4
+\vec{n}^T\vec{x}  = c
 \end{align}
 %
-is bisected at the point \myvec{1\\5}.  Obtain its equation.
+is given by $\vec{R}$, where
+\begin{align}
+\label{eq:line_reflect}
+\frac{\vec{R}}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{P} + c \frac{\vec{n}}{\norm{\vec{n}}^2}
+\end{align}
 %
+The following code plots Fig. \ref{fig:line_reflect} while computing the reflection
+%
+\begin{lstlisting}
+codes/line/line_reflect.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_reflect.eps}
+\caption{}
+\label{fig:line_reflect}
+\end{figure}
+%
+
+\item A line $L$ is such that its segment between the lines %
+is bisected at the point $\vec{P} = \myvec{1\\5}$.  Obtain its equation.
+\begin{align}
+\label{eq:line_seg}
+L_1: \quad \myvec{5 & -1}\vec{x}  &= -4
+\\
+L_2: \quad \myvec{3 & 4}\vec{x}  &= 4
+\end{align}
+%
+\\
+\solution Let 
+%
+\begin{align}
+L: \quad \vec{x}  &= \vec{P} + \lambda \vec{m}
+\end{align}
+%
+If $L$ intersects $L_1$ and $L_2$ at $\vec{A}$ and $\vec{B}$ respectively, 
+%
+\begin{align}
+\label{eq:line_segA}
+ \vec{A}  &= \vec{P} + \lambda \vec{m}
+\\
+ \vec{B}  &= \vec{P} - \lambda \vec{m}
+\label{eq:line_segB}
+\end{align}
+%
+since $\vec{P}$ bisects $AB$. Note that $\lambda$ is a measure of the distance from $P$  along the line $L$.
+%
+From \eqref{eq:line_seg}, \eqref{eq:line_segA} and \eqref{eq:line_segB},
+%
+\begin{align}
+\myvec{5 & -1} \vec{A}  &= \myvec{5 & -1}\myvec{1\\5} + \lambda \myvec{5 & -1}\vec{m}=-4
+\\
+\myvec{3 & 4} \vec{B}  &= \myvec{3 & 4}\myvec{1\\5} - \lambda \myvec{3 & 4}\vec{m}=4
+\end{align}
+%
+yielding
+%
+\begin{align}
+19\myvec{5 & -1}\vec{m}&=-4 \myvec{3 & 4}\vec{m}
+\\
+\implies \myvec{107 & -3}\vec{m} &= 0
+\\
+\text{or, } \vec{n} = \myvec{107\\-3}
+\end{align}
+%
+after simplification.
+Thus, the equation of the line is 
+\begin{align}
+\vec{n}^T\brak{\vec{x}-\vec{P}} =0
+\end{align}
 \item Show that the path of a moving point such that its distances from two lines
 %
 \begin{align}
@@ -553,6 +620,31 @@ is bisected at the point \myvec{1\\5}.  Obtain its equation.
 \end{align}
 %
 are  equal is a straight line.
+%
+\\
+\solution Using \eqref{eq:line_pt_dist} the point $\vec{x}$ satisfies
+%
+\begin{align}
+\frac{\abs{\myvec{3 & -2}\vec{x}  - 5}}{\norm{\myvec{3 \\ -2}}}
+&=\
+\frac{\abs{\myvec{3 & 2}\vec{x}  - 5}}{\norm{\myvec{3 \\ 2}}}
+\\
+\implies \abs{\myvec{3 & -2}\vec{x}  - 5}&=\abs{\myvec{3 & 2}\vec{x}  - 5}
+\end{align}
+%
+resulting in 
+%
+\begin{align}
+\myvec{3 & -2}\vec{x}  - 5=\pm\brak{\myvec{3 & 2}\vec{x}  - 5}
+\end{align}
+%
+leading to the possible lines
+%
+\begin{align}
+L_1: \quad \myvec{0 & 1}\vec{x}  &=0
+\\
+L_2: \quad \myvec{1 & 0}\vec{x}  &=  \frac{5}{3}
+\end{align}
 %
 \item Find the distance between the points
 %
