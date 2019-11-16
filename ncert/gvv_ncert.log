@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  16 NOV 2019 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  16 NOV 2019 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1646,16 +1646,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./line/coord_ex.tex [24]
+(./line/coord_ex.tex
+Underfull \vbox (badness 3701) has occurred while \output is active []
+
+ [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-Underfull \vbox (badness 5245) has occurred while \output is active []
-
-)
+ [25])
 (./line/section.tex [26]) (./line/line_equation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1734,10 +1734,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
 Here is how much of TeX's memory you used:
  32237 strings out of 492624
  692742 string characters out of 6119217
- 906623 words of memory out of 5000000
+ 906667 words of memory out of 5000000
  35488 multiletter control sequences out of 15000+600000
  86107 words of font info for 221 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,19n,69p,501b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert.dvi (36 pages, 475948 bytes).
+Output written on gvv_ncert.dvi (36 pages, 477404 bytes).

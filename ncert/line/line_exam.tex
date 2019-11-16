@@ -886,9 +886,9 @@ $\vec{b}=\myvec{1\\-1\\1}$.
 %
 \item Find the angle between the pair of lines given by 
 \begin{align}
-\bm{x} &= \myvec{3\\2\\-4} + \lambda_1\myvec{1 \\ 2 \\2}
+\vec{x} &= \myvec{3\\2\\-4} + \lambda_1\myvec{1 \\ 2 \\2}
 \\
-\bm{x} &= \myvec{5\\-2\\0} + \lambda_2\myvec{3 \\ 2 \\6}
+\vec{x} &= \myvec{5\\-2\\0} + \lambda_2\myvec{3 \\ 2 \\6}
 \end{align}
 %
 \\
@@ -1130,9 +1130,9 @@ $\because \norm{\vec{x}}=1$, it is the desired unit vector.
 \item Find the 
 distance between the lines 
 \begin{align}
-L_1: \quad \bm{x} &= \myvec{1\\2\\-4} + \lambda_1\myvec{2 \\ 3 \\6}
+L_1: \quad \vec{x} &= \myvec{1\\2\\-4} + \lambda_1\myvec{2 \\ 3 \\6}
 \\
-L_2: \quad \bm{x} &= \myvec{3\\3\\-5} + \lambda_2\myvec{2 \\ 3 \\6}
+L_2: \quad \vec{x} &= \myvec{3\\3\\-5} + \lambda_2\myvec{2 \\ 3 \\6}
 \end{align}
 \label{prob:line_dist_parallel}
 %
@@ -1155,9 +1155,9 @@ where
 
 \item Find the shortest distance between the lines 
 \begin{align}
-L_1: \quad \bm{x} &= \myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
+L_1: \quad \vec{x} &= \myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
 \\
-L_2: \quad \bm{x} &= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
+L_2: \quad \vec{x} &= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
 \end{align}
 \label{prob:line_dist_skew}
 \solution  The shortest distance is given by 
@@ -1172,20 +1172,41 @@ where
 \vec{A}_1= \myvec{1\\1\\0}, \vec{m}_1=\myvec{2 \\ -1 \\1},
 \vec{A}_2= \myvec{2\\1\\-1}, \vec{m}_2 =\myvec{3 \\ -5 \\2}.
 \end{align}
-\item Find the equation of a plane which is at a distance of $\frac{6}{\sqrt{29}}$ from the origin and has  normal vector \myvec{2\\-3\\4}.
-\item Find the unit normal vector of the plane 
-\begin{align}
-\myvec{6 & -3 & -2}\bm{x}  = 1.
-\end{align}
+%
 \item Find the distance of the plane 
 \begin{align}
-\myvec{2 & -3 & 4}\bm{x}-6  = 0
+\myvec{2 & -3 & 4}\vec{x}-6  = 0
 \end{align}
 %
 from the origin.
+\\
+\solution From \eqref{eq:line_pt_dist}, the distance is obtained as
+%
+\begin{align}
+\frac{\abs{c}}{\norm{\vec{n}}} &= \frac{6}{\sqrt{2^2+3^2+4^2}}
+\\
+&= \frac{6}{\sqrt{29}}
+\end{align}
+%
+
+\item Find the equation of a plane which is at a distance of $\frac{6}{\sqrt{29}}$ from the origin and has  normal vector $\vec{n}=\myvec{2\\-3\\4}$.
+%
+\\
+\solution From \eqref{eq:line_pt_dist}
+%
+\begin{align}
+\myvec{2 & -3 & 4}\vec{x}-6  = 0
+\end{align}
+%
+
+\item Find the unit normal vector of the plane 
+\begin{align}
+\myvec{6 & -3 & -2}\vec{x}  = 1.
+\end{align}
+%
 \item Find the coordinates of the foot of the perpendicular drawn from the origin to the plane 
 \begin{align}
-\myvec{2 & -3 & 4}\bm{x}-6  = 0
+\myvec{2 & -3 & 4}\vec{x}-6  = 0
 \end{align}
 %
 \item Find the equation of the plane which passes through the point \myvec{5\\2\\-4} and perpendicular to the line with direction vector \myvec{2\\3\\-1}.
@@ -1201,9 +1222,9 @@ $
 \item Find the equation of the plane with intercepts 2, 3 and 4 on the x, y and z axis respectively.
 \item Find the equation of the plane passing through the intersection of the planes 
 \begin{align}
-\myvec{1 & 1 & 1}\bm{x}&=6  
+\myvec{1 & 1 & 1}\vec{x}&=6  
 \\
-\myvec{2 & 3 & 4}\bm{x}&=-5
+\myvec{2 & 3 & 4}\vec{x}&=-5
 \end{align}
 %
 and the point \myvec{1\\1\\1}.
@@ -1217,21 +1238,21 @@ and the point \myvec{1\\1\\1}.
 are coplanar.
 \item Find the angle between the two planes
 \begin{align}
-\myvec{2 & 1 & -2}\bm{x}&=5
+\myvec{2 & 1 & -2}\vec{x}&=5
 \\
-\myvec{3 &-6 & -2}\bm{x}&=7.
+\myvec{3 &-6 & -2}\vec{x}&=7.
 \end{align}
 %
 \item Find the angle between the two planes
 \begin{align}
-\myvec{2 & 2 & -2}\bm{x}&=5
+\myvec{2 & 2 & -2}\vec{x}&=5
 \\
-\myvec{3 &-6 & 2}\bm{x}&=7.
+\myvec{3 &-6 & 2}\vec{x}&=7.
 \end{align}
 %
 Find the distance of a point \myvec{2\\5\\-3} from the plane
 \begin{align}
-\myvec{6 & -3 & 2}\bm{x}=4
+\myvec{6 & -3 & 2}\vec{x}=4
 \end{align}
 %
 Find the angle between the line 
@@ -1244,14 +1265,14 @@ and
 %
 the plane 
 \begin{align}
-\myvec{10 & 2 & -11}\bm{x}=3
+\myvec{10 & 2 & -11}\vec{x}=3
 \end{align}
 %
 \item Find the equation of the plane that contains the point $\myvec{1\\-1\\2}$ and is perpedicular to each of the planes
 \begin{align}
-\myvec{2 & 3 & -2}\bm{x}&=5
+\myvec{2 & 3 & -2}\vec{x}&=5
 \\
-\myvec{1 & 2 & -3}\bm{x}&=8
+\myvec{1 & 2 & -3}\vec{x}&=8
 \end{align}
 %
 \item Find the distance between the point $\bm{P}=\myvec{6\\5\\9}$ and the plane determined by the points $\bm{A}=\myvec{3\\-1\\2}, \bm{B}=\myvec{5\\2\\4}$ and $\bm{C}=\myvec{-1\\-1\\6}$.
