@@ -1192,7 +1192,7 @@ from the origin.
 \item Find the equation of a plane which is at a distance of $\frac{6}{\sqrt{29}}$ from the origin and has  normal vector $\vec{n}=\myvec{2\\-3\\4}$.
 %
 \\
-\solution From \eqref{eq:line_pt_dist}
+\solution From the previous problem, the desired equation is
 %
 \begin{align}
 \myvec{2 & -3 & 4}\vec{x}-6  = 0
@@ -1204,12 +1204,57 @@ from the origin.
 \myvec{6 & -3 & -2}\vec{x}  = 1.
 \end{align}
 %
+\solution The normal vector is 
+%
+\begin{align}
+\vec{n} = \myvec{6 & -3 & -2}
+\\
+\because \norm{\vec{n}} = 7,
+\end{align}
+%
+the unit normal vector is 
+%
+\begin{align}
+\frac{\vec{n}}{\norm{\vec{n}}} = \frac{1}{7}\myvec{6 & -3 & -2}
+\end{align}
+%
 \item Find the coordinates of the foot of the perpendicular drawn from the origin to the plane 
 \begin{align}
+\label{eq:line_foot_perp}
 \myvec{2 & -3 & 4}\vec{x}-6  = 0
 \end{align}
 %
-\item Find the equation of the plane which passes through the point \myvec{5\\2\\-4} and perpendicular to the line with direction vector \myvec{2\\3\\-1}.
+\solution The normal vector is 
+%
+\begin{align}
+\vec{n}=\myvec{2 \\ -3 \\ 4}
+\end{align}
+%
+Hence, the foot of the perpendicular from the origin is $\lambda \vec{n}$.  Substituting in \eqref{eq:line_foot_perp},
+\begin{align}
+\lambda \norm{\vec{n}}^2 = 6  \implies \lambda = \frac{6}{\norm{\vec{n}}^2} = \frac{6}{29}
+\end{align}
+%
+Thus, the foot of the perpendicular is
+%
+\begin{align}
+\frac{6}{29}\myvec{2 \\ -3 \\ 4}
+\end{align}
+%
+\item Find the equation of the plane which passes through the point $\vec{A}=\myvec{5\\2\\-4}$ and perpendicular to the line with direction vector $\vec{n}=\myvec{2\\3\\-1}$.
+%
+\\
+\solution  The normal vector to the plane is $\vec{n}$. Hence from \eqref{eq:line_norm_vec}, the equation of the plane is 
+%
+\begin{align}
+\vec{n}^T\brak{\vec{x}-\vec{A}} &= 0
+\\
+\implies \myvec{2\\3\\-1}\vec{x} &=\myvec{2&3&-1}\myvec{5\\2\\-4}
+\\
+&=20
+\end{align}
+%
+
 \item Find the equation of the plane passing through 
 $
 \bm{R} = \myvec{2\\5\\-3},
@@ -1219,6 +1264,45 @@ and
 $
 \bm{T}= \myvec{5\\3\\-3}.
 $
+\\
+\solution  If the equation of the plane be 
+\begin{align}
+\vec{n}^T\vec{x} &= c,
+\\
+\vec{n}^T\vec{R}=\vec{n}^T\vec{S}=\vec{n}^T\vec{T}&= c,
+\\
+\implies \myvec{\vec{R}-\vec{S} & \vec{S}-\vec{T}}^T\vec{n} &= 0
+\end{align}
+%
+Using row reduction on the above matrix, 
+\begin{align}
+\myvec{4 & 8 &-8 \\ -7  & -6 & 8} \xleftrightarrow[]{R_1\leftarrow \frac{R_1}{4}}\myvec{1 & 2 &-2 \\ -7  & -6 & 8}
+\\
+\xleftrightarrow[]{R_2\leftarrow R_2 + 7R_1}
+\myvec{
+1 & 2 &-2 
+\\ 
+0  & 8 & -6
+}
+\xleftrightarrow[]{R_2\leftarrow \frac{R_2}{2}}
+\myvec{
+1 & 2 &-2 
+\\ 
+0  & 4 & -3
+}
+\\
+\xleftrightarrow[]{R_1\leftarrow 2R_1-R_2}
+\myvec{
+2 & 0 &-1 
+\\ 
+0  & 4 & 3
+}
+\end{align}
+%
+Thus, 
+\begin{align}
+\vec{n} = \myvec{\frac{1}{2}\\\frac{-3}{4}\\1} = \myvec{2\\-3\\4}
+\end{align}
 \item Find the equation of the plane with intercepts 2, 3 and 4 on the x, y and z axis respectively.
 \item Find the equation of the plane passing through the intersection of the planes 
 \begin{align}
