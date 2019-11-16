@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  16 NOV 2019 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  16 NOV 2019 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1298,7 +1298,14 @@ ngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
-) (./gvv_ncert.aux)
+) (./gvv_ncert.aux
+
+LaTeX Warning: Label `eq:line_two_pt' multiply defined.
+
+
+LaTeX Warning: Label `eq:line_3d' multiply defined.
+
+)
 \openout1 = `gvv_ncert.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 83.
@@ -1607,10 +1614,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./line/figs/line_reflect.eps Graphic file (type eps)
 
 <./line/figs/line_reflect.eps>
-Underfull \vbox (badness 1067) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 4341) in paragraph at lines 796--806
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Use the ap-proach in Prob-lem
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1633,25 +1642,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])
-(./line/coord_ex.tex
-Underfull \vbox (badness 4981) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
-Underfull \vbox (badness 1231) has occurred while \output is active []
-
-)
-(./line/section.tex [25]
+ [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./line/line_equation.tex [26]
+(./line/coord_ex.tex [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 5245) has occurred while \output is active []
+
+)
+(./line/section.tex [26]) (./line/line_equation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
@@ -1667,44 +1672,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-Underfull \hbox (badness 2096) in paragraph at lines 383--387
-[]\OT1/txr/m/n/12 Find the in-ter-cepts cut off by the plane
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
+Underfull \hbox (badness 2096) in paragraph at lines 383--387
+[]\OT1/txr/m/n/12 Find the in-ter-cepts cut off by the plane
+ []
+
 (./line/tables/3d_ncert.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31])
+ [32])
 (./line/line_misc.tex
-Underfull \vbox (badness 3668) has occurred while \output is active []
-
- [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34])
 (./circle/circle_examples.tex
 Underfull \hbox (badness 1454) in paragraph at lines 4--12
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The tan-gent is per-pen-dic-u-lar to
 
  []
 
-[34]
 File: ./circle/figs/circle.eps Graphic file (type eps)
- <./circle/figs/circle.eps>) (./circle/circle_exer.tex)
-(./circle/circle_geo.tex) [35]
+<./circle/figs/circle.eps>) (./circle/circle_exer.tex [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./circle/circle_geo.tex) [36]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
  (./gvv_ncert.aux)
@@ -1714,17 +1727,17 @@ Package rerunfilecheck Info: File `gvv_ncert.out' has not changed.
 (rerunfilecheck)             Checksum: AD0F46547D6E6F9041CCDBCA5D70BC79;1260.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  ) 
 Here is how much of TeX's memory you used:
- 32230 strings out of 492624
- 692612 string characters out of 6119216
- 903271 words of memory out of 5000000
- 35481 multiletter control sequences out of 15000+600000
+ 32237 strings out of 492624
+ 692742 string characters out of 6119217
+ 906623 words of memory out of 5000000
+ 35488 multiletter control sequences out of 15000+600000
  86107 words of font info for 221 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,19n,69p,501b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert.dvi (35 pages, 466260 bytes).
+Output written on gvv_ncert.dvi (36 pages, 475948 bytes).

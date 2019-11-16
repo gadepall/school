@@ -271,6 +271,7 @@ which can be used to obtain $x$.
 \solution The equation of the line joining the points $\vec{A}=\myvec{0\\2}$ and $\vec{B}=\myvec{3\\8}$ is obtained as
 %
 \begin{align}
+\label{eq:line_two_pt}
 \vec{x} &= \vec{A}+\lambda\brak{\vec{B}-\vec{A}}
 \\
 \implies \myvec{T\\D} &= \myvec{0\\2}-\lambda\myvec{-3\\-6}
@@ -347,6 +348,44 @@ The equation of the line in terms of the normal vector is then obtained as
 \end{enumerate}
 %
 Use the above information get the equations for the lines.
+%
+\item Find the equation of a line through the point \myvec{5\\2\\-4} and parallel to the vector \myvec{3\\2\\-8}.
+\\
+\solution The equation of the line is 
+\begin{align}
+\vec{x} &= \myvec{5 & 2\\-4} + \lambda \myvec{3\\2\\-8}
+\end{align}
+%
+\item Find the equation of a line passing through the points \myvec{-1\\0\\2} and \myvec{3\\4\\6}.
+\\
+\solution Using  \label{eq:line_two_pt}, the desired equation of the line is
+\begin{align}
+\vec{x} &= \myvec{-1 & 0\\2} + \lambda \myvec{4\\4\\4}
+\\
+&= \myvec{-1 & 0\\2} + \lambda \myvec{1\\1\\1}
+\end{align}
+%
+\item If
+\begin{align}
+%
+\label{eq:line_3d}
+\frac{x+3}{2} = \frac{y-5}{4} = \frac{z+6}{2} = \lambda
+\end{align}
+%
+find the equation of the line.
+\label{prob:line_3d}
+\\
+\solution The line can be expressed from \eqref{eq:line_3d} as
+%
+\begin{align}
+\label{eq:line_3d}
+\myvec{x\\y\\z} &= \myvec{-3+2\lambda\\5+4\lambda\\-6+2\lambda}
+\\
+\implies \vec{x} &= \myvec{-3\\5\\-6} + \lambda \myvec{2\\4\\2}
+\\
+\implies \vec{x} &= \myvec{-3\\5\\-6} + \lambda \myvec{1\\2\\1}
+\end{align}
+%
 \item Find the equation of the line, which makes intercepts -3 and 2 on the x and y axes respectively.
 \\
 \solution See Problem \ref{prob:line_intercept}.  The line passes through the points \myvec{-3\\0} and \myvec{0\\2}.
@@ -753,6 +792,17 @@ are collinear.
 \end{align}
 %
 $\implies rank(\vec{M}) = 1$.
+%
+\item Show that 
+$
+\vec{A}=\myvec{2\\3\\-4}, 
+\vec{B}=\myvec{1\\-2\\3} \text{ and } 
+\vec{C}=\myvec{3\\8\\-11}$  
+are collinear.
+%
+\\
+\solution Use the approach in Problem \eqref{prob:line_coll_3d}.
+%
 \item Find the equation of set of points $\vec{P}$ such that
 \begin{align}
 PA^2+PB^2 =2k^2,
@@ -834,6 +884,25 @@ $\vec{b}=\myvec{1\\-1\\1}$.
 \\
 \solution Use \eqref{eq:line_inner_prod}
 %
+\item Find the angle between the pair of lines given by 
+\begin{align}
+\bm{x} &= \myvec{3\\2\\-4} + \lambda_1\myvec{1 \\ 2 \\2}
+\\
+\bm{x} &= \myvec{5\\-2\\0} + \lambda_2\myvec{3 \\ 2 \\6}
+\end{align}
+%
+\\
+\solution The direction vectors of the lines are \myvec{1 \\ 2 \\2} and \myvec{3 \\ 2 \\6}.   Using\eqref{eq:line_inner_prod}, the angle between the lines can be obtained. 
+\item Find the angle between the pair of lines
+\begin{align}
+\frac{x+3}{3} = \frac{y-1}{5} &= \frac{z+3}{4}, 
+\\
+\frac{x+1}{1} = \frac{y-4}{1} &= \frac{z-5}{2} 
+\end{align}
+%
+\\
+\solution From Problem \ref{prob:line_3d}, the direction vectors of the lines can be expressed as \myvec{3\\5\\4} and \myvec{1\\1\\2}.  The angle between them can then be obtained from \eqref{eq:line_inner_prod}.
+%
 \item If 
 $\vec{a}=\myvec{5\\-1\\-3}$
   and 
@@ -844,6 +913,7 @@ then show that the vectors $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$ are perpendic
 \\
 \solution Use \eqref{eq:tri_geo_ex_orth}.
 %
+
 \item Find the projection of the vector 
 \begin{align}
 \vec{a} = \myvec{2\\3\\2}
@@ -1056,42 +1126,7 @@ The direction vector is
 \end{align}
 %
 $\because \norm{\vec{x}}=1$, it is the desired unit vector.
-\item Show that 
-$
-\vec{A}=\myvec{2\\3\\-4}, 
-\vec{B}=\myvec{1\\-2\\3} \text{ and } 
-\vec{C}=\myvec{3\\8\\-11}$  
-are collinear.
 %
-\item Find the equation of a line through the point \myvec{5\\2\\-4} and parallel to the vector \myvec{3\\2\\-8}.
-\item Find the equation of a line passing through the points \myvec{-1\\0\\2} and \myvec{3\\4\\6}.
-\item If
-\begin{align}
-\frac{x+3}{2} = \frac{y-5}{4} = \frac{z+6}{2}, 
-\end{align}
-%
-find the equation of the line.
-%
-\item Find the angle between the pair of lines given by 
-\begin{align}
-\bm{x} &= \myvec{3\\2\\-4} + \lambda_1\myvec{1 \\ 2 \\2}
-\\
-\bm{x} &= \myvec{5\\-2\\0} + \lambda_2\myvec{3 \\ 2 \\6}
-\end{align}
-%
-\item Find the angle between the pair of lines
-\begin{align}
-\frac{x+3}{3} = \frac{y-1}{5} &= \frac{z+3}{4}, 
-\\
-\frac{x+1}{1} = \frac{y-4}{1} &= \frac{z-5}{2} 
-\end{align}
-%
-\item Find the shortest distance between the lines 
-\begin{align}
-L_1: \quad \bm{x} &= \myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
-\\
-L_2: \quad \bm{x} &= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
-\end{align}
 \item Find the 
 distance between the lines 
 \begin{align}
@@ -1099,7 +1134,44 @@ L_1: \quad \bm{x} &= \myvec{1\\2\\-4} + \lambda_1\myvec{2 \\ 3 \\6}
 \\
 L_2: \quad \bm{x} &= \myvec{3\\3\\-5} + \lambda_2\myvec{2 \\ 3 \\6}
 \end{align}
+\label{prob:line_dist_parallel}
 %
+\solution Both the lines have the same direction vector, so the lines are parallel. The distance between the lines is given by 
+%
+\begin{align}
+\label{eq:line_dist_parallel}
+\frac{\abs{\vec{m}\times \brak{\vec{A}_2-
+\vec{A}_1}}}{\norm{\vec{m}}}
+\end{align}
+%
+where 
+%
+\begin{align}
+\vec{A}_1 = \myvec{1\\2\\-4},
+\vec{A}_2 = \myvec{3\\3\\-5},
+\vec{m}=\myvec{2 \\ 3 \\6}
+\end{align}
+%
+
+\item Find the shortest distance between the lines 
+\begin{align}
+L_1: \quad \bm{x} &= \myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
+\\
+L_2: \quad \bm{x} &= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
+\end{align}
+\label{prob:line_dist_skew}
+\solution  The shortest distance is given by 
+%
+\begin{align}
+\label{eq:line_dist_skew}
+\frac{\abs{\brak{\vec{A}_2-\vec{A}_1}^T\brak{\vec{m}_1\times\vec{m}_2}}}{\norm{\vec{\vec{m}_1\times\vec{m}_2}}}
+\end{align}
+%
+where
+\begin{align}
+\vec{A}_1= \myvec{1\\1\\0}, \vec{m}_1=\myvec{2 \\ -1 \\1},
+\vec{A}_2= \myvec{2\\1\\-1}, \vec{m}_2 =\myvec{3 \\ -5 \\2}.
+\end{align}
 \item Find the equation of a plane which is at a distance of $\frac{6}{\sqrt{29}}$ from the origin and has  normal vector \myvec{2\\-3\\4}.
 \item Find the unit normal vector of the plane 
 \begin{align}
