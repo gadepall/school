@@ -358,7 +358,7 @@ Use the above information get the equations for the lines.
 %
 \item Find the equation of a line passing through the points \myvec{-1\\0\\2} and \myvec{3\\4\\6}.
 \\
-\solution Using  \label{eq:line_two_pt}, the desired equation of the line is
+\solution Using  \eqref{eq:line_two_pt}, the desired equation of the line is
 \begin{align}
 \vec{x} &= \myvec{-1 & 0\\2} + \lambda \myvec{4\\4\\4}
 \\
@@ -378,7 +378,7 @@ find the equation of the line.
 \solution The line can be expressed from \eqref{eq:line_3d} as
 %
 \begin{align}
-\label{eq:line_3d}
+%\label{eq:line_3d}
 \myvec{x\\y\\z} &= \myvec{-3+2\lambda\\5+4\lambda\\-6+2\lambda}
 \\
 \implies \vec{x} &= \myvec{-3\\5\\-6} + \lambda \myvec{2\\4\\2}
@@ -1487,9 +1487,15 @@ The LHS of \eqref{eq:line_coplanar} is
 \myvec{1\\-2\\1} = 0
 \end{align}
 %
-which completes the proof.
+which completes the proof.  Alternatively, the lines are coplanar if
 %
+\begin{align}
+\mydet{\vec{A}_1-\vec{A}_2 & \vec{m}_1 & \vec{m}_2} = 0
+\end{align}
+%
+
 \item Find the angle between the two planes
+\label{prob:planes_angle}
 \begin{align}
 \myvec{2 & 1 & -2}\vec{x}&=5
 \\
@@ -1505,24 +1511,37 @@ which completes the proof.
 \myvec{3 &-6 & 2}\vec{x}&=7.
 \end{align}
 %
+\solution See Problem \eqref{prob:planes_angle}.
+%
 \item Find the distance of a point \myvec{2\\5\\-3} from the plane
 \begin{align}
 \myvec{6 & -3 & 2}\vec{x}=4
 \end{align}
 %
+\\
+\solution Use \eqref{eq:line_pt_dist}.
 \item Find the angle between the line 
 %
 \begin{align}
-\frac{x+1}{2} = \frac{y}{3} = \frac{z-3}{6} 
+L: \quad \frac{x+1}{2} = \frac{y}{3} = \frac{z-3}{6} 
 \end{align}
 %
 and
 %
 the plane 
 \begin{align}
-\myvec{10 & 2 & -11}\vec{x}=3
+P: \quad \myvec{10 & 2 & -11}\vec{x}=3
 \end{align}
 %
+\label{prob:plane_angle_line}
+%
+\solution The angle between the direction vector of $L$ and normal vector of $P$ is 
+%
+\begin{align}
+\cos \theta &= \frac{\abs{\myvec{10 & 2 & -11}\myvec{2\\3\\6}}}{\sqrt{225}\times \sqrt{49}} = \frac{8}{21}
+\end{align}
+%
+Thus, the desired angle is $90\degree -\theta$.
 \item Find the equation of the plane that contains the point $\myvec{1\\-1\\2}$ and is perpedicular to each of the planes
 \begin{align}
 \myvec{2 & 3 & -2}\vec{x}&=5
@@ -1530,13 +1549,44 @@ the plane
 \myvec{1 & 2 & -3}\vec{x}&=8
 \end{align}
 %
-\item Find the distance between the point $\bm{P}=\myvec{6\\5\\9}$ and the plane determined by the points $\bm{A}=\myvec{3\\-1\\2}, \bm{B}=\myvec{5\\2\\4}$ and $\bm{C}=\myvec{-1\\-1\\6}$.
-\item Find the coordinates of the point where the lines through the points
+\solution The normal vector to the desired plane is $\perp$ the normal vectors of both the given planes.  Thus,
+%
+\begin{align}
+\vec{n} = \myvec{2 \\ 3 \\ -2} \times \myvec{1 \\ 2 \\ -3}
+\end{align}
+%
+The equation of the plane is then obtained as
+%
+\begin{align}
+\vec{n}^T\brak{\vec{x}-\vec{A}} = 0
+\end{align}
+%
+\item Find the distance between the point $\vec{P}=\myvec{6\\5\\9}$ and the plane determined by the points $\bm{A}=\myvec{3\\-1\\2}, \bm{B}=\myvec{5\\2\\4}$ and $\bm{C}=\myvec{-1\\-1\\6}$.
+%
+\\
+\solution Find the equation of the plane using Problem \ref{prob:plane_3pts}.  Find the distance using \eqref{eq:line_pt_dist}.
+%
+\item Find the coordinates of the point where the line through the points
 $
-\bm{A}=\myvec{3\\4\\1}, 
-\bm{B}=\myvec{5\\1\\6}
+\vec{A}=\myvec{3\\4\\1}, 
+\vec{B}=\myvec{5\\1\\6}
 $
 crosses the XY plane.
+%
+\\
+\solution The equation of the line is 
+%
+\begin{align}
+\vec{x} &= \vec{A}+\lambda\brak{\vec{B}-\vec{A}}
+\\
+&= \myvec{3\\4\\1} + \lambda \myvec{2\\-3\\5}
+\end{align}
+%
+The line  crosses the XY plane for $x_3 = 0 \implies \lambda = -\frac{1}{5}$. Thus, the desired point is
+%
+\begin{align}
+ \myvec{3\\4\\1} -\frac{1}{5}\myvec{2\\-3\\5} = \frac{1}{5}\myvec{13\\23\\0}
+\end{align}
 %
 \end{enumerate}
 %
