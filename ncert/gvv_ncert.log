@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  16 NOV 2019 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  17 NOV 2019 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1643,37 +1643,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-
-LaTeX Warning: Reference `eq:line_foot_perp' on page 24 undefined on input line
- 1233.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24])
-(./line/coord_ex.tex
+ [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 1199) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26])
-(./line/section.tex) (./line/line_equation.tex [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (8.60971pt too wide) detected at line 1482
+[]
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+)
+(./line/coord_ex.tex [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
+(./line/section.tex [28]) (./line/line_equation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
@@ -1686,34 +1683,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
 Underfull \hbox (badness 2096) in paragraph at lines 383--387
 []\OT1/txr/m/n/12 Find the in-ter-cepts cut off by the plane
  []
 
-[31] (./line/tables/3d_ncert.tex)
+(./line/tables/3d_ncert.tex) [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ [34])
+(./line/line_misc.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./line/line_misc.tex [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35])
+ [36])
 (./circle/circle_examples.tex
 Underfull \hbox (badness 1454) in paragraph at lines 4--12
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The tan-gent is per-pen-dic-u-lar to
@@ -1721,13 +1714,10 @@ Underfull \hbox (badness 1454) in paragraph at lines 4--12
  []
 
 File: ./circle/figs/circle.eps Graphic file (type eps)
-<./circle/figs/circle.eps>) (./circle/circle_exer.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36])
+<./circle/figs/circle.eps>) (./circle/circle_exer.tex [37])
 (./circle/circle_geo.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
- [37
+ [38
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
@@ -1738,20 +1728,17 @@ Package rerunfilecheck Info: File `gvv_ncert.out' has not changed.
 (rerunfilecheck)             Checksum: AD0F46547D6E6F9041CCDBCA5D70BC79;1260.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  ) 
 Here is how much of TeX's memory you used:
- 32238 strings out of 492624
- 692761 string characters out of 6119216
- 903667 words of memory out of 5000000
- 35489 multiletter control sequences out of 15000+600000
+ 32245 strings out of 492624
+ 692896 string characters out of 6119216
+ 915023 words of memory out of 5000000
+ 35496 multiletter control sequences out of 15000+600000
  86107 words of font info for 221 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,19n,69p,501b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert.dvi (37 pages, 484776 bytes).
+Output written on gvv_ncert.dvi (38 pages, 502332 bytes).

@@ -1264,6 +1264,7 @@ and
 $
 \bm{T}= \myvec{5\\3\\-3}.
 $
+\label{prob:plane_3pts}
 \\
 \solution  If the equation of the plane be 
 \begin{align}
@@ -1274,6 +1275,7 @@ $
 \implies \myvec{\vec{R}-\vec{S} & \vec{S}-\vec{T}}^T\vec{n} &= 0
 \end{align}
 %
+after some algebra.
 Using row reduction on the above matrix, 
 \begin{align}
 \myvec{4 & 8 &-8 \\ -7  & -6 & 8} \xleftrightarrow[]{R_1\leftarrow \frac{R_1}{4}}\myvec{1 & 2 &-2 \\ -7  & -6 & 8}
@@ -1295,24 +1297,143 @@ Using row reduction on the above matrix,
 \myvec{
 2 & 0 &-1 
 \\ 
-0  & 4 & 3
+0  & 4 & -3
 }
 \end{align}
 %
 Thus, 
 \begin{align}
-\vec{n} = \myvec{\frac{1}{2}\\\frac{-3}{4}\\1} = \myvec{2\\-3\\4}
+\vec{n} &= \myvec{\frac{1}{2}\\\frac{3}{4}\\1} = \myvec{2\\3\\4} \text{ and}
+\\
+c = \vec{n}^{T}\vec{T} = 7
 \end{align}
-\item Find the equation of the plane with intercepts 2, 3 and 4 on the x, y and z axis respectively.
-\item Find the equation of the plane passing through the intersection of the planes 
+%
+Thus, the equation of the plane is 
+%
 \begin{align}
+\myvec{2 & 3 & 4}\vec{n} = 7
+\end{align}
+%
+Alternatively, the normal vector to the plane can be obtained as
+%
+\begin{align}
+\vec{n} = \brak{\vec{R}-\vec{S}} \times \brak{\vec{S}-\vec{T}}
+\end{align}
+%
+The equation of the plane is then obtained from \eqref{eq:line_norm_vec} as 
+%
+\begin{align}
+\label{eq:plane_3pts_cross}
+\vec{n}^T\brak{\vec{x}-\vec{T}} = \sbrak{\brak{\vec{R}-\vec{S}} \times \brak{\vec{S}-\vec{T}}}^T\brak{\vec{x}-\vec{T}} = 0
+\end{align}
+%
+
+\item Find the equation of the plane with intercepts 2, 3 and 4 on the x, y and z axis respectively.
+\\
+\solution From the given information, the plane passes through the points \myvec{2\\0\\0}, \myvec{0\\3\\0} and \myvec{0\\0\\4} respectively. The equation can be obtained using Problem \ref{prob:plane_3pts}.
+
+\item Find the equation of the plane passing through the intersection of the planes 
+%
+\begin{align}
+\label{eq:plane_2p_1pt_1}
 \myvec{1 & 1 & 1}\vec{x}&=6  
 \\
 \myvec{2 & 3 & 4}\vec{x}&=-5
+\label{eq:plane_2p_1pt_2}
 \end{align}
 %
 and the point \myvec{1\\1\\1}.
+\\
+\solution The intersection of the planes is obtained by row reducing the augmented matrix as
+%
+\begin{align}
+\myvec{
+1 & 1 & 1 & 6
+\\
+2 & 3 & 4 & -5
+}
+\xleftrightarrow[]{R_2 = R_2 -2R_1}
+\myvec{
+1 & 1 & 1 & 6
+\\
+0 & 1 & 2 & -17
+}
+\\
+\xleftrightarrow[]{R_1 = R_1 -R_2}
+\myvec{
+1 & 0 & -1 & 23
+\\
+0 & 1 & 2 & -17
+}
+\\
+\implies 
+\vec{x} = \myvec{23\\-17\\0}+\lambda\myvec{1\\-2\\1}
+\end{align}
+%
+Thus, \myvec{23\\-17\\0} is another point on the plane.  The normal vector to the plane is then obtained as
+The normal vector to the plane is then obtained as
+%
+\begin{align}
+\brak{ \myvec{1\\1\\1}-\myvec{23\\-17\\0}}\times \myvec{1\\-2\\1} 
+\end{align}
+%
+which can be obtained by row reducing the matrix
+\begin{align}
+\myvec{
+1 & -2 & 1
+\\
+-22 & 18 & 1
+}
+\xleftrightarrow[]{R_2 = R_2+22R_1}
+\myvec{
+1 & -2 & 1
+\\
+0  & -26 & 23
+}
+\\
+\xleftrightarrow[]{R_1 = 13R_1-R_2}
+\myvec{
+13 & 0 & -10
+\\
+0  & -26 & 23
+}
+\\
+\implies \vec{n} = \myvec{\frac{10}{13}\\\frac{23}{26}\\1} = \myvec{20\\23\\26}
+\end{align}
+%
+Since the plane passes through \myvec{1\\1\\1}, using 
+ \eqref{eq:line_norm_vec},
+%
+\begin{align}
+\myvec{20 & 23 & 26}\brak{\vec{x}- \myvec{1\\1\\1}} &= 0
+\\
+\implies 
+\myvec{20 & 23 & 26}\vec{x} &= 69
+\end{align}
+%
+Alternatively, the plane passing through the intersection of \eqref{eq:plane_2p_1pt_1} and 
+\eqref{eq:plane_2p_1pt_2} has the form 
+%
+\begin{align}
+\label{eq:plane_2p_1pt_lam}
+\myvec{1 & 1 & 1}\vec{x} + \lambda \myvec{2 & 3 & 4}\vec{x} &=6 -5\lambda  
+\end{align}
+%
+Substituting \myvec{1\\1\\1} in the above, 
+%
+\begin{align}
+\myvec{1 & 1 & 1}\myvec{1\\1\\1} + \lambda \myvec{2 & 3 & 4}\myvec{1\\1\\1} &=6 -5\lambda  
+\\
+\implies 3 + 9\lambda &= 6-5\lambda
+\\
+\implies &\lambda = \frac{3}{14}
+\end{align}
+%
+Substituting this value of $\lambda $ in \eqref{eq:plane_2p_1pt_lam} yields the equation of the plane.
+
 \item Show that the lines 
+\label{prob:line_coplanar}
+%
 \begin{align}
 \frac{x+3}{-3} = \frac{y-1}{1} &= \frac{z-5}{5}, 
 \\
@@ -1320,6 +1441,54 @@ and the point \myvec{1\\1\\1}.
 \end{align}
 %
 are coplanar.
+\\
+\solution Since the given lines have different direction vectors, they are not parallel.  From Problem \eqref{prob:line_dist_skew}, the lines are coplanar if the distance between them is 0, i.e. they intersect.  This is possible if 
+%
+\begin{align}
+\label{eq:line_coplanar}
+\brak{\vec{A}_2-\vec{A}_1}^T\brak{\vec{m}_1\times\vec{m}_2} = 0
+\end{align}
+%
+From the given information, 
+%
+\begin{align}
+\vec{A}_2-\vec{A}_1 = \myvec{-3\\1\\5}-\myvec{-1\\2\\5} = \myvec{-2\\-1\\0}
+\end{align}
+%
+$\vec{m}_1\times \vec{m}_2$ is obtained by row reducing the matrix
+%
+\begin{align}
+\myvec{
+-1 & 2 & 5
+\\
+-3 & 1 & 5
+}
+\xleftrightarrow[]{R_2=\frac{R_2-3R_1}{5}}
+\myvec{
+-1 & 2 & 5
+\\
+0 & 1 & 2
+}
+\\
+\xleftrightarrow[]{R_1=-R_1+2R_2}
+\myvec{
+1 & 0 & -1
+\\
+0 & 1 & 2
+}
+\implies \myvec{-1 \\ 2 \\ 5}
+\times \myvec{-3 \\ 1 \\ 5}
+=\myvec{1\\-2\\1}
+\end{align}
+%
+The LHS of \eqref{eq:line_coplanar} is 
+\begin{align}
+\myvec{-2 & -1 & 0}
+\myvec{1\\-2\\1} = 0
+\end{align}
+%
+which completes the proof.
+%
 \item Find the angle between the two planes
 \begin{align}
 \myvec{2 & 1 & -2}\vec{x}&=5
@@ -1327,6 +1496,8 @@ are coplanar.
 \myvec{3 &-6 & -2}\vec{x}&=7.
 \end{align}
 %
+\solution The angle between two planes is the same as the angle between their normal vectors.  This can be obtained from \eqref{eq:line_inner_prod}.
+
 \item Find the angle between the two planes
 \begin{align}
 \myvec{2 & 2 & -2}\vec{x}&=5
@@ -1334,12 +1505,12 @@ are coplanar.
 \myvec{3 &-6 & 2}\vec{x}&=7.
 \end{align}
 %
-Find the distance of a point \myvec{2\\5\\-3} from the plane
+\item Find the distance of a point \myvec{2\\5\\-3} from the plane
 \begin{align}
 \myvec{6 & -3 & 2}\vec{x}=4
 \end{align}
 %
-Find the angle between the line 
+\item Find the angle between the line 
 %
 \begin{align}
 \frac{x+1}{2} = \frac{y}{3} = \frac{z-3}{6} 
