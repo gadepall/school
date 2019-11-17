@@ -393,18 +393,44 @@ find the equation of the line.
 \item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
 %
 \\
-\solution  The perpendicular distance of a point $\vec{A}$ from a line
+\solution  In Fig. \eqref{fig:line_pt_dist}, the foot of the perpendicular $P$ is the intersection of the lines $L$ and $M$.  Thus, 
 \begin{align}
-\vec{n}^T\vec{x} = c
+\label{eq:line_pt_dist_foot}
+\vec{n}^T\vec{P} &= c
+\\
+\label{eq:line_pt_dist_foot_normal}
+\vec{P} = \vec{A} + \lambda\vec{n}
+\\
+\text{or, } \vec{n}^T\vec{P} = \vec{n}^T\vec{A} + \lambda\norm{\vec{n}}^2 = c
+\\
+\label{eq:line_pt_dist_lam}
+\implies -\lambda = \frac{\vec{n}^T\vec{A}-c}{\norm{\vec{n}}^2}
 \end{align}
 %
-is given by 
+Also, the distance between $\vec{A}$ and $L$ is obtained from 
+%
+\begin{align}
+\vec{P} &= \vec{A} + \lambda\vec{n}
+\\
+\label{eq:line_pt_dist_lam_norm}
+\implies \norm{\vec{P} - \vec{A}}  = \abs{\lambda}\norm{\vec{n}}
+\end{align}
+%
+From \eqref{eq:line_pt_dist_lam}
+and \eqref{eq:line_pt_dist_lam_norm}
+%
 \begin{align}
 \label{eq:line_pt_dist}
-\frac{\abs{\vec{n}^T\vec{A} - c}}{\norm{\vec{n}}}
+\norm{\vec{P} - \vec{A}}  = \frac{\abs{\vec{n}^T\vec{A}-c}}{\norm{\vec{n}}}
 \end{align}
 %
-From the given information, 
+
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_pt_dist.eps}
+\caption{}
+\label{fig:line_pt_dist}
+\end{figure}
+%
 \begin{align}
 \vec{n} = \myvec{1\\\tan 15\degree}
 \end{align}
@@ -489,6 +515,48 @@ Find its
 \item x-intercept is $-\frac{10}{3}$ and y-intercept is $\frac{10}{4} = \frac{5}{2}$.
 \end{enumerate}
 %
+%
+\item Find the angle between two vectors $\vec{a}$ and $\vec{b}$ where 
+%
+\begin{align}
+\norm{\vec{a}} = 1,
+\norm{\vec{b}} = 2,
+\vec{a}^T\vec{b} = 1.
+\end{align}
+%
+\solution In Fig. \ref{fig:line_scalar_prod}, from the cosine formula in \eqref{eq:b_cos_form}
+%
+\begin{align}
+\cos \theta &= \frac{\norm{\vec{A}-\vec{B}}^2+\norm{\vec{B}-\vec{C}}^2-\norm{\vec{A}-\vec{C}}^2}{2\norm{\vec{A}-\vec{B}}\norm{\vec{B}-\vec{C}}}
+\end{align}
+Letting $\vec{a} = \vec{A}-\vec{B}, \vec{b} = \vec{B}-\vec{C}$, 
+\begin{align}
+\cos \theta &= \frac{\norm{\vec{a}}^2+\norm{\vec{b}}^2-\norm{\vec{a}+\vec{b}}^2}{2\norm{\vec{a}}\norm{\vec{b}}}
+\\
+&= \frac{\norm{\vec{a}}^2+\norm{\vec{b}}^2-\sbrak{\norm{\vec{a}}^2+\norm{\vec{b}}^2-2\vec{a}^T\vec{b}}}{2\norm{\vec{a}}\norm{\vec{b}}}
+\\
+\implies \cos \theta &=\frac{\vec{a}^T\vec{b}}{\norm{\vec{a}}\norm{\vec{b}}}
+\end{align}
+%
+Thus, the angle $\theta$ between two vectors is given by 
+%
+\begin{align}
+\label{eq:line_scalar_prod}
+\cos \theta &= \frac{\vec{a}^T\vec{b}}{\norm{\vec{a}}\norm{\vec{b}}}
+\\
+&=\frac{1}{2}
+\\
+\implies \theta &= 60\degree
+\end{align}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_scalar_prod.eps}
+\caption{}
+\label{fig:line_scalar_prod}
+\end{figure}
+%
+
+
 \item Find the angle between the lines 
 %
 \begin{align}
@@ -856,33 +924,13 @@ find $\vec{R}$, which divides $PQ$ in the ratio $2:1$
 \end{enumerate}
 %
 \solution Use \eqref{eq:line_section_form}.  
-%
-\item Find the angle between two vectors $\vec{a}$ and $\vec{b}$ where 
-%
-\begin{align}
-\norm{\vec{a}} = 1,
-\norm{\vec{b}} = 2,
-\vec{a}^T\vec{b} = 1.
-\end{align}
-%
-\solution The angle $\theta$ between two vectors is given by 
-%
-\begin{align}
-\label{eq:line_inner_prod}
-\cos \theta &= \frac{\vec{a}^T\vec{b}}{\norm{\vec{a}}\norm{\vec{b}}}
-\\
-&=\frac{1}{2}
-\\
-\implies \theta &= 60\degree
-\end{align}
-%
 \item Find the angle between the vectors 
 $\vec{a}=\myvec{1\\1\\-1}$
   and 
 $\vec{b}=\myvec{1\\-1\\1}$.
 %
 \\
-\solution Use \eqref{eq:line_inner_prod}
+\solution Use \eqref{eq:line_scalar_prod}
 %
 \item Find the angle between the pair of lines given by 
 \begin{align}
@@ -892,7 +940,7 @@ $\vec{b}=\myvec{1\\-1\\1}$.
 \end{align}
 %
 \\
-\solution The direction vectors of the lines are \myvec{1 \\ 2 \\2} and \myvec{3 \\ 2 \\6}.   Using\eqref{eq:line_inner_prod}, the angle between the lines can be obtained. 
+\solution The direction vectors of the lines are \myvec{1 \\ 2 \\2} and \myvec{3 \\ 2 \\6}.   Using\eqref{eq:line_scalar_prod}, the angle between the lines can be obtained. 
 \item Find the angle between the pair of lines
 \begin{align}
 \frac{x+3}{3} = \frac{y-1}{5} &= \frac{z+3}{4}, 
@@ -901,7 +949,7 @@ $\vec{b}=\myvec{1\\-1\\1}$.
 \end{align}
 %
 \\
-\solution From Problem \ref{prob:line_3d}, the direction vectors of the lines can be expressed as \myvec{3\\5\\4} and \myvec{1\\1\\2}.  The angle between them can then be obtained from \eqref{eq:line_inner_prod}.
+\solution From Problem \ref{prob:line_3d}, the direction vectors of the lines can be expressed as \myvec{3\\5\\4} and \myvec{1\\1\\2}.  The angle between them can then be obtained from \eqref{eq:line_scalar_prod}.
 %
 \item If 
 $\vec{a}=\myvec{5\\-1\\-3}$
@@ -1502,7 +1550,7 @@ which completes the proof.  Alternatively, the lines are coplanar if
 \myvec{3 &-6 & -2}\vec{x}&=7.
 \end{align}
 %
-\solution The angle between two planes is the same as the angle between their normal vectors.  This can be obtained from \eqref{eq:line_inner_prod}.
+\solution The angle between two planes is the same as the angle between their normal vectors.  This can be obtained from \eqref{eq:line_scalar_prod}.
 
 \item Find the angle between the two planes
 \begin{align}
