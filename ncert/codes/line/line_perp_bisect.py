@@ -1,5 +1,5 @@
 #Code by GVV Sharma
-#March 26, 2019
+#Nov 16, 2019
 #released under GNU GPL
 import numpy as np
 import matplotlib.pyplot as plt
@@ -19,8 +19,8 @@ B = np.array([3,5])
 P = np.array([2,0]) 
 n = np.array([1,-1]) 
 m = omat@n
-k1=-4
-k2=0
+k1=0
+k2=10
 #Generating all lines
 x_AB = line_gen(A,B)
 x_perp_bisect = line_dir_pt(m,P,k1,k2)

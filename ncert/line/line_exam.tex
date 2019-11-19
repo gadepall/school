@@ -931,6 +931,18 @@ are collinear.
 %
 $\implies rank(\vec{M}) = 1$.
 %
+The following code plots Fig. \ref{fig:collinear_3d} showing that the points are collinear.
+%
+\begin{lstlisting}
+codes/line/collinear_3d.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/collinear_3d.eps}
+\caption{}
+\label{fig:collinear_3d}
+\end{figure}
+%
 \item Show that 
 $
 \vec{A}=\myvec{2\\3\\-4}, 
@@ -1264,7 +1276,22 @@ L_2: \quad \vec{x} &= \myvec{3\\3\\-5} + \lambda_2\myvec{2 \\ 3 \\6}
 \end{align}
 \label{prob:line_dist_parallel}
 %
-\solution Both the lines have the same direction vector, so the lines are parallel. From Fig. \ref{fig:line_dist_parallel}, the distance is
+\solution Both the lines have the same direction vector, so the lines are parallel. 
+The following code plots 
+%
+\begin{lstlisting}
+codes/line/line_dist_parallel.py
+\end{lstlisting}
+Fig. \ref{fig:line_dist_parallel_py} 
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_dist_parallel_py.eps}
+\caption{}
+\label{fig:line_dist_parallel_py}
+\end{figure}
+%
+%
+From Fig. \ref{fig:line_dist_parallel}, the distance is
 %
 \begin{figure}
 \centering
@@ -1360,7 +1387,22 @@ Row reducing the augmented matrix,
 }
 \end{align}
 %
-The above matrix has $rank = 3$.  Hence, the lines do not intersect.  Note that the lines are not parallel but they lie on parallel planes.  Such lines are known as {\em skew} lines.  The normal to both the lines (and corresponding planes) is 
+The above matrix has $rank = 3$.  Hence, the lines do not intersect.  Note that the lines are not parallel but they  lie on parallel planes.  Such lines are known as {\em skew} lines.  
+The following code plots 
+Fig. \ref{fig:line_dist_skew} 
+%
+\begin{lstlisting}
+codes/line/line_dist_skew.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_dist_skew.eps}
+\caption{}
+\label{fig:line_dist_skew}
+\end{figure}
+%
+
+The normal to both the lines (and corresponding planes) is 
 %
 \begin{align}
 \label{eq:line_dist_skew_normal}
@@ -1385,14 +1427,6 @@ The distance from $\vec{A}_1$ to the above line is then obtained using
 \end{align}
 %
 
-%The shortest distance is given by 
-%%
-%\begin{align}
-%\label{eq:line_dist_skew}
-%\frac{\abs{\brak{\vec{A}_2-\vec{A}_1}^T\brak{\vec{m}_1\times\vec{m}_2}}}{\norm{\vec{\vec{m}_1\times\vec{m}_2}}}
-%\end{align}
-%%
-%where
 \item Find the distance of the plane 
 \begin{align}
 \myvec{2 & -3 & 4}\vec{x}-6  = 0
