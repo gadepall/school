@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  19 NOV 2019 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  19 NOV 2019 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,6 +849,10 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks41
 \verbatim@line=\toks42
 \verbatim@in@stream=\read2
+) (/data/data/com.termux/files/home/texmf/tex/latex/tfrupee/tfrupee.sty
+Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
+Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
+. Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/hy
 perref.sty
@@ -1301,62 +1305,62 @@ Package chngcntr Info: \counterwithout already defined.
 ) (./gvv_ncert.aux)
 \openout1 = `gvv_ncert.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 83.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 83.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 84.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 84.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oml
 txmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 84.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
 txsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 84.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/omx
 txex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 84.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 exa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 84.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
 txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 83.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 83.
+LaTeX Info: Redefining \celsius on input line 84.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 84.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 83.
-Package gensymb Info: Using \Omega for \ohm on input line 83.
+LaTeX Info: Redefining \ohm on input line 84.
+Package gensymb Info: Using \Omega for \ohm on input line 84.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1373,7 +1377,7 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 84.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/na
 meref.sty
@@ -1385,9 +1389,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count268
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
  (./gvv_ncert.out) (./gvv_ncert.out)
 \@outlinefile=\write4
 \openout4 = `gvv_ncert.out'.
@@ -1401,35 +1405,35 @@ LaTeX Info: Redefining \nameref on input line 83.
 \c@rem=\count275
 File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 239.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 239.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 240.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 240.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ur
 sfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 239.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 240.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 mia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 239.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 240.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 sya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 239.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 240.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 syb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 239.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 240.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
@@ -1438,7 +1442,7 @@ File: utxsyc.fd 2000/12/15 v3.1
 )
 File: tlc.eps Graphic file (type eps)
  <tlc.eps>
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 239.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 240.
 File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
 File: tlc.eps Graphic file (type eps)
@@ -1680,7 +1684,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (8.60971pt too wide) detected at line 1736
+Overfull \hbox (8.60971pt too wide) detected at line 1748
 []
  []
 
@@ -1741,16 +1745,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37])
-(./line/line_misc.tex
+(./line/line_app.tex
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 11.
+
+) (./line/line_misc.tex [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39])
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40])
 (./circle/circle_examples.tex
 Underfull \hbox (badness 1454) in paragraph at lines 4--12
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The tan-gent is per-pen-dic-u-lar to
@@ -1758,27 +1775,30 @@ Underfull \hbox (badness 1454) in paragraph at lines 4--12
  []
 
 File: ./circle/figs/circle.eps Graphic file (type eps)
-<./circle/figs/circle.eps>) (./circle/circle_exer.tex [40]
+<./circle/figs/circle.eps>) (./circle/circle_exer.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./circle/circle_geo.tex) [41]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+ [41])
+(./circle/circle_geo.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
+ [42
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
  (./gvv_ncert.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 329.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
 Package rerunfilecheck Info: File `gvv_ncert.out' has not changed.
-(rerunfilecheck)             Checksum: AD0F46547D6E6F9041CCDBCA5D70BC79;1260.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
+(rerunfilecheck)             Checksum: 58EE06C0BC8CBA9A91B89513A5F34618;1342.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 329.
  ) 
 Here is how much of TeX's memory you used:
- 32293 strings out of 492624
- 694118 string characters out of 6119216
- 908046 words of memory out of 5000000
- 35536 multiletter control sequences out of 15000+600000
- 86107 words of font info for 221 fonts, out of 8000000 for 9000
+ 32310 strings out of 492624
+ 694488 string characters out of 6119216
+ 908872 words of memory out of 5000000
+ 35546 multiletter control sequences out of 15000+600000
+ 86535 words of font info for 222 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,19n,69p,501b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert.dvi (41 pages, 532272 bytes).
+Output written on gvv_ncert.dvi (42 pages, 537920 bytes).

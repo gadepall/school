@@ -41,6 +41,7 @@ Plane._facecolors2d=Plane._facecolors3d
 Plane._edgecolors2d=Plane._edgecolors3d
 #plotting point
 ax.scatter(A[0],A[1],A[2],'o')
+ax.text(5,2,-4, "A", color='green')
 
 #show plot
 plt.xlabel('$x$');plt.ylabel('$y$')
