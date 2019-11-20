@@ -1,6 +1,42 @@
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
+\item Angles opposite to equal sides of a triangle are equal. 
+\label{prob:tri_ang_side_eq}
+\\
+\solution Using the sine formula in \eqref{eq:sin_form},%
+\begin{align}
+\frac{\sin A}{a} = \frac{\sin B}{b}
+\end{align}
+%
+Thus, if $A=B$, $\sin A = \sin B \implies a =b$.
+\item  Sides opposite to equal angles of a triangle are equal. 
+\\
+\solution Use \eqref{eq:sin_form} and the argument in Problem \ref{prob:tri_ang_side_eq}
+%
+\item  Each angle of an equilateral triangle is of 60$\degree$. 
+\\
+\solution In an equilateral $\triangle$, 
+%
+\begin{align}
+A=B=C.&
+\\
+\because A+B+C = 180\degree, 3A = 180\degree&
+\\
+\implies A = 60\degree&
+\end{align}
+%
+
+\item  In a triangle, angle opposite to the longer side is larger (greater). 
+%
+\\
+\solution Consider a right triangle $ABC$ right angled at $B$.  If $a > c$, 
+%
+\begin{align}
+h\sin B 
+\end{align}
+%
+\item In a triangle, side opposite to the larger (greater) angle is longer. 
 %
 \item Do the points $\vec{A}=\myvec{3\\2}, \vec{B}=\myvec{-2\\-3}, \vec{C}=\myvec{2\\3} $ form a triangle?  If so, name the type of triangle formed.
 \label{prob:tri_exam_coll_pts}
@@ -135,6 +171,23 @@ This is known as Hero's formula.  The following code computes the area of the  t
 codes/triangle/area_tri.py
 \end{lstlisting}
 %
+\item Show that the sum of any two sides of a triangle is greater than the third side.
+\\
+\solution In \eqref{eq:tri_hero}, all the factors inside the square root should be positive.  Thus, 
+%
+\begin{align}
+\brak{s-a} > 0, \brak{s-b} > 0\brak{s-c} &> 0
+\end{align}
+%
+\begin{align}
+\\
+\brak{s-a} > 0 \implies \frac{a+b+c}{2} -a &> 0
+\\
+\text{or, } b+c > a
+\end{align}
+%
+Similarly, it can be shown that $a+b>c, c+a>b$.
+
 \item Draw a triangle whose sides are 8cm and 11cm and the perimeter is 32 cm and find its area.
 %
 \solution Use \eqref{eq:tri_hero}.
