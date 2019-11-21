@@ -179,6 +179,42 @@ after simplification.  From \eqref{eq:tri_geo_ex_baorth} and \eqref{eq:tri_geo_e
 satisfying
 \eqref{eq:tri_geo_ex_orth}. Thus,  $\triangle ABC$ is right angled at $\vec{A}$.
 %
+%
+\item Area of a triangle is half the product of its base and the corresponding altitude. 
+%
+\\
+\solution First, we consider the right angled triangle in Fig\ref{fig:tri_right_area}. By definition, the area of the rectangle $ABCD$ is $ac$.  Also, The rectangle is a sum of two congruent triangles $ABC$ and $ADC$.  Thus,
+%
+\begin{align}
+\text{ar}\triangle ABC=\text{ar}\triangle ADC = \frac{1}{2}ac
+\end{align} 
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/tri_right_area.eps}
+\caption{}
+\label{fig:tri_right_area}
+\end{figure}
+%
+For any $\triangle ABC$, as shown in Fig.  \ref{fig:tri_area}, the area can be obtained as
+%
+\begin{align}
+\text{ar}\triangle ABC&=\frac{1}{2}xh+\frac{1}{2}yh 
+\\
+\frac{1}{2}\brak{x+y}h = \frac{1}{2}ah
+\end{align} 
+%
+
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/tri_area.eps}
+\caption{}
+\label{fig:tri_area}
+\end{figure}
+%
+
+\item Triangles on the same base (or equal bases) and between the same parallels are equal in area.
+\item Triangles on the same base (or equal bases) and having equal areas lie between the same parallels.
+
 \item Find the area of a triangle whose vertices are 
 $\vec{A}=\myvec{1\\-1}, 
 \vec{B} = \myvec{-4\\6}$ and
@@ -237,6 +273,10 @@ This is known as Hero's formula.  The following code computes the area of the  t
 \begin{lstlisting}
 codes/triangle/area_tri.py
 \end{lstlisting}
+%
+\item A median of a triangle divides it into two triangles of equal areas.
+\\
+\solution In $\triangle ABC$, let $AD$
 %
 \item Show that the sum of any two sides of a triangle is greater than the third side.
 \\
@@ -326,7 +366,7 @@ codes/triangle/area_tri_vec.py
 \item $P$ is a point equidistant from two lines $l$ and $m$ intersecting at point $A$.  Show that the line  $AP$  bisects the angle between them.
 %
 \item $D$ is a point on side $BC$ of $\triangle  ABC$ such that $AD = AC$. Show that $AB > AD$
-%
+
 %
 \item The centroid of a $\triangle ABC$ is at the point \myvec{1\\1\\1}.  If the coordinates of $\vec{A}$ and $\vec{B}$ are \myvec{3\\-5\\7} and \myvec{-1\\7\\-6}, respectively, find the coordinates of the point $\vec{C}$.
 %
