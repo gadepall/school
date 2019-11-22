@@ -58,7 +58,7 @@ In Fig. \ref{ch1_parallel_triangle}, the straight line making an angle of $90^{\
 \item
 	Show that $\angle VAZ = 90^{\degree} - \theta$
 		
-	\proof Considering the line $XAZ$,
+	\solution Considering the line $XAZ$,
 	\begin{align}
 	\theta + 90^{\degree} + \angle VAZ &= 180^{\degree} \\
 	\Rightarrow  \angle VAZ =  90^{\degree} - \theta
@@ -68,12 +68,12 @@ In Fig. \ref{ch1_parallel_triangle}, the straight line making an angle of $90^{\
 	\label{ch1_compl_angle}
 	Show that $\angle BAC = 90^{\degree} - \theta$.
 	
-	\proof Consider the line $VAB$ and and use the approach in the previous problem.  Note that this implies that $\angle VAZ = \angle BAC$.  Such angles are known as vertically opposite angles. 
+	\solution Consider the line $VAB$ and and use the approach in the previous problem.  Note that this implies that $\angle VAZ = \angle BAC$.  Such angles are known as vertically opposite angles. 
 	 
 \item
 Sum of the angles of a triangle is equal to $180^{\degree}$
 \end{enumerate}
-\subsection{Budhayana Theorem}
+\subsection{Baudhayana Theorem}
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
@@ -93,12 +93,12 @@ Sum of the angles of a triangle is equal to $180^{\degree}$
 		\resizebox{\columnwidth}{!}{\input{./figs/fig_1.3_def.tex}}
 		%\vspace*{-10cm}
 	\end{center}
-	\caption{Budhayana Theorem}
+	\caption{Baudhayana Theorem}
 	\label{ch1_budh_triangle}	
 \end{figure}
 
 
-\proof From Problem \ref{ch1_compl_angle} and  \eqref{ch1_trig_defs}
+\solution From Problem \ref{ch1_compl_angle} and  \eqref{ch1_trig_defs}
 %
 \begin{equation}
 	\cos \brak{90^{\degree}-\theta} = \frac{b}{c} = \sin \theta
@@ -113,7 +113,7 @@ c = a \cos \theta + b \sin \theta
 \end{equation}
 %
 
-\proof We observe that
+\solution We observe that
 %
 \begin{align}
 BD &= a \cos \theta \\
@@ -128,12 +128,14 @@ BD + AD = c = a \cos \theta + b \sin \theta
 From \eqref{ch1_budh_basic}, show that
 %
 \begin{equation}
+%
+\label{eq:tri_sin_cos_id}
 \sin ^2 \theta + \cos ^2 \theta = 1
 \end{equation}
 
 
 %
-\proof Dividing both sides of \eqref{ch1_budh_basic} by $c$, 
+\solution Dividing both sides of \eqref{ch1_budh_basic} by $c$, 
 \begin{align}
 1 &= \frac{a}{c}\cos\theta + \frac{b}{c}\sin\theta\\
 \Rightarrow &\sin ^2 \theta + \cos ^2 \theta = 1 \quad \brak{\text{from} \quad \eqref{ch1_trig_defs}}
@@ -142,16 +144,246 @@ From \eqref{ch1_budh_basic}, show that
 \item
 	Using \eqref{ch1_budh_basic}, show that
 	\begin{equation}
-	\label{ch1_budhayana_them}
+	\label{ch1_Baudhayana_them}
 	c^2 = a^2 + b^2
 	\end{equation}
-	\eqref{ch1_budhayana_them} is known as the Budhayana theorem.  It is also known as the Pythagoras theorem.
+	\eqref{ch1_Baudhayana_them} is known as the Baudhayana theorem.  It is also known as the Pythagoras theorem.
 
-\proof From \eqref{ch1_budh_basic},
+\solution From \eqref{ch1_budh_basic},
 \begin{align}
 c &= a\frac{a}{c} + b \frac{b}{c} \quad \brak{\text{from} \quad \eqref{ch1_trig_defs}}\\
 \Rightarrow c^2 &= a^2 + b^2
 \end{align}
+\end{enumerate}
+\subsection{Area of a Triangle}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+
+
+
+\item
+	The area of the rectangle $ACBD$ shown in Fig. \ref{ch2_sq_ar} is defined as $ab$. Note that all the angles in the rectangles are $90^{\degree}$
+	\label{ch2_sq_ar}
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch2_sq_ar}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/fig1_def.tex}}
+	\end{center}
+	\caption{Area of a Right Triangle}
+	\label{ch2_sq_ar}	
+\end{figure}
+
+\item
+	The area of the two triangles constituting the rectangle is the same.
+	\label{ch2_triang_eq}
+
+\item
+	The area of the rectangle is the sum of the areas of the two triangles inside.
+	\label{ch2_triang_sum}
+
+
+\item
+	Show that the area of $\Delta ABC$ is $\frac{ab}{2}$
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch2_triang_ar}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/fig2.1.tex}}
+	\end{center}
+	\caption{Area of a Triangle}
+	\label{ch2_triang_ar}	
+\end{figure}
+
+\solution From\eqref{ch2_triang_sum},
+\begin{equation}
+\label{ch2_triang_ar_1}
+ar\brak{ABCD} = ar\brak{ACB} + ar\brak{ADB}
+\end{equation}
+Also from \eqref{ch2_triang_eq},
+\begin{equation}
+\label{ch2_triang_ar_2}
+ar\brak{ACB} = ar\brak{ADB}
+\end{equation}
+From \eqref{ch2_triang_ar_1} and \eqref{ch2_triang_ar_2},
+\begin{align}
+2ar\brak{ACB} &= ar\brak{ABCD} = ab \brak{\text{from} \quad \eqref{ch2_sq_ar}}
+\\
+\Rightarrow ar\brak{ACB} &= \frac{ab}{2}
+\end{align}
+
+\item
+	Show that the area of $\Delta ABC$ in Fig. 	\ref{ch2_triang_ar}	is $\frac{1}{2}ah$.
+
+
+\solution In Fig. \ref{ch2_triang_ar},
+\begin{align}
+ar\brak{\Delta ADC} &= \frac{1}{2}hy \\
+ar\brak{\Delta ADB} &= \frac{1}{2}hx 
+\end{align}
+Thus,
+\begin{align}
+ar\brak{\Delta ABC} &= ar\brak{\Delta ADC} + ar\brak{\Delta ADB} \\
+&= \frac{1}{2}hy + \frac{1}{2}hx = \frac{1}{2}h\brak{x+y} \\
+&= \frac{1}{2}ah
+\end{align}
+\item
+\label{prob:tri_area_sin}
+	Show that the area of $\Delta ABC$ in Fig. 	\ref{ch2_triang_ar}	is $\frac{1}{2}ab \sin C$.
+
+\solution We have
+%
+\begin{equation}
+ar\brak{\Delta ABC} = \frac{1}{2}ah = \frac{1}{2}ab\sin C \quad \brak{\because \quad h = b \sin C}.
+\end{equation}
+%
+\item
+	Show that 
+	\begin{equation}
+	\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}
+	\end{equation}
+
+\solution Fig. \ref{ch2_triang_ar} can be suitably modified to obtain 
+\begin{equation}
+ar\brak{\Delta ABC} = \frac{1}{2}ab\sin C = \frac{1}{s}bc\sin A = \frac{1}{2}ca\sin B
+\end{equation}
+Dividing the above by $abc$, we obtain
+	\begin{equation}
+\label{eq:tri_sin_form}
+	\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}
+	\end{equation}
+This is known as the sine formula.	
+%
+\item
+In Fig. \ref{ch2_cosine_formula}, show that
+%
+\begin{equation}
+\label{eq:tri_cos_form}
+\cos A = \frac{b^2+c^2-a^2}{2bc}
+\end{equation}
+%
+\
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch2_triang_ar}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/fig2.1.tex}}
+	\end{center}
+	\caption{The cosine formula}
+	\label{ch2_cosine_formula}	
+\end{figure}
+
+\solution From the figure, the first of the following equations
+%
+\begin{align}
+a &= b \cos C + c \cos B \\
+b &= c \cos A + a \cos C \\
+c &= b \cos A + a \cos B
+\end{align}
+%
+is obvious and the other two can be similarly obtained.  The above equations can be expressed in matrix form as
+%
+\begin{equation}
+\begin{pmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{pmatrix}
+\begin{pmatrix}
+\cos A \\
+\cos B \\
+\cos C
+\end{pmatrix}
+= 
+\begin{pmatrix}
+a\\
+b\\
+c
+\end{pmatrix}
+\end{equation}
+%
+Using the properties of determinants,
+%
+\begin{align}
+\cos A &= \frac{
+\begin{vmatrix}
+a & c & b \\
+b & 0 & a \\
+c & a & 0
+\end{vmatrix}
+	}
+	{
+\begin{vmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{vmatrix}
+	}
+	=\frac{ab^2 + ac^2 - a^3}{abc + abc} 
+\\
+&= \frac{b^2 + c^2 - a^2}{2abc}
+\end{align}
+%
+\item Find Hero's formula for the area of a triangle.
+\\
+\solution 
+%In Fig. \ref{fig:rt_triangle}, from Baudhayana's theorem, 
+%\begin{align}
+%\label{eq:tri_geo_baudh}
+%b^2 = a^2+c^2 &
+%\\
+%=b^2\cos^2C+b^2\sin^2C &
+%\\
+%\implies \cos^2C+\sin^2C &= 1
+%\end{align}
+%
+%In Fig. \ref{fig:tri_const_ex_cos_form}, 
+From \eqref{prob:tri_area_sin}, the area of $\triangle ABC$ is 
+{\footnotesize
+\begin{align}
+\label{eq:tri_geo_area_sin_form}
+ \frac{1}{2}ab\sin C
+%\\
+&=\frac{1}{2}ab\sqrt{1-\cos^2C} 
+\quad \brak{\text{from } \eqref{eq:tri_sin_cos_id}
+%\eqref{eq:tri_geo_baudh}
+}
+\\
+&=\frac{1}{2}ab\sqrt{1-\brak{\frac{a^2+b^2-c^2}{2ab}}^2} \brak{\text{from } \eqref{eq:tri_cos_form}
+}
+\\
+&=\frac{1}{4}\sqrt{\brak{2ab}^2-\brak{a^2+b^2-c^2}}
+\\
+&=\frac{1}{4}\sqrt{\brak{2ab+a^2+b^2-c^2}\brak{2ab-a^2-b^2+c^2}}
+\\
+&= \frac{1}{4}\sqrt{\cbrak{\brak{a+b}^2-c^2}\cbrak{c^2-\brak{a-b}^2}}
+\\
+&= \frac{1}{4}\sqrt{\brak{a+b+c}\brak{a+b-c}\brak{a+c-b}\brak{b+c-a}}
+\label{eq:tri_ex_hero_temp}
+\end{align}
+}
+Substituting 
+%
+\begin{align}
+s=\frac{a+b+c}{2}
+\end{align}
+%
+in \eqref{eq:tri_ex_hero_temp}, the area of $\triangle ABC$ is 
+%
+\begin{align}
+\label{eq:tri_hero}
+\sqrt{s\brak{s-a}\brak{s-b}\brak{s-c}}
+\end{align}
+%
+This is known as Hero's formula.
 \end{enumerate}
 
 

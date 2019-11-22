@@ -1,4 +1,13 @@
 \subsection{Angle Bisectors}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item
+	In Fig. \ref{ch3_angle_bisector}, $OB$ divides the  $\angle B$ into half, i.e.\begin{equation}
+	\angle OBC = \angle OBA
+	\end{equation}
+	$OB$ is known as an angle bisector.
+
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -11,17 +20,10 @@
 	\label{ch3_angle_bisector}	
 \end{figure}
 
-\begin{definition}
-	In Fig. \ref{ch3_angle_bisector}, $OB$ divides the  $\angle B$ into half, i.e.\begin{equation}
-	\angle OBC = \angle OBA
-	\end{equation}
-	$OB$ is known as an angle bisector.
-\end{definition}
 	$OB$ and $OC$ are angle bisectors of angles $B$ and $C$. $OA$ is joined and $OD, OF$ and $OE$ are perpendiculars to sides $a,b$ and $c$.
-\begin{problem}
+\item
   Show that $OD = OE = OF$.
-\end{problem}
-\proof In $\Delta$s $ODC$ and $OEC$,
+\solution In $\Delta$s $ODC$ and $OEC$,
 \begin{align}
 OD &= OC \sin \frac{C}{2}
 \\
@@ -34,10 +36,10 @@ Similarly,
 OD = OF.
 \end{equation}
 %
-\begin{problem}
+\item
 	Show that OA is the angle bisector of $\angle A$
-\end{problem}
-\proof In $\Delta$s $OFA$ and $OEA$,
+
+\solution In $\Delta$s $OFA$ and $OEA$,
 \begin{align}
 OF &= OE
 \\
@@ -48,37 +50,46 @@ OF &= OE
 which proves that $OA$ bisects $\angle A$.
 {\em Conclusion:} The angle bisectors of a triangle meet at a point.
 
-
+\end{enumerate}
 \subsection{Congruent Triangles}
 %
-\begin{problem}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item
 	Show that in $\Delta$s $ODC$ and $OEC$, corresponding sides and angles are equal.
-\end{problem}
-\begin{definition}
+
+\item
 	Note that    $\Delta$s $ODC$ and $OEC$ are known as congruent triangles.  To show that two triangles are congruent, it is sufficient to show that some angles and sides are equal.
-\end{definition}
-\begin{problem}
+
+\item
 SSS:	Show that if the corresponding sides of three triangles are equal, the triangles are congruent.
-\end{problem}
-\begin{problem}
+
+\item
 ASA:	Show that if two angles and any one side  are equal in corresponding triangles, the triangles are congruent.
-\end{problem}
-\begin{problem}
+
+\item
 SAS:	Show that if two sides and the angle between them are equal in corresponding triangles, the triangles are congruent.
-\end{problem}
-\begin{problem}
+
+\item
 RHS:	For two right angled triangles, if the hypotenuse and one of the sides are equal, show that the triangles are congruent.
-\end{problem}
+\end{enumerate}
+
 	%
 %%
 \subsection{Perpendicular Bisectors}
-\begin{definition}
-	In Fig. \ref{ch3_perp_bisector}, OD $\perp BC$ and $BD=DC$. $OD$ is defined as the perpendicular bisector of $BC$.
-\end{definition}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
 
-\begin{problem}
+\item
+	In Fig. \ref{ch3_perp_bisector}, OD $\perp BC$ and $BD=DC$. $OD$ is defined as the perpendicular bisector of $BC$.
+
+
+\item
 	In Fig. \ref{ch3_perp_bisector}, show that $OA=OB=OC$.
-\end{problem}
+
 %%
 %%
 \begin{figure}[!ht]
@@ -93,7 +104,7 @@ RHS:	For two right angled triangles, if the hypotenuse and one of the sides are 
 	\label{ch3_perp_bisector}	
 \end{figure}
 %
-\proof In $\Delta$s $ODB$ and $ODC$, using Budhayana's theorem,
+\solution In $\Delta$s $ODB$ and $ODC$, using Budhayana's theorem,
 %
 \begin{equation}
 \begin{split}
@@ -104,27 +115,32 @@ OC^2 &= OD^2 + DC^2
 %
 Since $BD = DC = \frac{a}{2}$, $OB = OC$.  Similarly, it can be shown that $OA = OC$.  Thus, $OA=OB=OC$.
 %
-\begin{definition}
+\item
 	In $\Delta AOB$, $OA = OB$.  Such a triangle is known as an isoceles triangle.
-\end{definition}
+
 %
-\begin{problem}
+\item
 	Show that $AF = BF$.
-\end{problem}
-\proof Trivial using Budhayana's theorem.  This shows that $OF$ is a perpendicular bisector of $AB$. 
+
+\solution Trivial using Budhayana's theorem.  This shows that $OF$ is a perpendicular bisector of $AB$. 
 {\em Conclusion:}  The perpendicular bisectors of a triangle meet at a point.
 %
+\end{enumerate}
+
 \subsection{Perpendiculars from Vertex to Opposite Side}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
 	%
 	%
+\item
 	In Fig. \ref{ch3_perp_triang}, $AD \perp BC$ and $BE \perp AC$. $CF$ passes through $O$ and meets
 	$AB$ at $F$.  	
-\begin{problem}
 	Show that 
 	\begin{align}
 	OE = c \cos A \cot C
 	\end{align}
-\end{problem}
+
 	\begin{figure}[!ht]
 		\begin{center}
 			
@@ -136,7 +152,7 @@ Since $BD = DC = \frac{a}{2}$, $OB = OC$.  Similarly, it can be shown that $OA =
 		\label{ch3_perp_triang}	
 	\end{figure}
 %
-\proof In $\Delta$ s $AEB$ and $AEO$,
+\solution In $\Delta$ s $AEB$ and $AEO$,
 %
 \begin{align}
 AE &= c \cos A \\
@@ -146,10 +162,10 @@ OE &= AE \tan \brak{90^{\degree} - C} \brak{\because ADC \text{ is right angled}
 %
 From both the above, we get the desired result.
 %
-\begin{problem}
+\item
 	Show that $\alpha = A$.
-\end{problem}
-\proof In $\Delta OEC$,
+
+\solution In $\Delta OEC$,
 %
 \begin{equation}
 CE = a \cos C \brak{\because BEC \text{ is right angled}}
@@ -169,8 +185,9 @@ Hence,
 \end{split}
 \end{equation}
 %
-\begin{problem}
+\item
 	Show that $CF \perp AB$
-\end{problem}
-\proof Consider triangle OFB and the result of the previous problem.  $\because$ the sum of the angles of a triangle is $180^{\degree}$, $\angle CFB = 90^{\degree}$.
+
+\solution Consider triangle OFB and the result of the previous problem.  $\because$ the sum of the angles of a triangle is $180^{\degree}$, $\angle CFB = 90^{\degree}$.
 {\em Conclusion: The perperdiculars from the vertex of a triangle to the opposite side meet at a point.}
+\end{enumerate}

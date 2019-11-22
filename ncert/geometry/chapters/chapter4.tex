@@ -1,4 +1,11 @@
 \subsection{Chord of a Circle}
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item
+	Fig. \ref{ch4_circle_def} represents a circle.  The points in the circle are at a distance $r$ from the centre $O$.  $r$ is known as the radius.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -10,20 +17,22 @@
 	\caption{Circle Definitions}
 	\label{ch4_circle_def}	
 \end{figure}
-\begin{definition}
-	Fig. \ref{ch4_circle_def} represents a circle.  The points in the circle are at a distance $r$ from the centre $O$.  $r$ is known as the radius.
-\end{definition}
-
+\end{enumerate}
 \subsection{Chords of a circle}
-\begin{definition}
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item
 	In Fig. \ref{ch4_circle_def}, $A$ and $B$ are points on the circle.  The line $AB$ is known as a chord of the circle.
-\end{definition}
+
 %
 %
-\begin{problem}
+\item
 	\label{ch4_prob_circle_subtend}
 	In Fig. \ref{ch4_circle_subtend}  Show that $\angle AOB = 2\angle ACB $.
-\end{problem}
+
 \begin{figure}[!ht]
 	\begin{center}
 		
@@ -35,7 +44,7 @@
 	\label{ch4_circle_subtend}	
 \end{figure}
 
-\proof In Fig. \ref{ch4_circle_subtend}, the triangeles $OPA$ and $OPB$ are isosceles. Hence,
+\solution In Fig. \ref{ch4_circle_subtend}, the triangeles $OPA$ and $OPB$ are isosceles. Hence,
 %
 \begin{align}
 \angle OCA = \angle OAC &= \theta_1 \\
@@ -57,13 +66,13 @@ Thus,
 &= 2\angle ACB
 \end{align}
 %
-\begin{definition}
+\item
 	The diameter of a circle is the chord that divides the circle into two equal parts. In Fig. \ref{ch4_circle_dia}, $AB$ is the diameter and passes through the centre $O$
-\end{definition}
+
 %
-\begin{problem}
+\item
 In Fig. \ref{ch4_circle_dia}, show that $\angle APB = 90^{\degree}$ .
-\end{problem}
+
 %
 \begin{figure}[!ht]
 	\begin{center}
@@ -75,7 +84,7 @@ In Fig. \ref{ch4_circle_dia}, show that $\angle APB = 90^{\degree}$ .
 	\caption{Diameter of a circle.}
 	\label{ch4_circle_dia}	
 \end{figure}
-\begin{problem}
+\item
 	In Fig. \ref{ch4_chord_product}, show that 
 	\begin{equation}
 	\begin{split}
@@ -83,7 +92,7 @@ In Fig. \ref{ch4_circle_dia}, show that $\angle APB = 90^{\degree}$ .
 \angle CAB &= \angle CDB	
 	\end{split}
 	\end{equation}
-\end{problem}
+
 \begin{figure}[!ht]
 	\begin{center}
 		
@@ -96,20 +105,20 @@ In Fig. \ref{ch4_circle_dia}, show that $\angle APB = 90^{\degree}$ .
 \end{figure}
 %
 %
-\proof Use Problem \ref{ch4_prob_circle_subtend}.
+\solution Use Problem \ref{ch4_prob_circle_subtend}.
 %
-\begin{problem}
+\item
 	In Fig. \ref{ch4_chord_product}, show that the triangles $PAB$ and $PBD$ are similar
-\end{problem}
-\proof Trivial using previous problem
-\begin{problem}
+
+\solution Trivial using previous problem
+\item
 	In Fig. \ref{ch4_chord_product}, show that 
 	\begin{equation}
 	PA.PB = PC.PD
 	\end{equation}
-\end{problem}
+
 %
-\proof Since triangles $PAC$ and $PBD$ are similar, 
+\solution Since triangles $PAC$ and $PBD$ are similar, 
 %
 \begin{align}
 \frac{PA}{PD} &= \frac{PC}{PB} \\
@@ -117,16 +126,32 @@ In Fig. \ref{ch4_circle_dia}, show that $\angle APB = 90^{\degree}$ .
 \end{align}
 %
 %
-\begin{definition}
+\item
+	Show that 
+	\begin{equation}
+	\label{ch5_sin_zero}
+	\sin 0^{\degree} = 0
+	\end{equation}
+
+\solution Follows from \eqref{ch5_sin_increasing}.
+%
+\item
+	Show that 
+	\begin{equation}
+	\label{ch5_sin_zero}
+	\cos 0^{\degree} = 1
+	\end{equation}
+	
+\item
 	The line $PX$ in Fig. \ref{ch4_tangent_def} touches the circle at exactly one  point $P$. It is known as the tangent to the circle.
-\end{definition}
+
 %
 %
-\begin{problem}
+\item
 	Show that $OP \perp PX$.
 % is the perpendicular to the line $PX$ as shown in the Fig. \ref{ch4_short_dist}. Show that $OP$ is the shortest distance between the point $O$ and the line $PX$. 
-\end{problem}
-\proof Without loss of generality, let $0 \le \theta \le 90^{\degree}$. Using the cosine formula in $\triangle OPP_n$,\begin{align}
+
+\solution Without loss of generality, let $0 \le \theta \le 90^{\degree}$. Using the cosine formula in $\triangle OPP_n$,\begin{align}
 \brak{r+d_n}^2 > r^2,
 \end{align}
 %Let $P_1$ be a point on the line $PX$. Then $OPP_1$ is a right angled triangle.  Using Budhayana's theorem,
@@ -170,11 +195,11 @@ where $x_n$ can be made as small as we choose.  Thus,
 \cos \theta = 0 \implies \theta  = 90 ^{\degree}.
 \end{align}
 
-%\proof In Fig. \ref{ch4_tangent_def}, we can see that $OP$ is is the radius of the circle and the length of all line segments from $O$ to the line $PX > r$.  Using the result of the previous 
+%\solution In Fig. \ref{ch4_tangent_def}, we can see that $OP$ is is the radius of the circle and the length of all line segments from $O$ to the line $PX > r$.  Using the result of the previous 
 %problem, it is obvious that $OP \perp PX$. 
 %
 	%
-\begin{problem}
+\item
 In Fig. \ref{ch4_tangent_prod} show that 
 %
 \begin{equation}
@@ -182,7 +207,7 @@ In Fig. \ref{ch4_tangent_prod} show that
 \end{equation}
 %
 $O$ is the centre of the circle and $PC$ is the tangent.
-\end{problem}
+
 	\begin{figure}[!ht]
 		\begin{center}
 			
@@ -196,33 +221,33 @@ $O$ is the centre of the circle and $PC$ is the tangent.
 	%
 
 %
-\proof Obvious from the figure once we observe that $\triangle OAC$ is isosceles.
+\solution Obvious from the figure once we observe that $\triangle OAC$ is isosceles.
 %
 %
-\begin{problem}
+\item
 	In Fig. \ref{ch4_tangent_prod}, show that the triangles $PAC$ and $PBC$ are similar.
-\end{problem}
-\proof From the previous problem, it is obvious that corresponding angles of both triangles are equal.  Hence they are similar.
+
+\solution From the previous problem, it is obvious that corresponding angles of both triangles are equal.  Hence they are similar.
 %
-\begin{problem}
+\item
 	Show that $PA.PB = PC^2$
-\end{problem}
-\proof Since $\Delta PAC \sim \Delta PBC$, their sides are in the same ratio.  Hence,
+
+\solution Since $\Delta PAC \sim \Delta PBC$, their sides are in the same ratio.  Hence,
 %
 \begin{align}
 \frac{PA}{PC} &= \frac{PC}{PB} \\
 \Rightarrow PA.PB &=PC^2
 \end{align}
 %
-\begin{problem}
+\item
 Given that $PA.PB = PC^2$, show that $PC$ is a tangent to the circle.
-\end{problem}
+
 %
-\begin{problem}
+\item
 	In Fig. \ref{ch4_chord_tangent_prod}, show that\begin{equation}
 	PA.PB = PC.PD
 	\end{equation}
-\end{problem}
+
 %
 \begin{figure}[!ht]
 	\begin{center}
@@ -235,4 +260,5 @@ Given that $PA.PB = PC^2$, show that $PC$ is a tangent to the circle.
 	\label{ch4_chord_tangent_prod}	
 \end{figure}
 
-\proof Draw a tangent and use the previous problem.
+\solution Draw a tangent and use the previous problem.
+\end{enumerate}
