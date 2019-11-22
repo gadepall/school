@@ -1,109 +1,84 @@
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
-\item If three  sides of one triangle are equal to three sides  of the other triangle, then the two triangles are congruent (SSS Congruence Rule).
+%\item If three  sides of one triangle are equal to three sides  of the other triangle, then the two triangles are congruent (SSS Congruence Rule).
+%%
+%\\
+%\solution Using cosine formula in \eqref{eq:b_cos_form}, it can be shown that the angles of the triangle are also equal, hnce they are congruent.
+% 	
+%\item If two sides and the included angle of one triangle are equal to two sides and the included angle of the other triangle, then the two triangles are congruent (SAS Congruence Rule).
+%\\
+%\solution Use cosine formula in \eqref{eq:b_cos_form}.
+%\item  If two angles and the included side of one triangle are equal to two angles and the included side of the other triangle, then the two triangles are congruent (ASA Congruence Rule).
+%%
+%\\
+%\solution  Use the sine formula in \eqref{eq:sin_form} to show that the corresponding sides opposite the angles are equal. 
+%\item If two angles and one side of one triangle are equal to two angles and the corresponding side of the other triangle, then the two triangles are congruent (AAS Congruence Rule)
+%\\
+%\solution Use the sine formula in \eqref{eq:sin_form}
+
+%\item  In a triangle, angle opposite to the longer side is larger (greater). 
+%%
+%\label{prob:tri_ang_side_greater}
+%%
+%\\
+%\solution Consider a right triangle $ABC$ right angled at $B$ as in Fig. \ref{fig:tri_ang_side_greater}.  From Baudhayana's theorem, 
+%%
+%\begin{align}
+%\label{eq:tri_ang_side_greater_baudhb}
+%b^2 &= a^2+c^2
+%\\
+%p^2 &= a^2+x^2
+%\label{eq:tri_ang_side_greater_baudhp}
+%\end{align}
+%%
+%$\because c > x$, from \eqref{eq:tri_ang_side_greater_baudhb} and \eqref{eq:tri_ang_side_greater_baudhp}, is obvious that %
+%\begin{align}
+%\label{eq:tri_ang_side_greater_baudhbp}
+%b > p \implies \frac{b}{p} > 1
+%\end{align}
+%%
+%Also, from \eqref{eq:sin_form_def},
+%%
+%%
+%\begin{align}
+%%\label{eq:tri_ang_side_greater_baudh_bp}
+%a = b\sin A &= p \sin \theta 
+%\implies \frac{b}{p} &= \frac{\sin \theta}{\sin A} > 1
+%\\
+%\text{or, } \sin \theta > \sin A
+%\end{align}
+%%
+%from \eqref{eq:tri_ang_side_greater_baudhbp}.   Note that this is always true.  Thus, 
+%%
+%\begin{align}
+%\label{eq:tri_ang_side_greater_final}
+%\theta > A \iff \sin \theta > \sin A
+%\end{align}
+%%
+%In any $\triangle ABC$,  using \eqref{eq:sin_form} and \eqref{eq:tri_ang_side_greater_final},
 %
-\\
-\solution Using cosine formula in \eqref{eq:b_cos_form}, it can be shown that the angles of the triangle are also equal, hnce they are congruent.
- 	
-\item If two sides and the included angle of one triangle are equal to two sides and the included angle of the other triangle, then the two triangles are congruent (SAS Congruence Rule).
-\\
-\solution Use cosine formula in \eqref{eq:b_cos_form}.
-\item  If two angles and the included side of one triangle are equal to two angles and the included side of the other triangle, then the two triangles are congruent (ASA Congruence Rule).
-%
-\\
-\solution  Use the sine formula in \eqref{eq:sin_form} to show that the corresponding sides opposite the angles are equal. 
-\item If two angles and one side of one triangle are equal to two angles and the corresponding side of the other triangle, then the two triangles are congruent (AAS Congruence Rule)
-\\
-\solution Use the sine formula in \eqref{eq:sin_form}
-\item Angles opposite to equal sides of a triangle are equal. 
-\label{prob:tri_ang_side_eq}
-\\
-\solution Using the sine formula in \eqref{eq:sin_form},%
-\begin{align}
-\frac{\sin A}{a} = \frac{\sin B}{b}
-\end{align}
-%
-Thus, if $A=B$, $\sin A = \sin B \implies a =b$.
-\item  Sides opposite to equal angles of a triangle are equal. 
-\\
-\solution Use \eqref{eq:sin_form} and the argument in Problem \ref{prob:tri_ang_side_eq}
-%
-\item  Each angle of an equilateral triangle is of 60$\degree$. 
-\\
-\solution In an equilateral $\triangle$, 
-%
-\begin{align}
-A=B=C.&
-\\
-\because A+B+C = 180\degree, 3A = 180\degree&
-\\
-\implies A = 60\degree&
-\end{align}
+%%
+%%
+%\begin{align}
+%a>b \implies \frac{a}{b} = \frac{\sin A}{\sin B} > 1 
+%\\
+%\text{or, }  \sin A > \sin B \implies A > B
+%\end{align}
+%%
+%In any $\triangle ABC$, if $A>B$, using \eqref{eq:sin_form},
+%%
+%\begin{figure}[!ht]
+%\includegraphics[width=\columnwidth]{./triangle/figs/tri_ang_side_greater.eps}
+%\caption{}
+%\label{fig:tri_ang_side_greater}
+%\end{figure}
 %
 
-\item  In a triangle, angle opposite to the longer side is larger (greater). 
-%
-\label{prob:tri_ang_side_greater}
-%
-\\
-\solution Consider a right triangle $ABC$ right angled at $B$ as in Fig. \ref{fig:tri_ang_side_greater}.  From Baudhayana's theorem, 
-%
-\begin{align}
-\label{eq:tri_ang_side_greater_baudhb}
-b^2 &= a^2+c^2
-\\
-p^2 &= a^2+x^2
-\label{eq:tri_ang_side_greater_baudhp}
-\end{align}
-%
-$\because c > x$, from \eqref{eq:tri_ang_side_greater_baudhb} and \eqref{eq:tri_ang_side_greater_baudhp}, is obvious that %
-\begin{align}
-\label{eq:tri_ang_side_greater_baudhbp}
-b > p \implies \frac{b}{p} > 1
-\end{align}
-%
-Also, from \eqref{eq:sin_form_def},
-%
-%
-\begin{align}
-%\label{eq:tri_ang_side_greater_baudh_bp}
-a = b\sin A &= p \sin \theta 
-\implies \frac{b}{p} &= \frac{\sin \theta}{\sin A} > 1
-\\
-\text{or, } \sin \theta > \sin A
-\end{align}
-%
-from \eqref{eq:tri_ang_side_greater_baudhbp}.   Note that this is always true.  Thus, 
-%
-\begin{align}
-\label{eq:tri_ang_side_greater_final}
-\theta > A \iff \sin \theta > \sin A
-\end{align}
-%
-In any $\triangle ABC$,  using \eqref{eq:sin_form} and \eqref{eq:tri_ang_side_greater_final},
-
-%
-%
-\begin{align}
-a>b \implies \frac{a}{b} = \frac{\sin A}{\sin B} > 1 
-\\
-\text{or, }  \sin A > \sin B \implies A > B
-\end{align}
-%
-In any $\triangle ABC$, if $A>B$, using \eqref{eq:sin_form},
-%
-\begin{figure}[!ht]
-\includegraphics[width=\columnwidth]{./triangle/figs/tri_ang_side_greater.eps}
-\caption{}
-\label{fig:tri_ang_side_greater}
-\end{figure}
-%
-
-\item In a triangle, side opposite to the larger (greater) angle is longer. 
-%
-\\
-\solution Use \eqref{eq:sin_form} and \eqref{eq:tri_ang_side_greater_final}.
+%\item In a triangle, side opposite to the larger (greater) angle is longer. 
+%%
+%\\
+%\solution Use \eqref{eq:sin_form} and \eqref{eq:tri_ang_side_greater_final}.
 %
 \item Do the points $\vec{A}=\myvec{3\\2}, \vec{B}=\myvec{-2\\-3}, \vec{C}=\myvec{2\\3} $ form a triangle?  If so, name the type of triangle formed.
 \label{prob:tri_exam_coll_pts}
@@ -180,41 +155,37 @@ satisfying
 \eqref{eq:tri_geo_ex_orth}. Thus,  $\triangle ABC$ is right angled at $\vec{A}$.
 %
 %
-\item Area of a triangle is half the product of its base and the corresponding altitude. 
-%
-\\
-\solution First, we consider the right angled triangle in Fig\ref{fig:tri_right_area}. By definition, the area of the rectangle $ABCD$ is $ac$.  Also, The rectangle is a sum of two congruent triangles $ABC$ and $ADC$.  Thus,
-%
-\begin{align}
-\text{ar}\triangle ABC=\text{ar}\triangle ADC = \frac{1}{2}ac
-\end{align} 
-%
-\begin{figure}[!ht]
-\includegraphics[width=\columnwidth]{./triangle/figs/tri_right_area.eps}
-\caption{}
-\label{fig:tri_right_area}
-\end{figure}
-%
-For any $\triangle ABC$, as shown in Fig.  \ref{fig:tri_area}, the area can be obtained as
-%
-\begin{align}
-\text{ar}\triangle ABC&=\frac{1}{2}xh+\frac{1}{2}yh 
-\\
-\frac{1}{2}\brak{x+y}h = \frac{1}{2}ah
-\end{align} 
-%
+%\item Area of a triangle is half the product of its base and the corresponding altitude. 
+%%
+%\\
+%\solution First, we consider the right angled triangle in Fig\ref{fig:tri_right_area}. By definition, the area of the rectangle $ABCD$ is $ac$.  Also, The rectangle is a sum of two congruent triangles $ABC$ and $ADC$.  Thus,
+%%
+%\begin{align}
+%\text{ar}\triangle ABC=\text{ar}\triangle ADC = \frac{1}{2}ac
+%\end{align} 
+%%
+%\begin{figure}[!ht]
+%\includegraphics[width=\columnwidth]{./triangle/figs/tri_right_area.eps}
+%\caption{}
+%\label{fig:tri_right_area}
+%\end{figure}
+%%
+%For any $\triangle ABC$, as shown in Fig.  \ref{fig:tri_area}, the area can be obtained as
+%%
+%\begin{align}
+%\text{ar}\triangle ABC&=\frac{1}{2}xh+\frac{1}{2}yh 
+%\\
+%\frac{1}{2}\brak{x+y}h = \frac{1}{2}ah
+%\end{align} 
+%%
 
 %
-\begin{figure}[!ht]
-\includegraphics[width=\columnwidth]{./triangle/figs/tri_area.eps}
-\caption{}
-\label{fig:tri_area}
-\end{figure}
+%\begin{figure}[!ht]
+%\includegraphics[width=\columnwidth]{./triangle/figs/tri_area.eps}
+%\caption{}
+%\label{fig:tri_area}
+%\end{figure}
 %
-
-\item Triangles on the same base (or equal bases) and between the same parallels are equal in area.
-\item Triangles on the same base (or equal bases) and having equal areas lie between the same parallels.
-
 \item Find the area of a triangle whose vertices are 
 $\vec{A}=\myvec{1\\-1}, 
 \vec{B} = \myvec{-4\\6}$ and
@@ -223,89 +194,28 @@ $
 $.
 %
 \\
-\solution In Fig. \ref{fig:rt_triangle}, from Baudhayana's theorem, 
-\begin{align}
-\label{eq:tri_geo_baudh}
-b^2 = a^2+c^2 &
-\\
-=b^2\cos^2C+b^2\sin^2C &
-\\
-\implies \cos^2C+\sin^2C &= 1
-\end{align}
-%
-In Fig. \ref{fig:tri_const_ex_cos_form}, the area of $\triangle ABC$ is defined as
-{\footnotesize
-\begin{align}
-\label{eq:tri_geo_area_sin_form}
-\frac{1}{2}ah &= \frac{1}{2}ab\sin C
-\\
-&=\frac{1}{2}ab\sqrt{1-\cos^2C} \quad \brak{\text{from } \eqref{eq:tri_geo_baudh}
-}
-\\
-&=\frac{1}{2}ab\sqrt{1-\brak{\frac{a^2+b^2-c^2}{2ab}}^2} \brak{\text{from } \eqref{eq:cosC}
-}
-\\
-&=\frac{1}{4}\sqrt{\brak{2ab}^2-\brak{a^2+b^2-c^2}}
-\\
-&=\frac{1}{4}\sqrt{\brak{2ab+a^2+b^2-c^2}\brak{2ab-a^2-b^2+c^2}}
-\\
-&= \frac{1}{4}\sqrt{\cbrak{\brak{a+b}^2-c^2}\cbrak{c^2-\brak{a-b}^2}}
-\\
-&= \frac{1}{4}\sqrt{\brak{a+b+c}\brak{a+b-c}\brak{a+c-b}\brak{b+c-a}}
-\label{eq:tri_ex_hero_temp}
-\end{align}
-}
-Substituting 
-%
-\begin{align}
-s=\frac{a+b+c}{2}
-\end{align}
-%
-in \eqref{eq:tri_ex_hero_temp}, the area of $\triangle ABC$ is 
-%
-\begin{align}
-\label{eq:tri_hero}
-\sqrt{s\brak{s-a}\brak{s-b}\brak{s-c}}
-\end{align}
-%
-This is known as Hero's formula.  The following code computes the area of the  triangle as 24.
+\solution
+  Using Hero's formula, the following code computes the area of the  triangle as 24.
 %
 \begin{lstlisting}
 codes/triangle/area_tri.py
 \end{lstlisting}
 %
-\item A median of a triangle divides it into two triangles of equal areas.
-\\
-\solution In $\triangle ABC$, let $AD$
+%\item A median of a triangle divides it into two triangles of equal areas.
+%\\
+%\solution In $\triangle ABC$, let $AD$
 %
-\item Show that the sum of any two sides of a triangle is greater than the third side.
-\\
-\solution In \eqref{eq:tri_hero}, all the factors inside the square root should be positive.  Thus, 
-%
-\begin{align}
-\brak{s-a} > 0, \brak{s-b} > 0\brak{s-c} &> 0
-\end{align}
-%
-\begin{align}
-\\
-\brak{s-a} > 0 \implies \frac{a+b+c}{2} -a &> 0
-\\
-\text{or, } b+c > a
-\end{align}
-%
-Similarly, it can be shown that $a+b>c, c+a>b$.
-
 \item Draw a triangle whose sides are 8cm and 11cm and the perimeter is 32 cm and find its area.
 %
-\solution Use \eqref{eq:tri_hero}.
+%\solution Use \eqref{eq:tri_hero}.
 %
 \item A triangular park $ABC$ has sides 120m, 80m and 50m. A gardener Dhania has to put a fence all around it and also plant grass inside. Draw this park.  How much area does she need to plant? Find the cost of fencing it with barbed wire at the rate of \rupee 20 per metre leaving a space 3m wide for a gate on one side.
-\\
-\solution Use \eqref{eq:tri_hero}.
+%\\
+%\solution Use \eqref{eq:tri_hero}.
 %
 \item The sides of a triangular plot are in the ratio of 3 : 5 : 7 and its perimeter is 300 m. Draw the plot and find its area.
-\\
-\solution Use \eqref{eq:tri_hero}.
+%\\
+%\solution Use \eqref{eq:tri_hero}.
 \item Find the area of a triangle formed by the vertices $\vec{A}=\myvec{5\\2}, \vec{B}=\myvec{4\\7}, \vec{C}=\myvec{7\\-4}$.
 \\
 \solution  The area of $\triangle ABC$ is also obtained  in terms of the  {\em magnitude} of the determinant of the matrix $\vec{M}$ in  \eqref{eq:tri_geo_ex_diff_mat} as
@@ -349,24 +259,6 @@ The following code computes the area using the vector product.
 codes/triangle/area_tri_vec.py
 \end{lstlisting}
 %
-%
-\item $AB$ is a line segment and line $l$ is its perpendicular bisector. If a point $P$ lies on $l$, show that $P$ is equidistant from $A$ and $B$.
-\item Line-segment $AB$ is parallel to another line-segment $CD$. $O$ is the mid-point of $AD$. Show that 
-\begin{enumerate}
-\item  $\triangle AOB \cong \triangle DOC$ 
-\item  $O$ is also the mid-point of $BC$.
-\end{enumerate}
-%
-\item In $\triangle ABC$, the bisector $AD$ of $\angle  A$ is perpendicular to side $BC$. Show that $AB = AC$ and $\triangle ABC$ is isosceles.
-\item $E$ and $F$ are respectively the mid-points of equal sides $AB$ and AC of $\triangle ABC$. Show that $BF = CE$. 
-\item In an isosceles $\triangle ABC$ with $AB$ = AC, D and E are points on $BC$ such that $BE = CD$. Show that $AD = AE$. 
-%
-\item $AB$ is a line-segment. $P$ and $Q$ are points on opposite sides of $AB$ such that each of them is equidistant from the points $A$ and $B$. Show that the line $PQ $ is the perpendicular bisector of $AB$.
-%
-\item $P$ is a point equidistant from two lines $l$ and $m$ intersecting at point $A$.  Show that the line  $AP$  bisects the angle between them.
-%
-\item $D$ is a point on side $BC$ of $\triangle  ABC$ such that $AD = AC$. Show that $AB > AD$
-
 %
 \item The centroid of a $\triangle ABC$ is at the point \myvec{1\\1\\1}.  If the coordinates of $\vec{A}$ and $\vec{B}$ are \myvec{3\\-5\\7} and \myvec{-1\\7\\-6}, respectively, find the coordinates of the point $\vec{C}$.
 %
