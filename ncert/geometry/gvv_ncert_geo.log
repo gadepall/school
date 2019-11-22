@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  22 NOV 2019 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  22 NOV 2019 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,17 +1302,7 @@ ngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
-) (./gvv_ncert_geo.aux
-
-LaTeX Warning: Label `ch2_sq_ar' multiply defined.
-
-
-LaTeX Warning: Label `ch5_sin_increasing' multiply defined.
-
-
-LaTeX Warning: Label `ch5_sin_zero' multiply defined.
-
-)
+) (./gvv_ncert_geo.aux)
 \openout1 = `gvv_ncert_geo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 84.
@@ -1475,16 +1465,13 @@ Overfull \hbox (3.01016pt too wide) detected at line 121
 []
  []
 
-(./figs/fig1_def.tex) (./figs/fig2.1.tex)
+(./figs/fig1_def.tex) (./figs/fig2.1.tex) [2]
 Overfull \hbox (2.7102pt too wide) detected at line 219
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
 
 Overfull \hbox (22.29663pt too wide) detected at line 244
@@ -1502,21 +1489,24 @@ r/m/n/12 = []\OML/txmi/m/it/12 bc [] A \OT1/txr/m/n/12 = []\OML/txmi/m/it/12 ca
 (./figs/fig2.1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3])
-(./chapters/chapter2.tex (./figs/fig_2.4.tex)
+ [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
+(./chapters/chapter2.tex (./figs/fig_2.4.tex) [4] (./figs/fig_2.6.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
+(./figs/fig_2.7.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) (./figs/fig_2.11.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./figs/fig_2.6.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) (./figs/fig_2.7.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) [4] (./figs/fig_2.11.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-))
+)
 (./chapters/chapter3.tex (./figs/fig_3.0.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1527,11 +1517,9 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 ) [5]
-Underfull \vbox (badness 1521) has occurred while \output is active []
-
 File: ./figs/fig_3.8.eps Graphic file (type eps)
-
-<./figs/fig_3.8.eps> (./figs/fig_3.10.tex
+ <./figs/fig_3.8.eps> [6]
+(./figs/fig_3.10.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1542,33 +1530,61 @@ Overfull \hbox (4.67506pt too wide) detected at line 161
 []
  []
 
-[6]) (./chapters/tri_ineq.tex (./figs/fig_sin_ineq.tex
+) (./chapters/tri_ineq.tex (./figs/fig_sin_ineq.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7])
+) [7])
 (./chapters/tri_exer_geo.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
-(./chapters/chapter4.tex (./figs/fig_4.0.tex) (./figs/fig_4.1.tex) [9]
-(./figs/fig_4.2.tex) (./figs/fig_4.3.tex) (./figs/fig_4.6.tex
-Missing character: There is no ; in font nullfont!
-)
+ [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-(./figs/fig_4.8.tex
+)
+(./chapters/quad_exer_geo.tex
+Underfull \hbox (badness 3668) in paragraph at lines 38--43
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Use Baud-hayana's the-o-rem for
+ []
+
+[9]
+
+LaTeX Warning: Reference `prob:tri_mid_similar' on page 10 undefined on input l
+ine 57.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+[]\OT1/txr/m/n/12 In $\OMS/txsy/m/n/12 4\OML/txmi/m/it/12 ABC$ \OT1/txr/m/n/12 
+and $\OMS/txsy/m/n/12 4\OML/txmi/m/it/12 DEF; AB \OT1/txr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+\OML/txmi/m/it/12 DE; ABparallelDE; BC \OT1/txr/m/n/12 = \OML/txmi/m/it/12 EF$ 
+\OT1/txr/m/n/12 and
+ []
+
+[10]) (./chapters/chapter4.tex (./figs/fig_4.0.tex) (./figs/fig_4.1.tex)
+(./figs/fig_4.2.tex) (./figs/fig_4.3.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./figs/fig_4.6.tex
+Missing character: There is no ; in font nullfont!
+) [12] (./figs/fig_4.8.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) (./figs/fig_4.11.tex)) (./chapters/chapter5.tex
-(./figs/fig_5.0.tex
+) (./figs/fig_4.11.tex))
+(./chapters/chapter5.tex (./figs/fig_5.0.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1577,20 +1593,27 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 ) (./figs/fig_5.1.tex
 Missing character: There is no ; in font nullfont!
-) [11] (./figs/fig_5.2.tex)
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+(./figs/fig_5.2.tex)
+Underfull \vbox (badness 7116) has occurred while \output is active []
+
+
 (./figs/fig_5.3.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
 Overfull \hbox (12.44728pt too wide) detected at line 122
 []
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
 Overfull \hbox (12.45927pt too wide) detected at line 126
 []
  []
@@ -1602,9 +1625,6 @@ Overfull \hbox (10.4593pt too wide) detected at line 131
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (3.26341pt too wide) detected at line 204
  []$[]   [] [] [] \OML/txmi/m/it/12 ^^R[] \OT1/txr/m/n/12 = [] \OML/txmi/m/it/1
 2 ^^R[] \OT1/txr/m/n/12 + [] \OML/txmi/m/it/12 ^^R[] [] ^^R[] [] ^^R[]$ 
@@ -1613,39 +1633,41 @@ Overfull \hbox (3.26341pt too wide) detected at line 204
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13])
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
- [14
+ [15])
+(./chapters/circle_geo.tex [16]
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
-
-(./gvv_ncert_geo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+LaTeX Warning: Command \textendash invalid in math mode on input line 74.
 
 
-Package rerunfilecheck Warning: File `gvv_ncert_geo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Command \textendash invalid in math mode on input line 74.
 
-Package rerunfilecheck Info: Checksums for `gvv_ncert_geo.out':
-(rerunfilecheck)             Before: 47B8B6960705E37ACA578A348C2FD107;1088
-(rerunfilecheck)             After:  AE31A2026EB4D946586BF64D639BACF9;1142.
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Command \textendash invalid in math mode on input line 74.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
+) [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
+ (./gvv_ncert_geo.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 363.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
+Package rerunfilecheck Info: File `gvv_ncert_geo.out' has not changed.
+(rerunfilecheck)             Checksum: 7DA1EE0218E97C6F5C2D96354BBADE6F;1253.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 363.
  ) 
 Here is how much of TeX's memory you used:
- 32678 strings out of 492624
- 705961 string characters out of 6119216
- 926756 words of memory out of 5000000
- 35910 multiletter control sequences out of 15000+600000
+ 32690 strings out of 492624
+ 706179 string characters out of 6119216
+ 922675 words of memory out of 5000000
+ 35916 multiletter control sequences out of 15000+600000
  86107 words of font info for 221 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,17n,70p,505b,1299s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_geo.dvi (14 pages, 330164 bytes).
+Output written on gvv_ncert_geo.dvi (17 pages, 366448 bytes).
