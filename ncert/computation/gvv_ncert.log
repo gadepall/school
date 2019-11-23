@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  22 NOV 2019 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  23 NOV 2019 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1580,7 +1580,7 @@ File: ./triangle/figs/quad_3d.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./line/line_exam.tex
+(./line/line_exam.tex [14]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 40.
 
@@ -1592,31 +1592,31 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 40.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 40.
-
-[14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./line/figs/line_perp_bisect.eps Graphic file (type eps)
 
 <./line/figs/line_perp_bisect.eps>
 Underfull \vbox (badness 1077) has occurred while \output is active []
 
+ [16]
 File: ./line/figs/section.eps Graphic file (type eps)
 
 <./line/figs/section.eps>
 Underfull \vbox (badness 1796) has occurred while \output is active []
 
- [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 3668) in paragraph at lines 362--367
 []\OT1/txr/m/n/12 Two po-si-tions of time and dis-tance are
  []
@@ -1624,17 +1624,19 @@ Underfull \hbox (badness 3668) in paragraph at lines 362--367
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [18]
 File: ./line/figs/line_parallel_axes.eps Graphic file (type eps)
 
-<./line/figs/line_parallel_axes.eps> [18]
+<./line/figs/line_parallel_axes.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [19]
 File: ./line/figs/line_pt_dist.eps Graphic file (type eps)
 
 <./line/figs/line_pt_dist.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+
 
 LaTeX Warning: Reference `eq:tri_geo_baudh' on page 20 undefined on input line 
 545.
@@ -1642,7 +1644,7 @@ LaTeX Warning: Reference `eq:tri_geo_baudh' on page 20 undefined on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [20]
 Overfull \hbox (8.06451pt too wide) detected at line 633
 []
  []
@@ -1650,26 +1652,26 @@ Overfull \hbox (8.06451pt too wide) detected at line 633
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
 File: ./line/figs/line_scalar_prod.eps Graphic file (type eps)
 
-<./line/figs/line_scalar_prod.eps>
+<./line/figs/line_scalar_prod.eps> [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
 File: ./line/figs/reflection.eps Graphic file (type eps)
 
 <./line/figs/reflection.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [22]
 File: ./line/figs/line_reflect.eps Graphic file (type eps)
 
 <./line/figs/line_reflect.eps>
 Underfull \vbox (badness 2521) has occurred while \output is active []
 
- [22]
+
 Underfull \vbox (badness 3323) has occurred while \output is active []
 
+ [23]
 File: ./line/figs/collinear_3d.eps Graphic file (type eps)
 
 <./line/figs/collinear_3d.eps>
@@ -1680,24 +1682,24 @@ Underfull \hbox (badness 4341) in paragraph at lines 1040--1050
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
-
+ [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
 File: ./line/figs/line_proj.eps Graphic file (type eps)
 
 <./line/figs/line_proj.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 File: ./line/figs/line_dist_parallel_py.eps Graphic file (type eps)
 
 <./line/figs/line_dist_parallel_py.eps>
@@ -1705,15 +1707,13 @@ File: ./line/figs/line_dist_parallel.eps Graphic file (type eps)
  <./line/figs/line_dist_parallel.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: ./line/figs/line_dist_skew.eps Graphic file (type eps)
-
-<./line/figs/line_dist_skew.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
+File: ./line/figs/line_dist_skew.eps Graphic file (type eps)
+
+<./line/figs/line_dist_skew.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
@@ -1723,6 +1723,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \hbox (8.60971pt too wide) detected at line 1842
 []
  []
@@ -1730,24 +1733,24 @@ Overfull \hbox (8.60971pt too wide) detected at line 1842
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30])
-(./line/coord_ex.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
+)
+(./line/coord_ex.tex [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
 Underfull \vbox (badness 5245) has occurred while \output is active []
 
- [32])
-(./line/section.tex) (./line/line_equation.tex [33]
+)
+(./line/section.tex [33]) (./line/line_equation.tex [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 216.
 
@@ -1755,9 +1758,6 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 216.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
@@ -1775,6 +1775,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [39]
 Underfull \hbox (badness 2096) in paragraph at lines 786--790
 []\OT1/txr/m/n/12 Find the in-ter-cepts cut off by the plane
@@ -1783,28 +1786,28 @@ Underfull \hbox (badness 2096) in paragraph at lines 786--790
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [40]
 (./line/tables/3d_ncert.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41])
-(./line/line_app.tex [42]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./line/line_misc.tex [44]
+(./line/line_app.tex [42] [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44])
+(./line/line_misc.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46])
@@ -1816,10 +1819,19 @@ Underfull \hbox (badness 1454) in paragraph at lines 4--12
 
 File: ./circle/figs/circle.eps Graphic file (type eps)
 <./circle/figs/circle.eps>) (./circle/circle_exer.tex [47])
-(./circle/circle_geo_exam.tex) (./circle/circle_geo.tex)
+(./circle/circle_geo_exam.tex) (./circle/circle_geo.tex [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50])
 (./circle/circle_app.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
- [48
+ [51
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
@@ -1837,10 +1849,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
 Here is how much of TeX's memory you used:
  32289 strings out of 492624
  694225 string characters out of 6119216
- 910721 words of memory out of 5000000
+ 909721 words of memory out of 5000000
  35519 multiletter control sequences out of 15000+600000
  78167 words of font info for 195 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,24n,69p,586b,1163s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert.dvi (48 pages, 614160 bytes).
+Output written on gvv_ncert.dvi (51 pages, 641484 bytes).
