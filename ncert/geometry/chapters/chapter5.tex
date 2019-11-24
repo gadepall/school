@@ -20,14 +20,21 @@
 \end{figure}
 %
 \item
-The angle formed by each of the congruent triangles at the centre of a regular polygon of $n$ sides is $\frac{360^{\degree}}{n}$.
+The angle formed by each of the congruent triangles at the centre of a regular polygon of $n$ sides is $\frac{360{\degree}}{n}$.
 
+%
+\item
+Show that the perimeter of a regular polygon is given by 
+%
+\begin{equation}
+2rn \sin\frac{180{\degree}}{n}
+\end{equation}
 %
 \item
 Show that the area of a regular polygon is given by 
 %
 \begin{equation}
-\frac{n}{2}r^{2}\sin\frac{360^{\degree}}{n}
+\frac{n}{2}r^{2}\sin\frac{360{\degree}}{n}
 \end{equation}
 %
 
@@ -48,7 +55,7 @@ Show that the area of a regular polygon is given by
 \begin{equation}
 \begin{split}
 ar\brak{polygon} &= n \times ar\brak{\Delta ABC} \\
-&= \frac{n}{2}r^{2}\sin\frac{360^{\degree}}{n}
+&= \frac{n}{2}r^{2}\sin\frac{360{\degree}}{n}
 \end{split}
 \end{equation}
 %
@@ -57,7 +64,7 @@ ar\brak{polygon} &= n \times ar\brak{\Delta ABC} \\
 %
 \begin{equation}
 \label{ch5_circle_squeeze_eq}
-\frac{n}{2}r^{2}\sin\frac{360^{\degree}}{n} < \text{ area of circle } < nr^{2}\tan\frac{180^{\degree}}{n}
+\frac{n}{2}r^{2}\sin\frac{360{\degree}}{n} < \text{ area of circle } < nr^{2}\tan\frac{180{\degree}}{n}
 \end{equation}
 %
 The portion of the circle visible in Fig. \ref{ch5_circle_squeeze} is defined to be a sector of the circle.
@@ -77,9 +84,9 @@ The portion of the circle visible in Fig. \ref{ch5_circle_squeeze} is defined to
 \solution Note that the circle is squeezed between the inner and outer regular polygons.  As we can see from Fig. \ref{ch5_circle_squeeze}, the area of the circle should be in between the areas of the inner and outer polygons.  Since
 %
 \begin{align}
-ar \brak{\Delta OAB} &= \frac{1}{2}r^{2}\sin\frac{360^{\degree}}{n} \\
+ar \brak{\Delta OAB} &= \frac{1}{2}r^{2}\sin\frac{360{\degree}}{n} \\
 ar \brak{\Delta OPQ} &= 2 \times \frac{1}{2} \times r \tan\frac{360/n}{2} \times r \\
-&= r^{2}\tan\frac{180^{\degree}}{n},
+&= r^{2}\tan\frac{180{\degree}}{n},
 \end{align}
 %
 we obtain \eqref{ch5_circle_squeeze_eq}.
@@ -158,13 +165,13 @@ resulting in
 %
 This gives \eqref{ch5_sin_diff}.  In \eqref{ch5_sin_diff}, replace $\alpha$ by 
 %
-$90^{\degree} - \alpha$.  This results in
+$90{\degree} - \alpha$.  This results in
 %
 \begin{multline}
-\sin\brak{90^{\degree} - \alpha - \beta}
+\sin\brak{90{\degree} - \alpha - \beta}
 \\
 =
-\sin \brak{90^{\degree} -\alpha} \cos \beta - \cos \brak{90^{\degree} -\alpha} \sin \beta \\
+\sin \brak{90{\degree} -\alpha} \cos \beta - \cos \brak{90{\degree} -\alpha} \sin \beta \\
 \Rightarrow \cos\brak{\alpha + \beta} = \cos \alpha \cos \beta - \sin \alpha \sin \beta
 \end{multline}
 % 
@@ -242,20 +249,20 @@ Show that
 	%
 	\begin{equation}
 	\label{ch5_circle_squeeze_simple}
-\cos^2\frac{180^{\degree}}{n} < \frac{\text{ area of circle }}{nr^{2}\tan\frac{180^{\degree}}{n}} < 1	\end{equation}
+\cos^2\frac{180{\degree}}{n} < \frac{\text{ area of circle }}{nr^{2}\tan\frac{180{\degree}}{n}} < 1	\end{equation}
 	%
 
 \solution From \eqref{ch5_circle_squeeze_eq} and \eqref{eq:sin2theta},
 	%
 	\begin{multline}
-	\frac{n}{2}r^{2}\sin\frac{360^{\degree}}{n} < \text{ area of circle } 
+	\frac{n}{2}r^{2}\sin\frac{360{\degree}}{n} < \text{ area of circle } 
 	\\
-	< nr^{2}\tan\frac{180^{\degree}}{n} 
+	< nr^{2}\tan\frac{180{\degree}}{n} 
 	\\
 \Rightarrow 	
-	{n}r^{2}\sin\frac{180^{\degree}}{n}\cos\frac{180^{\degree}}{n} < \text{ area of circle } 
+	{n}r^{2}\sin\frac{180{\degree}}{n}\cos\frac{180{\degree}}{n} < \text{ area of circle } 
 	\\
-	< nr^{2}\tan\frac{180^{\degree}}{n} 
+	< nr^{2}\tan\frac{180{\degree}}{n} 
 	\end{multline}
 %
 %
@@ -264,7 +271,7 @@ Show that
 	%
 	\begin{equation}
 	%
-\cos^2\frac{180^{\degree}}{n} = 1
+\cos^2\frac{180{\degree}}{n} = 1
 %
 	\end{equation}	
 	% 
@@ -276,7 +283,7 @@ Show that
 	The previous result can be expressed as
 %
 \begin{equation}
-\lim_{n \rightarrow \infty}\cos^2\frac{180^{\degree}}{n} = 1
+\lim_{n \rightarrow \infty}\cos^2\frac{180{\degree}}{n} = 1
 \end{equation}
 %	
 
@@ -285,7 +292,7 @@ Show that
 	%
 \begin{equation}
 \text{ area of circle } = r^2\lim_{n \rightarrow \infty}
-{n\tan\frac{180^{\degree}}{n}} 
+{n\tan\frac{180{\degree}}{n}} 
 	%
 \end{equation}	
 	% 
@@ -294,14 +301,14 @@ Show that
 \item
 	\begin{equation}
 	\pi = \lim_{n \rightarrow \infty}
-	{n\tan\frac{180^{\degree}}{n}}
+	{n\tan\frac{180{\degree}}{n}}
 	\end{equation}
 
 Thus, the area of a circle is $\pi r^2$.
 \item
 	The radian is a unit of angle defined by
 \begin{equation}
-	1 \text{ radian} = \frac{360^{\degree}}{2\pi}
+	1 \text{ radian} = \frac{360{\degree}}{2\pi}
 \end{equation}
 
 %
