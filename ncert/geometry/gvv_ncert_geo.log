@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  24 NOV 2019 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  25 NOV 2019 08:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,35 +1616,22 @@ Missing character: There is no ; in font nullfont!
 Underfull \vbox (badness 3229) has occurred while \output is active []
 
 
-(./figs/fig_4.11.tex)) (./chapters/chapter5.tex (./figs/fig_5.0.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+(./figs/fig_4.11.tex)) (./chapters/chapter5.tex (./figs/fig_5.3.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 ) [16]
-(./figs/fig_5.1.tex
-Missing character: There is no ; in font nullfont!
-) (./figs/fig_5.2.tex) (./figs/fig_5.3.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Underfull \vbox (badness 2088) has occurred while \output is active []
-
- [17]
-Overfull \hbox (12.44728pt too wide) detected at line 129
+Overfull \hbox (12.44728pt too wide) detected at line 43
 []
  []
 
 
-Overfull \hbox (12.45927pt too wide) detected at line 133
+Overfull \hbox (12.45927pt too wide) detected at line 47
 []
  []
 
 
-Overfull \hbox (10.4593pt too wide) detected at line 138
+Overfull \hbox (10.4593pt too wide) detected at line 52
 [] \OMS/txsy/m/n/12 ) [] \OML/txmi/m/it/12 ^^R[] \OT1/txr/m/n/12 = [] [] [] [] 
 \OMS/txsy/m/n/12 ^^@ [] [] [] \OML/txmi/m/it/12 ^^R[]
  []
@@ -1653,15 +1640,35 @@ Overfull \hbox (10.4593pt too wide) detected at line 138
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (3.26341pt too wide) detected at line 211
+Overfull \hbox (3.26341pt too wide) detected at line 125
  []$[]   [] [] [] \OML/txmi/m/it/12 ^^R[] \OT1/txr/m/n/12 = [] \OML/txmi/m/it/1
 2 ^^R[] \OT1/txr/m/n/12 + [] \OML/txmi/m/it/12 ^^R[] [] ^^R[] [] ^^R[]$ 
  []
 
-
+(./figs/fig_5.0.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18])
+ [17]
+(./figs/fig_5.1.tex
+Missing character: There is no ; in font nullfont!
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./figs/fig_5.2.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 (./chapters/circle_geo.tex [19]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 54.
@@ -1672,27 +1679,26 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 54.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 54.
 
-) [20]
+[20])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
+ [21
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
  (./gvv_ncert_geo.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 319.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
 Package rerunfilecheck Info: File `gvv_ncert_geo.out' has not changed.
 (rerunfilecheck)             Checksum: 89AE717B9FD413101A820B709EDACE9C;1223.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
  ) 
 Here is how much of TeX's memory you used:
- 32692 strings out of 492624
- 706247 string characters out of 6119216
- 921708 words of memory out of 5000000
- 35915 multiletter control sequences out of 15000+600000
- 86107 words of font info for 221 fonts, out of 8000000 for 9000
+ 32714 strings out of 492624
+ 706636 string characters out of 6119216
+ 922310 words of memory out of 5000000
+ 35937 multiletter control sequences out of 15000+600000
+ 89232 words of font info for 232 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,17n,70p,505b,1299s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,17n,70p,505b,1302s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_geo.dvi (20 pages, 421552 bytes).
+Output written on gvv_ncert_geo.dvi (21 pages, 431520 bytes).
