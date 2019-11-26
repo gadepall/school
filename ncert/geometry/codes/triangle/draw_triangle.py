@@ -28,25 +28,25 @@ C = np.array([4,-1])
 k1 = 1
 k2 = 1
 I,r = icentre(A,B,C,k1,k2)
-#print(I,r)
+print(I,r)
 #Incentre
 k1 = 1
 k2 = 1
 O,R = ccircle(A,B,C)
 #print(O,R)
 
-D = alt_foot(O,B,C)
-E = alt_foot(O,C,A)
-F = alt_foot(O,A,B)
+D = alt_foot(I,B,C)
+E = alt_foot(I,C,A)
+F = alt_foot(I,A,B)
 #
-#print(D,E,F)
+print(D,E,F)
 n1 = omat@(O-A)
 n2 = omat@(B-C)
 P = line_intersect(n1,A,n2,B)
 N=np.vstack((n1,n2))
 
 #print (n1,n2,N)
-print(P)
+#print(P)
 
 #Generating all lines
 x_AB = line_gen(A,B)
