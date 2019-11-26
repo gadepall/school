@@ -24,7 +24,7 @@
 	$OB$ and $OC$ are angle bisectors of angles $B$ and $C$. $OA$ is joined and $OD, OF$ and $OE$ are perpendiculars to sides $a,b$ and $c$.
 \item
   Show that $OD = OE = OF$.
-\solution In $\Delta$s $ODC$ and $OEC$,
+\solution In $\triangle$s $ODC$ and $OEC$,
 \begin{align}
 OD &= OC \sin \frac{C}{2}
 \\
@@ -40,7 +40,7 @@ OD = OF.
 \item
 	Show that OA is the angle bisector of $\angle A$
 
-\solution In $\Delta$s $OFA$ and $OEA$,
+\solution In $\triangle$s $OFA$ and $OEA$,
 \begin{align}
 OF &= OE
 \\
@@ -59,10 +59,10 @@ which proves that $OA$ bisects $\angle A$.
 \numberwithin{equation}{enumi}
 
 \item
-	Show that in $\Delta$s $ODC$ and $OEC$, corresponding sides and angles are equal.
+	Show that in $\triangle$s $ODC$ and $OEC$, corresponding sides and angles are equal.  Such triangles are known as {\em congruent} triangles and denoted by $\triangle ODC \cong \triangle OEC$.
 
 \item
-	Note that    $\Delta$s $ODC$ and $OEC$ are known as congruent triangles.  To show that two triangles are congruent, it is sufficient to show that some angles and sides are equal.
+To show that two triangles are congruent, it is sufficient to show that some angles and sides are equal.  
 
 \item
 SSS:	Show that if the corresponding sides of three triangles are equal, the triangles are congruent.
@@ -85,12 +85,20 @@ RHS:	For two right angled triangles, if the hypotenuse and one of the sides are 
 \numberwithin{equation}{enumi}
 
 \item
-	In Fig. \ref{ch3_perp_bisector}, OD $\perp BC$ and $BD=DC$. $OD$ is defined as the perpendicular bisector of $BC$.
-
+	In Fig. \ref{ch3_perp_bisector}, $OE \perp AC, OF \perp AB, AE=EC, AF=FB$.  $OE$ and $OF$ are known as the {\em perpendicular bisectors} of $AC$ and $AB$ respectively.  Show that $OA=OB=OC$.
+%
+\\
+\solution Using SAS, $\triangle OEA \cong \triangle OEC$.  Thus, $OA = OC$.  Similarly,   $\triangle OFA \cong \triangle OFB \implies OA = OB$.
 
 \item
-	In Fig. \ref{ch3_perp_bisector}, show that $OA=OB=OC$.
-
+	In Fig. \ref{ch3_perp_bisector}, show that if $OD \perp BC$, $BD=DC$, i.e., $OD$ is the perpendicular bisector of $BC$.
+.
+\\
+\solution $\because OB = OC$, using RHS congruence, $\triangle ODC \cong \triangle ODB$.  Hence $BD = DC$.\item
+	In Fig. \ref{ch3_perp_bisector}, show that if $BD=DC$, $OD \perp BC$.
+.
+\\
+\solution Use SSS.
 %%
 %%
 \begin{figure}[!ht]
@@ -106,30 +114,42 @@ RHS:	For two right angled triangles, if the hypotenuse and one of the sides are 
 	\label{ch3_perp_bisector}	
 \end{figure}
 %
-\solution In $\Delta$s $ODB$ and $ODC$, using Budhayana's theorem,
+%\solution In $\triangle$s $ODB$ and $ODC$, using Budhayana's theorem,
+%%
+%\begin{equation}
+%\begin{split}
+%OB^2 &= OD^2 + BD^2 \\
+%OC^2 &= OD^2 + DC^2 
+%\end{split}
+%\end{equation}
 %
-\begin{equation}
-\begin{split}
-OB^2 &= OD^2 + BD^2 \\
-OC^2 &= OD^2 + DC^2 
-\end{split}
-\end{equation}
-%
-Since $BD = DC = \frac{a}{2}$, $OB = OC$.  Similarly, it can be shown that $OA = OC$.  Thus, $OA=OB=OC$.
-%
-\item
-	In $\Delta AOB$, $OA = OB$.  Such a triangle is known as an isoceles triangle.
-
+%Since $BD = DC = \frac{a}{2}$, $OB = OC$.  Similarly, it can be shown that $OA = OC$.  Thus, $OA=OB=OC$.
 %
 \item
-	Show that $AF = BF$.
-
-\solution Trivial using Budhayana's theorem.  This shows that $OF$ is a perpendicular bisector of $AB$. 
+	In $\triangle AOB$, $OA = OB$.  Such a triangle is known as an isoceles triangle.
+%
+%\item
+%	Show that $AF = BF$.
+%
+%\solution Trivial using Budhayana's theorem.  This shows that $OF$ is a perpendicular bisector of $AB$. 
+\\
 {\em Conclusion:}  The perpendicular bisectors of a triangle meet at a point.
 %
+\item In Fig. \eqref{ch3_perp_bisector_circ}, $OA = OB=OC = R$.  Show that $\angle BOC = 2\angle BAC$. 			\label{ch4_prob_circle_subtend}
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{\columnwidth}{!}{\input{./figs/perp_bisect_ext.tex}}
+	\end{center}
+	\caption{$\angle BOC = 2\angle BAC$}
+	\label{ch3_perp_bisector_circ}	
+\end{figure}
+%
+\solution Note that $\alpha$ and $\beta $ are exterior angles for $\triangle$s $AOB$ and $AOC$, which are isosceles.
 \end{enumerate}
 
-\subsection{Perpendiculars from Vertex to Opposite Side}
+\subsection{Altitudes of a Triangle}
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
@@ -154,7 +174,7 @@ Since $BD = DC = \frac{a}{2}$, $OB = OC$.  Similarly, it can be shown that $OA =
 		\label{ch3_perp_triang}	
 	\end{figure}
 %
-\solution In $\Delta$ s $AEB$ and $AEO$,
+\solution In $\triangle$ s $AEB$ and $AEO$,
 %
 \begin{align}
 AE &= c \cos A \\
@@ -167,7 +187,7 @@ From both the above, we get the desired result.
 \item
 	Show that $\alpha = A$.
 
-\solution In $\Delta OEC$,
+\solution In $\triangle OEC$,
 %
 \begin{equation}
 CE = a \cos C \brak{\because BEC \text{ is right angled}}
