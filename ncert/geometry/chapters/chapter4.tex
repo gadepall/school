@@ -139,23 +139,24 @@ In Fig. \ref{ch4_circle_dia}, show that $\angle APB = 90^{\degree}$ .
 	\label{fig:incirc_def}	
 \end{figure}
 %
+\item Tangents to a circle from any point outside the circle are equal.
+\\
+\solution See Fig. \ref{fig:incirc_def} and use \eqref{eq:tang_eq}.
+
 \item
 	Show that 
 	\begin{equation}
-	\label{ch5_sin_zero}
-	\sin 0^{\degree} = 0
+	\label{ch5_sin_90}
+	\sin 90^{\degree} = 1
 	\end{equation}
-
-\solution From \eqref{ch1_trig_defs}, $\theta \to 0\degree \implies a \to 0 \implies \sin \theta $ and %
-\item
-	Show that 
+\solution From 	Prolem \ref{prob:ch2_triang_area}
+and Problem \ref{prob:tri_area_sin}, the area of the right angled $\triangle ABC$ in Fig. \ref{ch2_sq_ar} is 	
 	\begin{equation}
-	\label{ch5_cos_zero}
-	\cos 0^{\degree} = 1
+	\label{ch5_sin_90_der}
+	\frac{1}{2}ab = \frac{1}{2}ab\sin 90^{\degree} 
 	\end{equation}
-
-\solution Follows from the fact that $\sin 0 = 0$ and \eqref{eq:tri_sin_cos_id}.
-% 	
+%
+resulting in 	\eqref{ch5_sin_90}.
 \item
 	Show that 
 	\begin{equation}
@@ -163,7 +164,13 @@ In Fig. \ref{ch4_circle_dia}, show that $\angle APB = 90^{\degree}$ .
 	\cos 90^{\degree} = 0
 	\end{equation}
 
-\solution Follows from the fact that $\cos 90 \degree = \sin \brak{90\degree -90\degree} = 0$ using \eqref{eq:tri_90-ang}.
+\solution 
+Follows from the fact that $\sin 90\degree = 1$ and \eqref{eq:tri_sin_cos_id}.
+
+
+
+%
+% 	
 \item
 	The line $PX$ in Fig. \ref{ch4_tangent_def} touches the circle at exactly one  point $P$. 
 %It is known as the tangent to the circle.
@@ -213,8 +220,9 @@ In Fig. \ref{ch4_circle_dia}, show that $\angle APB = 90^{\degree}$ .
 where $x_n$ can be made as small as we choose.  Thus, 
 %
 \begin{align}
-\cos \theta = 0 \implies \theta  = 90 ^{\degree}.
+\cos \theta = 0 \implies \theta  = 90 ^{\degree}
 \end{align}
+from \eqref{ch5_cos_90}.
 
 %\solution In Fig. \ref{ch4_tangent_def}, we can see that $OP$ is is the radius of the circle and the length of all line segments from $O$ to the line $PX > r$.  Using the result of the previous 
 %problem, it is obvious that $OP \perp PX$. 
