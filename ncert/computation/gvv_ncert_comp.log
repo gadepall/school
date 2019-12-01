@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  1 DEC 2019 11:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  1 DEC 2019 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1767,21 +1767,34 @@ Underfull \hbox (badness 1838) in paragraph at lines 1028--1029
 []\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
  []
 
-) (./line/line_misc.tex
-Overfull \vbox (12.80962pt too high) has occurred while \output is active []
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 1046.
 
 
-Overfull \vbox (12.80962pt too high) has occurred while \output is active []
+LaTeX Warning: Command \textendash invalid in math mode on input line 1046.
 
 
-[39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 1187.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39])
+(./line/line_misc.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [41])
-(./circle/circle_examples.tex
+(./circle/circle_examples.tex [42]
 File: ./circle/figs/circle_const_ccircle.eps Graphic file (type eps)
  <./circle/figs/circle_const_ccircle.eps>
 Underfull \hbox (badness 1454) in paragraph at lines 54--62
@@ -1789,10 +1802,15 @@ Underfull \hbox (badness 1454) in paragraph at lines 54--62
 
  []
 
-[42]
 File: ./circle/figs/circle.eps Graphic file (type eps)
- <./circle/figs/circle.eps>) (./circle/circle_exer.tex)
-(./circle/circle_geo_exam.tex) (./circle/circle_geo.tex [43])
+<./circle/figs/circle.eps>) (./circle/circle_exer.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43])
+(./circle/circle_geo_exam.tex) (./circle/circle_geo.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44])
 (./conics/conics_exer.tex
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 22.
@@ -1806,7 +1824,6 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 25.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 25.
 
-[44]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 29.
 
@@ -1846,36 +1863,42 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 51.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 213.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 355.
+
+) (./curves/curves_exam.tex [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47])
-(./curves/curves_exam.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
+ [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49])
+ [50])
 (./curves/curves_exer.tex
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 34.
@@ -1910,34 +1933,72 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 93.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./misc/misc_exer.tex [52]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
+LaTeX Warning: Command \textendash invalid in math mode on input line 400.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--614
+[]\OT1/txr/m/n/12 Differentiate $[] []$ in
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Underfull \hbox (badness 8000) in paragraph at lines 819--820
+[]\OT1/txr/m/n/12 Find $[]$, if $\OML/txmi/m/it/12 y \OT1/txr/m/n/12 = 12 [] \O
+ML/txmi/m/it/12 ; x \OT1/txr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--854
+[]\OT1/txr/m/n/12 if $\OML/txmi/m/it/12 x \OT1/txr/m/n/12 = \OML/txmi/m/it/12 a
+ []$ \OT1/txr/m/n/12 and $\OML/txmi/m/it/12 y \OT1/txr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 855--856
+[]\OT1/txr/m/n/12 Using math-e-mat-i-cal in-duc-tion, prove that
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./misc/misc_exer.tex [55]
+
 LaTeX Warning: Command \textendash invalid in math mode on input line 36.
 
-[53]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 61.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54])
+ [57])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
 
-[55
+[58
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
@@ -1956,12 +2017,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 32275 strings out of 492624
- 693929 string characters out of 6119216
- 911743 words of memory out of 5000000
- 35508 multiletter control sequences out of 15000+600000
+ 32277 strings out of 492624
+ 693974 string characters out of 6119216
+ 911830 words of memory out of 5000000
+ 35510 multiletter control sequences out of 15000+600000
  78167 words of font info for 195 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,23n,69p,506b,1163s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_comp.dvi (55 pages, 734388 bytes).
+Output written on gvv_ncert_comp.dvi (58 pages, 794780 bytes).
