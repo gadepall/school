@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  8 DEC 2019 10:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  8 DEC 2019 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1469,10 +1469,11 @@ Underfull \vbox (badness 1331) has occurred while \output is active []
 
 
 ]
-(./figs/triangle/tri_polar.tex) (./figs/triangle/tri_sum_angle.tex) [2]
-(./figs/triangle/tri_baudh.tex) [3] (./figs/triangle/tri_rect.tex)
+(./figs/triangle/tri_polar.tex)) (./chapters/tri_geo_sum_angle.tex
+(./figs/triangle/tri_sum_angle.tex) [2] (./figs/triangle/tri_baudh.tex))
+(./chapters/tri_geo_area.tex [3] (./figs/triangle/tri_rect.tex)
 (./figs/triangle/tri_sss.tex)
-Overfull \hbox (2.03821pt too wide) detected at line 385
+Overfull \hbox (2.03821pt too wide) detected at line 384
 []
  []
 
@@ -1480,13 +1481,13 @@ Overfull \hbox (2.03821pt too wide) detected at line 385
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Overfull \hbox (22.29663pt too wide) detected at line 468
+Overfull \hbox (22.29663pt too wide) detected at line 467
 []\OML/txmi/m/it/12 ar [] \OT1/txr/m/n/12 = []\OML/txmi/m/it/12 ah \OT1/txr/m/n
 /12 = []\OML/txmi/m/it/12 ab [] C  [] :
  []
 
 
-Overfull \hbox (4.47934pt too wide) detected at line 479
+Overfull \hbox (4.47934pt too wide) detected at line 478
 []\OML/txmi/m/it/12 ar [] \OT1/txr/m/n/12 = []\OML/txmi/m/it/12 ab [] C \OT1/tx
 r/m/n/12 = []\OML/txmi/m/it/12 bc [] A \OT1/txr/m/n/12 = []\OML/txmi/m/it/12 ca
  [] B
@@ -1741,27 +1742,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
 
 [32
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
  (./gvv_ncert_geo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 334.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 340.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
 Package rerunfilecheck Info: File `gvv_ncert_geo.out' has not changed.
 (rerunfilecheck)             Checksum: A66AD4EE34FC6C63C1773026D56C8D65;1469.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 334.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 340.
  ) 
 Here is how much of TeX's memory you used:
- 33176 strings out of 492624
- 712903 string characters out of 6119216
- 929932 words of memory out of 5000000
+ 33182 strings out of 492624
+ 713050 string characters out of 6119217
+ 929931 words of memory out of 5000000
  36377 multiletter control sequences out of 15000+600000
  89660 words of font info for 233 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
