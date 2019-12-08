@@ -289,13 +289,13 @@ where
 \item Also, it is easy to verify that
 %
 \begin{align}
-\label{eq:tri_norm_def}
+\label{eq:tri_norm_dist}
 AC \define  \norm{\vec{A}-\vec{C}} =  \norm{\myvec{4\\-3}} = \sqrt{3^2+4^2} = 5
 \end{align}
 %
 This is known as the {\em distance formula}.
 %
-\item Prove the distance formula in \eqref{eq:tri_norm_def} using Baudhayana theorem.
+\item Prove the distance formula in \eqref{eq:tri_norm_dist} using Baudhayana theorem.
 
 \end{enumerate}
 \subsection{Area of a Triangle}
@@ -409,14 +409,6 @@ ar\brak{\Delta ABC} &= ar\brak{\Delta ADC} + ar\brak{\Delta ADB} \\
 \vec{A} = \myvec{p\\q}, \vec{B} = \myvec{0\\0}, \vec{C} = \myvec{a\\0}, \vec{D} = \myvec{p\\0}
 \end{align}
 %
-%\begin{align}
-%\label{eq:vec_def}
-%\vec{A}^T &\define \myvec{p & q}
-%\\
-%\norm{\vec{A}}^2 &= \vec{A}^T\vec{A} = \myvec{p & q}\myvec{p \\ q}
-%\\
-%&= p\times p + q\times q = p^2+q^2
-%\end{align}
 
 Then
 \begin{align}
@@ -454,10 +446,6 @@ From \eqref{eq:c_tricoord},
 \implies q&= \pm \sqrt{c^2-p^2}
 \end{align}
 %
-%The following code plots Fig. \ref{fig:triangle}
-%\begin{lstlisting}
-%codes/triangle/draw_triangle.py
-%\end{lstlisting}
 The python code for  Fig. \ref{fig:tri_sss} is
 \begin{lstlisting}
 codes/triangle/tri_sss.py
