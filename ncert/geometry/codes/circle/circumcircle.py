@@ -14,7 +14,7 @@ import shlex
 
 #Triangle vertices
 #A,B,C=np.loadtxt('./codes/vert.dat', dtype='double')
-A,B,C=tri_vert(5,6,7)
+A,B,C=tri_vert(5,6,4)
 
 len = 100
 
@@ -55,9 +55,9 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('./circle/figs/circumcircle.pdf')
-plt.savefig('./circle/figs/circumcircle.eps')
-subprocess.run(shlex.split("termux-open ./circle/figs/circumcircle.pdf"))
+plt.savefig('./figs/circle/circumcircle.pdf')
+plt.savefig('./figs/circle/circumcircle.eps')
+subprocess.run(shlex.split("termux-open ./figs/circle/circumcircle.pdf"))
 #else
 #plt.show()
 

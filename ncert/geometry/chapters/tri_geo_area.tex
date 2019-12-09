@@ -1,310 +1,8 @@
-%\renewcommand{\theequation}{\theenumi}
-%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-%\numberwithin{equation}{enumi}
-%\item
-%
-%
-%A right angled triangle looks like Fig. \ref{fig:tri_right_angle}.
-%\begin{figure}[!ht]
-%\centering
-%\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_right_angle.tex}}
-%\caption{Right Angled Triangle}
-%\label{fig:tri_right_angle}	
-%\end{figure}
-%with angles $\angle A,\angle B$ and $\angle C$ and sides $a, b$ and $c$.  The unique feature of this triangle is $\angle B$ which is defined to be $90\degree$.
-%\item
-%	For simplicity, let the greek letter $\theta = \angle C$.  We have the following definitions.
-%\begin{equation}
-%\label{eq:tri_trig_defs}
-%\begin{matrix}
-%	\sin \theta = \frac{c}{b} & 	\cos \theta = \frac{a}{b} \\
-%	\tan \theta = \frac{c}{a} & \cot \theta = \frac{1}{\tan \theta} \\
-%	\csc \theta = \frac{1}{\sin \theta} & \sec \theta = \frac{1}{\cos \theta}
-%	\end{matrix}
-%\end{equation}
-%%
-%\item Draw Fig. \ref{fig:tri_right_angle} for $a = 4, c =3$.
-%\label{const:tri_right_angle}
-%%
-%\\
-%\solution The vertices of $\triangle ABC$ are 
-%\begin{align}
-%\vec{A} = \myvec{0\\c} = \myvec{0\\3}, \vec{B} = \myvec{0\\0}, \vec{C} = \myvec{a\\0}=\myvec{4\\0}
-%\end{align}
-%%
-%The python code for  Fig. \ref{fig:tri_right_angle} is
-%\begin{lstlisting}
-%codes/triangle/tri_right_angle.py
-%\end{lstlisting}
-%%
-%and the equivalent latex-tikz code is
-%%
-%\begin{lstlisting}
-%figs/triangle/tri_right_angle.tex
-%\end{lstlisting}
-%%
-%\item Draw Fig. \ref{fig:tri_polar} for $a = 4, c =3$.
-%\label{const:tri_polar}
-%%
-%\\
-%\solution The vertices of $\triangle ABC$ are 
-%\begin{align}
-%\vec{A} = \myvec{a\\c} = \myvec{4\\3}, \vec{B} = \myvec{a\\0}  = \myvec{4\\0}, \vec{C} = \myvec{0\\0}.
-%\end{align}
-%%
-%The python code for  Fig. \ref{fig:tri_polar} is
-%\begin{lstlisting}
-%codes/triangle/tri_polar.py
-%\end{lstlisting}
-%%
-%and the equivalent latex-tikz code is
-%%
-%\begin{lstlisting}
-%figs/triangle/tri_polar.tex
-%\end{lstlisting}
-%\begin{figure}[!ht]
-%\centering
-%\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_polar.tex}}
-%\caption{Right Angled Triangle}
-%\label{fig:tri_polar}	
-%\end{figure}
-%%
-%\item The vertex  $\vec{A}$ can also be expressed  in {\em polar coordinate form} as
-%\label{prob:tri_polar}
-%%
-%\begin{align}
-%\vec{A} = \myvec{b\cos \theta\\ b \sin \theta} 
-%\end{align}
-%%
-%
-%\end{enumerate}
-%
-%\subsection{Sum of Angles}
-%\renewcommand{\theequation}{\theenumi}
-%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-%\numberwithin{equation}{enumi}
-%\item 	In Fig. \ref{fig:tri_sum_angle}, the sum of all the angles on the top or bottom side of the straight line $XY$ is $180\degree$.
-%
-%
-%\begin{figure}[!ht]
-%	\begin{center}
-%		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_sum_angle.tex}}
-%	\end{center}
-%	\caption{Sum of angles of a triangle}
-%	\label{fig:tri_sum_angle}	
-%\end{figure}
-%
-%
-%
-%\item
-%In Fig. \ref{fig:tri_sum_angle}, the straight line making an angle of $90\degree$ to the side $AB$ is said to be parallel to the side $BC$. Note there is an angle at $A$ that is equal to $\theta$.  This is one property of parallel lines.  Thus, $\angle YAZ = 90\degree$.
-%
-%
-%\item
-%	Show that $\angle VAZ = 90\degree - \theta$
-%		
-%	\solution Considering the line $XAZ$,
-%	\begin{align}
-%	\theta + 90\degree + \angle VAZ &= 180\degree \\
-%	\Rightarrow  \angle VAZ =  90\degree - \theta
-%	\end{align}
-%
-%\item
-%	\label{prob:tri_compl_angle}
-%	Show that $\angle BAC = 90\degree - \theta$.
-%	
-%	\solution Consider the line $VAB$ and and use the approach in the previous problem.  Note that this implies that $\angle VAZ = \angle BAC$.  Such angles are known as vertically opposite angles. 
-%	 
-%\item
-%Sum of the angles of a triangle is equal to $180\degree$.
-%%
-%\item Draw Fig. \ref{fig:tri_sum_angle} for $a = 4, c =3$.
-%%
-%\\
-%\solution Problem \ref{const:tri_right_angle} is used to draw $\triangle ABC$.  The remaining points are obtained as
-%
-%\begin{align}
-%\vec{Y} &= \vec{A} + \myvec{1\\0} = \myvec{1\\3}
-%\\
-%\vec{X} &= \vec{A} - \myvec{1\\0} = \myvec{-1\\3}
-%\\
-%\vec{T} &= \vec{A} + \myvec{0\\1} = \myvec{0\\4}
-%\end{align}
-%%
-%and 
-%\begin{align}
-%\frac{VC}{AC} &= k+1
-%\\
-%\label{eq:tri_section_formula}
-%\implies \vec{A} &= \frac{k\vec{C} + \vec{V}}{k+1}  
-%\\
-%\implies \vec{V} &= \frac{\brak{k+1}\vec{A} - k\vec{C}}{k}  
-%\end{align}
-%%
-%for $k = 0.2$. \eqref{eq:tri_section_formula} is known as the {\em section formula}.
-%%
-%The python code for  Fig. \ref{fig:tri_sum_angle} is
-%\begin{lstlisting}
-%codes/triangle/tri_sum_angle.py
-%\end{lstlisting}
-%%
-%and the equivalent latex-tikz code is
-%%
-%\begin{lstlisting}
-%figs/triangle/tri_sum_angle.tex
-%\end{lstlisting}
-%\end{enumerate}
-%\subsection{Baudhayana Theorem}
-%Use Fig. \ref{fig:tri_baudh} for all problems in this section.
-%\renewcommand{\theequation}{\theenumi}
-%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-%\numberwithin{equation}{enumi}
-%
-%
-%
-%\item  Show that
-%	\begin{equation}
-%	\cos \theta = \sin \brak{90\degree - \theta}
-%	\end{equation}
-%
-%
-%\begin{figure}[!ht]
-%	\begin{center}
-%		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_baudh.tex}}
-%	\end{center}
-%	\caption{Baudhayana Theorem}
-%	\label{fig:tri_baudh}	
-%\end{figure}
-%
-%
-%\solution From Problem \ref{prob:tri_compl_angle} and  \eqref{eq:tri_trig_defs}
-%%
-%\begin{multline}
-%\label{eq:tri_90-ang}
-%\cos \angle BAC = \cos \alpha =	\cos \brak{90\degree-\theta} = \frac{c}{b} 
-%\\
-%= \sin \angle ABC = \sin \theta
-%\end{multline}
-%%
-%\item
-%Show that 
-%%
-%\begin{equation}
-%\label{ch1_budh_basic}
-%b = a \cos \theta + c \sin \theta
-%\end{equation}
-%%
-%\solution We observe that
-%%
-%\begin{align}
-%BD &= a \cos \theta \\
-%AD &= c \cos\alpha = c \sin \theta \quad \brak{\text{From} \quad \eqref{eq:tri_90-ang}
-%}
-%\end{align}
-%%
-%Thus,
-%\begin{equation}
-%BD + AD = b = a \cos \theta + c \sin \theta
-%\end{equation}
-%\item
-%From \eqref{ch1_budh_basic}, show that
-%%
-%\begin{equation}
-%%
-%\label{eq:tri_sin_cos_id}
-%\sin ^2 \theta + \cos ^2 \theta = 1
-%\end{equation}
-%
-%
-%%
-%\solution Dividing both sides of \eqref{ch1_budh_basic} by $b$, 
-%\begin{align}
-%1 &= \frac{a}{b}\cos\theta + \frac{c}{b}\sin\theta\\
-%\Rightarrow &\sin ^2 \theta + \cos ^2 \theta = 1 \quad \brak{\text{from} \quad \eqref{eq:tri_trig_defs}}
-%\end{align}
-%
-%\item
-%	Using \eqref{ch1_budh_basic}, show that
-%	\begin{equation}
-%	\label{eq:tri_baudh}
-%	c^2 = a^2 + b^2
-%	\end{equation}
-%	\eqref{eq:tri_baudh} is known as the Baudhayana theorem.  It is also known as the Pythagoras theorem.
-%
-%\solution From \eqref{ch1_budh_basic},
-%\begin{align}
-%c &= a\frac{a}{c} + b \frac{b}{c} \quad \brak{\text{from} \quad \eqref{eq:tri_trig_defs}}\\
-%\Rightarrow c^2 &= a^2 + b^2
-%\end{align}
-%%
-%%
-%\item Draw Fig. \ref{fig:tri_baudh} for $a = 4, c =3$.
-%\label{const:tri_baudh}
-%%
-%\\
-%\solution Problem \ref{const:tri_right_angle} is used to draw $\triangle ABC$.
-%%
-%Using Problem \ref{prob:tri_polar},
-%\begin{align}
-%\vec{D} &= BD\myvec{\cos \alpha\\  \sin \alpha} 
-%&= a \sin \theta \myvec{ \sin \theta \\ \cos \theta } 
-%\label{eq:tri_baudh_foot}
-%\end{align}
-%%
-%Using \eqref{eq:tri_baudh_foot}, the python code for  Fig. \ref{fig:tri_baudh} is
-%\begin{lstlisting}
-%codes/triangle/tri_baudh.py
-%\end{lstlisting}
-%%
-%and the equivalent latex-tikz code is
-%%
-%\begin{lstlisting}
-%figs/triangle/tri_baudh.tex
-%\end{lstlisting}
-%%
-%\item Using 	\eqref{eq:tri_baudh}, for $a = 4, c = 3$,
-%%
-%\begin{align}
-%b = \sqrt{a^2+c^2} = \sqrt{4^2+3^2} = 5
-%\end{align}
-%%
-%\item For  point $\vec{D} = \myvec{d_1\\d_2}$, its {\em norm} is defined as
-%%
-%\begin{align}
-%OD = d_1^2+d_2^2 = \norm{\vec{D}} \define \sqrt{\vec{D}^T\vec{D}}, 
-%\label{eq:tri_norm_def}
-%\end{align}
-%%
-%where 
-%%
-%\begin{align}
-%\label{eq:tri_transpose_def}
-% \vec{D}^T  \define \myvec{d_1 & d_2},
-%\\
-%\vec{D}^T\vec{D} \define \myvec{d_1 & d_2} \myvec{d_1 \\ d_2} = d_1^2+d_2^2
-%\end{align}
-%%
-%\eqref{eq:tri_transpose_def} is the definition of {\em transpose}. $\vec{D}$ is defined to be a {\em column vector} and $\vec{D}^T$  is the corresponding {\em row vector} representing the same point.
-%
-%\item Also, it is easy to verify that
-%%
-%\begin{align}
-%\label{eq:tri_norm_dist}
-%AC \define  \norm{\vec{A}-\vec{C}} =  \norm{\myvec{4\\-3}} = \sqrt{3^2+4^2} = 5
-%\end{align}
-%%
-%This is known as the {\em distance formula}.
-%%
-%\item Prove the distance formula in \eqref{eq:tri_norm_dist} using Baudhayana theorem.
-%
-%\end{enumerate}
+
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 %
-
-
-
 \item
 	The area of the rectangle $ACBD$ shown in Fig. \ref{fig:tri_rect} is defined as $ac$. Note that all the angles in the rectangle are $90\degree$
 %	\label{fig:tri_rect}
@@ -383,8 +81,10 @@ From \eqref{ch2_triang_ar_1} and \eqref{ch2_triang_ar_2},
 \Rightarrow ar\brak{ACB} &= \frac{ac}{2}
 \end{align}
 
+%
+\item In Fig. 	\ref{fig:tri_sss}, $AD \perp BC$.  $AD$ is defined as the {\em altitude}.
 \item
-	Show that the area of $\Delta ABC$ in Fig. 	\ref{fig:tri_sss}	is $\frac{1}{2}ah$.
+	Show that the area of $\Delta ABC$ in Fig. 	\ref{fig:tri_sss}	is $\frac{1}{2}ah$. 
 
 
 \solution In Fig. \ref{fig:tri_sss},
@@ -455,6 +155,11 @@ and the equivalent latex-tikz code is
 \begin{lstlisting}
 figs/triangle/tri_sss.tex
 \end{lstlisting}
+\end{enumerate}
+\subsection{Sine and Cosine Formula}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
 
 \item
 \label{prob:tri_area_sin}
@@ -504,15 +209,20 @@ In Fig. \ref{fig:tri_cosine_formula}, show that
 	\label{fig:tri_cosine_formula}	
 \end{figure}
 
-\solution From the figure, the first of the following equations
+\solution From Fig. \ref{fig:tri_cosine_formula}, 
 %
 \begin{align}
-a &= b \cos C + c \cos B \\
+a &= x + y = b \cos C + c \cos B.
+\end{align}
+%
+Similarly,
+%
+\begin{align}
 b &= c \cos A + a \cos C \\
 c &= b \cos A + a \cos B
 \end{align}
 %
-is obvious and the other two can be similarly obtained.  The above equations can be expressed in matrix form as
+The above equations can be expressed in matrix form as
 %
 \begin{equation}
 \begin{pmatrix}
@@ -555,6 +265,12 @@ b & a & 0
 &= \frac{b^2 + c^2 - a^2}{2abc}
 \end{align}
 %
+\end{enumerate}
+\subsection{Hero's formula}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
 \item Find Hero's formula for the area of a triangle.
 \\
 \solution 
@@ -602,11 +318,46 @@ s=\frac{a+b+c}{2}
 in \eqref{eq:tri_ex_hero_temp}, the area of $\triangle ABC$ is 
 %
 \begin{align}
-\label{eq:tri_hero}
+\label{eq:tri_area_hero}
 \sqrt{s\brak{s-a}\brak{s-b}\brak{s-c}}
 \end{align}
 %
 This is known as Hero's formula.
+\item Find the area of $\triangle ABC$ in Fig. \ref{fig:tri_rect}.
+\\
+\solution The desired are is computed using \eqref{eq:tri_area_hero} by the following 
+the python code.
+\begin{lstlisting}
+codes/triangle/tri_area_hero.py
+\end{lstlisting}
+%
+
+\item Show that the sum of two sides of a triangle is always greater than the third side.
+\\
+\solution In \eqref{eq:tri_area_hero}, all terms under the square roots should be positive.  Hence,
+%
+\begin{align}
+\label{eq:tri_hero_ineq}
+\begin{split}
+s-a &>0
+\\
+s-b &>0
+\\
+s-c &>0
+\end{split}
+\end{align}
+resulting in 
+%
+\begin{align}
+\begin{split}
+\label{eq:tri_sum_ineq}
+b+c &>a
+\\
+c+a &>b
+\\
+a+b &>c
+\end{split}
+\end{align}
 \end{enumerate}
 
 

@@ -1,0 +1,110 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item
+\label{prob:tri_area_sin}
+	Show that the area of $\Delta ABC$ in Fig. 	\ref{fig:tri_sss}	is $\frac{1}{2}ab \sin C$.
+
+\solution We have
+%
+\begin{equation}
+ar\brak{\Delta ABC} = \frac{1}{2}ah = \frac{1}{2}ab\sin C \quad \brak{\because \quad h = b \sin C}.
+\label{eq:tri_area_sin}
+\end{equation}
+%
+\item
+	Show that 
+	\begin{equation}
+	\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}
+	\end{equation}
+
+\solution Fig. \ref{fig:tri_sss} can be suitably modified to obtain 
+\begin{equation}
+ar\brak{\Delta ABC} = \frac{1}{2}ab\sin C = \frac{1}{s}bc\sin A = \frac{1}{2}ca\sin B
+\end{equation}
+Dividing the above by $abc$, we obtain
+	\begin{equation}
+\label{eq:tri_sin_form}
+	\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}
+	\end{equation}
+This is known as the sine formula.	
+%
+\item
+In Fig. \ref{fig:tri_cosine_formula}, show that
+%
+\begin{equation}
+\label{eq:tri_cos_form}
+\cos A = \frac{b^2+c^2-a^2}{2bc}
+\end{equation}
+%
+\
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch2_triang_ar}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_cosine_formula.tex}}
+	\end{center}
+	\caption{The cosine formula}
+	\label{fig:tri_cosine_formula}	
+\end{figure}
+
+\solution From Fig. \ref{fig:tri_cosine_formula}, 
+%
+\begin{align}
+a &= x + y = b \cos C + c \cos B.
+\end{align}
+%
+Similarly,
+%
+\begin{align}
+b &= c \cos A + a \cos C \\
+c &= b \cos A + a \cos B
+\end{align}
+%
+The above equations can be expressed in matrix form as
+%
+\begin{equation}
+\begin{pmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{pmatrix}
+\begin{pmatrix}
+\cos A \\
+\cos B \\
+\cos C
+\end{pmatrix}
+= 
+\begin{pmatrix}
+a\\
+b\\
+c
+\end{pmatrix}
+\end{equation}
+%
+Using the properties of determinants,
+%
+\begin{align}
+\cos A &= \frac{
+\begin{vmatrix}
+a & c & b \\
+b & 0 & a \\
+c & a & 0
+\end{vmatrix}
+	}
+	{
+\begin{vmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{vmatrix}
+	}
+	=\frac{ab^2 + ac^2 - a^3}{abc + abc} 
+\\
+&= \frac{b^2 + c^2 - a^2}{2abc}
+\end{align}
+%
+\end{enumerate}
