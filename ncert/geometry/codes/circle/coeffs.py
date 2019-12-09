@@ -7,6 +7,11 @@ def dir_vec(A,B):
 def norm_vec(A,B):
   return np.matmul(omat, dir_vec(A,B))
 
+def tri_hero(a,b,c):
+  s = (a+b+c)/2
+  area = np.sqrt(s*(s-a)*(s-b)*(s-c))
+  return area
+
 #Generate line points
 def line_gen(A,B):
   len =10
@@ -84,6 +89,23 @@ def ccircle(A,B,C):
   O=np.linalg.inv(N)@p
   r = np.linalg.norm(A -O)
   return O,r
+
+def tri_cradius(a,b,c):
+  s = (a+b+c)/2
+  area = tri_hero(a,b,c)
+  R = a*b*c/(4*area)
+  return R
+
+def tri_ccentre(A,B,C):
+  p = np.zeros(2)
+  n1 = dir_vec(B,A)
+  p[0] = 0.5*(np.linalg.norm(A)**2-np.linalg.norm(B)**2)
+  n2 = dir_vec(C,B)
+  p[1] = 0.5*(np.linalg.norm(B)**2-np.linalg.norm(C)**2)
+  #Intersection
+  N=np.vstack((n1,n2))
+  O=np.linalg.inv(N)@p
+  return O
 
 #Radius and centre of the incircle
 #of triangle ABC

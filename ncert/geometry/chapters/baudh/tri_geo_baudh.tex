@@ -149,31 +149,58 @@ This is known as the {\em distance formula}.
 \\
 \solution From the Baudhayana theorem,
 \begin{align}
-\norm{\vec{B}-\vec{A}}^2+\norm{\vec{C}-\vec{A}}^2&=\norm{\vec{B}-\vec{C}}^2
+a^2+c^2 &= b^2
+\\
+\implies \norm{\vec{B}-\vec{A}}^2+\norm{\vec{C}-\vec{A}}^2&=\norm{\vec{B}-\vec{C}}^2
+\label{eq:tri_baudh_orth_norm}
 \end{align}
 which, from \eqref{eq:tri_transpose_def}
  can be expressed as
 \begin{multline}
 \brak{\vec{B}-\vec{A}}^T\brak{\vec{B}-\vec{A}}
 +
-\brak{\vec{B}-\vec{A}}^T\brak{\vec{B}-\vec{A}}
-+
-\brak{\vec{B}-\vec{A}}^T\brak{\vec{B}-\vec{A}}
-%
-%\norm{\vec{C}-\vec{A}}^2&=\norm{\vec{B}-\vec{C}}^2
-%
-\norm{\vec{A}}^2 + \norm{\vec{C}}^2 - 2\vec{A}^T\vec{C}+
-\norm{\vec{A}}^2 + \norm{\vec{B}}^2 - 2\vec{A}^T\vec{B}
+\brak{\vec{C}-\vec{B}}^T\brak{\vec{C}-\vec{B}}
 \\
 =
-\norm{\vec{B}}^2 + \norm{\vec{C}}^2 - 2\vec{B}^T\vec{C}
+\brak{\vec{A}-\vec{C}}^T\brak{\vec{A}-\vec{C}}
 \end{multline}
 %
-to obtain 
+Expanding
+\begin{multline}
+\brak{\vec{B}-\vec{A}}^T\brak{\vec{B}-\vec{A}} 
+\\
+= \vec{B}^T\vec{B} - \vec{B}^T\vec{A} - \vec{A}^T\vec{B}+\vec{A}^T\vec{A}
+\end{multline}
+$\because \vec{A}^T\vec{B} = \vec{B}^T\vec{A}$, the above equation can be expressed as
 \begin{align}
-\label{eq:tri_geo_ex_orth}
-\brak{\vec{B}-\vec{A}}^T\brak{\vec{C}-\vec{A}}&=0
+\norm{\vec{B}-\vec{A}}^2 = 
+\norm{\vec{A}}^2 + \norm{\vec{B}}^2 - 2\vec{A}^T\vec{B}
 \end{align}
 %
-after simplification. 
+Thus, \eqref{eq:tri_baudh_orth_norm} can be expressed using the above equation as
+\begin{multline}
+\norm{\vec{A}}^2 + \norm{\vec{B}}^2 - 2\vec{A}^T\vec{B}
+\\
++
+\norm{\vec{B}}^2 + \norm{\vec{C}}^2 - 2\vec{B}^T\vec{C}
+\\
+=
+\norm{\vec{A}}^2 + \norm{\vec{C}}^2 - 2\vec{A}^T\vec{C}
+\end{multline}
+%
+which can be simplified to obtain
+%
+\begin{multline}
+2\norm{\vec{B}}^2 - 2\vec{B}^T\vec{C}
+\\
+- 2\vec{A}^T\vec{B}+ 2\vec{A}^T\vec{C}
+=0
+\\
+\text{or, } \vec{B}^T\brak{\vec{B}-\vec{C}}
+-\vec{A}^T\brak{\vec{B}-\vec{C}} = 0
+\\
+\implies \brak{\vec{B}^T-\vec{A}^T}\brak{\vec{B}-\vec{C}} = 0
+\end{multline}
+yielding \eqref{eq:tri_baudh_orth}.
+
 \end{enumerate}

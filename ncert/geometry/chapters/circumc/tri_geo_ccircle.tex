@@ -1,0 +1,33 @@
+%%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item In Fig. \ref{fig:tri_ccentre}, points $\vec{A}, \vec{B}, \vec{C}$  are at a distance $R$ from $\vec{O}$.  Trace all such points. The locus of such points is defined as a {\em circle}.
+%
+\\
+\solution This is done by the following python code
+%
+\begin{lstlisting}
+codes/circle/tri_ccircle.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code to draw Fig. \ref{fig:tri_ccircle} is
+%
+\begin{lstlisting}
+figs/triangle/tri_ccircle.tex
+\end{lstlisting}
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{\columnwidth}{!}{\input{./figs/circle/tri_ccircle.tex}}
+	\end{center}
+	\caption{Circumcircle of $\triangle ABC$}
+	\label{fig:tri_ccircle}	
+\end{figure}
+%
+%
+
+\end{enumerate}
+

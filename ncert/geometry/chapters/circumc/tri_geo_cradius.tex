@@ -79,11 +79,20 @@ x = \brak{\frac{a}{R}}^2 &= 4 \sin^2 A
 \\
 \solution From \eqref{eq:tri_area_sin}, 
 \begin{align}
-ar\brak{\triangle ABC} = \frac{1}{2}bc \sin A &= \frac{abc}{4R}
+ar\brak{\triangle ABC} = \frac{1}{2}bc \sin A = \frac{abc}{4R}&
 \\
-\implies R &= \frac{abc}{4s\sqrt{\brak{s-a}\brak{s-b}\brak{s-c}}}
+\implies R = \frac{abc}{4s\sqrt{\brak{s-a}\brak{s-b}\brak{s-c}}}&
 \end{align}
 %
-upon substituting from \eqref{eq:tri_crad_R}.
+upon substituting from \eqref{eq:tri_crad_R} and using Hero's formula.
+%
+\item Find the circumradius of $\triangle ABC$ for $a = 5, b = 6, c = 4$.
+%
+\\
+\solution The following pyton code calculates the circumradius
+\begin{lstlisting}
+codes/circle/tri_cradius.py
+\end{lstlisting}
+
 
 \end{enumerate}

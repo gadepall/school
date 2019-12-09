@@ -123,11 +123,30 @@ Also, in $\triangle OBC$, all angles add up to $180\degree$.  Hence,
 \angle BOC + 2\theta_1 &= 180\degree
 \\
 \implies \angle BOC &= 180\degree - 2\theta_1 = 2 \brak{90\degree - \theta_1}
-\\
-&= 2A
+%\\
+%&
+= 2\angle A
 \end{align}
 %
 upon substituting from \eqref{eq:tri_ccentre_A1}.
+%
+\item Let $\vec{D}$ be the mid point of $BC$.  Show that $OD \perp BC$.
+%
+\\
+\solution From \eqref{eq:circle_const_chord_bc}, 
+%
+\begin{align}
+\brak{\vec{B}-\vec{C}}^T\vec{O} &=   \frac{\norm{\vec{B}}^2- \norm{\vec{C}}^2}{2}
+\\
+\implies \brak{\vec{B}-\vec{C}}^T\vec{O} &=   \frac{1}{2}\brak{\vec{B}- \vec{C}}^T\brak{\vec{B}+ \vec{C}}
+\\
+\implies \brak{\vec{B}-\vec{C}}^T&\brak{\vec{O} - \frac{\vec{B}+\vec{C}}{2}} = 0
+\\
+\text{or, } \brak{\vec{B}-\vec{C}}^T&\brak{\vec{O} - \vec{D}} = 0
+\end{align}
+%
+$\because \vec{D} = \frac{\vec{B}+\vec{C}}{2}$ is the mid point of $BC$.  From \eqref{eq:tri_baudh_orth} we then conclude that $OD \perp BC$.
+%
 
 \end{enumerate}
 
