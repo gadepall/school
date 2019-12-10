@@ -17,39 +17,38 @@
 \def\p{0.5}
 \def\q{{sqrt(\c^2-\p^2)}}
 
-%Labeling points
+% Vertices
 \node (A) at (\p,\q)[point,label=above right:$A$] {};
 \node (B) at (0, 0)[point,label=below left:$B$] {};
 \node (C) at (\a, 0)[point,label=below right:$C$] {};
 
+% Mid points
+\node (D) at ($(B)!0.5!(C)$)[point,label=below:$D$] {};
+\node (E) at ($(C)!0.5!(A)$)[point,label=right:$E$] {};
+\node (F) at ($(B)!0.5!(A)$)[point,label=left:$F$] {};
+
 %Circumcentre
 
-\node (O) at (2.5,1.70084013)[point,label=above right:$O$] {};
+\node (O) at (2.5,1.70084013)[point,label=right:$O$] {};
 
 %Drawing triangle ABC
-\draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,yshift=2mm] {$\textrm{b}$} (A);
+\draw (A) -- node[above left, yshift=2mm] {$\textrm{c}$} (B) -- node[below right, xshift = 2mm] {$\textrm{a}$} (C) -- node[above,yshift=2mm] {$\textrm{b}$} (A);
 %Drawing OA, OB, OC
 \draw (O) -- node[left] {$\textrm{R}$} (A);
 \draw (O) -- node[below] {$\textrm{R}$} (B);
 \draw (O) -- node[below] {$\textrm{R}$} (C);
+
+%Drawing OD, OE, OF
+\draw (O) --  (D);
+\draw (O) --  (E);
+\draw (O) --  (F);
+
+
+%Drawing circumcircle
 \draw (O) circle (\R);
 
-%\tkzMarkAngle[fill=blue!50,size=.3](C,B,O)
-%\tkzMarkAngle[fill=blue!50,size=.3](O,C,B)
-%
-%
-%\tkzMarkAngle[fill=red!50](O,A,C)
-%\tkzMarkAngle[fill=red!50](A,C,O)
-%
-%
-%\tkzMarkAngle[fill=orange!50,size=.3](B,A,O)
-%\tkzMarkAngle[fill=orange!50,size=.3](O,B,A)
-%
-%\tkzLabelAngle[pos=0.5](O,C,B){$\theta_1$}
-%\tkzLabelAngle[pos=0.5](O,B,C){$\theta_1$}
-%\tkzLabelAngle[pos=0.5](O,A,B){$\theta_2$}
-%\tkzLabelAngle[pos=0.5](O,B,A){$\theta_2$}
-%\tkzLabelAngle[pos=1.5](O,A,C){$\theta_3$}
-%\tkzLabelAngle[pos=1.5](O,C,A){$\theta_3$}
+\tkzMarkRightAngle[fill=blue!20,size=.2](O,D,C)
+\tkzMarkRightAngle[fill=blue!20,size=.2](O,E,A)
+\tkzMarkRightAngle[fill=blue!20,size=.2](O,F,B)
 
 \end{tikzpicture}

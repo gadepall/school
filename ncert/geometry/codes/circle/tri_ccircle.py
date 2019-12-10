@@ -1,7 +1,7 @@
 #Code by GVV Sharma
-#December 7, 2019
+#December 9, 2019
 #released under GNU GPL
-#Drawing a triangle given 3 sides
+#Circumcircle of a triangle
 import numpy as np
 import matplotlib.pyplot as plt
 from coeffs import *
@@ -20,12 +20,17 @@ a = 5
 b = 6
 c = 4
 
-#Finding the circumcentre and radius
-
+#Triangle vertices
 A,B,C = tri_vert(a,b,c)
+
+#Finding the circumcentre and radius
 O = tri_ccentre(A,B,C)
 R = tri_cradius(a,b,c)
-#
+
+#Mid points of the sides
+D = (B+C)/2
+E = (C+A)/2
+F = (A+B)/2
 
 print(A)
 print(O, R)
@@ -37,6 +42,11 @@ x_CA = line_gen(C,A)
 x_OA = line_gen(O,A)
 x_OB = line_gen(O,B)
 x_OC = line_gen(O,C)
+x_OD = line_gen(O,D)
+x_OE = line_gen(O,E)
+x_OF = line_gen(O,F)
+
+#Generating the circle
 theta = np.linspace(0,2*np.pi,len)
 x_circ = np.zeros((2,len))
 x_circ[0,:] = R*np.cos(theta)
@@ -50,6 +60,11 @@ plt.plot(x_CA[0,:],x_CA[1,:],label='$CA$')
 plt.plot(x_OA[0,:],x_OA[1,:],label='$OA$')
 plt.plot(x_OB[0,:],x_OB[1,:],label='$OB$')
 plt.plot(x_OC[0,:],x_OC[1,:],label='$OC$')
+plt.plot(x_OD[0,:],x_OD[1,:],label='$OD$')
+plt.plot(x_OE[0,:],x_OE[1,:],label='$OE$')
+plt.plot(x_OF[0,:],x_OF[1,:],label='$OF$')
+
+#Plotting the circle
 plt.plot(x_circ[0,:],x_circ[1,:],label='$circumcircle$')
 
 plt.plot(A[0], A[1], 'o')

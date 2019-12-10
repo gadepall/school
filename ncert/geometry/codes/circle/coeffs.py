@@ -7,10 +7,14 @@ def dir_vec(A,B):
 def norm_vec(A,B):
   return np.matmul(omat, dir_vec(A,B))
 
+#Area using Hero's formula
 def tri_hero(a,b,c):
   s = (a+b+c)/2
   area = np.sqrt(s*(s-a)*(s-b)*(s-c))
   return area
+def tri_section(A,B,k):
+  V = (k*A+B)/(k+1)
+  return V
 
 #Generate line points
 def line_gen(A,B):
@@ -23,11 +27,10 @@ def line_gen(A,B):
     x_AB[:,i]= temp1.T
   return x_AB
 
+#Triangle vertices
 def tri_vert(a,b,c):
   p = (a**2 + c**2-b**2 )/(2*a)
   q = np.sqrt(c**2-p**2)
-
-#Triangle vertices
   A = np.array([p,q]) 
   B = np.array([0,0]) 
   C = np.array([a,0]) 
@@ -90,12 +93,21 @@ def ccircle(A,B,C):
   r = np.linalg.norm(A -O)
   return O,r
 
+#Inradius of triangle ABC
+def tri_iradius(a,b,c):
+  s = (a+b+c)/2
+  area = tri_hero(a,b,c)
+  r = area/s
+  return r
+
+#Circumradius of triangle ABC
 def tri_cradius(a,b,c):
   s = (a+b+c)/2
   area = tri_hero(a,b,c)
   R = a*b*c/(4*area)
   return R
 
+#Circumcentre of triangle ABC
 def tri_ccentre(A,B,C):
   p = np.zeros(2)
   n1 = dir_vec(B,A)
@@ -106,6 +118,20 @@ def tri_ccentre(A,B,C):
   N=np.vstack((n1,n2))
   O=np.linalg.inv(N)@p
   return O
+
+#vertices of the intriangle
+def intri_vert(a,b,c):
+#Finding  D, E, F
+  tan_mat = np.array([[1,1, 0],[0,1,1],[1,0,1]]) 
+  cvec = np.array([a,b,c])
+  x = np.linalg.inv(tan_mat)@cvec
+  A,B,C= tri_vert(a,b,c)
+  D = tri_section(B,C,x[1]/x[0])
+  E = tri_section(C,A,x[2]/x[1])
+  F = tri_section(A,B,x[0]/x[2])
+  return D,E,F
+
+
 
 #Radius and centre of the incircle
 #of triangle ABC
