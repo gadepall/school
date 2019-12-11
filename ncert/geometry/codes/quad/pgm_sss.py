@@ -1,5 +1,5 @@
 #Code by GVV Sharma
-#December 7, 2019
+#December 11, 2019
 #released under GNU GPL
 #Drawing a parallelogram  given 2 sides and a diagonal
 import numpy as np
@@ -14,20 +14,15 @@ import shlex
 
 
 #Triangle sides
-#a = 6
-#b = 4.5
-#c = 7.5
-a = 5
-b = 6
-angD = np.pi/180*85
-c = np.sqrt(a**2+b**2-2*a*b*np.cos(angD))
+a = 6
+b = 4.5
+c = 7.5
 
-print(c)
 
 #Coordinates of D
 p = (a**2 + c**2-b**2 )/(2*a)
 q = np.sqrt(c**2-p**2)
-print(p,q)
+print(p,q, a**2+b**2-c**2)
 
 #Parallelogram vertices
 D = np.array([p,q]) 

@@ -46,7 +46,7 @@ Hence $OD = OB, OA=OC$
 \item Construct parallelogram $ABCD$ 	in Fig. \ref{fig:pgm_sss}	
 given that  $BC = 5, AB = 6, \angle C = 85 \degree$.
 \\
-\solution $BD$ is found using the cosine formula and $\triangle BDC$ is drawn with 
+\solution $BD$ is found using the cosine formula and $\triangle BDC$ is drawn using the approach in Problem \ref{const:tri_sss} with 
 %
 \begin{align}
 \vec{B} = \myvec{0\\0},
@@ -84,13 +84,12 @@ with $BC = 6, CD = 4.5$ and $BD=7.5$.  Show that it is a rectangle.
 	\label{fig:pgm_sss}	
 \end{figure}
 \\
-\solution The 
-Let 
+\solution Using the approach in Problem \ref{const:tri_sss}, $\triangle BCD$ is drawn with
 %
 \begin{align}
 %\vec{A} = \myvec{p\\q}
 \vec{B} = \myvec{0\\0}
-\vec{C} = \myvec{a\\0}
+\vec{C} = \myvec{6\\0}
 \end{align}
 %
 The python code for  Fig. \ref{fig:pgm_sss} is
@@ -103,7 +102,16 @@ and the equivalent latex-tikz code is
 \begin{lstlisting}
 figs/quad/pgm_sss.tex
 \end{lstlisting}
-
+%
+$\because $
+%
+\begin{align}
+BD^2 = BC^2+CD^2,
+\end{align}
+using Baudhyana's theorem, $\angle BCD =90\degree$. Since opposite angles  of parallelogram are equal, all angles are $90\degree$.  Hence, $ABCD$ is a rectangle. 
+\item  Diagonals of a rectangle bisect each other and are equal and vice-versa. 
+\\
+\solution Proof follows from Baudhayan's theorem in $\triangle BCD$ and $\triangle ABC$ and noting that $AB = CD, BC = AD$.
 \item A rhombus is a parallelogram with equal sides.  Diagonals of a rhombus bisect each other at right angles.
 %
 \\
@@ -115,15 +123,10 @@ figs/quad/pgm_sss.tex
 \\
 \solution 
 %%
-\item  Diagonals of a rectangle bisect each other and are equal and vice-versa. 
 %
-\\
-\solution Use Baudhayana's theorem for equality of diagonals.
 %
 \item  Diagonals of a rhombus bisect each other at right angles and vice-versa. 
 %
-\\
-\solution The median of an isoceles triangle is also its perpendicular bisector.
 %
 \item  Diagonals of a square bisect each other at right angles and are equal, and vice-versa. 
 %
@@ -131,25 +134,6 @@ figs/quad/pgm_sss.tex
 \solution A square has the properties of a rectangle as well as a rhombus.
 %
 %
-\item  The quadrilateral formed by joining the mid-points of the sides of a quadrilateral, in order, is a parallelogram.
-%
-%\\
-%\solution Draw one diagonal and use Problem \ref{prob:tri_mid_similar}.  Repeat for the other diagonal to show that the sides are parallel.
-%
-\item Two parallel lines l and m are intersected by a transversal p. Show that the quadrilateral formed by the bisectors of interior angles is a rectangle.
-%
-\item Show that the bisectors of angles of a parallelogram form a rectangle.
-%
-\item A quadrilateral is a parallelogram if a pair of opposite sides is equal and parallel.
-%
-\item Parallelograms on the same base (or equal bases) and between the same parallels are equal in area.
 \item Area of a parallelogram is the product of its base and the corresponding altitude. 
-\item Parallelograms on the same base (or equal bases) and having equal areas lie between the same parallels.
-\item If a parallelogram and a triangle are on the same base and between the same parallels, then area of the triangle is half the area of the parallelogram.
-%
-\item If the diagonals of a parallelogram are equal, then show that it is a rectangle. 
-\item Show that if the diagonals of a quadrilateral bisect each other at right angles, then it is a rhombus.
-\item Show that the diagonals of a square are equal and bisect each other at right angles. 
-\item Show that if the diagonals of a quadrilateral are equal and bisect each other at right angles, then it is a square.
 %
 \end{enumerate}
