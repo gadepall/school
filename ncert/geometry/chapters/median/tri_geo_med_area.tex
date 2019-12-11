@@ -1,0 +1,49 @@
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+%
+\item
+	Show that the median $AD$ in Fig. \ref{fig:tri_median_def} divides  $\triangle ABC$ into triangles $ADB$ and $ADC$ that have equal area.
+
+\solution We have
+%
+\begin{align}
+ar \brak{\triangle ADB} &= \frac{1}{2}\frac{a}{2}c \sin B =  \frac{1}{4}ac \sin B \\
+ar \brak{\triangle ADC} &= \frac{1}{2}\frac{a}{2}b \sin C =  \frac{1}{4}ab \sin C 
+\end{align}
+%
+Using the sine formula, $b \sin C = c \sin B$,
+\begin{equation}
+ar \brak{\triangle ADB} = ar \brak{\triangle ADC}
+\end{equation}
+\item
+	$BE$ and $CF$ are the medians in Fig. \ref{ch2_median_ratio}.  Show that
+	\begin{equation}
+	ar \brak{\triangle BFC} = ar \brak{\triangle BEC}
+	\end{equation} 
+	\label{ch2_median_eq_tri}
+
+\solution Since $BE$ and $CF$ are the medians, 
+
+\begin{align}
+ar \brak{\triangle BFC} &= \frac{1}{2} ar \brak{\triangle ABC} \\
+ar \brak{\triangle BEC} &= \frac{1}{2} ar \brak{\triangle ABC} 
+\end{align}
+From the above, we infer that
+%
+\begin{equation}
+ar \brak{\triangle BFC} = ar \brak{\triangle BEC}
+\end{equation}
+
+
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/fig_2.6.tex}}
+	\end{center}
+	\caption{$O$ is the Intersection of Two Medians}
+	\label{ch2_median_ratio}	
+\end{figure}
+%
+\end{enumerate}
