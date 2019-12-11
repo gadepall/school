@@ -7,27 +7,82 @@
 %
 \begin{figure}[!ht]
 	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/quad/pgm_sas.tex}}
+	\end{center}
+	\caption{Parallelogram}
+	\label{fig:pgm_sas}	
+\end{figure}
+
+\item Sum of the angles of a quadrilateral is 360$\degree$. 
+\item  In a parallelogram, 
+\label{them:pgm_basic}
+\begin{enumerate}
+\item opposite sides are equal 
+\item  opposite angles are equal
+\item  diagonals bisect each other
+\end{enumerate}
+\solution $\because AD \parallel BC, AB \parallel CD$, alternate angles are equal.  Hence, 
+%
+\begin{align}
+\triangle ADB &\cong \triangle  DBC \quad (ASA)
+\\
+\because \angle ADB &= \angle DBC
+\\
+\angle ABD &= \angle BDC
+\\
+DB \text{ common}
+\end{align}
+%
+So $AB = CD$ and $\angle A = \angle C$.  Similarly, it can be shown that $AD = BC$ and $\angle B = \angle D$
+Also, 
+%
+\begin{align}
+\triangle OAD &\cong \triangle  OBC \quad (ASA)
+\\
+\because AD = BC
+\end{align}
+%
+Hence $OD = OB, OA=OC$
+\item Construct parallelogram $ABCD$ 	in Fig. \ref{fig:pgm_sss}	
+given that  $BC = 5, AB = 6, \angle C = 85 \degree$.
+\\
+\solution $BD$ is found using the cosine formula and $\triangle BDC$ is drawn with 
+%
+\begin{align}
+\vec{B} = \myvec{0\\0},
+\vec{C} = \myvec{5\\0},
+\end{align}
+%
+Since the diagonals bisect each other, 
+%
+\begin{align}
+\vec{O} &= \frac{\vec{B}+\vec{D}}{2}
+\\
+\vec{A} &= 2\vec{O} - \vec{C}.
+\end{align}
+%
+$AB$ and $AD$ are then joined to complete the $\parallel$gm.
+The python code for  Fig. \ref{fig:pgm_sas} is
+\begin{lstlisting}
+codes/quad/pgm_sas.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/quad/pgm_sas.tex
+\end{lstlisting}
+%
+\item Draw the $\parallel$gm $ABCD$ in 	Fig. \label{fig:pgm_sss}	
+with $BC = 6, CD = 4.5$ and $BD=7.5$.  Show that it is a rectangle.
+%
+\begin{figure}[!ht]
+	\begin{center}
 		\resizebox{\columnwidth}{!}{\input{./figs/quad/pgm_sss.tex}}
 	\end{center}
 	\caption{Parallelogram}
 	\label{fig:pgm_sss}	
 \end{figure}
-
-\item Opposite sides of a parallelogram are equal.
-\\
-\solution $\because AD \parallel BC, AB \parallel C$, alternate angles are equal.  Hence, in $\triangle$s $ADB$ and $DBC$
-%
-\begin{align}
-\angle ADB &= \angle DBC
-\\
-\angle ABD = \angle BDC
-\end{align}
-
-\item Show that its diagonals bisect each other.
-\\
-\solution 
-
-\item Draw the parallelogram $ABCD$ with $BC = 6, CD = 4.5$ and $BD=7.5$.
 \\
 \solution The 
 Let 
@@ -38,43 +93,28 @@ Let
 \vec{C} = \myvec{a\\0}
 \end{align}
 %
-Diagonals of a parallelogram bisect each other.  Opposite sides of a parallelogram are equal and parallel
+The python code for  Fig. \ref{fig:pgm_sss} is
+\begin{lstlisting}
+codes/quad/pgm_sss.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/quad/pgm_sss.tex
+\end{lstlisting}
+
+\item A rhombus is a parallelogram with equal sides.  Diagonals of a rhombus bisect each other at right angles.
+%
+\\
+\solution 
+\item A rectangle is a parallelogram with one angle that is 90$\degree$.  Show that all angles of the rectangle are 90$\degree$.
+\solution Follows from Theorem \ref{them:pgm_basic}.
+
 \item Draw the rhombus $BEST$ with $BE = 4.5$ and $ET = 6$. 
 \\
-\solution Diagonals of a rhombus bisect each other at right angles.
-\item Sum of the angles of a quadrilateral is 360$\degree$. 
-\\
-\solution Draw the diagonal and use the fact that sum of the angles of a triangle is 180$\degree$.
-\item  A diagonal of a parallelogram divides it into two congruent triangles. 
-\\
-\solution The alternate angles for the parallel sides are equal.  The diagonal is common.  Use ASA congruence.
-%
-\item  In a parallelogram, 
-\begin{enumerate}
-\item opposite sides are equal 
-\item  opposite angles are equal
-\item  diagonals bisect each other
-\end{enumerate}
-%
-\solution Since the diagonal divides the parallelogram into two congruent triangles, all the above results follow.
-%
-\item  A quadrilateral is a parallelogram, if 
-%
-\begin{enumerate}
-\item opposite sides are equal or 
-\item  opposite angles are equal or 
-\item  diagonals bisect each other or 
-\item a pair of opposite sides is equal and parallel
-\end{enumerate}
-%
-\solution All the above lead to a quadrilateral that has two parallel sides, by showing that the alternate angles are equal.
-%
-%
-\item A rectangle is a parallelogram with one angle that is 90$\degree$.  Show that all angles of the rectangle are 90$\degree$.
-%
-\\
-\solution Draw a diagonal.  Since the diagonal divides the rectangle into two congruent triangles, the angle opposite to the right angle is also 90$\degree$. Using congruence, it can be shown that the other two angles are equal.  Now use the fact that the sum of the angles of a quadrilateral is 360$\degree$.
-%
+\solution 
+%%
 \item  Diagonals of a rectangle bisect each other and are equal and vice-versa. 
 %
 \\

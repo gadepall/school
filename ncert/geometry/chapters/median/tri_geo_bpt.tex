@@ -3,32 +3,34 @@
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 
-\item	The line AD in Fig. \ref{fig:tri_median_def} that divides the side $a$ in two equal halfs is known as the median.
+%\item	The line AD in Fig. \ref{fig:tri_median_def} that divides the side $a$ in two equal halfs is known as the median.
+%
+%\begin{figure}[!ht]
+%	\begin{center}
+%	\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_median_def.tex}}
+%	\end{center}
+%	\caption{Median of a Triangle}
+%	\label{fig:tri_median_def}	
+%\end{figure}
+%
+%
+%\\
+%
 
-\begin{figure}[!ht]
-	\begin{center}
-	\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_median_def.tex}}
-	\end{center}
-	\caption{Median of a Triangle}
-	\label{fig:tri_median_def}	
-\end{figure}
-%
-\item Draw Fig. \ref{fig:tri_median_def} with $a=5$, $b=6$  and $c=4$.  
+\item Draw Fig. \ref{fig:tri_med_sim}	 with $a=5$, $b=6$  and $c=4$.  $\vec{E}$ and $\vec{F}$ are the mid points of $AC$ and $AB$ respectively.
 \label{const:tri_median_def}
-%
-\\
-\solution Using \eqref{eq:tri_section_formula}, since $\vec{D}$ divides $BC$ in the ratio $1:1$.
+\solution Using \eqref{eq:tri_section_formula}, 
 \begin{align}
-\vec{D} &= \frac{\vec{B} + \vec{C}}{2}  
+\vec{E} &= \frac{\vec{A} + \vec{C}}{2}  
+\\
+\vec{F} &= \frac{\vec{A} + \vec{B}}{2}  
 \end{align}
 %
 The  latex-tikz code is
 %
 \begin{lstlisting}
-figs/triangle/tri_median_def.tex
+figs/triangle/tri_med_sim.tex
 \end{lstlisting}
-%
-
 \item
 	In Fig. \ref{fig:tri_med_sim}, $BE$ and $CF$ are the medians.  show that $EF = \frac{a}{2}$.  
 

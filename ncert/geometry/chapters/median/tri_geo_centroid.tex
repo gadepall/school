@@ -9,7 +9,7 @@
 	\begin{center}
 		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_med_centroid.tex}}
 	\end{center}
-	\caption{Similar Triangles}
+	\caption{$\frac{GB}{GE} = \frac{GC}{GF} = 2$}
 	\label{fig:tri_med_centroid}	
 \end{figure}
 \\
@@ -33,7 +33,7 @@
 	\begin{center}
 		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_med_meet.tex}}
 	\end{center}
-	\caption{Similar Triangles}
+	\caption{$\frac{GA}{GD} =2$}
 	\label{fig:tri_med_meet}	
 \end{figure}
 
@@ -64,136 +64,56 @@ using \eqref{eq:tri_med_centroid_ratio}. From \label{eq:tri_med_centroid_ratio_A
 and \label{eq:tri_med_centroid_ratio_AD2},
 %
 \begin{align}
-GP=\frac{AG - GD}{2} &=\frac{GD}{2}  
+GP=\frac{GA - GD}{2} &=\frac{GD}{2}  
 \\
-\implies  \frac{AG}{GD} &=2
+\implies  \frac{GA}{GD} &=2
 \end{align}
 %%
-\item Show that 
+\item In Fig. 	\ref{fig:tri_med_centroid_proof}, $BE$ is a median and 
 %
 \begin{align}
+\frac{GA}{GD} &=2
+\end{align}
+%
+Show that
+%
+\begin{align}
+\label{eq:tri_med_final}
 BD = DC
 \end{align}
 %%
-\item Show that the medians of a triangle meet at a point.
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_med_meet_proof.tex}}
+	\end{center}
+	\caption{$AD$ is also a median. }
+	\label{fig:tri_med_meet_proof}	
+\end{figure}
+%
 \\
-\solution In Fig. \ref{fig:tri_med_meet}, $BE$ and $CF$	are medians that meet at $\vec{G}$.  Hence, 
-from \eqref{tri_med_centroid_ratio}, 
+\solution 	In Fig. \ref{fig:tri_med_meet_proof},
 %
 \begin{align}
-\label{eq:tri_centroid_g}
-\vec{G} = \frac{2\vec{B}+\vec{E}}{3}
+\triangle GDE \sim \triangle GAB \quad (SAS)
 \end{align}
 %
-If the median $AD$ meets $BE$ in $\vec{G}_1$, from Theorem \eqref{tri_med_centroid_ratio}, 
+Hence, all angles of both the above triangles are equal resulting in $DE\parallel AB$. As a consequence, 
 %
 \begin{align}
-\vec{G}_1 = \frac{2\vec{B}+\vec{E}}{3}
-\label{eq:tri_centroid_g1}
+\triangle DDE \sim \triangle CAB \quad (AAA)
 \end{align}
 %
-From  \eqref{eq:tri_centroid_g}
- and \eqref{eq:tri_centroid_g1}, $\vec{G} = \vec{G}_1$.  Thus, the medians meet at $\vec{G}$.
+resulting in \eqref{eq:tri_med_final}
+
+\item Medians of a triangle meet at a point.
+\label{them:tri_med_meet}
 \item The centroid divides the median in the ratio $2:1$.
 \label{them:tri_med_ratio}
-
-
-
-%\item
-%	In Fig. \ref{ch2_median_3}, the line $AO$ cuts $EF$ at $G$ and is extended to meet the side $BC$ at $D$.  Show that 
-%	%
-%	\begin{equation}
-%	\frac{OA}{OD} = 2.
-%	\end{equation}
-%	%  
 %
-%\begin{figure}[!ht]
-%	\begin{center}
-%		
-%		%\includegraphics[width=\columnwidth]{./figs/ch2_median_3}
-%		%\vspace*{-10cm}
-%		\resizebox{\columnwidth}{!}{\input{./figs/fig_2.14.tex}}
-%	\end{center}
-%	\caption{Similar Triangles and Median}
-%	\label{ch2_median_3}	
-%\end{figure}
+\item Show that 
 %
-%
-%\item
-%	In Fig. \ref{ch2_median_ratio_val}, show that
-%	\begin{equation}
-%	ar\brak{\triangle AFE} = 	\frac{1}{4} ar\brak{\triangle ABC}
-%	\end{equation}
-%	\label{ch2_small_triang}
-%%
-%\solution We have
-%%%
-%\begin{align}
-%ar\brak{\triangle AFE} &= \frac{1}{2} \frac{b}{2}\frac{c}{2}\sin A = \frac{1}{4}.\frac{1}{2}bc \sin A \\
-%&=\frac{1}{4}ar\brak{\triangle ABC}
-%\end{align}
-%%
-%		%\includegraphics[width=\columnwidth]{./figs/ch2_median_ratio_val}
-%		%\vspace*{-10cm}
-%
-%%
-%\begin{figure}[!ht]
-%	\begin{center}
-%		
-%		\resizebox{\columnwidth}{!}{\input{./figs/fig_2.9.tex}}
-%	\end{center}
-%	\caption{$O$ divides medians in the ratio $2:1$}
-%	\label{ch2_median_ratio_val}	
-%\end{figure}
-%%
-%
-%\solution Using the sine formula and \eqref{ch2_small_triang}, areas of some triangles in Fig. \ref{ch2_median_ratio_val} are listed in the following table
-%\begin{center}
-%\begin{tabular}{|c|c|}
-%	\hline  Triangle& Area  \\ 
-%	\hline  OFE & $\frac{1}{2}pq \sin \theta $ \\ 
-%	\hline  BOF &  $\frac{k}{2}pq \sin \theta$\\ 
-%	\hline  COE & $\frac{k}{2}pq \sin \theta$ \\ 
-%	\hline  BOC&  $\frac{k^2}{2}pq \sin \theta$\\
-%	\hline  BOC&  $\frac{1}{2} ar \brak{\triangle ABC}$\\  
-%	\hline 
-%\end{tabular} 
-%\end{center}
-%%
-%where we have used the fact that 
-%
-%\begin{equation}
-%\sin \angle BOC = \sin \brak{180^{\degree}-\theta} = \sin \theta
-%\end{equation}
-%%
-%Since $BE$ is the median
-%\begin{align}
-%\begin{split}
-%ar\brak{\triangle BEC} &= \frac{1}{2} ar\brak{\triangle ABC}  
-%\\
-%& = ar\brak{\triangle BOC} + ar\brak{\triangle COE}\\
-%ar\brak{\triangle BEA} &= \frac{1}{2} ar\brak{\triangle ABC}
-%\\
-%& = ar\brak{\triangle AFE} + ar\brak{\triangle BOF} +  ar\brak{\triangle FOE}  
-%\end{split}
-%\end{align}
-%%
-%Substituting the respective values from the above table,
-%\begin{align}
-%\begin{split}
-%\frac{1}{2} ar\brak{\triangle ABC} &= \frac{k^2}{2}pq \sin \theta + \frac{k}{2}pq \sin \theta
-%\\
-%\frac{1}{2} ar\brak{\triangle ABC} &= \frac{k}{2}pq \sin \theta + \frac{1}{2}pq \sin \theta + \frac{1}{4} ar\brak{\triangle ABC}
-%\end{split}
-%\end{align}
-%%
-%Simplifying the above,
-%%
-%\begin{align}
-%k(k+1) = 2(k+1)
-%\end{align}
-%%
-%Since $k \neq -1$, $k = 2$ and the proof is complete.
-%
-
+\begin{align}
+\vec{G} = \frac{\vec{A}+\vec{B}+\vec{C}}{3}
+\end{align}
 \end{enumerate}
