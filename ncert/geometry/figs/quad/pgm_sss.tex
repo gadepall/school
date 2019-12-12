@@ -10,7 +10,7 @@
 \def\a{6}
 \def\b{4.5}
 \def\c{7.5}
-%Coordinates of A
+%Coordinates of D
 %\def\p{{\a^2+\c^2-\b^2}/{(2*\a)}}
 \def\p{6}
 \def\q{{sqrt(\c^2-\p^2)}}
@@ -19,9 +19,9 @@
 \node (D) at (\p,\q)[point,label=above right:$D$] {};
 \node (B) at (0, 0)[point,label=below left:$B$] {};
 \node (C) at (\a, 0)[point,label=below right:$C$] {};
-\node (O) at ($(B)!0.5!(D)$)[point,label=below right:$O$] {};
+\node (O) at ($(B)!0.5!(D)$)[point,label=right:$O$] {};
 
-%Foot of perpendicular
+%A
 
 \node (A) at ($(O)!-1!(C)$)[point,label=above right:$A$] {};
 
@@ -32,18 +32,7 @@
 \draw (B) --(D);
 
 
-%\tkzMarkAngle[fill=green!20](C,A,D)
-%\tkzMarkAngle[fill=green!20](A,C,B)
-%%
-%%
-%\tkzMarkAngle[fill=red!30](A,D,B)
-%\tkzMarkAngle[fill=red!30](C,B,D)
-%
-%
-%\tkzMarkAngle[fill=orange!40](D,C,O)
-%\tkzMarkAngle[fill=orange!40](B,A,C)
-%
-%\tkzMarkAngle[fill=blue!50](B,D,C)
-%\tkzMarkAngle[fill=blue!50](D,B,A)
+\tkzMarkRightAngle[fill=blue!20,size=.2](A,B,C)
+
 %
 \end{tikzpicture}
