@@ -2,49 +2,68 @@
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 	%
-\item A parallelogram is a quadrilateral whose opposite sides are parallel. A parallelogram is shown in Fig. \eqref{fig:pgm_sss}.	
-
-%
-\begin{figure}[!ht]
-	\begin{center}
-		\resizebox{\columnwidth}{!}{\input{./figs/quad/pgm_sas.tex}}
-	\end{center}
-	\caption{Parallelogram}
-	\label{fig:pgm_sas}	
-\end{figure}
-
-\item Sum of the angles of a quadrilateral is 360$\degree$. 
-\item  In a parallelogram, 
+\item In Fig. 	\ref{fig:tri_med_pgm}, 	$BDEF$ is defined as a parallelogram. Based on the properties of medians and similar triangles, we know that
 \label{them:pgm_basic}
+%
+\begin{align}
+BD &\parallel EF, BD = EF
+\\
+BF &\parallel DE, BF = DE
+\\
+OD &= OF, OB = OE
+\end{align} 
+Hence, 
 \begin{enumerate}
 \item opposite sides are equal 
 \item  opposite angles are equal
 \item  diagonals bisect each other
+\item Adjacent angles of a paralleogram are supplementary.
 \end{enumerate}
-\solution $\because AD \parallel BC, AB \parallel CD$, alternate angles are equal.  Hence, 
+
 %
-\begin{align}
-\triangle ADB &\cong \triangle  DBC \quad (ASA)
-\\
-\because \angle ADB &= \angle DBC
-\\
-\angle ABD &= \angle BDC
-\\
-DB \text{ common}
-\end{align}
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/quad/tri_med_pgm.tex}}
+	\end{center}
+	\caption{Parallelogram}
+	\label{fig:tri_med_pgm}	
+\end{figure}
 %
-So $AB = CD$ and $\angle A = \angle C$.  Similarly, it can be shown that $AD = BC$ and $\angle B = \angle D$
-Also, 
+\item Sum of the angles of a quadrilateral is 360$\degree$. 
+%\item  In the parallelogram in Fig. \eqref{fig:pgm_sss}.	
 %
-\begin{align}
-\triangle OAD &\cong \triangle  OBC \quad (ASA)
-\\
-\because AD = BC
-\end{align}
-%
-Hence $OD = OB, OA=OC$
+%\solution $\because AD \parallel BC, AB \parallel CD$, alternate angles are equal.  Hence, 
+%%
+%\begin{align}
+%\triangle ADB &\cong \triangle  DBC \quad (ASA)
+%\\
+%\because \angle ADB &= \angle DBC
+%\\
+%\angle ABD &= \angle BDC
+%\\
+%DB \text{ common}
+%\end{align}
+%%
+%So $AB = CD$ and $\angle A = \angle C$.  Similarly, it can be shown that $AD = BC$ and $\angle B = \angle D$
+%Also, 
+%%
+%\begin{align}
+%\triangle OAD &\cong \triangle  OBC \quad (ASA)
+%\\
+%\because AD = BC
+%\end{align}
+%%
+%Hence $OD = OB, OA=OC$
 \item Construct parallelogram $ABCD$ 	in Fig. \ref{fig:pgm_sas}	
 given that  $BC = 5, AB = 6, \angle C = 85 \degree$.
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/quad/pgm_sas.tex}}
+	\end{center}
+	\caption{Parallelogram Properties}
+	\label{fig:pgm_sas}	
+\end{figure}
+%
 \\
 \solution $BD$ is found using the cosine formula and $\triangle BDC$ is drawn using the approach in Construction \ref{const:tri_sss} with 
 %
@@ -67,13 +86,16 @@ The python code for  Fig. \ref{fig:pgm_sas} is
 codes/quad/pgm_sas.py
 \end{lstlisting}
 %
-and the equivalent latex-tikz code is
+and 
+The equivalent latex-tikz code is
 %
 \begin{lstlisting}
 figs/quad/pgm_sas.tex
 \end{lstlisting}
 %
-\item Draw the $\parallel$gm $ABCD$ in 	Fig. \label{fig:pgm_sss}	
+
+\item A rectangle is a parallelogram with one right angle.
+\item Draw the $\parallel$gm $ABCD$ in 	Fig. \ref{fig:pgm_sss}	
 with $BC = 6, CD = 4.5$ and $BD=7.5$.  Show that it is a rectangle.
 \label{const:pgm_sss}
 %
@@ -85,12 +107,25 @@ with $BC = 6, CD = 4.5$ and $BD=7.5$.  Show that it is a rectangle.
 	\label{fig:pgm_sss}	
 \end{figure}
 \\
-\solution Using the approach in Construction\ref{const:tri_sss}, $\triangle BCD$ is drawn with
+\solution It is easy to verify that 
+%Using the approach in Construction\ref{const:tri_sss}, $\triangle BCD$ is drawn with
 %
 \begin{align}
-%\vec{A} = \myvec{p\\q}
+BD^2=BC^2+C^2
+\end{align}
+%
+Hence, using Baudhayana theorem, 
+%
+\begin{align}
+\angle BCD = 90\degree
+\end{align}
+%
+and  $ABCD$ is a rectangle.
+\begin{align}
+\vec{A} = \myvec{0\\4.5}
 \vec{B} = \myvec{0\\0}
 \vec{C} = \myvec{6\\0}
+\vec{D} = \myvec{6\\4}
 \end{align}
 %
 The python code for  Fig. \ref{fig:pgm_sss} is
@@ -104,16 +139,12 @@ and the equivalent latex-tikz code is
 figs/quad/pgm_sss.tex
 \end{lstlisting}
 %
-$\because $
-%
-\begin{align}
-BD^2 = BC^2+CD^2,
-\end{align}
-using Baudhyana's theorem, $\angle BCD =90\degree$. Since opposite angles  of parallelogram are equal, all angles are $90\degree$.  Hence, $ABCD$ is a rectangle. 
-\item  Diagonals of a rectangle bisect each other and are equal and vice-versa. 
+\item  Diagonals of a rectangle are equal and vice-versa. 
 \\
-\solution Proof follows from Baudhayana's theorem in $\triangle BCD$ and $\triangle ABC$ and noting that $AB = CD, BC = AD$.
-\item A rhombus is a parallelogram with equal sides.  Diagonals of a rhombus bisect each other at right angles.
+\solution Follows from the fact that $\triangle BCD \cong \triangle ABC$. 
+%
+\item A rhombus, shown in Fig. 	\ref{fig:rhom_sss}	
+ is a parallelogram with equal sides.  
 %
 \begin{figure}[!ht]
 	\begin{center}
@@ -123,21 +154,46 @@ using Baudhyana's theorem, $\angle BCD =90\degree$. Since opposite angles  of pa
 	\label{fig:rhom_sss}	
 \end{figure}
 %
+\item Diagonals of a rhombus bisect each other at right angles.
 \\
-\solution 
-\item A rectangle is a parallelogram with one angle that is 90$\degree$.  Show that all angles of the rectangle are 90$\degree$.
-\solution Follows from Theorem \ref{them:pgm_basic}.
-
+\solution 	In Fig. \ref{fig:rhom_sss}, 	from Theorem \ref{them:pgm_basic}, $OB = OS$.
+From Theorem \ref{them:isos_pb}, $OE \perp BS$.
+%
 \item Draw the rhombus $BEST$ with $BE = 4.5$ and $ET = 6$. 
 \\
-\solution The rhombus is a parallelogram with all sides equal.  Hence, $ST = BE = 4.5$ Construction \ref{const:pgm_sss} isthen used to draw the rhombus.
+\solution The coordinates of the various points in Fig. \ref{fig:rhom_sss} are obtained as
+%
+\begin{align}
+\vec{O} = \myvec{0\\0},
+\vec{B} = \myvec{0\\-4.5}
+\\
+\vec{E} = \myvec{3\\0},
+\vec{S} = \myvec{4.5\\0},
+\vec{T} = \myvec{0\\-3}
+\end{align}
+%
+\item A square is a rectangle whose sides are equal.  Draw a square of side 4.5.
+\\
+\solution The coordinates of the various points in Fig. \ref{fig:square} are obtained as
+%
+\begin{align}
+\vec{A} = \myvec{0\\4.5}
+\\
+\vec{B} = \myvec{0\\0},
+\vec{C} = \myvec{4.5\\0},
+\vec{D} = \myvec{4.5\\4.5}
+\vec{O} = \frac{\vec{B}+\vec{C}}{2}
+%
+\end{align}
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/quad/square.tex}}
+	\end{center}
+	\caption{Square}
+	\label{fig:square}	
+\end{figure}
 
-%%
-%
-%
-\item  Diagonals of a rhombus bisect each other at right angles and vice-versa. 
-%
-%
 \item  Diagonals of a square bisect each other at right angles and are equal, and vice-versa. 
 %
 \\

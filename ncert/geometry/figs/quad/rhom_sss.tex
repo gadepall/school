@@ -10,9 +10,6 @@
 \def\a{4.5}%BE
 \def\b{6}%ET
 \def\p{\b/2}%OE
-%Coordinates of D
-%\def\p{{\a^2+\c^2-\b^2}/{(2*\a)}}
-%\def\p{6}
 \def\q{{sqrt(\a^2-\p^2)}}%OB
 
 %Labeling points
@@ -21,13 +18,6 @@
 \node (S) at (0, \q)[point,label=above:$S$] {};
 \node (T) at (-\p,0)[point,label=left:$T$] {};
 \node (O) at (0, 0)[point,label=below left:$O$] {};
-%\node (D) at (\p,\q)[point,label=above right:$D$] {};
-%\node (C) at (\a, 0)[point,label=below right:$C$] {};
-%\node (O) at ($(B)!0.5!(D)$)[point,label=right:$O$] {};
-
-%A
-
-\node (A) at ($(O)!-1!(C)$)[point,label=above right:$A$] {};
 
 
 %Drawing parallelogram ABCD
