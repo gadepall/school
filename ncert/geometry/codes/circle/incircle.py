@@ -13,7 +13,6 @@ import shlex
 #end if
 
 
-#A,B,C=tri_vert(5,6,7)
 A,B,C=tri_vert(5,6,7)
 len = 100
 
@@ -26,6 +25,8 @@ I,r = icentre(A,B,C,k1,k2)
 x_AB = line_gen(A,B)
 x_BC = line_gen(B,C)
 x_CA = line_gen(C,A)
+
+#Generating circle
 theta = np.linspace(0,2*np.pi,len)
 x_circ = np.zeros((2,len))
 x_circ[0,:] = r*np.cos(theta)
@@ -36,6 +37,8 @@ x_circ = (x_circ.T + I).T
 plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
 plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
 plt.plot(x_CA[0,:],x_CA[1,:],label='$CA$')
+
+#Plotting circle
 plt.plot(x_circ[0,:],x_circ[1,:],label='$incircle$')
 
 plt.plot(A[0], A[1], 'o')
