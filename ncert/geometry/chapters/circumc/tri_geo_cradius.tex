@@ -65,6 +65,7 @@ x = \brak{\frac{a}{R}}^2 &= 4 \sin^2 A
 \implies \frac{a}{R} &= 2\sin A,
 \\
 \text{or, }\quad \frac{a}{\sin A} = 2R
+%\label{eq:circ_chord_len}
 \end{align}
 %
 \item Show that 
@@ -88,10 +89,17 @@ ar\brak{\triangle ABC} = \frac{1}{2}bc \sin A = \frac{abc}{4R}&
 %
 upon substituting from \eqref{eq:tri_crad_R} and using Hero's formula.
 %
+\item Show that
+%
+\begin{align}
+\label{eq:circ_area_chord}
+ar\brak{\triangle OBC} = \frac{1}{2}R^2\sin 2A
+\end{align}
+%
 \item Find the circumradius of $\triangle ABC$ for $a = 5, b = 6, c = 4$.
 %
 \\
-\solution The following pyton code calculates the circumradius
+\solution The following python code calculates the circumradius
 \begin{lstlisting}
 codes/circle/tri_cradius.py
 \end{lstlisting}

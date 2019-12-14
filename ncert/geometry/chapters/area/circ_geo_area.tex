@@ -215,21 +215,12 @@ BC = 2r \sin\frac{\pi}{n}
 	\label{ch5_polygon_area}	
 \end{figure}
 %
-%\\
-\solution Using cosine formula, 
+\solution From  \eqref{eq:tri_crad_R}.
 %
-%
-\begin{align}
-BC^2 &= 2r^2-2r^2 \cos\frac{2\pi}{n}
-\\
-\implies BC^2 &= 2r^2\brak{1-\cos\frac{2\pi}{n}}
-&= 4r^2\sin^2\frac{\pi}{n}
-\end{align}
-%
-upon substituting from 	\eqref{eq:cos2x}
-%\eqref{eq:cos2theta_sin_sq}.  
-Taking the square root results in \eqref{eq:circ_chord_len}
-%
+\begin{equation}
+BC = 2r \sin \frac{A}{2} = 2r\sin\frac{\pi}{n}
+\end{equation}
+%%
 \item
 Show that the perimeter of a regular polygon is given by 
 %
@@ -255,6 +246,8 @@ ar\brak{polygon} &= n \times ar\brak{\Delta ABC} \\
 \end{split}
 \end{equation}
 %
+using \eqref{eq:circ_area_chord}
+
 \item
 	Using Fig. \ref{ch5_circle_squeeze}, show that
 %
@@ -325,10 +318,9 @@ which yields 	\eqref{ch5_circle_squeeze_simple} upon making use of the fact that
 	\cos 0^{\degree} = 1
 	\end{equation}
 
-\solution Follows from the fact that $\cos 0 \degree = \sin \brak{90\degree -0\degree} = \sin \brak{90\degree }=1$ using \eqref{eq:tri_90-ang}.
+\solution Follows from the fact that $\cos 0 \degree = \sin \brak{90\degree -0\degree} = \sin \brak{90\degree }=1$ using \eqref{eq:sin90} and \eqref{eq:tri_90-ang}.
 
 
-%From \eqref{ch1_trig_defs}, $\theta \to 0\degree \implies a \to 0 \implies \sin \theta $ and %
 
 \item
 	Show that 
@@ -383,8 +375,20 @@ which yields 	\eqref{ch5_circle_squeeze_simple} upon making use of the fact that
 	%
 resulting in \eqref{ch5_circle_squeeze_tan_n}.
 %
+\item Show that 
 
+	\begin{align}
+\label{eq:peri_poly_sin_n}
+ \lim_{n\to \infty}n \sin\frac{\pi}{n} &= \pi 
+\end{align}
 %
+\solution From \eqref{prob:circ_peri_dia} and \eqref{eq:peri_poly_n}, the perimeter of the circle is 
+%
+\begin{align}
+%\label{eq:peri_poly_sin_n}
+\lim_{n\to \infty}2rn \sin\frac{\pi}{n} &= 2\pi r
+\implies \lim_{n\to \infty}n \sin\frac{\pi}{n} &= \pi 
+\end{align} 
 \item Show that 
 
 	\begin{equation}
@@ -392,15 +396,9 @@ resulting in \eqref{ch5_circle_squeeze_tan_n}.
 	\pi = \lim_{n \rightarrow \infty}
 	{n\tan\frac{\pi}{n}}
 	\end{equation}
-\solution From \eqref{prob:circ_peri_dia} and \eqref{eq:peri_poly_n}, the perimeter of the circle is 
+\solution 
 %
-\begin{align}
-\label{eq:peri_poly_sin_n}
-\lim_{n\to \infty}2rn \sin\frac{\pi}{n} &= 2\pi r
-\implies \lim_{n\to \infty}n \sin\frac{\pi}{n} &= \pi 
-\end{align}
-%
-Also, from Fig. \eqref{ch5_circle_squeeze}, using the fact that the inner and outer polygons converge into a circle for large $n$,
+From Fig. \eqref{ch5_circle_squeeze}, using the fact that the inner and outer polygons converge into a circle for large $n$,
 \begin{align}
 %\label{eq:peri_poly_n}
 \lim_{n\to \infty} nCD -nAB &= 0
