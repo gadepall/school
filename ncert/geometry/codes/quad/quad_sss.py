@@ -12,7 +12,7 @@ import shlex
 #end if
 
 len = 100
-
+degrad = 180/np.pi
 
 #Quadrilateral sides
 a = 4.5 #BC
@@ -21,12 +21,15 @@ c = 4  #AD
 d = 6 #AB
 e = 7 #BD
 
-#Trigonometric ratios of theta
-ct = (a**2+e**2-b**2)/(2*a*e)
-st = np.sqrt(1-ct**2)
+#theta1 = DBC
+t1 = np.arccos((a**2+e**2-b**2)/(2*a*e))
+#theta2 = ABD
+t2 = np.arccos((d**2+e**2-c**2)/(2*d*e))
 
-#Rotation matrix for theta
-P = np.array(([ct,-st],[st,ct]) )
+print(t1*degrad,t2*degrad)
+
+#Rotation matrix for t1
+P = np.array(([np.cos(t1),-np.sin(t1)],[np.sin(t1),np.cos(t1)]) )
 
 
 

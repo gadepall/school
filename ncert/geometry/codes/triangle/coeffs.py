@@ -21,7 +21,6 @@ def line_gen(A,B):
 def tri_vert(a,b,c):
   p = (a**2 + c**2-b**2 )/(2*a)
   q = np.sqrt(c**2-p**2)
-
 #Triangle vertices
   A = np.array([p,q]) 
   B = np.array([0,0]) 

@@ -1,4 +1,3 @@
-\subsection{Area of a Circle}
 %
 %
 \renewcommand{\theequation}{\theenumi}
@@ -6,171 +5,9 @@
 \numberwithin{equation}{enumi}
 %
 %
-%\item
-%	Using Fig. \ref{ch5_sin_theta}, show that 
-%	%
-%\begin{equation}
-%\label{ch5_sin_theta_eq}
-%\sin  \theta_1 = \sin \brak{\theta_1 + \theta_2}\cos \theta_2 - \cos\brak{\theta_1+\theta_2}\sin\theta_2
-%\end{equation}	
-%	%
+\item
+	The diameter of a circle is the chord that divides the circle into two equal parts. The diameter is equal to twice the radius
 %
-%\begin{figure}[!ht]
-%	\begin{center}
-%		
-%		%\includegraphics[width=\columnwidth]{./figs/ch5_sin_theta}
-%		%\vspace*{-10cm}
-%		\resizebox{\columnwidth}{!}{\input{./figs/fig_5.3.tex}}
-%	\end{center}
-%	\caption{$\sin2\theta = 2\sin\theta\cos\theta$}
-%	\label{ch5_sin_theta}	
-%\end{figure}
-%%
-%
-%\solution The following equations can be obtained from the figure using the forumula for the area of a triangle
-%%
-%\begin{align}
-%ar \brak{\Delta ABC} &= \frac{1}{2}ac \sin\brak{\theta_1 + \theta_2} \\
-%&= ar \brak{\Delta BDC} + ar \brak{\Delta ADB} \\
-%&= \frac{1}{2}cl \sin{\theta_1} + \frac{1}{2}al \sin{\theta_2} \\ 
-%&= \frac{1}{2}ac \sin{\theta_1} \sec \theta_2 + \frac{1}{2}a^2 \tan{\theta_2} 
-%\end{align}
-%$\brak{\because
-%	l = a \sec \theta_2}$.  From the above,
-%\begin{align}
-%\Rightarrow \sin\brak{\theta_1 + \theta_2} &=  \sin{\theta_1} \sec \theta_2 + \frac{a}{c} \tan{\theta_2} \\
-%\Rightarrow \sin\brak{\theta_1 + \theta_2} &=  \sin{\theta_1} \sec \theta_2 + \cos\brak{\theta_1 + \theta_2} \tan{\theta_2} 
-%\end{align}
-%Multiplying both sides by $\cos \theta_2$,
-%\begin{align}
-%\Rightarrow \sin\brak{\theta_1 + \theta_2}\cos{\theta_2} &=  \sin{\theta_1}  + \cos\brak{\theta_1 + \theta_2} \sin\theta_2  
-%\end{align}
-%%
-%resulting in
-%\begin{equation}
-%\Rightarrow \sin \theta_1 = \sin\brak{\theta_1 + \theta_2}\cos{\theta_2} - \cos\brak{\theta_1 + \theta_2} \sin\theta_2 
-%\end{equation}
-%\item
-%	Prove the following identities 
-%	%
-%	\begin{enumerate}
-%\item 
-%\begin{equation}
-%		\label{ch5_sin_diff}
-%\sin\brak{\alpha - \beta} = \sin \alpha \cos \beta - \cos \alpha \sin \beta.
-%\end{equation}
-%\item 
-%\begin{equation}
-%\cos\brak{\alpha + \beta} = \cos \alpha \cos \beta - \sin \alpha \sin \beta.
-%		\label{ch5_cos_diff}
-%\end{equation}
-%
-%	\end{enumerate}
-%	%
-%
-%\solution In \eqref{ch5_sin_theta_eq}, let
-%%
-%\begin{equation}
-%\begin{split}
-%\theta_1 + \theta_2 &= \alpha \\
-%\theta_2 &=  \beta
-%\end{split}
-%\end{equation}
-%%
-%This gives \eqref{ch5_sin_diff}.  In \eqref{ch5_sin_diff}, replace $\alpha$ by 
-%%
-%$90{\degree} - \alpha$.  This results in
-%%
-%\begin{multline}
-%\sin\brak{90{\degree} - \alpha - \beta}
-%\\
-%=
-%\sin \brak{90{\degree} -\alpha} \cos \beta - \cos \brak{90{\degree} -\alpha} \sin \beta \\
-%\Rightarrow \cos\brak{\alpha + \beta} = \cos \alpha \cos \beta - \sin \alpha \sin \beta
-%\end{multline}
-%% 
-%\item
-%	Using \eqref{ch5_sin_theta_eq} and \eqref{ch5_cos_diff}, show that
-%\begin{align}
-%\label{ch5_sin_sum}
-%\sin\brak{\theta_1 + \theta_2} &= \sin\theta_1  \cos\theta_2 + \cos\theta_1\sin\theta_2
-%\\
-%\cos\brak{\theta_1 - \theta_2} &= \cos\theta_1  \cos\theta_2  \sin\theta_1\sin\theta_2
-%\label{ch5_cos_sum}
-%\end{align}
-%
-%%
-%\solution From \eqref{ch5_sin_theta_eq},
-%%
-%\begin{align}
-% \sin \brak{\theta_1 + \theta_2}\cos \theta_2 =\sin  \theta_1 +\cos\brak{\theta_1+\theta_2}\sin\theta_2 
-%\end{align}
-%%
-%Using \eqref{ch5_cos_diff} in the above,
-%%
-%\begin{multline}
-%\sin \brak{\theta_1 + \theta_2}\cos \theta_2 
-%=\sin  \theta_1 +\lbrak{\cos \theta_1\cos\theta_2 }
-%\\	
-%\rbrak{	- \sin \theta_1\sin\theta_2}\sin\theta_2 
-%\end{multline}
-%%
-%which can be expressed as
-%%
-%\begin{multline}
-%\sin \brak{\theta_1 + \theta_2}\cos \theta_2 
-%=\sin  \theta_1 +\cos \theta_1\cos\theta_2 \sin\theta_2 
-%\\	
-%	- \sin \theta_1\sin^2\theta_2
-%\end{multline}
-%%
-%Since
-%%
-%\begin{equation}
-%\sin^2\theta_2 = 1- \cos^2\theta_2, 
-%\end{equation}
-%%
-%we obtain
-%%
-%\begin{multline}
-%\sin \brak{\theta_1 + \theta_2}\cos \theta_2 
-%=\cos \theta_1\cos\theta_2 \sin\theta_2 
-%\\	
-%+ \sin \theta_1\cos^2\theta_2
-%\end{multline}
-%%
-%resulting in
-%%
-%\begin{equation}
-%\sin \brak{\theta_1 + \theta_2}
-%=\cos \theta_1 \sin\theta_2 
-%+ \sin \theta_1\cos\theta_2
-%\end{equation}
-%%
-%after factoring out $\cos \theta_2$.  Using a similar approach, \eqref{ch5_cos_sum} can also be proved.
-%%
-%\item
-%	Show that
-%	%
-%	\begin{equation}
-%	\label{eq:sin2theta}
-%	\sin 2\theta = 2 \sin\theta \cos\theta
-%	\end{equation}
-%	%
-%%
-%\item
-%	Show that
-%	%
-%	\begin{align}
-%	\label{eq:cos2theta_cos_sin}
-%	\cos 2\theta &= \cos^2\theta -\sin^2\theta 
-%\\
-%	\label{eq:cos2theta_sin_sq}
-%&= 1 - \sin^2\theta
-%\\
-%&=2\cos^2\theta -1
-%	\label{eq:cos2theta_cos_sq}
-%	\end{align}
 %	%
 \item The ratio of the perimeter of a circle to its diameter is $\pi$.
 \label{prob:circ_peri_dia}
@@ -288,7 +125,7 @@ Show that
 \cos^2\frac{\pi}{n} < \frac{\text{ area of circle }}{nr^{2}\tan\frac{\pi}{n}} < 1	\end{equation}
 	%
 
-\solution From \eqref{ch5_circle_squeeze_eq} and \eqref{eq:sin2theta},
+\solution From \eqref{ch5_circle_squeeze_eq} and \eqref{eq:sin2x},
 	%
 {\small
 	\begin{align}

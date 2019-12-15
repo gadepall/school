@@ -211,59 +211,5 @@ from \eqref{eq:trig_id_ang_sum_diff}.  Other identities may be proved similarly.
 %\sin \brak{-\theta} = -\sin \theta
 %\end{align}
 %
-\item Show that 
-%
-\begin{align}
-\label{eq:trig_id_sin_inc}
-\alpha > \beta \implies \sin \alpha > \sin \beta
-\end{align}
-%
-\solution In Fig. \ref{trig_id_sin_theta}, 	
-%
-\begin{align}
-ar\brak{\triangle ABD} &< ar \brak{\triangle ABC}
-\\
-\implies \frac{1}{2}lc \sin \theta_1 &<  \frac{1}{2}ac \sin \brak{\theta_1 + \theta_2 }
-\\
-\implies \frac{l}{a} &< \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1}
-\\
-\text{or, } 1 < \frac{l}{a} &< \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1}
-\\
-\implies \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1} > 1
-\end{align}
-%
-from Theorem \ref{them:hyp_largest}. This proves \eqref{eq:trig_id_sin_inc}.
-%From \eqref{eq:trig_id_sum_diff3},
-%%
-%\begin{multline}
-% \sin \theta_1 - \sin \theta_2 = 2\sin\brak{\frac{\theta_1-\theta_2}{2}}
-%\\
-%\times \cos\brak{\frac{\theta_1+\theta_2}{2}} > 0, \because \theta_1-\theta_2 > 0
-%\end{multline}
-%
-\item In a triangle, the side opposite the greater angle is greater.
-\begin{figure}[!ht]
-	\begin{center}
-			\resizebox{\columnwidth}{!}{\input{./figs/quad/tri_ang_side.tex}}
-	\end{center}
-	\caption{Side opposite the greater angle is greater}
-	\label{fig:tri_ang_side}	
-\end{figure}
-\\
-\solution In Fig. 	\ref{fig:tri_ang_side},	let
-%
-\begin{align}
-\angle B > \angle C
-\end{align}
-%
-Then, using the sine formula,
-%
-\begin{align}
-\frac{\sin B}{b} &=\frac{\sin C}{c}
-\\
-\implies   \frac{\sin B}{\sin C} &= \frac{b}{c} > 1
-\end{align}
-using \eqref{eq:trig_id_sin_inc}.
-
 
 \end{enumerate}
