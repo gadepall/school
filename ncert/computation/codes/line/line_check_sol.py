@@ -15,9 +15,9 @@ import shlex
 
 
 #Lines
-n1 = np.array([1,2]) 
-n2 = np.array([2,4]) 
-c =  np.array([4,12]) 
+n1 = np.array([1,3]) 
+n2 = np.array([2,-3]) 
+c =  np.array([6,12]) 
 
 #Intercepts
 A1,B1 =  line_icepts(n1,c[0])
@@ -58,9 +58,9 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('./line/figs/line_check_sol.pdf')
-plt.savefig('./line/figs/line_check_sol.eps')
-subprocess.run(shlex.split("termux-open ./line/figs/line_check_sol.pdf"))
+plt.savefig('./line/figs/line_check_sol2.pdf')
+plt.savefig('./line/figs/line_check_sol2.eps')
+subprocess.run(shlex.split("termux-open ./line/figs/line_check_sol2.pdf"))
 #else
 #plt.show()
 
