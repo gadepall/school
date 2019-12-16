@@ -18,6 +18,14 @@ def line_gen(A,B):
     x_AB[:,i]= temp1.T
   return x_AB
 
+#Generate line intercepts
+def line_icepts(n,c):
+  e1 = np.array([1,0]) 
+  e2 = np.array([0,1]) 
+  A = c*e1/(n@e1)
+  B = c*e2/(n@e2)
+  return A,B
+
 #Generate line points
 def line_dir_pt(m,A,k1,k2):
   len =10
