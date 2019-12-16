@@ -24,7 +24,7 @@
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch5_polygon_def}
 		%\vspace*{-10cm}
-		\resizebox{\columnwidth}{!}{\input{./figs/fig_5.0.tex}}
+		\resizebox{\columnwidth}{!}{\input{./figs/circle/circ_polygon.tex}}
 	\end{center}
 	\caption{Polygon Definition}
 	\label{ch5_polygon_def}	
@@ -46,7 +46,7 @@ BC = 2r \sin\frac{\pi}{n}
 		
 		%\includegraphics[width=\columnwidth]{./figs/ch5_polygon_area}
 		%\vspace*{-10cm}
-		\resizebox{\columnwidth}{!}{\input{./figs/fig_5.1.tex}}
+		\resizebox{\columnwidth}{!}{\input{./figs/circle/tri_poly_circ.tex}}
 	\end{center}
 	\caption{Triangle that forms a polygon}
 	\label{ch5_polygon_area}	
@@ -86,28 +86,28 @@ ar\brak{polygon} &= n \times ar\brak{\Delta ABC} \\
 using \eqref{eq:circ_area_chord}
 
 \item
-	Using Fig. \ref{ch5_circle_squeeze}, show that
+	Using Fig. \ref{fig:circ_poly_squeeze}, show that
 %
 \begin{equation}
-\label{ch5_circle_squeeze_eq}
+\label{fig:circ_poly_squeeze_eq}
 \frac{n}{2}r^{2}\sin\frac{2\pi}{n} < \text{ area of circle } < nr^{2}\tan\frac{\pi}{n}
 \end{equation}
 %
-The portion of the circle visible in Fig. \ref{ch5_circle_squeeze} is defined to be a sector of the circle.
+The portion of the circle visible in Fig. \ref{fig:circ_poly_squeeze} is defined to be a sector of the circle.
 
 \begin{figure}[!ht]
 	\begin{center}
 		
-		%\includegraphics[width=\columnwidth]{./figs/ch5_circle_squeeze}
+		%\includegraphics[width=\columnwidth]{./figs/fig:circ_poly_squeeze}
 		%\vspace*{-10cm}
-		\resizebox{\columnwidth}{!}{\input{./figs/fig_5.2.tex}}
+		\resizebox{\columnwidth}{!}{\input{./figs/circle/circ_poly_squeeze.tex}}
 	\end{center}
 	\caption{Circle Area in between Area of Two Polygons}
-	\label{ch5_circle_squeeze}	
+	\label{fig:circ_poly_squeeze}	
 \end{figure}
 %
 
-\solution Note that the circle is squeezed between the inner and outer regular polygons.  As we can see from Fig. \ref{ch5_circle_squeeze}, the area of the circle should be in between the areas of the inner and outer polygons.  Since
+\solution Note that the circle is squeezed between the inner and outer regular polygons.  As we can see from Fig. \ref{fig:circ_poly_squeeze}, the area of the circle should be in between the areas of the inner and outer polygons.  Since
 %
 \begin{align}
 ar \brak{\Delta OAB} &= \frac{1}{2}r^{2}\sin\frac{2\pi}{n} \\
@@ -115,17 +115,17 @@ ar \brak{\Delta OPQ} &= 2 \times \frac{1}{2} \times r \tan\frac{2\pi/n}{2} \time
 &= r^{2}\tan\frac{\pi}{n},
 \end{align}
 %
-we obtain \eqref{ch5_circle_squeeze_eq}.
+we obtain \eqref{fig:circ_poly_squeeze_eq}.
 %
 \item
 Show that
 	%
 	\begin{equation}
-	\label{ch5_circle_squeeze_simple}
+	\label{fig:circ_poly_squeeze_simple}
 \cos^2\frac{\pi}{n} < \frac{\text{ area of circle }}{nr^{2}\tan\frac{\pi}{n}} < 1	\end{equation}
 	%
 
-\solution From \eqref{ch5_circle_squeeze_eq} and \eqref{eq:sin2x},
+\solution From \eqref{fig:circ_poly_squeeze_eq} and \eqref{eq:sin2x},
 	%
 {\small
 	\begin{align}
@@ -140,7 +140,7 @@ Show that
 	\end{align}
 %
 }
-which yields 	\eqref{ch5_circle_squeeze_simple} upon making use of the fact that 
+which yields 	\eqref{fig:circ_poly_squeeze_simple} upon making use of the fact that 
 %
 \begin{align}
 \frac{\sin \theta}{\cos \theta} = \tan \theta
@@ -195,22 +195,22 @@ which yields 	\eqref{ch5_circle_squeeze_simple} upon making use of the fact that
 	Show that 
 	%
 \begin{equation}
-\label{ch5_circle_squeeze_tan_n}
+\label{fig:circ_poly_squeeze_tan_n}
 \text{ area of circle } = r^2\lim_{n \rightarrow \infty}
 {n\tan\frac{\pi}{n}} 
 	%
 \end{equation}	
 	% 
-\solution From \eqref{ch5_circle_squeeze_simple} and \eqref{eq:cos_zero_lim_def}, 
+\solution From \eqref{fig:circ_poly_squeeze_simple} and \eqref{eq:cos_zero_lim_def}, 
 	%
 	\begin{align}
-%	\label{ch5_circle_squeeze_simple}
+%	\label{fig:circ_poly_squeeze_simple}
 \lim_{n\to \infty}\cos^2\frac{\pi}{n} < \lim_{n\to \infty} \frac{\text{ area of circle }}{nr^{2}\tan\frac{\pi}{n}} < 1	
 \\
 1 = \lim_{n\to \infty} \frac{\text{ area of circle }}{nr^{2}\tan\frac{\pi}{n}} < 1	
 \end{align}
 	%
-resulting in \eqref{ch5_circle_squeeze_tan_n}.
+resulting in \eqref{fig:circ_poly_squeeze_tan_n}.
 %
 \item Show that 
 
@@ -235,7 +235,7 @@ resulting in \eqref{ch5_circle_squeeze_tan_n}.
 	\end{equation}
 \solution 
 %
-From Fig. \eqref{ch5_circle_squeeze}, using the fact that the inner and outer polygons converge into a circle for large $n$,
+From Fig. \eqref{fig:circ_poly_squeeze}, using the fact that the inner and outer polygons converge into a circle for large $n$,
 \begin{align}
 %\label{eq:peri_poly_n}
 \lim_{n\to \infty} nCD -nAB &= 0
@@ -249,7 +249,7 @@ by substituting from \eqref{eq:peri_poly_sin_n}.
 
 \item Show that the area of a circle is $\pi r^2$.
 \\
-\solution Use \eqref{eq:peri_poly_tan_n} in \eqref{ch5_circle_squeeze_tan_n}.
+\solution Use \eqref{eq:peri_poly_tan_n} in \eqref{fig:circ_poly_squeeze_tan_n}.
 
 %\item
 %	The radian is a unit of angle defined by

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  15 DEC 2019 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  16 DEC 2019 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1462,42 +1462,39 @@ File: tlc.eps Graphic file (type eps)
 \tf@toc=\write5
 \openout5 = `gvv_ncert_geo.toc'.
 
-
-Underfull \hbox (badness 7116) in paragraph at lines 281--283
-[]\OT1/txr/bx/it/10 Abstract\OT1/txr/bx/n/10 ---This book in-tro-duces school g
-e-om-e-try
- []
-
-(./chapters/baudh/tri_geo_rt.tex (./figs/triangle/tri_right_angle.tex) [1
+ (./chapters/baudh/tri_geo_rt.tex
+(./figs/triangle/tri_right_angle.tex) [1
 
 
-]
-(./figs/triangle/tri_polar.tex)) (./chapters/baudh/tri_geo_sum_angle.tex
-(./figs/triangle/tri_sum_angle.tex) [2]) (./chapters/baudh/tri_geo_baudh.tex
-(./figs/triangle/tri_baudh.tex)
+] (./figs/triangle/tri_polar.tex))
+(./chapters/baudh/tri_geo_sum_angle.tex (./figs/triangle/tri_sum_angle.tex)
+[2]) (./chapters/baudh/tri_geo_baudh.tex (./figs/triangle/tri_baudh.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./chapters/area/tri_geo_rect_area.tex (./figs/triangle/tri_rect.tex)
-(./figs/triangle/tri_sss.tex) [4]
+(./chapters/area/tri_geo_rect_area.tex (./figs/triangle/tri_rect.tex) [4]
+(./figs/triangle/tri_sss.tex)
 Overfull \hbox (2.03821pt too wide) detected at line 78
 []
  []
 
-[5]) (./chapters/area/tri_geo_sincos.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
+(./chapters/area/tri_geo_sincos.tex
 Overfull \hbox (22.29663pt too wide) detected at line 14
 []\OML/txmi/m/it/12 ar [] \OT1/txr/m/n/12 = []\OML/txmi/m/it/12 ah \OT1/txr/m/n
 /12 = []\OML/txmi/m/it/12 ab [] C  [] :
  []
 
-(./figs/triangle/tri_right_angle.tex)
-Underfull \vbox (badness 1688) has occurred while \output is active []
-
-
-(./figs/triangle/tri_cosine_formula.tex)
+(./figs/triangle/tri_right_angle.tex) (./figs/triangle/tri_cosine_formula.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
@@ -1541,20 +1538,20 @@ Underfull \vbox (badness 6493) has occurred while \output is active []
  [14]
 (./figs/quad/pgm_sss.tex) (./figs/quad/rhom_sss.tex) [15]
 (./figs/quad/square.tex)) (./chapters/area/circ_geo_area.tex
-(./figs/fig_5.0.tex
+(./figs/circle/circ_polygon.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) (./figs/fig_5.1.tex
+) (./figs/circle/tri_poly_circ.tex
 Missing character: There is no ; in font nullfont!
 )
 Underfull \vbox (badness 6910) has occurred while \output is active []
 
  [16]
-(./figs/fig_5.2.tex)
+(./figs/circle/circ_poly_squeeze.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
@@ -1577,7 +1574,7 @@ Underfull \vbox (badness 5091) has occurred while \output is active []
 Underfull \vbox (badness 3635) has occurred while \output is active []
 
 )
-(./chapters/quad/trig_id.tex (./figs/fig_5.3.tex
+(./chapters/quad/trig_id.tex (./figs/triangle/tri_sin_inc.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1629,7 +1626,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 279.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 284.
 
-) (./chapters/exercises/tri_geo_const.tex [26] (./figs/Triangle.tex
+) (./chapters/exercises/tri_geo_const.tex [26] (./figs/triangle/Triangle.tex
 \gnumericTableWidth=\skip75
 \gnumericTableWidthComplete=\skip76
 \gnumericMultiRowLength=\skip77
@@ -1719,23 +1716,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ) [38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
 
 (./gvv_ncert_geo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 372.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 380.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
 Package rerunfilecheck Info: File `gvv_ncert_geo.out' has not changed.
 (rerunfilecheck)             Checksum: CCC68B21DB03FD9398C05DE6E29E1EB5;2417.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
  ) 
 Here is how much of TeX's memory you used:
- 33687 strings out of 492624
- 724794 string characters out of 6119217
- 933854 words of memory out of 5000000
+ 33685 strings out of 492624
+ 724941 string characters out of 6119217
+ 942893 words of memory out of 5000000
  36805 multiletter control sequences out of 15000+600000
  89660 words of font info for 233 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,15n,70p,595b,1387s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_geo.dvi (38 pages, 747860 bytes).
+Output written on gvv_ncert_geo.dvi (38 pages, 750540 bytes).
