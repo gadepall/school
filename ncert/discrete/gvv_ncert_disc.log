@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  16 DEC 2019 10:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  17 DEC 2019 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1463,10 +1463,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 5.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 7.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+[1
 
 
 ]
@@ -1615,15 +1612,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--336
  []
 
 ) (./trig/trig_exer.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 263--268
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 296--301
 
@@ -1638,14 +1633,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--301
 Underfull \hbox (badness 10000) in paragraph at lines 296--301
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--301
+
+ []
+
+
+Underfull \vbox (badness 1960) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 302--305
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 306--308
@@ -1747,17 +1747,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 336--338
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--341
-
- []
-
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
@@ -1853,6 +1853,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 372--378
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 379--387
 \OT1/txr/m/n/12 5. $[] \OML/txmi/m/it/12 x \OT1/txr/m/n/12 + [] 3\OML/txmi/m/it
 /12 x \OT1/txr/m/n/12 + [] 5\OML/txmi/m/it/12 x \OT1/txr/m/n/12 + [] 7\OML/txmi
@@ -1863,9 +1866,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--387
 Underfull \hbox (badness 10000) in paragraph at lines 379--387
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 388--392
@@ -1890,9 +1890,13 @@ Underfull \hbox (badness 1389) in paragraph at lines 94--95
 \OT1/txr/m/n/12 100, what is the dif-fer-ence be-tween their
  []
 
-[10]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 File: ./figs/fig.eps Graphic file (type eps)
- <./figs/fig.eps>
+
+<./figs/fig.eps>
 Underfull \hbox (badness 2189) in paragraph at lines 146--149
 \OT1/txr/m/n/12 thir-teen con-sec-u-tive 22 semi-cir-cles? (Take
  []
@@ -1902,7 +1906,11 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 146--149
 [] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./figs/fig1.eps Graphic file (type eps)
+
 <./figs/fig1.eps>
 Overfull \hbox (24.0pt too wide) in paragraph at lines 149--151
 [] 
@@ -1913,11 +1921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: ./figs/fig3.eps Graphic file (type eps)
-
 <./figs/fig3.eps>
 Underfull \hbox (badness 2326) in paragraph at lines 151--156
 []\OT1/txr/m/n/12 In a potato race, a bucket is placed at
@@ -1948,30 +1952,31 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 151--156
 []
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
 File: ./figs/fig4.eps Graphic file (type eps)
+
 <./figs/fig4.eps>
 Overfull \hbox (24.0pt too wide) in paragraph at lines 158--160
 [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
 File: ./figs/fig5.eps Graphic file (type eps)
-
 <./figs/fig5.eps>
 Overfull \hbox (24.0pt too wide) in paragraph at lines 161--163
 [] 
  []
 
-) (./disc/ind_exam.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./disc/ind_exam.tex
 Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 257--258
@@ -2043,7 +2048,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
@@ -2063,7 +2068,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-[12]
+
 Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
@@ -2123,26 +2128,849 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
+) (./disc/binom_exam.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 12--13
+[]\OT1/txr/m/n/12 The sec-ond,third and fourth terms in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 14--15
+[]\OT1/txr/m/n/12 Find the term in-de-pen-dent of x in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 15--16
+[]\OT1/txr/m/n/12 If the co-ef-fi-cients of $\OML/txmi/m/it/12 a[]; a[]$ \OT1/t
+xr/m/n/12 and $\OML/txmi/m/it/12 a[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\OT1/txr/m/n/12 in the ex-pan-sion of $(1 + \OML/txmi/m/it/12 a\OT1/txr/m/n/12 
+)[]$ are in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\OT1/txr/m/n/12 arith-metic pro-gres-sion , prove that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 19--20
+[]\OT1/txr/m/n/12 Find the term in-de-pen-dent of x in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+) (./disc/binom_exer.tex
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 271--272
+[]\OT1/txr/m/n/12 Using Bi-no-mial The-o-rem ,in-di-cate which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+
+Underfull \vbox (badness 3312) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 293--294
+[]\OT1/txr/m/n/12 Find the $13[]$ term in the ex-pan-sion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 303--304
+[]\OT1/txr/m/n/12 Find the co-ef-fi-cient of $\OML/txmi/m/it/12 x[]$ \OT1/txr/m
+/n/12 in the prod-uct
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+[]\OT1/txr/m/n/12 Find the value of $(\OML/txmi/m/it/12 a[] \OT1/txr/m/n/12 + [
+])[]$ +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+) (./disc/pnc_exam.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 83--84
+\OT1/txr/m/n/12 each of 2 vow-els and 3 con-so-nants can
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 83--84
+\OT1/txr/m/n/12 be formed from the let-ters of the word
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 96--97
+[]\OT1/txr/m/n/12 The En-glish al-pha-bet has 5 vow-els and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 102--103
+\OT1/txr/m/n/12 places. How many such ar-range-ments are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+[16]) (./disc/pnc_exer.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
+[]\OT1/txr/m/n/12 Find the num-ber of dif-fer-ent 8 let-ter
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 38--41
+\OT1/txr/m/n/12 ar-range-ments that can be made from the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 44--49
+\OT1/txr/m/n/12 (iv) do the words be-gin with I and end
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 54--60
+\OT1/txr/m/n/12 (ii) four cards be-long to four dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+[17]
+Underfull \hbox (badness 1931) in paragraph at lines 61--62
+\OT1/txr/m/n/12 each of 3 vow-els and 2 con-so-nants can
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 61--62
+\OT1/txr/m/n/12 be formed from the let-ters of the word
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
- [13
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
+ [18
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
  (./gvv_ncert_disc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 320.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
 Package rerunfilecheck Info: File `gvv_ncert_disc.out' has not changed.
-(rerunfilecheck)             Checksum: 2766CC71FC9CE52DD2BA76DC143C18B7;620.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
+(rerunfilecheck)             Checksum: 026B528FC94114CB4413CD9883F7C2B5;971.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
  ) 
 Here is how much of TeX's memory you used:
- 31892 strings out of 492624
- 685768 string characters out of 6119217
- 893992 words of memory out of 5000000
- 35189 multiletter control sequences out of 15000+600000
+ 31910 strings out of 492624
+ 686050 string characters out of 6119216
+ 892992 words of memory out of 5000000
+ 35195 multiletter control sequences out of 15000+600000
  78167 words of font info for 195 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,24n,69p,574b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_disc.dvi (13 pages, 151440 bytes).
+Output written on gvv_ncert_disc.dvi (18 pages, 199484 bytes).
