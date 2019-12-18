@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  18 DEC 2019 06:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  18 DEC 2019 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1202,10 +1202,17 @@ z-obj-marks.tex
 /tkz-obj-angles.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
 /tkz-obj-protractor.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+\pgf@layerbox@background=\box51
+\pgf@layerboxsaved@background=\box52
+
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
 stings.sty
 \lst@mode=\count185
-\lst@gtempboxa=\box51
+\lst@gtempboxa=\box53
 \lst@token=\toks50
 \lst@length=\count186
 \lst@currlwidth=\dimen294
@@ -1222,7 +1229,7 @@ tmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 \c@lstnumber=\count191
 \lst@skipnumbers=\count192
-\lst@framebox=\box52
+\lst@framebox=\box54
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
 stings.cfg
@@ -1251,7 +1258,7 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 Package multicol Warning: May not work with the twocolumn option on input line 
 141.
 
-\mult@box=\box53
+\mult@box=\box55
 \multicol@leftmargin=\dimen298
 \c@unbalance=\count194
 \c@collectmore=\count195
@@ -1264,15 +1271,13 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \postmulticols=\dimen302
 \multicolsep=\skip73
 \multicolbaselineskip=\skip74
-\partial@page=\box54
-\last@line=\box55
+\partial@page=\box56
+\last@line=\box57
 \maxbalancingoverflow=\dimen303
-\mult@rightbox=\box56
-\mult@grightbox=\box57
-\mult@gfirstbox=\box58
-\mult@firstbox=\box59
-\@tempa=\box60
-\@tempa=\box61
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@gfirstbox=\box60
+\mult@firstbox=\box61
 \@tempa=\box62
 \@tempa=\box63
 \@tempa=\box64
@@ -1288,13 +1293,15 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \@tempa=\box74
 \@tempa=\box75
 \@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
 \c@columnbadness=\count199
 \c@finalcolumnbadness=\count266
 \last@try=\dimen304
 \multicolovershoot=\dimen305
 \multicolundershoot=\dimen306
-\mult@nat@firstbox=\box77
-\colbreak@box=\box78
+\mult@nat@firstbox=\box79
+\colbreak@box=\box80
 \mc@col@check@num=\count267
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/chngcntr/ch
@@ -1305,62 +1312,62 @@ Package chngcntr Info: \counterwithout already defined.
 ) (./gvv_ncert_prob.aux)
 \openout1 = `gvv_ncert_prob.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 84.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 84.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 87.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 87.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oml
 txmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 84.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 87.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
 txsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 84.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 87.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/omx
 txex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 84.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 exa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 84.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
 txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 84.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 84.
+LaTeX Info: Redefining \celsius on input line 87.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 87.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 84.
-Package gensymb Info: Using \Omega for \ohm on input line 84.
+LaTeX Info: Redefining \ohm on input line 87.
+Package gensymb Info: Using \Omega for \ohm on input line 87.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1376,8 +1383,8 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 84.
+\AtBeginShipoutBox=\box81
+Package hyperref Info: Link coloring OFF on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/na
 meref.sty
@@ -1389,16 +1396,12 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count268
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 87.
+LaTeX Info: Redefining \pageref on input line 87.
+LaTeX Info: Redefining \nameref on input line 87.
  (./gvv_ncert_prob.out) (./gvv_ncert_prob.out)
 \@outlinefile=\write4
 \openout4 = `gvv_ncert_prob.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@lstlisting=\count269
 \c@theorem=\count270
@@ -1408,36 +1411,37 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 \c@example=\count274
 \c@rem=\count275
 File: iith_logo.eps Graphic file (type eps)
+
 <iith_logo.eps>
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 240.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 240.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 243.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 243.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ur
 sfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 240.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 243.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 mia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 240.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 243.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 sya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 240.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 243.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 syb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 240.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 243.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
@@ -1446,7 +1450,7 @@ File: utxsyc.fd 2000/12/15 v3.1
 )
 File: tlc.eps Graphic file (type eps)
  <tlc.eps>
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 240.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 243.
 File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
 File: tlc.eps Graphic file (type eps)
@@ -1519,7 +1523,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
+[1
 
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
@@ -1539,10 +1546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[1
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
@@ -1629,6 +1633,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
@@ -1639,9 +1646,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--62
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -1687,22 +1691,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--95
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--95
+
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
@@ -1721,6 +1725,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 104--107
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+File: ./prob/figs/lake.eps Graphic file (type eps)
+
+<./prob/figs/lake.eps>
+Underfull \hbox (badness 1983) in paragraph at lines 138--141
+[]\OT1/txr/m/n/12 A miss-ing he-li-copter is re-ported to have
+ []
+
+
+Overfull \hbox (134.35374pt too wide) in paragraph at lines 138--141
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--148
 
  []
 
@@ -1744,7 +1782,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[3]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
@@ -1795,6 +1833,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--47
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
  []
@@ -1832,7 +1873,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
@@ -1956,14 +1997,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--129
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
@@ -2031,12 +2072,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
@@ -2165,6 +2206,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 Underfull \hbox (badness 2302) in paragraph at lines 261--262
 \OT1/txr/m/n/12 when two fair dice are rolled. Find the
  []
@@ -2175,9 +2219,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
 Underfull \hbox (badness 10000) in paragraph at lines 263--265
 
  []
@@ -2213,12 +2254,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 290--291
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 6141) in paragraph at lines 295--299
@@ -2260,7 +2301,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--322
 
  []
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
@@ -2383,10 +2424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--395
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 396--398
 
  []
@@ -2429,30 +2467,678 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--431
 
  []
 
-) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--436
+
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 436--441
+[]\OT1/txr/m/n/12 Which of the fol-low-ing ex-per-i-ments have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--441
+
+ []
+
+[11]
+File: ./prob/figs/woman.eps Graphic file (type eps)
+ <./prob/figs/woman.eps>
+Underfull \hbox (badness 1895) in paragraph at lines 465--471
+\OT1/txr/m/n/12 fe-male fish (see Fig. 15.4). What is the
+ []
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 465--471
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./prob/figs/clock.eps Graphic file (type eps)
+
+<./prob/figs/clock.eps>
+Overfull \hbox (24.0pt too wide) in paragraph at lines 471--477
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
+
+ []
+
+File: ./prob/figs/rectangle.eps Graphic file (type eps)
+<./prob/figs/rectangle.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 529--531
+[]\OT1/txr/m/n/12 Suppose you drop a die at ran-dom
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--531
+\OT1/txr/m/n/12 on the rect-an-gu-lar re-gion shown in
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 529--531
+\OT1/txr/m/n/12 Fig.15.6.What is the prob-a-bil-ity that it
+ []
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 529--531
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 534--544
+[]\OT1/txr/m/n/12 Refer to Ex-am-ple 13.(i)Complete
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--544
+\OT1/txr/m/n/12 the fol-low-ing ta-ble:
+ []
+
+
+Overfull \hbox (129.94438pt too wide) in paragraph at lines 534--544
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--558
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--558
+
+ []
+
+File: ./prob/figs/rows.eps Graphic file (type eps)
+<./prob/figs/rows.eps>
+Underfull \hbox (badness 2229) in paragraph at lines 564--569
+[]\OT1/txr/m/n/12 A die is num-bered in such a way that
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 564--569
+\OT1/txr/m/n/12 6. It is thrown two times and the to-tal
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 564--569
+\OT1/txr/m/n/12 score in two throws is noted. Com-plete
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 564--569
+\OT1/txr/m/n/12 the fol-low-ing ta-ble which gives a few
+ []
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 564--569
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./stats/stats_exam.tex
+Overfull \hbox (211.30827pt too wide) in paragraph at lines 4--12
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--22
+[]\OT1/txr/m/n/12 The ta-ble be-low gives the per-cent-age
+ []
+
+
+Overfull \hbox (235.6204pt too wide) in paragraph at lines 12--22
+[] 
+ []
+
+[14]
+Underfull \hbox (badness 1708) in paragraph at lines 22--32
+[]\OT1/txr/m/n/12 The dis-tri-bu-tion be-low shows the num-ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--32
+\OT1/txr/m/n/12 of wick-ets taken by bowlers in one-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--32
+\OT1/txr/m/n/12 day cricket matches. Find the mean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--32
+\OT1/txr/m/n/12 method. What does the mean sig-nify?
+ []
+
+
+Overfull \hbox (176.58823pt too wide) in paragraph at lines 22--32
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 35--46
+[]\OT1/txr/m/n/12 A sur-vey con-ducted on 20 house-holds in
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 35--46
+\OT1/txr/m/n/12 in the fol-low-ing fre-quency ta-ble for the
+ []
+
+
+Overfull \hbox (41.4442pt too wide) in paragraph at lines 35--46
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--46
+
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 50--60
+[]\OT1/txr/m/n/12 A sur-vey re-gard-ing the heights (in cm)
+ []
+
+
+Overfull \hbox (299.24059pt too wide) in paragraph at lines 50--60
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--69
+[]\OT1/txr/m/n/12 The me-dian of the fol-low-ing data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--69
+\OT1/txr/m/n/12 is 525. Find the val-ues of x and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--69
+\OT1/txr/m/n/12 y, if the to-tal fre-quency is 100.
+ []
+
+
+Overfull \hbox (369.32419pt too wide) in paragraph at lines 60--69
+[] 
+ []
+
+) (./stats/stats_exer.tex
+Underfull \hbox (badness 2165) in paragraph at lines 4--14
+[]\OT1/txr/m/n/12 A sur-vey was con-ducted by a group of
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 4--14
+\OT1/txr/m/n/12 stu-dents as a part of their en-vi-ron-ment
+ []
+
+
+Overfull \hbox (84.36023pt too wide) in paragraph at lines 4--14
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--32
+[]\OT1/txr/m/n/12 The fol-low-ing dis-tri-bu-tion shows the
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 23--32
+\OT1/txr/m/n/12 daily pocket al-lowance of chil-dren of a
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 23--32
+\OT1/txr/m/n/12 lo-cal-ity. The mean pocket al-lowance is
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 23--32
+\OT1/txr/m/n/12 Rs 18. Find the miss-ing fre-quency f.
+ []
+
+
+Overfull \hbox (235.5843pt too wide) in paragraph at lines 23--32
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--32
+
+ []
+
+
+Overfull \hbox (229.6684pt too wide) in paragraph at lines 32--42
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--42
+
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 42--52
+[]\OT1/txr/m/n/12 In a re-tail mar-ket, fruit ven-dors were
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 42--52
+\OT1/txr/m/n/12 sell-ing man-goes kept in pack-ing boxes.
+ []
+
+
+Overfull \hbox (87.16022pt too wide) in paragraph at lines 42--52
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 54--62
+\OT1/txr/m/n/12 on food of 25 house-holds in a lo-cal-ity.
+ []
+
+
+Overfull \hbox (186.96422pt too wide) in paragraph at lines 54--62
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
+
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 63--72
+[]\OT1/txr/m/n/12 To find out the con-cen-tra-tion of $\OML/txmi/m/it/12 so[]$ 
+\OT1/txr/m/n/12 in
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 63--72
+\OT1/txr/m/n/12 the air (in parts per mil-lion, i.e., ppm),
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 63--72
+\OT1/txr/m/n/12 the data was col-lected for 30 lo-cal-i-ties
+ []
+
+
+Overfull \hbox (289.68835pt too wide) in paragraph at lines 63--72
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--82
+[]\OT1/txr/m/n/12 A class teacher has the fol-low-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--82
+\OT1/txr/m/n/12 ab-sen-tee record of 40 stu-dents of a
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 73--82
+\OT1/txr/m/n/12 num-ber of days a stu-dent was ab-sent.
+ []
+
+
+Overfull \hbox (146.62823pt too wide) in paragraph at lines 73--82
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--82
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \hbox (badness 10000) in paragraph at lines 82--92
+
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 102--112
+[]\OT1/txr/m/n/12 The fol-low-ing data gives the in-for-ma-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--112
+\OT1/txr/m/n/12 on the ob-served life-times (in hours)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--112
+\OT1/txr/m/n/12 of 225 elec-tri-cal com-po-nents :
+ []
+
+
+Overfull \hbox (149.96423pt too wide) in paragraph at lines 102--112
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--112
+\OT1/txr/m/n/12 Determine the modal life-times of the
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 112--122
+[]\OT1/txr/m/n/12 The fol-low-ing data gives the dis-tri-bu-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--122
+\OT1/txr/m/n/12 of to-tal monthly house-hold ex-pen-di-ture
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 112--122
+\OT1/txr/m/n/12 of 200 fam-i-lies of a vil-lage. Find the
+ []
+
+
+Overfull \hbox (415.67226pt too wide) in paragraph at lines 112--122
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--122
+
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 122--132
+\OT1/txr/m/n/12 teacher-student ra-tio in higher sec-ondary
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 122--132
+\OT1/txr/m/n/12 of this data. In-ter-pret the two mea-sures.
+ []
+
+
+Overfull \hbox (263.39241pt too wide) in paragraph at lines 122--132
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--132
+
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 132--142
+[]\OT1/txr/m/n/12 The given dis-tri-bu-tion shows the num-ber
+ []
+
+
+Overfull \hbox (419.88432pt too wide) in paragraph at lines 132--142
+[] 
+ []
+
+
+Overfull \hbox (179.00826pt too wide) in paragraph at lines 142--153
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--153
+
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 153--163
+[]\OT1/txr/m/n/12 The fol-low-ing fre-quency dis-tri-bu-tion gives
+ []
+
+
+Overfull \hbox (290.1843pt too wide) in paragraph at lines 153--163
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--163
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 163--171
+[]\OT1/txr/m/n/12 If the me-dian of the dis-tri-bu-tion given
+ []
+
+
+Overfull \hbox (124.51215pt too wide) in paragraph at lines 163--171
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--171
+
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 171--181
+\OT1/txr/m/n/12 years on wards but less than 60 year.
+ []
+
+
+Overfull \hbox (470.75702pt too wide) in paragraph at lines 171--181
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--181
+
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 181--194
+[]\OT1/txr/m/n/12 The lengths of 40 leaves of a plant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--194
+\OT1/txr/m/n/12 are mea-sured cor-rect to the near-est
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--194
+\OT1/txr/m/n/12 mil-lime-tre, and the data ob-tained is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--194
+\OT1/txr/m/n/12 rep-re-sented in the fol-low-ing ta-ble :
+ []
+
+
+Overfull \hbox (293.66025pt too wide) in paragraph at lines 181--194
+[] 
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 181--194
+\OT1/txr/m/n/12 classes for find-ing the me-dian, since the
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 181--194
+\OT1/txr/m/n/12 for-mula as-sumes con-tin-u-ous classes. The
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 194--203
+[]\OT1/txr/m/n/12 The fol-low-ing ta-ble gives the dis-tri-bu-tion
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 194--203
+\OT1/txr/m/n/12 of the life time of 400 neon lamps :
+ []
+
+
+Overfull \hbox (333.49231pt too wide) in paragraph at lines 194--203
+[] 
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 203--215
+[]\OT1/txr/m/n/12 100 sur-names were ran-domly picked up
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--215
+\OT1/txr/m/n/12 from a lo-cal tele-phone di-rec-tory and
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 203--215
+\OT1/txr/m/n/12 the fre-quency dis-tri-bu-tion of the num-ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--215
+\OT1/txr/m/n/12 of let-ters in the En-glish al-pha-bets in
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 203--215
+\OT1/txr/m/n/12 the sur-names was ob-tained as fol-lows:
+ []
+
+
+Overfull \hbox (100.22023pt too wide) in paragraph at lines 203--215
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--225
+[]\OT1/txr/m/n/12 The dis-tri-bu-tion be-low gives the
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 215--225
+\OT1/txr/m/n/12 weights of 30 stu-dents of a class. Find
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--225
+\OT1/txr/m/n/12 the me-dian weight of the stu-dents.
+ []
+
+
+Overfull \hbox (164.62823pt too wide) in paragraph at lines 215--225
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--225
+
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 225--235
+[]\OT1/txr/m/n/12 The fol-low-ing dis-tri-bu-tion gives the daily
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--235
+\OT1/txr/m/n/12 in-come of 50 work-ers of a fac-tory.
+ []
+
+
+Overfull \hbox (170.0203pt too wide) in paragraph at lines 225--235
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Overfull \hbox (485.53743pt too wide) in paragraph at lines 235--246
+[] 
+ []
+
+
+Overfull \hbox (156.17621pt too wide) in paragraph at lines 246--255
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--255
+
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
+ [17
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
  (./gvv_ncert_prob.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 325.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
-
-
-Package rerunfilecheck Warning: File `gvv_ncert_prob.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gvv_ncert_prob.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  D87C7BB41B95A45281BE2894D34AF33C;161.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Package rerunfilecheck Info: File `gvv_ncert_prob.out' has not changed.
+(rerunfilecheck)             Checksum: 3372367821B30397DEF69247E0A35D01;321.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
  ) 
 Here is how much of TeX's memory you used:
- 31845 strings out of 492624
- 685058 string characters out of 6119216
- 889991 words of memory out of 5000000
- 35165 multiletter control sequences out of 15000+600000
+ 31984 strings out of 492624
+ 687894 string characters out of 6119216
+ 892649 words of memory out of 5000000
+ 35288 multiletter control sequences out of 15000+600000
  77739 words of font info for 194 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,8n,69p,606b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_prob.dvi (10 pages, 89980 bytes).
+Output written on gvv_ncert_prob.dvi (17 pages, 152176 bytes).
