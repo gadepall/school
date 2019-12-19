@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  17 DEC 2019 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  19 DEC 2019 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1456,13 +1456,13 @@ File: tlc.eps Graphic file (type eps)
 \tf@toc=\write5
 \openout5 = `gvv_ncert_comp.toc'.
 
- (./triangle/tri_exam.tex [1
+ (./triangle/tri_exam.tex
+File: ./triangle/figs/check_tri.eps Graphic file (type eps)
+
+<./triangle/figs/check_tri.eps> [1
 
 
 ]
-File: ./triangle/figs/check_tri.eps Graphic file (type eps)
-
-<./triangle/figs/check_tri.eps>
 
 LaTeX Warning: Reference `eq:tri_const_norm_ac' on page 2 undefined on input li
 ne 133.
@@ -1472,41 +1472,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--149
 \OT1/txr/m/n/12 after sim-pli-fi-ca-tion. From [] and
  []
 
-[2]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
 File: ./triangle/figs/triangle_3d.eps Graphic file (type eps)
- <./triangle/figs/triangle_3d.eps>) (./triangle/tri_geo.tex
+
+<./triangle/figs/triangle_3d.eps>) (./triangle/tri_geo.tex
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 15.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 15.
 
-[3]) (./quad/quad_geo_exam.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [3])
+(./quad/quad_geo_exam.tex
 File: ./triangle/figs/quad_3d.eps Graphic file (type eps)
-
-<./triangle/figs/quad_3d.eps>) (./quad/quad_geo.tex) (./line/line_exam.tex
+ <./triangle/figs/quad_3d.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [4])
+(./quad/quad_geo.tex) (./line/line_exam.tex [5]
 File: ./line/figs/line_zeros.eps Graphic file (type eps)
-
-<./line/figs/line_zeros.eps>
-Underfull \vbox (badness 3179) has occurred while \output is active []
+ <./line/figs/line_zeros.eps>
+Underfull \vbox (badness 6300) has occurred while \output is active []
 
 File: ./line/figs/line_icept.eps Graphic file (type eps)
 
-<./line/figs/line_icept.eps> [6]
+<./line/figs/line_icept.eps>
+Underfull \vbox (badness 7433) has occurred while \output is active []
+
+ [6]
 Underfull \hbox (badness 3098) in paragraph at lines 145--151
 [] \OT1/txr/m/n/12 has no so-lu-tion. The equiv-a-lent
  []
 
 File: ./line/figs/line_check_sol.eps Graphic file (type eps)
 <./line/figs/line_check_sol.eps>
+Underfull \vbox (badness 3536) has occurred while \output is active []
+
 File: ./line/figs/line_check_sol2.eps Graphic file (type eps)
- <./line/figs/line_check_sol2.eps>
+
+<./line/figs/line_check_sol2.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
@@ -3594,220 +3604,40 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 355.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65])
-(./curves/curves_exam.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [68])
-(./curves/curves_exer.tex
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 34.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 34.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 35.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 35.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 35.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 37.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 37.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 60.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 88.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 93.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [69]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [70]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 400.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [71]
-Underfull \hbox (badness 6792) in paragraph at lines 439--443
-\OT1/txr/m/n/12 What is $[][] \OML/txmi/m/it/12 f\OT1/txr/m/n/12 (\OML/txmi/m/i
-t/12 x\OT1/txr/m/n/12 )$? For some $\OML/txmi/m/it/12 a \U/txsyc/m/n/12 ,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72]
-Underfull \hbox (badness 10000) in paragraph at lines 1214--1216
-[]\OT1/txr/m/n/12 For the dif-fer-en-tial equa-tion $\OML/txmi/m/it/12 xyy[] \O
-T1/txr/m/n/12 =
- []
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 1216.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 1217.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73])
 (./misc/misc_exer.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74]
+ [66]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 36.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 61.
 
-[75]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./calculus/calculus_exam.tex [76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [78])
-(./calculus/calculus_exer.tex
-Underfull \hbox (badness 10000) in paragraph at lines 608--614
-[]\OT1/txr/m/n/12 Differentiate $[] []$ in
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [79]
-Underfull \hbox (badness 8000) in paragraph at lines 819--820
-[]\OT1/txr/m/n/12 Find $[]$, if $\OML/txmi/m/it/12 y \OT1/txr/m/n/12 = 12 [] \O
-ML/txmi/m/it/12 ; x \OT1/txr/m/n/12 =
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 845--854
-[]\OT1/txr/m/n/12 if $\OML/txmi/m/it/12 x \OT1/txr/m/n/12 = \OML/txmi/m/it/12 a
- []$ \OT1/txr/m/n/12 and $\OML/txmi/m/it/12 y \OT1/txr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 855--856
-[]\OT1/txr/m/n/12 Using math-e-mat-i-cal in-duc-tion, prove that
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [80]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83]
-Overfull \hbox (3.85269pt too wide) in paragraph at lines 1341--1348
-[]$[][]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1389--1390
-[]$[] \OML/txmi/m/it/12 y dx \OT1/txr/m/n/12 =
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84])
+[67]) [68]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
-
-[85
-
-]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
  (./gvv_ncert_comp.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 373.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
 Package rerunfilecheck Info: File `gvv_ncert_comp.out' has not changed.
-(rerunfilecheck)             Checksum: 82BF34A0C68DF3C5A06593363206543C;2039.
+(rerunfilecheck)             Checksum: A43D82B28A89E1CF71F75747C73FD9DE;1719.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
- 32152 strings out of 492624
- 691341 string characters out of 6119216
+ 32132 strings out of 492624
+ 690979 string characters out of 6119216
  909449 words of memory out of 5000000
- 35367 multiletter control sequences out of 15000+600000
+ 35361 multiletter control sequences out of 15000+600000
  78167 words of font info for 195 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,23n,69p,506b,1163s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_comp.dvi (85 pages, 1171296 bytes).
+Output written on gvv_ncert_comp.dvi (68 pages, 860616 bytes).
