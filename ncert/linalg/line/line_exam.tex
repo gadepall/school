@@ -2231,24 +2231,48 @@ The line  crosses the XY plane for $x_3 = 0 \implies \lambda = -\frac{1}{5}$. Th
 \end{align}
 %
 \item Show that the function given by $f(x) = 7x – 3$ is increasing on $\vec{R}$.
+\\
 \solution A function is said to be increasing if
 \begin{align}
-x_2> x_1 \implies f(x_2)> f(x_1)
+x_2> x_1 &\implies f(x_2)> f(x_1)
+\\
+\implies \frac{f(x_2)-f(x_1)}{x_2 - x_1}  &> 0
+\label{eq:line_inc_12}
 \end{align}
 %
+Letting $x_1 = x, x_2 = x+h$ in \label{eq:line_inc_12}, this results in 
 \begin{align}
-\because  f(x_2)- f(x_1) = 7\brak{x_2-x_1}> 0,
+\frac{f(x+h)-f(x)}{h} > 0
+\label{eq:line_slope}
+\end{align}
+In the given problem, 
+\begin{align}
+\frac{f(x+h)-f(x)}{h} = 7 > 0
 \end{align}
 %
-the given function is increasing.
+Hence, the given function is increasing.
+%
+%
+\item A funcion $f(x)$ is increasing if 
+\begin{align}
+f^{\prime}(x)=\lim_{h\to 0} \frac{f(x+h)-f(x)}{h} & > 0
+\end{align}
+%
+$f^{\prime}(x)$ is defined as the {\em derivative} of $f(x)$.
+The function is decreasing if $f^{\prime}(x) < 0$.  
+%
+\item The funcion $f(x) = ax+b, a \ne 0$ is increasing if $f^{\prime}(x) = a > 0$.  Else, it is decreasing.
+\label{them:line_inc }
+%
+
 \item Find the maximum and minimum values, if any, of the function given by 
 %
 \begin{align}
+\label{eq:line_der_def_prob}
 f(x) = x, x \in \brak{0,1}.
 \end{align}
 %
-%\item 
-%
+\solution It is easy to verify that $f^{\prime}(x) = 1 > 0$ in the given interval.    Hence, the function is increasing.   The maximum value in the given interval is 1 and the minimum value is 0.
 %
 \item Find all points of local maxima and local minima of the function $f$ given by 
 %
@@ -2256,6 +2280,7 @@ f(x) = x, x \in \brak{0,1}.
 f(x)  = 3 +\abs{x}, \quad x \in \vec{R}
 \end{align}
 %
+\solution 
 \item Sketch the graph of $y = \abs{x+3}$ and evaluate its area for $-6 \le x \le 0$.
 \item Check the continuity of the function $f$ given by $f(x) = 2x + 3 at x = 1$.
 \item Discuss the continuity of the function $f$ given by $f(x) = \abs{ x}$ at $x = 0$.
