@@ -2254,6 +2254,7 @@ Hence, the given function is increasing.
 %
 %
 \item A funcion $f(x)$ is increasing if 
+\label{them:inc_der_def}
 \begin{align}
 f^{\prime}(x)=\lim_{h\to 0} \frac{f(x+h)-f(x)}{h} & > 0
 \end{align}
@@ -2277,26 +2278,128 @@ f(x) = x, x \in \brak{0,1}.
 \item Find all points of local maxima and local minima of the function $f$ given by 
 %
 \begin{align}
+\label{eq:line_abs}
 f(x)  = 3 +\abs{x}, \quad x \in \vec{R}
 \end{align}
 %
-\solution 
-\item Sketch the graph of $y = \abs{x+3}$ and evaluate its area for $-6 \le x \le 0$.
-\item Check the continuity of the function $f$ given by $f(x) = 2x + 3 at x = 1$.
-\item Discuss the continuity of the function $f$ given by $f(x) = \abs{ x}$ at $x = 0$.
-\item Check the points where the constant function $f(x) = k$ is continuous.
-\item Prove that the function $f(x) = x$ is continuious at every real number.
-\item Is $f(x) = \abs{x}$ a continuous function?
-\item Discuss the continuity of the function $f$ defined by 
+\solution \eqref{eq:line_abs} can be expressed as 
 %
 \begin{align}
+\label{eq:line_abs_cases}
 f(x)  = 
 \begin{cases}
-x+2 & x \le 1
+3 +x & x > 0
 \\
-x-2 & x > 1
+0 & x = 0
+\\
+3- x & < 0
 \end{cases}
 \end{align}
+%
+From \eqref{them:line_inc}, 
+%
+\begin{align}
+\label{eq:line_abs_cases}
+f^{\prime}(x)  = 
+\begin{cases}
+1 & x > 0
+\\
+-1 & x < 0
+\end{cases}
+\end{align}
+%
+Thus, $f(x)$ is increasing in $\brak{0, \infty}$ and decreasing in $\brak{-\infty, 0}$.  It is obvious that the minimum value of $f(x) = 0$.
+%
+\item Sketch the graph of $y = \abs{x+3}$ and evaluate its area for $-6 \le x \le 0$.
+\\
+\solution Fig. \ref{} shows 
+\begin{align}
+\label{eq:tri_area_lim_abs}
+y_1 &= \abs{x+3}, -6 \le x \le 0
+\\
+y_2 &= \abs{x}, -3 \le x \le 3
+\\
+y_3 &= x, 0 < x < 3
+\\
+\implies ar\brak{y_1} &= ar\brak{y_2} = 2ar\brak{y_3}
+\end{align}
+%8
+From Fig. \ref{}, 
+%
+\begin{align}
+ar\brak{y_3} &= h\brak{h + 2h+ 3h + \dots + nh}, \quad nh = 3
+\\
+&=h^2\brak{1+2+3+\dots n}= h^2\sum_{k=1}^{n}k 
+\label{eq:tri_area_lim}
+\end{align}
+%
+Let 
+%
+\begin{align}
+S_n&=1+2+3+\dots n
+\\
+\implies S_n &= n + n-1 + n-2 + \dots 1
+\end{align}
+\begin{multline}
+\implies 2S_n = \brak{n+1 } + \brak{n+1 }+\dots + \brak{n+1 }  
+\\
+n \text{ times}
+\end{multline}
+\\
+\begin{align}
+\implies 2S_n &= n\brak{n+1}
+\\
+\text{or, } S_n &= \frac{n\brak{n+1}}{2}
+\label{eq:sum_nat_num}
+\end{align}
+%
+Substituting \eqref{eq:sum_nat_num} in \eqref{eq:tri_area_lim},
+\begin{align}
+ar\brak{y_3} &= \frac{nh\brak{nh+h}}{2}
+\\
+&= \frac{3\brak{3+h}}{2}
+\\
+\text{or, } ar\brak{y_3} &= \lim_{h\to 0}ar\brak{y_3} = \frac{9}{2}
+\label{eq:tri_area_lim_y3}
+\end{align}
+%
+This result agrees with the area of a triangle calculated using the base and altitude.
+Thus, from \eqref{eq:tri_area_lim_y3} and \eqref{eq:tri_area_lim_abs},
+\begin{align}
+ar\brak{y_1} = 2ar\brak{y_3}  = 9
+\end{align}
+%
+\item Check the continuity of the function $f$ given by $f(x) = 2x + 3$ at $x = 1$.
+\\
+\solution See Fig. \ref{}
+\begin{align}
+\because f(1+h) &= 2\brak{1+h}+3 = 5+h
+\\
+f(1) &= 5
+\\
+f(1-h) &= 2\brak{1+h}+3 = 5-h
+\\
+\lim_{h\to 0}f(1+h) &= f(1) = f(1-h) = 5
+\end{align}
+%
+Hence, the function is continuous.
+%
+\item A function $f(x)$ is defined to be {\em continuous} at $x = a$ if 
+\begin{align}
+\label{eq:continuity}
+\lim_{h\to 0}f(a+h) &= f(a) = f(a-h) 
+\end{align}
+It is possible to draw a continuious function $f(x)$ without lifting a pencil.  
+\item Discuss the continuity of the function $f$ given by $f(x) = \abs{ x}$ at $x = 0$.
+\\
+\solution See Fig. \ref{}.  It appears to be continuous. To prove this, we note that 
+\begin{align}
+\lim_{h\to 0}f(0+h) &= f(0) = f(0-h)  = 0
+\end{align}
+%
+\item Check the points where the constant function $f(x) = k$ is continuous.
+\\
+\solution $f(x)$ is continuous everywhere.
 %
 \item Find all the points of discontinuity of the function $f$ defined by 
 %
@@ -2310,6 +2413,12 @@ x+2 & x < 1
 x-2 & x > 1
 \end{cases}
 \end{align}
+\solution From  Fig. \ref{},  the discontinuity appears to be at $x = 1$ and verified by the fact that
+%
+\begin{align}
+\because f(1-h) = 3 \ne f(1) \ne f(1+h),
+\end{align}
+%
 \item Discuss the continuity of the function $f$ defined by 
 %
 \begin{align}
@@ -2320,7 +2429,8 @@ x+2 & x < 0
 -x+2 & x > 0
 \end{cases}
 \end{align}
-
+%
+The function is not defined at $x = 0$, so it is discontinuous at that point.  At all other points it is continuious.
 \item Show that the function $f$ defined by 
 %
 \begin{align}
@@ -2328,38 +2438,48 @@ f(x)  = \abs{1-x+\abs{x}},
 \end{align}
 %
 where $x$ is any real number, is a continuous function.
-\item Find $\lim_{x\to 5} x+10$
-\item Find $\lim_{x\to 2} 3x$
-\item Find $\lim_{x\to 0}f(x)$ where
+\\
+\solution The sum of continuous functions is continuous.
+\item If 
+\label{def:dydx}
 %
 \begin{align}
-f(x)  = 
-\begin{cases}
-1 & x \le 0
-\\
-2 & x > 0
-\end{cases}
+y = f(x), \frac{dy}{dx} = f^{\prime}\brak{x}
 \end{align}
-\item Find $\lim_{x\to 0}f(x)$ where
 %
-\begin{align}
-f(x)  = 
-\begin{cases}
-x-2 & x < 0
-\\
-0 & x = 0
-\\
-x+2 & x > 0
-\end{cases}
-\end{align}
-
-
 \item Find $\frac{dy}{dx}$ if $x-y = \pi$.
+%
+\\
+\solution 
+%
+\begin{align}
+\because y &= f(x) = x -\pi, 
+\end{align}
+%
+from Theorem \ref{them:line_inc},
+%
+\begin{align}
+\frac{dy}{dx} = 1.
+\end{align}
+%
 \item Find the derivative at $x = 2$ of the function $f(x) = 3$.
+\\
+\solution The derivative is 0.
 \item Find the derivative of $f(x) = 3$ at $x = 0$ and $x = 3$.
+\\
+\solution $\frac{dy}{dx}=0$.
 \item Find the derivative of $f(x) = 10x$.
+\\
+\solution $\frac{dy}{dx}=10$.
 \item Find the derivative of $f(x) =a$ for a fixed real number $a$.
 %
-\item Form the differential equation representing the family of curves $y = mx$, where, $m$ is an arbitrary constant.
-
+\\
+\solution $\frac{dy}{dx}=0$.
+\item Form the {\em differential equation} representing the family of curves $y = mx$, where, $m$ is an arbitrary constant.
+\solution The desired equation is 
+%
+\begin{align}
+\frac{dy}{dx} = m
+\end{align}
+%
 \end{enumerate}

@@ -63,18 +63,18 @@
 %
 %
 \item The base of an equilateral triangle with side $2a$ lies along the y-axis such that the mid-point of the base is at the origin. Find vertices of the triangle.
-\item Find the distance between $\vec{P}= \myvec{x_1\\ y_1}$ and $\vec{Q} =\myvec{x_2\\ y_2}$ when
+\item Find the distance between $\vec{P}= \myvec{x_1 y_1}$ and $\vec{Q} =\myvec{x_2 y_2}$ when
 \begin{enumerate}
 \item PQ is parallel to the y-axis.
 \item PQ is parallel to the x-axis.
 \end{enumerate}
-\item If three points \myvec{h\\ 0}, \myvec{a\\ b} and \myvec{0\\ k} lie on a line, show that
+\item If three points \myvec{h 0}, \myvec{a b} and \myvec{0 k} lie on a line, show that
 $\frac{a}{h}+\frac{b}{k}= 1$.
-\item $\vec{P}=\myvec{a\\ b}$ is the mid-point of a line segment between axes. Show that equation of the line is
+\item $\vec{P}=\myvec{a b}$ is the mid-point of a line segment between axes. Show that equation of the line is
 \begin{align}
 \myvec{\frac{1}{a} & \frac{1}{b}}\vec{x} = 2
 \end{align}
-\item  Point $\vec{R}= \myvec{h\\ k}$ divides a line segment between the axes in the ratio 1: 2. Find equation of the line.
+\item  Point $\vec{R}= \myvec{h k}$ divides a line segment between the axes in the ratio 1: 2. Find equation of the line.
 \item Show that two lines 
 \begin{align}
 \myvec{a_1 & b_1}\vec{x} +c_1&= 0
@@ -140,7 +140,7 @@ is
 \item passing through the origin.
 \end{enumerate}
 %
-\item Find the perpendicular distance from the origin to the line joining the points \myvec{\cos\theta\\\sin\theta} and \myvec{\cos\phi\\ \sin \phi}.
+\item Find the perpendicular distance from the origin to the line joining the points \myvec{\cos\theta\sin\theta} and \myvec{\cos\phi \sin \phi}.
 \item Find the area of the triangle formed by the lines
 %
 \begin{align}
@@ -174,7 +174,7 @@ m_3\brak{c_1-c_2} = 0
 \myvec{-m & 1}\vec{x} &= c
 \end{align}
 %
-\item Prove that the product of the lengths of the perpendiculars drawn from the points $\myvec{\sqrt{a^2-b^2}\\0}$ and $\myvec{\sqrt{a^2-b^2}\\0}$ to the line 
+\item Prove that the product of the lengths of the perpendiculars drawn from the points $\myvec{\sqrt{a^2-b^2}0}$ and $\myvec{\sqrt{a^2-b^2}0}$ to the line 
 %
 \begin{align}
 \myvec{\frac{\cos\theta}{a} & \frac{\sin\theta}{b}}\vec{x} &= 1
@@ -184,15 +184,15 @@ is $b^2$.
 
 \item If 
 $
-\myvec{l_1\\m_1\\n_1}
+\myvec{l_1m_1n_1}
 $
 and
 $
-\myvec{l_2\\m_2\\n_2}
+\myvec{l_2m_2n_2}
 $
 are the unit direction vectors of two mutually perpendicular lines, the shown that the unit direction vector of the line perpendicular to both of these is
 $
-\myvec{m_1n_2-m_2n_1\\n_1l_2-n_2l_1\\l_1m_2-l_2m_1}.
+\myvec{m_1n_2-m_2n_1n_1l_2-n_2l_1l_1m_2-l_2m_1}.
 $
 \item A line makes angles $\alpha, \beta, \gamma, \delta$ with the diagonals of a cube, prove that \begin{align}
 \cos^2\alpha + \cos^2\beta + \cos^2\gamma +\cos^2\delta = \frac{4}{3}.
@@ -231,7 +231,7 @@ externally in the ratio $1:2$.
 and the angle between $\vec{a}$ and $\vec{b}$ is $60\degree$.
 \item Show that 
 \begin{align}
-\brak{\norm{\vec{a}}\vec{b}+\norm{\vec{b}}\vec{a}}\perp \brak{\norm{\vec{a}}\vec{b}-\norm{\vec{b}}\vec{a}}
+\brak{\norm{\vec{a}}\vec{b}+\norm{\vec{b}}\vec{a}}\perp \brak{\norm{\vec{a}}\vec{b}-\norm{\vec{b}}\vec{a}}\\
 \end{align}
 \item If $\vec{a}^T\vec{a}=0$ and  $\vec{a}\vec{b}=0$, what can be concluded about the vector $\vec{b}$?
 \item If $\vec{a},\vec{b},\vec{c}$ are unit vectors such that 
@@ -302,9 +302,9 @@ $\norm{\vec{a}^T\vec{b}} = \norm{\vec{a} \times \vec{b}}$ when $\theta$ is equal
 \item $\pi$.
 \end{multicols}
 \end{enumerate}
-\item Find the angle between the lines whose direction vectors are $\myvec{a\\b\\c}$ and $\myvec{b-c\\c-a\\a-b}$.
+\item Find the angle between the lines whose direction vectors are $\myvec{abc}$ and $\myvec{b-cc-aa-b}$.
 \item Find the equation of a line parallel to the x-axis and passing through the origin.
-\item Find the equation of a plane passing through \myvec{a\\b\\c} and parallel to the plane 
+\item Find the equation of a plane passing through \myvec{abc} and parallel to the plane 
 %
 \begin{align}
 \myvec{1 & 1 & 1}\vec{x}{x}&=2
@@ -314,6 +314,25 @@ $\norm{\vec{a}^T\vec{b}} = \norm{\vec{a} \times \vec{b}}$ when $\theta$ is equal
 \begin{align}
 \frac{1}{a^2}+\frac{1}{b^2}+\frac{1}{c^2}=\frac{1}{p^2} 
 \end{align}
-
+     \item In an experiment, a solution of hydrochloric acid is to be kept between 30$\degree$ and 35$\degree$ Celsius. What is the range of temperature in degree Fahrenheit if conversion formula is given by 
+     C = $\frac{5}{9}(F-32)$, where C and F represent temperature in degree Celsius and degree Fahrenheit, respectively.
+     \item A manufacturer has 600 litres of a 12$\%$ solution of acid. How many litres of a 30$\%$ acid solution must be added to it so that acid content in the resulting mixture will be more than 15$\%$ but less than 18$\%$?
+    \item Ravi obtained 70 and 75 marks in first two unit test. Find the minimum marks he should get in the third test to have an average of at least 60 marks.
+    \item To receive Grade A in a course, one must obtain an average of 90 marks or more in five examinations (each of 100 marks). If Sunita’s marks in first four examinations are 87, 92, 94 and 95, find minimum marks that Sunita must obtain in fifth examination to get grade ‘A’ in the course.
+    \item Find all pairs of consecutive odd positive integers both of which are smaller than 10 such that their sum is more than 11.
+    \item Find all pairs of consecutive even positive integers, both of which are larger than 5 such that their sum is less than 23.
+    \item A man wants to cut three lengths from a single piece of board of length 91cm.The second length is to be 3cm longer than the shortest and the third length is to be twice as long as the shortest. What are the possible lengths of the shortest board if the third piece is to be at least 5cm longer than the second?
+    \item A solution is to be kept between 68$\degree$F and 77$\degree$F. What is the range in temperature in degree Celsius(C) if the Celsius / Fahrenheit(F) conversion formula is given by
+    F= $\frac{9}{5}$ C+32?
+    \item A solution of 8$\%$ boric acid is to be diluted by adding a 2$\%$ boric acid solution to
+it. The resulting mixture is to be more than 4$\%$ but less than 6$\%$ boric acid. If we have
+640 litres of the 8$\%$ solution, how many litres of the 2$\%$ solution will have to be added?
+    \item How many litres of water will have to be added to 1125 litres of the 45$\%$ solution
+of acid so that the resulting mixture will contain more than 25$\%$ but less than 30$\%$ acid
+content?
+    \item IQ of a person is given by the formula
+            IQ = $\frac{MA}{CA}\times 100$,
+    where MA is mental age and CA is chronological age.If 80 $\leq$ IQ $\leq$ 140 for a group of
+12 years old children, find the range of their mental age.
 %
 \end{enumerate}
