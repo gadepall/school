@@ -23,31 +23,74 @@ If $x$ is a natural number, $x \in \cbrak{1, 2, 3, 4, 5, 6}$. If $x$ is an integ
 \label{eq:lineq_real}
 \end{align}
 %
-If $x$ is real, then $x \in \brak{-\infty, 2}$. Fig. \ref{} provides a graphical solution using the following python code
+If $x$ is real, then $x \in \brak{-\infty, 2}$. 
+%Fig. \ref{} provides a graphical solution using the following python code
+%\begin{lstlisting}
+%\end{lstlisting}
+    \item Solve the following system of linear inequalities graphically.
+\begin{align}
+\label{eq:line_two_ineq}
+\begin{split}
+    x+y &\geq 5
+\\
+    x-y &\leq 3
+\end{split}
+\end{align}
+\solution  Let $u_1 \ge 0, u_2 \ge 0$.  This may be expressed as
+\begin{align}
+\vec{u} = \myvec{u_1\\u_2}\succeq \vec{0}
+\end{align}
+%
+\eqref{eq:line_two_ineq} can then be expressed as
+\begin{align}
+\begin{split}
+    x+y &\geq 5
+\\
+    -x+y &\geq -3
+\end{split}
+%
+\\
+\implies 
+\myvec{1 & 1 \\ -1 & 1}\vec{x}  &\succeq \myvec{5\\-3}
+\\
+\myvec{1 & 1 \\ -1 & 1}\vec{x}  -\vec{u}&=\myvec{5\\-3}
+\\
+\text{or, }
+\myvec{1 & 1 \\ -1 & 1}\vec{x} &= \myvec{5\\-3} +\vec{u}
+\end{align}
+%
+resulting in 
+\begin{align}
+\vec{x} &= \myvec{1 & 1 \\ -1 & 1}^{-1}\myvec{5\\-3} +\myvec{1 & 1 \\ -1 & 1}^{-1}\vec{u}
+\\
+\text{or, } \vec{x} &= \myvec{4\\1} +\frac{1}{2}\myvec{1 & -1 \\ 1 & 1}\vec{u}
+\end{align}
+%
+after obtaining the  inverse.
+%
+ Fig. \ref{fig:line_ineq} generated using the following python code shows the region satisfying \eqref{eq:line_two_ineq}
+
 \begin{lstlisting}
+codes/line/line_ineq
 \end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_ineq.eps}
+\caption{}
+\label{fig:line_ineq}
+\end{figure}
+%
 \item   Solve    $x+y < 5$ graphically.
 \\
 \solution  See Fig. \ref{} generated using the following python code
 \begin{lstlisting}
 \end{lstlisting}
-    \item Solve the following system of linear inequalities graphically.
-\begin{align}
-    x+y &\geq 5
+%
+    \item Solve $3x+2y \leq 150, x+4y \leq 80, x \leq 15, y \geq 0,
+    x \geq 0$ graphically.    
 \\
-    x-y &\leq 3
-\label{eq:lineq_real}
-\end{align}
-\solution  See Fig. \ref{} generated using the following python code
-\begin{lstlisting}
-\end{lstlisting}
-\item Solve  x $\geq$ 3, y $\geq$ 2 graphically.
-\solution  See Fig. \ref{} generated using the following python code
-\begin{lstlisting}
-\end{lstlisting}
-    \item Solve 3x+2y $\leq$ 150, x+4y $\leq$ 80, x $\leq$ 15, y $\geq$ 0,
-    x $\geq$ 0 graphically.    
-\solution  See Fig. \ref{} generated using the following python code
+\solution  
+See Fig. \ref{} generated using the following python code
 \begin{lstlisting}
 \end{lstlisting}
    

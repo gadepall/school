@@ -296,9 +296,19 @@ svn co https://github.com/gadepall/school/trunk/ncert/probability/codes
 \input{./prob/prob_exer.tex} 
 \section{Statistics}
 \subsection{Examples}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
 \input{./stats/stats_exam.tex} 
+\input{./stats/statexam_pr.tex} 
+\end{enumerate}
 \subsection{Exercises}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
 \input{./stats/stats_exer.tex} 
+\input{./stats/statexer_pr.tex} 
+\end{enumerate}
 \end{document}
 
 
