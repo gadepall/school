@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  22 DEC 2019 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  23 DEC 2019 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1731,11 +1731,11 @@ LaTeX Warning: Reference `them:line_inc' on page 27 undefined on input line 245
 File: ./line/figs/line_ineq.eps Graphic file (type eps)
  <./line/figs/line_ineq.eps>
 
-LaTeX Warning: Reference `' on page 27 undefined on input line 85.
+LaTeX Warning: Reference `' on page 27 undefined on input line 86.
 
 [27]
 
-LaTeX Warning: Reference `' on page 28 undefined on input line 93.
+LaTeX Warning: Reference `' on page 28 undefined on input line 94.
 
 ) (./line/lp_exam.tex
 Underfull \hbox (badness 10000) in paragraph at lines 256--262
@@ -3054,11 +3054,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 483--486
 
  []
 
-
+) (./line/line_misc.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./line/line_misc.tex [56]
+ [56]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3235,4 +3234,4 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  55i,23n,69p,508b,1457s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_linalg.dvi (66 pages, 851584 bytes).
+Output written on gvv_ncert_linalg.dvi (66 pages, 851644 bytes).
