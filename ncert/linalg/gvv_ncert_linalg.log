@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  26 DEC 2019 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  26 DEC 2019 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1743,25 +1743,29 @@ LaTeX Warning: Reference `' on page 28 undefined on input line 110.
 LaTeX Warning: Reference `' on page 28 undefined on input line 129.
 
 ) (./line/lp_exam.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-Underfull \hbox (badness 1642) in paragraph at lines 91--97
+LaTeX Warning: Reference `eq:lp_constr' on page 28 undefined on input line 26.
+
+
+LaTeX Warning: Reference `' on page 28 undefined on input line 26.
+
+[28]
+Underfull \hbox (badness 1642) in paragraph at lines 95--101
 \OT1/txr/m/n/12 Food `I' and Rs 70 per kg to pur-chase
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--112
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
@@ -1769,32 +1773,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--112
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--119
+Underfull \hbox (badness 10000) in paragraph at lines 116--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--125
+Underfull \hbox (badness 10000) in paragraph at lines 123--129
 
  []
 
 
-Overfull \hbox (31.70001pt too wide) in paragraph at lines 126--138
+Overfull \hbox (31.70001pt too wide) in paragraph at lines 130--142
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
 
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 142--158
+Underfull \hbox (badness 2351) in paragraph at lines 146--162
 []\OT1/txr/bx/n/12 (Transportation prob-lem) \OT1/txr/m/n/12 There are two
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--158
+Underfull \hbox (badness 10000) in paragraph at lines 146--162
 
  []
 
@@ -3198,12 +3202,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 32154 strings out of 492624
- 691445 string characters out of 6119216
+ 32155 strings out of 492624
+ 691459 string characters out of 6119217
  913544 words of memory out of 5000000
- 35385 multiletter control sequences out of 15000+600000
+ 35386 multiletter control sequences out of 15000+600000
  78167 words of font info for 195 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,23n,69p,508b,1457s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_linalg.dvi (66 pages, 859084 bytes).
+Output written on gvv_ncert_linalg.dvi (66 pages, 859220 bytes).
