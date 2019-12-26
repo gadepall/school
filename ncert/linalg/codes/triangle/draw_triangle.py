@@ -24,7 +24,7 @@ q = np.sqrt(c**2-p**2)
 A = np.array([p,q]) 
 B = np.array([0,0]) 
 C = np.array([a,0]) 
-
+#
 
 #Generating all lines
 x_AB = line_gen(A,B)
@@ -49,9 +49,9 @@ plt.legend(loc='best')
 plt.grid() # minor
 
 #if using termux
-plt.savefig('../figs/triangle.pdf')
-plt.savefig('../figs/triangle.eps')
-subprocess.run(shlex.split("termux-open ../figs/triangle.pdf"))
+plt.savefig('./triangle/figs/triangle_2d.pdf')
+plt.savefig('./triangle/figs/triangle_2d.eps')
+subprocess.run(shlex.split("termux-open ./triangle/figs/triangle_2d.pdf"))
 #else
 #plt.show()
 

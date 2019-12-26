@@ -82,37 +82,49 @@ codes/line/line_ineq
 %
 \item Solve 
 \begin{align}
+\begin{split}
 2x+y \geq 4
 \\ 
 x+y \leq 3
 \\ 
 2x-3y \leq 6
+\end{split}
+\label{eq:line_mult_ineq}
 \end{align}
 %
 \\
-\solution The given system can be expressed as 
-\begin{align}
-\myvec{2 & 1 \\ -1 & -1 \\ -2 & 3}\vec{x}  &\succeq \myvec{4\\-3 \\ -6}
-\end{align}
-%
-and expressed pairwise as
-\begin{align}
-\myvec{2 & 1 \\ -1 & -1 }\vec{x}  &\succeq \myvec{4\\-3 }
-\\
-\myvec{ -1 & -1 \\ -2 & 3}\vec{x}  &\succeq \myvec{-3 \\ -6}
-\\
-\myvec{2 & 1  \\ -2 & 3}\vec{x}  &\succeq \myvec{4\\ -6}
-\end{align}
+\solution  Fig. \ref{fig:line_ineq_mult} generated using the following python code shows the region satisfying \eqref{eq:line_mult_ineq}
 
+\begin{lstlisting}
+codes/line/line_ineq_mult.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_ineq_mult.eps}
+\caption{}
+\label{fig:line_ineq_mult}
+\end{figure}
+%
 \item   Solve    $x+y < 5$ graphically.
 \\
 \solution  See Fig. \ref{} generated using the following python code
 \begin{lstlisting}
 \end{lstlisting}
 %
-    \item Solve $3x+2y \leq 150, x+4y \leq 80, x \leq 15, y \geq 0,
-    x \geq 0$ graphically.    
-\\
+    \item Solve 
+\begin{align}
+\myvec{3 & 2 \\ 1 & 4 \\ 1 & 0 \\ 0 & -1 \\ -1 & 0} \vec{x}\preceq \myvec{150\\80\\15\\0\\0}
+%3x+2y \leq 150
+%\\ 
+%x+4y \leq 80
+%\\ 
+%x \leq 15
+%\\ 
+%y \geq 0
+%\\
+%x \geq 0 
+\end{align}
+%
 \solution  
 See Fig. \ref{} generated using the following python code
 \begin{lstlisting}

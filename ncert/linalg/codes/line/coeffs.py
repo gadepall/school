@@ -8,15 +8,15 @@ def norm_vec(A,B):
   return np.matmul(omat, dir_vec(A,B))
 
 #Generate line points
-def line_gen(A,B):
-  len =10
-  dim = A.shape[0]
-  x_AB = np.zeros((dim,len))
-  lam_1 = np.linspace(0,1,len)
-  for i in range(len):
-    temp1 = A + lam_1[i]*(B-A)
-    x_AB[:,i]= temp1.T
-  return x_AB
+#def line_gen(A,B):
+#  len =10
+#  dim = A.shape[0]
+#  x_AB = np.zeros((dim,len))
+#  lam_1 = np.linspace(0,1,len)
+#  for i in range(len):
+#    temp1 = A + lam_1[i]*(B-A)
+#    x_AB[:,i]= temp1.T
+#  return x_AB
 
 #Generate line intercepts
 def line_icepts(n,c):
@@ -49,14 +49,14 @@ def line_dir_pt(m,A,k1,k2):
 
 
 #Generate line points
-#def line_gen(A,B):
-#  len =10
-#  x_AB = np.zeros((2,len))
-#  lam_1 = np.linspace(0,1,len)
-#  for i in range(len):
-#    temp1 = A + lam_1[i]*(B-A)
-#    x_AB[:,i]= temp1.T
-#  return x_AB
+def line_gen(A,B):
+  len =10
+  x_AB = np.zeros((2,len))
+  lam_1 = np.linspace(0,1,len)
+  for i in range(len):
+    temp1 = A + lam_1[i]*(B-A)
+    x_AB[:,i]= temp1.T
+  return x_AB
 
 #Foot of the Altitude
 def alt_foot(A,B,C):
@@ -68,6 +68,15 @@ def alt_foot(A,B,C):
   p[1] = n@B
   #Intersection
   P=np.linalg.inv(N.T)@p
+  return P
+
+#Intersection of two lines
+def line_intersect(n1,c1,n2,c2):
+  N=np.vstack((n1,n2))
+  p = np.array([c1,c2]) 
+  #Intersection
+  P=np.linalg.inv(N)@p
+#  P=np.linalg.inv(N.T)@p
   return P
 
 #Radius and centre of the circumcircle
