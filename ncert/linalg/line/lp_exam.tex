@@ -50,10 +50,17 @@ to obtain
 \begin{align}
 \vec{x} = \myvec{30\\0}, Z = 120
 \end{align}
+%
+%\begin{figure}[!ht]
+%\includegraphics[width=\columnwidth]{./line/figs/line_ineq.eps}
+%\caption{}
+%\label{fig:line_ineq}
+%\end{figure}
+%
 
 \item Solve
 \begin{align}
-\min_{\vec{x}} Z = \myvec{3 & 9}\vec{x}
+\min_{\vec{x}} Z &= \myvec{3 & 9}\vec{x}
 \\
 s.t. \quad 
 \myvec{
@@ -62,18 +69,27 @@ s.t. \quad
 -1 & -1
 \\
 1 & -1
-\\
--1 & 0
-\\
-0 & -1
 }
-\vec{x} \preceq \myvec{60\\-10\\0\\0\\0}
-\label{eq:lp_constr}
+\vec{x} &\preceq \myvec{60\\-10\\0}
+\\
+\vec{x} &\succeq \vec{0}
+\label{eq:lp_exam_mult}
 \end{align}
-\solution The region in \eqref{eq:lp_constr} is shown in Fig. \ref{}
+\solution The following code
+\begin{lstlisting}
+codes/line/lp_exam_mult.py
+\end{lstlisting}
+%
+is used to obtain
+\begin{align}
+\vec{x} = \myvec{15\\15}, Z = 180
+\end{align}
+
+
+The region in \eqref{eq:lp_constr} is shown in Fig. \ref{}
 \item Solve
 \begin{align}
-\min_{\vec{x}} Z = \myvec{-50 & 20}\vec{x}
+\min_{\vec{x}} Z &= \myvec{-50 & 20}\vec{x}
 \\
 s.t. \quad 
 \myvec{
@@ -82,47 +98,18 @@ s.t. \quad
 -3 & -1
 \\
 2 & -3
-\\
--1 & 0
-\\
-0 & -1
 }
-\vec{x} \preceq \myvec{5\\-3\\12\\0\\0}
+\vec{x} &\preceq \myvec{5\\-3\\12}
+\\
+\vec{x} &\succeq \vec{0}
 \end{align}
 %
-\solution 
-\item Solve
-\begin{align}
-\min_{\vec{x}} Z = \myvec{200 & 500}\vec{x}
-\\
-s.t. \quad 
-\myvec{
--1 & -2
-\\
-3 & 4
-\\
--1 & 0
-\\
-0 & -1
-}
-\vec{x} \preceq \myvec{-10\\24\\0\\0}
-\end{align}
-\item Solve
-\begin{align}
-\min_{\vec{x}} Z = \myvec{3 & 2}\vec{x}
-\\
-s.t. \quad 
-\myvec{
--1 & -1
-\\
-3 & 5
-\\
--1 & 0
-\\
-0 & -1
-}
-\vec{x} \preceq \myvec{-8\\15\\0\\0}
-\end{align}
+\solution The following code 
+\begin{lstlisting}
+codes/line/lp_exam_nosol.py
+\end{lstlisting}
+%
+shows that the given problem has no solution.
 \item\textbf {(Diet problem)}: A dietician wishes to mix two types of foods in such a
 way that vitamin contents of the mixture contain atleast 8 units of vitamin A and 10
 units of vitamin C. Food ‘I’ contains 2 units/kg of vitamin A and 1 unit/kg of vitamin C.
