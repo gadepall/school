@@ -36,6 +36,23 @@ def line_dir_pt(m,A,k1,k2):
     temp1 = A + lam_1[i]*m
     x_AB[:,i]= temp1.T
   return x_AB
+#Generate line points
+
+def line_norm_eq(n,c,k1,k2):
+  len =10
+  dim = n.shape[0]
+  A,B = line_icepts(n,c)
+  m = omat@n
+  m = m/np.norm(m)
+  x_AB = np.zeros((dim,2*len))
+  lam_1 = np.linspace(0,k1,len)
+  lam_2 = np.linspace(0,k2,len)
+  for i in range(len):
+    temp1 = A - lam_1[i]*m
+    x_AB[:,i]= temp1.T
+    temp2 = B + lam_2[i]*m
+    x_AB[:,i+len]= temp2.T
+  return x_AB
 
 #def line_dir_pt(m,A, dim):
 #  len = 10
