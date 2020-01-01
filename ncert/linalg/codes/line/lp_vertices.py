@@ -12,7 +12,34 @@ import subprocess
 import shlex
 #end if
 
+n1 = np.array([1,1]) 
+c1 = 50
+k1 = -2
+k2 = 1
+x_1 =  line_norm_eq(n1,c1,k1,k2)
 
+n2 = np.array([3,1]) 
+c2 = 90
+k1 = -2
+k2 = 1
+x_2 =  line_norm_eq(n2,c2,k1,k2)
+
+n3 = np.array([1,0]) 
+c3 = 0
+k1 = -2
+k2 = 1
+x_2 =  line_norm_eq(n2,c2,k1,k2)
+
+n4 = np.array([0,1]) 
+c4 = 0
+k1 = -2
+k2 = 1
+x_2 =  line_norm_eq(n2,c2,k1,k2)
+
+plt.plot(x_1[0,:],x_1[1,:],label='line 1')
+plt.plot(x_2[0,:],x_2[1,:],label='line 2')
+plt.plot(x_3[0,:],x_3[1,:],label='line 3')
+plt.plot(x_4[0,:],x_4[1,:],label='line 4')
 
 #Lines
 #n1 = np.array([1,2]) 

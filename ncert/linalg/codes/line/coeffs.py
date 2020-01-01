@@ -41,17 +41,24 @@ def line_dir_pt(m,A,k1,k2):
 def line_norm_eq(n,c,k1,k2):
   len =10
   dim = n.shape[0]
-  A,B = line_icepts(n,c)
   m = omat@n
-  m = m/np.norm(m)
-  x_AB = np.zeros((dim,2*len))
-  lam_1 = np.linspace(0,k1,len)
-  lam_2 = np.linspace(0,k2,len)
-  for i in range(len):
-    temp1 = A - lam_1[i]*m
-    x_AB[:,i]= temp1.T
-    temp2 = B + lam_2[i]*m
-    x_AB[:,i+len]= temp2.T
+  m = m/np.linalg.norm(m)
+#  x_AB = np.zeros((dim,2*len))
+  x_AB = np.zeros((dim,len))
+  lam_1 = np.linspace(k1,k2,len)
+#  print(lam_1)
+#  lam_2 = np.linspace(0,k2,len)
+  if c==0:
+    for i in range(len):
+      temp1 = lam_1[i]*m
+      x_AB[:,i]= temp1.T
+  else:
+    A,B = line_icepts(n,c)
+    for i in range(len):
+      temp1 = A + lam_1[i]*m
+      x_AB[:,i]= temp1.T
+#    temp2 = B + lam_2[i]*m
+#    x_AB[:,i+len]= temp2.T
   return x_AB
 
 #def line_dir_pt(m,A, dim):
