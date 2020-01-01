@@ -38,14 +38,14 @@ def line_dir_pt(m,A,k1,k2):
   return x_AB
 #Generate line points
 
-def line_norm_eq(n,c,k1,k2):
+def line_norm_eq(n,c,k):
   len =10
   dim = n.shape[0]
   m = omat@n
   m = m/np.linalg.norm(m)
 #  x_AB = np.zeros((dim,2*len))
   x_AB = np.zeros((dim,len))
-  lam_1 = np.linspace(k1,k2,len)
+  lam_1 = np.linspace(k[0],k[1],len)
 #  print(lam_1)
 #  lam_2 = np.linspace(0,k2,len)
   if c==0:
@@ -134,6 +134,18 @@ def icentre(A,B,C,k1,k2):
   r = n1@(I-B)
   #Intersection
   return I,r
+
+def mult_line(A_I,b_z,k,m):
+ for i in range(m):
+  if i == 0:
+    x = line_norm_eq(A_I[i,:],b_z[i],k[i,:])
+  elif i == 1:
+    y = line_norm_eq(A_I[i,:],b_z[i],k[i,:])
+    z = np.vstack((x[None], y[None]))
+  else:
+    x = line_norm_eq(A_I[i,:],b_z[i],k[i,:])
+    z = np.vstack((z,x[None]))
+ return z
 
 dvec = np.array([-1,1]) 
 #Orthogonal matrix
