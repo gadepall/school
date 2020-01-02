@@ -1,7 +1,6 @@
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
-
 \item In a certain test, $a_i$ students gave wrong answers to atleast i questions, where $i = 1,2,...,k.$ No student gave more than k wrong answers. The total number of wrong answers given is.....\\
 \item The side AB, BC and CA of a triangle ABC have 3, 4 and 5 interior points respectively on them. The number of triangles that can be constructed using these interior points as vertices is.....\\
 \item Total number of ways in which six $'+'$ and four $'-'$ signs can be arranged in a line such that no two $'-'$ signs occur together is......\\
@@ -31,8 +30,8 @@
 \item Eight chairs are numbered 1 to 8. Two women and three men wish to occupy one chair each. First the women choose the chairs from amongst the chairs marked 1 to 4; and then the men select the chairs from amongst the remaining. The number of possible arrangments is
 \begin{enumerate}
 \item $\nCr{6}{3}$ $\times$ $\nCr{4}{2}$
-\item $\nPr{4}{2}$ $\times$ $\nPr{4}{3}$
-\item $\nCr{4}{2}$ + $\nPr{4}{3}$
+\item $\\nPr{4}{2}$ $\times$ $\\nPr{4}{3}$
+\item $\nCr{4}{2}$ + $\\nPr{4}{3}$
 \item none of these\\
 \end{enumerate}
 \item A five-digit numbers divisible by 3 is to be formed using the numerals 0, 1, 2, 3, 4 and 5, without repetition. The total number of ways this can be done is
@@ -64,8 +63,9 @@
 \item 100\\
 \end{enumerate}
 \item A rectangle with sides of length (2m-1) and (2n-1) units is divided into squares of unit length by drawing parallel lines as shown in the diagram, then the number of rectangles possible with odd side lengths is
-
-%\includegraphics[width=30mm,scale=0.5]{/home/nlap23679/Downloads/squares of unit length.jpg} 
+\begin{figure}
+	\includegraphics[width=30mm,scale=0.5]{./figs/a.eps} 
+\end{figure}
 \begin{enumerate}
 \item $(m+n-1)^2$
 \item $4^{m+n-1}$
@@ -79,7 +79,7 @@
 \item 225
 \item 224\\
 \end{enumerate}
-\item The letters of the word COCHIN are permuted and all the permutations are arranged in an alphabetical order as in an English dictionary. The number of words that appear before the word COCHIN is 
+\item The letters of the word COCHIN are computed and all the computations are arranged in an alphabetical order as in an English dictionary. The number of words that appear before the word COCHIN is 
 \begin{enumerate}
 \item 360
 \item 192
@@ -122,7 +122,9 @@
 \item 9\\
 \end{enumerate}
 \item Six X's have to be placed in the sqaures of figure given below in such a way that each row contains atleast one X. In how many different ways can this be done
-%\includegraphics[width=30mm,scale=0.5]{/home/nlap23679/Downloads/six squares.jpg} \\
+\begin{figure}
+	\includegraphics[width=30mm,scale=0.5]{./figs/b.eps} 
+\end{figure}\\
 \item Five balls of different colours are to be placed in the boxes of different size. Each box can hold all five. In how many different ways can we place the balls so that no box remains empty?\\
 \item m men and n women are to be seated in a row so that no two women sit together. If $m>n$, then show that the number of ways in which they can be seated is $\frac{m!(m+1)!}{(m-n+1)!}$\\
 \item 7 relatives of a man comprises 4 ladies and 3 gentlemen; his wife also has 7 relatives; 3 of them are ladies and 4 gentlemen. In how many ways they can invite a dinner party of 3 ladies and 3 gentlemen so that there are 3 of man's relatives and 3 of wife's relatives?\\
@@ -133,7 +135,7 @@
 \item The women are in majority?
 \item The men are in majority?\\
 \end{enumerate}
-\item Prove by permutation or otherwise $\frac{(n^2)!}{(n!)^n}$ is an integer $(n\epsilon I^+)$.\\
+\item Prove by computation or otherwise $\frac{(n^2)!}{(n!)^n}$ is an integer $(n\epsilon I^+)$.\\
 \item If total number of runs scored in n matches is $(\frac{n+1}{4})$ $(2^{n+1}-n-2)$ where $n>1$, and the runs scored in the kth match are given by K. $2^{n+1-k}$, where $1\leq k\leq n.$ Find n.\\
 
 Let $a_n$ denote the number of all n-digit positive integers formed by the digits 0, 1 or both such that no consecutive digits in them are 0. Let $b_n=$ the number of such n-digit integers ending with digit 1 and $c_n=$ the number of such n-digit integers ending with digit 0.\\
@@ -350,16 +352,18 @@ Statement-2 : The number of ways of choosing any 3 places from 9 different place
 Each question contains statements given in two columns, which have to be matched. The statements in Column-I are labelled A, B, C, D, while the statements in Column-II are labelled p, q, r, s and t. Any given statement in Column-I can have correct matching with ONE OR MORE statements in Column-II. The appropriate bubbles corresponding to the answers to these questions have to be darkened as illustrated in the following example :
 If the correct matches are A-p, s and t; B-q and r; C-p and q; and D-s, then the correct darkening of bubbles will look like
 
-%\includegraphics[width=30mm,scale=0.5]{/home/nlap23679/Downloads/omr.jpg}\\ 
-
-\item Consider all possible permutations of the letters of the word ENDEANOEL. Match the Statements/Expressions in Column-I with the Statements/Expressions in column-II and indicate your answer by darkening the appropriate bubbles in the $4 \times 4$ matrix given in the ORS.\\
+\begin{figure}
+	\includegraphics[width=30mm,scale=0.5]{./figs/c.eps} 
+\end{figure}
+%
+\item Consider all possible computations of the letters of the word ENDEANOEL. Match the Statements/Expressions in Column-I with the Statements/Expressions in column-II and indicate your answer by darkening the appropriate bubbles in the $4 \times 4$ matrix given in the ORS.\\
 \resizebox{\columnwidth}{14pt}{%
 \begin{tabular}{cc}
 Column-I &Column-II\\
-(A) The number of permutations containing the word ENDEA is&(p)5!\\
-(B) The number of permutations in which the letter E occurs in the first and the last positions is&(q)2 $\times$ 5!\\ 
-(C) The number of permutations in which none of the letters D, L, N occurs in the last five positions is&(r)7 $\times$ 5!\\
-(D) The number of permutations in which the letters A, E, O occur only in odd positions is&(s)21 $\times$ 5!\\
+(A) The number of computations containing the word ENDEA is&(p)5!\\
+(B) The number of computations in which the letter E occurs in the first and the last positions is&(q)2 $\times$ 5!\\ 
+(C) The number of computations in which none of the letters D, L, N occurs in the last five positions is&(r)7 $\times$ 5!\\
+(D) The number of computations in which the letters A, E, O occur only in odd positions is&(s)21 $\times$ 5!\\
 \end{tabular}}\\
 
 

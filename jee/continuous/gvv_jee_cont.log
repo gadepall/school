@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  17 DEC 2019 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  2 JAN 2020 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,8 +1302,7 @@ ngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
-)
-No file gvv_jee_cont.aux.
+) (./gvv_jee_cont.aux)
 \openout1 = `gvv_jee_cont.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 84.
@@ -1393,12 +1392,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 84.
 LaTeX Info: Redefining \pageref on input line 84.
 LaTeX Info: Redefining \nameref on input line 84.
+ (./gvv_jee_cont.out) (./gvv_jee_cont.out)
 \@outlinefile=\write4
 \openout4 = `gvv_jee_cont.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@lstlisting=\count269
 \c@theorem=\count270
@@ -1408,7 +1404,7 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 \c@example=\count274
 \c@rem=\count275
 File: iith_logo.eps Graphic file (type eps)
-<iith_logo.eps>
+ <iith_logo.eps>
 LaTeX Font Info:    Calculating math sizes for size <24> on input line 240.
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 240.
 
@@ -1455,11 +1451,11 @@ File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
 File: tlc.eps Graphic file (type eps)
  <tlc.eps>
+(./gvv_jee_cont.toc)
 \tf@toc=\write5
 \openout5 = `gvv_jee_cont.toc'.
 
-
-(./trig.tex
+ (./trig.tex
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -1755,24 +1751,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
 (./gvv_jee_cont.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 377.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
-
-
-Package rerunfilecheck Warning: File `gvv_jee_cont.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gvv_jee_cont.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  43A1B3978FF61304F57DAAD2ABB48B94;52.
+Package rerunfilecheck Info: File `gvv_jee_cont.out' has not changed.
+(rerunfilecheck)             Checksum: 43A1B3978FF61304F57DAAD2ABB48B94;52.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
  ) 
 Here is how much of TeX's memory you used:
- 31897 strings out of 492624
- 685953 string characters out of 6119216
- 892867 words of memory out of 5000000
- 35227 multiletter control sequences out of 15000+600000
+ 31907 strings out of 492624
+ 686107 string characters out of 6119216
+ 894990 words of memory out of 5000000
+ 35229 multiletter control sequences out of 15000+600000
  91314 words of font info for 234 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,14n,69p,504b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_jee_cont.dvi (8 pages, 135348 bytes).
+Output written on gvv_jee_cont.dvi (8 pages, 135784 bytes).
