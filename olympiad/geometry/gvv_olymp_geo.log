@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  30 DEC 2019 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  2 JAN 2020 13:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1493,15 +1493,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
-) (./year/1963.tex) (./year/1991.tex) (./year/1992.tex
+) (./year/1963.tex) (./year/1964.tex [1
+
+
+]) (./year/1965.tex) (./year/1966.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./year/1967.tex) (./year/1968.tex) (./year/1969.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2])
+(./year/1970.tex) (./year/1971.tex) (./year/1972.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./year/1973.tex) (./year/1974.tex) (./year/1975.tex) (./year/1976.tex)
+(./year/1977.tex) (./year/1978.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+(./year/1979.tex) (./year/1981.tex) (./year/1982.tex) (./year/1983.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./year/1984.tex) (./year/1985.tex) (./year/1986.tex [4]) (./year/1987.tex)
+(./year/1988.tex) (./year/1989.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./year/1990.tex) (./year/1991.tex) (./year/1992.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[1
-
-
-]) (./year/1993.tex
+) (./year/1993.tex
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 1.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
@@ -1510,15 +1536,16 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 1.
-) (./year/1994.tex) (./year/1995.tex
+) (./year/1994.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
+(./year/1995.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
 ) (./year/1996.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
  []
@@ -1548,7 +1575,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-) (./year/1997.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./year/1997.tex
 Underfull \hbox (badness 1365) in paragraph at lines 1--5
 \OT1/txr/m/n/12 m and n, con-sider a right-angled tri-an-gle
  []
@@ -1568,11 +1599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2])
-(./year/1998.tex
+) (./year/1998.tex
 Underfull \hbox (badness 6859) in paragraph at lines 1--2
 []\OT1/txr/m/n/12 In the con-vex quadri-lat-eral ABCD, the
  []
@@ -1602,7 +1629,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-) (./year/1999.tex) (./year/2000.tex
+) (./year/1999.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
+(./year/2000.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1622,7 +1653,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-) (./year/2004.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./year/2004.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1637,47 +1672,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-) (./year/1964.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3])
-(./year/1965.tex) (./year/1966.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./year/1967.tex) (./year/1968.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4])
-(./year/1969.tex) (./year/1970.tex) (./year/1971.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./year/1972.tex) (./year/1973.tex) (./year/1974.tex) (./year/1975.tex)
-(./year/1976.tex) (./year/1977.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
-
-[6
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+) [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
  (./gvv_olymp_geo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 338.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `gvv_olymp_geo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
  ) 
 Here is how much of TeX's memory you used:
- 31686 strings out of 492624
- 684354 string characters out of 6119216
- 883991 words of memory out of 5000000
+ 31722 strings out of 492624
+ 684762 string characters out of 6119216
+ 884991 words of memory out of 5000000
  34920 multiletter control sequences out of 15000+600000
  77021 words of font info for 193 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,20n,69p,658b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,20n,69p,658b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_olymp_geo.dvi (6 pages, 56092 bytes).
+Output written on gvv_olymp_geo.dvi (7 pages, 72948 bytes).
