@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  29 DEC 2019 19:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  2 JAN 2020 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1452,8 +1452,9 @@ File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
 File: tlc.eps Graphic file (type eps)
  <tlc.eps>
-(./year/1959.tex) (./year/1961.tex) (./year/1963.tex) (./year/1964.tex)
-(./year/1965.tex) (./year/1966.tex) (./year/1967.tex) (./year/1968.tex
+(./year/1959.tex) (./year/1961.tex) (./year/1962.tex) (./year/1963.tex)
+(./year/1964.tex) (./year/1965.tex) (./year/1966.tex) (./year/1967.tex)
+(./year/1968.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
@@ -1463,7 +1464,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
 
-) (./year/1969.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+])
+(./year/1969.tex
 Underfull \hbox (badness 1546) in paragraph at lines 1--2
 \OT1/txr/m/n/12 nec-es-sary and suf-fi-cient con-di-tions on the
  []
@@ -1483,14 +1491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-
-])
-(./year/1970.tex
+) (./year/1970.tex
 Underfull \hbox (badness 1895) in paragraph at lines 1--3
 \OT1/txr/m/n/12 which are collinear. Con-sider all pos-si-ble
  []
@@ -1539,17 +1540,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-) (./year/1975.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2])
-(./year/1976.tex) (./year/1977.tex
+(./year/1975.tex) (./year/1976.tex) (./year/1977.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-) (./year/1991.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
@@ -1557,7 +1553,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./year/1992.tex
+(./year/1991.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+) (./year/1992.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--4
 
  []
@@ -1580,20 +1581,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
-) (./year/1993.tex) (./year/1994.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--3
-
- []
-
-
+) (./year/1993.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+ [3])
+(./year/1994.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
@@ -1633,10 +1635,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-) (./year/1998.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./year/1998.tex
 Underfull \hbox (badness 2073) in paragraph at lines 4--5
 []\OT1/txr/m/n/12 Consider all func-tions f from the set N
  []
@@ -1677,6 +1680,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 ) (./year/2001.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -1699,35 +1705,72 @@ Underfull \hbox (badness 2591) in paragraph at lines 10--13
 \OT1/txr/m/n/12 Prove that there are two per-mu-ta-tions b
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4])
-(./year/2002.tex) (./year/2003.tex
+) (./year/2002.tex) (./year/2003.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-) (./year/2004.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
- [5
+) (./year/2004.tex) (./year/2005.tex) (./year/2006.tex
+Overfull \hbox (57.30727pt too wide) detected at line 5
+[]
+ []
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./year/2007.tex) (./year/2008.tex) (./year/2009.tex
+Underfull \hbox (badness 2318) in paragraph at lines 1--2
+[]\OT1/txr/m/n/12 Suppose that $\OML/txmi/m/it/12 s[]; s[]; s[]; :::$ \OT1/txr/
+m/n/12 is a strictly in-
+ []
+
+) (./year/2010.tex) (./year/2011.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
+(./year/2012.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (58.56357pt too wide) detected at line 10
+[]
+ []
+
+) (./year/2013.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
+(./year/2014.tex) (./year/2015.tex) (./year/2016.tex
+Overfull \hbox (43.82596pt too wide) detected at line 13
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7])
+(./year/2017.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./year/2018.tex) [8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
  (./gvv_olymp_disc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 341.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
 Package rerunfilecheck Info: File `gvv_olymp_disc.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 31668 strings out of 492624
- 684008 string characters out of 6119217
- 881992 words of memory out of 5000000
+ 31713 strings out of 492624
+ 684518 string characters out of 6119216
+ 882992 words of memory out of 5000000
  34905 multiletter control sequences out of 15000+600000
  77021 words of font info for 193 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,11n,69p,676b,549s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,69p,1082b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_olymp_disc.dvi (5 pages, 49496 bytes).
+Output written on gvv_olymp_disc.dvi (8 pages, 82456 bytes).
