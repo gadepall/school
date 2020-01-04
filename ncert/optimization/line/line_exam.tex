@@ -2,15 +2,81 @@
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 %
-
-
-\item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
 %
-
-\item Find the distance of the point \myvec{3\\-5} from the line 
+\item Find the distance of the point $\vec{P}=\myvec{3\\-5}$ from the line 
 \begin{align}
-\myvec{3 & – 4}\vec{x}  = 26
+\label{eq:opt_line_nor}
+L: \quad \myvec{3 & – 4}\vec{x}  = 26
 \end{align}
+\solution Using the equation of the line 
+\begin{align}
+\label{eq:opt_line_dir}
+\vec{x} = \vec{A} + \lambda \vec{m}, 
+\end{align}
+where $\vec{A}$ is any point on the line and 
+\begin{align}
+\vec{Q} &= \myvec{0 & -1\\1 & 0}
+\\
+\vec{n} &= \myvec{3 \\ – 4}
+\\
+\vec{m} &= \vec{Q}\vec{n} = \myvec{4\\3}
+\\
+c&=26
+\end{align}
+%
+The distance of $\vec{P}$ from $L$ can be obtained as 
+\begin{align}
+\min_{\lambda}f(\lambda)
+\end{align}
+%
+where
+%
+\begin{align}
+f(\lambda) &=\norm{\vec{x}-\vec{P}}^2 = \norm{\vec{A} + \lambda \vec{m}-\vec{P}}^2 
+\\
+& = \brak{ \lambda \vec{m}+\vec{A} -\vec{P}}^T \brak{ \lambda \vec{m}+\vec{A} -\vec{P}}
+\\
+&= \lambda^2 \norm{\vec{m}}^2 +2\lambda \vec{m}^T\brak{\vec{A} -\vec{P}} 
+\nonumber \\
+&\quad + \norm{\vec{A} -\vec{P}}^2
+\end{align}
+\begin{align}
+\because f^{(2)}\lambda = 2\norm{\vec{m}}^2 > 0
+\end{align}
+%
+the minimum value of $f(\lambda)$ is obtained when 
+%
+\begin{align}
+\because f^{(1)}\lambda &= 2\lambda\norm{\vec{m}}^2 + 2 \vec{m}^T\brak{\vec{A} -\vec{P}} =0
+\\
+\implies \lambda_{\min} &= -\frac{\vec{m}^T\brak{\vec{A} -\vec{P}}}{\norm{\vec{m}}^2}
+\end{align}
+%
+Choosing $\vec{A}$ such that 
+%
+\begin{align}
+\vec{m}^T\brak{\vec{A} -\vec{P}} &= 0
+\\
+\implies \vec{A} -\vec{P} &= \mu \vec{n}
+\\
+\text{or, } \vec{n}^T	\brak{\vec{A} -\vec{P} } &= \mu \norm{\vec{n}}^2
+\\
+\implies \mu & = \frac{\vec{n}^T\vec{A} -\vec{n}^T\vec{P} }{\norm{\vec{n}}^2} = \frac{c -\vec{n}^T\vec{P} }{\norm{\vec{n}}^2}
+\end{align}
+%
+where $\mu$ is some constant.
+Thus, the shortest distance from $\vec{P}$ to $L$ is
+%
+\begin{align}
+d &= \sqrt{\lambda_{\min}^2 \norm{\vec{m}}^2 +2\lambda_{\min} \vec{m}^T\brak{\vec{A} -\vec{P}
++ \norm{\vec{A} -\vec{P}}^2}}
+\\
+\implies d &=  \norm{\vec{A} -\vec{P}} = \abs{\mu} \norm{\vec{n}}= \frac{\abs{ \vec{n}^T\vec{P}-c} }{\norm{\vec{n}}}
+\end{align}
+%
+\item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
+\\
+\solution 
 %
 \item Find the 
 distance between the lines 
