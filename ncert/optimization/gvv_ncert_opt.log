@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  5 JAN 2020 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  5 JAN 2020 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1463,12 +1463,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Underfull \hbox (badness 1881) in paragraph at lines 113--121
+\OT1/txr/m/n/12 from []. Sub-sti-tut-ing $\OML/txmi/m/it/12 ^^U[] \OT1/txr/m/n/
+12 = 0$ in
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 124--127
+\OT1/txr/m/n/12 upon sub-sti-tut-ing from []. The dis-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Warning: Reference `eq:line_norm_vec' on page 2 undefined on input line 2
-27.
+28.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1476,7 +1487,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2]
 
 LaTeX Warning: Reference `eq:line_norm_vec' on page 3 undefined on input line 3
-15.
+16.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1487,7 +1498,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3]
 
 LaTeX Warning: Reference `eq:line_norm_vec' on page 4 undefined on input line 3
-97.
+98.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1969,9 +1980,6 @@ Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
@@ -1983,4 +1991,4 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  55i,18n,69p,505b,1152s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_opt.dvi (16 pages, 203368 bytes).
+Output written on gvv_ncert_opt.dvi (16 pages, 203332 bytes).
