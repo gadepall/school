@@ -3,42 +3,74 @@
 \numberwithin{equation}{enumi}
 %
 %
-\item Find the distance of the point $\vec{P}=\myvec{3\\-5}$ from the line 
+\item Express the problem of finding the distance of the point $\vec{P}=\myvec{3\\-5}$ from the line 
+\label{prob:opt_line_dist}
 \begin{align}
 \label{eq:opt_line_nor}
 L: \quad \myvec{3 & – 4}\vec{x}  = 26
 \end{align}
-\solution Using the equation of the line 
+%
+as an optimization problem.
+\\
+\solution The given problem can be expressed as
+%
+\begin{align}
+\label{eq:opt_line_dist}
+\min_{\vec{x}}g(\vec{x}) &= \norm{\vec{x}-\vec{P}}^2
+\\
+\text{s.t.} \quad \vec{n}^T\vec{x} &= c
+\label{eq:opt_line_dist_nor}
+\end{align}
+%
+where 
+%
+\begin{align}
+\vec{n} &= \myvec{3\\-4}
+\\
+c&=26
+\end{align}
+%
+\item Convert  \eqref{eq:opt_line_dist} to an {\em unconstrained} optimization problem.
+%
+\\
+%
+\solution $L$ in \eqref{eq:opt_line_nor} can be expressed in terms of the direction vector $\vec{m}$ as
 \begin{align}
 \label{eq:opt_line_dir}
 \vec{x} = \vec{A} + \lambda \vec{m}, 
 \end{align}
 where $\vec{A}$ is any point on the line and 
+%
 \begin{align}
-\vec{Q} &= \myvec{0 & -1\\1 & 0}
-\\
-\vec{n} &= \myvec{3 \\ – 4}
-\\
-\vec{m} &= \vec{Q}\vec{n} = \myvec{4\\3}
-\\
-c&=26
+\label{eq:opt_line_orth}
+\vec{m}^T\vec{n} = 0
+%\vec{m} &= \vec{Q}\vec{n} = \myvec{4\\3},
+%\\
+%\vec{Q} &= \myvec{0 & -1\\1 & 0}
 \end{align}
 %
-The distance of $\vec{P}$ from $L$ can be obtained as 
+Substituting \eqref{eq:opt_line_dir} in \eqref{eq:opt_line_dist}, an unconstrained optimization problem 
 \begin{align}
-\min_{\lambda}f(\lambda)
+\label{eq:opt_line_dist_uncon}
+\min_{\lambda}f(\lambda) = \norm{\vec{A} + \lambda \vec{m}-\vec{P}}^2 
 \end{align}
 %
-where
+is obtained.
 %
-\begin{align}
-f(\lambda) &=\norm{\vec{x}-\vec{P}}^2 = \norm{\vec{A} + \lambda \vec{m}-\vec{P}}^2 
+\item Solve \eqref{eq:opt_line_dist_uncon}.
+%
 \\
+\solution 
+\begin{align}
+f(\lambda) 
+%&=\norm{\vec{x}-\vec{P}}^2 = \norm{\vec{A} + \lambda \vec{m}-\vec{P}}^2 
+%\\
 & = \brak{ \lambda \vec{m}+\vec{A} -\vec{P}}^T \brak{ \lambda \vec{m}+\vec{A} -\vec{P}}
 \\
 &= \lambda^2 \norm{\vec{m}}^2 +2\lambda \vec{m}^T\brak{\vec{A} -\vec{P}} 
 \nonumber \\
 &\quad + \norm{\vec{A} -\vec{P}}^2
+\label{eq:opt_line_dist_uncon_dist}
 \end{align}
 \begin{align}
 \because f^{(2)}\lambda = 2\norm{\vec{m}}^2 > 0
@@ -47,33 +79,63 @@ f(\lambda) &=\norm{\vec{x}-\vec{P}}^2 = \norm{\vec{A} + \lambda \vec{m}-\vec{P}}
 the minimum value of $f(\lambda)$ is obtained when 
 %
 \begin{align}
-\because f^{(1)}\lambda &= 2\lambda\norm{\vec{m}}^2 + 2 \vec{m}^T\brak{\vec{A} -\vec{P}} =0
+ f^{(1)}(\lambda) &= 2\lambda\norm{\vec{m}}^2 + 2 \vec{m}^T\brak{\vec{A} -\vec{P}} =0
 \\
 \implies \lambda_{\min} &= -\frac{\vec{m}^T\brak{\vec{A} -\vec{P}}}{\norm{\vec{m}}^2}
+\label{eq:opt_line_dist_uncon_lam_min}
 \end{align}
 %
 Choosing $\vec{A}$ such that 
 %
 \begin{align}
-\vec{m}^T\brak{\vec{A} -\vec{P}} &= 0
-\\
-\implies \vec{A} -\vec{P} &= \mu \vec{n}
-\\
-\text{or, } \vec{n}^T	\brak{\vec{A} -\vec{P} } &= \mu \norm{\vec{n}}^2
-\\
-\implies \mu & = \frac{\vec{n}^T\vec{A} -\vec{n}^T\vec{P} }{\norm{\vec{n}}^2} = \frac{c -\vec{n}^T\vec{P} }{\norm{\vec{n}}^2}
+\vec{m}^T\brak{\vec{A} -\vec{P}} &= 0,
+\label{eq:opt_line_dist_uncon_trick}
 \end{align}
 %
-where $\mu$ is some constant.
-Thus, the shortest distance from $\vec{P}$ to $L$ is
+substituting in \eqref{eq:opt_line_dist_uncon_lam_min},
 %
 \begin{align}
-d &= \sqrt{\lambda_{\min}^2 \norm{\vec{m}}^2 +2\lambda_{\min} \vec{m}^T\brak{\vec{A} -\vec{P}
-+ \norm{\vec{A} -\vec{P}}^2}}
+\label{eq:opt_line_dist_uncon_lam0}
+\lambda_{\min} &= 0 \quad \text{and}
 \\
-\implies d &=  \norm{\vec{A} -\vec{P}} = \abs{\mu} \norm{\vec{n}}= \frac{\abs{ \vec{n}^T\vec{P}-c} }{\norm{\vec{n}}}
+\vec{A} -\vec{P} &= \mu \vec{n}
+\label{eq:opt_line_dist_uncon_mu}
+\end{align}
+for some constant $\mu$. \eqref{eq:opt_line_dist_uncon_mu}
+ is a consequence of \eqref{eq:opt_line_orth} and \eqref{eq:opt_line_dist_uncon_trick}. Also, from 
+\eqref{eq:opt_line_dist_uncon_mu},
+%
+\begin{align}
+\vec{n}^T\brak{\vec{A} -\vec{P} } &= \mu \norm{\vec{n}}^2
+\\
+\implies \mu & = \frac{\vec{n}^T\vec{A} -\vec{n}^T\vec{P} }{\norm{\vec{n}}^2} = \frac{c -\vec{n}^T\vec{P} }{\norm{\vec{n}}^2}
+\label{eq:opt_line_dist_uncon_mu_sol}
 \end{align}
 %
+from \eqref{eq:opt_line_dist_nor}, where $\mu$ is some constant.
+Substituting $\lambda_{\min} = 0$ in \eqref{eq:opt_line_dist_uncon},
+%\label
+%Thus, the shortest distance from $\vec{P}$ to $L$ is
+%
+\begin{align}
+\min_{\lambda}f(\lambda) =  \norm{\vec{A} -\vec{P}}^2 = \mu^2\norm{\vec{n}}^2
+\label{eq:opt_line_dist_uncon_f}
+\end{align}
+upon substituting from \eqref{eq:opt_line_dist_uncon_mu}. The distance between $\vec{P}$ and ${L}$ is thenfrom \eqref{eq:opt_line_dist_uncon_f} as
+ obtained as 
+\begin{align}
+\norm{\vec{A} -\vec{P}} &= \abs{\mu}\norm{\vec{n}}
+\\
+&= \frac{\abs{\vec{n}^T\vec{P} -c }}{\norm{\vec{n}}}
+\end{align}
+after substituting for $\mu$ from  \eqref{eq:opt_line_dist_uncon_mu_sol}.
+
+%\\
+%\implies d &=  \norm{\vec{A} -\vec{P}} = \abs{\mu} \norm{\vec{n}}= \frac{\abs{ \vec{n}^T\vec{P}-c} }{\norm{\vec{n}}}
+%\end{align}
+%%
+%after substituting from \eqref{eq:opt_line_dist_nor}.
+
 \item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
 \\
 \solution 

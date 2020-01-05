@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  4 JAN 2020 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  5 JAN 2020 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1457,11 +1457,6 @@ File: tlc.eps Graphic file (type eps)
 \openout5 = `gvv_ncert_opt.toc'.
 
  (./line/line_exam.tex
-Overfull \hbox (27.14052pt too wide) detected at line 75
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -1472,43 +1467,43 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `eq:line_norm_vec' on page 2 undefined on input line 1
-65.
+LaTeX Warning: Reference `eq:line_norm_vec' on page 2 undefined on input line 2
+27.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 
-LaTeX Warning: Reference `eq:line_norm_vec' on page 3 undefined on input line 2
-53.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 LaTeX Warning: Reference `eq:line_norm_vec' on page 3 undefined on input line 3
-35.
+15.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3])
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+
+LaTeX Warning: Reference `eq:line_norm_vec' on page 4 undefined on input line 3
+97.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 (./line/lp_exam.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Reference `eq:lp_constr' on page 4 undefined on input line 89.
-
-
-LaTeX Warning: Reference `' on page 4 undefined on input line 89.
-
-
-Underfull \vbox (badness 2635) has occurred while \output is active []
+Underfull \vbox (badness 6001) has occurred while \output is active []
 
  [4]
+
+LaTeX Warning: Reference `eq:lp_constr' on page 5 undefined on input line 89.
+
+
+LaTeX Warning: Reference `' on page 5 undefined on input line 89.
+
+
 Underfull \hbox (badness 1642) in paragraph at lines 113--119
 \OT1/txr/m/n/12 Food `I' and Rs 70 per kg to pur-chase
  []
@@ -1544,6 +1539,9 @@ Overfull \hbox (31.70001pt too wide) in paragraph at lines 148--160
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 161--164
 
  []
@@ -1558,11 +1556,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--180
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5])
-(./line/lp_exer.tex
+) (./line/lp_exer.tex
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
@@ -1660,12 +1654,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--72
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 72--78
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 78--88
 
  []
@@ -1725,7 +1719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
  []
 
-
+[7]
 Underfull \hbox (badness 2521) in paragraph at lines 123--132
 []\OT1/txr/m/n/12 The cor-ner points of the fea-si-ble re-gion
  []
@@ -1740,7 +1734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--132
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 132--135
 
  []
@@ -1761,6 +1755,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--159
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
@@ -1774,9 +1771,6 @@ Underfull \hbox (badness 1371) in paragraph at lines 181--187
 Underfull \hbox (badness 10000) in paragraph at lines 181--187
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (14.924pt too wide) in paragraph at lines 187--205
@@ -1799,19 +1793,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--227
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 228--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--259
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
-
- []
-
-) (./circle/circle_geo_exam.tex) (./circle/circle_geo.tex [9]
+)
+(./circle/circle_geo_exam.tex) (./circle/circle_geo.tex [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -1842,13 +1840,14 @@ Underfull \hbox (badness 2469) in paragraph at lines 18--19
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 30.
 
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 35.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 35.
-
 [10]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 35.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 35.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1874,6 +1873,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11])
 (./conics/conics_exer.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 22.
 
@@ -1923,7 +1925,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 50.
 LaTeX Warning: Command \textendash invalid in math mode on input line 51.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4543) has occurred while \output is active []
 
  [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1932,11 +1934,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 213.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1962,20 +1964,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 341.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
 Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
-(rerunfilecheck)             Checksum: 1B9E1B6CA9F36E7EE1F5278E98DE36AD;604.
+(rerunfilecheck)             Checksum: D0CFAA1AFC9505AD412EAF740A997674;625.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 31890 strings out of 492624
- 685800 string characters out of 6119216
- 901991 words of memory out of 5000000
- 35193 multiletter control sequences out of 15000+600000
+ 31902 strings out of 492624
+ 686106 string characters out of 6119216
+ 899991 words of memory out of 5000000
+ 35205 multiletter control sequences out of 15000+600000
  77739 words of font info for 194 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,18n,69p,505b,1152s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_opt.dvi (16 pages, 198616 bytes).
+Output written on gvv_ncert_opt.dvi (16 pages, 203368 bytes).
