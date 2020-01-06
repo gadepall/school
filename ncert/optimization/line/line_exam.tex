@@ -137,311 +137,311 @@ after substituting for $\mu$ from  \eqref{eq:opt_line_dist_uncon_mu_sol}.
 %%
 %after substituting from \eqref{eq:opt_line_dist_nor}.
 
-\item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
-\\
-\solution 
-%
-\item Find the 
-distance between the lines 
-\begin{align}
-L_1: \quad \vec{x} &= \myvec{1\\2\\-4} + \lambda_1\myvec{2 \\ 3 \\6}
-\\
-L_2: \quad \vec{x} &= \myvec{3\\3\\-5} + \lambda_2\myvec{2 \\ 3 \\6}
-\end{align}
-\label{prob:line_dist_parallel}
-%
-
-
-\item Find the shortest distance between the lines 
-\begin{align}
-L_1: \quad \vec{x} &= \myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
-\\
-L_2: \quad \vec{x} &= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
-\end{align}
-\label{prob:line_dist_skew}
-%
-
-
-\item Find the distance of the plane 
-\begin{align}
-\myvec{2 & -3 & 4}\vec{x}-6  = 0
-\end{align}
-%
-from the origin.
-
-
-\item Find the equation of a plane which is at a distance of $\frac{6}{\sqrt{29}}$ from the origin and has  normal vector $\vec{n}=\myvec{2\\-3\\4}$.
-%
-\\
-\solution From the previous problem, the desired equation is
-%
-\begin{align}
-\myvec{2 & -3 & 4}\vec{x}-6  = 0
-\end{align}
-%
-
-\item Find the unit normal vector of the plane 
-\begin{align}
-\myvec{6 & -3 & -2}\vec{x}  = 1.
-\end{align}
-%
-\solution The normal vector is 
-%
-\begin{align}
-\vec{n} = \myvec{6 & -3 & -2}
-\\
-\because \norm{\vec{n}} = 7,
-\end{align}
-%
-the unit normal vector is 
-%
-\begin{align}
-\frac{\vec{n}}{\norm{\vec{n}}} = \frac{1}{7}\myvec{6 & -3 & -2}
-\end{align}
-%
-\item Find the coordinates of the foot of the perpendicular drawn from the origin to the plane 
-\begin{align}
-\label{eq:line_foot_perp}
-\myvec{2 & -3 & 4}\vec{x}-6  = 0
-\end{align}
-%
-\solution The normal vector is 
-%
-\begin{align}
-\vec{n}=\myvec{2 \\ -3 \\ 4}
-\end{align}
-%
-Hence, the foot of the perpendicular from the origin is $\lambda \vec{n}$.  Substituting in \eqref{eq:line_foot_perp},
-\begin{align}
-\lambda \norm{\vec{n}}^2 = 6  \implies \lambda = \frac{6}{\norm{\vec{n}}^2} = \frac{6}{29}
-\end{align}
-%
-Thus, the foot of the perpendicular is
-%
-\begin{align}
-\frac{6}{29}\myvec{2 \\ -3 \\ 4}
-\end{align}
-%
-\item Find the equation of the plane which passes through the point $\vec{A}=\myvec{5\\2\\-4}$ and perpendicular to the line with direction vector $\vec{n}=\myvec{2\\3\\-1}$.
-%
-\\
-\solution  The normal vector to the plane is $\vec{n}$. Hence from \eqref{eq:line_norm_vec}, the equation of the plane is 
-%
-\begin{align}
-\vec{n}^T\brak{\vec{x}-\vec{A}} &= 0
-\\
-\implies \myvec{2\\3\\-1}\vec{x} &=\myvec{2&3&-1}\myvec{5\\2\\-4}
-\\
-&=20
-\end{align}
-%
-%The following 
+%\item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
+%\\
+%\solution 
 %%
-%\begin{lstlisting}
-%codes/line/plane_3d.py
-%\end{lstlisting}
+%\item Find the 
+%distance between the lines 
+%\begin{align}
+%L_1: \quad \vec{x} &= \myvec{1\\2\\-4} + \lambda_1\myvec{2 \\ 3 \\6}
+%\\
+%L_2: \quad \vec{x} &= \myvec{3\\3\\-5} + \lambda_2\myvec{2 \\ 3 \\6}
+%\end{align}
+%\label{prob:line_dist_parallel}
 %%
-%\begin{figure}[!ht]
-%\includegraphics[width=\columnwidth]{./line/figs/plane_3d.eps}
-%\caption{}
-%\label{fig:plane_3d}
-%\end{figure}
 %
-
-\item Find the equation of the plane passing through 
-$
-\bm{R} = \myvec{2\\5\\-3},
-\bm{S}= \myvec{-2\\-3\\5}
-$ 
-and 
-$
-\bm{T}= \myvec{5\\3\\-3}.
-$
-\label{prob:plane_3pts}
-\\
-\solution  If the equation of the plane be 
-\begin{align}
-\vec{n}^T\vec{x} &= c,
-\\
-\vec{n}^T\vec{R}=\vec{n}^T\vec{S}=\vec{n}^T\vec{T}&= c,
-\\
-\implies \myvec{\vec{R}-\vec{S} & \vec{S}-\vec{T}}^T\vec{n} &= 0
-\end{align}
 %
-after some algebra.
-Using row reduction on the above matrix, 
-\begin{align}
-\myvec{4 & 8 &-8 \\ -7  & -6 & 8} \xleftrightarrow[]{R_1\leftarrow \frac{R_1}{4}}\myvec{1 & 2 &-2 \\ -7  & -6 & 8}
-\\
-\xleftrightarrow[]{R_2\leftarrow R_2 + 7R_1}
-\myvec{
-1 & 2 &-2 
-\\ 
-0  & 8 & -6
-}
-\xleftrightarrow[]{R_2\leftarrow \frac{R_2}{2}}
-\myvec{
-1 & 2 &-2 
-\\ 
-0  & 4 & -3
-}
-\\
-\xleftrightarrow[]{R_1\leftarrow 2R_1-R_2}
-\myvec{
-2 & 0 &-1 
-\\ 
-0  & 4 & -3
-}
-\end{align}
+%\item Find the shortest distance between the lines 
+%\begin{align}
+%L_1: \quad \vec{x} &= \myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
+%\\
+%L_2: \quad \vec{x} &= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
+%\end{align}
+%\label{prob:line_dist_skew}
+%%
 %
-Thus, 
-\begin{align}
-\vec{n} &= \myvec{\frac{1}{2}\\\frac{3}{4}\\1} = \myvec{2\\3\\4} \text{ and}
-\\
-c = \vec{n}^{T}\vec{T} = 7
-\end{align}
 %
-Thus, the equation of the plane is 
+%\item Find the distance of the plane 
+%\begin{align}
+%\myvec{2 & -3 & 4}\vec{x}-6  = 0
+%\end{align}
+%%
+%from the origin.
 %
-\begin{align}
-\myvec{2 & 3 & 4}\vec{n} = 7
-\end{align}
 %
-Alternatively, the normal vector to the plane can be obtained as
+%\item Find the equation of a plane which is at a distance of $\frac{6}{\sqrt{29}}$ from the origin and has  normal vector $\vec{n}=\myvec{2\\-3\\4}$.
+%%
+%\\
+%\solution From the previous problem, the desired equation is
+%%
+%\begin{align}
+%\myvec{2 & -3 & 4}\vec{x}-6  = 0
+%\end{align}
+%%
 %
-\begin{align}
-\vec{n} = \brak{\vec{R}-\vec{S}} \times \brak{\vec{S}-\vec{T}}
-\end{align}
+%\item Find the unit normal vector of the plane 
+%\begin{align}
+%\myvec{6 & -3 & -2}\vec{x}  = 1.
+%\end{align}
+%%
+%\solution The normal vector is 
+%%
+%\begin{align}
+%\vec{n} = \myvec{6 & -3 & -2}
+%\\
+%\because \norm{\vec{n}} = 7,
+%\end{align}
+%%
+%the unit normal vector is 
+%%
+%\begin{align}
+%\frac{\vec{n}}{\norm{\vec{n}}} = \frac{1}{7}\myvec{6 & -3 & -2}
+%\end{align}
+%%
+%\item Find the coordinates of the foot of the perpendicular drawn from the origin to the plane 
+%\begin{align}
+%\label{eq:line_foot_perp}
+%\myvec{2 & -3 & 4}\vec{x}-6  = 0
+%\end{align}
+%%
+%\solution The normal vector is 
+%%
+%\begin{align}
+%\vec{n}=\myvec{2 \\ -3 \\ 4}
+%\end{align}
+%%
+%Hence, the foot of the perpendicular from the origin is $\lambda \vec{n}$.  Substituting in \eqref{eq:line_foot_perp},
+%\begin{align}
+%\lambda \norm{\vec{n}}^2 = 6  \implies \lambda = \frac{6}{\norm{\vec{n}}^2} = \frac{6}{29}
+%\end{align}
+%%
+%Thus, the foot of the perpendicular is
+%%
+%\begin{align}
+%\frac{6}{29}\myvec{2 \\ -3 \\ 4}
+%\end{align}
+%%
+%\item Find the equation of the plane which passes through the point $\vec{A}=\myvec{5\\2\\-4}$ and perpendicular to the line with direction vector $\vec{n}=\myvec{2\\3\\-1}$.
+%%
+%\\
+%\solution  The normal vector to the plane is $\vec{n}$. Hence from \eqref{eq:line_norm_vec}, the equation of the plane is 
+%%
+%\begin{align}
+%\vec{n}^T\brak{\vec{x}-\vec{A}} &= 0
+%\\
+%\implies \myvec{2\\3\\-1}\vec{x} &=\myvec{2&3&-1}\myvec{5\\2\\-4}
+%\\
+%&=20
+%\end{align}
+%%
+%%The following 
+%%%
+%%\begin{lstlisting}
+%%codes/line/plane_3d.py
+%%\end{lstlisting}
+%%%
+%%\begin{figure}[!ht]
+%%\includegraphics[width=\columnwidth]{./line/figs/plane_3d.eps}
+%%\caption{}
+%%\label{fig:plane_3d}
+%%\end{figure}
+%%
 %
-The equation of the plane is then obtained from \eqref{eq:line_norm_vec} as 
+%\item Find the equation of the plane passing through 
+%$
+%\bm{R} = \myvec{2\\5\\-3},
+%\bm{S}= \myvec{-2\\-3\\5}
+%$ 
+%and 
+%$
+%\bm{T}= \myvec{5\\3\\-3}.
+%$
+%\label{prob:plane_3pts}
+%\\
+%\solution  If the equation of the plane be 
+%\begin{align}
+%\vec{n}^T\vec{x} &= c,
+%\\
+%\vec{n}^T\vec{R}=\vec{n}^T\vec{S}=\vec{n}^T\vec{T}&= c,
+%\\
+%\implies \myvec{\vec{R}-\vec{S} & \vec{S}-\vec{T}}^T\vec{n} &= 0
+%\end{align}
+%%
+%after some algebra.
+%Using row reduction on the above matrix, 
+%\begin{align}
+%\myvec{4 & 8 &-8 \\ -7  & -6 & 8} \xleftrightarrow[]{R_1\leftarrow \frac{R_1}{4}}\myvec{1 & 2 &-2 \\ -7  & -6 & 8}
+%\\
+%\xleftrightarrow[]{R_2\leftarrow R_2 + 7R_1}
+%\myvec{
+%1 & 2 &-2 
+%\\ 
+%0  & 8 & -6
+%}
+%\xleftrightarrow[]{R_2\leftarrow \frac{R_2}{2}}
+%\myvec{
+%1 & 2 &-2 
+%\\ 
+%0  & 4 & -3
+%}
+%\\
+%\xleftrightarrow[]{R_1\leftarrow 2R_1-R_2}
+%\myvec{
+%2 & 0 &-1 
+%\\ 
+%0  & 4 & -3
+%}
+%\end{align}
+%%
+%Thus, 
+%\begin{align}
+%\vec{n} &= \myvec{\frac{1}{2}\\\frac{3}{4}\\1} = \myvec{2\\3\\4} \text{ and}
+%\\
+%c = \vec{n}^{T}\vec{T} = 7
+%\end{align}
+%%
+%Thus, the equation of the plane is 
+%%
+%\begin{align}
+%\myvec{2 & 3 & 4}\vec{n} = 7
+%\end{align}
+%%
+%Alternatively, the normal vector to the plane can be obtained as
+%%
+%\begin{align}
+%\vec{n} = \brak{\vec{R}-\vec{S}} \times \brak{\vec{S}-\vec{T}}
+%\end{align}
+%%
+%The equation of the plane is then obtained from \eqref{eq:line_norm_vec} as 
+%%
+%\begin{align}
+%\label{eq:plane_3pts_cross}
+%\vec{n}^T\brak{\vec{x}-\vec{T}} = \sbrak{\brak{\vec{R}-\vec{S}} \times \brak{\vec{S}-\vec{T}}}^T\brak{\vec{x}-\vec{T}} = 0
+%\end{align}
+%%
 %
-\begin{align}
-\label{eq:plane_3pts_cross}
-\vec{n}^T\brak{\vec{x}-\vec{T}} = \sbrak{\brak{\vec{R}-\vec{S}} \times \brak{\vec{S}-\vec{T}}}^T\brak{\vec{x}-\vec{T}} = 0
-\end{align}
+%\item Find the equation of the plane with intercepts 2, 3 and 4 on the x, y and z axis respectively.
+%\\
+%\solution From the given information, the plane passes through the points \myvec{2\\0\\0}, \myvec{0\\3\\0} and \myvec{0\\0\\4} respectively. The equation can be obtained using Problem \ref{prob:plane_3pts}.
 %
-
-\item Find the equation of the plane with intercepts 2, 3 and 4 on the x, y and z axis respectively.
-\\
-\solution From the given information, the plane passes through the points \myvec{2\\0\\0}, \myvec{0\\3\\0} and \myvec{0\\0\\4} respectively. The equation can be obtained using Problem \ref{prob:plane_3pts}.
-
-\item Find the equation of the plane passing through the intersection of the planes 
+%\item Find the equation of the plane passing through the intersection of the planes 
+%%
+%\begin{align}
+%\label{eq:plane_2p_1pt_1}
+%\myvec{1 & 1 & 1}\vec{x}&=6  
+%\\
+%\myvec{2 & 3 & 4}\vec{x}&=-5
+%\label{eq:plane_2p_1pt_2}
+%\end{align}
+%%
+%and the point \myvec{1\\1\\1}.
+%\\
+%\solution The intersection of the planes is obtained by row reducing the augmented matrix as
+%%
+%\begin{align}
+%\myvec{
+%1 & 1 & 1 & 6
+%\\
+%2 & 3 & 4 & -5
+%}
+%\xleftrightarrow[]{R_2 = R_2 -2R_1}
+%\myvec{
+%1 & 1 & 1 & 6
+%\\
+%0 & 1 & 2 & -17
+%}
+%\\
+%\xleftrightarrow[]{R_1 = R_1 -R_2}
+%\myvec{
+%1 & 0 & -1 & 23
+%\\
+%0 & 1 & 2 & -17
+%}
+%\\
+%\implies 
+%\vec{x} = \myvec{23\\-17\\0}+\lambda\myvec{1\\-2\\1}
+%\end{align}
+%%
+%Thus, \myvec{23\\-17\\0} is another point on the plane.  The normal vector to the plane is then obtained as
+%The normal vector to the plane is then obtained as
+%%
+%\begin{align}
+%\brak{ \myvec{1\\1\\1}-\myvec{23\\-17\\0}}\times \myvec{1\\-2\\1} 
+%\end{align}
+%%
+%which can be obtained by row reducing the matrix
+%\begin{align}
+%\myvec{
+%1 & -2 & 1
+%\\
+%-22 & 18 & 1
+%}
+%\xleftrightarrow[]{R_2 = R_2+22R_1}
+%\myvec{
+%1 & -2 & 1
+%\\
+%0  & -26 & 23
+%}
+%\\
+%\xleftrightarrow[]{R_1 = 13R_1-R_2}
+%\myvec{
+%13 & 0 & -10
+%\\
+%0  & -26 & 23
+%}
+%\\
+%\implies \vec{n} = \myvec{\frac{10}{13}\\\frac{23}{26}\\1} = \myvec{20\\23\\26}
+%\end{align}
+%%
+%Since the plane passes through \myvec{1\\1\\1}, using 
+% \eqref{eq:line_norm_vec},
+%%
+%\begin{align}
+%\myvec{20 & 23 & 26}\brak{\vec{x}- \myvec{1\\1\\1}} &= 0
+%\\
+%\implies 
+%\myvec{20 & 23 & 26}\vec{x} &= 69
+%\end{align}
+%%
+%Alternatively, the plane passing through the intersection of \eqref{eq:plane_2p_1pt_1} and 
+%\eqref{eq:plane_2p_1pt_2} has the form 
+%%
+%\begin{align}
+%\label{eq:plane_2p_1pt_lam}
+%\myvec{1 & 1 & 1}\vec{x} + \lambda \myvec{2 & 3 & 4}\vec{x} &=6 -5\lambda  
+%\end{align}
+%%
+%Substituting \myvec{1\\1\\1} in the above, 
+%%
+%\begin{align}
+%\myvec{1 & 1 & 1}\myvec{1\\1\\1} + \lambda \myvec{2 & 3 & 4}\myvec{1\\1\\1} &=6 -5\lambda  
+%\\
+%\implies 3 + 9\lambda &= 6-5\lambda
+%\\
+%\implies &\lambda = \frac{3}{14}
+%\end{align}
+%%
+%Substituting this value of $\lambda $ in \eqref{eq:plane_2p_1pt_lam} yields the equation of the plane.
 %
-\begin{align}
-\label{eq:plane_2p_1pt_1}
-\myvec{1 & 1 & 1}\vec{x}&=6  
-\\
-\myvec{2 & 3 & 4}\vec{x}&=-5
-\label{eq:plane_2p_1pt_2}
-\end{align}
+%\item Show that the lines 
+%\label{prob:line_coplanar}
+%%
+%\begin{align}
+%\frac{x+3}{-3} = \frac{y-1}{1} &= \frac{z-5}{5}, 
+%\\
+%\frac{x+1}{-1} = \frac{y-2}{2} &= \frac{z-5}{5} 
+%\end{align}
+%%
+%are coplanar.
 %
-and the point \myvec{1\\1\\1}.
-\\
-\solution The intersection of the planes is obtained by row reducing the augmented matrix as
+%\item Find the distance of a point \myvec{2\\5\\-3} from the plane
+%\begin{align}
+%\myvec{6 & -3 & 2}\vec{x}=4
+%\end{align}
+%%
 %
-\begin{align}
-\myvec{
-1 & 1 & 1 & 6
-\\
-2 & 3 & 4 & -5
-}
-\xleftrightarrow[]{R_2 = R_2 -2R_1}
-\myvec{
-1 & 1 & 1 & 6
-\\
-0 & 1 & 2 & -17
-}
-\\
-\xleftrightarrow[]{R_1 = R_1 -R_2}
-\myvec{
-1 & 0 & -1 & 23
-\\
-0 & 1 & 2 & -17
-}
-\\
-\implies 
-\vec{x} = \myvec{23\\-17\\0}+\lambda\myvec{1\\-2\\1}
-\end{align}
-%
-Thus, \myvec{23\\-17\\0} is another point on the plane.  The normal vector to the plane is then obtained as
-The normal vector to the plane is then obtained as
-%
-\begin{align}
-\brak{ \myvec{1\\1\\1}-\myvec{23\\-17\\0}}\times \myvec{1\\-2\\1} 
-\end{align}
-%
-which can be obtained by row reducing the matrix
-\begin{align}
-\myvec{
-1 & -2 & 1
-\\
--22 & 18 & 1
-}
-\xleftrightarrow[]{R_2 = R_2+22R_1}
-\myvec{
-1 & -2 & 1
-\\
-0  & -26 & 23
-}
-\\
-\xleftrightarrow[]{R_1 = 13R_1-R_2}
-\myvec{
-13 & 0 & -10
-\\
-0  & -26 & 23
-}
-\\
-\implies \vec{n} = \myvec{\frac{10}{13}\\\frac{23}{26}\\1} = \myvec{20\\23\\26}
-\end{align}
-%
-Since the plane passes through \myvec{1\\1\\1}, using 
- \eqref{eq:line_norm_vec},
-%
-\begin{align}
-\myvec{20 & 23 & 26}\brak{\vec{x}- \myvec{1\\1\\1}} &= 0
-\\
-\implies 
-\myvec{20 & 23 & 26}\vec{x} &= 69
-\end{align}
-%
-Alternatively, the plane passing through the intersection of \eqref{eq:plane_2p_1pt_1} and 
-\eqref{eq:plane_2p_1pt_2} has the form 
-%
-\begin{align}
-\label{eq:plane_2p_1pt_lam}
-\myvec{1 & 1 & 1}\vec{x} + \lambda \myvec{2 & 3 & 4}\vec{x} &=6 -5\lambda  
-\end{align}
-%
-Substituting \myvec{1\\1\\1} in the above, 
-%
-\begin{align}
-\myvec{1 & 1 & 1}\myvec{1\\1\\1} + \lambda \myvec{2 & 3 & 4}\myvec{1\\1\\1} &=6 -5\lambda  
-\\
-\implies 3 + 9\lambda &= 6-5\lambda
-\\
-\implies &\lambda = \frac{3}{14}
-\end{align}
-%
-Substituting this value of $\lambda $ in \eqref{eq:plane_2p_1pt_lam} yields the equation of the plane.
-
-\item Show that the lines 
-\label{prob:line_coplanar}
-%
-\begin{align}
-\frac{x+3}{-3} = \frac{y-1}{1} &= \frac{z-5}{5}, 
-\\
-\frac{x+1}{-1} = \frac{y-2}{2} &= \frac{z-5}{5} 
-\end{align}
-%
-are coplanar.
-
-\item Find the distance of a point \myvec{2\\5\\-3} from the plane
-\begin{align}
-\myvec{6 & -3 & 2}\vec{x}=4
-\end{align}
-%
-
-\item Find the distance between the point $\vec{P}=\myvec{6\\5\\9}$ and the plane determined by the points $\bm{A}=\myvec{3\\-1\\2}, \bm{B}=\myvec{5\\2\\4}$ and $\bm{C}=\myvec{-1\\-1\\6}$.
+%\item Find the distance between the point $\vec{P}=\myvec{6\\5\\9}$ and the plane determined by the points $\bm{A}=\myvec{3\\-1\\2}, \bm{B}=\myvec{5\\2\\4}$ and $\bm{C}=\myvec{-1\\-1\\6}$.
 %
 %
 \end{enumerate}
