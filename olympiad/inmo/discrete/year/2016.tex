@@ -1,20 +1,10 @@
-\item Find the positive integer n for which each cell od an n $\times$ n table can be filled with one of the letter I,M and O in such a way that:
+\item Let N denote the set of all natural numbers. Define a function T : N $\to$ N by
+T(2k) = k and T(2k + 1) = 2k + 2. We write $T^{2}(n)$ = T(T(n)) and in general
+$T^{k}(n) = T^{k-1}(T(n))$ for any $k > 1$.
 \begin{enumerate}
-\item In each row and each column,one third of the entires are I,one third are M and one third are O;and 
-\item In any diagonal,if the number of entries on the diagonal is a multiple of three,then one third of the entries are I,one third are M and one third are O.
+\item Show that for each n $\in$ N, there exists k such that $T^{k}$(n) = 1.
+\item For k $\in$ N, let $c_k$ denote the number of elements in the set $\{n : T^{k}(n) = 1\}$.
+Prove that $c_{k+2} = c_{k+1} + c_{k}$s, for $k \geq 1$.
 \end{enumerate}
-NOTE: The row and column of an n $\times$ n table are each labelled 1 to n in a natural order.Thus each cell corresponding to a pair of positive integers(i, j) with 1 $\leq$ i,j $\leq$ n.For n $>$ 1,the table has 4n-2 diagonlas of two types.A diagonal of first type consists of all cells(i,j) for which i+j is a constant,and a diagonal of the second type consists of all cells (i, j) for which i-j is a constant.
 
-\item Let P=$A_1 A_2$...$A_k$ be a convex polygon in the plane.The vertices $A_1,A_2$...,$A_k$ have integral co-ordinates and lie on a circle.Let S be the area of P.An odd positive integer n is given such that the squares of the side lengths of P are integers divisible by n.Prove that 2S is an integer divisible by n.
-
-\item The equation
-\begin{align*} 
-(x-1)(x-2)....(x-2016)=(x-1)(x-2)....(x-2016)
-\end{align*}
-is written on the board,with 2016 linear factors on each side.What is the least possible value of k for which it is possible to erase exactly k of these 4032 linear factors so that at least one factor remains on each side and the resulting equation has no real solution?
-
-\item There are n $\geq$ 2 line segments in the Plane such that every two segments,cross and no three segments meet at a point.Geoff has to choose an endpoint of each segment and place a frog on it,facing the other endpoint.Then he will clap his hand n-1 times.Every time he clap each frog will immediately jump forward to the next intersection point on its segment.Frogs never change the direction of their jumps.Geoff wishes to place the frogs in such a way that no two of them will ever occupy the same intersection point at the same time.
-\begin{enumerate}
-\item Prove that Geoff can always fulfil his wish of n is odd.
-\item Prove that Geoff can never fulfil his wish of n is even.
-\end{enumerate}
+\item Suppose 2016 points of the circumference of a circle are coloured red and the remaining points are coloured blue. Given any natural number n $\geq$ 3, Prove that there is a regular n-sided polygon all of whose vertices are blue.
