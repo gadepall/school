@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  17 DEC 2019 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  9 JAN 2020 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1438,7 +1438,7 @@ File: iith_logo.eps Graphic file (type eps)
 File: tlc.eps Graphic file (type eps)
  <tlc.eps>
 (./gvv_linalg.toc
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
  [][] [][]\OT1/txr/m/n/12 Ellipse: Eigen-val-ues and 
  []
 
@@ -1452,7 +1452,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--19
 ]
 File: ./line/figs/orth.eps Graphic file (type eps)
  <./line/figs/orth.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6016) has occurred while \output is active []
 
 )
 (./line/1.1.tex
@@ -1460,12 +1460,9 @@ File: ./line/figs/line_homog.eps Graphic file (type eps)
  <./line/figs/line_homog.eps>
 File: ./line/figs/line_nhomog.eps Graphic file (type eps)
  <./line/figs/line_nhomog.eps>
-Underfull \vbox (badness 7451) has occurred while \output is active []
-
- [2]
+[2]
 File: ./line/figs/ab.eps Graphic file (type eps)
-
-<./line/figs/ab.eps>
+ <./line/figs/ab.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
@@ -1739,62 +1736,77 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./circle/figs/2019_3.eps Graphic file (type eps)
 
-<./circle/figs/2019_3.eps>) (./conics/3.0.tex
+<./circle/figs/2019_3.eps>) (./circle/jee_circles.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
-Underfull \hbox (badness 2662) in paragraph at lines 47--52
-[]\OT1/txr/m/n/12 Find the \OT1/txr/m/it/12 nor-mal \OT1/txr/m/n/12 vec-tor to 
-the curve in
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./conics/figs/conics.tex)) (./conics/3.1.tex [31]
-File: ./conics/figs/parab.eps Graphic file (type eps)
- <./conics/figs/parab.eps>)
-(./conics/3.2.tex) (./conics/3.3.tex [32]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-File: ./conics/figs/ellipse.eps Graphic file (type eps)
-
-<./conics/figs/ellipse.eps>) (./conics/3.4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
-\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 From [] and []
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
-[] \OT1/txr/m/n/12 is ob-tained. Sub-sti-tut-ing from
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 484--485
+[]\OT1/txr/m/n/12 Find the equa-tions of the cir-cles pass-ing
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34])
-(./optimization/kkt.tex
-Underfull \vbox (badness 2134) has occurred while \output is active []
-
-File: ./optimization/figs/2.12_1.eps Graphic file (type eps)
-
-<./optimization/figs/2.12_1.eps>
-File: ./optimization/figs/2.12_2.eps Graphic file (type eps)
- <./optimization/figs/2.12_2.eps> [35])
-(./conics/3.5.tex
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-\OT1/txr/m/n/12 From [], [], [] and
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
+
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--609
+
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 638--640
+\OT1/txr/m/n/12 re-spec-tively.The line PQ is given by the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
+
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1803,24 +1815,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 715--716
+[]\OT1/txr/m/n/12 Statement-1 is True,Statement-2 is
+ []
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 715--716
+\OT1/txr/m/n/12 True;Statement-2 is cor-rect ex-pla-na-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
+[]\OT1/txr/m/n/12 Statement-1 is True,Statement-2 is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
+\OT1/txr/m/n/12 False;Statement-2 is NOT cor-rect
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38])
-(./conics/jee_conic_exer.tex
-Underfull \hbox (badness 2189) in paragraph at lines 59--61
-\OT1/txr/m/n/12 such that it touches the di-rec-trix of the
+ [38]
+Underfull \hbox (badness 7291) in paragraph at lines 735--736
+\OT1/txr/m/n/12 Statement-2 is cor-rect ex-pla-na-tion for
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 109--110
-[]\OT1/txr/m/n/12 Find the equa-tion of the di-rec-trix of the
- []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1834,10 +1863,116 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
+(./conics/3.0.tex
+Underfull \hbox (badness 2662) in paragraph at lines 47--52
+[]\OT1/txr/m/n/12 Find the \OT1/txr/m/it/12 nor-mal \OT1/txr/m/n/12 vec-tor to 
+the curve in
+ []
+
+
+Underfull \vbox (badness 2573) has occurred while \output is active []
+
+ [42]
+(./conics/figs/conics.tex)) (./conics/3.1.tex
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+File: ./conics/figs/parab.eps Graphic file (type eps)
+
+<./conics/figs/parab.eps>) (./conics/3.2.tex [43]
+Underfull \vbox (badness 5050) has occurred while \output is active []
+
+)
+(./conics/3.3.tex [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./conics/figs/ellipse.eps Graphic file (type eps)
+
+<./conics/figs/ellipse.eps>) (./conics/3.4.tex [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 From [] and []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+[] \OT1/txr/m/n/12 is ob-tained. Sub-sti-tut-ing from
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [46])
+(./optimization/kkt.tex
+File: ./optimization/figs/2.12_1.eps Graphic file (type eps)
+ <./optimization/figs/2.12_1.eps>
+File: ./optimization/figs/2.12_2.eps Graphic file (type eps)
+
+<./optimization/figs/2.12_2.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47])
+(./conics/3.5.tex
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+\OT1/txr/m/n/12 From [], [], [] and
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./conics/jee_conic_exer.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 59--61
+\OT1/txr/m/n/12 such that it touches the di-rec-trix of the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \hbox (badness 1430) in paragraph at lines 109--110
+[]\OT1/txr/m/n/12 Find the equa-tion of the di-rec-trix of the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1853,7 +1988,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--355
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
+ [55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1869,28 +2004,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--421
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
+ [56]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+ [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+ [59]
 Underfull \hbox (badness 4859) in paragraph at lines 651--655
 \OT1/txr/bx/n/17 Comprehension Based Ques-
  []
@@ -1898,19 +2030,19 @@ Underfull \hbox (badness 4859) in paragraph at lines 651--655
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [61]
 Underfull \hbox (badness 5652) in paragraph at lines 801--804
 \OT1/txr/bx/n/12 STATEMENT-2:\OT1/txr/m/n/12 A parabola is sym-met-ric
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 804--805
@@ -1925,13 +2057,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 805--806
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1942,13 +2077,10 @@ Underfull \hbox (badness 1803) in paragraph at lines 958--960
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [64]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
 Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
 []\OT1/txr/m/n/12 Statement-1 is true, Statement-2 is
  []
@@ -1964,6 +2096,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1984,7 +2119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1108--1109
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
+ [66]
 Underfull \hbox (badness 3240) in paragraph at lines 1155--1156
 []\OT1/txr/m/n/12 The area(in sq.units) of the quadri-lat-eral
  []
@@ -1995,14 +2130,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
+ [67]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
-[57
+ [68]
+[69
 
 ]
 Overfull \hbox (66.82848pt too wide) in paragraph at lines 1316--1328
@@ -2052,7 +2187,7 @@ Underfull \hbox (badness 1383) in paragraph at lines 1338--1347
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58
+ [70
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1347--1357
@@ -2097,7 +2232,7 @@ Overfull \hbox (221.12108pt too wide) in paragraph at lines 1358--1380
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
+ [71]
 Underfull \hbox (badness 2547) in paragraph at lines 1380--1382
 []\OT1/txr/m/n/12 For $\OT1/txr/bx/n/12 a \OT1/txr/m/n/12 = []$,if a tan-gent i
 s drawn to
@@ -2116,15 +2251,15 @@ Overfull \hbox (71.3887pt too wide) in paragraph at lines 1405--1415
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60])
-[61] (./3d/4.1.tex
+ [72])
+[73] (./3d/4.1.tex
 File: ./3d/figs/1.1.eps Graphic file (type eps)
  <./3d/figs/1.1.eps>
 File: ./3d/figs/1.2.eps Graphic file (type eps)
  <./3d/figs/1.2.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62
+ [74
 
 ]
 File: ./3d/figs/1.3.eps Graphic file (type eps)
@@ -2134,7 +2269,7 @@ File: ./3d/figs/2.1.eps Graphic file (type eps)
  <./3d/figs/2.1.eps>
 File: ./3d/figs/2.2.eps Graphic file (type eps)
  <./3d/figs/2.2.eps>
-[63]) (./3d/4.3.tex
+[75]) (./3d/4.3.tex
 File: ./3d/figs/3.1.eps Graphic file (type eps)
  <./3d/figs/3.1.eps>
 Underfull \vbox (badness 2181) has occurred while \output is active []
@@ -2144,7 +2279,7 @@ File: ./3d/figs/3.2.eps Graphic file (type eps)
 <./3d/figs/3.2.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64])
+ [76])
 (./3d/4.4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2152,11 +2287,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./3d/4.5.tex
 Underfull \vbox (badness 3039) has occurred while \output is active []
 
- [65]
+ [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./3d/4.6.tex [66]) (./3d/4.7.tex) (./optimization/conv.tex
+(./3d/4.6.tex [78]) (./3d/4.7.tex) (./optimization/conv.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/ls
 tlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
@@ -2167,7 +2302,7 @@ File: ./optimization/figs/1.2.eps Graphic file (type eps)
  <./optimization/figs/1.2.eps>
 File: ./optimization/figs/1.3.eps Graphic file (type eps)
 
-<./optimization/figs/1.3.eps> [67]
+<./optimization/figs/1.3.eps> [79]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2182,7 +2317,7 @@ File: ./optimization/figs/2019_1_1.eps Graphic file (type eps)
 <./optimization/figs/2019_1_1.eps>
 Underfull \vbox (badness 2435) has occurred while \output is active []
 
- [68]
+ [80]
 
 LaTeX Warning: Command \j invalid in math mode on input line 120.
 
@@ -2227,12 +2362,12 @@ File: ./optimization/figs/2019_1_2.eps Graphic file (type eps)
 <./optimization/figs/2019_1_2.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69])
-(./optimization/grad_des.tex) (./optimization/sdp.tex [70])
+ [81])
+(./optimization/grad_des.tex) (./optimization/sdp.tex [82])
 (./optimization/lp.tex
 File: ./optimization/figs/4.1.eps Graphic file (type eps)
  <./optimization/figs/4.1.eps>)
-(./optimization/jee_opt.tex [71]
+(./optimization/jee_opt.tex [83]
 
 LaTeX Warning: Command \j invalid in math mode on input line 61.
 
@@ -2273,11 +2408,11 @@ LaTeX Warning: Command \j invalid in math mode on input line 129.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72])
+ [84])
 (./matrix/matdefs.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73])
+ [85])
 (./matrix/cayley.tex
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
@@ -2285,11 +2420,11 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
 (./matrix/trace.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74]
+ [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./matrix/eigvec.tex [75]
+(./matrix/eigvec.tex [87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2308,7 +2443,7 @@ Underfull \hbox (badness 7308) in paragraph at lines 258--261
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
+ [88]
 Underfull \hbox (badness 10000) in paragraph at lines 311--313
 \OT1/txr/m/n/12 mi-nant $[]$
  []
@@ -2321,7 +2456,7 @@ Overfull \hbox (25.19807pt too wide) in paragraph at lines 318--320
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
+ [89]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2352,7 +2487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 410--416
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
+ [90]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2364,7 +2499,7 @@ m/it/12 ^^LM[]$
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
+ [91]
 Underfull \hbox (badness 2922) in paragraph at lines 504--505
 []\OT1/txr/m/n/12 (adjM)(adjN)=(adjMN) for all $\OML/txmi/m/it/12 invertible$
  []
@@ -2375,7 +2510,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
+ [92]
 Underfull \hbox (badness 10000) in paragraph at lines 584--586
 []\OT1/txr/m/n/12 Let M=$[]$, (adjM)=$[]$
  []
@@ -2396,7 +2531,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 611--612
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81]
+ [93]
 Underfull \hbox (badness 10000) in paragraph at lines 625--626
 []\OT1/txr/m/n/12 For a fixed pos-i-tive in-te-ger n, if
  []
@@ -2422,19 +2557,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
+ [94]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
+ [95]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84]
+ [96]
 Underfull \hbox (badness 10000) in paragraph at lines 844--847
 \OT1/txr/m/n/12 f(x)=$[]$, then
  []
@@ -2462,7 +2597,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 888--892
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85]
+ [97]
 Underfull \hbox (badness 10000) in paragraph at lines 927--929
 []\OT1/txr/m/n/12 Let a,b,c be such that b(a+c)$\U/txsyc/m/n/12 ,$
  []
@@ -2488,7 +2623,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86]
+ [98]
 Underfull \hbox (badness 1502) in paragraph at lines 1001--1003
 []\OT1/txr/m/n/12 If $\OML/txmi/m/it/12 $\OT1/txr/m/n/12 , $\OML/txmi/m/it/12 
 ^^L$ $\U/txsyc/m/n/12 ,$\OT1/txr/m/n/12 0, and f(n) = $(\OML/txmi/m/it/12 \OT1
@@ -2506,7 +2641,7 @@ Underfull \hbox (badness 3919) in paragraph at lines 1061--1063
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
+ [99]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2516,13 +2651,13 @@ Underfull \hbox (badness 1762) in paragraph at lines 8--10
 T1/txr/m/n/12 and
  []
 
-[88]
+[100]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./complex/figs/sam.eps Graphic file (type eps)
@@ -2535,13 +2670,13 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 170--173
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
+ [102]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91]
+ [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2562,7 +2697,7 @@ Underfull \hbox (badness 3000) in paragraph at lines 362--363
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
+ [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2579,16 +2714,16 @@ Underfull \hbox (badness 2393) in paragraph at lines 437--439
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [105]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]
+ [106]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
+ [107]
 Overfull \hbox (235.54846pt too wide) in paragraph at lines 660--678
 [] 
  []
@@ -2598,7 +2733,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 660--678
 
  []
 
-[96
+[108
 
 ]
 Overfull \hbox (152.69131pt too wide) in paragraph at lines 681--701
@@ -2610,29 +2745,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 681--701
 
  []
 
-) [97
+) [109
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
  (./gvv_linalg.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 375.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 378.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
 Package rerunfilecheck Info: File `gvv_linalg.out' has not changed.
-(rerunfilecheck)             Checksum: EEC83B52445804BA154847EA7F39616A;2826.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 375.
+(rerunfilecheck)             Checksum: 495A6E47E389CAA5CCC2AD0B4EAA26CE;2889.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
  ) 
 Here is how much of TeX's memory you used:
- 32733 strings out of 492624
- 700358 string characters out of 6119216
- 1100650 words of memory out of 5000000
- 35885 multiletter control sequences out of 15000+600000
+ 32737 strings out of 492624
+ 700433 string characters out of 6119216
+ 1100714 words of memory out of 5000000
+ 35886 multiletter control sequences out of 15000+600000
  78347 words of font info for 203 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,21n,69p,557b,1249s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,21n,69p,585b,1249s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_linalg.dvi (97 pages, 1249804 bytes).
+Output written on gvv_linalg.dvi (109 pages, 1409112 bytes).
