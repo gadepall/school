@@ -7,34 +7,48 @@
 \item A single variable function $f$ is said to be convex if
 %
 \begin{align}
-\label{ch1_convex_def}
-f\sbrak{\lambda x + \brak{1-\lambda}y} \leq \lambda f\brak{x} + \brak{1-\lambda}f\brak{y}, 
+\label{eq:convex_def}
+f\sbrak{t x + \brak{1-t}y} \leq t f\brak{x} + \brak{1-t}f\brak{y}, 
 \end{align}
 %
-for $\quad 0 < \lambda < 1$.
+for $\quad 0 < t < 1$.
 
 
 \item
-Download and execute the following python script. Is  $\ln x$ convex or  concave?
+The following python script plots 
+%
+\begin{align}
+f(\lambda) = a\lambda^2 + b\lambda + d
+\end{align}
+%
+for 
+\begin{align}
+a &= \norm{\vec{m}}^2 > 0
+\\
+b &= \vec{m}^T\brak{\vec{A} -\vec{P}} 
+\\
+c &= \norm{\vec{A} -\vec{P}}^2
+\end{align}
+in Fig. \ref{fig:conv_def}.
 
-%
-\begin{lstlisting}[language=sh]
-codes/optimization/1.1.py
-\end{lstlisting}
-%
-%\begin{figure}[!ht]
-%\centering
-%\includegraphics[width=\columnwidth]{./optimization/figs/1.1.eps}
-%\caption{ $\ln x$ versus $x$}.
-%\label{fig.1.1}	
-%\end{figure}
-%
-\item
 Modify the above python script as follows to plot the parabola $f(x) = x^2$. Is it convex or concave?
 
 \begin{lstlisting}
 codes/optimization/1.2.py
 \end{lstlisting}
+%
+
+%
+%\begin{lstlisting}[language=sh]
+%codes/optimization/1.1.py
+%\end{lstlisting}
+%%
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/convex.eps}
+\caption{ $f(\lambda)$ versus $\lambda$}.
+\label{fig:conv_def}	
+\end{figure}
 %
 %\begin{figure}[!ht]
 %\centering
@@ -79,7 +93,7 @@ and find $\vec{V}$.
 \frac{1}{2}\nabla^2f(\mathbf{x}) = \vec{V}
 \end{equation}
 
-\item Use \eqref{ch1_convex_def} to examine the convexity of $f(\vec{x})$.
+\item Use \eqref{eq:convex_def} to examine the convexity of $f(\vec{x})$.
 \item How can you deduce the convexity of $f(\vec{x})$ using the eigenvalues of $\vec{V}$?
 \item Show that $\vec{D}$ lies inside $\triangle ABC$ iff
 \begin{align}
