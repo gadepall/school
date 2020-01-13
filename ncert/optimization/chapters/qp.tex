@@ -1,0 +1,85 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item
+	\label{prob:dist_pt_parab}
+Find the point on the curve 
+\begin{align}
+\label{eq:dist_pt_parab}
+x^2 = 2y
+\end{align}
+%
+nearest to the point 
+\begin{align}
+\vec{P} = \myvec{0\\5}.  
+\end{align}
+%
+by drawing a figure.
+\\
+\solution 
+The following code plots Fig. \label{fig:dist_pt_parab}
+
+%	
+%\begin{lstlisting}
+%codes/optimization/concirc.py
+%\end{lstlisting}
+
+%
+%\begin{figure}[!ht]
+%\centering
+%\includegraphics[width=\columnwidth]{./figs/dist_pt_parab.eps}
+%\caption{ Finding $ \displaystyle \min_{\mbf{x}}g\brak{\mbf{x}}$}.
+%\label{eq:dist_pt_parab}
+%\end{figure}
+%
+\item Frame 	Problem \ref{eq:dist_pt_parab}
+ as an optimization problem.
+\label{prob:qp_dist_pt_parab}
+\\
+\solution The given problem can be expressed as
+\begin{align}
+\label{eq:qp_dist_pt_parab}
+\min_{\vec{x}}\norm{\vec{x}-\vec{P}}^2
+\\
+\text{s.t. }\vec{x}^T\vec{V}\vec{x} + \vec{u}^T\vec{x}  = 0
+\end{align}
+%
+where
+%
+\begin{align}
+\vec{V} &= \myvec{1 & 0\\0 & 0}
+\vec{u} &= -\myvec{0 \\ 2}
+\end{align}
+%
+\item Show that the constraint in \ref{eq:qp_dist_pt_parab} is nonconvex.
+\item Show that the following {\em relaxation} makes \eqref{eq:qp_dist_pt_parab} a convex optimization problem.
+%
+\begin{align}
+\label{eq:qp_dist_pt_parab_conv}
+\min_{\vec{x}}\norm{\vec{x}-\vec{P}}^2
+\\
+\text{s.t. }\vec{x}^T\vec{V}\vec{x} + \vec{u}^T\vec{x}  \le 0
+\end{align}
+%
+\item Solve \eqref{eq:qp_dist_pt_parab_conv} using cvxpy.
+\item Solve \eqref{eq:qp_dist_pt_parab_conv} using the method of Lagrange multipliers.
+%
+%\solution 
+%From \eqref{eq2_1_line} and \eqref{eq2_1_circ}, 
+%%
+%\begin{align}
+%r^2 & = (x_1-8)^2 + (3- x_1)^2 \\
+%&= 2 x_1^2 - 22 x_1 + 73 \\
+%\Rightarrow r^2 &= \frac{\brak{2x_1-11}^2 + 5^2}{2}
+%\end{align}
+%%
+%which is minium when $x_1 = \frac{11}{2}, x_2 = \frac{7}{2}$.  The minimum value is $\frac{25}{2}$ and 
+%the radius $r = \frac{5}{\sqrt{2}}$.
+%	
+%\begin{lstlisting}
+%codes/optimization/lagmul.py
+%\end{lstlisting}
+\item Solve \eqref{eq:qp_dist_pt_parab_conv} using gradient descent.
+%
+\end{enumerate}
