@@ -6,12 +6,12 @@
 	\label{convex_code}
 Find
 \begin{align}
-\label{eq2_1_circ}
-	\min_{\mbf{x}}f\brak{\mbf{x}} = \norm{\vec{x}-\vec{P}}^2 = r^2 \\
-\text{s.t.} \quad 	g\brak{\mbf{x}} = \vec{n}^T\vec{x} - c = 0\label{eq2_1_line}
+\label{eq:opt_line_nor_h}
+	\min_{\mbf{x}}g\brak{\mbf{x}} = \norm{\vec{x}-\vec{P}}^2 = r^2 \\
+\text{s.t.} \quad 	h\brak{\mbf{x}} = \vec{n}^T\vec{x} - c = 0\label{eq2_1_line}
 %	\quad g\brak{\mbf{x}} = x_1 + x_2 - 9 = 0
 \end{align}
-by plotting the circles $f\brak{\vec{x}}$
+by plotting the circles $g\brak{\vec{x}}$
 %
 %\begin{equation}
 % \norm{\vec{x}-\myvec{8\\6}}^2 =r^2
@@ -28,25 +28,29 @@ for different values of $r$ along with the line $g\brak{\mbf{x}}$.
 %
 \\
 \solution 
-The following code plots Fig. \ref{fig.2.1}	
+The following code plots Fig. \ref{fig.concirc}	
 
 %	
 \begin{lstlisting}
-codes/optimization/2.1.py
+codes/optimization/concirc.py
 \end{lstlisting}
 
 %
-%\begin{figure}[!ht]
-%\centering
-%\includegraphics[width=\columnwidth]{./optimization/figs/2.1.eps}
-%\caption{ Finding $ \displaystyle \min_{\mbf{x}}f\brak{\mbf{x}}$}.
-%\label{fig.2.1}	
-%\end{figure}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/concirc.eps}
+\caption{ Finding $ \displaystyle \min_{\mbf{x}}g\brak{\mbf{x}}$}.
+\label{fig.concirc}	
+\end{figure}
 %
-\item Show that 
+\item By solving the quadratic equation obtained from \eqref{eq:opt_line_nor_h},
+show that 
+\label{prob:minr}
 \begin{align}
-\min r = \frac{5}{\sqrt{2}}
+\min_{\vec{x}} r = \frac{3}{5}
 \end{align}
+%
+and find $\vec{x} = \vec{Q}$ that minimizes $r$. By labeling  $\vec{Q}$ in Fig. \ref{fig:concirc}, show that $\vec{Q}$ is the point of contact of the line $L$ with the circle of minimum radius $r = \frac{3}{5}$.
 %Obtain a theoretical solution for problem \ref{convex_code} 
 %%using coordinate geometry.
 %
@@ -63,7 +67,7 @@ codes/optimization/2.1.py
 %the radius $r = \frac{5}{\sqrt{2}}$.
 \item Show that 
 \begin{align}
-\nabla g(\vec{x}) = \myvec{1 \\ 1}
+\nabla h(\vec{x}) =  \myvec{3 \\ -4} = \vec{n}
 \end{align}
 where
 \begin{equation}
@@ -76,34 +80,34 @@ where
 
 \item Show that 
 \begin{align}
-\nabla f(\vec{x}) = 2\cbrak{\vec{x}-\myvec{8 \\ 6}}
+\nabla g(\vec{x}) = 2\cbrak{\vec{x}-\myvec{3 \\ -5}} = 2\cbrak{\vec{x}-\vec{P}}
 \end{align}
 %
-is the direction vector of the normal at $\vec{x}$.
-\item From Fig. \ref{fig.2.1}, show that 
+%is the direction vector of the normal at $\vec{x}$.
+\item From Fig. \ref{fig.concirc}, show that 
 \begin{align}
 \label{eq:opt_normal}
-\nabla f(\vec{p}) = \lambda \nabla g(\vec{p}),
+\nabla g(\vec{Q}) = \lambda \nabla h(\vec{Q}),
 \end{align}
 %
-where $\vec{p}$ is the point of contact.
-\item Use \eqref{eq:opt_normal} and $\vec{g(p)}=0$ from \eqref{eq2_1_line} to obtain $\vec{p}$.
+%where $\vec{p}$ is the point of contact.
+\item Use \eqref{eq:opt_normal} and $\vec{h(\vec{Q})}=0$ from \eqref{eq2_1_line} to obtain $\vec{Q}$.
 \item
 \label{lagrange}
 	Define 
 	\begin{equation}
 	\label{lagrangian}
-	L\brak{\mbf{x},\lambda} = f\brak{\mbf{x}} - \lambda g\brak{\mbf{x}}%, \quad \lambda > 0
+	C\brak{\mbf{x},\lambda} = g\brak{\mbf{x}} - \lambda h\brak{\mbf{x}}%, \quad \lambda > 0
 	\end{equation}
-and show that $\vec{p}$ can also be obtained by 
+and show that $\vec{Q}$ can also be obtained by 
 solving the equations
 %
 \begin{align}
-\nabla L\brak{\mbf{x},\lambda} &= 0.
+\nabla C\brak{\mbf{x},\lambda} &= 0.
 \label{tangent}
 \end{align}
 %
-What is the sign of $\lambda$?  $L$ is known as the Lagrangian and the above technique is known as the Method of Lagrange Multipliers.
+What is the sign of $\lambda$?  $C$ is known as the Lagrangian and the above technique is known as the Method of Lagrange Multipliers.
 
 \solution
 %From \eqref{eq2_1_line} and \eqref{eq2_1_circ}, 
@@ -154,6 +158,7 @@ What is the sign of $\lambda$?  $L$ is known as the Lagrangian and the above tec
 %using the following python script.  Note that this method yields the same result as the previous exercises.  Thus, $\lambda$ is negative.
 %	
 \begin{lstlisting}
-codes/optimization/2.3.py
+codes/optimization/lagmul.py
 \end{lstlisting}
+\item Obtain $\vec{Q}$ using gradient descent.
 \end{enumerate}
