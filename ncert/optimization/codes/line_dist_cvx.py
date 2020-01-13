@@ -6,9 +6,9 @@ from cvxpy import *
 import numpy as np
 
 #Line parameters
-n =  np.array([3,-4]).reshape((2,-1))
+n =  np.array([3,-4]).reshape(2,-1)
 c = 26
-P = np.array([3,-5]).reshape((2,-1))
+P = np.array([3,-5]).reshape(2,-1)
 
 x = Variable((2,1))
 #Cost function

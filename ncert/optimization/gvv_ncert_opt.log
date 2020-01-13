@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  13 JAN 2020 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  13 JAN 2020 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,11 +1302,7 @@ ngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
-) (./gvv_ncert_opt.aux
-
-LaTeX Warning: Label `eq:opt_line_dist' multiply defined.
-
-)
+) (./gvv_ncert_opt.aux)
 \openout1 = `gvv_ncert_opt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 84.
@@ -1466,17 +1462,10 @@ File: tlc.eps Graphic file (type eps)
 ]) (./chapters/conv.tex
 File: ./figs/convex.eps Graphic file (type eps)
 
-<./figs/convex.eps>) (./chapters/grad_des.tex
-
-LaTeX Warning: Reference `eq:root' on page 2 undefined on input line 38.
-
-) (./chapters/lagrange.tex [2]
+<./figs/convex.eps>) (./chapters/grad_des.tex) (./chapters/lagrange.tex
+[2]
 File: ./figs/concirc.eps Graphic file (type eps)
- <./figs/concirc.eps>
-
-LaTeX Warning: Reference `fig.concirc' on page 3 undefined on input line 87.
-
-) (./chapters/qp.tex
+ <./figs/concirc.eps>) (./chapters/qp.tex
 Underfull \hbox (badness 1360) in paragraph at lines 56--58
 []\OT1/txr/m/n/12 Show that the fol-low-ing \OT1/txr/m/it/12 re-lax-ation \OT1/
 txr/m/n/12 makes
@@ -1493,22 +1482,15 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 345.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
 Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
 (rerunfilecheck)             Checksum: 31D2F8185053D4A39003EDFC168E547E;271.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 31906 strings out of 492624
- 686102 string characters out of 6119216
+ 31904 strings out of 492624
+ 686080 string characters out of 6119216
  893991 words of memory out of 5000000
- 35214 multiletter control sequences out of 15000+600000
+ 35212 multiletter control sequences out of 15000+600000
  77739 words of font info for 194 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,15n,69p,505b,1162s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,15n,69p,505b,1161s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_opt.dvi (4 pages, 47952 bytes).
+Output written on gvv_ncert_opt.dvi (4 pages, 48628 bytes).
