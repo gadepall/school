@@ -31,6 +31,7 @@ ax=plt.plot(x_line,y_line,'-')
 
 #Plotting the line
 k = np.array([5,30])
+print(k)
 x_AB=line_norm_eq(n,c,k)
 #x1 = np.linspace(0,10,100)
 #x2 = (c*np.ones(100) - n[1]*x1)/n[0]

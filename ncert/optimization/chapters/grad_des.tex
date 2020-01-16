@@ -53,7 +53,7 @@ A numerical solution for \eqref{eq:parab} is obtained as
 %\label{eq:newton}
 %\end{align}
 %
-where $\lambda_0$ is an inital guess.
+where $\lambda_0$ is an inital guess and $\mu$ is a variable parameter. The choice of these parameters is very important since they decide how fast the algorithm converges.
 %
 \item
 Write a program to implement \eqref{eq:gradient}.
@@ -64,7 +64,7 @@ Write a program to implement \eqref{eq:gradient}.
 codes/optimization/gd.py
 \end{lstlisting}
 %
-\item Find a closed form solution for \eqref{eq:gradient} using the one sided Z transform.
+\item Find a closed form solution for $\lambda_n$ in  \eqref{eq:gradient} using the one sided Z transform.
 %
 \item Find the condition for which \eqref{eq:gradient} converges, i.e.
 \begin{align}

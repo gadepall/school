@@ -27,6 +27,7 @@ def line_icepts(n,c):
   return A,B
 
 def line_norm_eq(n,c,k):
+  print(n,c,k)
   len =10
   dim = n.shape[0]
   m = omat@n
@@ -42,6 +43,7 @@ def line_norm_eq(n,c,k):
       x_AB[:,i]= temp1.T
   else:
     A,B = line_icepts(n,c)
+    print(A)
     for i in range(len):
       temp1 = A + lam_1[i]*m
       x_AB[:,i]= temp1.T
