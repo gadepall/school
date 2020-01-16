@@ -35,11 +35,18 @@ c&=26
 \item Solve \eqref{eq:opt_line_dist} using cvxpy.
 %
 \\
-\solution
+\solution  The following code yields
 %	
 \begin{lstlisting}
 codes/line_dist_cvx.py
 \end{lstlisting}
+%
+\begin{align}
+\vec{x}_{\min} &= \myvec{2.64\\-4.52},
+\\
+g\brak{\vec{x}_{\min}} &= 0.6
+\end{align}
+%
 
 \item Convert  \eqref{eq:opt_line_dist} to an {\em unconstrained} optimization problem.
 %
@@ -134,8 +141,14 @@ upon substituting from \eqref{eq:opt_line_dist_uncon_mu}. The distance between $
 \norm{\vec{A} -\vec{P}} &= \abs{\mu}\norm{\vec{n}}
 \\
 &= \frac{\abs{\vec{n}^T\vec{P} -c }}{\norm{\vec{n}}}
+\label{eq:opt_line_dist_uncon_f_closed}
 \end{align}
-after substituting for $\mu$ from  \eqref{eq:opt_line_dist_uncon_mu_sol}.
+after substituting for $\mu$ from  \eqref{eq:opt_line_dist_uncon_mu_sol}. Using the corresponding values from Problem \eqref{prob:opt_line_dist} in \eqref{eq:opt_line_dist_uncon_f_closed},
+%
+\begin{align}
+\min_{\lambda}f(\lambda) =  0.6
+\end{align}
+
 %
 %
 \end{enumerate}

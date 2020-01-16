@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  14 JAN 2020 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  16 JAN 2020 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1456,22 +1456,28 @@ File: tlc.eps Graphic file (type eps)
 \tf@toc=\write5
 \openout5 = `gvv_ncert_opt.toc'.
 
- (./chapters/line_exam.tex [1
+ (./chapters/line_exam.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
-]) (./chapters/conv.tex
+])
+(./chapters/conv.tex
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
 File: ./figs/convex.eps Graphic file (type eps)
 
 <./figs/convex.eps>) (./chapters/grad_des.tex [2]) (./chapters/lagrange.tex
 File: ./figs/concirc.eps Graphic file (type eps)
 
-<./figs/concirc.eps>) (./chapters/qp.tex
+<./figs/concirc.eps>) (./chapters/qp.tex [3]
 Underfull \hbox (badness 1360) in paragraph at lines 56--58
 []\OT1/txr/m/n/12 Show that the fol-low-ing \OT1/txr/m/it/12 re-lax-ation \OT1/
 txr/m/n/12 makes
  []
 
-[3])
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
  [4
 
@@ -1489,12 +1495,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 31904 strings out of 492624
- 686080 string characters out of 6119216
- 893991 words of memory out of 5000000
- 35212 multiletter control sequences out of 15000+600000
+ 31905 strings out of 492624
+ 686113 string characters out of 6119216
+ 897991 words of memory out of 5000000
+ 35213 multiletter control sequences out of 15000+600000
  77739 words of font info for 194 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,15n,69p,505b,1161s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_opt.dvi (4 pages, 48852 bytes).
+Output written on gvv_ncert_opt.dvi (4 pages, 50500 bytes).

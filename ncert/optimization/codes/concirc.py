@@ -12,15 +12,15 @@ from coeffs import *
 n =  np.array([3,-4]) 
 c = 26
 P = np.array([3,-5]) 
+# Point of contact
+Q = np.array([2.64,-4.52]) 
 
-#A,B = line_icepts(n,c)
-#m = omat@n
-#Plotting the circle
-x = P[0]*np.ones(8)
-y = P[1]*np.ones(8)
-rmin =0.6*10
-r = np.arange(8)*rmin/6
-#/np.sqrt(2)
+#Plotting the circles
+numcirc = 5
+x = P[0]*np.ones(numcirc)
+y = P[1]*np.ones(numcirc)
+rmin =0.6
+r = np.arange(numcirc)*rmin/(numcirc-1)
 phi = np.linspace(0.0,2*np.pi,100)
 na=np.newaxis
 # the first axis of these arrays varies the angle, 
@@ -30,18 +30,18 @@ y_line = y[na,:]+r[na,:]*np.cos(phi[:,na])
 ax=plt.plot(x_line,y_line,'-')
 
 #Plotting the line
-k = np.array([5,30])
-print(k)
+k = np.array([7,8])
 x_AB=line_norm_eq(n,c,k)
-#x1 = np.linspace(0,10,100)
-#x2 = (c*np.ones(100) - n[1]*x1)/n[0]
-#bx=plt.plot(x1,x2,label="$x_1+x_2-9=0$")
-bx=plt.plot(x_AB[:,0],x_AB[:,1],label="$x_1+x_2-9=0$")
+x_PQ=line_gen(P,Q)
+bx=plt.plot(x_AB[0,:],x_AB[1,:])
+cx=plt.plot(x_PQ[0,:],x_PQ[1,:])
+plt.text(Q[0]*(1), Q[1]*(1-0.02),'Q')
+plt.text(P[0]*(1), P[1]*(1-0.01),'P')
 plt.axis('equal')
 plt.grid()
 plt.xlabel('$x_1$')
 plt.ylabel('$x_2$')
-plt.legend([ax[5], bx[0]],['$(x_1-8)^2+(x_2- 6)^2=\\frac{25}{2}$','$x_1+x_2-9=0$'], loc='best')
+plt.legend([ax[numcirc-1], bx[0], cx[0]],['$||x-P||=r$','$n^Tx = c$', 'PQ'], loc='best')
 
 #if using termux
 plt.savefig('./figs/concirc.pdf')
