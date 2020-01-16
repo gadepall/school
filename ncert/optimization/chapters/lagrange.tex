@@ -32,7 +32,7 @@ The following code plots Fig. \ref{fig:concirc}
 
 %	
 \begin{lstlisting}
-codes/optimization/concirc.py
+codes/concirc.py
 \end{lstlisting}
 
 %
@@ -47,11 +47,12 @@ codes/optimization/concirc.py
 show that 
 \label{prob:minr}
 \begin{align}
-\min_{\vec{x}} r = \frac{3}{5}
+\min_{\vec{x}} r = \frac{3}{5}, \vec{x}_{\min} = \vec{Q}  = \myvec{2.64\\-4.52}
 \end{align}
 %
-and find $\vec{x}_{\min} = \vec{Q}  = \myvec{2.64\\-4.52},
-$ that minimizes $r$. By labeling  $\vec{Q}$ in Fig. \ref{fig:concirc}, show that $\vec{Q}$ is the point of contact of the line $L$ with the circle of minimum radius $r = \frac{3}{5}$.
+%and find $,
+%$ that minimizes $r$. By labeling  $\vec{Q}$ 
+In Fig. \ref{fig:concirc}, it can be seen  that $\vec{Q}$ is the point of contact of the line $L$ with the circle of minimum radius $r = \frac{3}{5}$.
 %Obtain a theoretical solution for problem \ref{convex_code} 
 %%using coordinate geometry.
 %
@@ -68,6 +69,7 @@ $ that minimizes $r$. By labeling  $\vec{Q}$ in Fig. \ref{fig:concirc}, show tha
 %the radius $r = \frac{5}{\sqrt{2}}$.
 \item Show that 
 \begin{align}
+\label{eq:lagrange_n}
 \nabla h(\vec{x}) =  \myvec{3 \\ -4} = \vec{n}
 \end{align}
 where
@@ -82,6 +84,7 @@ where
 \item Show that 
 \begin{align}
 \nabla g(\vec{x}) = 2\cbrak{\vec{x}-\myvec{3 \\ -5}} = 2\cbrak{\vec{x}-\vec{P}}
+\label{eq:lagrange_pq}
 \end{align}
 %
 %is the direction vector of the normal at $\vec{x}$.
@@ -91,8 +94,40 @@ where
 \nabla g(\vec{Q}) = \lambda \nabla h(\vec{Q}),
 \end{align}
 %
+\solution In Fig. \ref{fig:concirc}, PQ is the normal to the line $L$, represented by $h\brak{\vec{x}}$. 
+$\because$ the normal vector of $L$ is in the same direction as $PQ$,  for some constant $k$, 
+%
+\begin{align}
+%\label{eq:opt_normal}
+\brak{\vec{Q}-\vec{P}} = k \vec{n}
+\end{align}
+%
+which is the same as \eqref{eq:opt_normal} after substituting from \eqref{eq:lagrange_n}.
+ and \eqref{eq:lagrange_pq}.
 %where $\vec{p}$ is the point of contact.
 \item Use \eqref{eq:opt_normal} and $\vec{h(\vec{Q})}=0$ from \eqref{eq2_1_line} to obtain $\vec{Q}$.
+\\
+\solution From the given equations, we obtain
+\begin{align}
+\brak{\vec{Q}-\vec{P}}-\lambda \vec{n} &= 0 
+\\
+\vec{n}^T\vec{Q} - c &= 0
+\label{eq:lagrange_mat_eq}
+\end{align}
+%
+which can be simplifed to obtain
+%
+\begin{align}
+\myvec{\vec{I} & -\vec{n} \\ \vec{n}^T & 0}\myvec{\vec{Q}\\ \lambda} = \myvec{\vec{P}\\c}
+%\vec{Q} = \vec{P}+\frac{\brak{c-\vec{n}^T\vec{P}}}{\norm{\vec{n}}^2}\vec{n}
+\label{eq:lagrange_mat_sol}
+\end{align}
+The following code computes the solution to \eqref{eq:lagrange_mat_sol}
+%
+\begin{lstlisting}
+codes/optimization/lagmul.py
+\end{lstlisting}
+
 \item
 \label{lagrange}
 	Define 
@@ -110,7 +145,7 @@ solving the equations
 %
 What is the sign of $\lambda$?  $C$ is known as the Lagrangian and the above technique is known as the Method of Lagrange Multipliers.
 
-\solution
+%\solution
 %From \eqref{eq2_1_line} and \eqref{eq2_1_circ}, 
 %%
 %\begin{align}
@@ -158,8 +193,11 @@ What is the sign of $\lambda$?  $C$ is known as the Lagrangian and the above tec
 %%
 %using the following python script.  Note that this method yields the same result as the previous exercises.  Thus, $\lambda$ is negative.
 %	
-\begin{lstlisting}
-codes/optimization/lagmul.py
-\end{lstlisting}
 \item Obtain $\vec{Q}$ using gradient descent.
+\\
+\solution
+\begin{lstlisting}
+codes/gd_lagrange.py
+\end{lstlisting}
+
 \end{enumerate}
