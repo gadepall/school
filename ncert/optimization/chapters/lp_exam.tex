@@ -3,6 +3,7 @@
 \numberwithin{equation}{enumi}
 %
 \item Solve
+\label{prob:lp_std}
 \begin{align}
 \max_{\vec{x}} Z &= \myvec{4 & 1}\vec{x}
 \\
@@ -17,6 +18,8 @@ s.t. \quad
 \vec{x} &\succeq \vec{0}
 \end{align}
 %
+using cvxpy.
+\\
 \solution The given problem can be expressed in general as
 \begin{align}
 \max_{\vec{x}} &\vec{c}^{T}\vec{x}
@@ -43,7 +46,7 @@ where
 %
 and can be solved using {\em cvxpy} through the following code
 \begin{lstlisting}
-codes/line/lp_exam.py
+codes/lp_cvx.py
 \end{lstlisting}
 %
 to obtain
@@ -51,13 +54,20 @@ to obtain
 \vec{x} = \myvec{30\\0}, Z = 120
 \end{align}
 %
-%\begin{figure}[!ht]
-%\includegraphics[width=\columnwidth]{./line/figs/line_ineq.eps}
-%\caption{}
-%\label{fig:line_ineq}
-%\end{figure}
+\item Graphically, show that the {feasible region} in  Problem \ref{prob:lp_std} result in the interior of a convex polygon and the optimal point is one of the vertices.
+\solution The following code plots Fig. \ref{fig:lp_feas_reg}.
 %
+\begin{lstlisting}
+codes/lp_cvx.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./figs/lp_feas_reg.eps}
+\caption{}
+\label{fig:lp_feas_reg}
+\end{figure}
 
+%Verify the solution to graphically.
 \item Solve
 \begin{align}
 \min_{\vec{x}} Z &= \myvec{3 & 9}\vec{x}
@@ -77,16 +87,17 @@ s.t. \quad
 \end{align}
 \solution The following code
 \begin{lstlisting}
-codes/line/lp_exam_mult.py
+codes/lp_cvx_mult.py
 \end{lstlisting}
 %
 is used to obtain
 \begin{align}
 \vec{x} = \myvec{15\\15}, Z = 180
 \end{align}
+%
+%\item Write a program to plot the constraints for any linear program.
 
-
-The region in \eqref{eq:lp_constr} is shown in Fig. \ref{}
+%The region in \eqref{eq:lp_constr} is shown in Fig. \ref{}
 \item Solve
 \begin{align}
 \min_{\vec{x}} Z &= \myvec{-50 & 20}\vec{x}
@@ -106,10 +117,12 @@ s.t. \quad
 %
 \solution The following code 
 \begin{lstlisting}
-codes/line/lp_exam_nosol.py
+codes/lp_cvx_nosol.py
 \end{lstlisting}
 %
 shows that the given problem has no solution.
+\item Verify all the above solutions using Lagrange multipliers.
+\item Repeat the above exercise using the Simplex method.
 \item\textbf {(Diet problem)}: A dietician wishes to mix two types of foods in such a
 way that vitamin contents of the mixture contain atleast 8 units of vitamin A and 10
 units of vitamin C. Food ‘I’ contains 2 units/kg of vitamin A and 1 unit/kg of vitamin C.
