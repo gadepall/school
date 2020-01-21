@@ -283,7 +283,8 @@ This manual shows how to balance chemical equations using matrices.
 \end{abstract}
 Download python codes using 
 \begin{lstlisting}
-svn co https://github.com/gadepall/school/trunk/training\end{lstlisting}
+svn co https://github.com/gadepall/school/trunk/training
+\end{lstlisting}
 
 %\renewcommand{\theequation}{\theenumi}
 %\subsection{Problem}
@@ -406,7 +407,9 @@ Thus,
 \label{eq:chem_balance_mat_sol}
 x_1 &= \frac{3}{4}x_4, x_2 = x_4, x_3 = \frac{1}{4}x_4
 \\
-\implies \vec{x} &= x_4\myvec{\frac{3}{4} \\ 1 \\ \frac{1}{4} \\ 1}= \myvec{3 \\ 4 \\ 1 \\ 4}
+\\
+\implies 
+\vec{x} &= x_4\myvec{\frac{3}{4} \\ 1 \\ \frac{1}{4} \\ 1}= \myvec{3 \\ 4 \\ 1 \\ 4}
 \end{align}
 %
 upon substituting $x_4 = 4$.
@@ -421,14 +424,14 @@ upon substituting $x_4 = 4$.
 \\
 \solution Execute
 \begin{lstlisting}
-codes/chem_bal.py
+codes/chembal.py
 \end{lstlisting}
 \end{enumerate}
 %
 \section{Mathematics}
 \begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
-\item Find the equation of the plane $P$ that containes the point \myvec{1 \\ -1 \\ 2} and is perpendicular to each of the planes
+\item Find the equation of the plane $P$ that contains the point \myvec{1 \\ -1 \\ 2} and is perpendicular to each of the planes
 %
 \begin{align}
 \label{eq:chem_balance_planes}
