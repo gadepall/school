@@ -128,7 +128,87 @@ way that vitamin contents of the mixture contain atleast 8 units of vitamin A an
 units of vitamin C. Food ‘I’ contains 2 units/kg of vitamin A and 1 unit/kg of vitamin C.
 Food ‘II’ contains 1 unit/kg of vitamin A and 2 units/kg of vitamin C. It costs
 Rs 50 per kg to purchase Food ‘I’ and Rs 70 per kg to purchase Food ‘II’. Formulate
-this problem as a linear programming problem to minimise the cost of such a mixture.\\
+this problem as a linear programming problem to minimise the cost of such a mixture.
+\\
+\solution Let the mixture contains $x$ kg of food I and $y$ kg of food II.
+\\
+\begin{table}[!h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\multirow{2}{*}{Resources} & \multicolumn{2}{l|}{Food} & \multirow{2}{*}{Requirement} \\ \cline{2-3}
+                           & I           & II          &                              \\ \hline
+Vitamin A                  & 2           & 1           & Atleast 8 Units              \\ \hline
+Vitamin C                  & 1           & 2           & Atleast 10 Units             \\ \hline
+Cost                       & 50          & 70          &                              \\ \hline
+\end{tabular}
+\end{table}
+%
+The given problem can be expressed as
+%GOAL: We need to minimize the cost of mixture.\\
+%Cost of FOOD I per kg = Rs 50 \\
+%Cost of FOOD II per kg = Rs 70 \\
+% Minimize $ Z = 50x +70y$\\
+% Subject to constraints:\\
+% $2x+y>=8$\\
+% $x+2y>=10$\\
+% $x,y>=0$\\
+\begin{align}
+\min_{\vec{x}} Z &= \myvec{50 & 70}\vec{x}
+\\
+s.t. \quad 
+\myvec{
+2 & 1
+\\
+1 & 2
+%\\
+%2 & -3
+}
+\vec{x} & \succeq \myvec{8\\10}
+%\preceq \myvec{5\\-3\\12}
+\\
+\vec{x} &\succeq \vec{0}
+\label{eq:diet}
+\end{align}
+%
+The corner points of the feasible region are available in Table \ref{table:diet_corner_pt} and plotted in Fig. \ref{fig:diet}.
+%
+\begin{table}[!h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+Corner Point &  $Z=50x+70y$\\
+\hline
+(0,8)& 560\\
+\hline
+(2,4)& 380\\
+\hline
+(10,0)& 500\\
+\hline
+\end{tabular}
+\caption{}
+\label{table:diet_corner_pt}
+\end{table}
+  \begin{figure}[!h]
+
+  \centering
+  \includegraphics[width=1\linewidth]{./figs/lp_diet.eps}
+\caption{}
+\label{fig:diet}
+  \end{figure}
+
+
+The smallest value of Z is 380 at the point (2,4). But the feasible region is unbounded therefore we draw the graph of the inequality
+\begin{align}
+50x +70y<380
+\end{align}
+to check whether the resulting open half has any point common with the feasible region but on checking it doesn't have any points in common. 
+Thus the minimum value of Z is 380 attained at $\myvec{2\\4}$. Hence optimal mixing strategy for the dietician would be to mix 2 Kg of Food I and 4 Kg of Food II.  The following code provides the solution to \eqref{eq:diet}.
+%
+\begin{lstlisting}
+codes/diet.py
+\end{lstlisting}
+
+
+
 \item \textbf{(Allocation problem)} A cooperative society of farmers has 50 hectare
 of land to grow two crops X and Y. The profit from crops X and Y per hectare are
 estimated as Rs 10,500 and Rs 9,000 respectively. To control weeds, a liquid herbicide

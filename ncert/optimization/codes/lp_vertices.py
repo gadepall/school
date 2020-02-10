@@ -78,9 +78,9 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('./line/figs/lp_vertices.pdf')
-plt.savefig('./line/figs/lp_vertices.eps')
-subprocess.run(shlex.split("termux-open ./line/figs/lp_vertices.pdf"))
+plt.savefig('./figs/lp_vertices.pdf')
+plt.savefig('./figs/lp_vertices.eps')
+subprocess.run(shlex.split("termux-open ./figs/lp_vertices.pdf"))
 #else
 #plt.show()
 

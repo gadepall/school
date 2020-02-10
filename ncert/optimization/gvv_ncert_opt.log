@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.1)  3 FEB 2020 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  10 FEB 2020 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1485,55 +1485,47 @@ Underfull \vbox (badness 3118) has occurred while \output is active []
 File: ./figs/lp_feas_reg.eps Graphic file (type eps)
 
 <./figs/lp_feas_reg.eps> [5]
-Underfull \hbox (badness 1642) in paragraph at lines 126--132
-\OT1/txr/m/n/12 Food `I' and Rs 70 per kg to pur-chase
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--132
+File: ./figs/lp_diet.eps Graphic file (type eps)
+ <./figs/lp_diet.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--147
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 219--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--154
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--160
+Underfull \hbox (badness 10000) in paragraph at lines 234--240
 
  []
 
 
-Overfull \hbox (31.70001pt too wide) in paragraph at lines 161--173
+Overfull \hbox (31.70001pt too wide) in paragraph at lines 241--253
 [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--177
-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-Underfull \hbox (badness 2351) in paragraph at lines 177--193
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--257
+
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 257--273
 []\OT1/txr/bx/n/12 (Transportation prob-lem) \OT1/txr/m/n/12 There are two
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--193
+Underfull \hbox (badness 10000) in paragraph at lines 257--273
 
  []
 
@@ -1547,7 +1539,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-
+[7]
 Underfull \hbox (badness 1838) in paragraph at lines 37--39
 []\OT1/txr/m/n/12 Maximise Z=5x+3y sub-ject to 3x+5y$\OMS/txsy/m/n/12 ^^T$\OT1/
 txr/m/n/12 15,
@@ -1635,7 +1627,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--72
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 72--78
 
  []
@@ -1665,7 +1657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--97
 
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 97--104
 
  []
@@ -1700,7 +1692,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
  []
 
-[8]
+
 Underfull \hbox (badness 2521) in paragraph at lines 123--132
 []\OT1/txr/m/n/12 The cor-ner points of the fea-si-ble re-gion
  []
@@ -1738,7 +1730,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--159
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
@@ -1776,7 +1768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--227
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 228--231
 
  []
@@ -1789,24 +1781,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--259
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [10]
+ [10])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
 
-(./gvv_ncert_opt.aux)
+[11
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+ (./gvv_ncert_opt.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 319.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
 Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
 (rerunfilecheck)             Checksum: ED8FFCDB15E4C6FE85A8E9F68D2662D4;428.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
  ) 
 Here is how much of TeX's memory you used:
- 31933 strings out of 492624
- 686617 string characters out of 6119217
- 895991 words of memory out of 5000000
- 35230 multiletter control sequences out of 15000+600000
+ 31940 strings out of 492624
+ 686735 string characters out of 6119216
+ 898991 words of memory out of 5000000
+ 35236 multiletter control sequences out of 15000+600000
  77739 words of font info for 194 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,20n,69p,505b,1161s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_opt.dvi (10 pages, 113628 bytes).
+Output written on gvv_ncert_opt.dvi (11 pages, 119384 bytes).
