@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  10 FEB 2020 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  10 FEB 2020 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1466,17 +1466,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
 Overfull \hbox (15.9432pt too wide) detected at line 90
 []
  []
@@ -1530,6 +1530,8 @@ txr/m/n/12 (\OML/txmi/m/it/12 ^^R\OT1/txr/m/n/12 ) =
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 426.
 
 
@@ -1539,9 +1541,6 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 426.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 434--435
 []\OT1/txr/m/n/12 Without us-ing ta-bles, Prove that
@@ -1568,14 +1567,14 @@ Underfull \hbox (badness 2556) in paragraph at lines 450--451
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
 Underfull \hbox (badness 10000) in paragraph at lines 478--483
 
  []
@@ -1612,6 +1611,9 @@ Underfull \hbox (badness 1852) in paragraph at lines 519--521
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 583--584
 
  []
@@ -1632,9 +1634,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 586--587
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 2165) in paragraph at lines 623--625
 []\OT1/txr/m/n/12 For any $\OML/txmi/m/it/12 ^^R^^O\OT1/txr/m/n/12 ([]\OML/txmi
 /m/it/12 ; []\OT1/txr/m/n/12 )$ the ex-pres-sion $3([] \OML/txmi/m/it/12 ^^R \O
@@ -1642,6 +1641,9 @@ MS/txsy/m/n/12 ^^@
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 644--651
 
  []
@@ -1651,15 +1653,14 @@ Overfull \hbox (22.0pt too wide) in paragraph at lines 644--651
 | 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
 LaTeX Font Info:    Calculating math sizes for size <17> on input line 652.
 
 Underfull \hbox (badness 10000) in paragraph at lines 651--664
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 664--684
@@ -1690,9 +1691,6 @@ Overfull \hbox (52.75227pt too wide) in paragraph at lines 664--684
 Underfull \hbox (badness 6641) in paragraph at lines 664--684
 \OT1/txr/m/n/12 Which of the fol-low-ing is the only
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 689--708
@@ -1741,21 +1739,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 689--708
 
  []
 
-) (./chapters/inv_trig.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8])
+(./chapters/inv_trig.tex
 Overfull \hbox (3.2086pt too wide) detected at line 9
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
 Overfull \hbox (22.85666pt too wide) detected at line 60
 []
  []
-
-
-Underfull \vbox (badness 1308) has occurred while \output is active []
 
 
 Overfull \hbox (1.0568pt too wide) detected at line 84
@@ -1768,7 +1764,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [10]
+[11
+
+]
 Overfull \hbox (78.31296pt too wide) in paragraph at lines 235--244
  [][] 
  []
@@ -1796,7 +1798,7 @@ Overfull \hbox (32.09846pt too wide) in paragraph at lines 261--281
 ) (./chapters/functions.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11
+ [12
 
 ]
 Underfull \hbox (badness 1642) in paragraph at lines 76--78
@@ -1809,13 +1811,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1827,7 +1829,7 @@ m/it/12 x\OT1/txr/m/n/12 )$ = 2$[]$ + $[]$ -
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [15]
 Underfull \hbox (badness 5175) in paragraph at lines 420--421
 []\OT1/txr/m/n/12 Find the nat-u-ral num-ber $[]\OML/txmi/m/it/12 a[]$ \OT1/txr
 /m/n/12 for which
@@ -1839,7 +1841,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [16]
 Underfull \vbox (badness 7397) has occurred while \output is active []
 
 
@@ -1850,7 +1852,7 @@ Underfull \hbox (badness 3646) in paragraph at lines 569--570
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [17]
 Overfull \hbox (33.98666pt too wide) in paragraph at lines 645--652
  [][] 
  []
@@ -1868,13 +1870,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 655--671
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chapters/quad.tex [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
+) (./chapters/quad.tex [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1887,17 +1883,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Overfull \hbox (15.19629pt too wide) detected at line 444
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
+Overfull \hbox (15.19629pt too wide) detected at line 444
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1912,34 +1908,1485 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 )
-(./chapters/indef.tex [24]
+(./chapters/indef.tex [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 386.
+)
+(./chapters/diff_eq.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./gvv_jee_cont.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 386.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 386.
+ [27]
+Overfull \hbox (25.08041pt too wide) detected at line 100
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \hbox (badness 2213) in paragraph at lines 249--251
+\OT1/txr/m/n/12 Find the equa-tion of such curve pass-ing
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33])
+(./chapters/der_app.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (5.1541pt too wide) detected at line 297
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \hbox (badness 10000) in paragraph at lines 590--599
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 636--638
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Overfull \hbox (3.03268pt too wide) detected at line 721
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+[41
+
+]
+Overfull \hbox (217.37773pt too wide) in paragraph at lines 811--822
+ [] 
+ []
+
+[42
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (0.89275pt too wide) detected at line 989
+\OML/txmi/m/it/12 f[]\OT1/txr/m/n/12 (\OML/txmi/m/it/12 X\OT1/txr/m/n/12 ) = []
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47])
+(./chapters/diff.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 80--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--109
+[]\OT1/txr/m/n/12 Let g(x)=$[]$f(x) where f(x) is twice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--138
+
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 130--138
+\OT1/txr/m/n/12 (d) There ex-ists $\OML/txmi/m/it/12 $ $\OMS/txsy/m/n/12 !$ \O
+T1/txr/m/n/12 (-4, 4) such that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--138
+
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 138--145
+\OT1/txr/m/n/12 (c) For any fixed pos-i-tive in-te-ger n,$[]$
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 138--145
+\OT1/txr/m/n/12 (d) For any fixed pos-i-tive in-te-ger n,$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
+
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 188--198
+\OT1/txr/m/n/12 STATEMENT-1: For each real t, there
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
+
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 188--198
+\OT1/txr/m/n/12 (a) Statement-1 is True, Statement-2 is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--208
+
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 198--208
+\OT1/txr/m/n/12 (a) Statement-1 is True, Statement-2 is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--217
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+Underfull \hbox (badness 10000) in paragraph at lines 217--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
+
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 313--315
+[]\OT1/txr/m/n/12 Let f:(-1,1)$\OMS/txsy/m/n/12 !$\OT1/txr/m/n/12 R be a dif-fe
+r-en-tiable func-
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 313--315
+\OT1/txr/m/n/12 tion with f(0) = -1 and f'(0) = 1. Let
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
+[]\OT1/txr/m/n/12 If for x$\OMS/txsy/m/n/12 2$ $[]$\OT1/txr/m/n/12 , the deriva
+-tive of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+
+ []
+
+) (./chapters/lim_cont_diff.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--11
+\OT1/txr/m/n/12 be real-valued func-tion. Then find the
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+
+ []
+
+
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+ [53]
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--291
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 299--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--396
+
+ []
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 495--497
+\OT1/txr/m/n/12 [0\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 1] \OMS/txsy/m/n/12 ! \OM
+L/txmi/m/it/12 R$ \OT1/txr/m/n/12 such that max$\OMS/txsy/m/n/12 f\OML/txmi/m/i
+t/12 f\OT1/txr/m/n/12 (\OML/txmi/m/it/12 x\OT1/txr/m/n/12 ) : \OML/txmi/m/it/12
+ x \OMS/txsy/m/n/12 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--574
+
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 590--595
+
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 590--595
+\OT1/txr/m/n/12 Determine the form of $\OML/txmi/m/it/12 g\OT1/txr/m/n/12 (\OML
+/txmi/m/it/12 x\OT1/txr/m/n/12 )$ = $\OML/txmi/m/it/12 fIf\OT1/txr/m/n/12 (\OML
+/txmi/m/it/12 x\OT1/txr/m/n/12 )$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--595
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--601
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--601
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--611
+
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 607--611
+\OT1/txr/m/n/12 and $\OML/txmi/m/it/12 g\OT1/txr/m/n/12 (\OML/txmi/m/it/12 x\OT
+1/txr/m/n/12 ) = \OML/txmi/m/it/12 f\OT1/txr/m/n/12 (\OMS/txsy/m/n/12 j\OML/txm
+i/m/it/12 x\OMS/txsy/m/n/12 j\OT1/txr/m/n/12 ) + \OMS/txsy/m/n/12 j\OML/txmi/m/
+it/12 f\OT1/txr/m/n/12 (\OML/txmi/m/it/12 x\OT1/txr/m/n/12 )\OMS/txsy/m/n/12 j$
+\OT1/txr/m/n/12 . Test the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--611
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--631
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--631
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 636--640
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--643
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Underfull \hbox (badness 10000) in paragraph at lines 644--650
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--650
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--650
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--674
+
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 667--674
+\OT1/txr/m/n/12 Find the value of 'a' and prove that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--674
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 675.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
+\OT1/txr/m/n/12 func-tions such that $\OML/txmi/m/it/12 f\OT1/txr/m/n/12 (1) = 
+2$. If
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--682
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--682
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--689
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--689
+
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 683--689
+\OT1/txr/m/n/12 The num-ber of points at which $\OML/txmi/m/it/12 h\OT1/txr/m/n
+/12 (\OML/txmi/m/it/12 x\OT1/txr/m/n/12 )$ is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--689
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
+
+ []
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 709--711
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--758
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--787
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--787
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--812
+
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 817--819
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 824--826
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 864--865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 875--880
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--909
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--909
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
+
+ []
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 953--959
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 953--959
+
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 953--959
+\OT1/txr/m/n/12 differentiable, then the value of k + m
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 993--996
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1012
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1012
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1024
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1024
+
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1036
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1036
+
+ []
+
+
+Overfull \hbox (43.72179pt too wide) detected at line 1057
+[]
+ []
+
+
+Overfull \hbox (123.04039pt too wide) detected at line 1068
+[]
+ []
+
+[64]
+Overfull \hbox (22.77649pt too wide) detected at line 1091
+[]
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 1104--1107
+[]$\OML/txmi/m/it/12 f[]\OT1/txr/m/n/12 (\OML/txmi/m/it/12 x\OT1/txr/m/n/12 ) =
+ []$, where the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1107
+
+ []
+
+
+Overfull \hbox (256.4302pt too wide) detected at line 1122
+[]
+ []
+
+) (./chapters/definite.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Overfull \hbox (1.26059pt too wide) detected at line 342
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
+Underfull \hbox (badness 1735) in paragraph at lines 579--582
+\OT1/txr/m/n/12 Then which of the fol-low-ing state-ment(s)
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+Overfull \hbox (24.45415pt too wide) detected at line 778
+[]
+ []
+
+
+Overfull \hbox (16.45538pt too wide) detected at line 783
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+Overfull \hbox (23.44615pt too wide) detected at line 890
+[]
+ []
+
+
+Overfull \hbox (15.51544pt too wide) detected at line 906
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+[74
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 992--1006
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1018
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1043
+
+ []
+
+[75
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 1730.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 1730.
+
+
+Overfull \hbox (2.0243pt too wide) detected at line 1739
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+
+[82
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
+ (./gvv_jee_cont.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 396.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
 Package rerunfilecheck Info: File `gvv_jee_cont.out' has not changed.
-(rerunfilecheck)             Checksum: 94C317F5481B42E26EE28BEF9742C811;282.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 386.
+(rerunfilecheck)             Checksum: EDC8AA3DBAD188C1C1F68657F9748A28;580.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
  ) 
 Here is how much of TeX's memory you used:
- 31666 strings out of 492624
- 684451 string characters out of 6119216
+ 31703 strings out of 492624
+ 685019 string characters out of 6119216
  898990 words of memory out of 5000000
- 34976 multiletter control sequences out of 15000+600000
- 91314 words of font info for 234 fonts, out of 8000000 for 9000
+ 34998 multiletter control sequences out of 15000+600000
+ 96392 words of font info for 249 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,16n,69p,504b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,20n,69p,529b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_jee_cont.dvi (26 pages, 448744 bytes).
+Output written on gvv_jee_cont.dvi (82 pages, 1138696 bytes).
