@@ -253,7 +253,37 @@ M&1&2&1\\
 
 She makes a profit of Rs 600 and Rs 400 on items M and N respectively. How many
 of each item should she produce so as to maximise her profit assuming that she can sell
-all the items that she produced? What will be the maximum profit?\\
+all the items that she produced? What will be the maximum profit?
+\\
+\solution The given problem can be formulated as
+\begin{align}
+\max_{\vec{x}} Z &= \myvec{80000&12000}\vec{x}
+\\
+s.t. \quad 
+\myvec{
+3 & 4
+\\
+1 & 3
+}
+\vec{x} & \preceq \myvec{60\\30}
+\label{eq:manufacturing}
+\end{align}
+
+Fig  \ref{fig:manufacturing}
+shows the intersection of various lines and the optimal point as indicated.
+\begin{figure}[h]
+\includegraphics[width=\columnwidth]{./figs/lp_manufacturing.eps}
+\caption{Feasible region for manufacturing Problem}
+\caption{}
+\label{fig:manufacturing}
+\end{figure}
+
+The following code provides the solution to \eqref{eq:manufacturing} at \myvec{12\\6}.
+%
+\begin{lstlisting}
+codes/Manufacturing.py
+\end{lstlisting}
+
 \item \textbf{(Transportation problem)} There are two factories located one at
 place P and the other at place Q. From these locations, a certain commodity is to be
 delivered to each of the three depots situated at A, B and C. The weekly requirements
@@ -269,7 +299,38 @@ Q & 100 &120 & 100\\
 \hline
 \end{tabular}\\
 How many units should be transported from each factory to each depot in order that
-the transportation cost is minimum. What will be the minimum transportation cost?\\
+the transportation cost is minimum. What will be the minimum transportation cost?
+\\
+\solution The given problem can be formulated as
+\begin{align}
+\min_{\vec{x}} Z &= \myvec{10 & -70}\vec{x}
+\\
+s.t. \quad 
+\myvec{
+1 & 1
+\\
+-1 & -1
+}
+\vec{x} & \preceq \myvec{8\\-4}
+\\
+\vec{x} &\preceq \myvec{5\\5}
+\label{eq:transport}
+\end{align}
+
+Fig  \ref{fig:transport}
+shows the intersection of various lines and the optimal point indicated as OPT PT.
+\begin{figure}[h]
+\includegraphics[width=\columnwidth]{./figs/lp_transport.eps}
+\caption{Feasible region for Transportation Problem}
+\caption{}
+\label{fig:transport}
+\end{figure}
+
+The following code provides the solution to \eqref{eq:transport} at \myvec{0\\5}.
+%
+\begin{lstlisting}
+codes/Transportation.py
+\end{lstlisting}
 
 
 
