@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  14 FEB 2020 09:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  14 FEB 2020 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1465,13 +1465,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ])
 (./chapters/conv.tex
 File: ./figs/convex.eps Graphic file (type eps)
- <./figs/convex.eps>) (./chapters/grad_des.tex [2])
+ <./figs/convex.eps> [2]) (./chapters/grad_des.tex)
 (./chapters/lagrange.tex
 File: ./figs/concirc.eps Graphic file (type eps)
- <./figs/concirc.eps>) (./chapters/qp.tex
-Underfull \vbox (badness 5175) has occurred while \output is active []
+ <./figs/concirc.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+ [3])
+(./chapters/qp.tex
 Underfull \hbox (badness 1360) in paragraph at lines 51--53
 []\OT1/txr/m/n/12 Show that the fol-low-ing \OT1/txr/m/it/12 re-lax-ation \OT1/
 txr/m/n/12 makes
@@ -1479,28 +1480,23 @@ txr/m/n/12 makes
 
 File: ./figs/qp_parab.eps Graphic file (type eps)
 <./figs/qp_parab.eps>) (./chapters/sdp.tex [4]) (./chapters/lp_exam.tex
+Underfull \vbox (badness 3118) has occurred while \output is active []
+
 File: ./figs/lp_feas_reg.eps Graphic file (type eps)
 
 <./figs/lp_feas_reg.eps> [5]
 File: ./figs/lp_diet.eps Graphic file (type eps)
- <./figs/lp_diet.eps>
+ <./figs/lp_diet.eps> [6]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:allocation' on page 6 undefined on input line 235
+LaTeX Warning: Reference `fig:allocation' on page 7 undefined on input line 235
 .
-
-
-LaTeX Warning: Reference `eq:allocation' on page 6 undefined on input line 244.
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 250--258
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 258--265
 
  []
@@ -1515,32 +1511,15 @@ Overfull \hbox (31.70001pt too wide) in paragraph at lines 272--284
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Reference `fig:manufacturing' on page 7 undefined on input line 
-303.
-
 File: ./figs/lp_manufacturing.eps Graphic file (type eps)
-<./figs/lp_manufacturing.eps>
-
-LaTeX Warning: Reference `eq:manufacturing' on page 7 undefined on input line 3
-12.
-
-[7]
-
-LaTeX Warning: Reference `fig:transport' on page 8 undefined on input line 351.
-
-
+<./figs/lp_manufacturing.eps> [7]
 File: ./figs/lp_transport.eps Graphic file (type eps)
-<./figs/lp_transport.eps>
+ <./figs/lp_transport.eps>
 
-LaTeX Warning: Reference `eq:transport' on page 8 undefined on input line 360.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/lp_exer.tex
-Underfull \vbox (badness 3281) has occurred while \output is active []
+Underfull \vbox (badness 1297) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
@@ -1601,6 +1580,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--50
  []
 
 
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
@@ -1616,9 +1598,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--59
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
 Underfull \hbox (badness 1360) in paragraph at lines 59--63
 []\OT1/txr/m/n/12 One kind of cake re-quires 200g of flour
  []
@@ -1678,7 +1657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--104
 
  []
 
-
+[9]
 Underfull \hbox (badness 5681) in paragraph at lines 104--110
 \OT1/txr/m/n/12 re-spec-tively. He es-ti-mates that the to-tal
  []
@@ -1693,7 +1672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--117
 
  []
 
-[9]
+
 Underfull \hbox (badness 1728) in paragraph at lines 117--123
 \OT1/txr/m/n/12 con-di-tions, a farmer finds that she needs
  []
@@ -1759,6 +1738,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--187
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 Overfull \hbox (14.924pt too wide) in paragraph at lines 187--205
 [] 
  []
@@ -1769,9 +1751,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--205
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
 Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
@@ -1787,12 +1766,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--231
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 256--259
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1807,30 +1786,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
  (./gvv_ncert_opt.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 319.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
+(rerunfilecheck)             Checksum: ED8FFCDB15E4C6FE85A8E9F68D2662D4;428.
 
-
-Package rerunfilecheck Warning: File `gvv_ncert_opt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gvv_ncert_opt.out':
-(rerunfilecheck)             Before: C2C932EED154DB41DF5881B2B0A13EDF;384
-(rerunfilecheck)             After:  ED8FFCDB15E4C6FE85A8E9F68D2662D4;428.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
  ) 
 Here is how much of TeX's memory you used:
- 31951 strings out of 492624
- 686983 string characters out of 6119216
- 899991 words of memory out of 5000000
- 35245 multiletter control sequences out of 15000+600000
+ 31952 strings out of 492624
+ 686994 string characters out of 6119216
+ 898991 words of memory out of 5000000
+ 35246 multiletter control sequences out of 15000+600000
  77739 words of font info for 194 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,20n,69p,505b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,20n,69p,505b,1162s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_opt.dvi (12 pages, 124228 bytes).
+Output written on gvv_ncert_opt.dvi (12 pages, 127172 bytes).
