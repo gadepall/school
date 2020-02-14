@@ -130,7 +130,7 @@ Food ‘II’ contains 1 unit/kg of vitamin A and 2 units/kg of vitamin C. It co
 Rs 50 per kg to purchase Food ‘I’ and Rs 70 per kg to purchase Food ‘II’. Formulate
 this problem as a linear programming problem to minimise the cost of such a mixture.
 \\
-\solution Let the mixture contains $x$ kg of food I and $y$ kg of food II.
+\solution Let the mixture contain $x$ kg of food I and $y$ kg of food II.
 \\
 \begin{table}[!h]
 \begin{tabular}{|l|l|l|l|}
@@ -216,6 +216,37 @@ has to be used for crops X and Y at rates of 20 litres and 10 litres per hectare
 no more than 800 litres of herbicide should be used in order to protect fish and wild life
 using a pond which collects drainage from this land. How much land should be allocated
 to each crop so as to maximise the total profit of the society?\\
+\solution The given problem can be formulated as
+\begin{align}
+\max_{\vec{x}} Z &= \myvec{10500 & 9000}\vec{x}
+\\
+s.t. \quad 
+\myvec{
+20 & 10
+}
+\vec{x} & \preceq 800
+\\
+\myvec{
+1 & 1
+} 
+\vec{x} &= 50
+\label{eq:allocation}
+\end{align}
+Fig  \ref{fig:allocation}
+shows the intersection of various lines and the optimal point as indicated.
+%\begin{figure}[h]
+%\includegraphics[width=\columnwidth]{./figs/lp_allocation.eps}
+%\caption{Feasible region for allocation Problem}
+%\caption{}
+%\label{fig:allocation}
+%\end{figure}
+
+The following code provides the solution to \eqref{eq:allocation} at \myvec{12\\6}.
+%
+\begin{lstlisting}
+codes/allocation.py
+\end{lstlisting}
+
 \item  \textbf{(Manufacturing problem)} A manufacturing company makes two models
 A and B of a product. Each piece of Model A requires 9 labour hours for fabricating
 and 1 labour hour for finishing. Each piece of Model B requires 12 labour hours for
