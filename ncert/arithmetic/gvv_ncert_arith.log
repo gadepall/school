@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.3.27)  31 MAR 2020 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.3.27)  1 APR 2020 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1459,10 +1459,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./chapters/arith_exer.tex [2] [3] [4])
+ [2]
+File: ./figs/ckt.eps Graphic file (type eps)
+
+<./figs/ckt.eps>) (./chapters/arith_exer.tex
+Underfull \vbox (badness 6493) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
- [5
+
+[7
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
@@ -1474,12 +1489,12 @@ Package rerunfilecheck Info: File `gvv_ncert_arith.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
  ) 
 Here is how much of TeX's memory you used:
- 31848 strings out of 492620
- 685105 string characters out of 6119111
+ 31856 strings out of 492620
+ 685233 string characters out of 6119111
  890993 words of memory out of 5000000
- 35169 multiletter control sequences out of 15000+600000
+ 35175 multiletter control sequences out of 15000+600000
  77739 words of font info for 194 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,7n,69p,507b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_arith.dvi (5 pages, 51016 bytes).
+Output written on gvv_ncert_arith.dvi (7 pages, 75860 bytes).
