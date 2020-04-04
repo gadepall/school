@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.3.27)  2 APR 2020 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  4 APR 2020 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1303,6 +1303,8 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 ) (./gvv_ncert_arith.aux)
+\openout1 = `gvv_ncert_arith.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 84.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 84.
 
@@ -1392,6 +1394,8 @@ LaTeX Info: Redefining \pageref on input line 84.
 LaTeX Info: Redefining \nameref on input line 84.
  (./gvv_ncert_arith.out) (./gvv_ncert_arith.out)
 \@outlinefile=\write4
+\openout4 = `gvv_ncert_arith.out'.
+
 \c@lstlisting=\count269
 \c@theorem=\count270
 \c@problem=\count271
@@ -1450,6 +1454,8 @@ File: tlc.eps Graphic file (type eps)
  <tlc.eps>
 (./gvv_ncert_arith.toc)
 \tf@toc=\write5
+\openout5 = `gvv_ncert_arith.toc'.
+
  (./chapters/nine.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1462,22 +1468,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2]
 File: ./figs/ckt.eps Graphic file (type eps)
 
-<./figs/ckt.eps>) (./chapters/arith_exer.tex
-Underfull \vbox (badness 6493) has occurred while \output is active []
-
- [3]
+<./figs/ckt.eps> [3]) (./chapters/arith_exer.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
 
-[7
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+(./figs/iv-10.tex
+\gnumericTableWidth=\skip75
+\gnumericTableWidthComplete=\skip76
+\gnumericMultiRowLength=\skip77
+\gnumericColA=\skip78
+\gnumericColB=\skip79
+\gnumericColC=\skip80
+\gnumericColD=\skip81
+\gnumericColE=\skip82
+\gnumericColF=\skip83
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+
+LaTeX Warning: Reference `3.26' on page 9 undefined on input line 220.
+
+File: ./figs/11-1-3-26.eps Graphic file (type eps)
+<./figs/11-1-3-26.eps>)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
+ [9
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
@@ -1486,15 +1519,22 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 307.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
 Package rerunfilecheck Info: File `gvv_ncert_arith.out' has not changed.
 (rerunfilecheck)             Checksum: CA28B525BB2F4E5EA11A8CF6C325E84F;87.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
  ) 
 Here is how much of TeX's memory you used:
- 31856 strings out of 492620
- 685233 string characters out of 6119111
+ 31884 strings out of 492624
+ 685642 string characters out of 6119216
  890993 words of memory out of 5000000
- 35175 multiletter control sequences out of 15000+600000
+ 35198 multiletter control sequences out of 15000+600000
  77739 words of font info for 194 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,7n,69p,507b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,69p,507b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_arith.dvi (7 pages, 75860 bytes).
+Output written on gvv_ncert_arith.dvi (9 pages, 94676 bytes).
