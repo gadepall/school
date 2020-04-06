@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  4 APR 2020 10:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  6 APR 2020 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1468,10 +1468,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2]
 File: ./figs/ckt.eps Graphic file (type eps)
 
-<./figs/ckt.eps> [3]) (./chapters/arith_exer.tex
+<./figs/ckt.eps> [3]
+
+LaTeX Warning: Reference `4.21' on page 4 undefined on input line 159.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+)
+(./chapters/arith_exer.tex [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1480,7 +1485,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (./figs/iv-10.tex
 \gnumericTableWidth=\skip75
 \gnumericTableWidthComplete=\skip76
@@ -1491,24 +1502,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \gnumericColD=\skip81
 \gnumericColE=\skip82
 \gnumericColF=\skip83
-)
+) [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-
-LaTeX Warning: Reference `3.26' on page 9 undefined on input line 220.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./figs/11-1-3-26.eps Graphic file (type eps)
-<./figs/11-1-3-26.eps>)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
- [9
 
-]
+<./figs/11-1-3-26.eps> [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
- (./gvv_ncert_arith.aux)
+
+(./gvv_ncert_arith.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 307.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
 Package rerunfilecheck Info: File `gvv_ncert_arith.out' has not changed.
@@ -1528,4 +1540,4 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  55i,12n,69p,507b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_arith.dvi (9 pages, 95600 bytes).
+Output written on gvv_ncert_arith.dvi (10 pages, 113908 bytes).
