@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  2 MAY 2020 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  5 JUN 2020 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1534,7 +1534,31 @@ File: ./figs/11-1/5/5.22.eps Graphic file (type eps)
 LaTeX Warning: Command \textendash invalid in math mode on input line 339.
 
 File: ./figs/11-1/6/6.14.eps Graphic file (type eps)
-<./figs/11-1/6/6.14.eps>) [13]
+<./figs/11-1/6/6.14.eps> [13]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 381.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 384.
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 384--387
+[]\OT1/txr/m/n/12 You are given the fol-low-ing data: $\OML/txmi/m/it/12 g \OT1
+/txr/m/n/12 =
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 405.
+
+[14]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 422.
+
+) [15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
  (./gvv_ncert_arith.aux)
@@ -1553,4 +1577,4 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  55i,12n,69p,576b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_arith.dvi (13 pages, 132580 bytes).
+Output written on gvv_ncert_arith.dvi (15 pages, 149828 bytes).
