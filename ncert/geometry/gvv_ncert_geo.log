@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  5 JUN 2020 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  6 JUN 2020 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,6 +556,36 @@ ings
 \@dblbotnum=\count281
 \c@dblbotnumber=\count282
 )
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/steinmetz/s
+teinmetz.sty
+Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict
+2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict
+2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: dvips.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-dvips.def on input line 121.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-
+dvips.def
+File: p2e-dvips.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks28
+\@arclen=\dimen183
+\@arcrad=\dimen184
+\@tempdimd=\dimen185
+)
+\stm@phasebox=\box58
+\stm@phasedp=\skip62
+\stm@phaseht=\skip63
+\stm@phasetot=\skip64
+\stm@phasewd=\skip65
+)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/cite/cite.s
 ty
 LaTeX Info: Redefining \cite on input line 302.
@@ -578,13 +608,13 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 tion3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen183
-\captionmargin@=\dimen184
-\captionwidth=\dimen185
-\caption@tempdima=\dimen186
-\caption@indent=\dimen187
-\caption@parindent=\dimen188
-\caption@hangindent=\dimen189
+\captionmargin=\dimen186
+\captionmargin@=\dimen187
+\captionwidth=\dimen188
+\caption@tempdima=\dimen189
+\caption@indent=\dimen190
+\caption@parindent=\dimen191
+\caption@hangindent=\dimen192
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -608,53 +638,53 @@ ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
 \c@ContinuedFloat=\count284
 )
 \c@KVtest=\count285
-\sf@farskip=\skip62
-\sf@captopadj=\dimen190
-\sf@capskip=\skip63
-\sf@nearskip=\skip64
+\sf@farskip=\skip66
+\sf@captopadj=\dimen193
+\sf@capskip=\skip67
+\sf@nearskip=\skip68
 \c@subfigure=\count286
 \c@subfigure@save=\count287
 \c@lofdepth=\count288
 \c@subtable=\count289
 \c@subtable@save=\count290
 \c@lotdepth=\count291
-\sf@top=\skip65
-\sf@bottom=\skip66
+\sf@top=\skip69
+\sf@bottom=\skip70
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/longt
 able.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip67
-\LTright=\skip68
-\LTpre=\skip69
-\LTpost=\skip70
+\LTleft=\skip71
+\LTright=\skip72
+\LTpre=\skip73
+\LTpost=\skip74
 \LTchunksize=\count292
-\LTcapwidth=\dimen191
-\LT@head=\box58
-\LT@firsthead=\box59
-\LT@foot=\box60
-\LT@lastfoot=\box61
+\LTcapwidth=\dimen194
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
 \LT@cols=\count293
 \LT@rows=\count294
 \c@LT@tables=\count295
 \c@LT@chunks=\count296
-\LT@p@ftn=\toks28
+\LT@p@ftn=\toks29
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/multirow/mu
 ltirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip71
+\multirow@colwidth=\skip75
 \multirow@cntb=\count297
-\multirow@dima=\skip72
-\bigstrutjot=\dimen192
+\multirow@dima=\skip76
+\bigstrutjot=\dimen195
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/enumitem/en
 umitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
-\labelindent=\skip73
-\enit@outerparindent=\dimen193
-\enit@toks=\toks29
-\enit@inbox=\box62
+\labelindent=\skip77
+\enit@outerparindent=\dimen196
+\enit@toks=\toks30
+\enit@inbox=\box63
 \enit@count@id=\count298
 \enitdp@description=\count299
 )
@@ -667,14 +697,14 @@ sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count300
 \calc@Bcount=\count301
-\calc@Adimen=\dimen194
-\calc@Bdimen=\dimen195
-\calc@Askip=\skip74
-\calc@Bskip=\skip75
+\calc@Adimen=\dimen197
+\calc@Bdimen=\dimen198
+\calc@Askip=\skip78
+\calc@Bskip=\skip79
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count302
-\calc@Cskip=\skip76
+\calc@Cskip=\skip80
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/mathtools/m
 hsetup.sty
@@ -685,14 +715,14 @@ LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count303
-\l_MT_multwidth_dim=\dimen196
-\origjot=\skip77
-\l_MT_shortvdotswithinadjustabove_dim=\dimen197
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen198
-\l_MT_above_intertext_sep=\dimen199
-\l_MT_below_intertext_sep=\dimen256
-\l_MT_above_shortintertext_sep=\dimen257
-\l_MT_below_shortintertext_sep=\dimen258
+\l_MT_multwidth_dim=\dimen199
+\origjot=\skip81
+\l_MT_shortvdotswithinadjustabove_dim=\dimen256
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen257
+\l_MT_above_intertext_sep=\dimen258
+\l_MT_below_intertext_sep=\dimen259
+\l_MT_above_shortintertext_sep=\dimen260
+\l_MT_below_shortintertext_sep=\dimen261
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/fronten
 dlayer/tikz.sty
@@ -702,15 +732,15 @@ yer/pgf.sty
 es/pgfrcs.sty
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-common.tex
-\pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen259
-\pgfutil@tempdimb=\dimen260
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen262
+\pgfutil@tempdimb=\dimen263
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-common-lists.tex))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-latex.def
-\pgfutil@abb=\box63
+\pgfutil@abb=\box64
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi
 .sty
@@ -734,30 +764,30 @@ Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks31
-\pgfkeys@temptoks=\toks32
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks33
+\pgfkeys@tmptoks=\toks34
 ))
-\pgf@x=\dimen261
-\pgf@y=\dimen262
-\pgf@xa=\dimen263
-\pgf@ya=\dimen264
-\pgf@xb=\dimen265
-\pgf@yb=\dimen266
-\pgf@xc=\dimen267
-\pgf@yc=\dimen268
+\pgf@x=\dimen264
+\pgf@y=\dimen265
+\pgf@xa=\dimen266
+\pgf@ya=\dimen267
+\pgf@xb=\dimen268
+\pgf@yb=\dimen269
+\pgf@xc=\dimen270
+\pgf@yc=\dimen271
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count304
 \c@pgf@countb=\count305
 \c@pgf@countc=\count306
 \c@pgf@countd=\count307
-\t@pgf@toka=\toks34
-\t@pgf@tokb=\toks35
-\t@pgf@tokc=\toks36
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
 \pgf@sys@id@count=\count308
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
@@ -815,12 +845,12 @@ pgfmathcalc.code.tex
 pgfmathutil.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmathparser.code.tex
-\pgfmath@dimen=\dimen269
+\pgfmath@dimen=\dimen272
 \pgfmath@count=\count312
-\pgfmath@box=\box64
-\pgfmath@toks=\toks37
-\pgfmath@stack@operand=\toks38
-\pgfmath@stack@operation=\toks39
+\pgfmath@box=\box65
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmathfunctions.code.tex
@@ -847,52 +877,52 @@ pgfmathfloat.code.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@picminx=\dimen270
-\pgf@picmaxx=\dimen271
-\pgf@picminy=\dimen272
-\pgf@picmaxy=\dimen273
-\pgf@pathminx=\dimen274
-\pgf@pathmaxx=\dimen275
-\pgf@pathminy=\dimen276
-\pgf@pathmaxy=\dimen277
-\pgf@xx=\dimen278
-\pgf@xy=\dimen279
-\pgf@yx=\dimen280
-\pgf@yy=\dimen281
-\pgf@zx=\dimen282
-\pgf@zy=\dimen283
+\pgf@picminx=\dimen273
+\pgf@picmaxx=\dimen274
+\pgf@picminy=\dimen275
+\pgf@picmaxy=\dimen276
+\pgf@pathminx=\dimen277
+\pgf@pathmaxx=\dimen278
+\pgf@pathminy=\dimen279
+\pgf@pathmaxy=\dimen280
+\pgf@xx=\dimen281
+\pgf@xy=\dimen282
+\pgf@yx=\dimen283
+\pgf@yy=\dimen284
+\pgf@zx=\dimen285
+\pgf@zy=\dimen286
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@path@lastx=\dimen284
-\pgf@path@lasty=\dimen285
+\pgf@path@lastx=\dimen287
+\pgf@path@lasty=\dimen288
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@shorten@end@additional=\dimen286
-\pgf@shorten@start@additional=\dimen287
+\pgf@shorten@end@additional=\dimen289
+\pgf@shorten@start@additional=\dimen290
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfpic=\box65
-\pgf@hbox=\box66
-\pgf@layerbox@main=\box67
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
 \pgf@picture@serial@count=\count314
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgflinewidth=\dimen288
+\pgflinewidth=\dimen291
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@pt@x=\dimen289
-\pgf@pt@y=\dimen290
-\pgf@pt@temp=\dimen291
+\pgf@pt@x=\dimen292
+\pgf@pt@y=\dimen293
+\pgf@pt@temp=\dimen294
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorequick.code.tex
@@ -909,12 +939,12 @@ File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfarrowsep=\dimen292
+\pgfarrowsep=\dimen295
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@max=\dimen293
+\pgf@max=\dimen296
 \pgf@sys@shading@range@num=\count315
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
@@ -924,7 +954,7 @@ File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfexternal@startupbox=\box68
+\pgfexternal@startupbox=\box69
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorelayers.code.tex
@@ -945,7 +975,7 @@ File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
 es/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfnodeparttextbox=\box69
+\pgfnodeparttextbox=\box70
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
 es/pgfmoduleplot.code.tex
@@ -954,8 +984,8 @@ File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
 bility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
-\pgf@nodesepstart=\dimen294
-\pgf@nodesepend=\dimen295
+\pgf@nodesepstart=\dimen297
+\pgf@nodesepend=\dimen298
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
 bility/pgfcomp-version-1-18.sty
@@ -977,10 +1007,10 @@ Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmath.code.tex)
-\pgffor@iter=\dimen296
-\pgffor@skip=\dimen297
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+\pgffor@iter=\dimen299
+\pgffor@skip=\dimen300
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/tikz.code.tex
@@ -990,18 +1020,18 @@ Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 ries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@plot@mark@count=\count316
-\pgfplotmarksize=\dimen298
+\pgfplotmarksize=\dimen301
 )
-\tikz@lastx=\dimen299
-\tikz@lasty=\dimen300
-\tikz@lastxsaved=\dimen301
-\tikz@lastysaved=\dimen302
-\tikzleveldistance=\dimen303
-\tikzsiblingdistance=\dimen304
-\tikz@figbox=\box70
-\tikz@figbox@bg=\box71
-\tikz@tempbox=\box72
-\tikz@tempbox@bg=\box73
+\tikz@lastx=\dimen302
+\tikz@lasty=\dimen303
+\tikz@lastxsaved=\dimen304
+\tikz@lastysaved=\dimen305
+\tikzleveldistance=\dimen306
+\tikzsiblingdistance=\dimen307
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
 \tikztreelevel=\count317
 \tikznumberofchildren=\count318
 \tikznumberofcurrentchild=\count319
@@ -1032,20 +1062,20 @@ File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\arrowsize=\dimen305
+\arrowsize=\dimen308
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcirc.defines.tex
-\pgf@circ@res@up=\dimen306
-\pgf@circ@res@down=\dimen307
-\pgf@circ@res@zero=\dimen308
-\pgf@circ@res@left=\dimen309
-\pgf@circ@res@right=\dimen310
-\pgf@circ@res@other=\dimen311
-\pgf@circ@res@step=\dimen312
-\pgf@circ@res@temp=\dimen313
-\pgfstartlinewidth=\dimen314
-\pgf@circ@Rlen=\dimen315
+\pgf@circ@res@up=\dimen309
+\pgf@circ@res@down=\dimen310
+\pgf@circ@res@zero=\dimen311
+\pgf@circ@res@left=\dimen312
+\pgf@circ@res@right=\dimen313
+\pgf@circ@res@other=\dimen314
+\pgf@circ@res@step=\dimen315
+\pgf@circ@res@temp=\dimen316
+\pgfstartlinewidth=\dimen317
+\pgf@circ@Rlen=\dimen318
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcircutils.tex)
@@ -1072,8 +1102,8 @@ z/pgfcircpath.tex))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/verba
 tim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks42
-\verbatim@line=\toks43
+\every@verbatim=\toks43
+\verbatim@line=\toks44
 \verbatim@in@stream=\read3
 ) (/data/data/com.termux/files/home/texmf/tex/latex/tfrupee/tfrupee.sty
 Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
@@ -1138,7 +1168,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 options.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen316
+\@linkdim=\dimen319
 \Hy@linkcounter=\count325
 \Hy@pagecounter=\count326
 
@@ -1169,10 +1199,10 @@ Package hyperref Info: Bookmarks ON on input line 4772.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen317
+\XeTeXLinkMargin=\dimen320
 \Fld@menulength=\count329
-\Field@Width=\dimen318
-\Fld@charsize=\dimen319
+\Field@Width=\dimen321
+\Fld@charsize=\dimen322
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -1201,10 +1231,10 @@ Package hyperref Warning: You have enabled option `breaklinks'.
 (hyperref)                But driver `hdvips.def' does not suppport this.
 (hyperref)                Expect trouble with the link areas of broken links.
 
-\pdf@docset=\toks44
-\pdf@box=\box74
-\pdf@toks=\toks45
-\pdf@defaulttoks=\toks46
+\pdf@docset=\toks45
+\pdf@box=\box75
+\pdf@toks=\toks46
+\pdf@defaulttoks=\toks47
 \HyField@AnnotCount=\count333
 \Fld@listcount=\count334
 \c@bookmark@seq@number=\count335
@@ -1215,7 +1245,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip78
+\Hy@SectionHShift=\skip82
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
 /tkz-euclide.sty
@@ -1253,16 +1283,16 @@ File: pgflibraryshapes.misc.code.tex 2019/02/02 v3.1.1 (3.1.1)
 endlayer/tikz/libraries/tikzlibrarydecorations.code.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
 es/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen320
-\pgfdecoratedremainingdistance=\dimen321
-\pgfdecoratedinputsegmentcompleteddistance=\dimen322
-\pgfdecoratedinputsegmentremainingdistance=\dimen323
-\pgf@decorate@distancetomove=\dimen324
+\pgfdecoratedcompleteddistance=\dimen323
+\pgfdecoratedremainingdistance=\dimen324
+\pgfdecoratedinputsegmentcompleteddistance=\dimen325
+\pgfdecoratedinputsegmentremainingdistance=\dimen326
+\pgf@decorate@distancetomove=\dimen327
 \pgf@decorate@repeatstate=\count336
-\pgfdecorationsegmentamplitude=\dimen325
-\pgfdecorationsegmentlength=\dimen326
+\pgfdecorationsegmentamplitude=\dimen328
+\pgfdecorationsegmentlength=\dimen329
 )
-\tikz@lib@dec@box=\box75
+\tikz@lib@dec@box=\box76
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
@@ -1287,13 +1317,13 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 \c@nprt@mantissa@digitsafter=\count338
 \c@nprt@exponent@digitsbefore=\count339
 \c@nprt@exponent@digitsafter=\count340
-\nprt@digitwidth=\skip79
-\nprt@sepwidth=\skip80
-\nprt@decimalwidth=\skip81
-\nprt@blockwidth=\skip82
-\nprt@digittoks=\toks47
-\nprt@pretoks=\toks48
-\nprt@posttoks=\toks49
+\nprt@digitwidth=\skip83
+\nprt@sepwidth=\skip84
+\nprt@decimalwidth=\skip85
+\nprt@blockwidth=\skip86
+\nprt@digittoks=\toks48
+\nprt@pretoks=\toks49
+\nprt@posttoks=\toks50
 \nprt@thisdigit=\count341
 \nprt@curpos=\count342
 \nprt@rndpos=\count343
@@ -1360,17 +1390,17 @@ Package: fp-upn 1996/10/21
 sty
 Package: fp-eval 1995/04/03
 ))
-\tkzRadius=\dimen327
-\tkzLength=\dimen328
-\tkz@radi=\dimen329
-\tkz@ax=\dimen330
-\tkz@ay=\dimen331
-\tkz@bx=\dimen332
-\tkz@by=\dimen333
-\tkz@cx=\dimen334
-\tkz@cy=\dimen335
-\tkz@dx=\dimen336
-\tkz@dy=\dimen337
+\tkzRadius=\dimen330
+\tkzLength=\dimen331
+\tkz@radi=\dimen332
+\tkz@ax=\dimen333
+\tkz@ay=\dimen334
+\tkz@bx=\dimen335
+\tkz@by=\dimen336
+\tkz@cx=\dimen337
+\tkz@cy=\dimen338
+\tkz@dx=\dimen339
+\tkz@dy=\dimen340
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
 z-tools-utilities.tex)
@@ -1419,30 +1449,30 @@ z-obj-marks.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarymath.code.tex
 \tikz@math@for@depth=\count359
-\tikz@math@dimen=\dimen338
-\tikz@math@toks=\toks50
+\tikz@math@dimen=\dimen341
+\tikz@math@toks=\toks51
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
 stings.sty
 \lst@mode=\count360
-\lst@gtempboxa=\box76
-\lst@token=\toks51
+\lst@gtempboxa=\box77
+\lst@token=\toks52
 \lst@length=\count361
-\lst@currlwidth=\dimen339
+\lst@currlwidth=\dimen342
 \lst@column=\count362
 \lst@pos=\count363
-\lst@lostspace=\dimen340
-\lst@width=\dimen341
+\lst@lostspace=\dimen343
+\lst@width=\dimen344
 \lst@newlines=\count364
 \lst@lineno=\count365
-\lst@maxwidth=\dimen342
+\lst@maxwidth=\dimen345
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/ls
 tmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 \c@lstnumber=\count366
 \lst@skipnumbers=\count367
-\lst@framebox=\box77
+\lst@framebox=\box78
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
 stings.cfg
@@ -1471,27 +1501,26 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 Package multicol Warning: May not work with the twocolumn option on input line 
 141.
 
-\mult@box=\box78
-\multicol@leftmargin=\dimen343
+\mult@box=\box79
+\multicol@leftmargin=\dimen346
 \c@unbalance=\count369
 \c@collectmore=\count370
 \doublecol@number=\count371
 \multicoltolerance=\count372
 \multicolpretolerance=\count373
-\full@width=\dimen344
-\page@free=\dimen345
-\premulticols=\dimen346
-\postmulticols=\dimen347
-\multicolsep=\skip83
-\multicolbaselineskip=\skip84
-\partial@page=\box79
-\last@line=\box80
-\maxbalancingoverflow=\dimen348
-\mult@rightbox=\box81
-\mult@grightbox=\box82
-\mult@gfirstbox=\box83
-\mult@firstbox=\box84
-\@tempa=\box85
+\full@width=\dimen347
+\page@free=\dimen348
+\premulticols=\dimen349
+\postmulticols=\dimen350
+\multicolsep=\skip87
+\multicolbaselineskip=\skip88
+\partial@page=\box80
+\last@line=\box81
+\maxbalancingoverflow=\dimen351
+\mult@rightbox=\box82
+\mult@grightbox=\box83
+\mult@gfirstbox=\box84
+\mult@firstbox=\box85
 \@tempa=\box86
 \@tempa=\box87
 \@tempa=\box88
@@ -1508,13 +1537,14 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \@tempa=\box99
 \@tempa=\box100
 \@tempa=\box101
+\@tempa=\box102
 \c@columnbadness=\count374
 \c@finalcolumnbadness=\count375
-\last@try=\dimen349
-\multicolovershoot=\dimen350
-\multicolundershoot=\dimen351
-\mult@nat@firstbox=\box102
-\colbreak@box=\box103
+\last@try=\dimen352
+\multicolovershoot=\dimen353
+\multicolundershoot=\dimen354
+\mult@nat@firstbox=\box103
+\colbreak@box=\box104
 \mc@col@check@num=\count376
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/chngcntr/ch
@@ -1525,62 +1555,62 @@ Package chngcntr Info: \counterwithout already defined.
 ) (./gvv_ncert_geo.aux)
 \openout1 = `gvv_ncert_geo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 86.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 86.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 87.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 87.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oml
 txmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 86.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 87.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
 txsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 86.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 87.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/omx
 txex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 86.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 exa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 86.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
 txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 86.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 86.
+LaTeX Info: Redefining \celsius on input line 87.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 87.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 86.
-Package gensymb Info: Using \Omega for \ohm on input line 86.
+LaTeX Info: Redefining \ohm on input line 87.
+Package gensymb Info: Using \Omega for \ohm on input line 87.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1681,8 +1711,8 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 86.
+\AtBeginShipoutBox=\box105
+Package hyperref Info: Link coloring OFF on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/na
 meref.sty
@@ -1694,45 +1724,45 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count377
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 87.
+LaTeX Info: Redefining \pageref on input line 87.
+LaTeX Info: Redefining \nameref on input line 87.
  (./gvv_ncert_geo.out) (./gvv_ncert_geo.out)
 \@outlinefile=\write4
 \openout4 = `gvv_ncert_geo.out'.
 
 \c@lstlisting=\count378
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 86.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ur
 sfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 86.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 mia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 86.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 sya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 86.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 syb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 86.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 87.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 syc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 87.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
@@ -1740,12 +1770,12 @@ txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 86.
+(Font)              scaled to size 11.39996pt on input line 87.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 86.
+(Font)              scaled to size 7.59998pt on input line 87.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 86.
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 86.
+(Font)              scaled to size 5.69998pt on input line 87.
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 87.
 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
@@ -1760,20 +1790,20 @@ File: ot1txtt.fd 2000/12/15 v3.1
 \c@rem=\count384
 File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 242.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 243.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 22.79993pt on input line 242.
+(Font)              scaled to size 22.79993pt on input line 243.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 15.95987pt on input line 242.
+(Font)              scaled to size 15.95987pt on input line 243.
 File: tlc.eps Graphic file (type eps)
  <tlc.eps>
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 242.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 243.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 13.29996pt on input line 242.
+(Font)              scaled to size 13.29996pt on input line 243.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.30992pt on input line 242.
+(Font)              scaled to size 9.30992pt on input line 243.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 242.
+(Font)              scaled to size 6.64998pt on input line 243.
 File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
 File: tlc.eps Graphic file (type eps)
@@ -1787,9 +1817,9 @@ File: tlc.eps Graphic file (type eps)
 \openout5 = `gvv_ncert_geo.toc'.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 283.
+(Font)              scaled to size 9.49997pt on input line 284.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 283.
+(Font)              scaled to size 4.74998pt on input line 284.
  (./chapters/baudh/tri_geo_rt.tex
 (./figs/triangle/tri_right_angle.tex) [1
 
@@ -1926,61 +1956,69 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
+(./solutions/1/28/chapters/constr.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./solutions/1/28/figs/triangle.tex)) (./solutions/1/28/chapters/solution.tex
+Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [24]
+ [24])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 262.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 262.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 262.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [26]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 270.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 279.
+LaTeX Warning: Command \textendash invalid in math mode on input line 270.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 284.
+LaTeX Warning: Command \textendash invalid in math mode on input line 270.
 
-) (./chapters/exercises/tri_geo_const.tex [26] (./figs/triangle/Triangle.tex
-\gnumericTableWidth=\skip85
-\gnumericTableWidthComplete=\skip86
-\gnumericMultiRowLength=\skip87
-\gnumericColA=\skip88
-\gnumericColB=\skip89
-\gnumericColC=\skip90
-\gnumericColD=\skip91
-\gnumericColE=\skip92
-\gnumericColF=\skip93
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 287.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 292.
+
+) (./chapters/exercises/tri_geo_const.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 5288) has occurred while \output is active []
+
+ [27]
+(./figs/triangle/Triangle.tex
+\gnumericTableWidth=\skip89
+\gnumericTableWidthComplete=\skip90
+\gnumericMultiRowLength=\skip91
+\gnumericColA=\skip92
+\gnumericColB=\skip93
+\gnumericColC=\skip94
+\gnumericColD=\skip95
+\gnumericColE=\skip96
+\gnumericColF=\skip97
 
 Overfull \hbox (23.39996pt too wide) in paragraph at lines 158--323
 [][] 
  []
 
-)) (./chapters/exercises/quad_geo_exer.tex [27]
+)) (./chapters/exercises/quad_geo_exer.tex
 Underfull \hbox (badness 2495) in paragraph at lines 46--48
 []\OT1/txr/m/n/12 In $\OMS/txsy/m/n/12 4\OML/txmi/m/it/12 ABC$ \OT1/txr/m/n/12 
 and $\OMS/txsy/m/n/12 4\OML/txmi/m/it/12 DEF; AB \OT1/txr/m/n/12 = \OML/txmi/m/
 it/12 DE; AB \OMS/txsy/m/n/12 k
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1991,14 +2029,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29])
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 (./chapters/exercises/quad_geo_const.tex
 Underfull \hbox (badness 1430) in paragraph at lines 9--10
 []\OT1/txr/m/n/12 Construct a quadri-lat-eral $\OML/txmi/m/it/12 ABCD$ \OT1/txr
 /m/n/12 such that
  []
 
-
+[30]
 Underfull \hbox (badness 1472) in paragraph at lines 15--16
 []\OT1/txr/m/n/12 Can you con-struct the above quadri-lat-eral
  []
@@ -2016,102 +2057,116 @@ Underfull \hbox (badness 1360) in paragraph at lines 21--22
 mi/m/it/12 ; RU \OT1/txr/m/n/12 =
  []
 
-) (./chapters/exercises/circ_geo_exer.tex [30] [31]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 73.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 73.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 73.
-
-) (./chapters/exercises/circ_const_exer.tex [32])
-(./chapters/exercises/geo_misc.tex [33]
+) (./chapters/exercises/circ_geo_exer.tex (./solutions/5/19/chapters/constr.tex
+(./solutions/5/19/figs/quad.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [31])
+(./solutions/5/19/chapters/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 78.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 78.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 78.
+
+[33]) (./chapters/exercises/circ_const_exer.tex
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+)
+(./chapters/exercises/geo_misc.tex [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
-[36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [36]
+[37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-[38]
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./figs/11-1/5/5.6.eps Graphic file (type eps)
- <./figs/11-1/5/5.6.eps>
+
+<./figs/11-1/5/5.6.eps>
 File: ./figs/11-1/5/5.8.eps Graphic file (type eps)
  <./figs/11-1/5/5.8.eps>
 File: ./figs/11-1/5/5.11.eps Graphic file (type eps)
  <./figs/11-1/5/5.11.eps>
-[39]
+[40]
 File: ./figs/11-1/6/6.6.eps Graphic file (type eps)
  <./figs/11-1/6/6.6.eps>
 File: ./figs/11-1/6/6.15.eps Graphic file (type eps)
  <./figs/11-1/6/6.15.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [41]
 File: ./figs/11-1/6/6.16.eps Graphic file (type eps)
 
 <./figs/11-1/6/6.16.eps>
 File: ./figs/11-1/6/6.17.eps Graphic file (type eps)
- <./figs/11-1/6/6.17.eps>
+ <./figs/11-1/6/6.17.eps> [42]
 File: ./figs/11-1/7/7.11.eps Graphic file (type eps)
- <./figs/11-1/7/7.11.eps>
-File: ./figs/11-1/7/7.27.eps Graphic file (type eps)
 
-<./figs/11-1/7/7.27.eps> [41]
+<./figs/11-1/7/7.11.eps>
+File: ./figs/11-1/7/7.27.eps Graphic file (type eps)
+ <./figs/11-1/7/7.27.eps>
 File: ./figs/11-1/7/7.35.eps Graphic file (type eps)
  <./figs/11-1/7/7.35.eps>
+[43]
 File: ./figs/11-1/7/7.39.eps Graphic file (type eps)
+ <./figs/11-1/7/7.39.eps>
+Underfull \vbox (badness 3354) has occurred while \output is active []
 
-<./figs/11-1/7/7.39.eps>
-Underfull \vbox (badness 3746) has occurred while \output is active []
 
- [42]
 Underfull \hbox (badness 7595) in paragraph at lines 502--503
 \OT1/txr/m/n/12 with his two arms out-stretched. The
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
+[44]
 File: ./figs/11-1/7/7.40.eps Graphic file (type eps)
-
-<./figs/11-1/7/7.40.eps>
-File: ./figs/11-1/7/7.41.eps Graphic file (type eps)
- <./figs/11-1/7/7.41.eps>
+ <./figs/11-1/7/7.40.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
-File: ./figs/11-1/8/8.5.eps Graphic file (type eps)
+ [45]
+File: ./figs/11-1/7/7.41.eps Graphic file (type eps)
 
-<./figs/11-1/8/8.5.eps>
+<./figs/11-1/7/7.41.eps>
+File: ./figs/11-1/8/8.5.eps Graphic file (type eps)
+ <./figs/11-1/8/8.5.eps> [46]
 File: ./figs/11-1/8/8.10.eps Graphic file (type eps)
  <./figs/11-1/8/8.10.eps>)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
- [45]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
+[47
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
  (./gvv_ncert_geo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 381.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 382.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
 Package rerunfilecheck Info: File `gvv_ncert_geo.out' has not changed.
 (rerunfilecheck)             Checksum: CCC68B21DB03FD9398C05DE6E29E1EB5;2417.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 381.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 382.
  ) 
 Here is how much of TeX's memory you used:
- 45545 strings out of 492624
- 980184 string characters out of 6119216
- 1144957 words of memory out of 5000000
- 48600 multiletter control sequences out of 15000+600000
+ 45799 strings out of 492624
+ 984749 string characters out of 6119216
+ 1149673 words of memory out of 5000000
+ 48824 multiletter control sequences out of 15000+600000
  616509 words of font info for 230 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,15n,70p,595b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,15n,70p,595b,1306s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_geo.dvi (45 pages, 806476 bytes).
+Output written on gvv_ncert_geo.dvi (47 pages, 842896 bytes).
