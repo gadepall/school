@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  8 JUN 2020 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  8 JUN 2020 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1552,11 +1552,7 @@ ngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
-) (./gvv_ncert_geo.aux
-
-LaTeX Warning: Label `eq:8.5.13_D' multiply defined.
-
-)
+) (./gvv_ncert_geo.aux)
 \openout1 = `gvv_ncert_geo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 87.
@@ -2081,10 +2077,31 @@ mi/m/it/12 ; RU \OT1/txr/m/n/12 =
 Underfull \vbox (badness 1303) has occurred while \output is active []
 
 )
-(./solutions/5/13/chapters/solution.tex)
+(./solutions/5/13/chapters/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
+Underfull \hbox (badness 10000) in paragraph at lines 99--107
+[]\OT1/txr/m/n/12 , [], [],
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
+\OT1/txr/m/n/12 From [], [] and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+\OT1/txr/m/n/12 From [] and [],
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
 (./solutions/5/16/chapters/constr.tex (./solutions/5/16/figs/circle.tex)
 Underfull \hbox (badness 1515) in paragraph at lines 13--19
 []\OT1/txr/m/it/12 Construction: \OT1/txr/m/n/12 In Fig. [][]8.5.16[][][] the k
@@ -2096,26 +2113,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--19
 
  []
 
-
-LaTeX Warning: Reference `eq:8.5.16_constr_dgen' on page 34 undefined on input 
-line 56.
-
 ) (./solutions/5/16/chapters/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34])
+ [35])
 (./solutions/5/19/chapters/constr.tex (./solutions/5/19/figs/quad.tex))
 (./solutions/5/19/chapters/solution.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [36]
 (./solutions/5/39/chapters/constr.tex (./solutions/5/39/figs/step3.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36])
+ [37])
 (./solutions/5/39/chapters/solution.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2132,25 +2145,25 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 92.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37])
+ [38])
 (./chapters/exercises/circ_const_exer.tex) (./chapters/exercises/geo_misc.tex
-[38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
-[41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+[42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./figs/11-1/5/5.6.eps Graphic file (type eps)
@@ -2160,7 +2173,7 @@ File: ./figs/11-1/5/5.8.eps Graphic file (type eps)
  <./figs/11-1/5/5.8.eps>
 File: ./figs/11-1/5/5.11.eps Graphic file (type eps)
  <./figs/11-1/5/5.11.eps>
-[44]
+[45]
 Underfull \vbox (badness 3068) has occurred while \output is active []
 
 File: ./figs/11-1/6/6.6.eps Graphic file (type eps)
@@ -2170,7 +2183,7 @@ File: ./figs/11-1/6/6.15.eps Graphic file (type eps)
  <./figs/11-1/6/6.15.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+ [46]
 File: ./figs/11-1/6/6.16.eps Graphic file (type eps)
 
 <./figs/11-1/6/6.16.eps>
@@ -2178,11 +2191,11 @@ File: ./figs/11-1/6/6.17.eps Graphic file (type eps)
  <./figs/11-1/6/6.17.eps>
 File: ./figs/11-1/7/7.11.eps Graphic file (type eps)
  <./figs/11-1/7/7.11.eps>
-[46]
+[47]
 File: ./figs/11-1/7/7.27.eps Graphic file (type eps)
  <./figs/11-1/7/7.27.eps>
 File: ./figs/11-1/7/7.35.eps Graphic file (type eps)
- <./figs/11-1/7/7.35.eps> [47]
+ <./figs/11-1/7/7.35.eps> [48]
 File: ./figs/11-1/7/7.39.eps Graphic file (type eps)
 
 <./figs/11-1/7/7.39.eps>
@@ -2193,13 +2206,13 @@ Underfull \hbox (badness 7595) in paragraph at lines 502--503
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [49]
 File: ./figs/11-1/7/7.40.eps Graphic file (type eps)
 
 <./figs/11-1/7/7.40.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [50]
 File: ./figs/11-1/7/7.41.eps Graphic file (type eps)
 
 <./figs/11-1/7/7.41.eps>
@@ -2207,9 +2220,9 @@ File: ./figs/11-1/8/8.5.eps Graphic file (type eps)
  <./figs/11-1/8/8.5.eps>
 File: ./figs/11-1/8/8.10.eps Graphic file (type eps)
  <./figs/11-1/8/8.10.eps>
-[50])
+[51])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
- [51
+ [52
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
@@ -2218,22 +2231,15 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 382.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
 Package rerunfilecheck Info: File `gvv_ncert_geo.out' has not changed.
 (rerunfilecheck)             Checksum: CCC68B21DB03FD9398C05DE6E29E1EB5;2417.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 382.
  ) 
 Here is how much of TeX's memory you used:
- 46135 strings out of 492624
- 992248 string characters out of 6119216
- 1151509 words of memory out of 5000000
- 49110 multiletter control sequences out of 15000+600000
+ 46149 strings out of 492624
+ 992558 string characters out of 6119216
+ 1152306 words of memory out of 5000000
+ 49124 multiletter control sequences out of 15000+600000
  616509 words of font info for 230 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,15n,70p,595b,1306s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_geo.dvi (51 pages, 950920 bytes).
+Output written on gvv_ncert_geo.dvi (52 pages, 965524 bytes).
