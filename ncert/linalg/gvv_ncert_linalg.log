@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  5 JUN 2020 08:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=latex 2019.9.28)  10 JUN 2020 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -320,6 +320,36 @@ ings
 \@dblbotnum=\count107
 \c@dblbotnumber=\count108
 )
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/steinmetz/s
+teinmetz.sty
+Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict
+2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict
+2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: dvips.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-dvips.def on input line 121.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-
+dvips.def
+File: p2e-dvips.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks27
+\@arclen=\dimen137
+\@arcrad=\dimen138
+\@tempdimd=\dimen139
+)
+\stm@phasebox=\box31
+\stm@phasedp=\skip50
+\stm@phaseht=\skip51
+\stm@phasetot=\skip52
+\stm@phasewd=\skip53
+)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/bm.st
 y
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
@@ -352,13 +382,13 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 tion3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen137
-\captionmargin@=\dimen138
-\captionwidth=\dimen139
-\caption@tempdima=\dimen140
-\caption@indent=\dimen141
-\caption@parindent=\dimen142
-\caption@hangindent=\dimen143
+\captionmargin=\dimen140
+\captionmargin@=\dimen141
+\captionwidth=\dimen142
+\caption@tempdima=\dimen143
+\caption@indent=\dimen144
+\caption@parindent=\dimen145
+\caption@hangindent=\dimen146
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -382,53 +412,53 @@ ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
 \c@ContinuedFloat=\count110
 )
 \c@KVtest=\count111
-\sf@farskip=\skip50
-\sf@captopadj=\dimen144
-\sf@capskip=\skip51
-\sf@nearskip=\skip52
+\sf@farskip=\skip54
+\sf@captopadj=\dimen147
+\sf@capskip=\skip55
+\sf@nearskip=\skip56
 \c@subfigure=\count112
 \c@subfigure@save=\count113
 \c@lofdepth=\count114
 \c@subtable=\count115
 \c@subtable@save=\count116
 \c@lotdepth=\count117
-\sf@top=\skip53
-\sf@bottom=\skip54
+\sf@top=\skip57
+\sf@bottom=\skip58
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/longt
 able.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip55
-\LTright=\skip56
-\LTpre=\skip57
-\LTpost=\skip58
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
 \LTchunksize=\count118
-\LTcapwidth=\dimen145
-\LT@head=\box31
-\LT@firsthead=\box32
-\LT@foot=\box33
-\LT@lastfoot=\box34
+\LTcapwidth=\dimen148
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
 \LT@cols=\count119
 \LT@rows=\count120
 \c@LT@tables=\count121
 \c@LT@chunks=\count122
-\LT@p@ftn=\toks27
+\LT@p@ftn=\toks28
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/multirow/mu
 ltirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip59
+\multirow@colwidth=\skip63
 \multirow@cntb=\count123
-\multirow@dima=\skip60
-\bigstrutjot=\dimen146
+\multirow@dima=\skip64
+\bigstrutjot=\dimen149
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/enumitem/en
 umitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
-\labelindent=\skip61
-\enit@outerparindent=\dimen147
-\enit@toks=\toks28
-\enit@inbox=\box35
+\labelindent=\skip65
+\enit@outerparindent=\dimen150
+\enit@toks=\toks29
+\enit@inbox=\box36
 \enit@count@id=\count124
 \enitdp@description=\count125
 )
@@ -441,14 +471,14 @@ sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count126
 \calc@Bcount=\count127
-\calc@Adimen=\dimen148
-\calc@Bdimen=\dimen149
-\calc@Askip=\skip62
-\calc@Bskip=\skip63
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count128
-\calc@Cskip=\skip64
+\calc@Cskip=\skip68
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/mathtools/m
 hsetup.sty
@@ -459,14 +489,14 @@ LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count129
-\l_MT_multwidth_dim=\dimen150
-\origjot=\skip65
-\l_MT_shortvdotswithinadjustabove_dim=\dimen151
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen152
-\l_MT_above_intertext_sep=\dimen153
-\l_MT_below_intertext_sep=\dimen154
-\l_MT_above_shortintertext_sep=\dimen155
-\l_MT_below_shortintertext_sep=\dimen156
+\l_MT_multwidth_dim=\dimen153
+\origjot=\skip69
+\l_MT_shortvdotswithinadjustabove_dim=\dimen154
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen155
+\l_MT_above_intertext_sep=\dimen156
+\l_MT_below_intertext_sep=\dimen157
+\l_MT_above_shortintertext_sep=\dimen158
+\l_MT_below_shortintertext_sep=\dimen159
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/fronten
 dlayer/tikz.sty
@@ -476,15 +506,15 @@ yer/pgf.sty
 es/pgfrcs.sty
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-common.tex
-\pgfutil@everybye=\toks29
-\pgfutil@tempdima=\dimen157
-\pgfutil@tempdimb=\dimen158
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-common-lists.tex))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-latex.def
-\pgfutil@abb=\box36
+\pgfutil@abb=\box37
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi
 .sty
@@ -508,30 +538,30 @@ Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks30
-\pgfkeys@temptoks=\toks31
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks32
+\pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen159
-\pgf@y=\dimen160
-\pgf@xa=\dimen161
-\pgf@ya=\dimen162
-\pgf@xb=\dimen163
-\pgf@yb=\dimen164
-\pgf@xc=\dimen165
-\pgf@yc=\dimen166
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count130
 \c@pgf@countb=\count131
 \c@pgf@countc=\count132
 \c@pgf@countd=\count133
-\t@pgf@toka=\toks33
-\t@pgf@tokb=\toks34
-\t@pgf@tokc=\toks35
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
 \pgf@sys@id@count=\count134
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
@@ -589,12 +619,12 @@ pgfmathcalc.code.tex
 pgfmathutil.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmathparser.code.tex
-\pgfmath@dimen=\dimen167
+\pgfmath@dimen=\dimen170
 \pgfmath@count=\count138
-\pgfmath@box=\box37
-\pgfmath@toks=\toks36
-\pgfmath@stack@operand=\toks37
-\pgfmath@stack@operation=\toks38
+\pgfmath@box=\box38
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmathfunctions.code.tex
@@ -621,52 +651,52 @@ pgfmathfloat.code.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@picminx=\dimen168
-\pgf@picmaxx=\dimen169
-\pgf@picminy=\dimen170
-\pgf@picmaxy=\dimen171
-\pgf@pathminx=\dimen172
-\pgf@pathmaxx=\dimen173
-\pgf@pathminy=\dimen174
-\pgf@pathmaxy=\dimen175
-\pgf@xx=\dimen176
-\pgf@xy=\dimen177
-\pgf@yx=\dimen178
-\pgf@yy=\dimen179
-\pgf@zx=\dimen180
-\pgf@zy=\dimen181
+\pgf@picminx=\dimen171
+\pgf@picmaxx=\dimen172
+\pgf@picminy=\dimen173
+\pgf@picmaxy=\dimen174
+\pgf@pathminx=\dimen175
+\pgf@pathmaxx=\dimen176
+\pgf@pathminy=\dimen177
+\pgf@pathmaxy=\dimen178
+\pgf@xx=\dimen179
+\pgf@xy=\dimen180
+\pgf@yx=\dimen181
+\pgf@yy=\dimen182
+\pgf@zx=\dimen183
+\pgf@zy=\dimen184
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@path@lastx=\dimen182
-\pgf@path@lasty=\dimen183
+\pgf@path@lastx=\dimen185
+\pgf@path@lasty=\dimen186
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@shorten@end@additional=\dimen184
-\pgf@shorten@start@additional=\dimen185
+\pgf@shorten@end@additional=\dimen187
+\pgf@shorten@start@additional=\dimen188
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfpic=\box38
-\pgf@hbox=\box39
-\pgf@layerbox@main=\box40
+\pgfpic=\box39
+\pgf@hbox=\box40
+\pgf@layerbox@main=\box41
 \pgf@picture@serial@count=\count140
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgflinewidth=\dimen186
+\pgflinewidth=\dimen189
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@pt@x=\dimen187
-\pgf@pt@y=\dimen188
-\pgf@pt@temp=\dimen189
+\pgf@pt@x=\dimen190
+\pgf@pt@y=\dimen191
+\pgf@pt@temp=\dimen192
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorequick.code.tex
@@ -683,12 +713,12 @@ File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfarrowsep=\dimen190
+\pgfarrowsep=\dimen193
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@max=\dimen191
+\pgf@max=\dimen194
 \pgf@sys@shading@range@num=\count141
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
@@ -698,7 +728,7 @@ File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfexternal@startupbox=\box41
+\pgfexternal@startupbox=\box42
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorelayers.code.tex
@@ -719,7 +749,7 @@ File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
 es/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfnodeparttextbox=\box42
+\pgfnodeparttextbox=\box43
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
 es/pgfmoduleplot.code.tex
@@ -728,8 +758,8 @@ File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
 bility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
-\pgf@nodesepstart=\dimen192
-\pgf@nodesepend=\dimen193
+\pgf@nodesepstart=\dimen195
+\pgf@nodesepend=\dimen196
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
 bility/pgfcomp-version-1-18.sty
@@ -751,10 +781,10 @@ Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmath.code.tex)
-\pgffor@iter=\dimen194
-\pgffor@skip=\dimen195
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@iter=\dimen197
+\pgffor@skip=\dimen198
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/tikz.code.tex
@@ -764,18 +794,18 @@ Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 ries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@plot@mark@count=\count142
-\pgfplotmarksize=\dimen196
+\pgfplotmarksize=\dimen199
 )
-\tikz@lastx=\dimen197
-\tikz@lasty=\dimen198
-\tikz@lastxsaved=\dimen199
-\tikz@lastysaved=\dimen256
-\tikzleveldistance=\dimen257
-\tikzsiblingdistance=\dimen258
-\tikz@figbox=\box43
-\tikz@figbox@bg=\box44
-\tikz@tempbox=\box45
-\tikz@tempbox@bg=\box46
+\tikz@lastx=\dimen256
+\tikz@lasty=\dimen257
+\tikz@lastxsaved=\dimen258
+\tikz@lastysaved=\dimen259
+\tikzleveldistance=\dimen260
+\tikzsiblingdistance=\dimen261
+\tikz@figbox=\box44
+\tikz@figbox@bg=\box45
+\tikz@tempbox=\box46
+\tikz@tempbox@bg=\box47
 \tikztreelevel=\count143
 \tikznumberofchildren=\count144
 \tikznumberofcurrentchild=\count145
@@ -806,20 +836,20 @@ File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\arrowsize=\dimen259
+\arrowsize=\dimen262
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcirc.defines.tex
-\pgf@circ@res@up=\dimen260
-\pgf@circ@res@down=\dimen261
-\pgf@circ@res@zero=\dimen262
-\pgf@circ@res@left=\dimen263
-\pgf@circ@res@right=\dimen264
-\pgf@circ@res@other=\dimen265
-\pgf@circ@res@step=\dimen266
-\pgf@circ@res@temp=\dimen267
-\pgfstartlinewidth=\dimen268
-\pgf@circ@Rlen=\dimen269
+\pgf@circ@res@up=\dimen263
+\pgf@circ@res@down=\dimen264
+\pgf@circ@res@zero=\dimen265
+\pgf@circ@res@left=\dimen266
+\pgf@circ@res@right=\dimen267
+\pgf@circ@res@other=\dimen268
+\pgf@circ@res@step=\dimen269
+\pgf@circ@res@temp=\dimen270
+\pgfstartlinewidth=\dimen271
+\pgf@circ@Rlen=\dimen272
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcircutils.tex)
@@ -846,8 +876,8 @@ z/pgfcircpath.tex))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/verba
 tim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks41
-\verbatim@line=\toks42
+\every@verbatim=\toks42
+\verbatim@line=\toks43
 \verbatim@in@stream=\read2
 ) (/data/data/com.termux/files/home/texmf/tex/latex/tfrupee/tfrupee.sty
 Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
@@ -912,7 +942,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 options.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen270
+\@linkdim=\dimen273
 \Hy@linkcounter=\count151
 \Hy@pagecounter=\count152
 
@@ -943,10 +973,10 @@ Package hyperref Info: Bookmarks ON on input line 4772.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen271
+\XeTeXLinkMargin=\dimen274
 \Fld@menulength=\count155
-\Field@Width=\dimen272
-\Fld@charsize=\dimen273
+\Field@Width=\dimen275
+\Fld@charsize=\dimen276
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -975,10 +1005,10 @@ Package hyperref Warning: You have enabled option `breaklinks'.
 (hyperref)                But driver `hdvips.def' does not suppport this.
 (hyperref)                Expect trouble with the link areas of broken links.
 
-\pdf@docset=\toks43
-\pdf@box=\box47
-\pdf@toks=\toks44
-\pdf@defaulttoks=\toks45
+\pdf@docset=\toks44
+\pdf@box=\box48
+\pdf@toks=\toks45
+\pdf@defaulttoks=\toks46
 \HyField@AnnotCount=\count159
 \Fld@listcount=\count160
 \c@bookmark@seq@number=\count161
@@ -989,28 +1019,1936 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip66
+\Hy@SectionHShift=\skip70
 ))
-! Interruption.
-\@namedef #1->\expandafter \def \csname #1
-                                          \endcsname 
-l.40 \usepackage
-                {tkz-euclide} % loads  TikZ and tkz-base
-? 
-! Emergency stop.
-\@namedef #1->\expandafter \def \csname #1
-                                          \endcsname 
-l.40 \usepackage
-                {tkz-euclide} % loads  TikZ and tkz-base
-End of file on the terminal!
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-euclide.sty
+Package: tkz-euclide 2011/06/01 1.16 c for plots 2d 
 
- 
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-base.sty
+Package: tkz-base 2018/09/19 1.16 d tkz-base
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen277
+\pgfdecoratedremainingdistance=\dimen278
+\pgfdecoratedinputsegmentcompleteddistance=\dimen279
+\pgfdecoratedinputsegmentremainingdistance=\dimen280
+\pgf@decorate@distancetomove=\dimen281
+\pgf@decorate@repeatstate=\count162
+\pgfdecorationsegmentamplitude=\dimen282
+\pgfdecorationsegmentlength=\dimen283
+)
+\tikz@lib@dec@box=\box49
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.markings.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/numprint/nu
+mprint.sty
+Package: numprint 2012/08/20 v1.39 Print numbers (HH)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/array
+.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen284
+\ar@mcellbox=\box50
+\extrarowheight=\dimen285
+\NC@list=\toks47
+\extratabsurround=\skip71
+\backup@length=\skip72
+\ar@cellbox=\box51
+)
+\c@nprt@mantissa@digitsbefore=\count163
+\c@nprt@mantissa@digitsafter=\count164
+\c@nprt@exponent@digitsbefore=\count165
+\c@nprt@exponent@digitsafter=\count166
+\nprt@digitwidth=\skip73
+\nprt@sepwidth=\skip74
+\nprt@decimalwidth=\skip75
+\nprt@blockwidth=\skip76
+\nprt@digittoks=\toks48
+\nprt@pretoks=\toks49
+\nprt@posttoks=\toks50
+\nprt@thisdigit=\count167
+\nprt@curpos=\count168
+\nprt@rndpos=\count169
+\c@nprt@digitsfirstblock=\count170
+\c@nprt@blockcnt=\count171
+\c@nprt@cntprint=\count172
+ No configuration file `numprint.cfg' found.)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/defpatte
+rn.sty
+Package: defpattern 1994/10/12
+\actioncount=\count173
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic
+.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count174
+\FP@xia=\count175
+\FP@xib=\count176
+\FP@xfa=\count177
+\FP@xfb=\count178
+\FP@rega=\count179
+\FP@regb=\count180
+\FP@regs=\count181
+\FP@times=\count182
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addon
+s.sty
+Package: fp-addons 1995/03/15
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.
+sty
+Package: fp-snap 1995/04/05
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.s
+ty
+Package: fp-exp 1995/04/03
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo
+.sty
+Package: fp-trigo 1995/04/14
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.s
+ty
+Package: fp-pas 1994/08/29
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-rando
+m.sty
+Package: fp-random 1995/02/23
+\FPseed=\count183
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.s
+ty
+Package: fp-eqn 1995/04/03
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.s
+ty
+Package: fp-upn 1996/10/21
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.
+sty
+Package: fp-eval 1995/04/03
+))
+\tkzRadius=\dimen286
+\tkzLength=\dimen287
+\tkz@radi=\dimen288
+\tkz@ax=\dimen289
+\tkz@ay=\dimen290
+\tkz@bx=\dimen291
+\tkz@by=\dimen292
+\tkz@cx=\dimen293
+\tkz@cy=\dimen294
+\tkz@dx=\dimen295
+\tkz@dy=\dimen296
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-utilities.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-arith.tex
+File: tkz-tool-arith.tex tkz-tool-arith 1.161 d
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-base.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-misc.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-math.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-obj-points.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-obj-segments.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-obj-marks.tex
+\tkz@cntmk=\count184
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-tools-intersections.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-tools-transformations.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-lines.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-lib-symbols.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-circles.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-addpoints.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-polygons.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-vectors.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-arcs.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-sectors.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-angles.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-protractor.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
+stings.sty
+\lst@mode=\count185
+\lst@gtempboxa=\box52
+\lst@token=\toks51
+\lst@length=\count186
+\lst@currlwidth=\dimen297
+\lst@column=\count187
+\lst@pos=\count188
+\lst@lostspace=\dimen298
+\lst@width=\dimen299
+\lst@newlines=\count189
+\lst@lineno=\count190
+\lst@maxwidth=\dimen300
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/ls
+tmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count191
+\lst@skipnumbers=\count192
+\lst@framebox=\box53
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
+stings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/hhlin
+e.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ifthen
+.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ls
+cape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/multi
+col.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count193
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+141.
+
+\mult@box=\box54
+\multicol@leftmargin=\dimen301
+\c@unbalance=\count194
+\c@collectmore=\count195
+\doublecol@number=\count196
+\multicoltolerance=\count197
+\multicolpretolerance=\count198
+\full@width=\dimen302
+\page@free=\dimen303
+\premulticols=\dimen304
+\postmulticols=\dimen305
+\multicolsep=\skip77
+\multicolbaselineskip=\skip78
+\partial@page=\box55
+\last@line=\box56
+\maxbalancingoverflow=\dimen306
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@gfirstbox=\box59
+\mult@firstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\c@columnbadness=\count199
+\c@finalcolumnbadness=\count266
+\last@try=\dimen307
+\multicolovershoot=\dimen308
+\multicolundershoot=\dimen309
+\mult@nat@firstbox=\box78
+\colbreak@box=\box79
+\mc@col@check@num=\count267
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/chngcntr/ch
+ngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (./gvv_ncert_linalg.aux)
+\openout1 = `gvv_ncert_linalg.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 85.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 85.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oml
+txmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 85.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
+txsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 85.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/omx
+txex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+exa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
+txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+-- Lines per column: 50 (exact).
+LaTeX Info: Redefining \celsius on input line 85.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 85.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 85.
+Package gensymb Info: Using \Omega for \ohm on input line 85.
+
+Package gensymb Warning: Not defining \micro.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/caption/ltc
+aption.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+ ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring OFF on input line 85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/na
+meref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count268
+)
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
+ (./gvv_ncert_linalg.out) (./gvv_ncert_linalg.out)
+\@outlinefile=\write4
+\openout4 = `gvv_ncert_linalg.out'.
+
+\c@lstlisting=\count269
+\c@theorem=\count270
+\c@problem=\count271
+\c@proposition=\count272
+\c@lemma=\count273
+\c@example=\count274
+\c@rem=\count275
+File: iith_logo.eps Graphic file (type eps)
+
+<iith_logo.eps>
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 241.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 241.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ur
+sfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 241.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+mia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 241.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+sya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 241.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+syb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 241.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+syc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps>
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 241.
+File: iith_logo.eps Graphic file (type eps)
+ <iith_logo.eps>
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps>
+File: iith_logo.eps Graphic file (type eps)
+ <iith_logo.eps>
+File: tlc.eps Graphic file (type eps)
+ <tlc.eps>
+(./gvv_ncert_linalg.toc)
+\tf@toc=\write5
+\openout5 = `gvv_ncert_linalg.toc'.
+
+ (./triangle/tri_exam.tex
+File: ./triangle/figs/check_tri.eps Graphic file (type eps)
+
+<./triangle/figs/check_tri.eps> [1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 146--149
+\OT1/txr/m/n/12 after sim-pli-fi-ca-tion. From [] and
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+File: ./triangle/figs/triangle_3d.eps Graphic file (type eps)
+
+<./triangle/figs/triangle_3d.eps>) (./triangle/tri_geo.tex
+(./solutions/1/chapters/triangle/solution.tex
+Underfull \hbox (badness 2635) in paragraph at lines 70--72
+[]\OT1/txr/m/n/12 The in-terec-tion of the lines in [],
+ []
+
+File: ./solutions/1/figs/triangle/shaded.eps Graphic file (type eps)
+<./solutions/1/figs/triangle/shaded.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 20.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4])
+(./quad/quad_geo_exam.tex
+File: ./triangle/figs/quad_3d.eps Graphic file (type eps)
+ <./triangle/figs/quad_3d.eps>) (./quad/quad_geo.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./line/line_exam.tex
+File: ./line/figs/line_zeros.eps Graphic file (type eps)
+ <./line/figs/line_zeros.eps> [6]
+File: ./line/figs/line_icept.eps Graphic file (type eps)
+
+<./line/figs/line_icept.eps>
+Underfull \vbox (badness 2809) has occurred while \output is active []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 145--151
+[] \OT1/txr/m/n/12 has no so-lu-tion. The equiv-a-lent
+ []
+
+File: ./line/figs/line_check_sol.eps Graphic file (type eps)
+<./line/figs/line_check_sol.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+File: ./line/figs/line_check_sol2.eps Graphic file (type eps)
+
+<./line/figs/line_check_sol2.eps>
+Underfull \vbox (badness 5771) has occurred while \output is active []
+
+File: ./line/figs/line_check_sol3.eps Graphic file (type eps)
+
+<./line/figs/line_check_sol3.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+File: ./line/figs/line_check_unique.eps Graphic file (type eps)
+
+<./line/figs/line_check_unique.eps>
+File: ./line/figs/line_check_nosol.eps Graphic file (type eps)
+ <./line/figs/line_check_nosol.eps>
+Underfull \vbox (badness 1603) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+File: ./line/figs/line_perp_bisect.eps Graphic file (type eps)
+
+<./line/figs/line_perp_bisect.eps>
+File: ./line/figs/section.eps Graphic file (type eps)
+ <./line/figs/section.eps> [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 644--649
+[]\OT1/txr/m/n/12 Two po-si-tions of time and dis-tance are
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+File: ./line/figs/line_parallel_axes.eps Graphic file (type eps)
+
+<./line/figs/line_parallel_axes.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./line/figs/line_pt_dist.eps Graphic file (type eps)
+
+<./line/figs/line_pt_dist.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Overfull \hbox (8.06451pt too wide) detected at line 915
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./line/figs/line_scalar_prod.eps Graphic file (type eps)
+
+<./line/figs/line_scalar_prod.eps>
+Underfull \vbox (badness 1107) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./line/figs/reflection.eps Graphic file (type eps)
+
+<./line/figs/reflection.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+File: ./line/figs/line_reflect.eps Graphic file (type eps)
+
+<./line/figs/line_reflect.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+File: ./line/figs/collinear_3d.eps Graphic file (type eps)
+
+<./line/figs/collinear_3d.eps>
+Underfull \hbox (badness 4341) in paragraph at lines 1322--1332
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Use the ap-proach in Prob-lem
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./line/figs/line_proj.eps Graphic file (type eps)
+
+<./line/figs/line_proj.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+File: ./line/figs/line_dist_parallel_py.eps Graphic file (type eps)
+
+<./line/figs/line_dist_parallel_py.eps>
+File: ./line/figs/line_dist_parallel.eps Graphic file (type eps)
+ <./line/figs/line_dist_parallel.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+File: ./line/figs/line_dist_skew.eps Graphic file (type eps)
+
+<./line/figs/line_dist_skew.eps>
+Underfull \vbox (badness 3312) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (8.60971pt too wide) detected at line 2124
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 2233.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2347--2349
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./line/lineaeqn_exam.tex [27]
+File: ./line/figs/line_ineq.eps Graphic file (type eps)
+ <./line/figs/line_ineq.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./line/figs/line_ineq_mult.eps Graphic file (type eps)
+
+<./line/figs/line_ineq_mult.eps> [28]) (./line/matrix_exam.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (5.50015pt too wide) in paragraph at lines 387--398
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
+
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 415--422
+\OT1/txr/m/n/12 Bas-mati, Permal and Naura. The sale (in
+ []
+
+
+Overfull \hbox (23.50243pt too wide) in paragraph at lines 415--422
+\OT1/txr/m/n/12 A =$[]$$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--422
+
+ []
+
+
+Overfull \hbox (20.08391pt too wide) in paragraph at lines 423--431
+\OT1/txr/m/n/12 B=$[]$$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--431
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+[]\OT1/txr/m/n/12 If A=$[]$, B=$[]$ and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+[]\OT1/txr/m/n/12 If A=$[]$,B=$[]$, ver-ify that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+[]\OT1/txr/m/n/12 By us-ing el-e-men-tary op-er-a-tions,find the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--468
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+
+ []
+
+) (./line/complex.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+(./line/coord_ex.tex (./solutions/1/chapters/line/point_vector/solution.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 5245) has occurred while \output is active []
+
+ [33])
+(./line/section.tex (./solutions/1/chapters/line/point_line/solution.tex
+File: ./solutions/1/figs/line/section.eps Graphic file (type eps)
+
+<./solutions/1/figs/line/section.eps>) [34]) (./line/line_equation.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./solutions/1/chapters/line/line_plane/solution.tex
+File: ./solutions/1/figs/line/line1.eps Graphic file (type eps)
+
+<./solutions/1/figs/line/line1.eps>
+File: ./solutions/1/figs/line/line2.eps Graphic file (type eps)
+ <./solutions/1/figs/line/line2.eps>
+[35]
+File: ./solutions/1/figs/line/line3.eps Graphic file (type eps)
+ <./solutions/1/figs/line/line3.eps>
+Underfull \vbox (badness 5970) has occurred while \output is active []
+
+File: ./solutions/1/figs/line/line4.eps Graphic file (type eps)
+
+<./solutions/1/figs/line/line4.eps>)
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 19.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 21.
+
+
+Overfull \vbox (0.6988pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (0.6988pt too high) has occurred while \output is active []
+
+
+[36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 255.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Underfull \hbox (badness 2096) in paragraph at lines 821--825
+[]\OT1/txr/m/n/12 Find the in-ter-cepts cut off by the plane
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./line/tables/3d_ncert.tex
+\gnumericTableWidth=\skip79
+\gnumericTableWidthComplete=\skip80
+\gnumericMultiRowLength=\skip81
+\gnumericColA=\skip82
+\gnumericColB=\skip83
+\gnumericColC=\skip84
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \hbox (badness 1838) in paragraph at lines 1065--1067
+[]\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 1067--1068
+[]\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 1085.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 1085.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 1239.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46])
+(./line/line_motion.tex (./solutions/1/chapters/line/Motion_plane/solution.tex
+File: ./solutions/1/figs/line/speed.eps Graphic file (type eps)
+
+<./solutions/1/figs/line/speed.eps>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+File: ./line/figs/11-1/6/6.10.eps Graphic file (type eps)
+
+<./line/figs/11-1/6/6.10.eps>) (./line/matrix_exer.tex
+(./solutions/1/chapters/line/matrix/solution.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 16--18
+[]\OT1/txr/m/n/12 Construct a $2 \OMS/txsy/m/n/12 ^^B \OT1/txr/m/n/12 2$ matrix
+,A=[$\OML/txmi/m/it/12 a[]$\OT1/txr/m/n/12 ],whose
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 25--30
+[]\OT1/txr/m/n/12 Which of the given val-ues of x and y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+[]\OT1/txr/m/n/12 Let A=$[]$,B=$[]$,C=$[]$ Find
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
+\OT1/txr/m/n/12 (i)$[]$+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+\OT1/txr/m/n/12 (iv)$[]$$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+[]\OT1/txr/m/n/12 If,A=$[]$,B=$[]$and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+\OT1/txr/m/n/12 C=$[]$,then com-pute (A+B) and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\OT1/txr/m/n/12 If A=$[]$ and B=$[]$,then
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Overfull \hbox (18.61166pt too wide) in paragraph at lines 46--47
+[]\OT1/txr/m/n/12 Simplify $[] \OML/txmi/m/it/12 ^^R$$[]$\OT1/txr/m/n/12 +$[] \
+OML/txmi/m/it/12 ^^R$$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\OT1/txr/m/n/12 (i)$[] [] \U/txsyc/m/n/12 , [] []$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\OT1/txr/m/n/12 (ii)$[] [] \U/txsyc/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 65--70
+\OT1/txr/m/n/12 mul-ti-pli-ca-tion, de-ter-mine how to di-vide \U/tfrupee/m/n/1
+2 |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
+
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 70--76
+[]\OT1/txr/m/n/12 The book-shop of a par-tic-u-lar school has
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 70--76
+\OT1/txr/m/n/12 books, 10 dozen eco-nomics books. Their
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 70--76
+\OT1/txr/m/n/12 re-spec-tively. Find the to-tal amount the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+Underfull \hbox (badness 10000) in paragraph at lines 76--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 85--87
+[]\OT1/txr/m/n/12 If A=$[]$ and B=$[]$,then
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+[]\OT1/txr/m/n/12 For the ma-tri-ces A and B,verify that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+\OT1/txr/m/n/12 (i)A=$[]$,B=$[]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 92--94
+[]\OT1/txr/m/n/12 If (i) A=$[]$, then ver-ify that
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 92--94
+\OT1/txr/m/n/12 (ii) If A=$[]$,then ver-ify that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[]\OT1/txr/m/n/12 Find $[](\OML/txmi/m/it/12 A \OT1/txr/m/n/12 + \OML/txmi/m/it
+/12 A[]\OT1/txr/m/n/12 )$and $[](\OML/txmi/m/it/12 A \OMS/txsy/m/n/12 ^^@ \OML/
+txmi/m/it/12 A[]\OT1/txr/m/n/12 )$,when
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 106--109
+[]\OT1/txr/m/n/12 If A,B are sym-met-ric ma-tri-ces of same
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 113--114
+[]\OT1/txr/m/n/12 Using el-e-men-tary trans-foram-tions,find the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 143--144
+[]\OT1/txr/m/n/12 Find the val-ues of x,y,z if the ma-trix
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \hbox (badness 1571) in paragraph at lines 149--160
+\OT1/txr/m/n/12 (a) If unit sale prices of x,y and z are
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 149--160
+\U/tfrupee/m/n/12 |\OT1/txr/m/n/12 2.50,\U/tfrupee/m/n/12 |\OT1/txr/m/n/12 1.50
+ and \U/tfrupee/m/n/12 |\OT1/txr/m/n/12 1.00 re-spec-tively,find the
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 149--160
+\OT1/txr/m/n/12 (b) If the unit cost of the above three
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 161--163
+[]\OT1/txr/m/n/12 If A and B are square ma-tri-ces of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--171
+
+ []
+
+) (./line/determinants.tex (./solutions/1/chapters/line/det/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \vbox (badness 1377) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
+
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 118--120
+[]\OT1/txr/m/n/12 Using Co-fac-tors of el-e-ments of sec-ond
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--252
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--281
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--312
+
+ []
+
+
+Overfull \hbox (4.7997pt too wide) in paragraph at lines 312--315
+[]$[]$\OT1/txr/m/n/12 =3(a+b+c)(ab+bc+ca) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55])
+(./line/lineaeqn_exer.tex (./solutions/1/chapters/line/line_ineq/solution.tex
+Underfull \vbox (badness 3323) has occurred while \output is active []
+
+File: ./solutions/1/figs/line/line_eq.eps Graphic file (type eps)
+
+<./solutions/1/figs/line/line_eq.eps>) [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./line/line_misc.tex [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./circle/circle_geo_exam.tex) (./circle/circle_geo.tex
+(./solutions/1/chapters/circle/solution.tex
+(./solutions/1/tables/circle/inp.tex) [60]
+File: ./solutions/1/figs/circle/circle.eps Graphic file (type eps)
+
+<./solutions/1/figs/circle/circle.eps>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61])
+(./conics/conics_exam.tex
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 15.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 18.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 18.
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 18--19
+[]\OT1/txr/m/n/12 Find the roots of the quadratic equa-tion
+ []
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 30.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 35.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 35.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \hbox (badness 7796) in paragraph at lines 114--119
+[]\OT1/txr/m/n/12 Find the area en-closed by the el-lipse
+ []
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 126.
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 122--128
+[]\OT1/txr/m/n/12 Find the area bounded by the el-lipse
+ []
+
+
+Overfull \hbox (9.60822pt too wide) detected at line 133
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./conics/conics_exer.tex (./solutions/1/chapters/conics/solution.tex [63]
+File: ./solutions/1/figs/conics/parabola1.eps Graphic file (type eps)
+
+<./solutions/1/figs/conics/parabola1.eps>
+File: ./solutions/1/figs/conics/parabola2.eps Graphic file (type eps)
+
+<./solutions/1/figs/conics/parabola2.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+File: ./solutions/1/figs/conics/parabola3.eps Graphic file (type eps)
+
+<./solutions/1/figs/conics/parabola3.eps>
+Overfull \hbox (23.31291pt too wide) detected at line 89
+[]
+ []
+
+File: ./solutions/1/figs/conics/parabola4.eps Graphic file (type eps)
+<./solutions/1/figs/conics/parabola4.eps>)
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 25.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 26.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 28.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 28.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 32.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 32.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 34.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 35.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 36.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 36.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 37.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 37.
+
+
+Underfull \vbox (badness 1132) has occurred while \output is active []
+
+ [65]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 50.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 50.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 53.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 54.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 216.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 358.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+
+[69
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+ (./gvv_ncert_linalg.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 345.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+Package rerunfilecheck Info: File `gvv_ncert_linalg.out' has not changed.
+(rerunfilecheck)             Checksum: 81472F31F96C6FF16009DE8F32127132;1571.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
+ ) 
 Here is how much of TeX's memory you used:
- 25852 strings out of 492624
- 569817 string characters out of 6119216
- 730237 words of memory out of 5000000
- 29438 multiletter control sequences out of 15000+600000
- 22603 words of font info for 50 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,1n,48p,420b,101s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
+ 32419 strings out of 492624
+ 697261 string characters out of 6119216
+ 918951 words of memory out of 5000000
+ 35589 multiletter control sequences out of 15000+600000
+ 78167 words of font info for 195 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 55i,23n,69p,508b,1699s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on gvv_ncert_linalg.dvi (69 pages, 886204 bytes).

@@ -824,7 +824,7 @@ where
 \sec \theta = \frac{1}{\cos \theta}
 \end{align}
 %
-This follows from \eqref{eq:tri_geo_baudh}, where
+This follows from the fact that
 %
 \begin{align}
 \cos^2 \theta + \sin^2 \theta &= 1
@@ -900,7 +900,7 @@ Find its
 \vec{a}^T\vec{b} = 1.
 \end{align}
 %
-\solution In Fig. \ref{fig:line_scalar_prod}, from the cosine formula in \eqref{eq:b_cos_form}
+\solution In Fig. \ref{fig:line_scalar_prod}, from the cosine formula, 
 %
 \begin{align}
 \cos \theta &= \frac{\norm{\vec{A}-\vec{B}}^2+\norm{\vec{B}-\vec{C}}^2-\norm{\vec{A}-\vec{C}}^2}{2\norm{\vec{A}-\vec{B}}\norm{\vec{B}-\vec{C}}}
@@ -2240,7 +2240,7 @@ x_2> x_1 &\implies f(x_2)> f(x_1)
 \label{eq:line_inc_12}
 \end{align}
 %
-Letting $x_1 = x, x_2 = x+h$ in \label{eq:line_inc_12}, this results in 
+Letting $x_1 = x, x_2 = x+h$ in \eqref{eq:line_inc_12}, this results in 
 \begin{align}
 \frac{f(x+h)-f(x)}{h} > 0
 \label{eq:line_slope}
@@ -2263,7 +2263,7 @@ $f^{\prime}(x)$ is defined as the {\em derivative} of $f(x)$.
 The function is decreasing if $f^{\prime}(x) < 0$.  
 %
 \item The funcion $f(x) = ax+b, a \ne 0$ is increasing if $f^{\prime}(x) = a > 0$.  Else, it is decreasing.
-\label{them:line_inc }
+\label{them:line_inc}
 %
 
 \item Find the maximum and minimum values, if any, of the function given by 
@@ -2296,10 +2296,10 @@ f(x)  =
 \end{cases}
 \end{align}
 %
-From \eqref{them:line_inc}, 
+From Theorem \ref{them:line_inc}, 
 %
 \begin{align}
-\label{eq:line_abs_cases}
+%\label{eq:line_abs_cases}
 f^{\prime}(x)  = 
 \begin{cases}
 1 & x > 0
@@ -2312,7 +2312,7 @@ Thus, $f(x)$ is increasing in $\brak{0, \infty}$ and decreasing in $\brak{-\inft
 %
 \item Sketch the graph of $y = \abs{x+3}$ and evaluate its area for $-6 \le x \le 0$.
 \\
-\solution Fig. \ref{} shows 
+\solution Fig.  shows 
 \begin{align}
 \label{eq:tri_area_lim_abs}
 y_1 &= \abs{x+3}, -6 \le x \le 0
@@ -2324,7 +2324,7 @@ y_3 &= x, 0 < x < 3
 \implies ar\brak{y_1} &= ar\brak{y_2} = 2ar\brak{y_3}
 \end{align}
 %8
-From Fig. \ref{}, 
+From Fig. , 
 %
 \begin{align}
 ar\brak{y_3} &= h\brak{h + 2h+ 3h + \dots + nh}, \quad nh = 3
@@ -2371,7 +2371,7 @@ ar\brak{y_1} = 2ar\brak{y_3}  = 9
 %
 \item Check the continuity of the function $f$ given by $f(x) = 2x + 3$ at $x = 1$.
 \\
-\solution See Fig. \ref{}
+\solution See Fig. 
 \begin{align}
 \because f(1+h) &= 2\brak{1+h}+3 = 5+h
 \\
@@ -2392,7 +2392,7 @@ Hence, the function is continuous.
 It is possible to draw a continuious function $f(x)$ without lifting a pencil.  
 \item Discuss the continuity of the function $f$ given by $f(x) = \abs{ x}$ at $x = 0$.
 \\
-\solution See Fig. \ref{}.  It appears to be continuous. To prove this, we note that 
+\solution See Fig. .  It appears to be continuous. To prove this, we note that 
 \begin{align}
 \lim_{h\to 0}f(0+h) &= f(0) = f(0-h)  = 0
 \end{align}
@@ -2413,7 +2413,7 @@ x+2 & x < 1
 x-2 & x > 1
 \end{cases}
 \end{align}
-\solution From  Fig. \ref{},  the discontinuity appears to be at $x = 1$ and verified by the fact that
+\solution From  Fig. ,  the discontinuity appears to be at $x = 1$ and verified by the fact that
 %
 \begin{align}
 \because f(1-h) = 3 \ne f(1) \ne f(1+h),
