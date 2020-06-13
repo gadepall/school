@@ -64,7 +64,7 @@
        \usepackage{multirow}
        \usepackage{hhline}
        \usepackage{ifthen}
-        \usepackage[cmex10]{amsmath}
+		 \usepackage[cmex10]{amsmath}
        \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 
 	\begin{document}
@@ -200,13 +200,13 @@
 	 \multicolumn{1}{|p{\gnumericColA}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{O}}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
-	{$\myvec{2\\-3}$}
+	{\gnumericPB{\centering}\gnumbox{\$$\backslash$myvec\{2$\backslash$$\backslash$-3\}\$}}
 \\
 \hhline{|--|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{A}}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
-	{$\myvec{1\\4}$}
+	{\gnumericPB{\centering}\gnumbox{\$$\backslash$myvec\{1$\backslash$$\backslash$4\}\$}}
 \\
 \hhline{|-|-|}
 \end{longtable}
