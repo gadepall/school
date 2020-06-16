@@ -1,0 +1,30 @@
+The matrix representation of a complex number 
+\begin{align}
+\vec{a} = \myvec{a_1\\a_2} \triangleq \myvec{a_1 & -a_2\\ a_2 & a_1}
+\end{align}
+If 
+\begin{align}
+\vec{b}=\myvec{b_1\\b_2},
+\end{align}
+then complex multiplication  is defined as
+\begin{align}
+\vec{a}\vec{b} = \myvec{a_1 & -a_2\\ a_2 & a_1}\myvec{b_1\\b_2} = \vec{b}\vec{a}
+\end{align}
+If 
+\begin{align}
+\vec{a}\vec{b} = \myvec{1\\0}, 
+\end{align}
+then $\vec{a}$ is the multiplicative inverse of  $\vec{b}$ and vice-versa.   It is easy to verify that
+\begin{align}
+\vec{b}=\vec{a}^{-1} &= \myvec{a_1&-a_2\\a_2&a_1}^{-1}\myvec{1\\0}\\
+&=\frac{1}{\norm{\vec{a}}^2}\myvec{a_1\\-a_2}
+\label{eq:3.4.3_comp_inv}
+\end{align}
+Thus, 
+\begin{align}
+\myvec{2\\-3}^{-1}= \frac{1}{13}\myvec{2\\3}
+\end{align}
+The python code for above problem is
+\begin{lstlisting}
+solutions/3/codes/line/comp/comp.py
+\end{lstlisting}
