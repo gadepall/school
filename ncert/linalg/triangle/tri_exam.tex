@@ -1,90 +1,14 @@
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
-%\item If three  sides of one triangle are equal to three sides  of the other triangle, then the two triangles are congruent (SSS Congruence Rule).
-%%
-%\\
-%\solution Using cosine formula in \eqref{eq:b_cos_form}, it can be shown that the angles of the triangle are also equal, hnce they are congruent.
-% 	
-%\item If two sides and the included angle of one triangle are equal to two sides and the included angle of the other triangle, then the two triangles are congruent (SAS Congruence Rule).
-%\\
-%\solution Use cosine formula in \eqref{eq:b_cos_form}.
-%\item  If two angles and the included side of one triangle are equal to two angles and the included side of the other triangle, then the two triangles are congruent (ASA Congruence Rule).
-%%
-%\\
-%\solution  Use the sine formula in \eqref{eq:sin_form} to show that the corresponding sides opposite the angles are equal. 
-%\item If two angles and one side of one triangle are equal to two angles and the corresponding side of the other triangle, then the two triangles are congruent (AAS Congruence Rule)
-%\\
-%\solution Use the sine formula in \eqref{eq:sin_form}
-
-%\item  In a triangle, angle opposite to the longer side is larger (greater). 
-%%
-%\label{prob:tri_ang_side_greater}
-%%
-%\\
-%\solution Consider a right triangle $ABC$ right angled at $B$ as in Fig. \ref{fig:tri_ang_side_greater}.  From Baudhayana's theorem, 
-%%
-%\begin{align}
-%\label{eq:tri_ang_side_greater_baudhb}
-%b^2 &= a^2+c^2
-%\\
-%p^2 &= a^2+x^2
-%\label{eq:tri_ang_side_greater_baudhp}
-%\end{align}
-%%
-%$\because c > x$, from \eqref{eq:tri_ang_side_greater_baudhb} and \eqref{eq:tri_ang_side_greater_baudhp}, is obvious that %
-%\begin{align}
-%\label{eq:tri_ang_side_greater_baudhbp}
-%b > p \implies \frac{b}{p} > 1
-%\end{align}
-%%
-%Also, from \eqref{eq:sin_form_def},
-%%
-%%
-%\begin{align}
-%%\label{eq:tri_ang_side_greater_baudh_bp}
-%a = b\sin A &= p \sin \theta 
-%\implies \frac{b}{p} &= \frac{\sin \theta}{\sin A} > 1
-%\\
-%\text{or, } \sin \theta > \sin A
-%\end{align}
-%%
-%from \eqref{eq:tri_ang_side_greater_baudhbp}.   Note that this is always true.  Thus, 
-%%
-%\begin{align}
-%\label{eq:tri_ang_side_greater_final}
-%\theta > A \iff \sin \theta > \sin A
-%\end{align}
-%%
-%In any $\triangle ABC$,  using \eqref{eq:sin_form} and \eqref{eq:tri_ang_side_greater_final},
-%
-%%
-%%
-%\begin{align}
-%a>b \implies \frac{a}{b} = \frac{\sin A}{\sin B} > 1 
-%\\
-%\text{or, }  \sin A > \sin B \implies A > B
-%\end{align}
-%%
-%In any $\triangle ABC$, if $A>B$, using \eqref{eq:sin_form},
-%%
-%\begin{figure}[!ht]
-%\includegraphics[width=\columnwidth]{./triangle/figs/tri_ang_side_greater.eps}
-%\caption{}
-%\label{fig:tri_ang_side_greater}
-%\end{figure}
-%
-
-%\item In a triangle, side opposite to the larger (greater) angle is longer. 
-%%
-%\\
-%\solution Use \eqref{eq:sin_form} and \eqref{eq:tri_ang_side_greater_final}.
 %
 \item Do the points $\vec{A}=\myvec{3\\2}, \vec{B}=\myvec{-2\\-3}, \vec{C}=\myvec{2\\3} $ form a triangle?  If so, name the type of triangle formed.
 \label{prob:tri_exam_coll_pts}
 %
 \\
-\solution The direction vectors of $AB$ and $BC$ are 
+\solution 
+
+The direction vectors of $AB$ and $BC$ are 
 \begin{align}
 \label{eq:tri_geo_ex_baorth}
 \vec{B}-\vec{A} &= \myvec{-5\\-5}
@@ -93,8 +17,15 @@
 \label{eq:tri_geo_ex_caorth}
 \end{align}
 %
-Since 
+If $\vec{A}, \vec{B}, \vec{C}$ form a line, then, $AB$ and $AC$ should have the same direction vector. Hence, there exists a $k$ such that
+\begin{align}
+\vec{B}-\vec{A} &= k\brak{\vec{C}-\vec{B}}
+\\
+\implies \vec{B} &= \frac{k\vec{C} +\vec{A}}{k+1}
+\label{eq:tri_geo_ex_caorth_section}
+\end{align}
 %
+Since 
 \begin{align}
 \vec{B}-\vec{A} \ne k\brak{\vec{C}-\vec{A}},
 \end{align}

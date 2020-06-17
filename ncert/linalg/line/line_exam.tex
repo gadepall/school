@@ -503,12 +503,27 @@ codes/line/line_perp_bisect.py
 \begin{align}
 \vec{A} = \myvec{0\\0}, \vec{B} = \myvec{7.6\\0}
 \end{align}
-Then the point $\vec{C}$
+From \eqref{eq:tri_geo_ex_caorth_section},
+the point $\vec{C}$
 \begin{align}
 \label{eq:line_section_form}
-\vec{C} = \frac{k \vec{A} + \vec{B}}{k+1}
+\vec{C} = \frac{k \vec{B} + \vec{A}}{k+1}
 \end{align}
-divides $AB$ in the ratio $k:1$. For the given problem, $k = \frac{5}{8}$.
+If $\vec{C}$ divides $AB$ in the ratio 
+\begin{align}
+ m = \frac{5}{8},
+\end{align}
+then,
+\begin{align}
+\label{eq:line_section_form_m}
+\frac{\norm{\vec{C}-\vec{A}}^2}{\norm{\vec{B}-\vec{C}}^2} &= m^2
+\\
+\implies \frac{\frac{k^2\norm{\vec{B}-\vec{A}}^2}{\brak{k+1}^2}}{\frac{\norm{\vec{B}-\vec{A}}^2}{\brak{k+1}^2}} &=m^2
+\\
+\implies k = m &
+\end{align}
+upon substituting from \eqref{eq:line_section_form_m} and simplifying. \eqref{eq:line_section_form} is known as the section formula.
+%
 The following code plots Fig. \ref{fig:section}
 \begin{lstlisting}
 codes/line/draw_section.py
