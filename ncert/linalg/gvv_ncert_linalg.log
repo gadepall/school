@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  17 JUN 2020 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  18 JUN 2020 07:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2278,67 +2278,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
-) (./line/complex.tex (./solutions/3/chapters/line/comp/solution.tex
+) (./line/complex.tex (./solutions/1/chapters/line/complex/solution.tex)
+(./solutions/3/chapters/line/comp/solution.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33])
 (./line/coord_ex.tex (./solutions/1/chapters/line/point_vector/solution.tex)
-(./solutions/3/chapters/line/towns/solution.tex
+(./solutions/3/chapters/line/towns/solution.tex [34]
 File: ./solutions/3/codes/line/towns/pyfigs/towns.eps Graphic file (type eps)
 
 <./solutions/3/codes/line/towns/pyfigs/towns.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5817) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-Underfull \vbox (badness 5245) has occurred while \output is active []
+ [35])
+(./line/section.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./line/section.tex (./solutions/1/chapters/line/point_line/solution.tex
-[36]
+ [36]
+(./solutions/1/chapters/line/point_line/solution.tex
 File: ./solutions/1/figs/line/section.eps Graphic file (type eps)
- <./solutions/1/figs/line/section.eps>)
-(./solutions/3/chapters/line/section/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<./solutions/1/figs/line/section.eps>)
+(./solutions/3/chapters/line/section/solution.tex
 File: ./solutions/3/codes/line/section/pyfigs/section.eps Graphic file (type ep
 s)
 
-<./solutions/3/codes/line/section/pyfigs/section.eps>) [37])
-(./line/line_equation.tex (./solutions/1/chapters/line/line_plane/solution.tex
-Underfull \vbox (badness 1635) has occurred while \output is active []
+<./solutions/3/codes/line/section/pyfigs/section.eps>)
+Underfull \vbox (badness 4832) has occurred while \output is active []
 
+ [37])
+(./line/line_equation.tex (./solutions/1/chapters/line/line_plane/solution.tex
 File: ./solutions/1/figs/line/line1.eps Graphic file (type eps)
 
 <./solutions/1/figs/line/line1.eps>
 File: ./solutions/1/figs/line/line2.eps Graphic file (type eps)
  <./solutions/1/figs/line/line2.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
 File: ./solutions/1/figs/line/line3.eps Graphic file (type eps)
 
 <./solutions/1/figs/line/line3.eps>
-Underfull \vbox (badness 3713) has occurred while \output is active []
-
- [38]
 File: ./solutions/1/figs/line/line4.eps Graphic file (type eps)
-
-<./solutions/1/figs/line/line4.eps>)
+ <./solutions/1/figs/line/line4.eps>)
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 19.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 21.
-
-
-Underfull \vbox (badness 1132) has occurred while \output is active []
-
 
 (./solutions/3/chapters/line/pointonline/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3175,11 +3168,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./line/line_misc.tex (./solutions/3/chapters/median/chapter1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62]
-(./solutions/3/figs/chapter1/ch1_two_median.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./solutions/3/figs/chapter1/ch1_two_median.tex) [62]
+Underfull \vbox (badness 4366) has occurred while \output is active []
 
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3437,12 +3427,12 @@ Package rerunfilecheck Info: File `gvv_ncert_linalg.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 40455 strings out of 480609
- 935377 string characters out of 5892832
- 1366590 words of memory out of 5000000
- 55338 multiletter control sequences out of 15000+600000
+ 40461 strings out of 480609
+ 935597 string characters out of 5892832
+ 1366693 words of memory out of 5000000
+ 55341 multiletter control sequences out of 15000+600000
  606865 words of font info for 205 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,23n,91p,508b,1880s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_linalg.dvi (79 pages, 997412 bytes).
+Output written on gvv_ncert_linalg.dvi (79 pages, 1000412 bytes).
