@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  18 JUN 2020 07:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  18 JUN 2020 08:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3167,37 +3167,41 @@ File: ./solutions/3/codes/line/ineq/pyfigs/ineq.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./line/line_misc.tex (./solutions/3/chapters/median/chapter1.tex
-(./solutions/3/figs/chapter1/ch1_two_median.tex) [62]
-Underfull \vbox (badness 4366) has occurred while \output is active []
-
-)
+(./line/line_misc.tex (./solutions/1/chapters/line/misc/solution.tex [62])
+(./solutions/3/chapters/median/chapter1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+
+(./solutions/3/figs/chapter1/ch1_two_median.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
-[65]) (./circle/circle_geo_exam.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+[66]) (./circle/circle_geo_exam.tex
 (./solutions/1/chapters/circle/solution2.tex
 File: ./solutions/1/figs/circle/circle1.eps Graphic file (type eps)
 
 <./solutions/1/figs/circle/circle1.eps>)
 (./solutions/3/chapters/circle1/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66]
 File: ./solutions/3/codes/circle1/pyfigs/circle1.eps Graphic file (type eps)
 
-<./solutions/3/codes/circle1/pyfigs/circle1.eps>)) (./circle/circle_geo.tex
-(./solutions/1/chapters/circle/solution.tex
+<./solutions/3/codes/circle1/pyfigs/circle1.eps>) [67])
+(./circle/circle_geo.tex (./solutions/1/chapters/circle/solution.tex
 (./solutions/1/tables/circle/inp.tex)
 File: ./solutions/1/figs/circle/circle.eps Graphic file (type eps)
  <./solutions/1/figs/circle/circle.eps>)
-[67] (./solutions/3/chapters/circle2/solution.tex
+(./solutions/3/chapters/circle2/solution.tex
 Underfull \hbox (badness 2261) in paragraph at lines 16--18
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
@@ -3214,23 +3218,24 @@ Underfull \hbox (badness 2261) in paragraph at lines 49--51
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
+[68]
 File: ./solutions/3/codes/circle2/pyfigs/circle2c.eps Graphic file (type eps)
-<./solutions/3/codes/circle2/pyfigs/circle2c.eps>
+ <./solutions/3/codes/circle2/pyfigs/circle2c.eps>
 Underfull \hbox (badness 2261) in paragraph at lines 66--68
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
 File: ./solutions/3/codes/circle2/pyfigs/circle2d.eps Graphic file (type eps)
-<./solutions/3/codes/circle2/pyfigs/circle2d.eps> [68]
+<./solutions/3/codes/circle2/pyfigs/circle2d.eps>
 Underfull \hbox (badness 2261) in paragraph at lines 90--92
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
 File: ./solutions/3/codes/circle2/pyfigs/circle2e.eps Graphic file (type eps)
-<./solutions/3/codes/circle2/pyfigs/circle2e.eps>)
+<./solutions/3/codes/circle2/pyfigs/circle2e.eps>) [69]
 Underfull \vbox (badness 5189) has occurred while \output is active []
 
- [69])
+)
 (./conics/conics_exam.tex
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 10.
@@ -3244,6 +3249,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 15.
 (./solutions/3/chapters/conic1/solution.tex
 Underfull \vbox (badness 4181) has occurred while \output is active []
 
+ [70]
 File: ./solutions/3/codes/conic1/pyfigs/conic1a.eps Graphic file (type eps)
 
 <./solutions/3/codes/conic1/pyfigs/conic1a.eps>
@@ -3267,20 +3273,19 @@ Underfull \hbox (badness 2469) in paragraph at lines 20--21
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 32.
 
-[70]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 37.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 37.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 7796) in paragraph at lines 116--121
 []\OT1/txr/m/n/12 Find the area en-closed by the el-lipse
  []
@@ -3301,14 +3306,13 @@ Overfull \hbox (9.60822pt too wide) detected at line 135
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [72])
 (./conics/conics_exer.tex (./solutions/1/chapters/conics/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
 File: ./solutions/1/figs/conics/parabola1.eps Graphic file (type eps)
 
-<./solutions/1/figs/conics/parabola1.eps>
+<./solutions/1/figs/conics/parabola1.eps> [73]
 File: ./solutions/1/figs/conics/parabola2.eps Graphic file (type eps)
 
 <./solutions/1/figs/conics/parabola2.eps>
@@ -3319,9 +3323,8 @@ Overfull \hbox (23.31291pt too wide) detected at line 89
 []
  []
 
-[73]
 File: ./solutions/1/figs/conics/parabola4.eps Graphic file (type eps)
- <./solutions/1/figs/conics/parabola4.eps>)
+<./solutions/1/figs/conics/parabola4.eps>)
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 25.
 
@@ -3334,15 +3337,16 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 28.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 28.
 
-(./solutions/3/chapters/conic2/solution.tex
+(./solutions/3/chapters/conic2/solution.tex [74]
 File: ./solutions/3/codes/conic2/pyfigs/conic2a.eps Graphic file (type eps)
 
-<./solutions/3/codes/conic2/pyfigs/conic2a.eps> [74]
+<./solutions/3/codes/conic2/pyfigs/conic2a.eps>
 File: ./solutions/3/codes/conic2/pyfigs/conic2b.eps Graphic file (type eps)
 
 <./solutions/3/codes/conic2/pyfigs/conic2b.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [75]
 File: ./solutions/3/codes/conic2/pyfigs/conic2c.eps Graphic file (type eps)
 
 <./solutions/3/codes/conic2/pyfigs/conic2c.eps>
@@ -3358,7 +3362,6 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 34.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 36.
 
-[75]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 37.
 
@@ -3389,37 +3392,39 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 56.
 
 Underfull \vbox (badness 6412) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 218.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 360.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [79]
+ [79])
+[80
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
-
-(./gvv_ncert_linalg.aux)
+ (./gvv_ncert_linalg.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 345.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
 Package rerunfilecheck Info: File `gvv_ncert_linalg.out' has not changed.
@@ -3427,12 +3432,12 @@ Package rerunfilecheck Info: File `gvv_ncert_linalg.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 40461 strings out of 480609
- 935597 string characters out of 5892832
- 1366693 words of memory out of 5000000
- 55341 multiletter control sequences out of 15000+600000
+ 40468 strings out of 480609
+ 935827 string characters out of 5892832
+ 1366849 words of memory out of 5000000
+ 55345 multiletter control sequences out of 15000+600000
  606865 words of font info for 205 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,23n,91p,508b,1880s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_linalg.dvi (79 pages, 1000412 bytes).
+Output written on gvv_ncert_linalg.dvi (80 pages, 1007872 bytes).
