@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  21 JUN 2020 09:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  21 JUN 2020 13:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2370,26 +2370,32 @@ File: ./solutions/4/figures/line/quads/quad1.eps Graphic file (type eps)
 <./solutions/4/figures/line/quads/quad1.eps>
 File: ./solutions/4/figures/line/quads/quad2.eps Graphic file (type eps)
 
-<./solutions/4/figures/line/quads/quad2.eps>) [40]
+<./solutions/4/figures/line/quads/quad2.eps> [40]
+File: ./solutions/4/figures/line/quads/quad3.eps Graphic file (type eps)
+
+<./solutions/4/figures/line/quads/quad3.eps>)
 (./solutions/6/chapters/line/point_vector/solution.tex)
+(./solutions/7/chapters/line/point_vec/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-(./solutions/7/chapters/line/point_vec/solution.tex
+ [41]
 File: ./solutions/7/figs/line/point_vec/point_vec.eps Graphic file (type eps)
 
-<./solutions/7/figs/line/point_vec/point_vec.eps>) [41]
+<./solutions/7/figs/line/point_vec/point_vec.eps>)
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+ [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 5245) has occurred while \output is active []
-
- [42])
+)
 (./line/section.tex (./solutions/1/chapters/line/point_line/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
 File: ./solutions/1/figs/line/section.eps Graphic file (type eps)
 
 <./solutions/1/figs/line/section.eps>)
-(./solutions/2/chapters/line_ex/pts_on_a_line/solution.tex [43]
+(./solutions/2/chapters/line_ex/pts_on_a_line/solution.tex
 File: ./solutions/2/figs/line_ex/pts_on_a_line/trisection.eps Graphic file (typ
 e eps)
 
@@ -2399,28 +2405,28 @@ File: ./solutions/3/codes/line/section/pyfigs/section.eps Graphic file (type ep
 s)
 
 <./solutions/3/codes/line/section/pyfigs/section.eps>)
-(./solutions/4/chapters/line/point_on_line/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(./solutions/4/chapters/line/point_on_line/solution.tex [44]
 File: ./solutions/4/figures/line/point_on_line/point_on_line.eps Graphic file (
 type eps)
 
-<./solutions/4/figures/line/point_on_line/point_on_line.eps>) [44]
+<./solutions/4/figures/line/point_on_line/point_on_line.eps>)
 (./solutions/6/chapters/line/point_line/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./solutions/6/codes/line/point_line/int_sec.eps Graphic file (type eps)
 
 <./solutions/6/codes/line/point_line/int_sec.eps>)
 (./solutions/7/chapters/line/point_line/solution.tex
 File: ./solutions/7/figs/line/point_line/line.eps Graphic file (type eps)
 
-<./solutions/7/figs/line/point_line/line.eps>)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<./solutions/7/figs/line/point_line/line.eps>) [45]
+Underfull \vbox (badness 7099) has occurred while \output is active []
 
- [45])
+)
 (./line/line_equation.tex (./solutions/1/chapters/line/line_plane/solution.tex
 File: ./solutions/1/figs/line/line1.eps Graphic file (type eps)
 
-<./solutions/1/figs/line/line1.eps>
+<./solutions/1/figs/line/line1.eps> [46]
 File: ./solutions/1/figs/line/line2.eps Graphic file (type eps)
  <./solutions/1/figs/line/line2.eps>
 File: ./solutions/1/figs/line/line3.eps Graphic file (type eps)
@@ -2428,25 +2434,21 @@ File: ./solutions/1/figs/line/line3.eps Graphic file (type eps)
 <./solutions/1/figs/line/line3.eps>
 File: ./solutions/1/figs/line/line4.eps Graphic file (type eps)
  <./solutions/1/figs/line/line4.eps>)
-[46]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 19.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
-(./solutions/2/chapters/line_ex/lines_and_planes/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47]
+(./solutions/2/chapters/line_ex/lines_and_planes/solution.tex [47]
 File: ./solutions/2/figs/line_ex/lines_and_planes/final_eq.eps Graphic file (ty
 pe eps)
 
-<./solutions/2/figs/line_ex/lines_and_planes/final_eq.eps>)
-(./solutions/3/chapters/line/pointonline/solution.tex
+<./solutions/2/figs/line_ex/lines_and_planes/final_eq.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/3/chapters/line/pointonline/solution.tex [48]
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
@@ -2454,11 +2456,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
 File: ./solutions/3/codes/line/pointonline2/pyfigs/pointonline.eps Graphic file
  (type eps)
 
-<./solutions/3/codes/line/pointonline2/pyfigs/pointonline.eps>)
+<./solutions/3/codes/line/pointonline2/pyfigs/pointonline.eps>) [49]
 (./solutions/4/chapters/line/lines_and_plane/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
@@ -2482,7 +2483,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+
 Underfull \hbox (badness 10000) in paragraph at lines 59--63
 
  []
@@ -2495,6 +2496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--76
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [50]
 File: ./solutions/4/figures/line/lines_and_planes/lines_and_planes.eps Graphic 
 file (type eps)
 
@@ -2502,20 +2504,17 @@ file (type eps)
 (./solutions/6/chapters/line/lines_planes/solution.tex
 Underfull \vbox (badness 1009) has occurred while \output is active []
 
- [50]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [51]
+ [51])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [52]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 264.
 
-[52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
+[53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2534,6 +2533,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
 Underfull \hbox (badness 2096) in paragraph at lines 830--834
 []\OT1/txr/m/n/12 Find the in-ter-cepts cut off by the plane
  []
@@ -2541,7 +2543,7 @@ Underfull \hbox (badness 2096) in paragraph at lines 830--834
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+
 (./line/tables/3d_ncert.tex
 \gnumericTableWidth=\skip85
 \gnumericTableWidthComplete=\skip86
@@ -2552,10 +2554,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58]
+ [59]
 Underfull \hbox (badness 1838) in paragraph at lines 1074--1076
 []\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
  []
@@ -2568,7 +2570,7 @@ Underfull \hbox (badness 1838) in paragraph at lines 1076--1077
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
+
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 1094.
 
@@ -2578,22 +2580,22 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 1094.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [60]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 1248.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [61])
 (./line/line_motion.tex (./solutions/1/chapters/line/Motion_plane/solution.tex
 File: ./solutions/1/figs/line/speed.eps Graphic file (type eps)
 
 <./solutions/1/figs/line/speed.eps>)
-(./solutions/2/chapters/line_ex/motion_in_a_plane/solution.tex [61]
+(./solutions/2/chapters/line_ex/motion_in_a_plane/solution.tex
 File: ./solutions/2/figs/line_ex/motion_in_a_plane/motion_plane.eps Graphic fil
 e (type eps)
 
@@ -2601,7 +2603,7 @@ e (type eps)
 (./solutions/3/chapters/line/rain/solution.tex
 Underfull \vbox (badness 1895) has occurred while \output is active []
 
-
+ [62]
 Underfull \hbox (badness 1412) in paragraph at lines 18--21
 \OT1/txr/m/n/12 The fol-low-ing python code gen-er-ates Fig.
  []
@@ -2611,29 +2613,29 @@ File: ./solutions/3/codes/line/rain/pyfigs/rain.eps Graphic file (type eps)
 (./solutions/4/chapters/line/motion/solution.tex
 Underfull \vbox (badness 1418) has occurred while \output is active []
 
- [62]
 File: ./solutions/4/figures/line/motion/motion.eps Graphic file (type eps)
 
-<./solutions/4/figures/line/motion/motion.eps>)
+<./solutions/4/figures/line/motion/motion.eps>) [63]
 (./solutions/6/chapters/line/motion_plane/solution.tex
 File: ./solutions/6/codes/line/motion_plane/man_river.eps Graphic file (type ep
 s)
 
-<./solutions/6/codes/line/motion_plane/man_river.eps> [63])
+<./solutions/6/codes/line/motion_plane/man_river.eps>)
 (./solutions/7/chapters/line/motion/solution.tex
 File: ./solutions/7/figs/line/motion/motion.eps Graphic file (type eps)
 
-<./solutions/7/figs/line/motion/motion.eps>)
+<./solutions/7/figs/line/motion/motion.eps>) [64]
 File: ./line/figs/11-1/6/6.10.eps Graphic file (type eps)
- <./line/figs/11-1/6/6.10.eps>)
-(./line/matrix_exer.tex [64] (./solutions/1/chapters/line/matrix/solution.tex)
+
+<./line/figs/11-1/6/6.10.eps>) (./line/matrix_exer.tex
+(./solutions/1/chapters/line/matrix/solution.tex)
 (./solutions/2/chapters/line_ex/matrix/solution.tex)
 (./solutions/3/chapters/line/matrix/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--2
 
  []
 
-) (./solutions/4/chapters/line/matrix/solution.tex)
+[65]) (./solutions/4/chapters/line/matrix/solution.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
@@ -2646,7 +2648,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--4
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65])
+)
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
@@ -2684,7 +2686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [66]
 Underfull \hbox (badness 10000) in paragraph at lines 46--50
 \OT1/txr/m/n/12 (i)$[]$+$[]$
  []
@@ -2753,7 +2755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
@@ -2827,7 +2829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--81
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [67]
 Underfull \hbox (badness 1902) in paragraph at lines 81--87
 []\OT1/txr/m/n/12 The book-shop of a par-tic-u-lar school has
  []
@@ -2880,7 +2882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--103
 []\OT1/txr/m/n/12 For the ma-tri-ces A and B,verify that
  []
@@ -2950,7 +2952,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--120
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [68]
 Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
@@ -3038,7 +3040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
@@ -3111,7 +3113,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [69]
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
@@ -3165,10 +3167,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--182
 ) (./line/determinants.tex (./solutions/1/chapters/line/det/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69])
+)
 (./solutions/2/chapters/line_ex/determinants/solution.tex)
 (./solutions/3/chapters/line/det/solution.tex)
-(./solutions/4/chapters/line/determinent/solution.tex)
+(./solutions/4/chapters/line/determinent/solution.tex [70])
 (./solutions/6/chapters/line/determinants/solution.tex
 Overfull \hbox (4.10022pt too wide) detected at line 24
 []
@@ -3177,10 +3179,10 @@ Overfull \hbox (4.10022pt too wide) detected at line 24
 ) (./solutions/7/chapters/line/det/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70])
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [71]
 Underfull \hbox (badness 10000) in paragraph at lines 110--114
 
  []
@@ -3188,7 +3190,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--114
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+
 Underfull \hbox (badness 6300) in paragraph at lines 133--135
 []\OT1/txr/m/n/12 Using Co-fac-tors of el-e-ments of sec-ond
  []
@@ -3196,7 +3198,7 @@ Underfull \hbox (badness 6300) in paragraph at lines 133--135
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [72]
 Underfull \hbox (badness 10000) in paragraph at lines 229--237
 
  []
@@ -3209,7 +3211,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
+
 Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
@@ -3247,7 +3249,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--275
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [73]
 Underfull \hbox (badness 10000) in paragraph at lines 286--290
 
  []
@@ -3300,7 +3302,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--327
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
+
 Overfull \hbox (4.7997pt too wide) in paragraph at lines 327--330
 []$[]$\OT1/txr/m/n/12 =3(a+b+c)(ab+bc+ca) 
  []
@@ -3329,13 +3331,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [74]
 File: ./solutions/1/figs/line/line_eq.eps Graphic file (type eps)
 
 <./solutions/1/figs/line/line_eq.eps>)
 (./solutions/2/chapters/line_ex/lin_ineq/solution.tex
 Underfull \vbox (badness 5217) has occurred while \output is active []
 
- [74]
 File: ./solutions/2/figs/line_ex/lin_ineq/number_line.eps Graphic file (type ep
 s)
 
@@ -3344,13 +3346,13 @@ s)
 File: ./solutions/3/codes/line/ineq/pyfigs/ineq.eps Graphic file (type eps)
 
 <./solutions/3/codes/line/ineq/pyfigs/ineq.eps>)
-(./solutions/4/chapters/line/linear_inequalities/solution.tex)
+(./solutions/4/chapters/line/linear_inequalities/solution.tex [75])
 (./solutions/6/chapters/line/linear_inequalities/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
-[75]
+
 Underfull \hbox (badness 1845) in paragraph at lines 23--24
 []\OT1/txr/m/n/12 The fol-low-ing python code is the di-a-
  []
@@ -3361,17 +3363,17 @@ hic file (type eps)
 (./solutions/7/chapters/line/lin_ineq/solution.tex
 File: ./solutions/7/figs/line/lin_ineq/lin_ineq.eps Graphic file (type eps)
 
-<./solutions/7/figs/line/lin_ineq/lin_ineq.eps>)
+<./solutions/7/figs/line/lin_ineq/lin_ineq.eps>) [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76])
+)
 (./line/line_misc.tex (./solutions/1/chapters/line/misc/solution.tex
 Underfull \vbox (badness 3861) has occurred while \output is active []
 
-)
+ [77])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
+
 (./solutions/2/chapters/line_ex/misc/solution.tex)
 (./solutions/3/chapters/median/chapter1.tex
 (./solutions/3/figs/chapter1/ch1_two_median.tex)
@@ -3392,43 +3394,43 @@ Underfull \vbox (badness 2057) has occurred while \output is active []
  [79]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [80]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
+ [81]
 Underfull \vbox (badness 1460) has occurred while \output is active []
 
- [81])
+)
 (./circle/circle_geo_exam.tex (./solutions/1/chapters/circle/solution2.tex
 File: ./solutions/1/figs/circle/circle1.eps Graphic file (type eps)
 
 <./solutions/1/figs/circle/circle1.eps>)
-(./solutions/2/chapters/circle_examp/solution.tex
+(./solutions/2/chapters/circle_examp/solution.tex [82]
 File: ./solutions/2/figs/circle_examp/circle.eps Graphic file (type eps)
 
-<./solutions/2/figs/circle_examp/circle.eps>) [82]
+<./solutions/2/figs/circle_examp/circle.eps>)
 (./solutions/3/chapters/circle1/solution.tex
 File: ./solutions/3/codes/circle1/pyfigs/circle1.eps Graphic file (type eps)
 
-<./solutions/3/codes/circle1/pyfigs/circle1.eps>)) (./circle/circle_geo.tex
-(./solutions/1/chapters/circle/solution.tex
+<./solutions/3/codes/circle1/pyfigs/circle1.eps>) [83])
+(./circle/circle_geo.tex (./solutions/1/chapters/circle/solution.tex
 (./solutions/1/tables/circle/inp.tex)
 File: ./solutions/1/figs/circle/circle.eps Graphic file (type eps)
  <./solutions/1/figs/circle/circle.eps>)
-(./solutions/2/chapters/circle_ex/solution.tex [83]
+(./solutions/2/chapters/circle_ex/solution.tex
 File: ./solutions/2/figs/circle_ex/circumcircle.eps Graphic file (type eps)
 
 <./solutions/2/figs/circle_ex/circumcircle.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [84])
 (./solutions/3/chapters/circle2/solution.tex
 Underfull \hbox (badness 2261) in paragraph at lines 16--18
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
 File: ./solutions/3/codes/circle2/pyfigs/circle2a.eps Graphic file (type eps)
-<./solutions/3/codes/circle2/pyfigs/circle2a.eps> [84]
+<./solutions/3/codes/circle2/pyfigs/circle2a.eps>
 Underfull \hbox (badness 2261) in paragraph at lines 32--34
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
@@ -3439,28 +3441,38 @@ Underfull \hbox (badness 2261) in paragraph at lines 49--51
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
+[85]
 File: ./solutions/3/codes/circle2/pyfigs/circle2c.eps Graphic file (type eps)
-<./solutions/3/codes/circle2/pyfigs/circle2c.eps>
+ <./solutions/3/codes/circle2/pyfigs/circle2c.eps>
 Underfull \hbox (badness 2261) in paragraph at lines 66--68
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
 File: ./solutions/3/codes/circle2/pyfigs/circle2d.eps Graphic file (type eps)
-<./solutions/3/codes/circle2/pyfigs/circle2d.eps> [85]
+<./solutions/3/codes/circle2/pyfigs/circle2d.eps>
 Underfull \hbox (badness 2261) in paragraph at lines 90--92
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
 File: ./solutions/3/codes/circle2/pyfigs/circle2e.eps Graphic file (type eps)
 <./solutions/3/codes/circle2/pyfigs/circle2e.eps>)
+(./solutions/4/chapters/circle/solution2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+File: ./solutions/4/figures/circle/circle2.eps Graphic file (type eps)
+
+<./solutions/4/figures/circle/circle2.eps>)
 (./solutions/6/chapters/circle/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./solutions/6/codes/circle/circle.eps Graphic file (type eps)
 
 <./solutions/6/codes/circle/circle.eps>)
 (./solutions/7/chapters/circle/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86]
+ [87]
 File: ./solutions/7/figs/circle/circle.eps Graphic file (type eps)
 
 <./solutions/7/figs/circle/circle.eps>)) (./conics/conics_exam.tex
@@ -3470,7 +3482,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 10.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 10.
 
-(./solutions/2/chapters/conics_example/solution.tex [87]
+(./solutions/2/chapters/conics_example/solution.tex [88]
 File: ./solutions/2/figs/conics_example/quadratic_equation.eps Graphic file (ty
 pe eps)
 
@@ -3488,7 +3500,7 @@ File: ./solutions/3/codes/conic1/pyfigs/conic1b.eps Graphic file (type eps)
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 22.
 
-[88]
+[89]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 23.
 
@@ -3520,7 +3532,7 @@ Underfull \hbox (badness 7796) in paragraph at lines 119--124
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [90]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 131.
 
@@ -3538,7 +3550,7 @@ Overfull \hbox (9.60822pt too wide) detected at line 138
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./conics/conics_exer.tex (./solutions/1/chapters/conics/solution.tex [90]
+(./conics/conics_exer.tex (./solutions/1/chapters/conics/solution.tex [91]
 File: ./solutions/1/figs/conics/parabola1.eps Graphic file (type eps)
 
 <./solutions/1/figs/conics/parabola1.eps>
@@ -3550,7 +3562,7 @@ File: ./solutions/1/figs/conics/parabola3.eps Graphic file (type eps)
 <./solutions/1/figs/conics/parabola3.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91]
+ [92]
 Overfull \hbox (23.31291pt too wide) detected at line 89
 []
  []
@@ -3575,7 +3587,7 @@ File: ./solutions/3/codes/conic2/pyfigs/conic2a.eps Graphic file (type eps)
 <./solutions/3/codes/conic2/pyfigs/conic2a.eps>
 Underfull \vbox (badness 5681) has occurred while \output is active []
 
- [92]
+ [93]
 File: ./solutions/3/codes/conic2/pyfigs/conic2b.eps Graphic file (type eps)
 
 <./solutions/3/codes/conic2/pyfigs/conic2b.eps>
@@ -3612,7 +3624,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 39.
 (./solutions/4/chapters/conics/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [94]
 File: ./solutions/4/figures/conics/perabola1.eps Graphic file (type eps)
 
 <./solutions/4/figures/conics/perabola1.eps>
@@ -3621,7 +3633,7 @@ File: ./solutions/4/figures/conics/perabola2.eps Graphic file (type eps)
 <./solutions/4/figures/conics/perabola2.eps>
 File: ./solutions/4/figures/conics/perabola3.eps Graphic file (type eps)
 
-<./solutions/4/figures/conics/perabola3.eps> [94]
+<./solutions/4/figures/conics/perabola3.eps> [95]
 File: ./solutions/4/figures/conics/perabola4.eps Graphic file (type eps)
 
 <./solutions/4/figures/conics/perabola4.eps>
@@ -3633,7 +3645,7 @@ File: ./solutions/4/figures/conics/perabola6.eps Graphic file (type eps)
 <./solutions/4/figures/conics/perabola6.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95])
+ [96])
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 54.
 
@@ -3652,7 +3664,7 @@ File: ./solutions/6/codes/conics/conics_1.eps Graphic file (type eps)
 <./solutions/6/codes/conics/conics_1.eps>
 File: ./solutions/6/codes/conics/conics_2.eps Graphic file (type eps)
 
-<./solutions/6/codes/conics/conics_2.eps> [96]
+<./solutions/6/codes/conics/conics_2.eps> [97]
 File: ./solutions/6/codes/conics/conics_3.eps Graphic file (type eps)
 
 <./solutions/6/codes/conics/conics_3.eps>
@@ -3662,7 +3674,7 @@ File: ./solutions/6/codes/conics/conics_4.eps Graphic file (type eps)
 File: ./solutions/6/codes/conics/conics_5.eps Graphic file (type eps)
 
 <./solutions/6/codes/conics/conics_5.eps>)
-(./solutions/7/chapters/conics/solution.tex [97]
+(./solutions/7/chapters/conics/solution.tex [98]
 File: ./solutions/7/figs/conics/parabola1.eps Graphic file (type eps)
 
 <./solutions/7/figs/conics/parabola1.eps>
@@ -3671,13 +3683,13 @@ File: ./solutions/7/figs/conics/parabola2.eps Graphic file (type eps)
 <./solutions/7/figs/conics/parabola2.eps>
 File: ./solutions/7/figs/conics/parabola3.eps Graphic file (type eps)
 
-<./solutions/7/figs/conics/parabola3.eps> [98]
+<./solutions/7/figs/conics/parabola3.eps> [99]
 File: ./solutions/7/figs/conics/parabola4.eps Graphic file (type eps)
 
 <./solutions/7/figs/conics/parabola4.eps>)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
+ [100]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3687,7 +3699,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 224.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100]
+ [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3697,10 +3709,10 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 366.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101]
+ [102]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [102]
+) [103]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
 
@@ -3712,12 +3724,12 @@ Package rerunfilecheck Info: File `gvv_ncert_linalg.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 40927 strings out of 480609
- 954556 string characters out of 5892832
- 1369457 words of memory out of 5000000
- 55597 multiletter control sequences out of 15000+600000
+ 40942 strings out of 480609
+ 955080 string characters out of 5892832
+ 1377554 words of memory out of 5000000
+ 55606 multiletter control sequences out of 15000+600000
  606865 words of font info for 205 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,23n,91p,508b,1992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_linalg.dvi (102 pages, 1238100 bytes).
+Output written on gvv_ncert_linalg.dvi (103 pages, 1245348 bytes).

@@ -1,4 +1,6 @@
 \begin{enumerate}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{\theenumi.\arabic{figure}}
 
 \item In Fig. 	\ref{fig:3.5.4_quadrilateral1}
 \begin{align}
@@ -52,4 +54,34 @@ Hence,  $\vec P,\vec Q$ and $\vec R$ lie on a straight line, so $PQRS$ is not  a
 \begin{lstlisting}
 /solutions/4/codes/line/quad/quad2.py
 \end{lstlisting}
+
+\item See Fig. 	\ref{fig:3.5.4_quadrilateral3}.
+
+\begin{align}
+\because \left(\vec{Q} - \vec{P}\right) &= \left(\vec{R} - \vec{S}\right) = \myvec{3\\1}
+\\
+\left(\vec{P} - \vec{S}\right) &= \left(\vec{Q} - \vec{R}\right) = \myvec{3\\3},
+\end{align}
+$PQRS$ is a parallelogram.  Also, 
+%
+\begin{align}
+\norm{\vec{Q} - \vec{P}} \ne \norm{\vec{P} - \vec{S}}
+\end{align}
+Hence, $PQRS$ is neither a rhombus nor a square.
+\begin{align}
+\because \left(\vec{Q} - \vec{P}\right)^T \left(\vec{Q} - \vec{R}\right) = \myvec{3 & 1}\myvec{3\\3} \ne 0,
+\end{align}
+$PQRS$ is not a rectangle. The following code generates Fig. 	\ref{fig:3.5.4_quadrilateral3}.
+	\begin{lstlisting}
+	solutions/4/codes/line/quad/quad3.py
+	\end{lstlisting}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/4/figures/line/quads/quad3.eps}
+	\caption{}
+	\label{fig:3.5.4_quadrilateral3}
+\end{figure}
+\renewcommand{\thefigure}{\theenumi}
+
 \end{enumerate}
