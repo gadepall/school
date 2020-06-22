@@ -1,19 +1,20 @@
-See Fig. \ref{fig:3.8.5_qtwelve}.	Rain velocity 
+See Fig. \ref{fig:3.8.5_qtwelve}.	
+The velocity of rain and velocity of woman are
 \begin{align}
-\vec{C} -\vec{A} = \myvec{0\\-35}
+\vec{v_r} &= \myvec{0\\-30}
+\\
+\vec{v_w} &= \myvec{-10\\0}
 \end{align}
-Woman speed
+The relative velocity of rain w.r.t woman is given as
 \begin{align}
-\vec{C} -\vec{B} = \myvec{-12\\0}
+\vec{v_{r_w}} &=\vec{v_r}- \vec{v_w}
+\\
+&=\myvec{10\\-30}
 \end{align}
-Relative velocity of rain with respect to the woman is
+So the woman must hold the umbrella along the direction of $-\vec{v_{r_w}}$
+Thus, the desired angle is 
 \begin{align}
- \myvec{0\\-35} - \myvec{-12\\0} = \myvec{12\\-35}
-\end{align}
-%
-Thus, the angle in which the umbrella should be held is
-\begin{align}
-180\degree - \tan ^{-1}\frac{12}{35}
+\theta={\tan}^{-1}\brak{\frac{10}{30}}
 \end{align}
 %
 The following python code plots  Fig. \ref{fig:3.8.5_qtwelve}.
