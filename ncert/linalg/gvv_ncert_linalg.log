@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  22 JUN 2020 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  23 JUN 2020 09:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3404,10 +3404,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4366) has occurred while \output is active []
 
  [81])
-(./solutions/5/chapters/lines/docq16.tex)
-(./solutions/6/chapters/line/miscellaneous/solution.tex
+(./solutions/4/chapters/line/misc/solution.tex)
+(./solutions/5/chapters/lines/docq16.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
+(./solutions/6/chapters/line/miscellaneous/solution.tex
 File: ./solutions/6/codes/line/miscellaneous/tri_equi.eps Graphic file (type ep
 s)
 
@@ -3418,24 +3420,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [83]
-[84]) (./circle/circle_geo_exam.tex
-(./solutions/1/chapters/circle/solution2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./circle/circle_geo_exam.tex (./solutions/1/chapters/circle/solution2.tex
 File: ./solutions/1/figs/circle/circle1.eps Graphic file (type eps)
 
 <./solutions/1/figs/circle/circle1.eps>)
-(./solutions/2/chapters/circle_examp/solution.tex
+(./solutions/2/chapters/circle_examp/solution.tex [85]
 File: ./solutions/2/figs/circle_examp/circle.eps Graphic file (type eps)
 
-<./solutions/2/figs/circle_examp/circle.eps>) [85]
+<./solutions/2/figs/circle_examp/circle.eps>)
 (./solutions/3/chapters/circle1/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./solutions/3/codes/circle1/pyfigs/circle1.eps Graphic file (type eps)
 
 <./solutions/3/codes/circle1/pyfigs/circle1.eps>)
-(./solutions/6/chapters/circle/example/solution.tex
+(./solutions/6/chapters/circle/example/solution.tex [86]
 File: ./solutions/6/codes/circle/example/circle.eps Graphic file (type eps)
 
 <./solutions/6/codes/circle/example/circle.eps>)) (./circle/circle_geo.tex
-(./solutions/1/chapters/circle/solution.tex [86]
+(./solutions/1/chapters/circle/solution.tex
 (./solutions/1/tables/circle/inp.tex)
 File: ./solutions/1/figs/circle/circle.eps Graphic file (type eps)
  <./solutions/1/figs/circle/circle.eps>)
@@ -3445,14 +3454,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [87]
 File: ./solutions/2/figs/circle_ex/circumcircle.eps Graphic file (type eps)
 
-<./solutions/2/figs/circle_ex/circumcircle.eps>)
+<./solutions/2/figs/circle_ex/circumcircle.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 (./solutions/3/chapters/circle2/solution.tex
 Underfull \hbox (badness 2261) in paragraph at lines 16--18
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
 File: ./solutions/3/codes/circle2/pyfigs/circle2a.eps Graphic file (type eps)
-<./solutions/3/codes/circle2/pyfigs/circle2a.eps>
+<./solutions/3/codes/circle2/pyfigs/circle2a.eps> [88]
 Underfull \hbox (badness 2261) in paragraph at lines 32--34
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
@@ -3463,9 +3475,8 @@ Underfull \hbox (badness 2261) in paragraph at lines 49--51
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
 
-[88]
 File: ./solutions/3/codes/circle2/pyfigs/circle2c.eps Graphic file (type eps)
- <./solutions/3/codes/circle2/pyfigs/circle2c.eps>
+<./solutions/3/codes/circle2/pyfigs/circle2c.eps>
 Underfull \hbox (badness 2261) in paragraph at lines 66--68
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
@@ -3478,10 +3489,7 @@ Underfull \hbox (badness 2261) in paragraph at lines 90--92
 
 File: ./solutions/3/codes/circle2/pyfigs/circle2e.eps Graphic file (type eps)
 <./solutions/3/codes/circle2/pyfigs/circle2e.eps>)
-(./solutions/4/chapters/circle/solution2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89]
+(./solutions/4/chapters/circle/solution2.tex [89]
 File: ./solutions/4/figures/circle/circle2.eps Graphic file (type eps)
 
 <./solutions/4/figures/circle/circle2.eps>)
@@ -3489,15 +3497,13 @@ File: ./solutions/4/figures/circle/circle2.eps Graphic file (type eps)
 File: ./solutions/5/figs/circle/q18abc.eps Graphic file (type eps)
 
 <./solutions/5/figs/circle/q18abc.eps>
-Underfull \vbox (badness 2970) has occurred while \output is active []
+Underfull \vbox (badness 1454) has occurred while \output is active []
 
  [90]
 File: ./solutions/5/figs/circle/q18d.eps Graphic file (type eps)
 
 <./solutions/5/figs/circle/q18d.eps>)
 (./solutions/6/chapters/circle/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: ./solutions/6/codes/circle/exercise/circle.eps Graphic file (type eps)
 
 <./solutions/6/codes/circle/exercise/circle.eps>)
@@ -3837,12 +3843,12 @@ Package rerunfilecheck Info: File `gvv_ncert_linalg.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 41157 strings out of 480609
- 962189 string characters out of 5892832
+ 41161 strings out of 480609
+ 962357 string characters out of 5892832
  1379913 words of memory out of 5000000
- 55726 multiletter control sequences out of 15000+600000
+ 55727 multiletter control sequences out of 15000+600000
  606865 words of font info for 205 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,23n,91p,508b,1583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_linalg.dvi (112 pages, 1325608 bytes).
+Output written on gvv_ncert_linalg.dvi (112 pages, 1327112 bytes).
