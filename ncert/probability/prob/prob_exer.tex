@@ -1,48 +1,57 @@
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
-	\item In a cricket match, a batswoman hits a boundary 6 times out of 30 balls she plays. Find the probability that she did not hit a boundary.\\
-    \item 1500 families with 2 children were selected randomly, and the following data were recorded:\\
-
+	\item In a cricket match, a batswoman hits a boundary 6 times out of 30 balls she plays. Find the probability that she did not hit a boundary.
+\\
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem1/solution.tex}
+    \item 1500 families with 2 children were selected randomly, and the following data in Table \ref{table:1.2.2} were recorded.
+Compute the probability of a family, chosen at random, having
+\begin{enumerate}
+\item 2 girls
+\item  1 girl
+\item  No girl
+\end{enumerate}
+Also check whether the sum of these probabilities is 1.
+\begin{table}[!ht]
+\centering
 \begin{tabular}{ |c|c|c|c| } 
  \hline
  \textbf{No.of girls in a family} &2 &1 &0\\ 
  \hline
  \textbf{No. of families}  &475 &814 &211\\ 
- \hline
-\end{tabular}\\
+ \hline 
+\end{tabular}
+\caption{}
+\label{table:1.2.2}
+\end{table}
+\\
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem2/solution.tex}
 
-Compute the probability of a family, chosen at random, having\\
-(i)2 girls\\
-(ii) 1 girl\\
-(iii) No girl\\
-Also check whether the sum of these probabilities is 1.\\
-\item In a particular section of Class IX, 40 students were asked about the months of their birth and the following graph was prepared for the data so obtained:\\
-\begin{tikzpicture}
-\begin{axis}[
-ybar,
-ymin=0,
-width=8cm,
-height=6cm,
-ymax=7,
-bar width=5pt,
-ylabel={No. of Students},
-xlabel={Months of birth},
-nodes near coords,
-symbolic x coords={Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sept,Oct,Nov,Dec},
-xtick = data,
-x tick label style={rotate=45,anchor=east},
-enlarge y limits={value=0.1,upper},
-legend pos=north east,
-]
-\addplot[fill=black] coordinates {(Jan,3) (Feb,4)(Mar,2) (Apr,2)(May,5)(Jun,1)(Jul,2)(Aug,6)(Sept,3)(Oct,4)(Nov,4)(Dec,4)};
-\end{axis}
-\end{tikzpicture}
+\item In a particular section of Class IX, 40 students were asked about the months of their birth and the following graph in Fig. \ref{fig:1.2.3}
+was prepared for the data so obtained
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./prob/figs/1.2.3.eps}
+\caption{}
+\label{fig:1.2.3}
+\end{figure}
+%\begin{figure}[!ht]
+%\centering
+%\resizebox{\columnwidth}{!}{\input{./prob/figs/1.2.3.tex}}
+%\caption{}
+%\label{fig:1.2.3}
+%\end{figure}
     
-    Find the probability that a student of the class was born in August.\\
-\item Three coins are tossed simultaneously 200 times with the following frequencies of different outcomes:\\
+    Find the probability that a student of the class was born in August.
 
-\resizebox{\columnwidth}{10pt}{%
+\item Three coins are tossed simultaneously 200 times with the following frequencies of different outcomeslisted in Table \ref{table:1.2.4}.
+If the three coins are simultaneously tossed again, compute the probability of 2 heads coming up.
+%
+\begin{table}[!ht]
+%\resizebox{\columnwidth}{20pt}{%
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{ |c|c|c|c|c| } 
  \hline
  \textbf{Outcome} &3 heads &2 heads &1 head &No head\\ 
@@ -50,10 +59,20 @@ legend pos=north east,
  \textbf{Frequency}  &23 &72 &77 &28\\ 
  \hline
 \end{tabular}%\\
-}\\
-
-If the three coins are simultaneously tossed again, compute the probability of 2 heads coming up.\\
-\item Refer the table given below.\\
+}
+\caption{}
+\label{table:1.2.4}
+\end{table}
+\\
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem3/solution.tex}
+\item Refer to Table \ref{table:1.2.5}.
+\begin{enumerate}
+\item  Find the probability that a student obtained less than 20$\%$ in the mathematics test.
+\item  Find the probability that a student obtained marks 60 or above.
+\end{enumerate}
+\begin{table}[!ht]
+\centering
 \begin{tabular}{ |c|c| } 
  \hline
  \textbf{Marks} &\textbf{Number of students}\\
@@ -68,28 +87,46 @@ If the three coins are simultaneously tossed again, compute the probability of 2
   \hline
  \textbf{Total}  &90\\ 
  \hline
-\end{tabular}\\
-
-(i) Find the probability that a student obtained less than 20$\%$ in the mathematics test.\\
-(ii) Find the probability that a student obtained marks 60 or above.\\
-
-
-
-
-\item To know the opinion of the students about the subject statistics, a survey of 200 students was conducted. The data is recorded in the following table.\\
+\end{tabular}
+\caption{}
+\label{table:1.2.5}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem4/solution.tex}
+%
+\item To know the opinion of the students about the subject statistics, a survey of 200 students was conducted. The data is recorded in Table \ref{table:1.2.6}
+Find the probability that a student chosen at random
+\begin{enumerate}
+\item likes statistics,
+\item  does not like it.
+\end{enumerate}
+\begin{table}[!ht]
+\centering
 \begin{tabular}{ |c|c| } 
  \hline
  \textbf{Opinion} &\textbf{Number of students}\\
  \hline
  like  &135\\ 
+ \hline
  dislike  &65\\ 
  \hline
-\end{tabular}\\
-Find the probability that a student chosen at random\\
-(i)likes statistics,\\
-(ii) does not like it.\\
-\item Refer the table below\\
+\end{tabular}
+\caption{}
+\label{table:1.2.6}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem5/solution.tex}
 
+\item The distance (in kms) of 40 engineers from their residence to their place of work were found as follows in Table \ref{table:1.2.7}.
+What is the empirical probability that an engineer lives
+\begin{enumerate}
+\item less than 7 km from her place of work?
+\item more than or equal to 7 km from her place of work? 
+\item within $\frac{1}{2}$km from her place of work?
+\end{enumerate}
+
+\begin{table}[!ht]
+\centering
 \begin{tabular}{ cccccccccc} 
 
  5 &3 &10 &20 &25 &11 &13 &7 &12 &31\\
@@ -97,15 +134,23 @@ Find the probability that a student chosen at random\\
  7 &9 &7 &8 &3 &5 &12 &15 &18 &3 \\
  12 &14 &2 &9 &6 &15 &15 &7 &6 &12\\ 
  \end{tabular}\\
+\caption{}
+\label{table:1.2.7}
+\end{table}
 
-What is the empirical probability that an engineer lives:\\
-(i) less than 7 km from her place of work?\\
-(ii)more than or equal to 7 km from her place of work?\\
-(iii) within $\frac{1}{2}$km from her place of work?\\
 
-\item An organisation selected 2400 families at random and surveyed them to determine a relationship between income level and the number of vehicles in a family. The information gathered is listed in the table:\\
-\ref{multicolumn_table}
+\item An organisation selected 2400 families at random and surveyed them to determine a relationship between income level and the number of vehicles in a family. The information gathered is listed in the Table \ref{table:1.2.8}
+Suppose a family is chosen. Find the probability that the family chosen is
+\begin{eumerate}
+\item  earning \rupee 10000 – \rupee 13000 per month and owning exactly 2 vehicles.\\
+\item (ii) earning \rupee 16000 or more per month and owning exactly 1 vehicle.\\
+\item (iii) earning less than \rupee 7000 per month and does not own any vehicle.\\
+\item (iv) earning \rupee 13000 – \rupee 16000 per month and owning more than 2 vehicles.\\
+\item (v) owning not more than 1 vehicle.\\
+\end{enumerate}
+
 \begin{table}
+\centering
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 \textbf{Monthly income} &\multicolumn{4}{c|}{\textbf{vehicles per family }}\\
@@ -123,13 +168,11 @@ Less than 7000 &10 &160 &25 &0\\
 16000 or more  &1 &579 &82 &88 \\
 \hline
 \end{tabular}
-\end{table}\\
-Suppose a family is chosen.Find the probability that the family chosen is\\
-(i) earning \rupee 10000 – \rupee 13000 per month and owning exactly 2 vehicles.\\
-(ii) earning \rupee 16000 or more per month and owning exactly 1 vehicle.\\
-(iii) earning less than \rupee 7000 per month and does not own any vehicle.\\
-(iv) earning \rupee 13000 – \rupee 16000 per month and owning more than 2 vehicles.\\
-(v) owning not more than 1 vehicle.\\
+\caption{}
+\label{table:1.2.8}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem6/solution.tex}
 
 \item Eleven bags of wheat flour, each marked 5 kg, actually contained the following weights of flour (in kg):\\
 4.97 5.05 5.08 5.03 5.00 5.06 5.08 4.98 5.04 5.07 5.00\\
