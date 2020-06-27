@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  27 JUN 2020 09:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  27 JUN 2020 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3144,84 +3144,81 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1
 txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-))
-Underfull \hbox (badness 10000) in paragraph at lines 746--756
-[]\OT1/txr/m/n/12 Refer to Ex-am-ple 13.(i)Complete
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 746--756
-\OT1/txr/m/n/12 the fol-low-ing ta-ble:
- []
-
-
-Overfull \hbox (129.94438pt too wide) in paragraph at lines 746--756
-[] 
- []
-
-(./solutions/10-1/prob/exer4/solution.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--763
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 763--764
-
- []
-
-(./solutions/10-1/prob/exer5/solution.tex [18])
-Underfull \hbox (badness 10000) in paragraph at lines 770--778
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 770--778
-
- []
-
-File: ./prob/figs/rows.eps Graphic file (type eps)
-<./prob/figs/rows.eps>
-Underfull \hbox (badness 2229) in paragraph at lines 784--789
-[]\OT1/txr/m/n/12 A die is num-bered in such a way that
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 784--789
-\OT1/txr/m/n/12 6. It is thrown two times and the to-tal
- []
-
-
-Underfull \hbox (badness 3000) in paragraph at lines 784--789
-\OT1/txr/m/n/12 score in two throws is noted. Com-plete
- []
-
-
-Underfull \hbox (badness 5563) in paragraph at lines 784--789
-\OT1/txr/m/n/12 the fol-low-ing ta-ble which gives a few
- []
-
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 784--789
-[] 
- []
-
-) (./stats/stats_exam.tex [19]
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
-
- []
-
-(./stats/tables/2.1.7.tex
+)) (./solutions/10-1/prob/codes/tables/input.tex
 \gnumericTableWidth=\skip81
 \gnumericTableWidthComplete=\skip82
 \gnumericMultiRowLength=\skip83
 \gnumericColA=\skip84
 \gnumericColB=\skip85
-) (./stats/tables/2.1.9.tex)) (./stats/statexam_pr.tex
+)
+(./solutions/10-1/prob/exer3/solution.tex
+
+LaTeX Warning: Reference `table:1.2.133.2' on page 18 undefined on input line 2
+.
+
+
+LaTeX Warning: Reference `table:table1' on page 18 undefined on input line 8.
+
+(./solutions/10-1/prob/codes/tables/output.tex))
+(./solutions/10-1/prob/exer4/solution.tex [18])
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
+ []
+
+(./solutions/10-1/prob/exer5/solution.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 789--797
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 789--797
+
+ []
+
+[19]
+File: ./prob/figs/rows.eps Graphic file (type eps)
+ <./prob/figs/rows.eps>
+Underfull \hbox (badness 2229) in paragraph at lines 803--808
+[]\OT1/txr/m/n/12 A die is num-bered in such a way that
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 803--808
+\OT1/txr/m/n/12 6. It is thrown two times and the to-tal
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 803--808
+\OT1/txr/m/n/12 score in two throws is noted. Com-plete
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 803--808
+\OT1/txr/m/n/12 the fol-low-ing ta-ble which gives a few
+ []
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 803--808
+[] 
+ []
+
+) (./stats/stats_exam.tex
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+(./stats/tables/2.1.7.tex) [20] (./stats/tables/2.1.9.tex))
+(./stats/statexam_pr.tex
 Underfull \hbox (badness 1527) in paragraph at lines 4--5
 []\OT1/txr/m/n/12 Consider the marks ob-tained (out of 100
  []
@@ -3247,7 +3244,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
  []
 
 Missing character: There is no , in font nullfont!
-[20]
+
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
@@ -3257,7 +3254,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
@@ -3288,6 +3285,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--142
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
@@ -3298,9 +3298,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--160
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
@@ -3336,6 +3333,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--177
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
@@ -3345,11 +3345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./stats/stats_exer.tex
+) (./stats/stats_exer.tex
 Underfull \hbox (badness 10000) in paragraph at lines 32--41
 []\OT1/txr/m/n/12 The fol-low-ing dis-tri-bu-tion shows the
  []
@@ -3424,7 +3420,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--71
 
  []
 
-[22]
+
 Underfull \hbox (badness 2556) in paragraph at lines 72--81
 []\OT1/txr/m/n/12 To find out the con-cen-tra-tion of $\OML/txmi/m/it/12 so[]$ 
 \OT1/txr/m/n/12 in
@@ -3531,6 +3527,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--131
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
 Underfull \hbox (badness 5563) in paragraph at lines 131--141
 \OT1/txr/m/n/12 teacher-student ra-tio in higher sec-ondary
  []
@@ -3559,9 +3558,6 @@ Underfull \hbox (badness 2409) in paragraph at lines 141--151
 Overfull \hbox (419.88432pt too wide) in paragraph at lines 141--151
 [] 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (179.00826pt too wide) in paragraph at lines 151--162
@@ -3654,6 +3650,9 @@ Underfull \hbox (badness 4467) in paragraph at lines 190--203
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1895) in paragraph at lines 203--212
 []\OT1/txr/m/n/12 The fol-low-ing ta-ble gives the dis-tri-bu-tion
  []
@@ -3699,9 +3698,6 @@ Overfull \hbox (100.22023pt too wide) in paragraph at lines 212--224
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
 Underfull \hbox (badness 10000) in paragraph at lines 224--234
 []\OT1/txr/m/n/12 The dis-tri-bu-tion be-low gives the
  []
@@ -3767,6 +3763,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
@@ -3795,9 +3794,6 @@ Overfull \hbox (16.40009pt too wide) in paragraph at lines 8--17
 Underfull \hbox (badness 10000) in paragraph at lines 8--17
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (24.00426pt too wide) in paragraph at lines 17--28
@@ -3840,6 +3836,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--51
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 51--58
 []\OT1/txr/m/n/12 Three coins were tossed 30 times
  []
@@ -3855,9 +3854,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--58
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
 Underfull \hbox (badness 10000) in paragraph at lines 58--63
 []\OT1/txr/m/n/12 The value of $\OML/txmi/m/it/12 ^^Y$ \OT1/txr/m/n/12 upto 50 
 dec-
@@ -3889,6 +3885,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--80
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
@@ -3907,9 +3906,6 @@ Underfull \hbox (badness 1430) in paragraph at lines 82--97
 Underfull \hbox (badness 10000) in paragraph at lines 82--97
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (71.64015pt too wide) in paragraph at lines 97--111
@@ -3947,14 +3943,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 125--139
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
 Underfull \hbox (badness 2521) in paragraph at lines 140--144
 \OT1/txr/m/n/12 (ii) Is there any other suit-able graph-i-cal
  []
@@ -3995,6 +3991,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--182
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
@@ -4003,9 +4002,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (3.1601pt too wide) in paragraph at lines 186--202
@@ -4048,6 +4044,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 224--235
 
  []
@@ -4058,9 +4057,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--238
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
 Underfull \hbox (badness 10000) in paragraph at lines 238--241
 
  []
@@ -4090,7 +4086,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--270
 
  []
 
-) [27
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27])
+[28
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
@@ -4107,12 +4107,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 49061 strings out of 480609
- 1237252 string characters out of 5892832
- 1761112 words of memory out of 5000000
- 64004 multiletter control sequences out of 15000+600000
+ 49076 strings out of 480609
+ 1237764 string characters out of 5892832
+ 1758768 words of memory out of 5000000
+ 64011 multiletter control sequences out of 15000+600000
  607208 words of font info for 206 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,12n,98p,733b,2381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,98p,733b,2381s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_prob.dvi (27 pages, 259556 bytes).
+Output written on gvv_ncert_prob.dvi (28 pages, 267268 bytes).

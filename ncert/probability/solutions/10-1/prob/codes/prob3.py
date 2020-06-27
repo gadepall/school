@@ -1,6 +1,10 @@
+import xlwt
+from xlwt import Workbook
+import xlrd
+
 import numpy as np
 from scipy.stats import norm
-import seaborn as sns
+#import seaborn as sns
 import matplotlib.pyplot as plt
 from numpy import random
 from fractions import Fraction
@@ -52,11 +56,22 @@ d6_twice = (d6 + d6)
 d6_twice.name = 'two dice'
 for die in [d6_twice]:
     xs, ys = die.render()
-data=random.choice(xs,p=ys,size=(1000))
-# ax = sns.distplot(data,
-# 					bins=int(11),
-# 	                 kde=True,
-# 	                color='crimson',
-#                   hist_kws={"linewidth": 20,'alpha':0.5})
-# ax.set(xlabel='Sum_of_two_dice', ylabel='Probability')
-# plt.show()
+
+wb=Workbook()
+my_sheet =wb.add_sheet('Sheet 1')
+my_sheet.write(0,0,"Event")
+my_sheet.write(0,1,"Value")
+
+loc=("./tables/input.xlsx")
+wb1=xlrd.open_workbook(loc)
+sheet=wb1.sheet_by_index(0)
+
+for i in range(1,sheet.nrows):
+    if sheet.cell_value(i,0)==xs[i-1]:
+        my_sheet.write(i,0,xs[i-1])
+        if sheet.cell_value(i,1)=='-':
+            my_sheet.write(i,1,ys[i-1])
+        else:
+            my_sheet.write(i,1,sheet.cell_value(i,1) )      
+
+wb.save("./tables/output.xlsx")
