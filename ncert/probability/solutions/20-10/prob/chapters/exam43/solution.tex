@@ -1,47 +1,37 @@
-Given that a black ball is selected, the probability that it is picked from box \RomanNumeralCaps{3} is the case of conditional probability expressed as
-\begin{align}
-\pr{\RomanNumeralCaps{3}|B}=\frac{\pr{\RomanNumeralCaps{3} \cap B}}{\pr{B}}
-\label{eq:exam43_3}
-\end{align}
-By the definition of conditional probability
-\begin{align}
-\pr{B|\RomanNumeralCaps{3}}=\frac{\pr{\RomanNumeralCaps{3} \cap B}}{\pr{\RomanNumeralCaps{3}}}
+Let $B \in \cbrak{1,2,3,4}$ denote the box number in sequence and $C \in \cbrak{1,2,3,4}$ denote the colours Black, White, Red and Blue respectively.
+Given that a black ball is selected, the probability that it is picked from box III
+%3} 
+is 
+\begin{multline}
+\pr{B=3|C=1} 
 \\
-\pr{\RomanNumeralCaps{3} \cap B} = \pr{B|\RomanNumeralCaps{3}}\pr{\RomanNumeralCaps{3}}
+= \frac{\pr{ C=1|B=3}\pr{B=3}}{\sum_{j=1}^{4}\pr{C=1|B=j}\pr{B=j}}
 \label{eq:exam43_1}
-\end{align}
-Also 
+\end{multline}
+From Table \ref{table:1.43_boxes},
 \begin{align}
-\implies \pr{B}=\pr{\RomanNumeralCaps{1} \cap B}+\pr{\RomanNumeralCaps{2} \cap B}
-\\ +\pr{\RomanNumeralCaps{3} \cap B}+\pr{\RomanNumeralCaps{4} \cap B}
+\pr{C=1|B=1} &= \frac{1}{6}
 \\
-\implies \pr{B} = \pr{B|\RomanNumeralCaps{1}} \pr{\RomanNumeralCaps{1}}+\pr{B|\RomanNumeralCaps{2}} \pr{\RomanNumeralCaps{2}}+
-\\ \pr{B|\RomanNumeralCaps{3}} \pr{\RomanNumeralCaps{3}}+\pr{B|\RomanNumeralCaps{4}} \pr{\RomanNumeralCaps{4}}
-\label{eq:exam43_2}
+\pr{C=1|B=2} &= \frac{1}{4}
+\\
+\pr{C=1|B=3} &= \frac{1}{7}
+\\
+\pr{C=1|B=4} &= \frac{4}{13}
+\label{eq:exam43_probs1}
 \end{align}
-
-Substituting \eqref{eq:exam43_1} and \eqref{eq:exam43_2} in \eqref{eq:exam43_3}, We obtain the Baye's theorm as stated in \eqref{eq:exam43_bayestheorm}
+and
+\begin{multline}
+\pr{B=1}=\pr{B=2}
+\\
+=\pr{B=3}=\pr{B=4} = \frac{1}{4}
+\label{eq:exam43_probs2}
+\end{multline}
+Substituting from \eqref{eq:exam43_probs1} and \eqref{eq:exam43_probs2}
+in \eqref{eq:exam43_1},
 \begin{align}
-\pr{\RomanNumeralCaps{3}|B}= \frac{\pr{B|\RomanNumeralCaps{3}} \pr{\RomanNumeralCaps{3}}}{\pr{B|\RomanNumeralCaps{1}} \pr{\RomanNumeralCaps{1}}+\pr{B|\RomanNumeralCaps{2}} \pr{\RomanNumeralCaps{2}}+\pr{B|\RomanNumeralCaps{3}} \pr{\RomanNumeralCaps{3}}+\pr{B|\RomanNumeralCaps{4}} \pr{\RomanNumeralCaps{4}}}
-\label{eq:exam43_bayestheorm}
-\end{align}
-From table \ref{table:boxes},
-\begin{align}
-\pr{B|\RomanNumeralCaps{1}} = \frac{1}{6}
-\\
-\pr{B|\RomanNumeralCaps{2}} = \frac{1}{4}
-\\
-\pr{B|\RomanNumeralCaps{3}} = \frac{1}{7}
-\\
-\pr{B|\RomanNumeralCaps{4}} = \frac{4}{13}
-\\
-\pr{\RomanNumeralCaps{1}}=\pr{\RomanNumeralCaps{2}}=\pr{\RomanNumeralCaps{3}}=\pr{\RomanNumeralCaps{4}}
-\end{align}
-Substituting the above values in equation \eqref{eq:exam43_bayestheorm},
-\begin{align}
-\pr{\RomanNumeralCaps{3}|B}=\frac{156}{947}
+\pr{B=3|C=1}=\frac{156}{947}
 \end{align}
 The python code for the above problem is,
 \begin{lstlisting}
-./prob/codes/exam43.py
+solutions/20-10/prob/codes/exam43.py
 \end{lstlisting}

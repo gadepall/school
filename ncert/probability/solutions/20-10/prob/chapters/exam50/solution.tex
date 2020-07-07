@@ -1,8 +1,6 @@
-Let X be the outcome of the dice. Then,
+Let
 \begin{align}
 X \epsilon \{1,2,3,4,5,6\}
-\\
-\implies S=6
 \end{align}
 For a fair dice,
 \begin{align}
@@ -11,16 +9,16 @@ For a fair dice,
         0 & otherwise
         \end{cases}
 \end{align}
-(i)Probability of getting a number greater than 4 is
+\begin{enumerate}
+\item 
 \begin{align}
-\pr{X > 4}=\pr{X=5}+\pr{X=6}
- \\
-\implies 2 \times \frac{1}{6}=\frac{1}{3}
+\pr{X > 4}=\pr{X=5}+\pr{X=6} = \frac{1}{3}
 \end{align}
-(i)Probability of getting a number greater than 4 is
+\item 
 \begin{align}
 \pr{X \leq 4}=1-\pr{X>4=}=\frac{2}{3}
 \end{align}
+\end{enumerate}
 \begin{lstlisting}
-./prob/codes/exam50.py
+solutions/20-10/prob/codes/exam50.py
 \end{lstlisting}
