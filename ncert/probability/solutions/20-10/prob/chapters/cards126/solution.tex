@@ -1,38 +1,21 @@
-(i)The sample size is equal to number of cards 
-\begin{align}
-S=5
-\end{align}
-number of queens in the cards are 
-\begin{align}
-Q=1
-\end{align}
+\begin{enumerate}
+\item 
 The probability that a queen is picked is 
 \begin{align}
-\pr{Q} = \frac{Q}{S} &= \frac{1}{5}
+\pr{Z = 10|Z \in \cbrak{10,11,12,13,14}} = \frac{1}{5}
 \end{align}
-(ii) After a queen is drawn and put aside, the new sample space is
-\begin{align}
-S'=4
-\end{align}
-(a)number of aces in the remaining cards are 
-\begin{align}
-A=1
-\end{align}
+\item After a queen is drawn and put aside
 The probability that an ace is picked is 
 \begin{align}
-\pr{A} = \frac{A}{S'} &= \frac{1}{4}
+\pr{Z = 14|Z \in {10,11,13,14}}= \frac{1}{4}
 \end{align}
 
-(a)number of queens in the remaining cards are 
-\begin{align}
-Q'=0
-\end{align}
 The probability that a queen is picked from the remaining cards is 
 \begin{align}
-\pr{Q'} = \frac{Q'}{S'} &= 0
+\pr{Z=12|Z \in {10,11,13,14}} = 0
 \end{align}
-
+\end{enumerate}
 The python code below calculates the above probabilities for 100000 picks
 \begin{lstlisting}
-./prob/codes/cards126.py
+solutions/20-10/prob/codes/cards126.py
 \end{lstlisting}

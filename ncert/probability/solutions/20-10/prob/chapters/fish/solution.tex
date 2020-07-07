@@ -1,17 +1,10 @@
-The sample size is the total number of fishes in the tank 
+Let $X \in \cbrak{0,1}$ represent the male and female fish respectively.  Then
+the desired probability is
 \begin{align}
-S=5+8=13
-\end{align}
-The number male fishes 
-\begin{align}
-M=5
-\end{align}
-The probability of gopi picking up a male fish is
-\begin{align}
-\pr{M} = \frac{M}{S} &= \frac{5}{13}
+\pr{X=0} = \frac{5}{5+8}=\frac{5}{13}
 \end{align}
 The python code for the distribution is
 \begin{lstlisting}
-./prob/codes/fish.py
+solutions/20-10/prob/codes/fish.py
 \end{lstlisting}
 The code checks how many times a male fish is picked out of the total times (taken as 100,000 in the given code) a fish is picked up from the tank with replacement.
