@@ -1,0 +1,400 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+%
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{xcolor}
+\usepackage{caption}
+%\usepackage{subcaption}
+%\doublespacing
+\singlespacing
+
+%\usepackage{graphicx}
+%\usepackage{amssymb}
+%\usepackage{relsize}
+\usepackage[cmex10]{amsmath}
+\usepackage{mathtools}
+%\usepackage{amsthm}
+%\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+%\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+%\usepackage{wasysym}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{txfonts}
+\usepackage{stfloats}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{subfig}
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{hyperref}
+
+%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{listings}
+    \usepackage[latin1]{inputenc}                                 %%
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+    \usepackage{lscape}     
+
+\usepackage{iithtlc}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+
+
+%\usepackage{stmaryrd}
+
+
+%\usepackage{wasysym}
+%\newcounter{MYtempeqncnt}
+\DeclareMathOperator*{\Res}{Res}
+%\renewcommand{\baselinestretch}{2}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\lstset{
+language=C,
+frame=single, 
+breaklines=true
+}
+
+%\lstset{
+	%%basicstyle=\small\ttfamily\bfseries,
+	%%numberstyle=\small\ttfamily,
+	%language=Octave,
+	%backgroundcolor=\color{white},
+	%%frame=single,
+	%%keywordstyle=\bfseries,
+	%%breaklines=true,
+	%%showstringspaces=false,
+	%%xleftmargin=-10mm,
+	%%aboveskip=-1mm,
+	%%belowskip=0mm
+%}
+
+%\surroundwithmdframed[width=\columnwidth]{lstlisting}
+\def\inputGnumericTable{}                                 %%
+\lstset{
+language=C,
+frame=single, 
+breaklines=true
+}
+ 
+
+\begin{document}
+%
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}{Definition}[section]
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{ieeetr}
+
+\providecommand{\nCr}[2]{\,^{#1}C_{#2}} % nCr
+\providecommand{\nPr}[2]{\,^{#1}P_{#2}} % nPr
+\providecommand{\mbf}{\mathbf}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
+\providecommand{\rsbrak}[1]{\ensuremath{{}\left.#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+\providecommand{\abs}[1]{\left\vert#1\right\vert}
+\providecommand{\res}[1]{\Res\displaylimits_{#1}} 
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\mtx}[1]{\mathbf{#1}}
+\providecommand{\mean}[1]{E\left[ #1 \right]}
+\providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
+%\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
+\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
+	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+%\numberwithin{equation}{subsection}
+\numberwithin{equation}{problem}
+%\numberwithin{problem}{subsection}
+%\numberwithin{definition}{subsection}
+\makeatletter
+\@addtoreset{figure}{problem}
+\makeatother
+
+\let\StandardTheFigure\thefigure
+%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+\renewcommand{\thefigure}{\theproblem}
+
+
+%\numberwithin{figure}{subsection}
+
+%\numberwithin{equation}{subsection}
+%\numberwithin{equation}{section}
+%%\numberwithin{equation}{problem}
+%%\numberwithin{problem}{subsection}
+%\numberwithin{problem}{section}
+%%\numberwithin{definition}{subsection}
+%\makeatletter
+%\@addtoreset{figure}{problem}
+%\makeatother
+%\makeatletter
+%\@addtoreset{table}{problem}
+%\makeatother
+
+%\let\StandardTheFigure\thefigure
+%\let\StandardTheTable\thetable
+%%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+%\renewcommand{\thefigure}{\theproblem}
+%\renewcommand{\thetable}{\theproblem}
+%%\numberwithin{figure}{section}
+
+%%\numberwithin{figure}{subsection}
+
+
+
+\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+     \def\rightbox#1{\makebox[0in][r]{#1}}
+     \def\centbox#1{\makebox[0in]{#1}}
+     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
+
+\vspace{3cm}
+
+\title{ 
+	\logo{
+EE 1410: Data Structures
+\\
+Teaching Methodology
+	}
+}
+
+
+
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+%\title{Matrix Analysis through Octave}
+%
+%
+% author names and IEEE memberships
+% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% a structure at a ~ so this keeps an author's name from being broken across
+% two lines.
+% use \thanks{} to gain access to the first footnote area
+% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
+% was not built to handle multiple paragraphs
+%
+
+\author{G V V Sharma$^{*}$% <-this % stops a space
+\thanks{*The author is with the Department
+of Electrical Engineering, Indian Institute of Technology, Hyderabad
+502285 India e-mail:  gadepall@iith.ac.in. 
+%All content in this manual is released under GNU GPL.  Free and open source.
+}% <-this % stops a space
+%\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
+%\thanks{Manuscript received April 19, 2005; revised January 11, 2007.}}
+}
+% note the % following the last \IEEEmembership and also \thanks - 
+% these prevent an unwanted space from occurring between the last author name
+% and the end of the author line. i.e., if you had this:
+% 
+% \author{....lastname \thanks{...} \thanks{...} }
+%                     ^------------^------------^----Do not want these spaces!
+%
+% a space would be appended to the last name and could cause every name on that
+% line to be shifted left slightly. This is one of those "LaTeX things". For
+% instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
+% "AB" then you have to do: "\textbf{A}\textbf{B}"
+% \thanks is no different in this regard, so shield the last } of each \thanks
+% that ends a line with a % and do not let a space in before the next \thanks.
+% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% you are supposed to have spaces between the names. For what it is worth,
+% this is a minor point as most people would not even notice if the said evil
+% space somehow managed to creep in.
+
+
+
+% The paper headers
+%\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
+%{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+% *** Note that you probably will NOT want to include the author's ***
+% *** name in the headers of peer review papers.                   ***
+% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% you desire.
+
+
+
+
+% If you want to put a publisher's ID mark on the page you can do it like
+% this:
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2007 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+
+
+% make the title area
+\maketitle
+
+\tableofcontents
+
+\bigskip
+
+\begin{abstract}
+%\boldmath
+This manual shows how  to introduce C and Python programming and data structures to beginners through a hands on approach. The philosophy of the
+course is to teach students to use programming as a tool to solve problems.
+\end{abstract}
+\section{Requirements}
+\begin{enumerate}
+\item The course is of 2 credit and the hands on module should be completed in 30 hours.
+\item Ideally, there should be no more than 40 students in the class.
+\item Each student should have access to a  Linux computer and the TLC Arduino kit.
+\item The hands on sessions should span over 10 days, with a 3 hour session every day.
+\item At least 4 Teaching Assistants (TAs) are required.  These can be senior UG students or PG students.
+\end{enumerate}
+\section{Hands On Sessions}
+Hands on sessions are conducted through the following manuals.
+\begin{enumerate}
+\item \cite{afe} introduces the concept of hardware and software.  This is done by using an arduino
+to drive a seven segment display to obtain a decade counter.
+\item \cite{gvv_cprog} introduces basic programming concepts like conditional statements, loops, functions and arrays.
+This is done by using an arduino to drive a seven segment display to obtain a decade counter. The arduino IDE follows
+the C language syntax, so the student learns how to program using C.
+\item \cite{gvv_jee_2016_python} introduces Python by solving selected problems from the JEE mains mathematics paper
+through Python programming.  For examples, problems related to coordinate geometry can be easily visualized through computations
+using {\em numpy} and {\em scipy} and plotting through {\em matplotlib}. 
+\item Through \cite{gvv_pythonc}, the student converts the computational part of the 
+Python code in \cite{gvv_jee_2016_python} to C code and the output data is stored in files.  This data is then plotted
+in Python.  This helps the student learn file handling in C.   
+\item \cite{gvv_dstc} introduces the student to pointers, lists and trees through polynomial operations.
+\end{enumerate}
+\section{Evaluation}
+\begin{enumerate}
+\item \cite{gvv_jee_2017} is a collection of unsolved problems from the JEE 2017 mathematics mains paper.  The students
+are expected to use the scripts in \cite{gvv_jee_2016_python} to generate their own python scripts for \cite{gvv_jee_2017}.
+\item The next assignment for the students is to convert the python codes for \cite{gvv_jee_2017} to C.  
+\item For data structures, each student is asked to write the code for polynomial addition and multiplication and another 
+student is asked to document the syntax and logical errors and get the code running.  Through this approach, students
+learn to read, write and debug code.
+\item Multiple exams with equal weightage should be conducted on the above lines.
+
+%progrbecome good programmers.
+%explains Karnaugh maps and the finite state machine.  The Karnaugh map is explained through the truth tables in
+%\cite{adld} and the decade counter in \cite{adld} is used for introducing the state machine.
+%
+%\item \cite{ee1110_gate} is a collection of problems in Boolean logic from past GATE papers which is shared with the students.  In the tutorial
+%session, students are asked to solve the problems in \cite{ee1110_gate} in groups and the instructor and TAs help clear any doubts.
+%The tutorial session is for 3 hours.
+%\item In the exams, each student is given a different problem in \cite{ee1110_gate}.  The student has to solve the problem on paper and
+%verify her result by programming the logic on the arduino.  
+%\item At least 3 such exams are conducted to assess the student's learning. 
+%Exams are conducted based on \cite{ee1110_gate}
+%\href{http://tlc.iith.ac.in/img/gvv_a4s.pdf}{\url{http://tlc.iith.ac.in/img/gvv_a4s.pdf}}.  This manual 
+\end{enumerate}
+% IEEEtran.cls defaults to using nonbold math in the Abstract.
+% This preserves the distinction between vectors and scalars. However,
+% if the journal you are submitting to favors bold math in the abstract,
+% then you can use LaTeX's standard command \boldmath at the very start
+% of the abstract to achieve this. Many IEEE journals frown on math
+% in the abstract anyway.
+
+% Note that keywords are not normally used for peerreview papers.
+%\begin{IEEEkeywords   }
+%Cooperative diversity, decode and forward, piecewise linear
+%\end{IEEEkeyword,m nbvxz 
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+%\IEEEpeerreviewmaketitle
+
+
+%\newpage
+%\section{Component Pin Diagrams}
+%%
+%\input{chapter1}
+%
+
+%\newpage
+%\section{Display Control through Hardware }
+%\input{./chapters/chapter1}
+%%
+%\section{Display Control through Arduino Software}
+%\input{./chapters/chapter2}
+%%%
+%\section{Decade Counter through Arduino}
+%\input{./chapters/chapter3}
+%%
+%\section{Karnaugh Maps}
+%\input{./chapters/chapter4}
+%%
+%\section{Sequential Logic}
+%\input{./chapters/chapter5}
+%
+%\section{C Programming}
+%\input{./chapters/chapter6}
+
+%\input{arduinoport}
+
+\bibliography{IEEEabrv,gvv_ee1410_method}
+
+%\input{chapter2} 
+%%
+%\newpage
+%\section{$M$-ary Modulation}
+%\input{chapter3} 
+%
+%\newpage
+%\section{BER in Rayleigh Flat Slowly Fading Channels}
+%\input{chapter4} 
+
+\end{document}
+
+
