@@ -15,3 +15,4 @@ print('Mean is ', mean)
 print('Median is ' , median)
 print('Mode is ' , mode)
 
+
