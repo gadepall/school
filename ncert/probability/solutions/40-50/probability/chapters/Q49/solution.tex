@@ -1,17 +1,29 @@
-\renewcommand{\theequation}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
-\numberwithin{equation}{enumi}
-\item Probability of selecting a hostelier= $P(H) = 0.60$.
-\item Probability of selecting a day scholar $= P(D) = 0.40$.
-\item Probability of selecting an A grade hostelier$= P(A \mid H) = 0.30$.
-\item Probability of selecting an A grade day scholar$= P(A \mid D) = 0.20$. 
-\item Using Bayes Theorem, probability that a selected A grade student is a hostelier is
+Let $X \in \cbrak{0,1}$ represent student residence, 0 being a hostel residence.  Let $Y \cbrak{0,1}$ represent the grade, 0 being A grade.  The objective is to find
+{\footnotesize
+\begin{multline}
+\pr{X=0|Y=0} 
+\\
+=\frac{\pr{Y=0|X=0}\pr{X=0}}{\pr{Y=0|X=0}\pr{X=0}+\pr{Y=0|X=1}\pr{X=1}}
+\end{multline}
+}
+From the given information,
 \begin{align}
-P(H \mid A) &= \frac{P(H)\times P(A \mid H)}{P(H)\times P(A \mid H) + P(D)\times P(A \mid D)}\\
-&= \frac{9}{13}
+\pr{Y=0|X=0} &= \frac{3}{10}
+\\
+\pr{Y=0|X=1} &= \frac{2}{10}
+\\
+\pr{X = 0} &=\frac{6}{10}
+\\
+\pr{X = 1} &=\frac{4}{10}
 \end{align}
-\item The python code for finding probability using a sample size of 10000 can be downloaded from
+Hence,
+\begin{multline}
+\pr{X=0|Y=0} =\frac{\frac{3}{10}\times\frac{6}{10}}{\frac{3}{10}\times\frac{6}{10}+\frac{2}{10}\times\frac{4}{10}}
+\\
+=\frac{9}{13}
+\end{multline}
+
+ The python code for finding probability using a sample size of 10000 can be downloaded from
 \begin{lstlisting}
 probability/codes/Q49.py
 \end{lstlisting}
-\end{enumerate}
