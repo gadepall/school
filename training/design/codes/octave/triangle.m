@@ -11,8 +11,6 @@ clc;
 %Generate line points
 function x_AB =   line_gen(A,B)
   len =10;
-#  dim = A.shape[0]
-#  x_AB = np.zeros((dim,len))
   lam_1 = linspace(0,1,len);
   for i=1:len,
     temp1 = A + lam_1(i)*(B-A);
