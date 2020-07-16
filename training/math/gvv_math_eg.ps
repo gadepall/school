@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0
-%%Creator: dvips(k) 5.999 Copyright 2019 Radical Eye Software
+%%Creator: dvips(k) 2020.1 Copyright 2020 Radical Eye Software
 %%Title: gvv_math_eg.dvi
-%%CreationDate: Tue May 19 14:12:44 2020
+%%CreationDate: Thu Jul 16 07:16:22 2020
 %%Pages: 1
 %%PageOrder: Ascend
 %%BoundingBox: 0 0 612 792
@@ -12,7 +12,7 @@
 %DVIPSWebPage: (www.radicaleye.com)
 %DVIPSCommandLine: dvips gvv_math_eg.dvi -q* -o gvv_math_eg.ps
 %DVIPSParameters: dpi=600
-%DVIPSSource:  TeX output 2020.05.19:1942
+%DVIPSSource:  TeX output 2020.07.16:1246
 %%BeginProcSet: tex.pro 0 0
 %!
 /TeXDict 300 dict def TeXDict begin/N{def}def/B{bind def}N/S{exch}N/X{S
@@ -59,6 +59,411 @@ rlineto fill grestore}B/a{moveto}B/delta 0 N/tail{A/delta X 0 rmoveto}B
 B/g{0 M}B/h{1 M}B/i{2 M}B/j{3 M}B/k{4 M}B/w{0 rmoveto}B/l{p -4 w}B/m{p
 -3 w}B/n{p -2 w}B/o{p -1 w}B/q{p 1 w}B/r{p 2 w}B/s{p 3 w}B/t{p 4 w}B/x{
 0 S rmoveto}B/y{3 2 roll p a}B/bos{/SS save N}B/eos{SS restore}B end
+
+%%EndProcSet
+%%BeginProcSet: l3backend-dvips.pro 0 0
+%%
+%% This is file `l3backend-dvips.pro',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% l3backend-header.dtx  (with options: `header,dvips')
+%% 
+%% Copyright (C) 1990-2020 The LaTeX3 Project
+%% 
+%% It may be distributed and/or modified under the conditions of
+%% the LaTeX Project Public License (LPPL), either version 1.3c of
+%% this license or (at your option) any later version.  The latest
+%% version of this license is in the file:
+%% 
+%%    https://www.latex-project.org/lppl.txt
+%% 
+%% This file is part of the "l3backend bundle" (The Work in LPPL)
+%% and all files in that bundle must be distributed together.
+%% 
+%% File: l3backend-header.dtx
+true setglobal
+/pdf.globaldict 4 dict def
+false setglobal
+
+/pdf.cvs { 65534 string cvs } def
+/pdf.dvi.pt { 72.27 mul Resolution div } def
+/pdf.pt.dvi { 72.27 div Resolution mul } def
+/pdf.rect.ht { dup 1 get neg exch 3 get add } def
+/pdf.linkmargin { 1 pdf.pt.dvi } def
+/pdf.linkdp.pad { 0 } def
+/pdf.linkht.pad { 0 } def
+/pdf.rect
+  { /Rect [ pdf.llx pdf.lly pdf.urx pdf.ury ] } def
+/pdf.save.ll
+  {
+    currentpoint
+    /pdf.lly exch def
+    /pdf.llx exch def
+  }
+    def
+/pdf.save.ur
+  {
+    currentpoint
+    /pdf.ury exch def
+    /pdf.urx exch def
+  }
+    def
+/pdf.save.linkll
+  {
+    currentpoint
+    pdf.linkmargin add
+    pdf.linkdp.pad add
+    /pdf.lly exch def
+    pdf.linkmargin sub
+    /pdf.llx exch def
+  }
+    def
+/pdf.save.linkur
+  {
+    currentpoint
+    pdf.linkmargin sub
+    pdf.linkht.pad sub
+    /pdf.ury exch def
+    pdf.linkmargin add
+    /pdf.urx exch def
+  }
+    def
+/pdf.dest.anchor
+  {
+    currentpoint exch
+    pdf.dvi.pt 72 add
+    /pdf.dest.x exch def
+    pdf.dvi.pt
+    vsize 72 sub exch sub
+    /pdf.dest.y exch def
+  }
+    def
+/pdf.dest.point
+  { pdf.dest.x pdf.dest.y } def
+/pdf.dest2device
+  {
+    /pdf.dest.y exch def
+    /pdf.dest.x exch def
+    matrix currentmatrix
+    matrix defaultmatrix
+    matrix invertmatrix
+    matrix concatmatrix
+    cvx exec
+    /pdf.dev.y exch def
+    /pdf.dev.x exch def
+    /pdf.tmpd exch def
+    /pdf.tmpc exch def
+    /pdf.tmpb exch def
+    /pdf.tmpa exch def
+    pdf.dest.x pdf.tmpa mul
+      pdf.dest.y pdf.tmpc mul add
+      pdf.dev.x add
+    pdf.dest.x pdf.tmpb mul
+     pdf.dest.y pdf.tmpd mul add
+     pdf.dev.y add
+  }
+    def
+/pdf.bordertracking false def
+/pdf.bordertracking.begin
+  {
+    SDict /pdf.bordertracking true put
+    SDict /pdf.leftboundary undef
+    SDict /pdf.rightboundary undef
+    /a where
+      {
+        /a
+          {
+            currentpoint pop
+            SDict /pdf.rightboundary known dup
+              {
+                SDict /pdf.rightboundary get 2 index lt
+                  { not }
+                if
+              }
+            if
+              { pop }
+              { SDict exch /pdf.rightboundary exch put }
+            ifelse
+            moveto
+            currentpoint pop
+            SDict /pdf.leftboundary known dup
+              {
+                SDict /pdf.leftboundary get 2 index gt
+                  { not }
+                if
+              }
+            if
+              { pop }
+              { SDict exch /pdf.leftboundary exch put }
+            ifelse
+          }
+        put
+      }
+    if
+  }
+    def
+/pdf.bordertracking.end
+  {
+    /a where { /a { moveto } put } if
+    /x where { /x { 0 exch rmoveto } put } if
+    SDict /pdf.leftboundary known
+      { pdf.outerbox 0 pdf.leftboundary put }
+    if
+    SDict /pdf.rightboundary known
+      { pdf.outerbox 2 pdf.rightboundary put }
+    if
+    SDict /pdf.bordertracking false put
+  }
+    def
+  /pdf.bordertracking.endpage
+{
+  pdf.bordertracking
+    {
+      pdf.bordertracking.end
+      true setglobal
+      pdf.globaldict
+        /pdf.brokenlink.rect [ pdf.outerbox aload pop ] put
+      pdf.globaldict
+        /pdf.brokenlink.skip pdf.baselineskip put
+      pdf.globaldict
+        /pdf.brokenlink.dict
+          pdf.link.dict pdf.cvs put
+      false setglobal
+      mark pdf.link.dict cvx exec /Rect
+        [
+          pdf.llx
+          pdf.lly
+          pdf.outerbox 2 get pdf.linkmargin add
+          currentpoint exch pop
+          pdf.outerbox pdf.rect.ht sub pdf.linkmargin sub
+        ]
+      /ANN pdf.pdfmark
+    }
+  if
+}
+  def
+/pdf.bordertracking.continue
+  {
+    /pdf.link.dict pdf.globaldict
+      /pdf.brokenlink.dict get def
+    /pdf.outerbox pdf.globaldict
+      /pdf.brokenlink.rect get def
+    /pdf.baselineskip pdf.globaldict
+      /pdf.brokenlink.skip get def
+    pdf.globaldict dup dup
+    /pdf.brokenlink.dict undef
+    /pdf.brokenlink.skip undef
+    /pdf.brokenlink.rect undef
+    currentpoint
+    /pdf.originy exch def
+    /pdf.originx exch def
+    /a where
+      {
+        /a
+          {
+            moveto
+            SDict
+            begin
+            currentpoint pdf.originy ne exch
+              pdf.originx ne or
+              {
+                pdf.save.linkll
+                /pdf.lly
+                  pdf.lly pdf.outerbox 1 get sub def
+                pdf.bordertracking.begin
+              }
+            if
+            end
+          }
+        put
+      }
+    if
+    /x where
+      {
+        /x
+          {
+            0 exch rmoveto
+            SDict~
+            begin
+            currentpoint
+            pdf.originy ne exch pdf.originx ne or
+              {
+                pdf.save.linkll
+                /pdf.lly
+                  pdf.lly pdf.outerbox 1 get sub def
+                pdf.bordertracking.begin
+              }
+            if
+            end
+          }
+        put
+      }
+    if
+  }
+    def
+/pdf.breaklink
+  {
+    pop
+    counttomark 2 mod 0 eq
+      {
+        counttomark /pdf.count exch def
+          {
+           pdf.count 0 eq { exit } if
+           counttomark 2 roll
+           1 index /Rect eq
+             {
+               dup 4 array copy
+               dup dup
+                 1 get
+                 pdf.outerbox pdf.rect.ht
+                 pdf.linkmargin 2 mul add sub
+                 3 exch put
+               dup
+                 pdf.outerbox 2 get
+                 pdf.linkmargin add
+                 2 exch put
+               dup dup
+                 3 get
+                 pdf.outerbox pdf.rect.ht
+                 pdf.linkmargin 2 mul add add
+                 1 exch put
+               /pdf.currentrect exch  def
+               pdf.breaklink.write
+                 {
+                   pdf.currentrect
+                   dup
+                     pdf.outerbox 0 get
+                     pdf.linkmargin sub
+                     0 exch put
+                   dup
+                     pdf.outerbox 2 get
+                     pdf.linkmargin add
+                     2 exch put
+                   dup dup
+                     1 get
+                     pdf.baselineskip add
+                     1 exch put
+                   dup dup
+                     3 get
+                     pdf.baselineskip add
+                     3 exch put
+                   /pdf.currentrect exch def
+                   pdf.breaklink.write
+                  }
+                1 index 3 get
+                pdf.linkmargin 2 mul add
+                pdf.outerbox pdf.rect.ht add
+                2 index 1 get sub
+                pdf.baselineskip div round cvi 1 sub
+                exch
+              repeat
+              pdf.currentrect
+              dup
+                pdf.outerbox 0 get
+                pdf.linkmargin sub
+                0 exch put
+              dup dup
+                1 get
+                pdf.baselineskip add
+                1 exch put
+              dup dup
+                3 get
+                pdf.baselineskip add
+                3 exch put
+              dup 2 index 2 get  2 exch put
+              /pdf.currentrect exch def
+              pdf.breaklink.write
+              SDict /pdf.pdfmark.good false put
+              exit
+            }
+            { pdf.count 2 sub /pdf.count exch def }
+          ifelse
+        }
+      loop
+    }
+  if
+  /ANN
+}
+  def
+/pdf.breaklink.write
+  {
+    counttomark 1 sub
+    index /_objdef eq
+      {
+        counttomark -2 roll
+        dup wcheck
+          {
+            readonly
+            counttomark 2 roll
+          }
+          { pop pop }
+        ifelse
+      }
+    if
+    counttomark 1 add copy
+    pop pdf.currentrect
+    /ANN pdfmark
+  }
+    def
+/pdf.pdfmark
+  {
+    SDict /pdf.pdfmark.good true put
+    dup /ANN eq
+      {
+        pdf.pdfmark.store
+        pdf.pdfmark.dict
+          begin
+            Subtype /Link eq
+            currentdict /Rect known and
+            SDict /pdf.outerbox known and
+            SDict /pdf.baselineskip known and
+              {
+                Rect 3 get
+                pdf.linkmargin 2 mul add
+                pdf.outerbox pdf.rect.ht add
+                Rect 1 get sub
+                pdf.baselineskip div round cvi 0 gt
+                  { pdf.breaklink }
+                if
+              }
+            if
+          end
+        SDict /pdf.outerbox undef
+        SDict /pdf.baselineskip undef
+        currentdict /pdf.pdfmark.dict undef
+      }
+    if
+    pdf.pdfmark.good
+      { pdfmark }
+      { cleartomark }
+    ifelse
+  }
+    def
+/pdf.pdfmark.store
+  {
+    /pdf.pdfmark.dict 65534 dict def
+    counttomark 1 add copy
+    pop
+      {
+        dup mark eq
+          {
+            pop
+            exit
+          }
+          {
+            pdf.pdfmark.dict
+            begin def end
+          }
+        ifelse
+      }
+    loop
+}
+  def
+%% 
+%%
+%% End of file `l3backend-dvips.pro'.
 
 %%EndProcSet
 %%BeginProcSet: 8r.enc 0 0
@@ -324,43 +729,118 @@ setcmykcolor}DC/White{0 0 0 0 setcmykcolor}DC end
 %%EndProcSet
 TeXDict begin @defspecial
 
- /pgfH{/pgfheight exch def 0.75 setlinewidth [] 0 setdash /pgfshade
-{pgfA} def /pgfdir { dup 0 moveto dup 5 index lineto } bind def} bind
-def
+ /pgfHrgb{/pgfheight exch def 0.75 setlinewidth [] 0 setdash /pgfshade
+{pgfArgb} def /pgfdir { dup 0 moveto dup 5 index lineto } bind def}
+bind def
 
- /pgfV{/pgfheight exch def 0.75 setlinewidth [] 0 setdash /pgfshade
-{pgfA} def /pgfdir { dup 0 exch moveto dup 5 index exch lineto } bind
-def} bind def
+ /pgfVrgb{/pgfheight exch def 0.75 setlinewidth [] 0 setdash /pgfshade
+{pgfArgb} def /pgfdir { dup 0 exch moveto dup 5 index exch lineto }
+bind def} bind def
 
- /pgfA{ /pgfdiff 8 index round cvi 8 index round cvi sub 2 mul 1 add
-def 2 index 6 index sub pgfdiff div 2 index 6 index sub pgfdiff div
-2 index 6 index sub pgfdiff div pgfheight 9 index 9 index 9 index 14
-index pgfdiff { 3 index 3 index 3 index setrgbcolor pgfdir stroke 4
--1 roll 7 index add 4 -1 roll 6 index add 4 -1 roll 5 index add 4 -1
-roll .5 sub } repeat mark 15 1 roll cleartomark exch pop }bind def
+ /pgfArgb{ /pgfdiff 8 index round cvi 8 index round cvi sub 2 mul 1
+add def 2 index 6 index sub pgfdiff div 2 index 6 index sub pgfdiff
+div 2 index 6 index sub pgfdiff div pgfheight 9 index 9 index 9 index
+14 index pgfdiff { 3 index 3 index 3 index setrgbcolor pgfdir stroke
+4 -1 roll 7 index add 4 -1 roll 6 index add 4 -1 roll 5 index add 4
+-1 roll .5 sub } repeat mark 15 1 roll cleartomark exch pop }bind def
 
- /pgfR1{ newpath dup dup dup 0 360 arc clip newpath dup /pgfendx exch
-def /pgfendy exch def 0.875 setlinewidth [] 0 setdash /pgfshade {pgfR}
-def /pgfstartx exch def /pgfstarty exch def /pgfdiffx pgfendx pgfstartx
-sub def /pgfdiffy pgfendy pgfstarty sub def dup /pgfdomb exch def }bind
-def
+ /pgfR1rgb{ newpath dup dup dup 0 360 arc clip newpath dup /pgfendx
+exch def /pgfendy exch def 0.875 setlinewidth [] 0 setdash /pgfshade
+{pgfRrgb} def /pgfstartx exch def /pgfstarty exch def /pgfdiffx pgfendx
+pgfstartx sub def /pgfdiffy pgfendy pgfstarty sub def dup /pgfdomb
+exch def }bind def
 
- /pgfR2{ newpath 0.5 add pgfcircx pgfcircy 3 2 roll 0 360 arc setrgbcolor
+ /pgfR2rgb{ newpath 0.5 add pgfcircx pgfcircy 3 2 roll 0 360 arc setrgbcolor
 fill pop}bind def
 
- /pgfR{ /pgfdiff 8 index round cvi 8 index round cvi sub 4 mul 1 add
-def /pgfcircx pgfstartx 9 index pgfdiffx pgfdomb div mul add def /pgfcircy
-pgfstarty 9 index pgfdiffy pgfdomb div mul add def /pgfcircxe pgfstartx
-8 index pgfdiffx pgfdomb div mul add def /pgfcircye pgfstarty 8 index
-pgfdiffy pgfdomb div mul add def /pgfxstep pgfcircxe pgfcircx sub pgfdiff
-div def /pgfystep pgfcircye pgfcircy sub pgfdiff div def 2 index 6
-index sub pgfdiff div 2 index 6 index sub pgfdiff div 2 index 6 index
-sub pgfdiff div 8 index 8 index 8 index 13 index pgfdiff { 3 index
-3 index 3 index setrgbcolor pgfcircx pgfcircy 2 index 0 360 arc closepath
-stroke 4 -1 roll 6 index add 4 -1 roll 5 index add 4 -1 roll 4 index
-add 4 -1 roll .25 sub /pgfcircx pgfcircx pgfxstep add def /pgfcircy
-pgfcircy pgfystep add def } repeat mark 14 1 roll cleartomark exch
+ /pgfRrgb{ /pgfdiff 8 index round cvi 8 index round cvi sub 4 mul 1
+add def /pgfcircx pgfstartx 9 index pgfdiffx pgfdomb div mul add def
+/pgfcircy pgfstarty 9 index pgfdiffy pgfdomb div mul add def /pgfcircxe
+pgfstartx 8 index pgfdiffx pgfdomb div mul add def /pgfcircye pgfstarty
+8 index pgfdiffy pgfdomb div mul add def /pgfxstep pgfcircxe pgfcircx
+sub pgfdiff div def /pgfystep pgfcircye pgfcircy sub pgfdiff div def
+2 index 6 index sub pgfdiff div 2 index 6 index sub pgfdiff div 2 index
+6 index sub pgfdiff div 8 index 8 index 8 index 13 index pgfdiff {
+3 index 3 index 3 index setrgbcolor pgfcircx pgfcircy 2 index 0 360
+arc closepath stroke 4 -1 roll 6 index add 4 -1 roll 5 index add 4
+-1 roll 4 index add 4 -1 roll .25 sub /pgfcircx pgfcircx pgfxstep add
+def /pgfcircy pgfcircy pgfystep add def } repeat mark 14 1 roll cleartomark
+exch pop }bind def
+
+ /pgfHcmyk{ /pgfheight exch def 0.75 setlinewidth [] 0 setdash /pgfshade
+{pgfAcmyk} def /pgfdir { dup 0 moveto dup 6 index lineto } bind def}
+bind def
+
+ /pgfVcmyk{ /pgfheight exch def 0.75 setlinewidth [] 0 setdash /pgfshade
+{pgfAcmyk} def /pgfdir { dup 0 exch moveto dup 6 index exch lineto
+} bind def} bind def
+
+ /pgfAcmyk{ /pgfdiff 10 index round cvi 10 index round cvi sub 2 mul
+1 add def 3 index 8 index sub pgfdiff div 3 index 8 index sub pgfdiff
+div 3 index 8 index sub pgfdiff div 3 index 8 index sub pgfdiff div
+pgfheight 12 index 12 index 12 index 12 index 18 index pgfdiff { 4
+index 4 index 4 index 4 index setcmykcolor pgfdir stroke 5 -1 roll
+9 index add 5 -1 roll 8 index add 5 -1 roll 7 index add 5 -1 roll 6
+index add 5 -1 roll .5 sub } repeat mark 19 1 roll cleartomark exch
 pop }bind def
+
+ /pgfR1cmyk{ newpath dup dup dup 0 360 arc clip newpath dup /pgfendx
+exch def /pgfendy exch def 0.875 setlinewidth [] 0 setdash /pgfshade
+{pgfRcmyk} def /pgfstartx exch def /pgfstarty exch def /pgfdiffx pgfendx
+pgfstartx sub def /pgfdiffy pgfendy pgfstarty sub def dup /pgfdomb
+exch def }bind def
+
+ /pgfR2cmyk{ newpath 0.5 add pgfcircx pgfcircy 3 2 roll 0 360 arc setcmykcolor
+fill pop}bind def
+
+ /pgfRcmyk{ /pgfdiff 10 index round cvi 10 index round cvi sub 4 mul
+1 add def /pgfcircx pgfstartx 11 index pgfdiffx pgfdomb div mul add
+def /pgfcircy pgfstarty 11 index pgfdiffy pgfdomb div mul add def /pgfcircxe
+pgfstartx 10 index pgfdiffx pgfdomb div mul add def /pgfcircye pgfstarty
+10 index pgfdiffy pgfdomb div mul add def /pgfxstep pgfcircxe pgfcircx
+sub pgfdiff div def /pgfystep pgfcircye pgfcircy sub pgfdiff div def
+3 index 8 index sub pgfdiff div 3 index 8 index sub pgfdiff div 3 index
+8 index sub pgfdiff div 3 index 8 index sub pgfdiff div 11 index 11
+index 11 index 11 index 17 index pgfdiff { 4 index 4 index 4 index
+4 index setcmykcolor pgfcircx pgfcircy 2 index 0 360 arc closepath
+stroke 5 -1 roll 8 index add 5 -1 roll 7 index add 5 -1 roll 6 index
+add 5 -1 roll 5 index add 5 -1 roll .25 sub /pgfcircx pgfcircx pgfxstep
+add def /pgfcircy pgfcircy pgfystep add def } repeat mark 18 1 roll
+cleartomark exch pop }bind def
+
+ /pgfHgray{ /pgfheight exch def 0.75 setlinewidth [] 0 setdash /pgfshade
+{pgfAgray} def /pgfdir { dup 0 moveto dup 3 index lineto } bind def}
+bind def
+
+ /pgfVgray{ /pgfheight exch def 0.75 setlinewidth [] 0 setdash /pgfshade
+{pgfAgray} def /pgfdir { dup 0 exch moveto dup 3 index exch lineto
+} bind def} bind def
+
+ /pgfAgray{ /pgfdiff 4 index round cvi 4 index round cvi sub 2 mul
+1 add def dup 2 index sub pgfdiff div pgfheight 3 index 6 index pgfdiff
+{ 1 index setgray pgfdir stroke exch 3 index add exch .5 sub } repeat
+mark 7 1 roll cleartomark exch pop }bind def
+
+ /pgfR1gray{ newpath dup dup dup 0 360 arc clip newpath dup /pgfendx
+exch def /pgfendy exch def 0.875 setlinewidth [] 0 setdash /pgfshade
+{pgfRgray} def /pgfstartx exch def /pgfstarty exch def /pgfdiffx pgfendx
+pgfstartx sub def /pgfdiffy pgfendy pgfstarty sub def dup /pgfdomb
+exch def }bind def
+
+ /pgfR2gray{ newpath 0.5 add pgfcircx pgfcircy 3 2 roll 0 360 arc setgray
+fill pop}bind def
+
+ /pgfRgray{ /pgfdiff 4 index round cvi 4 index round cvi sub 4 mul
+1 add def /pgfcircx pgfstartx 5 index pgfdiffx pgfdomb div mul add
+def /pgfcircy pgfstarty 5 index pgfdiffy pgfdomb div mul add def /pgfcircxe
+pgfstartx 4 index pgfdiffx pgfdomb div mul add def /pgfcircye pgfstarty
+4 index pgfdiffy pgfdomb div mul add def /pgfxstep pgfcircxe pgfcircx
+sub pgfdiff div def /pgfystep pgfcircye pgfcircy sub pgfdiff div def
+dup 2 index sub pgfdiff div 2 index 5 index pgfdiff { 1 index setgray
+pgfcircx pgfcircy 2 index 0 360 arc closepath stroke exch 2 index add
+exch .25 sub /pgfcircx pgfcircx pgfxstep add def /pgfcircy pgfcircy
+pgfystep add def } repeat mark 6 1 roll cleartomark exch pop }bind
+def
 
   /pgfsc{}bind def/pgffc{}bind def/pgfstr{stroke}bind def/pgffill{fill}bind
 def/pgfeofill{eofill}bind def/pgfe{a dup 0 rlineto exch 0 exch rlineto
@@ -384,12 +864,14 @@ put}{userdict /?pdfmark systemdict /pop get put userdict /pdfmark systemdict
 /cleartomark get put}ifelse
 
  /DvipsToPDF{72.27 mul Resolution div} def/PDFToDvips{72.27 div Resolution
-mul} def/BPToDvips{72 div Resolution mul}def/BorderArrayPatch{[exch{dup
-dup type/integertype eq exch type/realtype eq or{BPToDvips}if}forall]}def/HyperBorder
-{1 PDFToDvips} def/H.V {pdf@hoff pdf@voff null} def/H.B {/Rect[pdf@llx
-pdf@lly pdf@urx pdf@ury]} def/H.S {currentpoint HyperBorder add /pdf@lly
-exch def dup DvipsToPDF 72 add /pdf@hoff exch def HyperBorder sub /pdf@llx
-exch def} def/H.L {2 sub dup/HyperBasePt exch def PDFToDvips /HyperBaseDvips
+mul} def/BPToDvips{72 div Resolution mul}def product (Ghostscript)
+search {pop pop pop revision 927 gt}{pop false} ifelse{/BorderArrayPatch{}
+def}{/BorderArrayPatch{[exch{dup dup type/integertype eq exch type/realtype
+eq or{BPToDvips}if}forall]}def} ifelse /HyperBorder {1 PDFToDvips}
+def/H.V {pdf@hoff pdf@voff null} def/H.B {/Rect[pdf@llx pdf@lly pdf@urx
+pdf@ury]} def/H.S {currentpoint HyperBorder add /pdf@lly exch def dup
+DvipsToPDF 72 add /pdf@hoff exch def HyperBorder sub /pdf@llx exch
+def} def/H.L {2 sub dup/HyperBasePt exch def PDFToDvips /HyperBaseDvips
 exch def currentpoint HyperBaseDvips sub /pdf@ury exch def/pdf@urx
 exch def} def/H.A {H.L currentpoint exch pop vsize 72 sub exch DvipsToPDF
 HyperBasePt sub sub /pdf@voff exch def} def/H.R {currentpoint HyperBorder
@@ -3169,22 +3651,22 @@ b(Hyderabad)g(502285)g(India)g(e-mail:)-192 5524 y
 (gadepall@iith.ac.in.)18 b(All)f(content)i(in)g(this)f(manual)h(is)e
 (released)i(under)g(GNU)-192 5611 y(GPL.)25 b(Free)h(and)h(open)g
 (source.)p 0 TeXcolorgray 0 TeXcolorgray 0 TeXcolorgray
-0 TeXcolorgray 2000 618 a
+0 TeXcolorgray 2000 2379 a
 SDict begin H.S end
- 2000 618 a 2000 618 a
+ 2000 2379 a 2000 2379 a
 SDict begin 13.92 H.A end
  2000
-618 a 2000 618 a
+2379 a 2000 2379 a
 SDict begin [/View [/XYZ H.V]/Dest (figure.caption.2) cvn /DEST pdfmark
 end
- 2000 618 a 0 TeXcolorgray 0 TeXcolorgray
-2000 1900 a
+ 2000 2379 a 0 TeXcolorgray 0 TeXcolorgray
+2000 3660 a
  currentpoint currentpoint translate 0.66455 0.66455 scale neg exch
 neg exch translate
- 2000 1900 a 2137 1760 a
+ 2000 3660 a 2137 3520 a
 
- 2137 1760 a 2137
-1760 a
+ 2137 3520 a 2137
+3520 a
 
 
  pgfo
@@ -3232,12 +3714,12 @@ neg exch translate
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  /pgfsc{}def/pgffc{}def
- 2137 1760 a 2137 1760 a
+ 2137 3520 a 2137 3520 a
  0 setgray
- 2137 1760
-a 2137 1760 a
+ 2137 3520
+a 2137 3520 a
 
 
  pgfr
@@ -3250,14 +3732,14 @@ a 2137 1760 a
 
  save
 
- [1.0 0.0 0.0 1.0 132.38358 192.31859 ] concat
+ [1.0 0.0 0.0 1.0 132.38351 192.31859 ] concat
 
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  0 setgray
- 2137 1760 a 2 w Fa(A)2137 1760
+ 2137 3520 a 2 w Fa(A)2137 3520
 y
 
 
@@ -3302,12 +3784,12 @@ y
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  /pgfsc{}def/pgffc{}def
- 2137 1760 a 2137 1760 a
+ 2137 3520 a 2137 3520 a
  0 setgray
- 2137 1760 a 2137
-1760 a
+ 2137 3520 a 2137
+3520 a
 
 
  pgfr
@@ -3320,14 +3802,14 @@ y
 
  save
 
- [1.0 0.0 0.0 1.0 -12.42653 -12.63568 ] concat
+ [1.0 0.0 0.0 1.0 -12.42647 -12.63568 ] concat
 
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  0 setgray
- 2137 1760 a 3 w Fa(B)2137 1760 y
+ 2137 3520 a 3 w Fa(B)2137 3520 y
 
 
  pgfr
@@ -3372,11 +3854,11 @@ y
 
 
  2137
-1760 a
+3520 a
  /pgfsc{}def/pgffc{}def
- 2137 1760 a 2137 1760 a
+ 2137 3520 a 2137 3520 a
  0 setgray
- 2137 1760 a 2137 1760
+ 2137 3520 a 2137 3520
 a
 
 
@@ -3390,14 +3872,14 @@ a
 
  save
 
- [1.0 0.0 0.0 1.0 344.98468 -12.6357 ] concat
+ [1.0 0.0 0.0 1.0 344.98462 -12.6357 ] concat
 
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  0 setgray
- 2137 1760 a -2 w Fa(C)2137 1760 y
+ 2137 3520 a -2 w Fa(C)2137 3520 y
 
 
  pgfr
@@ -3442,11 +3924,11 @@ a
 
 
  2137
-1760 a
+3520 a
  /pgfsc{}def/pgffc{}def
- 2137 1760 a 2137 1760 a
+ 2137 3520 a 2137 3520 a
  0 setgray
- 2137 1760 a 2137 1760
+ 2137 3520 a 2137 3520
 a
 
 
@@ -3460,14 +3942,14 @@ a
 
  save
 
- [1.0 0.0 0.0 1.0 132.38358 4.82289 ] concat
+ [1.0 0.0 0.0 1.0 132.38351 4.82289 ] concat
 
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  0 setgray
- 2137 1760 a 2 w Fa(D)2137 1760 y
+ 2137 3520 a 2 w Fa(D)2137 3520 y
 
 
  pgfr
@@ -3476,17 +3958,17 @@ a
 
  restore
 
- 127.0522 186.74846 moveto
+ 127.05235 186.74861 moveto
 
- 0.50838 0.74722 lineto
+ 0.50826 0.74709 lineto
 
  0.90363 0.0 moveto
 
  339.25804 0.0 lineto
 
- 339.48334 0.59825 moveto
+ 339.48401 0.59767 moveto
 
- 128.23898 186.8974 lineto
+ 128.23828 186.89801 lineto
 
  pgfstr
 
@@ -3494,15 +3976,15 @@ a
 
  save
 
- [1.0 0.0 0.0 1.0 54.2882 91.09077 ] concat
+ [1.0 0.0 0.0 1.0 54.28822 91.09077 ] concat
 
  pgfs
 
 
- 2137 1760
+ 2137 3520
 a
  0 setgray
- 2137 1760 a Fh(c)2137 1760 y
+ 2137 3520 a Fh(c)2137 3520 y
 
 
  pgfr
@@ -3520,10 +4002,10 @@ a
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  0 setgray
- 2137 1760
-a Fh(a)2137 1760 y
+ 2137 3520
+a Fh(a)2137 3520 y
 
 
  pgfr
@@ -3536,15 +4018,15 @@ a Fh(a)2137 1760 y
 
  save
 
- [1.0 0.0 0.0 1.0 236.5417 98.05728 ] concat
+ [1.0 0.0 0.0 1.0 236.54167 98.05728 ] concat
 
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  0 setgray
- 2137 1760 a Fh(b)2137
-1760 y
+ 2137 3520 a Fh(b)2137
+3520 y
 
 
  pgfr
@@ -3568,26 +4050,14 @@ a Fh(a)2137 1760 y
  pgfs
 
 
- 2137 1760 a
+ 2137 3520 a
  0 setgray
- 2137 1760 a Fh(h)2137 1760 y
+ 2137 3520 a Fh(h)2137 3520 y
 
 
  pgfr
 
  restore
-
- restore
-
- save
-
- restore
-
- save
-
- restore
-
- save
 
  restore
 
@@ -3603,7 +4073,7 @@ a Fh(a)2137 1760 y
 
  116.22206 0.0 lineto
 
- closepath
+ 126.65695 0.0 lineto
 
  gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore
 
@@ -3621,12 +4091,12 @@ a Fh(a)2137 1760 y
 
 
  2000
-1900 a
+3660 a
  currentpoint currentpoint translate 1 0.66455 div 1 0.66455 div scale
 neg exch neg exch translate
- 2000 1900 a 0 TeXcolorgray 2159 2055 a Fh(Fig.)35
-b(2:)f(T)m(riangle)g(generated)h(using)f(L)3531 2033
-y Fm(A)3564 2055 y Fh(T)3608 2077 y(E)3657 2055 y(XT)m(ikz.)p
+ 2000 3660 a 0 TeXcolorgray 2159 3816 a Fh(Fig.)35
+b(2:)f(T)m(riangle)g(generated)h(using)f(L)3531 3793
+y Fm(A)3564 3816 y Fh(T)3608 3838 y(E)3657 3816 y(XT)m(ikz.)p
 0 TeXcolorgray 0 TeXcolorgray 0 TeXcolorgray 0 TeXcolorgray
 eop end
 %%Trailer

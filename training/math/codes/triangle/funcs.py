@@ -1,42 +1,23 @@
+#Code by GVV Sharma
+#December 7, 2019
+#Revised July 15, 2020
+#released under GNU GPL
+#Functions related to triangle
+
 import numpy as np
+from line.funcs import *
+from line.params import *
 
-
-def dir_vec(A,B):
-  return B-A
-
-def norm_vec(A,B):
-  return np.matmul(omat, dir_vec(A,B))
-
-#Generate line points
-def line_gen(A,B):
-  len =10
-  dim = A.shape[0]
-  x_AB = np.zeros((dim,len))
-  lam_1 = np.linspace(0,1,len)
-  for i in range(len):
-    temp1 = A + lam_1[i]*(B-A)
-    x_AB[:,i]= temp1.T
-  return x_AB
-
+#Triangle vertices
 def tri_vert(a,b,c):
   p = (a**2 + c**2-b**2 )/(2*a)
   q = np.sqrt(c**2-p**2)
-#Triangle vertices
   A = np.array([p,q]) 
   B = np.array([0,0]) 
   C = np.array([a,0]) 
   return  A,B,C
 
 
-def line_dir_pt(m,A, dim):
-  len = 10
-  dim = A.shape[0]
-  x_AB = np.zeros((dim,len))
-  lam_1 = np.linspace(0,10,len)
-  for i in range(len):
-    temp1 = A + lam_1[i]*m
-    x_AB[:,i]= temp1.T
-  return x_AB
 
 #Foot of the Altitude
 def alt_foot(A,B,C):
@@ -50,16 +31,6 @@ def alt_foot(A,B,C):
   P=np.linalg.inv(N.T)@p
   return P
 
-#Intersection of two lines
-def line_intersect(n1,A1,n2,A2):
-  N=np.vstack((n1,n2))
-  p = np.zeros(2)
-  p[0] = n1@A1
-  p[1] = n2@A2
-  #Intersection
-  P=np.linalg.inv(N)@p
-#  P=np.linalg.inv(N.T)@p
-  return P
 
 #Radius and centre of the circumcircle
 #of triangle ABC
@@ -77,7 +48,9 @@ def ccircle(A,B,C):
 
 #Radius and centre of the incircle
 #of triangle ABC
-def icentre(A,B,C,k1,k2):
+def icircle(A,B,C):
+  k1 = 1
+  k2 = 1
   p = np.zeros(2)
   t = norm_vec(B,C)
   n1 = t/np.linalg.norm(t)
@@ -92,7 +65,3 @@ def icentre(A,B,C,k1,k2):
   r = n1@(I-B)
   #Intersection
   return I,r
-
-dvec = np.array([-1,1]) 
-#Orthogonal matrix
-omat = np.array([[0,1],[-1,0]]) 
