@@ -6,7 +6,8 @@
 
 import numpy as np
 from line.funcs import *
-from line.params import *
+#from line.params import *
+from params import *
 
 #Triangle vertices
 def tri_vert(a,b,c):

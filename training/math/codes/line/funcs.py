@@ -4,7 +4,8 @@
 #released under GNU GPL
 #Functions related to line
 import numpy as np
-from line.params import *
+#from line.params import *
+from params import *
 
 
 def dir_vec(A,B):
@@ -24,11 +25,11 @@ def line_gen(A,B):
     x_AB[:,i]= temp1.T
   return x_AB
 
-def line_dir_pt(m,A, dim):
+def line_dir_pt(m,A,k1,k2):
   len = 10
   dim = A.shape[0]
   x_AB = np.zeros((dim,len))
-  lam_1 = np.linspace(0,10,len)
+  lam_1 = np.linspace(k1,k2,len)
   for i in range(len):
     temp1 = A + lam_1[i]*m
     x_AB[:,i]= temp1.T
