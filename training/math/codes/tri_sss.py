@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 #local imports
 from line.funcs import *
 from triangle.funcs import *
-#from conics.funcs import *
 from conics.funcs import circ_gen
 
 #if using termux

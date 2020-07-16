@@ -1,14 +1,12 @@
 #Code by GVV Sharma
 #July 15, 2020
 #released under GNU GPL
-#Drawing a parabola
+#Drawing the standard parabola
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 #local imports
-from line.funcs import *
-from triangle.funcs import *
 from conics.funcs import *
 
 #if using termux
@@ -16,21 +14,26 @@ import subprocess
 import shlex
 #end if
 
+simlen = 100
 #Standard parabola
-x1= -1
-x2 = 1
-x = parab_gen(x1,x2,50)
-x_D = directrix_gen(x1,x2)
+x = np.linspace(-1,1,simlen)
+y = parab_gen(x)
+
 #Parabola points
-O = parab_vertex
-F = parab_focus
+#Standard Parabola Vertex
+O = np.array([0,0])
+
+#Focus
+F= np.array([0,1/4])
+
+#Point on the directrix
 D = -F
 
 #Plotting the parabola
-plt.plot(x[0,:],x[1,:],label='Standard Parabola')
+plt.plot(x,y,label='Standard Parabola')
 
 #Plotting the directrix
-plt.plot(x_D[0,:],x_D[1,:],label='Directrix')
+plt.plot(x,D[1]*np.ones(simlen),label='Directrix')
 
 #Labeling the coordinates
 parab_coords = np.vstack((O,F, D)).T
@@ -55,10 +58,3 @@ plt.savefig('./figs/parabola.eps')
 subprocess.run(shlex.split("termux-open ./figs/parabola.pdf"))
 #else
 #plt.show()
-#
-#
-#
-#
-#
-#
-#

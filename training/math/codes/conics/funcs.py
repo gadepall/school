@@ -6,8 +6,8 @@
 
 import numpy as np
 from params import *
-from line.funcs import *
 
+#Generating points on a circle
 def circ_gen(O,r):
 	len = 50
 	theta = np.linspace(0,2*np.pi,len)
@@ -17,15 +17,22 @@ def circ_gen(O,r):
 	x_circ = (x_circ.T + O).T
 	return x_circ
 
-def parab_gen(x1,x2,N):
-	x = np.zeros((2,N))
-	x[0,:] = np.linspace(x1,x2,N)
-	x[1,:] = x[0]**2
+#Generating points on an ellipse
+def ellipse_gen(a,b):
+	len = 50
+	theta = np.linspace(0,2*np.pi,len)
+	x_ellipse = np.zeros((2,len))
+	x_ellipse[0,:] = a*np.cos(theta)
+	x_ellipse[1,:] = b*np.sin(theta)
+	return x_ellipse
+
+#Generating points on a parabola
+def parab_gen(x):
+	y = x**2
+	return y
+
+#Generating points on a standard hyperbola 
+def hyper_gen(y):
+	x = np.sqrt(1+y**2)
 	return x
 
-#Directrix of standard parabola
-def directrix_gen(x1,x2):
-	D = -parab_focus
-	m = np.array([1,0])
-	x_D = line_dir_pt(m,D,x1,x2)
-	return x_D
