@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  24 JUL 2020 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  24 JUL 2020 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3080,12 +3080,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/1-10/table/statexm/statexm3.tex)
 (./solutions/1-10/chapters/statexm/prob3/solution3.tex)
 (./solutions/1-10/chapters/statexm/prob4/solution4.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
+(./solutions/1-10/chapters/statexm/prob5/solution5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 59--3
 
  []
 
-[32] (./stats/tables/2.1.7.tex) (./stats/tables/2.1.9.tex))
-(./stats/statexam_pr.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32])
+(./solutions/1-10/table/statexm/statexn6.tex)
+(./solutions/1-10/chapters/statexm/prob6/solution6.tex
+(./solutions/1-10/table/statexm/statexn62.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 80--10
+
+ []
+
+) (./stats/tables/2.1.7.tex)
+(./solutions/1-10/chapters/statexm/prob7/solution7.tex
+(./solutions/1-10/table/statexm/statexn72.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 10--24
+\OT1/txr/m/n/12 nearest class to the mid-dle co-mu-la-tive
+ []
+
+[33]) (./solutions/1-10/table/statexm/statexn8.tex)
+(./solutions/1-10/chapters/statexm/prob8/solution8.tex
+(./solutions/1-10/table/statexm/statexn82.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./stats/tables/2.1.9.tex)
+(./solutions/1-10/chapters/statexm/prob9/solution9.tex
+(./solutions/1-10/table/statexm/statexn92.tex)
+File: ./solutions/1-10/figures/statexm/statexm9.eps Graphic file (type eps)
+
+<./solutions/1-10/figures/statexm/statexm9.eps> [34])) (./stats/statexam_pr.tex
+
 Underfull \hbox (badness 1527) in paragraph at lines 4--5
 []\OT1/txr/m/n/12 Consider the marks ob-tained (out of 100
  []
@@ -3110,6 +3145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
+[35]
 Missing character: There is no , in font nullfont!
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
@@ -3117,9 +3153,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
@@ -3185,7 +3218,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [36]
 Overfull \hbox (12.00015pt too wide) in paragraph at lines 165--170
 [][] 
  []
@@ -3349,7 +3382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--102
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [37]
 Underfull \hbox (badness 2351) in paragraph at lines 112--122
 []\OT1/txr/m/n/12 The fol-low-ing data gives the in-for-ma-tion
  []
@@ -3585,7 +3618,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--28
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [38]
 Overfull \hbox (24.007pt too wide) in paragraph at lines 28--38
 [] 
  []
@@ -3635,7 +3668,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1--19
 \OT1/txr/m/n/12 3.141592653589793238462643383279502884197 
  []
 
-[37]) (./solutions/20-10/stat/chapters/exer35/problem.tex
+[39]) (./solutions/20-10/stat/chapters/exer35/problem.tex
 (./solutions/20-10/stat/tables/exer35/inp35.tex))
 (./solutions/20-10/stat/chapters/exer35/solution.tex
 (./solutions/20-10/stat/tables/exer35/out35.tex))
@@ -3647,7 +3680,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 9--12
  \OT1/txr/m/n/12 The grouped fre-quency dis-tri-bu-tion ta-ble
  []
 
-[38]) (./solutions/20-10/stat/chapters/exer37/problem.tex
+[40]) (./solutions/20-10/stat/chapters/exer37/problem.tex
 (./solutions/20-10/stat/tables/exer37/femalefatality.tex))
 (./solutions/20-10/stat/chapters/exer37/solution.tex
 File: ./solutions/20-10/stat/codes/pyfigs/exer37.eps Graphic file (type eps)
@@ -3668,7 +3701,7 @@ File: ./solutions/20-10/stat/codes/pyfigs/exer38.eps Graphic file (type eps)
 (./solutions/20-10/stat/chapters/exer39/solution.tex
 File: ./solutions/20-10/stat/codes/pyfigs/exer39.eps Graphic file (type eps)
 
-<./solutions/20-10/stat/codes/pyfigs/exer39.eps> [39])
+<./solutions/20-10/stat/codes/pyfigs/exer39.eps> [41])
 (./solutions/20-10/stat/chapters/exer40/problem.tex
 (./solutions/20-10/stat/tables/exer40/inp40.tex))
 (./solutions/20-10/stat/chapters/exer40/solution.tex
@@ -3684,7 +3717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
 Underfull \vbox (badness 5403) has occurred while \output is active []
 
- [40]
+ [42]
 (./solutions/20-10/stat/tables/exer40/cont40.tex)
 File: ./solutions/20-10/stat/codes/pyfigs/exer40.eps Graphic file (type eps)
 
@@ -3712,14 +3745,14 @@ File: ./solutions/20-10/stat/codes/pyfigs/exer41.eps Graphic file (type eps)
 (./solutions/40-50/statistics/chapters/Q42/solution.tex
 File: ./solutions/40-50/statistics/figs/Q42.eps Graphic file (type eps)
 
-<./solutions/40-50/statistics/figs/Q42.eps> [41])
+<./solutions/40-50/statistics/figs/Q42.eps> [43])
 (./solutions/40-50/statistics/chapters/Q43/problem.tex
 (./solutions/40-50/statistics/tables/Q43/prob.tex))
 (./solutions/40-50/statistics/chapters/Q43/solution.tex
 (./solutions/40-50/statistics/tables/Q43/sol.tex)
 File: ./solutions/40-50/statistics/figs/Q43.eps Graphic file (type eps)
 
-<./solutions/40-50/statistics/figs/Q43.eps> [42])
+<./solutions/40-50/statistics/figs/Q43.eps> [44])
 (./solutions/40-50/statistics/chapters/Q44/problem.tex
 (./solutions/40-50/statistics/tables/Q44/prob.tex))
 (./solutions/40-50/statistics/chapters/Q44/solution.tex
@@ -3733,7 +3766,7 @@ File: ./solutions/40-50/statistics/figs/Q45.eps Graphic file (type eps)
 
 <./solutions/40-50/statistics/figs/Q45.eps>)
 (./solutions/40-50/statistics/chapters/Q46/problem.tex)
-(./solutions/40-50/statistics/chapters/Q46/solution.tex [43])
+(./solutions/40-50/statistics/chapters/Q46/solution.tex [45])
 (./solutions/40-50/statistics/chapters/Q47/problem.tex)
 (./solutions/40-50/statistics/chapters/Q47/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--4
@@ -3764,8 +3797,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--4
 (./solutions/40-50/statistics/tables/Q50/prob.tex))
 (./solutions/40-50/statistics/chapters/Q50/solution.tex
 (./solutions/40-50/statistics/tables/Q50/sol.tex))
-(./solutions/40-50/statistics/chapters/Q51/problem.tex [44])
-(./solutions/40-50/statistics/chapters/Q51/solution.tex)) [45
+(./solutions/40-50/statistics/chapters/Q51/problem.tex [46])
+(./solutions/40-50/statistics/chapters/Q51/solution.tex)) [47
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
@@ -3786,12 +3819,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
  ) 
 Here is how much of TeX's memory you used:
- 49858 strings out of 480609
- 1267118 string characters out of 5892832
- 1786532 words of memory out of 5000000
- 64396 multiletter control sequences out of 15000+600000
+ 49913 strings out of 480609
+ 1269232 string characters out of 5892832
+ 1781508 words of memory out of 5000000
+ 64416 multiletter control sequences out of 15000+600000
  615576 words of font info for 233 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,14n,98p,733b,2393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,98p,733b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_ncert_prob.dvi (45 pages, 502804 bytes).
+Output written on gvv_ncert_prob.dvi (47 pages, 527236 bytes).

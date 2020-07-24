@@ -1,21 +1,11 @@
-\renewcommand{\theequation}{\theenumi}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\item \begin{table}[!ht]
+See Table \ref{table:2.1.6.sol}.
+ \begin{table}[!ht]
 	\centering
-	\input{./table/statexm/statexn62.tex}
-	\caption{friqustion distribution of marks in maths}
+	\input{./solutions/1-10/table/statexm/statexn62.tex}
+	\caption{}
+\label{table:2.1.6.sol}
 \end{table}
-\begin{align}
-\sum{f} &= 30
-\\
-\sum{f.x} &= 1860
-\\
-Mean &= \frac{\sum{f.x}}{\sum{f}}
-\\ &= \frac{1860}{30}
-\\&= 62
-\end{align}
-\item in this table max friquency is 8 and modal class related to it is 3-5.
+In this table max friquency is 8 and modal class related to it is 3-5.
 \\
 \begin{align}
 l &= 40
@@ -34,8 +24,7 @@ Mode &= l+\frac{f_1 - f_o}{2f_1 - f_o - f_2}\times h
 \\
 &=52
 \end{align}
-codes for the above equation can be get from here
+Related code is available in 
 \begin{lstlisting}
-codes/statexm/sataexm6.py
+./solutions/1-10/codes/statexm/sataexm6.py
 \end{lstlisting}
-\end{enumerate}
