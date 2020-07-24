@@ -32,60 +32,87 @@ Find the probability of getting each outcome.
 \end{table}
 %\\
 \solution
-\input{./solutions/1-10/chapters/prob_exm/prob2/solution3.tex}
+\input{./solutions/1-10/chapters/prob_exm/prob3/solution3.tex}
 
    \item On one page of a telephone directory, there were 200 telephone numbers.
-The frequency distribution of their unit place digit (for example, in the number 25828573, the unit place digit is 3) is given in Table below :\\
+The frequency distribution of their unit place digit (for example, in the number 25828573, the unit place digit is 3) is given in Table \ref{table:prob_exam4}
+below
 
-\resizebox{\columnwidth}{12pt}{%
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
 \begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c| } 
 \hline
  \textbf{Digit} &0 &1 &2 &3 &4 &5 &6 &7 &8 &9 \\ 
  \hline
  \textbf{Frequency} &22 &26 &22 &22 &20 &10 &14 &28 &16 &20 \\ 
  \hline
-\end{tabular}%\\
-}\\
-
-
+\end{tabular}
+}
+\caption{}
+\label{table:prob_exam4}
+\end{table}
 Without looking at the page, the pencil is placed on one of these numbers, i.e., the number is chosen at random. What is the probability that the digit in its unit place is 6?\\
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob4/solution4.tex}
    \item The record of a weather station shows that out of the past 250 consecutive days, its weather forecasts were correct 175 times.\\
    (i) What is the probability that on a given day it was correct?\\
 (ii) What is the probability that it was not correct on a given day?\\
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob5/solution5.tex}
 \item A tyre manufacturing company kept a record of the distance covered
-before a tyre needed to be replaced. The table shows the results of 1000 cases.\\
-\\
-\resizebox{\columnwidth}{12pt}{%
+before a tyre needed to be replaced. Table \ref{table:prob_exam6}
+shows the results of 1000 cases.
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
 \begin{tabular}{ |c|c|c|c|c| } 
  \hline
  \textbf{Distance(in km)} &$>$ 4000 &4000-9000 &9001-14000 &$<$14000 \\ 
  \hline
  \textbf{Frequency} &20 &210 &325 &445\\ 
  \hline
-\end{tabular}%\\
+\end{tabular}
 }
-\\
-
+\caption{}
+\label{table:prob_exam6}
+\end{table}
 If you buy a tyre of this company, what is the probability that :\\
 (i) it will need to be replaced before it has covered 4000 km?\\
 (ii) it will last more than 9000 km?\\
 (iii) it will need to be replaced after it has covered somewhere between 4000 km and 14000 km?\\
-\item The percentage of marks obtained by a student in the monthly unit tests are given below:\\
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob6/solution6.tex}
+\item The percentage of marks obtained by a student in the monthly unit tests are given in Table \ref{table:prob_exam}
+below.
+Based on this data, find the probability that the student gets more than 70$\%$ marks in a unit test.\\
 
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
 \begin{tabular}{ |c|c|c|c|c|c| } 
  \hline
  \textbf{Unit test} &I &II &III &IV &V \\ 
  \hline
  \textbf{Frequency }&69 &71 &73 &68 &74\\ 
  \hline
-\end{tabular}\\
+\end{tabular}
+}
+\caption{}
+\label{table:prob_exam7}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob7/solution7.tex}
 
-Based on this data, find the probability that the student gets more than 70$\%$ marks in a unit test.\\
 \item An insurance company selected 2000 drivers at random (i.e., without
-any preference of one driver over another) in a particular city to find a relationship between age and accidents. The data obtained are given in the following table:\\
-\ref{multicolumn_table}
-\begin{table}
+any preference of one driver over another) in a particular city to find a relationship between age and accidents. The data obtained are given in the Table \ref{table:prob_exam8}.
+Find the probabilities of the following events for a driver chosen at random from the city:\\
+(i) being 18-29 years of age \textit{and} having exactly 3 accidents in one year.\\
+(ii) being 30-50 years of age \textit{and} having one or more accidents in a year.\\
+(iii) having no accidents in one year.\\
+\begin{table}[!ht]
 \centering
+\resizebox{\columnwidth}{!}{
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 \textbf{Age of drivers} &\multicolumn{5}{c|}{\textbf{Accidents in one year }}\\
@@ -99,16 +126,22 @@ any preference of one driver over another) in a particular city to find a relati
 Above 50 &360 &45 &35 &15 &9\\
 \hline
 \end{tabular}
-
+}
+\caption{}
+\label{table:prob_exam8}
 \end{table}
 
-Find the probabilities of the following events for a driver chosen at random from the city:\\
-(i) being 18-29 years of age \textit{and} having exactly 3 accidents in one year.\\
-(ii) being 30-50 years of age \textit{and} having one or more accidents in a year.\\
-(iii) having no accidents in one year.\\
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob8/solution8.tex}
 
-\item Consider the frequency distribution table below which gives the weights of 38 students of a class.\\
-\\
+\item Consider the frequency distribution in Table \ref{table:prob_exam9} below which gives the weights of 38 students of a class.
+(i) Find the probability that the weight of a student in the class lies in the interval 46-50 kg.\\
+(ii) Give two events in this context, one having probability 0 and the other having probability 1.
+
+%
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
 \begin{tabular}{ |c|c| } 
  \hline
  \textbf{Weights (in kg)} &\textbf{Number of students }\\ 
@@ -125,22 +158,30 @@ Find the probabilities of the following events for a driver chosen at random fro
  \hline
  \textbf{Total} &38\\
  \hline
-\end{tabular}\\
-
-(i) Find the probability that the weight of a student in the class lies in the interval 46-50 kg.\\
-(ii) Give two events in this context, one having probability 0 and the other having probability 1.\\
+\end{tabular}
+}
+\caption{}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob9/solution9.tex}
 
 \item Fifty seeds were selected at random from each of 5 bags of seeds, and were kept under standardised conditions favourable to germination. After 20 days, the
 number of seeds which had germinated in each collection were counted and recorded as follows:\\
 
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
 \begin{tabular}{ |c|c|c|c|c|c| } 
  \hline
  \textbf{Bag} &1 &2 &3 &4 &5\\ 
  \hline
 \textbf{No.of seeds germinated} &40 &48 &42 &39 &41 \\ 
  \hline
-\end{tabular}\\
-
+\end{tabular}
+}
+\caption{}
+\label{table:prob_exam}
+\end{table}
 What is the probability of germination of
 (i)more than 40 seeds in a bag?\\
 (ii) 49 seeds in a bag?\\
