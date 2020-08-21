@@ -60,11 +60,12 @@ plt.ylabel('$y$')
 plt.legend(loc='best')
 plt.grid() # minor
 plt.axis('equal')
+
+#if using termux
+#plt.savefig('./figs/tri_sss.pdf')
+#plt.savefig('./figs/tri_sss.eps')
+#subprocess.run(shlex.split("termux-open ./figs/tri_sss.pdf"))
+#else
 plt.show()
-
-
-
-
-
 
 
