@@ -7,4 +7,3 @@ svn co https://github.com/gadepall/school/trunk/training/design
 cd design
 pdflatex document.tex
 evince document.pdf
-python codes/triangle.py
