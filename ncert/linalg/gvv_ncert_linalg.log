@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  8 SEP 2020 09:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  8 SEP 2020 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3282,11 +3282,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
-(./solutions/complex/14/solution.tex)
+(./solutions/complex/14/solution.tex) (./solutions/complex/15/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./line/coord_ex.tex (./solutions/1/chapters/line/point_vector/solution.tex)
+))
+(./line/coord_ex.tex
+Underfull \vbox (badness 2343) has occurred while \output is active []
+
+ [45]
+(./solutions/1/chapters/line/point_vector/solution.tex)
 (./solutions/2/chapters/line_ex/pts_and_vectors/solution.tex
 
 LaTeX Warning: File `./solutions/2/figs/line_ex/pts_and_vectors/dist_bt_pts.eps
@@ -3304,7 +3308,7 @@ s_and_vectors/dist_bt_pts.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/2/figs/line_ex/pts_and_vectors/dist_bt_pts-eps-converted-to.pdf, i
-d=2338, 462.52798pt x 346.89601pt>
+d=2372, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/line_ex/pts_and_vectors/dist_bt_pts-eps-converted-to.p
 df Graphic file (type pdf)
 <use ./solutions/2/figs/line_ex/pts_and_vectors/dist_bt_pts-eps-converted-to.pd
@@ -3312,7 +3316,7 @@ f>
 Package pdftex.def Info: ./solutions/2/figs/line_ex/pts_and_vectors/dist_bt_pts
 -eps-converted-to.pdf  used on input line 15.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/3/chapters/line/towns/solution.tex [45]
+) (./solutions/3/chapters/line/towns/solution.tex
 
 LaTeX Warning: File `./solutions/3/codes/line/towns/pyfigs/towns.eps' not found
  on input line 19.
@@ -3328,7 +3332,7 @@ owns/pyfigs/towns-eps-converted-to.pdf ./solutions/3/codes/line/towns/pyfigs/to
 wns.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/line/towns/pyfigs/towns-eps-converted-to.pdf, id=2379, 462
+<./solutions/3/codes/line/towns/pyfigs/towns-eps-converted-to.pdf, id=2375, 462
 .52798pt x 346.89601pt>
 File: ./solutions/3/codes/line/towns/pyfigs/towns-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3336,7 +3340,9 @@ file (type pdf)
 Package pdftex.def Info: ./solutions/3/codes/line/towns/pyfigs/towns-eps-conver
 ted-to.pdf  used on input line 19.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/4/chapters/line/point_and_vector/solution.tex
+) (./solutions/4/chapters/line/point_and_vector/solution.tex [46 <./solutions/2
+/figs/line_ex/pts_and_vectors/dist_bt_pts-eps-converted-to.pdf> <./solutions/3/
+codes/line/towns/pyfigs/towns-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/4/figures/line/quads/quad1.eps' not found on i
 nput line 27.
@@ -3356,7 +3362,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/line/quads/quad1-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./solutions/4/figures/line/quads/quad1-eps-converted-to.pdf, id=2381, 462.7287
+<./solutions/4/figures/line/quads/quad1-eps-converted-to.pdf, id=2447, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/line/quads/quad1-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3364,9 +3370,6 @@ File: ./solutions/4/figures/line/quads/quad1-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: ./solutions/4/figures/line/quads/quad1-eps-converted-t
 o.pdf  used on input line 27.
 (pdftex.def)             Requested size: 252.0pt x 188.5916pt.
-[46 <./solutions/2/figs/line_ex/pts_and_vectors/dist_bt_pts-eps-converted-to.pd
-f> <./solutions/3/codes/line/towns/pyfigs/towns-eps-converted-to.pdf> <./soluti
-ons/4/figures/line/quads/quad1-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/4/figures/line/quads/quad2.eps' not found on i
 nput line 50.
@@ -3386,7 +3389,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/line/quads/quad2-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./solutions/4/figures/line/quads/quad2-eps-converted-to.pdf, id=2470, 462.7287
+<./solutions/4/figures/line/quads/quad2-eps-converted-to.pdf, id=2449, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/line/quads/quad2-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3394,10 +3397,6 @@ File: ./solutions/4/figures/line/quads/quad2-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: ./solutions/4/figures/line/quads/quad2-eps-converted-t
 o.pdf  used on input line 50.
 (pdftex.def)             Requested size: 252.0pt x 188.5916pt.
-
-Underfull \vbox (badness 1917) has occurred while \output is active []
-
-
 
 LaTeX Warning: File `./solutions/4/figures/line/quads/quad3.eps' not found on i
 nput line 81.
@@ -3412,7 +3411,7 @@ Package epstopdf Info: Source file: <./solutions/4/figures/line/quads/quad3.eps
 /quads/quad3-eps-converted-to.pdf ./solutions/4/figures/line/quads/quad3.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/4/figures/line/quads/quad3-eps-converted-to.pdf, id=2473, 462.7287
+<./solutions/4/figures/line/quads/quad3-eps-converted-to.pdf, id=2452, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/line/quads/quad3-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3421,6 +3420,10 @@ Package pdftex.def Info: ./solutions/4/figures/line/quads/quad3-eps-converted-t
 o.pdf  used on input line 81.
 (pdftex.def)             Requested size: 252.0pt x 188.5916pt.
 ) (./solutions/5/chapters/lines/docq9.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47 <./solutions/4/figures/line/quads/quad1-eps-converted-to.pdf> <./solutions
+/4/figures/line/quads/quad2-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/5/figs/lines/q9.eps' not found on input line 1
 5.
@@ -3434,16 +3437,18 @@ to.pdf>
 9-eps-converted-to.pdf ./solutions/5/figs/lines/q9.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/lines/q9-eps-converted-to.pdf, id=2475, 462.52798pt x 346.8
+<./solutions/5/figs/lines/q9-eps-converted-to.pdf, id=2530, 462.52798pt x 346.8
 9601pt>
 File: ./solutions/5/figs/lines/q9-eps-converted-to.pdf Graphic file (type pdf)
 <use ./solutions/5/figs/lines/q9-eps-converted-to.pdf>
 Package pdftex.def Info: ./solutions/5/figs/lines/q9-eps-converted-to.pdf  used
  on input line 15.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/6/chapters/line/point_vector/solution.tex [47 <./solutions/4/fig
-ures/line/quads/quad2-eps-converted-to.pdf> <./solutions/4/figures/line/quads/q
-uad3-eps-converted-to.pdf>]
+)
+Underfull \vbox (badness 1259) has occurred while \output is active []
+
+
+(./solutions/6/chapters/line/point_vector/solution.tex
 
 LaTeX Warning: File `./solutions/6/codes/line/point_vector/point_vector.eps' no
 t found on input line 30.
@@ -3460,14 +3465,17 @@ ctor/point_vector.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/6/codes/line/point_vector/point_vector-eps-converted-to.pdf, id=25
-52, 526.12558pt x 362.7954pt>
+32, 526.12558pt x 362.7954pt>
 File: ./solutions/6/codes/line/point_vector/point_vector-eps-converted-to.pdf G
 raphic file (type pdf)
 <use ./solutions/6/codes/line/point_vector/point_vector-eps-converted-to.pdf>
 Package pdftex.def Info: ./solutions/6/codes/line/point_vector/point_vector-eps
 -converted-to.pdf  used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 173.7689pt.
-) (./solutions/7/chapters/line/point_vec/solution.tex
+) [48 <./solutions/4/figures/line/quads/quad3-eps-converted-to.pdf> <./solution
+s/5/figs/lines/q9-eps-converted-to.pdf> <./solutions/6/codes/line/point_vector/
+point_vector-eps-converted-to.pdf>]
+(./solutions/7/chapters/line/point_vec/solution.tex
 
 LaTeX Warning: File `./solutions/7/figs/line/point_vec/point_vec.eps' not found
  on input line 28.
@@ -3483,7 +3491,7 @@ int_vec/point_vec-eps-converted-to.pdf ./solutions/7/figs/line/point_vec/point_
 vec.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/line/point_vec/point_vec-eps-converted-to.pdf, id=2554, 462
+<./solutions/7/figs/line/point_vec/point_vec-eps-converted-to.pdf, id=2621, 462
 .72874pt x 347.2975pt>
 File: ./solutions/7/figs/line/point_vec/point_vec-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3491,7 +3499,11 @@ file (type pdf)
 Package pdftex.def Info: ./solutions/7/figs/line/point_vec/point_vec-eps-conver
 ted-to.pdf  used on input line 28.
 (pdftex.def)             Requested size: 252.0pt x 189.13824pt.
-) (./solutions/point_vector/8/solution.tex
+)
+Underfull \vbox (badness 3078) has occurred while \output is active []
+
+
+(./solutions/point_vector/8/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 73--2
 \OT1/txr/m/n/12 Also, show that they are mu-tu-ally
  []
@@ -3501,12 +3513,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--2
 
  []
 
-[48 <./solutions/5/figs/lines/q9-eps-converted-to.pdf> <./solutions/6/codes/lin
-e/point_vector/point_vector-eps-converted-to.pdf>])
-(./solutions/point_vector/9/solution.tex
+) (./solutions/point_vector/9/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [49 <./solutions/7/figs/line/point_vec/point_vec-eps-converted-to.pdf>])
 (./solutions/point_vector/10/solution.tex
 Overfull \hbox (35.45677pt too wide) in paragraph at lines 15--15
 [] 
@@ -3515,15 +3525,12 @@ Overfull \hbox (35.45677pt too wide) in paragraph at lines 15--15
 ) (./solutions/point_vector/12/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./solutions/7/figs/line/point_vec/point_vec-eps-converted-to.pdf>])
+)
 (./solutions/point_vector/13/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [50])
 (./solutions/point_vector/15/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3531,21 +3538,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-) (./solutions/point_vector/20/solution.tex
-Underfull \vbox (badness 6893) has occurred while \output is active []
-
- [51])
-(./solutions/point_vector/21/solution.tex
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [51]
+(./solutions/point_vector/20/solution.tex
+Underfull \vbox (badness 5832) has occurred while \output is active []
 
+)
+(./solutions/point_vector/21/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52])
 (./solutions/point_vector/22/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/point_vector/22/Assignment1.png, id=2738, 367.3725pt x 248.93pt>
+<./solutions/point_vector/22/Assignment1.png, id=2747, 367.3725pt x 248.93pt>
 File: ./solutions/point_vector/22/Assignment1.png Graphic file (type png)
 <use ./solutions/point_vector/22/Assignment1.png>
 Package pdftex.def Info: ./solutions/point_vector/22/Assignment1.png  used on i
@@ -3598,7 +3606,7 @@ ted-to.pdf>
 ction-eps-converted-to.pdf ./solutions/1/figs/line/section.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/line/section-eps-converted-to.pdf, id=2824, 462.52798pt x 3
+<./solutions/1/figs/line/section-eps-converted-to.pdf, id=2833, 462.52798pt x 3
 46.89601pt>
 File: ./solutions/1/figs/line/section-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3623,7 +3631,7 @@ n_a_line/trisection.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/2/figs/line_ex/pts_on_a_line/trisection-eps-converted-to.pdf, id=2
-826, 462.52798pt x 346.89601pt>
+835, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/line_ex/pts_on_a_line/trisection-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use ./solutions/2/figs/line_ex/pts_on_a_line/trisection-eps-converted-to.pdf>
@@ -3647,7 +3655,7 @@ ection/pyfigs/section-eps-converted-to.pdf ./solutions/3/codes/line/section/pyf
 igs/section.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/line/section/pyfigs/section-eps-converted-to.pdf, id=2875,
+<./solutions/3/codes/line/section/pyfigs/section-eps-converted-to.pdf, id=2884,
  462.52798pt x 346.89601pt>
 File: ./solutions/3/codes/line/section/pyfigs/section-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -3680,7 +3688,7 @@ pdfTeX warning: pdflatex (file ./solutions/4/figures/line/point_on_line/point_o
 n_line-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <./solutions/4/figures/line/point_on_line/point_on_line-eps-converted-to.pdf, i
-d=2876, 462.72874pt x 346.29375pt>
+d=2885, 462.72874pt x 346.29375pt>
 File: ./solutions/4/figures/line/point_on_line/point_on_line-eps-converted-to.p
 df Graphic file (type pdf)
 <use ./solutions/4/figures/line/point_on_line/point_on_line-eps-converted-to.pd
@@ -3705,7 +3713,7 @@ Package epstopdf Info: Source file: <./solutions/5/figs/lines/q10.eps>
 10-eps-converted-to.pdf ./solutions/5/figs/lines/q10.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/lines/q10-eps-converted-to.pdf, id=2964, 462.52798pt x 346.
+<./solutions/5/figs/lines/q10-eps-converted-to.pdf, id=2973, 462.52798pt x 346.
 89601pt>
 File: ./solutions/5/figs/lines/q10-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3729,7 +3737,7 @@ oint_line/int_sec-eps-converted-to.pdf ./solutions/6/codes/line/point_line/int_
 sec.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/line/point_line/int_sec-eps-converted-to.pdf, id=2966, 526
+<./solutions/6/codes/line/point_line/int_sec-eps-converted-to.pdf, id=2975, 526
 .12558pt x 362.7954pt>
 File: ./solutions/6/codes/line/point_line/int_sec-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3753,7 +3761,7 @@ int_line/line-eps-converted-to.pdf ./solutions/7/figs/line/point_line/line.eps>
 
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/line/point_line/line-eps-converted-to.pdf, id=2968, 462.527
+<./solutions/7/figs/line/point_line/line-eps-converted-to.pdf, id=2977, 462.527
 98pt x 346.89601pt>
 File: ./solutions/7/figs/line/point_line/line-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3778,7 +3786,7 @@ d-to.pdf>
 ne1-eps-converted-to.pdf ./solutions/1/figs/line/line1.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/line/line1-eps-converted-to.pdf, id=3073, 462.52798pt x 346
+<./solutions/1/figs/line/line1-eps-converted-to.pdf, id=3082, 462.52798pt x 346
 .89601pt>
 File: ./solutions/1/figs/line/line1-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3799,7 +3807,7 @@ d-to.pdf>
 ne2-eps-converted-to.pdf ./solutions/1/figs/line/line2.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/line/line2-eps-converted-to.pdf, id=3075, 462.52798pt x 346
+<./solutions/1/figs/line/line2-eps-converted-to.pdf, id=3084, 462.52798pt x 346
 .89601pt>
 File: ./solutions/1/figs/line/line2-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3820,7 +3828,7 @@ d-to.pdf>
 ne3-eps-converted-to.pdf ./solutions/1/figs/line/line3.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/line/line3-eps-converted-to.pdf, id=3077, 462.52798pt x 346
+<./solutions/1/figs/line/line3-eps-converted-to.pdf, id=3086, 462.52798pt x 346
 .89601pt>
 File: ./solutions/1/figs/line/line3-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3845,7 +3853,7 @@ d-to.pdf>
 ne4-eps-converted-to.pdf ./solutions/1/figs/line/line4.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/line/line4-eps-converted-to.pdf, id=3134, 462.52798pt x 346
+<./solutions/1/figs/line/line4-eps-converted-to.pdf, id=3143, 462.52798pt x 346
 .89601pt>
 File: ./solutions/1/figs/line/line4-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3886,7 +3894,7 @@ s_and_planes/final_eq.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/2/figs/line_ex/lines_and_planes/final_eq-eps-converted-to.pdf, id=
-3222, 462.52798pt x 346.89601pt>
+3231, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/line_ex/lines_and_planes/final_eq-eps-converted-to.pdf
  Graphic file (type pdf)
 <use ./solutions/2/figs/line_ex/lines_and_planes/final_eq-eps-converted-to.pdf>
@@ -3920,7 +3928,7 @@ intonline2/pyfigs/pointonline.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/3/codes/line/pointonline2/pyfigs/pointonline-eps-converted-to.pdf,
- id=3288, 462.52798pt x 346.89601pt>
+ id=3298, 462.52798pt x 346.89601pt>
 File: ./solutions/3/codes/line/pointonline2/pyfigs/pointonline-eps-converted-to
 .pdf Graphic file (type pdf)
 <use ./solutions/3/codes/line/pointonline2/pyfigs/pointonline-eps-converted-to.
@@ -3991,7 +3999,7 @@ pdfTeX warning: pdflatex (file ./solutions/4/figures/line/lines_and_planes/line
 s_and_planes-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./solutions/4/figures/line/lines_and_planes/lines_and_planes-eps-converted-to.
-pdf, id=3347, 462.72874pt x 346.29375pt>
+pdf, id=3356, 462.72874pt x 346.29375pt>
 File: ./solutions/4/figures/line/lines_and_planes/lines_and_planes-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use ./solutions/4/figures/line/lines_and_planes/lines_and_planes-eps-converted
@@ -4013,7 +4021,7 @@ d-to.pdf>
 11a-eps-converted-to.pdf ./solutions/5/figs/lines/q11a.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/lines/q11a-eps-converted-to.pdf, id=3386, 462.52798pt x 346
+<./solutions/5/figs/lines/q11a-eps-converted-to.pdf, id=3395, 462.52798pt x 346
 .89601pt>
 File: ./solutions/5/figs/lines/q11a-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4034,7 +4042,7 @@ d-to.pdf>
 11b-eps-converted-to.pdf ./solutions/5/figs/lines/q11b.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/lines/q11b-eps-converted-to.pdf, id=3387, 462.52798pt x 346
+<./solutions/5/figs/lines/q11b-eps-converted-to.pdf, id=3396, 462.52798pt x 346
 .89601pt>
 File: ./solutions/5/figs/lines/q11b-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4115,7 +4123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<./solutions/line_plane/22/plot.png, id=3626, 359.84438pt x 228.855pt>
+<./solutions/line_plane/22/plot.png, id=3635, 359.84438pt x 228.855pt>
 File: ./solutions/line_plane/22/plot.png Graphic file (type png)
 <use ./solutions/line_plane/22/plot.png>
 Package pdftex.def Info: ./solutions/line_plane/22/plot.png  used on input line
@@ -4126,7 +4134,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ) [68 <./solutions/line_plane/22/plot.png>] (./solutions/line_plane/33/solution
 .tex
-<./solutions/line_plane/33/output.png, id=3658, 385.44pt x 262.9825pt>
+<./solutions/line_plane/33/output.png, id=3667, 385.44pt x 262.9825pt>
 File: ./solutions/line_plane/33/output.png Graphic file (type png)
 <use ./solutions/line_plane/33/output.png>
 Package pdftex.def Info: ./solutions/line_plane/33/output.png  used on input li
@@ -4140,7 +4148,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1348) has occurred while \output is active []
 
  [69 <./solutions/line_plane/33/output.png>]
-<./solutions/line_plane/34/figs/Figure_1.png, id=3693, 462.528pt x 346.896pt>
+<./solutions/line_plane/34/figs/Figure_1.png, id=3702, 462.528pt x 346.896pt>
 File: ./solutions/line_plane/34/figs/Figure_1.png Graphic file (type png)
 <use ./solutions/line_plane/34/figs/Figure_1.png>
 Package pdftex.def Info: ./solutions/line_plane/34/figs/Figure_1.png  used on i
@@ -4148,7 +4156,7 @@ nput line 44.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 )
 (./solutions/line_plane/37/A1/latex/solution.tex
-<solutions/line_plane/37/A1/a1.png, id=3695, 462.528pt x 346.896pt>
+<solutions/line_plane/37/A1/a1.png, id=3704, 462.528pt x 346.896pt>
 File: solutions/line_plane/37/A1/a1.png Graphic file (type png)
 <use solutions/line_plane/37/A1/a1.png>
 Package pdftex.def Info: solutions/line_plane/37/A1/a1.png  used on input line 
@@ -4165,7 +4173,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [70 <./solutions/line_plane/34/figs/Figure_1.png> <./solutions/line_plane/37/A
 1/a1.png>]
-<./solutions/line_plane/40/plot.png, id=3724, 462.528pt x 346.896pt>
+<./solutions/line_plane/40/plot.png, id=3733, 462.528pt x 346.896pt>
 File: ./solutions/line_plane/40/plot.png Graphic file (type png)
 <use ./solutions/line_plane/40/plot.png>
 Package pdftex.def Info: ./solutions/line_plane/40/plot.png  used on input line
@@ -4174,7 +4182,7 @@ Package pdftex.def Info: ./solutions/line_plane/40/plot.png  used on input line
 ) (./solutions/line_plane/41/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/line_plane/41/Figure_1.png, id=3726, 320.19624pt x 270.00874pt>
+<./solutions/line_plane/41/Figure_1.png, id=3735, 320.19624pt x 270.00874pt>
 File: ./solutions/line_plane/41/Figure_1.png Graphic file (type png)
 <use ./solutions/line_plane/41/Figure_1.png>
 Package pdftex.def Info: ./solutions/line_plane/41/Figure_1.png  used on input 
@@ -4187,7 +4195,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/line_plane/42/Figure_1.png, id=3755, 462.528pt x 346.896pt>
+<./solutions/line_plane/42/Figure_1.png, id=3764, 462.528pt x 346.896pt>
 File: ./solutions/line_plane/42/Figure_1.png Graphic file (type png)
 <use ./solutions/line_plane/42/Figure_1.png>
 Package pdftex.def Info: ./solutions/line_plane/42/Figure_1.png  used on input 
@@ -4201,37 +4209,60 @@ _1.png>]
 (./solutions/line_plane/49/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/line_plane/49/Edit_plot.png, id=3779, 462.528pt x 346.896pt>
+<./solutions/line_plane/49/Edit_plot.png, id=3788, 462.528pt x 346.896pt>
 File: ./solutions/line_plane/49/Edit_plot.png Graphic file (type png)
 <use ./solutions/line_plane/49/Edit_plot.png>
 Package pdftex.def Info: ./solutions/line_plane/49/Edit_plot.png  used on input
  line 59.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 )
+(./solutions/line_plane/50/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73]
-(./solutions/line_plane/51/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 638--2
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+\OT1/txr/m/n/12 As the line passes through point of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-<./solutions/line_plane/51/Plot.png, id=3824, 462.528pt x 346.896pt>
+<./solutions/line_plane/50/Assignment_1.png, id=3831, 462.528pt x 346.896pt>
+File: ./solutions/line_plane/50/Assignment_1.png Graphic file (type png)
+<use ./solutions/line_plane/50/Assignment_1.png>
+Package pdftex.def Info: ./solutions/line_plane/50/Assignment_1.png  used on in
+put line 83.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+)
+Underfull \vbox (badness 6032) has occurred while \output is active []
+
+ [74 <./solutions/line_plane/49/Edit_plot.png> <./solutions/line_plane/50/Assig
+nment_1.png>] (./solutions/line_plane/51/solution.tex
+Underfull \hbox (badness 10000) in paragraph at lines 641--2
+
+ []
+
+<./solutions/line_plane/51/Plot.png, id=3856, 462.528pt x 346.896pt>
 File: ./solutions/line_plane/51/Plot.png Graphic file (type png)
 <use ./solutions/line_plane/51/Plot.png>
 Package pdftex.def Info: ./solutions/line_plane/51/Plot.png  used on input line
  28.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-)
+) (./solutions/line_plane/55/solution.tex
+<./solutions/line_plane/55/Figure_1.png, id=3857, 462.528pt x 346.896pt>
+File: ./solutions/line_plane/55/Figure_1.png Graphic file (type png)
+<use ./solutions/line_plane/55/Figure_1.png>
+Package pdftex.def Info: ./solutions/line_plane/55/Figure_1.png  used on input 
+line 25.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [74 <./solutions/line_plane/49/Edit_plot.png> <./solutions/line_plane/51/Plot.
-png>]
-(./solutions/line_plane/60/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 719--2
+ [75 <./solutions/line_plane/51/Plot.png>]) (./solutions/line_plane/60/solution
+.tex
+Underfull \hbox (badness 10000) in paragraph at lines 726--2
 
  []
 
@@ -4243,7 +4274,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/line_plane/60/Figure_1.png, id=3850, 462.528pt x 346.896pt>
+ [76 <./solutions/line_plane/55/Figure_1.png>]
+<./solutions/line_plane/60/Figure_1.png, id=3916, 462.528pt x 346.896pt>
 File: ./solutions/line_plane/60/Figure_1.png Graphic file (type png)
 <use ./solutions/line_plane/60/Figure_1.png>
 Package pdftex.def Info: ./solutions/line_plane/60/Figure_1.png  used on input 
@@ -4259,14 +4291,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [75 <./solutions/line_plane/60/Figure_1.png>]) (./solutions/line_plane/67/solu
-tion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<./solutions/line_plane/67/Assignment_2_Figure.png, id=3877, 462.528pt x 346.89
+) (./solutions/line_plane/67/solution.tex
+<./solutions/line_plane/67/Assignment_2_Figure.png, id=3917, 462.528pt x 346.89
 6pt>
 File: ./solutions/line_plane/67/Assignment_2_Figure.png Graphic file (type png)
 
@@ -4274,22 +4300,31 @@ File: ./solutions/line_plane/67/Assignment_2_Figure.png Graphic file (type png)
 Package pdftex.def Info: ./solutions/line_plane/67/Assignment_2_Figure.png  use
 d on input line 11.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-)
-(./solutions/line_plane/68/solution.tex
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./solutions/line_plane/68/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[76 <./solutions/line_plane/67/Assignment_2_Figure.png>]
-<./solutions/line_plane/68/figs/line_Eqn3.png, id=3902, 462.528pt x 346.896pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77 <./solutions/line_plane/60/Figure_1.png>]
+<./solutions/line_plane/68/figs/line_Eqn3.png, id=3945, 462.528pt x 346.896pt>
 File: ./solutions/line_plane/68/figs/line_Eqn3.png Graphic file (type png)
 <use ./solutions/line_plane/68/figs/line_Eqn3.png>
 Package pdftex.def Info: ./solutions/line_plane/68/figs/line_Eqn3.png  used on 
 input line 23.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (./solutions/line_plane/70/solution.tex
-<./solutions/line_plane/70/codes/Assignment_2.png, id=3906, 184.43906pt x 121.9
+<./solutions/line_plane/70/codes/Assignment_2.png, id=3949, 184.43906pt x 121.9
 5563pt>
 File: ./solutions/line_plane/70/codes/Assignment_2.png Graphic file (type png)
 <use ./solutions/line_plane/70/codes/Assignment_2.png>
@@ -4297,52 +4332,84 @@ Package pdftex.def Info: ./solutions/line_plane/70/codes/Assignment_2.png  used
  on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 166.62784pt.
 )
-(./solutions/line_plane/71/solution.tex
+(./solutions/line_plane/71/solution.tex [78 <./solutions/line_plane/67/Assignme
+nt_2_Figure.png> <./solutions/line_plane/68/figs/line_Eqn3.png> <./solutions/li
+ne_plane/70/codes/Assignment_2.png>]
 Underfull \hbox (badness 1496) in paragraph at lines 7--9
 \OT1/txr/m/n/12 where $\OML/txmi/m/it/12 k$ \OT1/txr/m/n/12 is a con-stant mul-
 ti-ple. See Fig.
  []
 
-<./solutions/line_plane/71/Line_Image.png, id=3908, 350.30875pt x 231.86626pt>
+<./solutions/line_plane/71/Line_Image.png, id=3969, 350.30875pt x 231.86626pt>
 File: ./solutions/line_plane/71/Line_Image.png Graphic file (type png)
 <use ./solutions/line_plane/71/Line_Image.png>
 Package pdftex.def Info: ./solutions/line_plane/71/Line_Image.png  used on inpu
 t line 12.
 (pdftex.def)             Requested size: 252.0pt x 166.79851pt.
-[77 <./solutions/line_plane/68/figs/line_Eqn3.png> <./solutions/line_plane/70/c
-odes/Assignment_2.png>]) (./solutions/line_plane/72/solution.tex
+) (./solutions/line_plane/72/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 21--25
 
  []
 
-<./solutions/line_plane/72/assign2.png, id=3932, 574.145pt x 450.68375pt>
+<./solutions/line_plane/72/assign2.png, id=3971, 574.145pt x 450.68375pt>
 File: ./solutions/line_plane/72/assign2.png Graphic file (type png)
 <use ./solutions/line_plane/72/assign2.png>
 Package pdftex.def Info: ./solutions/line_plane/72/assign2.png  used on input l
 ine 41.
 (pdftex.def)             Requested size: 252.0pt x 197.80632pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./solutions/line_plane/75/solution.tex
+) (./solutions/line_plane/73/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78 <./solutions/line_plane/71/Line_Image.png> <./solutions/line_plane/72/assi
-gn2.png>]
-<./solutions/line_plane/75/Figures/lines.png, id=3963, 462.528pt x 346.896pt>
+ [79 <./solutions/line_plane/71/Line_Image.png> <./solutions/line_plane/72/assi
+gn2.png>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./solutions/line_plane/74/solution.tex
+
+LaTeX Warning: Reference `eq:solutions/line_plane/74/codes4' on page 80 undefin
+ed on input line 28.
+
+<./solutions/line_plane/74/codes/figs/Line_interest_1.png, id=3998, 433.62pt x 
+289.08pt>
+File: ./solutions/line_plane/74/codes/figs/Line_interest_1.png Graphic file (ty
+pe png)
+<use ./solutions/line_plane/74/codes/figs/Line_interest_1.png>
+Package pdftex.def Info: ./solutions/line_plane/74/codes/figs/Line_interest_1.p
+ng  used on input line 43.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+
+LaTeX Warning: Reference `eq:solutions/line_plane/74/codes4' on page 81 undefin
+ed on input line 75.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/line_plane/74/codes/figs/Line_interest_2.png, id=4044, 433.62pt x 
+289.08pt>
+File: ./solutions/line_plane/74/codes/figs/Line_interest_2.png Graphic file (ty
+pe png)
+<use ./solutions/line_plane/74/codes/figs/Line_interest_2.png>
+Package pdftex.def Info: ./solutions/line_plane/74/codes/figs/Line_interest_2.p
+ng  used on input line 91.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+)
+(./solutions/line_plane/75/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81 <./solutions/line_plane/74/codes/figs/Line_interest_1.png> <./solutions/li
+ne_plane/74/codes/figs/Line_interest_2.png>]
+<./solutions/line_plane/75/Figures/lines.png, id=4072, 462.528pt x 346.896pt>
 File: ./solutions/line_plane/75/Figures/lines.png Graphic file (type png)
 <use ./solutions/line_plane/75/Figures/lines.png>
 Package pdftex.def Info: ./solutions/line_plane/75/Figures/lines.png  used on i
 nput line 38.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ) (./solutions/line_plane/76/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
  []
@@ -4352,19 +4419,24 @@ Underfull \hbox (badness 2717) in paragraph at lines 25--29
 \OT1/txr/m/n/12 Dot prod-uct of di-rec-tion vec-tors $[]$ and
  []
 
-[79 <./solutions/line_plane/75/Figures/lines.png>]
-<./solutions/line_plane/76/lines.png, id=3998, 433.62pt x 289.08pt>
+<./solutions/line_plane/76/lines.png, id=4080, 433.62pt x 289.08pt>
 File: ./solutions/line_plane/76/lines.png Graphic file (type png)
 <use ./solutions/line_plane/76/lines.png>
 Package pdftex.def Info: ./solutions/line_plane/76/lines.png  used on input lin
 e 40.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
-Underfull \hbox (badness 2096) in paragraph at lines 894--898
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82 <./solutions/line_plane/75/Figures/lines.png>]
+Underfull \hbox (badness 2096) in paragraph at lines 906--910
 []\OT1/txr/m/n/12 Find the in-ter-cepts cut off by the plane
  []
 
-[80 <./solutions/line_plane/76/lines.png>] (./line/tables/3d_ncert.tex
+[83 <./solutions/line_plane/76/lines.png>] (./line/tables/3d_ncert.tex
 \gnumericTableWidth=\skip85
 \gnumericTableWidthComplete=\skip86
 \gnumericMultiRowLength=\skip87
@@ -4374,47 +4446,41 @@ Underfull \hbox (badness 2096) in paragraph at lines 894--898
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81]
+ [84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 1138--1140
+Underfull \hbox (badness 1838) in paragraph at lines 1150--1152
 []\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 1140--1141
+Underfull \hbox (badness 1838) in paragraph at lines 1152--1153
 []\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
  []
 
-[82]
+[85]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 1158.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 1158.
+LaTeX Warning: Command \textendash invalid in math mode on input line 1170.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 1312.
+LaTeX Warning: Command \textendash invalid in math mode on input line 1170.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 1324.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./line/line_motion.tex (./solutions/1/chapters/line/Motion_plane/solution.tex
-Underfull \vbox (badness 4673) has occurred while \output is active []
-
- [84]
 
 LaTeX Warning: File `./solutions/1/figs/line/speed.eps' not found on input line
  26.
@@ -4428,7 +4494,7 @@ d-to.pdf>
 eed-eps-converted-to.pdf ./solutions/1/figs/line/speed.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/line/speed-eps-converted-to.pdf, id=4206, 462.52798pt x 346
+<./solutions/1/figs/line/speed-eps-converted-to.pdf, id=4269, 462.52798pt x 346
 .89601pt>
 File: ./solutions/1/figs/line/speed-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4436,7 +4502,7 @@ File: ./solutions/1/figs/line/speed-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: ./solutions/1/figs/line/speed-eps-converted-to.pdf  us
 ed on input line 26.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/2/chapters/line_ex/motion_in_a_plane/solution.tex
+) (./solutions/2/chapters/line_ex/motion_in_a_plane/solution.tex [87]
 
 LaTeX Warning: File `./solutions/2/figs/line_ex/motion_in_a_plane/motion_plane.
 eps' not found on input line 18.
@@ -4453,7 +4519,7 @@ ne/motion_plane-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/2/figs/line_ex/motion_in_a_plane/motion_plane-eps-converted-to.pdf
-, id=4209, 462.52798pt x 346.89601pt>
+, id=4320, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/line_ex/motion_in_a_plane/motion_plane-eps-converted-t
 o.pdf Graphic file (type pdf)
 <use ./solutions/2/figs/line_ex/motion_in_a_plane/motion_plane-eps-converted-to
@@ -4481,7 +4547,7 @@ ain/pyfigs/rain-eps-converted-to.pdf ./solutions/3/codes/line/rain/pyfigs/rain.
 eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/line/rain/pyfigs/rain-eps-converted-to.pdf, id=4212, 462.5
+<./solutions/3/codes/line/rain/pyfigs/rain-eps-converted-to.pdf, id=4323, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/3/codes/line/rain/pyfigs/rain-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4489,11 +4555,10 @@ le (type pdf)
 Package pdftex.def Info: ./solutions/3/codes/line/rain/pyfigs/rain-eps-converte
 d-to.pdf  used on input line 26.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/4/chapters/line/motion/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [85 <./solutions/1/figs/line/speed-eps-converted-to.pdf> <./solutions/2/figs/l
-ine_ex/motion_in_a_plane/motion_plane-eps-converted-to.pdf>]
+) (./solutions/4/chapters/line/motion/solution.tex [88 <./solutions/1/figs/line
+/speed-eps-converted-to.pdf> <./solutions/2/figs/line_ex/motion_in_a_plane/moti
+on_plane-eps-converted-to.pdf> <./solutions/3/codes/line/rain/pyfigs/rain-eps-c
+onverted-to.pdf>]
 
 LaTeX Warning: File `./solutions/4/figures/line/motion/motion.eps' not found on
  input line 42.
@@ -4514,7 +4579,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/line/motion/motion-eps-con
 verted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
-<./solutions/4/figures/line/motion/motion-eps-converted-to.pdf, id=4313, 462.72
+<./solutions/4/figures/line/motion/motion-eps-converted-to.pdf, id=4438, 462.72
 874pt x 346.29375pt>
 File: ./solutions/4/figures/line/motion/motion-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4523,6 +4588,9 @@ Package pdftex.def Info: ./solutions/4/figures/line/motion/motion-eps-converted
 -to.pdf  used on input line 42.
 (pdftex.def)             Requested size: 252.0pt x 188.5916pt.
 ) (./solutions/5/chapters/lines/docq12.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Warning: File `./solutions/5/figs/lines/q12.eps' not found on input line 
 26.
@@ -4536,7 +4604,7 @@ Package epstopdf Info: Source file: <./solutions/5/figs/lines/q12.eps>
 12-eps-converted-to.pdf ./solutions/5/figs/lines/q12.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/lines/q12-eps-converted-to.pdf, id=4316, 462.52798pt x 346.
+<./solutions/5/figs/lines/q12-eps-converted-to.pdf, id=4441, 462.52798pt x 346.
 89601pt>
 File: ./solutions/5/figs/lines/q12-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -4544,9 +4612,7 @@ File: ./solutions/5/figs/lines/q12-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./solutions/5/figs/lines/q12-eps-converted-to.pdf  use
 d on input line 26.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/6/chapters/line/motion_plane/solution.tex [86 <./solutions/3/cod
-es/line/rain/pyfigs/rain-eps-converted-to.pdf> <./solutions/4/figures/line/moti
-on/motion-eps-converted-to.pdf>]
+) (./solutions/6/chapters/line/motion_plane/solution.tex
 
 LaTeX Warning: File `./solutions/6/codes/line/motion_plane/man_river.eps' not f
 ound on input line 8.
@@ -4562,7 +4628,7 @@ otion_plane/man_river-eps-converted-to.pdf ./solutions/6/codes/line/motion_plan
 e/man_river.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/line/motion_plane/man_river-eps-converted-to.pdf, id=4385,
+<./solutions/6/codes/line/motion_plane/man_river-eps-converted-to.pdf, id=4443,
  526.12558pt x 362.7954pt>
 File: ./solutions/6/codes/line/motion_plane/man_river-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4571,14 +4637,13 @@ Package pdftex.def Info: ./solutions/6/codes/line/motion_plane/man_river-eps-co
 nverted-to.pdf  used on input line 8.
 (pdftex.def)             Requested size: 252.0pt x 173.7689pt.
 
-Underfull \vbox (badness 4366) has occurred while \output is active []
+Underfull \vbox (badness 1325) has occurred while \output is active []
+
+ [89 <./solutions/4/figures/line/motion/motion-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/7/chapters/line/motion/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87 <./solutions/5/figs/lines/q12-eps-converted-to.pdf> <./solutions/6/codes/l
-ine/motion_plane/man_river-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/7/figs/line/motion/motion.eps' not found on in
 put line 24.
@@ -4593,7 +4658,7 @@ converted-to.pdf>
 tion/motion-eps-converted-to.pdf ./solutions/7/figs/line/motion/motion.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/line/motion/motion-eps-converted-to.pdf, id=4472, 462.72874
+<./solutions/7/figs/line/motion/motion-eps-converted-to.pdf, id=4498, 462.72874
 pt x 347.2975pt>
 File: ./solutions/7/figs/line/motion/motion-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -4601,7 +4666,8 @@ type pdf)
 Package pdftex.def Info: ./solutions/7/figs/line/motion/motion-eps-converted-to
 .pdf  used on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 189.13824pt.
-)
+) [90 <./solutions/5/figs/lines/q12-eps-converted-to.pdf> <./solutions/6/codes/
+line/motion_plane/man_river-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./line/figs/11-1/6/6.10.eps' not found on input line 60.
 
@@ -4614,31 +4680,33 @@ df>
 s-converted-to.pdf ./line/figs/11-1/6/6.10.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
-<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=4474, 389.455pt x 188.705pt>
+<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=4587, 389.455pt x 188.705pt>
 File: ./line/figs/11-1/6/6.10-eps-converted-to.pdf Graphic file (type pdf)
 <use ./line/figs/11-1/6/6.10-eps-converted-to.pdf>
 Package pdftex.def Info: ./line/figs/11-1/6/6.10-eps-converted-to.pdf  used on 
 input line 60.
 (pdftex.def)             Requested size: 252.0pt x 122.10106pt.
-) (./line/matrix_exer.tex (./solutions/1/chapters/line/matrix/solution.tex)
-(./solutions/2/chapters/line_ex/matrix/solution.tex [88 <./solutions/7/figs/lin
-e/motion/motion-eps-converted-to.pdf> <./line/figs/11-1/6/6.10-eps-converted-to
-.pdf>]) (./solutions/3/chapters/line/matrix/solution.tex
+) (./line/matrix_exer.tex
+Underfull \vbox (badness 5817) has occurred while \output is active []
+
+
+(./solutions/1/chapters/line/matrix/solution.tex)
+(./solutions/2/chapters/line_ex/matrix/solution.tex)
+(./solutions/3/chapters/line/matrix/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--2
 
  []
 
-) (./solutions/4/chapters/line/matrix/solution.tex)
+[91 <./solutions/7/figs/line/motion/motion-eps-converted-to.pdf> <./line/figs/1
+1-1/6/6.10-eps-converted-to.pdf>])
+(./solutions/4/chapters/line/matrix/solution.tex)
 (./solutions/5/chapters/lines/docq13.tex)
 (./solutions/6/chapters/line/matrix/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 30--4
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89])
+)
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
@@ -4659,6 +4727,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--43
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
 Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
@@ -4694,9 +4765,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 []\OT1/txr/m/n/12 If,A=$[]$,B=$[]$and
  []
@@ -4721,17 +4789,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (./solutions/matrix/16/solution.tex
 Overfull \hbox (18.61166pt too wide) in paragraph at lines 59--1
 []\OT1/txr/m/n/12 Simplify $[] \OML/txmi/m/it/12 ^^R$$[]$\OT1/txr/m/n/12 +$[] \
 OML/txmi/m/it/12 ^^R$$[]$ 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [90])
-(./solutions/matrix/17/solution.tex
+) (./solutions/matrix/17/solution.tex
 Underfull \hbox (badness 6859) in paragraph at lines 7--9
 \OT1/txr/m/n/12 Now, ex-press-ing the ma-tri-ces [],
  []
@@ -4739,41 +4807,40 @@ Underfull \hbox (badness 6859) in paragraph at lines 7--9
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [93]
 Underfull \hbox (badness 6859) in paragraph at lines 36--38
 \OT1/txr/m/n/12 Now, ex-press-ing the ma-tri-ces [],
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+(./solutions/matrix/18/solution.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+ [94]
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 (./solutions/matrix/23/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 73--3
+Underfull \hbox (badness 10000) in paragraph at lines 75--3
 
  []
 
@@ -4783,7 +4850,7 @@ Overfull \hbox (22.62862pt too wide) in paragraph at lines 42--42
  []
 
 ) (./solutions/matrix/24_1/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 76--2
+Underfull \hbox (badness 10000) in paragraph at lines 78--2
 \OT1/txr/m/n/12 (ii)$[] [] \U/txsyc/m/n/12 ,
  []
 
@@ -4792,16 +4859,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `eq1' on page 92 undefined on input line 5.
+LaTeX Warning: Reference `eq1' on page 95 undefined on input line 5.
 
 
-LaTeX Warning: Reference `eq1' on page 92 undefined on input line 11.
+LaTeX Warning: Reference `eq1' on page 95 undefined on input line 11.
 
 
-LaTeX Warning: Reference `eq2' on page 92 undefined on input line 17.
+LaTeX Warning: Reference `eq2' on page 95 undefined on input line 17.
 
 
-LaTeX Warning: Reference `eq3' on page 92 undefined on input line 17.
+LaTeX Warning: Reference `eq3' on page 95 undefined on input line 17.
 
 ) (./solutions/matrix/24_2/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
@@ -4814,92 +4881,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
 Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
 
-
+) (./solutions/matrix/25/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92])
-(./solutions/matrix/25/solution.tex) (./solutions/matrix/26/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Reference `eq:sol_line_plane_26Final' on page 93 undefined on in
-put line 8.
-
-
-LaTeX Warning: Reference `eq:sol_line_plane_26Final' on page 93 undefined on in
-put line 8.
-
-
-LaTeX Warning: Reference `eq:sol_line_plane_26pol' on page 93 undefined on inpu
-t line 13.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+(./solutions/matrix/26/solution.tex
+
+LaTeX Warning: Reference `eq:sol_line_plane_26Final' on page 96 undefined on in
+put line 8.
+
+
+LaTeX Warning: Reference `eq:sol_line_plane_26Final' on page 96 undefined on in
+put line 8.
+
+
+LaTeX Warning: Reference `eq:sol_line_plane_26pol' on page 96 undefined on inpu
+t line 13.
+
+) (./solutions/matrix/27/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+
+LaTeX Warning: Reference `eq:solutions/matrix/27eq1' on page 97 undefined on in
+put line 19.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
-Underfull \hbox (badness 1755) in paragraph at lines 92--97
+Underfull \hbox (badness 1755) in paragraph at lines 96--101
 \OT1/txr/m/n/12 mul-ti-pli-ca-tion, de-ter-mine how to di-vide \U/tfrupee/m/n/1
 2 |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--97
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
 
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 97--103
+Underfull \hbox (badness 1902) in paragraph at lines 101--107
 []\OT1/txr/m/n/12 The book-shop of a par-tic-u-lar school has
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 97--103
+Underfull \hbox (badness 2318) in paragraph at lines 101--107
 \OT1/txr/m/n/12 books, 10 dozen eco-nomics books. Their
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 97--103
+Underfull \hbox (badness 7869) in paragraph at lines 101--107
 \OT1/txr/m/n/12 re-spec-tively. Find the to-tal amount the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--103
+Underfull \hbox (badness 10000) in paragraph at lines 101--107
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 
- [93]
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 112--114
-[]\OT1/txr/m/n/12 If A=$[]$ and B=$[]$,then
  []
 
 
@@ -4908,115 +4960,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--114
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 2790) in paragraph at lines 116--118
+[]\OT1/txr/m/n/12 If A=$[]$ and B=$[]$,then
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 []\OT1/txr/m/n/12 For the ma-tri-ces A and B,verify that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 \OT1/txr/m/n/12 (i)A=$[]$,B=$[]$
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 119--121
+Underfull \hbox (badness 1946) in paragraph at lines 123--125
 []\OT1/txr/m/n/12 If (i) A=$[]$, then ver-ify that
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 119--121
+Underfull \hbox (badness 3291) in paragraph at lines 123--125
 \OT1/txr/m/n/12 (ii) If A=$[]$,then ver-ify that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+ [97]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 []\OT1/txr/m/n/12 Find $[](\OML/txmi/m/it/12 A \OT1/txr/m/n/12 + \OML/txmi/m/it
 /12 A[]\OT1/txr/m/n/12 )$and $[](\OML/txmi/m/it/12 A \OMS/txsy/m/n/12 ^^@ \OML/
 txmi/m/it/12 A[]\OT1/txr/m/n/12 )$,when
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 133--136
+Underfull \hbox (badness 3260) in paragraph at lines 137--140
 []\OT1/txr/m/n/12 If A,B are sym-met-ric ma-tri-ces of same
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [94]
-Underfull \hbox (badness 6526) in paragraph at lines 140--141
+Underfull \hbox (badness 6526) in paragraph at lines 144--145
 []\OT1/txr/m/n/12 Using el-e-men-tary trans-foram-tions,find the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
@@ -5034,6 +5081,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
@@ -5086,30 +5136,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 164--167
 
  []
 
@@ -5119,11 +5166,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 170--171
-[]\OT1/txr/m/n/12 Find the val-ues of x,y,z if the ma-trix
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
@@ -5139,8 +5189,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
+Underfull \hbox (badness 4765) in paragraph at lines 174--175
+[]\OT1/txr/m/n/12 Find the val-ues of x,y,z if the ma-trix
  []
 
 
@@ -5149,69 +5199,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--175
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 176--187
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 180--191
 \OT1/txr/m/n/12 (a) If unit sale prices of x,y and z are
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 176--187
+Underfull \hbox (badness 1360) in paragraph at lines 180--191
 \U/tfrupee/m/n/12 |\OT1/txr/m/n/12 2.50,\U/tfrupee/m/n/12 |\OT1/txr/m/n/12 1.50
  and \U/tfrupee/m/n/12 |\OT1/txr/m/n/12 1.00 re-spec-tively,find the
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 176--187
+Underfull \hbox (badness 2617) in paragraph at lines 180--191
 \OT1/txr/m/n/12 (b) If the unit cost of the above three
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--187
+Underfull \hbox (badness 10000) in paragraph at lines 180--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 192--194
+[]\OT1/txr/m/n/12 If A and B are square ma-tri-ces of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
 
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 188--190
-[]\OT1/txr/m/n/12 If A and B are square ma-tri-ces of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--198
+Underfull \hbox (badness 10000) in paragraph at lines 197--202
 
  []
 
 ) (./line/determinants.tex (./solutions/1/chapters/line/det/solution.tex)
 (./solutions/2/chapters/line_ex/determinants/solution.tex)
-(./solutions/3/chapters/line/det/solution.tex)
+(./solutions/3/chapters/line/det/solution.tex [99])
 (./solutions/4/chapters/line/determinent/solution.tex)
-(./solutions/5/chapters/lines/docq14.tex [96])
+(./solutions/5/chapters/lines/docq14.tex)
 (./solutions/6/chapters/line/determinants/solution.tex)
 (./solutions/7/chapters/line/det/solution.tex) (./solutions/det/9/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 77--6
 
  []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
+ [100])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (./solutions/det/22/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 99--1
 
@@ -5222,10 +5295,10 @@ Overfull \hbox (0.73921pt too wide) in paragraph at lines 7--7
 [] 
  []
 
-
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [101]
 Underfull \hbox (badness 10000) in paragraph at lines 119--123
 
  []
@@ -5233,7 +5306,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--123
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98]
+
 Underfull \hbox (badness 6300) in paragraph at lines 142--144
 []\OT1/txr/m/n/12 Using Co-fac-tors of el-e-ments of sec-ond
  []
@@ -5241,150 +5314,196 @@ Underfull \hbox (badness 6300) in paragraph at lines 142--144
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-(./solutions/det/53/solution.tex
-
-LaTeX Warning: Reference `eq:solutions/det/53/1' on page 99 undefined on input 
-line 1.
-
+ [102]
+(./solutions/det/52/solution.tex
+<./solutions/det/52/A2.png, id=4970, 350.30875pt x 231.86626pt>
+File: ./solutions/det/52/A2.png Graphic file (type png)
+<use ./solutions/det/52/A2.png>
+Package pdftex.def Info: ./solutions/det/52/A2.png  used on input line 22.
+(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
+)
+(./solutions/det/53/solution.tex
 
-LaTeX Warning: Reference `eq:solutions/det/53/1' on page 100 undefined on input
+LaTeX Warning: Reference `eq:solutions/det/53/1' on page 103 undefined on input
+ line 1.
+
+
+LaTeX Warning: Reference `eq:solutions/det/53/1' on page 103 undefined on input
  line 17.
 
-<./solutions/det/53/Plot_3D.png, id=4858, 462.528pt x 346.896pt>
+<./solutions/det/53/Plot_3D.png, id=4972, 462.528pt x 346.896pt>
 File: ./solutions/det/53/Plot_3D.png Graphic file (type png)
 <use ./solutions/det/53/Plot_3D.png>
 Package pdftex.def Info: ./solutions/det/53/Plot_3D.png  used on input line 20.
 
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-) (./solutions/det/52/solution.tex
-<./solutions/det/52/A2.png, id=4861, 350.30875pt x 231.86626pt>
-File: ./solutions/det/52/A2.png Graphic file (type png)
-<use ./solutions/det/52/A2.png>
-Package pdftex.def Info: ./solutions/det/52/A2.png  used on input line 22.
-(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
+) (./solutions/det/54/solution.tex
+Underfull \hbox (badness 10000) in paragraph at lines 243--3
+
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 243--3
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 If so-lu-tion ex-ists for the given
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 243--3
+\OT1/txr/m/n/12 sys-tem of lin-ear equa-tions then they are
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 243--3
+\OT1/txr/m/n/12 said to be con-sis-tent, oth-er-wise they are
+ []
+
+[103 <./solutions/det/52/A2.png>]
+<./solutions/det/54/assignment2.png, id=5009, 385.44pt x 262.9825pt>
+File: ./solutions/det/54/assignment2.png Graphic file (type png)
+<use ./solutions/det/54/assignment2.png>
+Package pdftex.def Info: ./solutions/det/54/assignment2.png  used on input line
+ 18.
+(pdftex.def)             Requested size: 252.0pt x 171.93576pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-[100 <./solutions/det/53/Plot_3D.png> <./solutions/det/52/A2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 275--281
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
+Underfull \vbox (badness 6428) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--289
-
- []
-
-(./solutions/det/68/solution.tex
+(./solutions/det/59/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 304--308
+ [104 <./solutions/det/53/Plot_3D.png> <./solutions/det/54/assignment2.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 281--287
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--311
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--314
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--318
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--324
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--330
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--339
+Underfull \hbox (badness 10000) in paragraph at lines 291--295
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101]
-Underfull \hbox (badness 10000) in paragraph at lines 339--342
+
+(./solutions/det/68/solution.tex) (./solutions/det/69/solution.tex
+
+LaTeX Warning: Reference `eq:solution/det/691' on page 105 undefined on input l
+ine 1.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+
+LaTeX Warning: Reference `eq:solution/det/691' on page 106 undefined on input l
+ine 66.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 313--317
+
+ []
+
+(./solutions/det/71/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--345
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106]
+Underfull \hbox (badness 10000) in paragraph at lines 325--329
 
  []
 
 
-Overfull \hbox (4.7997pt too wide) in paragraph at lines 345--348
+Underfull \hbox (badness 10000) in paragraph at lines 329--335
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--356
+
+ []
+
+
+Overfull \hbox (4.7997pt too wide) in paragraph at lines 356--359
 []$[]$\OT1/txr/m/n/12 =3(a+b+c)(ab+bc+ca) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--348
+Underfull \hbox (badness 10000) in paragraph at lines 356--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--351
+Underfull \hbox (badness 10000) in paragraph at lines 359--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
@@ -5393,6 +5512,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./line/lineaeqn_exer.tex (./solutions/1/chapters/line/line_ineq/solution.tex
+Underfull \vbox (badness 3323) has occurred while \output is active []
+
+ [107]
 
 LaTeX Warning: File `./solutions/1/figs/line/line_eq.eps' not found on input li
 ne 33.
@@ -5406,7 +5528,7 @@ ted-to.pdf>
 ne_eq-eps-converted-to.pdf ./solutions/1/figs/line/line_eq.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/line/line_eq-eps-converted-to.pdf, id=4915, 462.52798pt x 3
+<./solutions/1/figs/line/line_eq-eps-converted-to.pdf, id=5121, 462.52798pt x 3
 46.89601pt>
 File: ./solutions/1/figs/line/line_eq-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5414,7 +5536,7 @@ df)
 Package pdftex.def Info: ./solutions/1/figs/line/line_eq-eps-converted-to.pdf  
 used on input line 33.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/2/chapters/line_ex/lin_ineq/solution.tex [102]
+) (./solutions/2/chapters/line_ex/lin_ineq/solution.tex
 
 LaTeX Warning: File `./solutions/2/figs/line_ex/lin_ineq/number_line.eps' not f
 ound on input line 15.
@@ -5430,7 +5552,7 @@ _line-eps-converted-to.pdf>
 number_line.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/2/figs/line_ex/lin_ineq/number_line-eps-converted-to.pdf, id=4959,
+<./solutions/2/figs/line_ex/lin_ineq/number_line-eps-converted-to.pdf, id=5123,
  462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/line_ex/lin_ineq/number_line-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -5454,7 +5576,7 @@ neq/pyfigs/ineq-eps-converted-to.pdf ./solutions/3/codes/line/ineq/pyfigs/ineq.
 eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf, id=4961, 462.5
+<./solutions/3/codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf, id=5125, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/3/codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -5462,13 +5584,10 @@ le (type pdf)
 Package pdftex.def Info: ./solutions/3/codes/line/ineq/pyfigs/ineq-eps-converte
 d-to.pdf  used on input line 21.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/4/chapters/line/linear_inequalities/solution.tex)
-(./solutions/5/chapters/lines/docq15.tex
-Underfull \vbox (badness 1057) has occurred while \output is active []
-
- [103 <./solutions/1/figs/line/line_eq-eps-converted-to.pdf> <./solutions/2/fig
-s/line_ex/lin_ineq/number_line-eps-converted-to.pdf> <./solutions/3/codes/line/
-ineq/pyfigs/ineq-eps-converted-to.pdf>]
+) (./solutions/4/chapters/line/linear_inequalities/solution.tex [108 <./solutio
+ns/1/figs/line/line_eq-eps-converted-to.pdf> <./solutions/2/figs/line_ex/lin_in
+eq/number_line-eps-converted-to.pdf> <./solutions/3/codes/line/ineq/pyfigs/ineq
+-eps-converted-to.pdf>]) (./solutions/5/chapters/lines/docq15.tex
 Underfull \hbox (badness 1748) in paragraph at lines 20--21
 \OT1/txr/m/n/12 bers which sat-isfy the re-quired con-di-tion,
  []
@@ -5486,7 +5605,7 @@ Package epstopdf Info: Source file: <./solutions/5/figs/lines/q15.eps>
 15-eps-converted-to.pdf ./solutions/5/figs/lines/q15.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/lines/q15-eps-converted-to.pdf, id=5061, 462.52798pt x 346.
+<./solutions/5/figs/lines/q15-eps-converted-to.pdf, id=5231, 462.52798pt x 346.
 89601pt>
 File: ./solutions/5/figs/lines/q15-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -5520,7 +5639,7 @@ inear_inequalities/linear_inequalities-eps-converted-to.pdf ./solutions/6/codes
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/6/codes/line/linear_inequalities/linear_inequalities-eps-converted
--to.pdf, id=5063, 526.12558pt x 362.7954pt>
+-to.pdf, id=5233, 526.12558pt x 362.7954pt>
 File: ./solutions/6/codes/line/linear_inequalities/linear_inequalities-eps-conv
 erted-to.pdf Graphic file (type pdf)
 <use ./solutions/6/codes/line/linear_inequalities/linear_inequalities-eps-conve
@@ -5529,6 +5648,10 @@ Package pdftex.def Info: ./solutions/6/codes/line/linear_inequalities/linear_in
 equalities-eps-converted-to.pdf  used on input line 29.
 (pdftex.def)             Requested size: 252.0pt x 173.7689pt.
 ) (./solutions/7/chapters/line/lin_ineq/solution.tex
+Underfull \vbox (badness 2799) has occurred while \output is active []
+
+ [109 <./solutions/5/figs/lines/q15-eps-converted-to.pdf> <./solutions/6/codes/
+line/linear_inequalities/linear_inequalities-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/7/figs/line/lin_ineq/lin_ineq.eps' not found o
 n input line 15.
@@ -5544,7 +5667,7 @@ n_ineq/lin_ineq-eps-converted-to.pdf ./solutions/7/figs/line/lin_ineq/lin_ineq.
 eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/line/lin_ineq/lin_ineq-eps-converted-to.pdf, id=5065, 252.9
+<./solutions/7/figs/line/lin_ineq/lin_ineq-eps-converted-to.pdf, id=5317, 252.9
 45pt x 189.70876pt>
 File: ./solutions/7/figs/line/lin_ineq/lin_ineq-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -5552,35 +5675,26 @@ le (type pdf)
 Package pdftex.def Info: ./solutions/7/figs/line/lin_ineq/lin_ineq-eps-converte
 d-to.pdf  used on input line 15.
 (pdftex.def)             Requested size: 252.0pt x 189.00485pt.
-) [104 <./solutions/5/figs/lines/q15-eps-converted-to.pdf> <./solutions/6/codes
-/line/linear_inequalities/linear_inequalities-eps-converted-to.pdf> <./solution
-s/7/figs/line/lin_ineq/lin_ineq-eps-converted-to.pdf>]
+)) (./line/line_misc.tex [110 <./solutions/7/figs/line/lin_ineq/lin_ineq-eps-co
+nverted-to.pdf>] (./solutions/1/chapters/line/misc/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./line/line_misc.tex (./solutions/1/chapters/line/misc/solution.tex
-Underfull \vbox (badness 3861) has occurred while \output is active []
-
- [105])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 (./solutions/2/chapters/line_ex/misc/solution.tex)
 (./solutions/3/chapters/median/chapter1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
 (./solutions/3/figs/chapter1/ch1_two_median.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106])
+)
 (./solutions/4/chapters/line/misc/solution.tex)
-(./solutions/5/chapters/lines/docq16.tex)
-(./solutions/6/chapters/line/miscellaneous/solution.tex
+(./solutions/5/chapters/lines/docq16.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107]
+ [112])
+(./solutions/6/chapters/line/miscellaneous/solution.tex
 
 LaTeX Warning: File `./solutions/6/codes/line/miscellaneous/tri_equi.eps' not f
 ound on input line 25.
@@ -5596,7 +5710,7 @@ iscellaneous/tri_equi-eps-converted-to.pdf ./solutions/6/codes/line/miscellaneo
 us/tri_equi.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/line/miscellaneous/tri_equi-eps-converted-to.pdf, id=5295,
+<./solutions/6/codes/line/miscellaneous/tri_equi-eps-converted-to.pdf, id=5465,
  526.12558pt x 362.7954pt>
 File: ./solutions/6/codes/line/miscellaneous/tri_equi-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -5607,12 +5721,17 @@ nverted-to.pdf  used on input line 25.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [108 <./solutions/6/codes/line/miscellaneous/tri_equi-eps-converted-to.pdf>]
+ [113 <./solutions/6/codes/line/miscellaneous/tri_equi-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109])
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115])
 (./circle/circle_geo_exam.tex (./solutions/1/chapters/circle/solution2.tex
-[110]
 
 LaTeX Warning: File `./solutions/1/figs/circle/circle1.eps' not found on input 
 line 13.
@@ -5626,7 +5745,7 @@ erted-to.pdf>
 circle1-eps-converted-to.pdf ./solutions/1/figs/circle/circle1.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/circle/circle1-eps-converted-to.pdf, id=5473, 462.52798pt x
+<./solutions/1/figs/circle/circle1-eps-converted-to.pdf, id=5645, 462.52798pt x
  346.89601pt>
 File: ./solutions/1/figs/circle/circle1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5649,7 +5768,7 @@ Package epstopdf Info: Source file: <./solutions/2/figs/circle_examp/circle.eps
 examp/circle-eps-converted-to.pdf ./solutions/2/figs/circle_examp/circle.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/2/figs/circle_examp/circle-eps-converted-to.pdf, id=5476, 462.5279
+<./solutions/2/figs/circle_examp/circle-eps-converted-to.pdf, id=5648, 462.5279
 8pt x 346.89601pt>
 File: ./solutions/2/figs/circle_examp/circle-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -5658,6 +5777,10 @@ Package pdftex.def Info: ./solutions/2/figs/circle_examp/circle-eps-converted-t
 o.pdf  used on input line 23.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./solutions/3/chapters/circle1/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116 <./solutions/1/figs/circle/circle1-eps-converted-to.pdf> <./solutions/2/f
+igs/circle_examp/circle-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/3/codes/circle1/pyfigs/circle1.eps' not found 
 on input line 34.
@@ -5673,7 +5796,7 @@ Package epstopdf Info: Source file: <./solutions/3/codes/circle1/pyfigs/circle1
 1.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/circle1/pyfigs/circle1-eps-converted-to.pdf, id=5481, 462.
+<./solutions/3/codes/circle1/pyfigs/circle1-eps-converted-to.pdf, id=5723, 462.
 52798pt x 346.89601pt>
 File: ./solutions/3/codes/circle1/pyfigs/circle1-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -5681,9 +5804,7 @@ ile (type pdf)
 Package pdftex.def Info: ./solutions/3/codes/circle1/pyfigs/circle1-eps-convert
 ed-to.pdf  used on input line 34.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-[111 <./solutions/1/figs/circle/circle1-eps-converted-to.pdf> <./solutions/2/fi
-gs/circle_examp/circle-eps-converted-to.pdf>])
-(./solutions/6/chapters/circle/example/solution.tex
+) (./solutions/6/chapters/circle/example/solution.tex
 
 LaTeX Warning: File `./solutions/6/codes/circle/example/circle.eps' not found o
 n input line 24.
@@ -5699,7 +5820,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/circle/example/circle-eps-converted-to.pdf, id=5558, 526.1
+<./solutions/6/codes/circle/example/circle-eps-converted-to.pdf, id=5725, 526.1
 2558pt x 362.7954pt>
 File: ./solutions/6/codes/circle/example/circle-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -5708,7 +5829,9 @@ Package pdftex.def Info: ./solutions/6/codes/circle/example/circle-eps-converte
 d-to.pdf  used on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 173.7689pt.
 )) (./circle/circle_geo.tex (./solutions/1/chapters/circle/solution.tex
-(./solutions/1/tables/circle/inp.tex)
+(./solutions/1/tables/circle/inp.tex) [117 <./solutions/3/codes/circle1/pyfigs/
+circle1-eps-converted-to.pdf> <./solutions/6/codes/circle/example/circle-eps-co
+nverted-to.pdf>]
 
 LaTeX Warning: File `./solutions/1/figs/circle/circle.eps' not found on input l
 ine 22.
@@ -5722,7 +5845,7 @@ rted-to.pdf>
 circle-eps-converted-to.pdf ./solutions/1/figs/circle/circle.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/circle/circle-eps-converted-to.pdf, id=5561, 462.52798pt x 
+<./solutions/1/figs/circle/circle-eps-converted-to.pdf, id=5808, 462.52798pt x 
 346.89601pt>
 File: ./solutions/1/figs/circle/circle-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5730,9 +5853,7 @@ pdf)
 Package pdftex.def Info: ./solutions/1/figs/circle/circle-eps-converted-to.pdf 
  used on input line 22.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/2/chapters/circle_ex/solution.tex [112 <./solutions/3/codes/circ
-le1/pyfigs/circle1-eps-converted-to.pdf> <./solutions/6/codes/circle/example/ci
-rcle-eps-converted-to.pdf>]
+) (./solutions/2/chapters/circle_ex/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5751,7 +5872,7 @@ ex/circumcircle-eps-converted-to.pdf ./solutions/2/figs/circle_ex/circumcircle.
 eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/2/figs/circle_ex/circumcircle-eps-converted-to.pdf, id=5645, 462.5
+<./solutions/2/figs/circle_ex/circumcircle-eps-converted-to.pdf, id=5814, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/2/figs/circle_ex/circumcircle-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -5759,9 +5880,12 @@ le (type pdf)
 Package pdftex.def Info: ./solutions/2/figs/circle_ex/circumcircle-eps-converte
 d-to.pdf  used on input line 45.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/3/chapters/circle2/solution.tex [113 <./solutions/1/figs/circle/
-circle-eps-converted-to.pdf> <./solutions/2/figs/circle_ex/circumcircle-eps-con
-verted-to.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118 <./solutions/1/figs/circle/circle-eps-converted-to.pdf> <./solutions/2/fi
+gs/circle_ex/circumcircle-eps-converted-to.pdf>])
+(./solutions/3/chapters/circle2/solution.tex
 Underfull \hbox (badness 2261) in paragraph at lines 16--18
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
@@ -5781,7 +5905,7 @@ a-eps-converted-to.pdf>
 e2a.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf, id=5721, 462
+<./solutions/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf, id=5888, 462
 .52798pt x 346.89601pt>
 File: ./solutions/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -5809,7 +5933,7 @@ b-eps-converted-to.pdf>
 e2b.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf, id=5725, 462
+<./solutions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf, id=5892, 462
 .52798pt x 346.89601pt>
 File: ./solutions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -5837,7 +5961,7 @@ c-eps-converted-to.pdf>
 e2c.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/circle2/pyfigs/circle2c-eps-converted-to.pdf, id=5729, 462
+<./solutions/3/codes/circle2/pyfigs/circle2c-eps-converted-to.pdf, id=5896, 462
 .52798pt x 346.89601pt>
 File: ./solutions/3/codes/circle2/pyfigs/circle2c-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -5865,7 +5989,7 @@ d-eps-converted-to.pdf>
 e2d.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/circle2/pyfigs/circle2d-eps-converted-to.pdf, id=5733, 462
+<./solutions/3/codes/circle2/pyfigs/circle2d-eps-converted-to.pdf, id=5900, 462
 .52798pt x 346.89601pt>
 File: ./solutions/3/codes/circle2/pyfigs/circle2d-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -5873,9 +5997,8 @@ file (type pdf)
 Package pdftex.def Info: ./solutions/3/codes/circle2/pyfigs/circle2d-eps-conver
 ted-to.pdf  used on input line 73.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-[114 <./solutions/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf> <./solu
-tions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf> <./solutions/3/code
-s/circle2/pyfigs/circle2c-eps-converted-to.pdf>]
+[119 <./solutions/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf> <./solu
+tions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf>]
 Underfull \hbox (badness 2261) in paragraph at lines 90--92
 \OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
  []
@@ -5895,7 +6018,7 @@ e-eps-converted-to.pdf>
 e2e.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/circle2/pyfigs/circle2e-eps-converted-to.pdf, id=5846, 462
+<./solutions/3/codes/circle2/pyfigs/circle2e-eps-converted-to.pdf, id=5997, 462
 .52798pt x 346.89601pt>
 File: ./solutions/3/codes/circle2/pyfigs/circle2e-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -5904,9 +6027,6 @@ Package pdftex.def Info: ./solutions/3/codes/circle2/pyfigs/circle2e-eps-conver
 ted-to.pdf  used on input line 97.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./solutions/4/chapters/circle/solution2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Warning: File `./solutions/4/figures/circle/circle2.eps' not found on inp
 ut line 30.
@@ -5920,7 +6040,7 @@ onverted-to.pdf>
 le/circle2-eps-converted-to.pdf ./solutions/4/figures/circle/circle2.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/4/figures/circle/circle2-eps-converted-to.pdf, id=5849, 462.72874p
+<./solutions/4/figures/circle/circle2-eps-converted-to.pdf, id=6000, 462.72874p
 t x 346.29375pt>
 File: ./solutions/4/figures/circle/circle2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5928,10 +6048,10 @@ ype pdf)
 Package pdftex.def Info: ./solutions/4/figures/circle/circle2-eps-converted-to.
 pdf  used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 188.5916pt.
-) [115 <./solutions/3/codes/circle2/pyfigs/circle2d-eps-converted-to.pdf> <./so
-lutions/3/codes/circle2/pyfigs/circle2e-eps-converted-to.pdf> <./solutions/4/fi
-gures/circle/circle2-eps-converted-to.pdf>]
-(./solutions/5/chapters/circle/docq18.tex
+) (./solutions/5/chapters/circle/docq18.tex [120 <./solutions/3/codes/circle2/p
+yfigs/circle2c-eps-converted-to.pdf> <./solutions/3/codes/circle2/pyfigs/circle
+2d-eps-converted-to.pdf> <./solutions/3/codes/circle2/pyfigs/circle2e-eps-conve
+rted-to.pdf>]
 
 LaTeX Warning: File `./solutions/5/figs/circle/q18abc.eps' not found on input l
 ine 19.
@@ -5945,7 +6065,7 @@ rted-to.pdf>
 q18abc-eps-converted-to.pdf ./solutions/5/figs/circle/q18abc.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/circle/q18abc-eps-converted-to.pdf, id=5955, 462.52798pt x 
+<./solutions/5/figs/circle/q18abc-eps-converted-to.pdf, id=6108, 462.52798pt x 
 346.89601pt>
 File: ./solutions/5/figs/circle/q18abc-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5954,7 +6074,7 @@ Package pdftex.def Info: ./solutions/5/figs/circle/q18abc-eps-converted-to.pdf
  used on input line 19.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-Underfull \vbox (badness 2970) has occurred while \output is active []
+Underfull \vbox (badness 1454) has occurred while \output is active []
 
 
 
@@ -5970,7 +6090,7 @@ ed-to.pdf>
 q18d-eps-converted-to.pdf ./solutions/5/figs/circle/q18d.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/circle/q18d-eps-converted-to.pdf, id=5959, 462.52798pt x 34
+<./solutions/5/figs/circle/q18d-eps-converted-to.pdf, id=6112, 462.52798pt x 34
 6.89601pt>
 File: ./solutions/5/figs/circle/q18d-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5978,11 +6098,9 @@ f)
 Package pdftex.def Info: ./solutions/5/figs/circle/q18d-eps-converted-to.pdf  u
 sed on input line 69.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/6/chapters/circle/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [116 <./solutions/5/figs/circle/q18abc-eps-converted-to.pdf> <./solutions/5/fi
-gs/circle/q18d-eps-converted-to.pdf>]
+) (./solutions/6/chapters/circle/solution.tex [121 <./solutions/4/figures/circl
+e/circle2-eps-converted-to.pdf> <./solutions/5/figs/circle/q18abc-eps-converted
+-to.pdf> <./solutions/5/figs/circle/q18d-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/6/codes/circle/exercise/circle.eps' not found 
 on input line 49.
@@ -5998,7 +6116,7 @@ Package epstopdf Info: Source file: <./solutions/6/codes/circle/exercise/circle
 e.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/circle/exercise/circle-eps-converted-to.pdf, id=6036, 526.
+<./solutions/6/codes/circle/exercise/circle-eps-converted-to.pdf, id=6212, 526.
 12558pt x 362.7954pt>
 File: ./solutions/6/codes/circle/exercise/circle-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -6020,7 +6138,7 @@ rted-to.pdf>
 circle-eps-converted-to.pdf ./solutions/7/figs/circle/circle.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/circle/circle-eps-converted-to.pdf, id=6040, 462.72874pt x 
+<./solutions/7/figs/circle/circle-eps-converted-to.pdf, id=6216, 462.72874pt x 
 347.2975pt>
 File: ./solutions/7/figs/circle/circle-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6028,7 +6146,7 @@ pdf)
 Package pdftex.def Info: ./solutions/7/figs/circle/circle-eps-converted-to.pdf 
  used on input line 28.
 (pdftex.def)             Requested size: 252.0pt x 189.13824pt.
-) [117 <./solutions/6/codes/circle/exercise/circle-eps-converted-to.pdf> <./sol
+) [122 <./solutions/6/codes/circle/exercise/circle-eps-converted-to.pdf> <./sol
 utions/7/figs/circle/circle-eps-converted-to.pdf>]) (./conics/conics_exam.tex
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 10.
@@ -6053,7 +6171,7 @@ le/quadratic_equation.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/2/figs/conics_example/quadratic_equation-eps-converted-to.pdf, id=
-6101, 462.52798pt x 346.89601pt>
+6276, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/conics_example/quadratic_equation-eps-converted-to.pdf
  Graphic file (type pdf)
 <use ./solutions/2/figs/conics_example/quadratic_equation-eps-converted-to.pdf>
@@ -6081,7 +6199,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/conic1/pyfigs/conic1a-eps-converted-to.pdf, id=6104, 462.5
+<./solutions/3/codes/conic1/pyfigs/conic1a-eps-converted-to.pdf, id=6279, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/3/codes/conic1/pyfigs/conic1a-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6092,7 +6210,7 @@ d-to.pdf  used on input line 23.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118 <./solutions/2/figs/conics_example/quadratic_equation-eps-converted-to.pd
+ [123 <./solutions/2/figs/conics_example/quadratic_equation-eps-converted-to.pd
 f>]
 
 LaTeX Warning: File `./solutions/3/codes/conic1/pyfigs/conic1b.eps' not found o
@@ -6109,7 +6227,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/conic1/pyfigs/conic1b-eps-converted-to.pdf, id=6158, 462.5
+<./solutions/3/codes/conic1/pyfigs/conic1b-eps-converted-to.pdf, id=6334, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/3/codes/conic1/pyfigs/conic1b-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6145,7 +6263,7 @@ d-to.pdf>
 q19-eps-converted-to.pdf ./solutions/5/figs/conics/q19.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/conics/q19-eps-converted-to.pdf, id=6160, 462.52798pt x 346
+<./solutions/5/figs/conics/q19-eps-converted-to.pdf, id=6336, 462.52798pt x 346
 .89601pt>
 File: ./solutions/5/figs/conics/q19-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -6153,7 +6271,7 @@ File: ./solutions/5/figs/conics/q19-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: ./solutions/5/figs/conics/q19-eps-converted-to.pdf  us
 ed on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/6/chapters/conics/example/solution.tex [119 <./solutions/3/codes
+) (./solutions/6/chapters/conics/example/solution.tex [124 <./solutions/3/codes
 /conic1/pyfigs/conic1a-eps-converted-to.pdf> <./solutions/3/codes/conic1/pyfigs
 /conic1b-eps-converted-to.pdf> <./solutions/5/figs/conics/q19-eps-converted-to.
 pdf>]
@@ -6172,7 +6290,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/conics/example/conics-eps-converted-to.pdf, id=6246, 526.1
+<./solutions/6/codes/conics/example/conics-eps-converted-to.pdf, id=6421, 526.1
 2558pt x 362.7954pt>
 File: ./solutions/6/codes/conics/example/conics-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6193,7 +6311,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 46.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120 <./solutions/6/codes/conics/example/conics-eps-converted-to.pdf>]
+ [125 <./solutions/6/codes/conics/example/conics-eps-converted-to.pdf>]
 Underfull \hbox (badness 7796) in paragraph at lines 125--130
 []\OT1/txr/m/n/12 Find the area en-closed by the el-lipse
  []
@@ -6210,7 +6328,7 @@ Underfull \hbox (badness 8132) in paragraph at lines 133--139
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./conics/conics_exer.tex (./solutions/1/chapters/conics/solution.tex [121]
+(./conics/conics_exer.tex (./solutions/1/chapters/conics/solution.tex [126]
 
 LaTeX Warning: File `./solutions/1/figs/conics/parabola1.eps' not found on inpu
 t line 31.
@@ -6224,7 +6342,7 @@ nverted-to.pdf>
 parabola1-eps-converted-to.pdf ./solutions/1/figs/conics/parabola1.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/conics/parabola1-eps-converted-to.pdf, id=6370, 462.52798pt
+<./solutions/1/figs/conics/parabola1-eps-converted-to.pdf, id=6544, 462.52798pt
  x 346.89601pt>
 File: ./solutions/1/figs/conics/parabola1-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -6245,7 +6363,7 @@ nverted-to.pdf>
 parabola2-eps-converted-to.pdf ./solutions/1/figs/conics/parabola2.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/conics/parabola2-eps-converted-to.pdf, id=6372, 462.52798pt
+<./solutions/1/figs/conics/parabola2-eps-converted-to.pdf, id=6546, 462.52798pt
  x 346.89601pt>
 File: ./solutions/1/figs/conics/parabola2-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -6266,7 +6384,7 @@ nverted-to.pdf>
 parabola3-eps-converted-to.pdf ./solutions/1/figs/conics/parabola3.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/conics/parabola3-eps-converted-to.pdf, id=6374, 462.52798pt
+<./solutions/1/figs/conics/parabola3-eps-converted-to.pdf, id=6548, 462.52798pt
  x 346.89601pt>
 File: ./solutions/1/figs/conics/parabola3-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -6274,7 +6392,7 @@ pe pdf)
 Package pdftex.def Info: ./solutions/1/figs/conics/parabola3-eps-converted-to.p
 df  used on input line 76.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-[122 <./solutions/1/figs/conics/parabola1-eps-converted-to.pdf> <./solutions/1/
+[127 <./solutions/1/figs/conics/parabola1-eps-converted-to.pdf> <./solutions/1/
 figs/conics/parabola2-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/1/figs/conics/parabola4.eps' not found on inpu
@@ -6289,7 +6407,7 @@ nverted-to.pdf>
 parabola4-eps-converted-to.pdf ./solutions/1/figs/conics/parabola4.eps>
 (epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/1/figs/conics/parabola4-eps-converted-to.pdf, id=6439, 462.52798pt
+<./solutions/1/figs/conics/parabola4-eps-converted-to.pdf, id=6615, 462.52798pt
  x 346.89601pt>
 File: ./solutions/1/figs/conics/parabola4-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -6316,15 +6434,15 @@ ex/quadratic_equation_1-eps-converted-to.pdf ./solutions/2/figs/conics_ex/quadr
 atic_equation_1.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/2/figs/conics_ex/quadratic_equation_1-eps-converted-to.pdf, id=644
-1, 462.52798pt x 346.89601pt>
+<./solutions/2/figs/conics_ex/quadratic_equation_1-eps-converted-to.pdf, id=661
+7, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/conics_ex/quadratic_equation_1-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use ./solutions/2/figs/conics_ex/quadratic_equation_1-eps-converted-to.pdf>
 Package pdftex.def Info: ./solutions/2/figs/conics_ex/quadratic_equation_1-eps-
 converted-to.pdf  used on input line 32.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-[123 <./solutions/1/figs/conics/parabola3-eps-converted-to.pdf> <./solutions/1/
+[128 <./solutions/1/figs/conics/parabola3-eps-converted-to.pdf> <./solutions/1/
 figs/conics/parabola4-eps-converted-to.pdf> <./solutions/2/figs/conics_ex/quadr
 atic_equation_1-eps-converted-to.pdf>]
 
@@ -6342,8 +6460,8 @@ ex/quadratic_equation_2-eps-converted-to.pdf ./solutions/2/figs/conics_ex/quadr
 atic_equation_2.eps>
 (epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf, id=651
-9, 462.52798pt x 346.89601pt>
+<./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf, id=669
+5, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use ./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf>
@@ -6369,8 +6487,8 @@ ex/quadratic_equation_3-eps-converted-to.pdf ./solutions/2/figs/conics_ex/quadr
 atic_equation_3.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf, id=652
-1, 462.52798pt x 346.89601pt>
+<./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf, id=669
+7, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use ./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf>
@@ -6392,8 +6510,8 @@ ex/quadratic_equation_4-eps-converted-to.pdf ./solutions/2/figs/conics_ex/quadr
 atic_equation_4.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf, id=652
-3, 462.52798pt x 346.89601pt>
+<./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf, id=669
+9, 462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use ./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf>
@@ -6405,7 +6523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 []\OT1/txr/m/n/12 The fol-low-ing Python code gen-er-ates
  []
 
-[124 <./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf> <
+[129 <./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf> <
 ./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf>])
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 29.
@@ -6435,7 +6553,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/conic2/pyfigs/conic2a-eps-converted-to.pdf, id=6593, 462.5
+<./solutions/3/codes/conic2/pyfigs/conic2a-eps-converted-to.pdf, id=6768, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/3/codes/conic2/pyfigs/conic2a-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6458,7 +6576,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf, id=6597, 462.5
+<./solutions/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf, id=6772, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6466,7 +6584,7 @@ le (type pdf)
 Package pdftex.def Info: ./solutions/3/codes/conic2/pyfigs/conic2b-eps-converte
 d-to.pdf  used on input line 64.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-[125 <./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf> <
+[130 <./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf> <
 ./solutions/3/codes/conic2/pyfigs/conic2a-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/3/codes/conic2/pyfigs/conic2c.eps' not found o
@@ -6483,7 +6601,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/conic2/pyfigs/conic2c-eps-converted-to.pdf, id=6678, 462.5
+<./solutions/3/codes/conic2/pyfigs/conic2c-eps-converted-to.pdf, id=6854, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/3/codes/conic2/pyfigs/conic2c-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6510,7 +6628,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/conic2/pyfigs/conic2d-eps-converted-to.pdf, id=6682, 462.5
+<./solutions/3/codes/conic2/pyfigs/conic2d-eps-converted-to.pdf, id=6858, 462.5
 2798pt x 346.89601pt>
 File: ./solutions/3/codes/conic2/pyfigs/conic2d-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6546,7 +6664,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 43.
 (./solutions/4/chapters/conics/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126 <./solutions/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf> <./solut
+ [131 <./solutions/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf> <./solut
 ions/3/codes/conic2/pyfigs/conic2c-eps-converted-to.pdf> <./solutions/3/codes/c
 onic2/pyfigs/conic2d-eps-converted-to.pdf>]
 
@@ -6568,7 +6686,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola1-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./solutions/4/figures/conics/perabola1-eps-converted-to.pdf, id=6777, 462.7287
+<./solutions/4/figures/conics/perabola1-eps-converted-to.pdf, id=6952, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/conics/perabola1-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6595,7 +6713,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola2-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./solutions/4/figures/conics/perabola2-eps-converted-to.pdf, id=6778, 462.7287
+<./solutions/4/figures/conics/perabola2-eps-converted-to.pdf, id=6953, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/conics/perabola2-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6626,7 +6744,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola3-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./solutions/4/figures/conics/perabola3-eps-converted-to.pdf, id=6779, 462.7287
+<./solutions/4/figures/conics/perabola3-eps-converted-to.pdf, id=6954, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/conics/perabola3-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6634,7 +6752,7 @@ File: ./solutions/4/figures/conics/perabola3-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: ./solutions/4/figures/conics/perabola3-eps-converted-t
 o.pdf  used on input line 83.
 (pdftex.def)             Requested size: 252.0pt x 188.5916pt.
-[127 <./solutions/4/figures/conics/perabola1-eps-converted-to.pdf> <./solutions
+[132 <./solutions/4/figures/conics/perabola1-eps-converted-to.pdf> <./solutions
 /4/figures/conics/perabola2-eps-converted-to.pdf> <./solutions/4/figures/conics
 /perabola3-eps-converted-to.pdf>]
 
@@ -6656,7 +6774,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola4-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./solutions/4/figures/conics/perabola4-eps-converted-to.pdf, id=6875, 462.7287
+<./solutions/4/figures/conics/perabola4-eps-converted-to.pdf, id=7050, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/conics/perabola4-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6683,7 +6801,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola5-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./solutions/4/figures/conics/perabola5-eps-converted-to.pdf, id=6876, 462.7287
+<./solutions/4/figures/conics/perabola5-eps-converted-to.pdf, id=7051, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/conics/perabola5-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6710,7 +6828,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola6-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./solutions/4/figures/conics/perabola6-eps-converted-to.pdf, id=6877, 462.7287
+<./solutions/4/figures/conics/perabola6-eps-converted-to.pdf, id=7052, 462.7287
 4pt x 346.29375pt>
 File: ./solutions/4/figures/conics/perabola6-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6721,7 +6839,7 @@ o.pdf  used on input line 154.
 
 Underfull \vbox (badness 2181) has occurred while \output is active []
 
- [128 <./solutions/4/figures/conics/perabola4-eps-converted-to.pdf> <./solution
+ [133 <./solutions/4/figures/conics/perabola4-eps-converted-to.pdf> <./solution
 s/4/figures/conics/perabola5-eps-converted-to.pdf> <./solutions/4/figures/conic
 s/perabola6-eps-converted-to.pdf>]) (./solutions/5/chapters/conics/docq20.tex
 
@@ -6737,7 +6855,7 @@ ed-to.pdf>
 q20a-eps-converted-to.pdf ./solutions/5/figs/conics/q20a.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/conics/q20a-eps-converted-to.pdf, id=6981, 462.52798pt x 34
+<./solutions/5/figs/conics/q20a-eps-converted-to.pdf, id=7156, 462.52798pt x 34
 6.89601pt>
 File: ./solutions/5/figs/conics/q20a-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -6766,7 +6884,7 @@ ed-to.pdf>
 q20b-eps-converted-to.pdf ./solutions/5/figs/conics/q20b.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/conics/q20b-eps-converted-to.pdf, id=6984, 462.52798pt x 34
+<./solutions/5/figs/conics/q20b-eps-converted-to.pdf, id=7159, 462.52798pt x 34
 6.89601pt>
 File: ./solutions/5/figs/conics/q20b-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -6779,7 +6897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
-[129 <./solutions/5/figs/conics/q20a-eps-converted-to.pdf> <./solutions/5/figs/
+[134 <./solutions/5/figs/conics/q20a-eps-converted-to.pdf> <./solutions/5/figs/
 conics/q20b-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/5/figs/conics/q20c.eps' not found on input lin
@@ -6794,7 +6912,7 @@ ed-to.pdf>
 q20c-eps-converted-to.pdf ./solutions/5/figs/conics/q20c.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/conics/q20c-eps-converted-to.pdf, id=7052, 462.52798pt x 34
+<./solutions/5/figs/conics/q20c-eps-converted-to.pdf, id=7228, 462.52798pt x 34
 6.89601pt>
 File: ./solutions/5/figs/conics/q20c-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -6820,7 +6938,7 @@ ed-to.pdf>
 q20d-eps-converted-to.pdf ./solutions/5/figs/conics/q20d.eps>
 (epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/conics/q20d-eps-converted-to.pdf, id=7055, 462.52798pt x 34
+<./solutions/5/figs/conics/q20d-eps-converted-to.pdf, id=7231, 462.52798pt x 34
 6.89601pt>
 File: ./solutions/5/figs/conics/q20d-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -6846,7 +6964,7 @@ ed-to.pdf>
 q20e-eps-converted-to.pdf ./solutions/5/figs/conics/q20e.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/conics/q20e-eps-converted-to.pdf, id=7058, 462.52798pt x 34
+<./solutions/5/figs/conics/q20e-eps-converted-to.pdf, id=7234, 462.52798pt x 34
 6.89601pt>
 File: ./solutions/5/figs/conics/q20e-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -6878,7 +6996,7 @@ ed-to.pdf>
 q20f-eps-converted-to.pdf ./solutions/5/figs/conics/q20f.eps>
 (epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/conics/q20f-eps-converted-to.pdf, id=7061, 462.52798pt x 34
+<./solutions/5/figs/conics/q20f-eps-converted-to.pdf, id=7237, 462.52798pt x 34
 6.89601pt>
 File: ./solutions/5/figs/conics/q20f-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -6894,7 +7012,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--133
 
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
- [130 <./solutions/5/figs/conics/q20c-eps-converted-to.pdf> <./solutions/5/figs
+ [135 <./solutions/5/figs/conics/q20c-eps-converted-to.pdf> <./solutions/5/figs
 /conics/q20d-eps-converted-to.pdf> <./solutions/5/figs/conics/q20e-eps-converte
 d-to.pdf>])
 
@@ -6925,7 +7043,7 @@ _1-eps-converted-to.pdf>
 ics_1.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/conics/exercise/conics_1-eps-converted-to.pdf, id=7136, 52
+<./solutions/6/codes/conics/exercise/conics_1-eps-converted-to.pdf, id=7311, 52
 6.12558pt x 362.7954pt>
 File: ./solutions/6/codes/conics/exercise/conics_1-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -6948,7 +7066,7 @@ _2-eps-converted-to.pdf>
 ics_2.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/conics/exercise/conics_2-eps-converted-to.pdf, id=7139, 52
+<./solutions/6/codes/conics/exercise/conics_2-eps-converted-to.pdf, id=7314, 52
 6.12558pt x 362.7954pt>
 File: ./solutions/6/codes/conics/exercise/conics_2-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -6956,7 +7074,7 @@ File: ./solutions/6/codes/conics/exercise/conics_2-eps-converted-to.pdf Graphic
 Package pdftex.def Info: ./solutions/6/codes/conics/exercise/conics_2-eps-conve
 rted-to.pdf  used on input line 44.
 (pdftex.def)             Requested size: 252.0pt x 173.7689pt.
-[131 <./solutions/5/figs/conics/q20f-eps-converted-to.pdf> <./solutions/6/codes
+[136 <./solutions/5/figs/conics/q20f-eps-converted-to.pdf> <./solutions/6/codes
 /conics/exercise/conics_1-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/6/codes/conics/exercise/conics_3.eps' not foun
@@ -6973,7 +7091,7 @@ _3-eps-converted-to.pdf>
 ics_3.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/conics/exercise/conics_3-eps-converted-to.pdf, id=7213, 52
+<./solutions/6/codes/conics/exercise/conics_3-eps-converted-to.pdf, id=7389, 52
 6.12558pt x 362.7954pt>
 File: ./solutions/6/codes/conics/exercise/conics_3-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -6996,7 +7114,7 @@ _4-eps-converted-to.pdf>
 ics_4.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/conics/exercise/conics_4-eps-converted-to.pdf, id=7216, 52
+<./solutions/6/codes/conics/exercise/conics_4-eps-converted-to.pdf, id=7392, 52
 6.12558pt x 362.7954pt>
 File: ./solutions/6/codes/conics/exercise/conics_4-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -7019,7 +7137,7 @@ _5-eps-converted-to.pdf>
 ics_5.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf, id=7219, 52
+<./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf, id=7395, 52
 6.12558pt x 362.7954pt>
 File: ./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -7027,7 +7145,7 @@ File: ./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf Graphic
 Package pdftex.def Info: ./solutions/6/codes/conics/exercise/conics_5-eps-conve
 rted-to.pdf  used on input line 114.
 (pdftex.def)             Requested size: 252.0pt x 173.7689pt.
-) (./solutions/7/chapters/conics/solution.tex [132 <./solutions/6/codes/conics/
+) (./solutions/7/chapters/conics/solution.tex [137 <./solutions/6/codes/conics/
 exercise/conics_2-eps-converted-to.pdf> <./solutions/6/codes/conics/exercise/co
 nics_3-eps-converted-to.pdf> <./solutions/6/codes/conics/exercise/conics_4-eps-
 converted-to.pdf>]
@@ -7044,7 +7162,7 @@ nverted-to.pdf>
 parabola1-eps-converted-to.pdf ./solutions/7/figs/conics/parabola1.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/conics/parabola1-eps-converted-to.pdf, id=7322, 462.72874pt
+<./solutions/7/figs/conics/parabola1-eps-converted-to.pdf, id=7498, 462.72874pt
  x 347.2975pt>
 File: ./solutions/7/figs/conics/parabola1-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -7065,7 +7183,7 @@ nverted-to.pdf>
 parabola2-eps-converted-to.pdf ./solutions/7/figs/conics/parabola2.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/conics/parabola2-eps-converted-to.pdf, id=7324, 462.72874pt
+<./solutions/7/figs/conics/parabola2-eps-converted-to.pdf, id=7500, 462.72874pt
  x 347.2975pt>
 File: ./solutions/7/figs/conics/parabola2-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -7086,7 +7204,7 @@ nverted-to.pdf>
 parabola3-eps-converted-to.pdf ./solutions/7/figs/conics/parabola3.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/conics/parabola3-eps-converted-to.pdf, id=7326, 462.72874pt
+<./solutions/7/figs/conics/parabola3-eps-converted-to.pdf, id=7502, 462.72874pt
  x 347.2975pt>
 File: ./solutions/7/figs/conics/parabola3-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -7107,7 +7225,7 @@ nverted-to.pdf>
 parabola4-eps-converted-to.pdf ./solutions/7/figs/conics/parabola4.eps>
 (epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/conics/parabola4-eps-converted-to.pdf, id=7328, 462.72874pt
+<./solutions/7/figs/conics/parabola4-eps-converted-to.pdf, id=7504, 462.72874pt
  x 347.2975pt>
 File: ./solutions/7/figs/conics/parabola4-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -7115,12 +7233,12 @@ pe pdf)
 Package pdftex.def Info: ./solutions/7/figs/conics/parabola4-eps-converted-to.p
 df  used on input line 74.
 (pdftex.def)             Requested size: 252.0pt x 189.13824pt.
-) [133 <./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf> <./s
+) [138 <./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf> <./s
 olutions/7/figs/conics/parabola1-eps-converted-to.pdf> <./solutions/7/figs/coni
 cs/parabola2-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134 <./solutions/7/figs/conics/parabola3-eps-converted-to.pdf> <./solutions/7
+ [139 <./solutions/7/figs/conics/parabola3-eps-converted-to.pdf> <./solutions/7
 /figs/conics/parabola4-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -7131,7 +7249,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 222.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135]
+ [140]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -7141,10 +7259,10 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 364.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+ [141]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [137]
+) [142]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
 
@@ -7163,13 +7281,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 48052 strings out of 480608
- 1137877 string characters out of 5892806
- 1373400 words of memory out of 5000000
- 58529 multiletter control sequences out of 15000+600000
+ 48278 strings out of 480608
+ 1143325 string characters out of 5892806
+ 1375251 words of memory out of 5000000
+ 58601 multiletter control sequences out of 15000+600000
  633124 words of font info for 254 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,23n,91p,508b,1888s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,24n,91p,508b,1888s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/rtxbmi.pfb></data/data/com.termux/files/usr/share/texlive/texmf-
@@ -7189,10 +7307,10 @@ s/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_linalg.pdf (137 pages, 3161514 bytes).
+Output written on gvv_ncert_linalg.pdf (142 pages, 3282169 bytes).
 PDF statistics:
- 8368 PDF objects out of 8907 (max. 8388607)
- 5951 compressed objects within 60 object streams
- 3711 named destinations out of 4296 (max. 500000)
- 1089 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8566 PDF objects out of 8907 (max. 8388607)
+ 6130 compressed objects within 62 object streams
+ 3827 named destinations out of 4296 (max. 500000)
+ 1114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
