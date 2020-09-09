@@ -1,17 +1,39 @@
-import math
+import numpy as np
+import matplotlib.pyplot as plt
+#Plotting all lines
+x = np.linspace(-10, 10, 40)
+y= (12-4*x)/3
+plt.plot(x,y, label ='4x+3y=12')
+plt.xlim(-8,8)
+plt.ylim(-12,12)
+plt.legend()
+plt.xlabel('$x$')
+plt.ylabel('$y$')
+plt.grid() 
 
-def get_angle(line1, line2):
-    # Get directional vectors
-    d1 = (line1[1][0] - line1[0][0], line1[1][1] - line1[0][1])
-    d2 = (line2[1][0] - line2[0][0], line2[1][1] - line2[0][1])
-    # Compute dot product
-    p = d1[0] * d2[0] + d1[1] * d2[1]
-    # Compute norms
-    n1 = math.sqrt(d1[0] * d1[0] + d1[1] * d1[1])
-    n2 = math.sqrt(d2[0] * d2[0] + d2[1] * d2[1])
-    # Compute angle
-    ang = math.acos(p / (n1 * n2))
-    # Convert to degrees if you want
-    ang = math.degrees(ang)
-    return ang
+# y-axis values 
+x = [3,0,0]
+y = [4,-8,10.67] 
+  
+# plotting points as a plot 
+plt.plot(0,-8, 'ro', label = 'P2(0,a)')
+plt.plot(0,4, 'ro', label = 'P1(0,4)')
+plt.plot(0,10.67, 'ro', label = 'P3(0,b)')
+
+  
+# x-axis label 
+plt.xlabel('x - axis') 
+# frequency label 
+plt.ylabel('y - axis') 
+# plot title 
+plt.title('line plot!') 
+# showing legend 
+plt.legend() 
+  
+# function to show the plot 
+plt.show() 
+
+
+
+
 
