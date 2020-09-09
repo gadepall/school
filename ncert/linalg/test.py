@@ -13,6 +13,6 @@ ucol = u[:, np.newaxis]
 X = np.block([[V,ucol],[u,f]])
 
 mat = f*V - np.outer(u,u)
-print(np.linalg.det(X))
-print(np.linalg.det(mat))
+#print(np.linalg.det(X))
+#print(np.linalg.det(mat))
 #print(np.linalg.det(np.eye(2)))
