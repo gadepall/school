@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  8 SEP 2020 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  10 SEP 2020 09:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2037,24 +2037,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 282.
+LaTeX Warning: Command \textendash invalid in math mode on input line 281.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 282.
+LaTeX Warning: Command \textendash invalid in math mode on input line 281.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 282.
+LaTeX Warning: Command \textendash invalid in math mode on input line 281.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 299.
+LaTeX Warning: Command \textendash invalid in math mode on input line 298.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 304.
+LaTeX Warning: Command \textendash invalid in math mode on input line 303.
 
 ) (./chapters/quad_geo_exer.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2114,7 +2117,7 @@ Package epstopdf Info: Source file: <./figs/11-1/5/5.6.eps>
 erted-to.pdf ./figs/11-1/5/5.6.eps>
 (epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/5/5.6-eps-converted-to.pdf, id=642, 381.425pt x 166.6225pt>
+<./figs/11-1/5/5.6-eps-converted-to.pdf, id=641, 381.425pt x 166.6225pt>
 File: ./figs/11-1/5/5.6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/5/5.6-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/5/5.6-eps-converted-to.pdf  used on input 
@@ -2131,7 +2134,7 @@ Package epstopdf Info: Source file: <./figs/11-1/5/5.8.eps>
 erted-to.pdf ./figs/11-1/5/5.8.eps>
 (epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/5/5.8-eps-converted-to.pdf, id=644, 379.4175pt x 192.72pt>
+<./figs/11-1/5/5.8-eps-converted-to.pdf, id=643, 379.4175pt x 192.72pt>
 File: ./figs/11-1/5/5.8-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/5/5.8-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/5/5.8-eps-converted-to.pdf  used on input 
@@ -2148,7 +2151,7 @@ Package epstopdf Info: Source file: <./figs/11-1/5/5.11.eps>
 verted-to.pdf ./figs/11-1/5/5.11.eps>
 (epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/5/5.11-eps-converted-to.pdf, id=646, 374.39874pt x 180.675pt>
+<./figs/11-1/5/5.11-eps-converted-to.pdf, id=645, 374.39874pt x 180.675pt>
 File: ./figs/11-1/5/5.11-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/5/5.11-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/5/5.11-eps-converted-to.pdf  used on input
@@ -2167,7 +2170,7 @@ Package epstopdf Info: Source file: <./figs/11-1/6/6.6.eps>
 erted-to.pdf ./figs/11-1/6/6.6.eps>
 (epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/6/6.6-eps-converted-to.pdf, id=678, 215.80624pt x 219.82124pt>
+<./figs/11-1/6/6.6-eps-converted-to.pdf, id=677, 215.80624pt x 219.82124pt>
 File: ./figs/11-1/6/6.6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/6/6.6-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/6/6.6-eps-converted-to.pdf  used on input 
@@ -2184,7 +2187,7 @@ Package epstopdf Info: Source file: <./figs/11-1/6/6.15.eps>
 verted-to.pdf ./figs/11-1/6/6.15.eps>
 (epstopdf)             \includegraphics on input line 421.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/6/6.15-eps-converted-to.pdf, id=680, 251.94125pt x 226.8475pt>
+<./figs/11-1/6/6.15-eps-converted-to.pdf, id=679, 251.94125pt x 226.8475pt>
 File: ./figs/11-1/6/6.15-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/6/6.15-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/6/6.15-eps-converted-to.pdf  used on input
@@ -2205,7 +2208,7 @@ Package epstopdf Info: Source file: <./figs/11-1/6/6.16.eps>
 verted-to.pdf ./figs/11-1/6/6.16.eps>
 (epstopdf)             \includegraphics on input line 438.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/6/6.16-eps-converted-to.pdf, id=706, 401.5pt x 199.74625pt>
+<./figs/11-1/6/6.16-eps-converted-to.pdf, id=705, 401.5pt x 199.74625pt>
 File: ./figs/11-1/6/6.16-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/6/6.16-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/6/6.16-eps-converted-to.pdf  used on input
@@ -2222,7 +2225,7 @@ Package epstopdf Info: Source file: <./figs/11-1/6/6.17.eps>
 verted-to.pdf ./figs/11-1/6/6.17.eps>
 (epstopdf)             \includegraphics on input line 447.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/6/6.17-eps-converted-to.pdf, id=708, 336.25626pt x 203.76125pt>
+<./figs/11-1/6/6.17-eps-converted-to.pdf, id=707, 336.25626pt x 203.76125pt>
 File: ./figs/11-1/6/6.17-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/6/6.17-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/6/6.17-eps-converted-to.pdf  used on input
@@ -2241,7 +2244,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.11.eps>
 verted-to.pdf ./figs/11-1/7/7.11.eps>
 (epstopdf)             \includegraphics on input line 455.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.11-eps-converted-to.pdf, id=731, 365.365pt x 281.05pt>
+<./figs/11-1/7/7.11-eps-converted-to.pdf, id=730, 365.365pt x 281.05pt>
 File: ./figs/11-1/7/7.11-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.11-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.11-eps-converted-to.pdf  used on input
@@ -2258,7 +2261,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.27.eps>
 verted-to.pdf ./figs/11-1/7/7.27.eps>
 (epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.27-eps-converted-to.pdf, id=733, 178.6675pt x 308.15125pt>
+<./figs/11-1/7/7.27-eps-converted-to.pdf, id=732, 178.6675pt x 308.15125pt>
 File: ./figs/11-1/7/7.27-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.27-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.27-eps-converted-to.pdf  used on input
@@ -2275,7 +2278,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.35.eps>
 verted-to.pdf ./figs/11-1/7/7.35.eps>
 (epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.35-eps-converted-to.pdf, id=735, 344.28625pt x 320.19624pt>
+<./figs/11-1/7/7.35-eps-converted-to.pdf, id=734, 344.28625pt x 320.19624pt>
 File: ./figs/11-1/7/7.35-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.35-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.35-eps-converted-to.pdf  used on input
@@ -2301,7 +2304,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.39.eps>
 verted-to.pdf ./figs/11-1/7/7.39.eps>
 (epstopdf)             \includegraphics on input line 486.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.39-eps-converted-to.pdf, id=761, 437.635pt x 275.0275pt>
+<./figs/11-1/7/7.39-eps-converted-to.pdf, id=760, 437.635pt x 275.0275pt>
 File: ./figs/11-1/7/7.39-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.39-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.39-eps-converted-to.pdf  used on input
@@ -2328,7 +2331,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.40.eps>
 verted-to.pdf ./figs/11-1/7/7.40.eps>
 (epstopdf)             \includegraphics on input line 527.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.40-eps-converted-to.pdf, id=786, 388.45125pt x 290.08376pt>
+<./figs/11-1/7/7.40-eps-converted-to.pdf, id=785, 388.45125pt x 290.08376pt>
 File: ./figs/11-1/7/7.40-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.40-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.40-eps-converted-to.pdf  used on input
@@ -2349,7 +2352,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.41.eps>
 verted-to.pdf ./figs/11-1/7/7.41.eps>
 (epstopdf)             \includegraphics on input line 551.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.41-eps-converted-to.pdf, id=813, 390.45876pt x 247.92625pt>
+<./figs/11-1/7/7.41-eps-converted-to.pdf, id=812, 390.45876pt x 247.92625pt>
 File: ./figs/11-1/7/7.41-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.41-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.41-eps-converted-to.pdf  used on input
@@ -2366,7 +2369,7 @@ Package epstopdf Info: Source file: <./figs/11-1/8/8.5.eps>
 erted-to.pdf ./figs/11-1/8/8.5.eps>
 (epstopdf)             \includegraphics on input line 575.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/8/8.5-eps-converted-to.pdf, id=816, 327.2225pt x 289.08pt>
+<./figs/11-1/8/8.5-eps-converted-to.pdf, id=815, 327.2225pt x 289.08pt>
 File: ./figs/11-1/8/8.5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/8/8.5-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/8/8.5-eps-converted-to.pdf  used on input 
@@ -2385,7 +2388,7 @@ Package epstopdf Info: Source file: <./figs/11-1/8/8.10.eps>
 verted-to.pdf ./figs/11-1/8/8.10.eps>
 (epstopdf)             \includegraphics on input line 582.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/8/8.10-eps-converted-to.pdf, id=846, 272.01625pt x 114.4275pt>
+<./figs/11-1/8/8.10-eps-converted-to.pdf, id=845, 272.01625pt x 114.4275pt>
 File: ./figs/11-1/8/8.10-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/8/8.10-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/8/8.10-eps-converted-to.pdf  used on input
@@ -2404,9 +2407,9 @@ Package rerunfilecheck Info: File `gvv_ncert_geolin.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 304.
  ) 
 Here is how much of TeX's memory you used:
- 43331 strings out of 480608
- 1006436 string characters out of 5892806
- 1370256 words of memory out of 5000000
+ 43330 strings out of 480608
+ 1006428 string characters out of 5892806
+ 1371256 words of memory out of 5000000
  57671 multiletter control sequences out of 15000+600000
  621011 words of font info for 221 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2427,10 +2430,10 @@ are/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux
 /files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/dat
 a/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on gvv_ncert_geolin.pdf (23 pages, 957114 bytes).
+Output written on gvv_ncert_geolin.pdf (23 pages, 957007 bytes).
 PDF statistics:
- 1026 PDF objects out of 1200 (max. 8388607)
- 926 compressed objects within 10 object streams
- 630 named destinations out of 1000 (max. 500000)
+ 1025 PDF objects out of 1200 (max. 8388607)
+ 925 compressed objects within 10 object streams
+ 629 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
