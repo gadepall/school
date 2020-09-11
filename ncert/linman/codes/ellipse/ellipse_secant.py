@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from numpy import linalg as LA
 
 import sys                                          #for path to external scripts
-sys.path.insert(0, '/storage/emulated/0/tlc/anusandhan/submissions/2020/july/matrix/revised/codes/CoordGeo')        #path to my scripts
+sys.path.insert(0, '/storage/emulated/0/tlc/school/ncert/linman/codes/CoordGeo')        #path to my scripts
 
 
 #local imports
@@ -71,7 +71,7 @@ plt.axis('equal')
 
 #if using termux
 plt.savefig('./figs/ellipse/ellipse_secant.pdf')
-plt.savefig('./figs/ellipse/ellipse_secant.eps')
+plt.savefig('./figs/ellipse/ellipse_secant.png')
 subprocess.run(shlex.split("termux-open ./figs/ellipse/ellipse_secant.pdf"))
 #else
 #plt.show()

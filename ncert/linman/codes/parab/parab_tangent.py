@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from numpy import linalg as LA
 
 import sys                                          #for path to external scripts
-sys.path.insert(0, '/storage/emulated/0/tlc/anusandhan/submissions/2020/july/matrix/revised/codes/CoordGeo')        #path to my scripts
+sys.path.insert(0, '/storage/emulated/0/tlc/school/ncert/linman/codes/CoordGeo')        #path to my scripts
 
 
 #local imports
@@ -32,7 +32,8 @@ V = np.array(([0,0],[0,1]))
 u = np.array(([-2,1]))
 f = 4
 p = np.array(([1,0]))
-foc = np.abs(p@u)/2
+foc = 2*np.abs(p@u)
+print(foc)
 
 #Generating the Standard parabola
 x = parab_gen(y,foc)
@@ -91,7 +92,7 @@ plt.axis('equal')
 
 #if using termux
 plt.savefig('./figs/parab/parab_tangent.pdf')
-plt.savefig('./figs/parab/parab_tangent.eps')
+plt.savefig('./figs/parab/parab_tangent.png')
 subprocess.run(shlex.split("termux-open ./figs/parab/parab_tangent.pdf"))
 ##else
 ##plt.show()

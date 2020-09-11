@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from numpy import linalg as LA
 
 import sys                                          #for path to external scripts
-sys.path.insert(0, '/storage/emulated/0/tlc/anusandhan/submissions/2020/july/matrix/revised/codes/CoordGeo')        #path to my scripts
+sys.path.insert(0, '/storage/emulated/0/tlc/school/ncert/linman/codes/CoordGeo')        #path to my scripts
 
 #local imports
 from line.funcs import *
@@ -64,7 +64,7 @@ plt.axis('equal')
 
 #if using termux
 plt.savefig('./figs/circex/CircTangent.pdf')
-plt.savefig('./figs/circex/CircTangent.eps')
+plt.savefig('./figs/circex/CircTangent.png')
 subprocess.run(shlex.split("termux-open ./figs/circex/CircTangent.pdf"))
 #else
 #plt.show()

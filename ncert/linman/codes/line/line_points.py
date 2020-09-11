@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import sys                                          #for path to external scripts
-sys.path.insert(0, '/storage/emulated/0/tlc/anusandhan/submissions/2020/july/matrix/revised/codes/CoordGeo')        #path to my scripts
+sys.path.insert(0, '/storage/emulated/0/tlc/school/ncert/linman/codes/CoordGeo')        #path to my scripts
 
 #local imports
 from line.funcs import *
@@ -83,10 +83,10 @@ plt.ylabel('$y$')
 #Saving figures
 #if using termux
 fig2.savefig('./figs/line/points_collinear.pdf')
-fig2.savefig('./figs/line/points_collinear.eps')
+fig2.savefig('./figs/line/points_collinear.png')
 
 fig1.savefig('./figs/line/points_triangle.pdf')
-fig1.savefig('./figs/line/points_triangle.eps')
+fig1.savefig('./figs/line/points_triangle.png')
 subprocess.run(shlex.split("termux-open ./figs/line/points_collinear.pdf"))
 subprocess.run(shlex.split("termux-open ./figs/line/points_triangle.pdf"))
 #else
