@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  15 SEP 2020 10:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  15 SEP 2020 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2132,7 +2132,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [5])
 (./chapters/plane.tex) (./chapters/quad_forms.tex) (./chapters/quad_pair.tex
 [6]) (./chapters/quad_conics.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5637) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2198,7 +2198,7 @@ Package epstopdf Info: Source file: <./figs/circex/CircOr.eps>
 onverted-to.pdf ./figs/circex/CircOr.eps>
 (epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/circex/CircOr-eps-converted-to.pdf, id=570, 462.52798pt x 346.89601pt>
+<./figs/circex/CircOr-eps-converted-to.pdf, id=571, 462.52798pt x 346.89601pt>
 File: ./figs/circex/CircOr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/circex/CircOr-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/circex/CircOr-eps-converted-to.pdf  used on inp
@@ -2221,7 +2221,7 @@ Package epstopdf Info: Source file: <./figs/circex/CircTangent.eps>
 eps-converted-to.pdf ./figs/circex/CircTangent.eps>
 (epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/circex/CircTangent-eps-converted-to.pdf, id=575, 462.52798pt x 346.8960
+<./figs/circex/CircTangent-eps-converted-to.pdf, id=576, 462.52798pt x 346.8960
 1pt>
 File: ./figs/circex/CircTangent-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/circex/CircTangent-eps-converted-to.pdf>
@@ -2242,7 +2242,7 @@ ed-to.pdf>
 gent-eps-converted-to.pdf ./figs/ellipse/ellipse_tangent.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/ellipse/ellipse_tangent-eps-converted-to.pdf, id=643, 462.52798pt x 346
+<./figs/ellipse/ellipse_tangent-eps-converted-to.pdf, id=644, 462.52798pt x 346
 .89601pt>
 File: ./figs/ellipse/ellipse_tangent-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2267,7 +2267,7 @@ d-to.pdf>
 ant-eps-converted-to.pdf ./figs/ellipse/ellipse_secant.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/ellipse/ellipse_secant-eps-converted-to.pdf, id=706, 462.52798pt x 346.
+<./figs/ellipse/ellipse_secant-eps-converted-to.pdf, id=707, 462.52798pt x 346.
 89601pt>
 File: ./figs/ellipse/ellipse_secant-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2291,7 +2291,7 @@ o.pdf>
 -eps-converted-to.pdf ./figs/hyper/hyper_tangent.eps>
 (epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/hyper/hyper_tangent-eps-converted-to.pdf, id=806, 462.52798pt x 346.896
+<./figs/hyper/hyper_tangent-eps-converted-to.pdf, id=807, 462.52798pt x 346.896
 01pt>
 File: ./figs/hyper/hyper_tangent-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/hyper/hyper_tangent-eps-converted-to.pdf>
@@ -2316,7 +2316,7 @@ o.pdf>
 -eps-converted-to.pdf ./figs/parab/parab_tangent.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/parab/parab_tangent-eps-converted-to.pdf, id=876, 462.52798pt x 346.896
+<./figs/parab/parab_tangent-eps-converted-to.pdf, id=877, 462.52798pt x 346.896
 01pt>
 File: ./figs/parab/parab_tangent-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/parab/parab_tangent-eps-converted-to.pdf>
@@ -2334,7 +2334,7 @@ erted-to.pdf>
 _secant-eps-converted-to.pdf ./figs/parab/parab_tangent_secant.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/parab/parab_tangent_secant-eps-converted-to.pdf, id=884, 462.52798pt x 
+<./figs/parab/parab_tangent_secant-eps-converted-to.pdf, id=885, 462.52798pt x 
 346.89601pt>
 File: ./figs/parab/parab_tangent_secant-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2373,10 +2373,10 @@ Package rerunfilecheck Info: File `gvv_linalg_manual.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
  ) 
 Here is how much of TeX's memory you used:
- 43033 strings out of 480608
- 1003537 string characters out of 5892806
- 1389983 words of memory out of 5000000
- 57595 multiletter control sequences out of 15000+600000
+ 43034 strings out of 480608
+ 1003553 string characters out of 5892806
+ 1390038 words of memory out of 5000000
+ 57596 multiletter control sequences out of 15000+600000
  647601 words of font info for 277 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,29n,91p,509b,875s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2397,10 +2397,10 @@ fb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmbi8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_linalg_manual.pdf (16 pages, 762643 bytes).
+Output written on gvv_linalg_manual.pdf (16 pages, 762699 bytes).
 PDF statistics:
- 1174 PDF objects out of 1200 (max. 8388607)
- 845 compressed objects within 9 object streams
+ 1175 PDF objects out of 1200 (max. 8388607)
+ 846 compressed objects within 9 object streams
  383 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
