@@ -49,7 +49,7 @@ plt.axis('equal')
 
 #if using termux
 plt.savefig('./figs/hyper.pdf')
-plt.savefig('./figs/hyper.eps')
+plt.savefig('./figs/hyper.png')
 subprocess.run(shlex.split("termux-open ./figs/hyper.pdf"))
 #else
 #plt.show()

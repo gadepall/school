@@ -68,7 +68,7 @@ plt.axis('equal')
 
 #if using termux
 plt.savefig('./figs/tri_sss.pdf')
-plt.savefig('./figs/tri_sss.eps')
+plt.savefig('./figs/tri_sss.png')
 subprocess.run(shlex.split("termux-open ./figs/tri_sss.pdf"))
 #else
 #plt.show()

@@ -49,14 +49,7 @@ plt.axis('equal')
 
 #if using termux
 plt.savefig('./figs/ellipse.pdf')
-plt.savefig('./figs/ellipse.eps')
+plt.savefig('./figs/ellipse.png')
 subprocess.run(shlex.split("termux-open ./figs/ellipse.pdf"))
 #else
 #plt.show()
-#
-#
-#
-#
-#
-#
-#

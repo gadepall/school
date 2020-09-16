@@ -54,7 +54,7 @@ plt.axis('equal')
 
 #if using termux
 plt.savefig('./figs/parabola.pdf')
-plt.savefig('./figs/parabola.eps')
+plt.savefig('./figs/parabola.png')
 subprocess.run(shlex.split("termux-open ./figs/parabola.pdf"))
 #else
 #plt.show()
