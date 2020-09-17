@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  10 SEP 2020 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  17 SEP 2020 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**problems.tex
-(./problems.tex
+**gvv_ramsey.tex
+(./gvv_ramsey.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IE
@@ -1642,8 +1642,8 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/ls
 tmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-) (./problems.aux)
-\openout1 = `problems.aux'.
+) (./gvv_ramsey.aux)
+\openout1 = `gvv_ramsey.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 75.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
@@ -1803,9 +1803,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
 LaTeX Info: Redefining \nameref on input line 75.
- (./problems.out) (./problems.out)
+ (./gvv_ramsey.out) (./gvv_ramsey.out)
 \@outlinefile=\write4
-\openout4 = `problems.out'.
+\openout4 = `gvv_ramsey.out'.
 
 \c@lstlisting=\count372
 \c@theorem=\count373
@@ -1824,7 +1824,7 @@ LaTeX Warning: No \author given.
 
 LaTeX Warning: No \author given.
 
-(./problems.toc
+(./gvv_ramsey.toc
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
 
 
@@ -1861,7 +1861,7 @@ syc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ))
 \tf@toc=\write5
-\openout5 = `problems.toc'.
+\openout5 = `gvv_ramsey.toc'.
 
  (./chapters/1/1.1.tex [1{/data/data/com.termux/files/usr/share/texlive/texmf-d
 ist/fonts/map/pdftex/updmap/pdftex.map}
@@ -2067,21 +2067,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
- (./problems.aux)
+ (./gvv_ramsey.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
-Package rerunfilecheck Info: File `problems.out' has not changed.
+Package rerunfilecheck Info: File `gvv_ramsey.out' has not changed.
 (rerunfilecheck)             Checksum: 88C87391570A87A0534E600D8B214B38;2286.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 361.
  ) 
 Here is how much of TeX's memory you used:
  40743 strings out of 480608
- 928069 string characters out of 5892806
- 1521196 words of memory out of 5000000
+ 928105 string characters out of 5892806
+ 1521202 words of memory out of 5000000
  54648 multiletter control sequences out of 15000+600000
  608820 words of font info for 185 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,18n,91p,500b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,91p,502b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/rtxi.pfb></data/data/com.termux/files/usr/share/texlive/texmf-di
@@ -2094,7 +2094,7 @@ blic/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on problems.pdf (32 pages, 537191 bytes).
+Output written on gvv_ramsey.pdf (32 pages, 537191 bytes).
 PDF statistics:
  1608 PDF objects out of 1728 (max. 8388607)
  1531 compressed objects within 16 object streams
