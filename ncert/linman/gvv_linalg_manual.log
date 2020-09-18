@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  17 SEP 2020 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  18 SEP 2020 08:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2003,7 +2003,7 @@ Overfull \hbox (14.40588pt too wide) in paragraph at lines 248--248
 \tf@toc=\write5
 \openout5 = `gvv_linalg_manual.toc'.
 
- (./chapters/line.tex
+ (./chapters/linforms/line.tex
 Underfull \vbox (badness 1132) has occurred while \output is active []
 
  [1
@@ -2128,11 +2128,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5])
-(./chapters/plane.tex
+(./chapters/linforms/plane.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./chapters/pseudo.tex [6]
+(./chapters/linforms/pseudo.tex [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <./figs/pseudo/assignment2.jpg, id=397, 490.83376pt x 361.85187pt>
@@ -2142,11 +2142,11 @@ Package pdftex.def Info: ./figs/pseudo/assignment2.jpg  used on input line 136.
 
 (pdftex.def)             Requested size: 252.0pt x 185.77881pt.
 )
-(./chapters/quad_forms.tex
+(./chapters/quadforms/quad_forms.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./figs/pseudo/assignment2.jpg>]) (./chapters/quad_pair.tex)
-(./chapters/quad_conics.tex [8]) (./chapters/tangent_normal.tex
+ [7 <./figs/pseudo/assignment2.jpg>]) (./chapters/quadforms/quad_pair.tex)
+(./chapters/conics/quad_conics.tex [8]) (./chapters/conics/tangent_normal.tex
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 40.
 
@@ -2193,7 +2193,7 @@ Overfull \hbox (10.73796pt too wide) in paragraph at lines 260--260
  []$| 
  []
 
-)) (./chapters/pair.tex
+)) (./chapters/quadforms/pair.tex
 <./figs/pair/pair_ang.png, id=591, 385.44pt x 279.0425pt>
 File: ./figs/pair/pair_ang.png Graphic file (type png)
 <use ./figs/pair/pair_ang.png>
@@ -2203,7 +2203,7 @@ Package pdftex.def Info: ./figs/pair/pair_ang.png  used on input line 70.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]) (./chapters/circle.tex [11 <./figs/pair/pair_ang.png>]
+[10]) (./chapters/conics/circle.tex [11 <./figs/pair/pair_ang.png>]
 
 LaTeX Warning: File `./figs/circex/CircOr.eps' not found on input line 110.
 
@@ -2246,7 +2246,8 @@ File: ./figs/circex/CircTangent-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/circex/CircTangent-eps-converted-to.pdf  used o
 n input line 155.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/ellipse.tex [12 <./figs/circex/CircOr-eps-converted-to.pdf>]
+) (./chapters/conics/ellipse.tex [12 <./figs/circex/CircOr-eps-converted-to.pdf
+>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2295,8 +2296,8 @@ Package pdftex.def Info: ./figs/ellipse/ellipse_secant-eps-converted-to.pdf  us
 ed on input line 182.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 )
-(./chapters/hyperbola.tex [14 <./figs/ellipse/ellipse_tangent-eps-converted-to.
-pdf>]
+(./chapters/conics/hyperbola.tex [14 <./figs/ellipse/ellipse_tangent-eps-conver
+ted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2320,8 +2321,8 @@ File: ./figs/hyper/hyper_tangent-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/hyper/hyper_tangent-eps-converted-to.pdf  used 
 on input line 65.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/parabola.tex [15 <./figs/ellipse/ellipse_secant-eps-converted-to.
-pdf> <./figs/hyper/hyper_tangent-eps-converted-to.pdf>]
+) (./chapters/conics/parabola.tex [15 <./figs/ellipse/ellipse_secant-eps-conver
+ted-to.pdf> <./figs/hyper/hyper_tangent-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figs/parab/parab_tangent.eps>
 (epstopdf)                    date: 2020-08-12 14:48:38
 (epstopdf)                    size: 23959 bytes
@@ -2366,12 +2367,12 @@ File: ./figs/parab/parab_tangent_secant-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: ./figs/parab/parab_tangent_secant-eps-converted-to.pdf
   used on input line 138.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/calculus.tex
+) (./chapters/quadforms/calculus.tex
 Underfull \hbox (badness 3343) in paragraph at lines 46--50
 \OT1/txr/m/n/12 which, upon tak-ing the trans-pose, yields
  []
 
-) (./chapters/ineq.tex) (./chapters/appendix.tex
+) (./chapters/linforms/ineq.tex) (./chapters/conics/appendix.tex
 Underfull \vbox (badness 5161) has occurred while \output is active []
 
  [17 <./figs/parab/parab_tangent_secant-eps-converted-to.pdf>]
@@ -2383,20 +2384,20 @@ Underfull \hbox (badness 2503) in paragraph at lines 29--37
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
 ) [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 342.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 342.
 
 (./gvv_linalg_manual.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 340.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 342.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 342.
 Package rerunfilecheck Info: File `gvv_linalg_manual.out' has not changed.
 (rerunfilecheck)             Checksum: 4FDBE5358ADFB9EABE700CA6140FDE08;768.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 340.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 342.
  ) 
 Here is how much of TeX's memory you used:
- 43136 strings out of 480608
- 1005076 string characters out of 5892806
- 1399489 words of memory out of 5000000
+ 43138 strings out of 480608
+ 1005499 string characters out of 5892806
+ 1399488 words of memory out of 5000000
  57634 multiletter control sequences out of 15000+600000
  647601 words of font info for 277 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
