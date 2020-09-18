@@ -45,7 +45,22 @@ Thus,
 \vec{n}_2 = \myvec{4\\5}
 \label{eq:quad_pair_norm_vec}
 \end{align}
-Substituting from \eqref{eq:quad_pair_norm_vec}
+\item Using the Toeplitz matrix,
+\begin{align}
+\vec{n}_1*\vec{n}_2 = 
+\myvec{3 & 0
+\\
+-2 & 3
+\\
+0 & -2
+}
+\myvec{4\\5}
+= \myvec{12 \\ 7 \\ -10}
+\end{align}
+%
+which matches the corresponding coefficients in \eqref{eq:pair_given}
+
+\item Substituting from \eqref{eq:quad_pair_norm_vec}
 in \eqref{eq:quad_pair_ci_mat}, the augmented matrix is
 \begin{align}
 \myvec{
