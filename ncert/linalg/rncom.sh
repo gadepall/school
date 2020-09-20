@@ -24,8 +24,10 @@
 
 #svn co https://github.com/Shantanu2508/Matrix_Theory/trunk/Assignment_5 /storage/emulated/0/tlc/school/ncert/linman/challenge/pair
 
+
 #cd /storage/emulated/0/tlc/school/ncert/linman
 #tex2pdf.sh gvv_linalg_manual
+#python codes/pair/pair_test.py
 
 
 #svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/12
