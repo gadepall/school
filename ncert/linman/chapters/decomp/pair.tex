@@ -2,6 +2,53 @@
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
 
+\item Let the pair of straight lines be given by 
+\begin{align}
+\label{eq:quad_pair_lines}
+\vec{n}_1^T \vec{x} = c_1
+\\
+\vec{n}_2^T \vec{x} = c_2
+\end{align}
+Equating their product with \eqref{eq:conic_quad_form},
+\begin{multline}
+\brak{\vec{n}_1^T \vec{x} - c_1}
+\brak{\vec{n}_2^T \vec{x} - c_2} 
+\\
+=
+\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+f=0
+%\label{eq:quad_pair_lines}
+\end{multline}
+\begin{align}
+\implies 
+\vec{n}_1 *\vec{n}_2  &= \myvec{a \\ 2b \\c}
+\label{eq:quad_pair_conv}
+\\
+c_2\vec{n}_1 + c_1 \vec{n}_2 &= -2\vec{u}
+\label{eq:quad_pair_ci}
+\\
+c_1 c_2 &= f
+\label{eq:quad_pair_f}
+\end{align}
+%
+where $*$ represents convolution.
+\item The slopes of the lines are given by the roots of the polynomial
+\begin{align}
+\label{eq:quad_pair_slopes}
+cm^2 + 2bm + a = 0
+\\
+\implies m_i = \frac{-b \pm \sqrt{-\abs{V}}}{c}
+\end{align}
+and 
+\begin{align}
+\vec{n}_i = k_i\myvec{-m_i\\1}, \quad i = 1,2.
+\end{align}
+\item From \eqref{eq:quad_pair_ci},
+\begin{align}
+\label{eq:quad_pair_ci_mat}
+\myvec{\vec{n}_1 & \vec{n}_2}\myvec{c_2\\c_1} = -2\vec{u}
+\end{align}
+$c_1,c_2$ can be obtained such that they satisfy \eqref{eq:quad_pair_f}.
+
 \item 
 Given,
 \begin{align}
@@ -21,8 +68,8 @@ it is easy to verify that
 \end{align}
 %
 Hence, \eqref{eq:pair_given} represents a pair of straight lines.
-%
- \eqref{eq:pair_given} can be expressed as \eqref{eq:conic_quad_form} with
+
+\item  \eqref{eq:pair_given} can be expressed as \eqref{eq:conic_quad_form} with
 \begin{align}
     \vec{V}=\vec{V}^T&=\myvec{12 & \frac{7}{2}\\\frac{7}{2} &-10}\label{eq:pair_v}\\
     \vec{u}&=\myvec{\frac{13}{2} \\ \frac{45}{2}}\label{eq:pair_u}\\
@@ -45,7 +92,7 @@ Thus,
 \vec{n}_2 = \myvec{4\\5}
 \label{eq:quad_pair_norm_vec}
 \end{align}
- Using the Toeplitz matrix,
+\item  Using the Toeplitz matrix,
 \begin{align}
 \vec{n}_1*\vec{n}_2 = 
 \myvec{3 & 0
@@ -62,7 +109,7 @@ which matches the corresponding coefficients in \eqref{eq:pair_given}
 
  Substituting from \eqref{eq:quad_pair_norm_vec}
 in 
-%\eqref{eq:quad_pair_ci_mat}, 
+\eqref{eq:quad_pair_ci_mat}, 
 the augmented matrix is
 \begin{align}
 \myvec{
@@ -89,7 +136,7 @@ Fig.     \ref{fig:pair} plots the lines in \eqref{eq:pair_given}
     \label{fig:pair}
 \end{figure}
 
- From \eqref{eq:quad_pair_norm_vec}
+\item  From \eqref{eq:quad_pair_norm_vec}
 the angle between the two straight lines is given by 
 \begin{align}
     \theta&=\cos^{-1}\brak{\frac{\vec{n_1}^T\vec{n_2}}{\norm{\vec{n_1}}\norm{\vec{n_2}}}}
