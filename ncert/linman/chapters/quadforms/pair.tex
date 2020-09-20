@@ -22,7 +22,7 @@ it is easy to verify that
 %
 Hence, \eqref{eq:pair_given} represents a pair of straight lines.
 %
-\item \eqref{eq:pair_given} can be expressed as \eqref{eq:conic_quad_form} with
+ \eqref{eq:pair_given} can be expressed as \eqref{eq:conic_quad_form} with
 \begin{align}
     \vec{V}=\vec{V}^T&=\myvec{12 & \frac{7}{2}\\\frac{7}{2} &-10}\label{eq:pair_v}\\
     \vec{u}&=\myvec{\frac{13}{2} \\ \frac{45}{2}}\label{eq:pair_u}\\
@@ -45,7 +45,7 @@ Thus,
 \vec{n}_2 = \myvec{4\\5}
 \label{eq:quad_pair_norm_vec}
 \end{align}
-\item Using the Toeplitz matrix,
+ Using the Toeplitz matrix,
 \begin{align}
 \vec{n}_1*\vec{n}_2 = 
 \myvec{3 & 0
@@ -60,8 +60,10 @@ Thus,
 %
 which matches the corresponding coefficients in \eqref{eq:pair_given}
 
-\item Substituting from \eqref{eq:quad_pair_norm_vec}
-in \eqref{eq:quad_pair_ci_mat}, the augmented matrix is
+ Substituting from \eqref{eq:quad_pair_norm_vec}
+in 
+%\eqref{eq:quad_pair_ci_mat}, 
+the augmented matrix is
 \begin{align}
 \myvec{
 3 & 4 & -13
@@ -87,7 +89,7 @@ Fig.     \ref{fig:pair} plots the lines in \eqref{eq:pair_given}
     \label{fig:pair}
 \end{figure}
 
-\item From \eqref{eq:quad_pair_norm_vec}
+ From \eqref{eq:quad_pair_norm_vec}
 the angle between the two straight lines is given by 
 \begin{align}
     \theta&=\cos^{-1}\brak{\frac{\vec{n_1}^T\vec{n_2}}{\norm{\vec{n_1}}\norm{\vec{n_2}}}}
