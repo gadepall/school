@@ -15,7 +15,9 @@
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
 
-#svn co https://github.com/EE20MTECH14019/EE5609/trunk/Assignment_3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/3
+
+#svn co https://github.com/shreeprasadbhat/matrix-theory/trunk/assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/14
+
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
 
