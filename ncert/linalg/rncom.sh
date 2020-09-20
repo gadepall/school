@@ -42,6 +42,8 @@ git push origin
 
 #rm -rf /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/30
 
-#svn co https://github.com/AddagallaSatyanarayana/AI5006/trunk/Assignment2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/63/
+
+#git clone https://github.com/Atul191/Assignment-2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/7
+
 #tex2pdf.sh gvv_ncert_linalg
 cd /storage/emulated/0/tlc/school/ncert/linalg
