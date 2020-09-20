@@ -27,6 +27,9 @@
 #cd /storage/emulated/0/tlc/school/ncert/linman
 #tex2pdf.sh gvv_linalg_manual
 
+
+#svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/12
+
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
 
