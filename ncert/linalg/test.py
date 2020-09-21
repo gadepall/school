@@ -20,7 +20,6 @@ X = np.block([[V,ucol],[u,f]])
 
 mat = f*V - np.outer(u,u)
 
-
 print(u@np.linalg.inv(V)@u-f)
 print(np.linalg.det(X))
 print(np.linalg.det(mat))

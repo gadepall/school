@@ -5,8 +5,10 @@
 
 #svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment7_Matrix_Theory  /storage/emulated/0/tlc/school/rams/solutions/3/4/1
 
+
+
+#git clone https://github.com/satyam463/matrix-theory-Assignment3 /storage/emulated/0/tlc/school/rams/solutions/4/1/5
 #cd /storage/emulated/0/tlc/school/rams/
-#cd /storage/emulated/0/tlc/school/
 #tex2pdf.sh gvv_ramsey
 
 #git clone https://github.com/satyam463/matrixtheory-assignment2  /storage/emulated/0/tlc/school/loney/solutions/13/4
