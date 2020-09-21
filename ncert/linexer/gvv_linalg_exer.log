@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  21 SEP 2020 06:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  21 SEP 2020 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2003,7 +2003,7 @@ Overfull \hbox (14.40588pt too wide) in paragraph at lines 247--247
 \tf@toc=\write5
 \openout5 = `gvv_linalg_exer.toc'.
 
- (./chapters/conics.tex (./solutions/1/solution.tex
+ (./chapters/conics.tex (./solutions/1/1/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -2022,24 +2022,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/1/Assignment_5.png, id=94, 462.528pt x 346.896pt>
-File: ./solutions/1/Assignment_5.png Graphic file (type png)
-<use ./solutions/1/Assignment_5.png>
-Package pdftex.def Info: ./solutions/1/Assignment_5.png  used on input line 94.
-
+<./solutions/1/1/Assignment_5.png, id=94, 462.528pt x 346.896pt>
+File: ./solutions/1/1/Assignment_5.png Graphic file (type png)
+<use ./solutions/1/1/Assignment_5.png>
+Package pdftex.def Info: ./solutions/1/1/Assignment_5.png  used on input line 9
+4.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./solutions/2/solution.tex
+) (./solutions/1/2/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<./solutions/2/assignment5.png, id=150, 396.48125pt x 337.26pt>
-File: ./solutions/2/assignment5.png Graphic file (type png)
-<use ./solutions/2/assignment5.png>
-Package pdftex.def Info: ./solutions/2/assignment5.png  used on input line 67.
+<./solutions/1/2/assignment5.png, id=150, 396.48125pt x 337.26pt>
+File: ./solutions/1/2/assignment5.png Graphic file (type png)
+<use ./solutions/1/2/assignment5.png>
+Package pdftex.def Info: ./solutions/1/2/assignment5.png  used on input line 67
+.
 (pdftex.def)             Requested size: 252.0pt x 214.36356pt.
 
 
@@ -2048,45 +2049,54 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./solutions/1/Assignment_5.png>]) (./solutions/12/solution.tex
+ [3 <./solutions/1/1/Assignment_5.png>]) (./solutions/1/7/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./solutions/2/assignment5.png>]
+
+Underfull \hbox (badness 6220) in paragraph at lines 12--17
+\OT1/txr/m/n/12 The di-rec-tion vec-tor of the given line
+ []
+
+<./solutions/1/7/circle.png, id=188, 433.62pt x 289.08pt>
+File: ./solutions/1/7/circle.png Graphic file (type png)
+<use ./solutions/1/7/circle.png>
+Package pdftex.def Info: ./solutions/1/7/circle.png  used on input line 28.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./solutions/1/2/assignment5.png> <./solutions/1/7/circle.png>])
+(./solutions/1/12/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-<./solutions/12/Assignment_7.png, id=253, 462.528pt x 346.896pt>
-File: ./solutions/12/Assignment_7.png Graphic file (type png)
-<use ./solutions/12/Assignment_7.png>
-Package pdftex.def Info: ./solutions/12/Assignment_7.png  used on input line 13
-0.
-(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-)
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 33.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./solutions/12/Assignment_7.png>]) (./chapters/qr.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+ [6]
+<./solutions/1/12/Assignment_7.png, id=289, 462.528pt x 346.896pt>
+File: ./solutions/1/12/Assignment_7.png Graphic file (type png)
+<use ./solutions/1/12/Assignment_7.png>
+Package pdftex.def Info: ./solutions/1/12/Assignment_7.png  used on input line 
+130.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+)
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
+LaTeX Warning: Command \textendash invalid in math mode on input line 36.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./solutions/1/12/Assignment_7.png>]) (./chapters/qr.tex (./solutions/2/1/s
+olution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -2117,6 +2127,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
@@ -2141,7 +2154,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-) [7]
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+) [9
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
  (./gvv_linalg_exer.aux)
@@ -2152,10 +2177,10 @@ Package rerunfilecheck Info: File `gvv_linalg_exer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
  ) 
 Here is how much of TeX's memory you used:
- 42518 strings out of 480608
- 993359 string characters out of 5892806
- 1378180 words of memory out of 5000000
- 57329 multiletter control sequences out of 15000+600000
+ 42591 strings out of 480608
+ 994659 string characters out of 5892806
+ 1378920 words of memory out of 5000000
+ 57353 multiletter control sequences out of 15000+600000
  621962 words of font info for 220 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,19n,91p,507b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2174,10 +2199,10 @@ exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files
 .termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></d
 ata/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on gvv_linalg_exer.pdf (7 pages, 758053 bytes).
+Output written on gvv_linalg_exer.pdf (9 pages, 777870 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
- 206 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
+ 249 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

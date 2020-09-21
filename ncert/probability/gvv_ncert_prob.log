@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=latex 2020.6.12)  27 JUL 2020 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  21 SEP 2020 07:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -26,7 +26,7 @@ tm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
--- Using DVI output.
+-- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen137
 -- This is a 12 point document.
 \CLASSINFOnormalsizebaselineskip=\dimen138
@@ -455,15 +455,36 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@dima=\skip66
 \bigstrutjot=\dimen179
 )
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/booktabs/bo
+oktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen180
+\lightrulewidth=\dimen181
+\cmidrulewidth=\dimen182
+\belowrulesep=\dimen183
+\belowbottomsep=\dimen184
+\aboverulesep=\dimen185
+\abovetopsep=\dimen186
+\cmidrulesep=\dimen187
+\cmidrulekern=\dimen188
+\defaultaddspace=\dimen189
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen190
+\@belowrulesep=\dimen191
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen192
+)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/enumitem/en
 umitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip67
-\enit@outerparindent=\dimen180
+\enit@outerparindent=\dimen193
 \enit@toks=\toks29
 \enit@inbox=\box53
-\enit@count@id=\count277
-\enitdp@description=\count278
+\enit@count@id=\count281
+\enitdp@description=\count282
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/mathtools/m
 athtools.sty
@@ -472,15 +493,15 @@ Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/calc.
 sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count279
-\calc@Bcount=\count280
-\calc@Adimen=\dimen181
-\calc@Bdimen=\dimen182
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
 \calc@Askip=\skip68
 \calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count281
+\calc@Ccount=\count285
 \calc@Cskip=\skip70
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/mathtools/m
@@ -498,17 +519,17 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count282
-\l_MT_multwidth_dim=\dimen183
+\g_MT_multlinerow_int=\count286
+\l_MT_multwidth_dim=\dimen196
 \origjot=\skip71
-\l_MT_shortvdotswithinadjustabove_dim=\dimen184
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen185
-\l_MT_above_intertext_sep=\dimen186
-\l_MT_below_intertext_sep=\dimen187
-\l_MT_above_shortintertext_sep=\dimen188
-\l_MT_below_shortintertext_sep=\dimen189
+\l_MT_shortvdotswithinadjustabove_dim=\dimen197
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen198
+\l_MT_above_intertext_sep=\dimen199
+\l_MT_below_intertext_sep=\dimen256
+\l_MT_above_shortintertext_sep=\dimen257
+\l_MT_below_shortintertext_sep=\dimen258
 \xmathstrut@box=\box54
-\xmathstrut@dim=\dimen190
+\xmathstrut@dim=\dimen259
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/fronten
 dlayer/tikz.sty
@@ -519,8 +540,8 @@ es/pgfrcs.sty
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-common.tex
 \pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen191
-\pgfutil@tempdimb=\dimen192
+\pgfutil@tempdima=\dimen260
+\pgfutil@tempdimb=\dimen261
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-common-lists.tex))
@@ -557,26 +578,26 @@ ties/pgfkeys.code.tex
 ties/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen193
-\pgf@y=\dimen194
-\pgf@xa=\dimen195
-\pgf@ya=\dimen196
-\pgf@xb=\dimen197
-\pgf@yb=\dimen198
-\pgf@xc=\dimen199
-\pgf@yc=\dimen256
-\pgf@xd=\dimen257
-\pgf@yd=\dimen258
+\pgf@x=\dimen262
+\pgf@y=\dimen263
+\pgf@xa=\dimen264
+\pgf@ya=\dimen265
+\pgf@xb=\dimen266
+\pgf@yb=\dimen267
+\pgf@xc=\dimen268
+\pgf@yc=\dimen269
+\pgf@xd=\dimen270
+\pgf@yd=\dimen271
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count283
-\c@pgf@countb=\count284
-\c@pgf@countc=\count285
-\c@pgf@countd=\count286
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count287
+\pgf@sys@id@count=\count291
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
 mlayer/pgf.cfg
@@ -591,13 +612,13 @@ File: pgfsys-dvips.def 2020/01/08 v3.1.5b (3.1.5b)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
 mlayer/pgfsys-common-postscript.def
 File: pgfsys-common-postscript.def 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@objectcount=\count288
+\pgf@objectcount=\count292
 )))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
 mlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count289
-\pgfsyssoftpath@bigbuffer@items=\count290
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
 mlayer/pgfsysprotocol.code.tex
@@ -611,7 +632,12 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 g/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-de
+f/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
@@ -633,8 +659,8 @@ pgfmathcalc.code.tex
 pgfmathutil.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmathparser.code.tex
-\pgfmath@dimen=\dimen259
-\pgfmath@count=\count291
+\pgfmath@dimen=\dimen272
+\pgfmath@count=\count295
 \pgfmath@box=\box56
 \pgfmath@toks=\toks37
 \pgfmath@stack@operand=\toks38
@@ -660,39 +686,39 @@ pgfmathfunctions.misc.code.tex)
 pgfmathfunctions.integerarithmetics.code.tex)))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count292
+\c@pgfmathroundto@lastzeros=\count296
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfint.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen260
-\pgf@picmaxx=\dimen261
-\pgf@picminy=\dimen262
-\pgf@picmaxy=\dimen263
-\pgf@pathminx=\dimen264
-\pgf@pathmaxx=\dimen265
-\pgf@pathminy=\dimen266
-\pgf@pathmaxy=\dimen267
-\pgf@xx=\dimen268
-\pgf@xy=\dimen269
-\pgf@yx=\dimen270
-\pgf@yy=\dimen271
-\pgf@zx=\dimen272
-\pgf@zy=\dimen273
+\pgf@picminx=\dimen273
+\pgf@picmaxx=\dimen274
+\pgf@picminy=\dimen275
+\pgf@picmaxy=\dimen276
+\pgf@pathminx=\dimen277
+\pgf@pathmaxx=\dimen278
+\pgf@pathminy=\dimen279
+\pgf@pathmaxy=\dimen280
+\pgf@xx=\dimen281
+\pgf@xy=\dimen282
+\pgf@yx=\dimen283
+\pgf@yy=\dimen284
+\pgf@zx=\dimen285
+\pgf@zy=\dimen286
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen274
-\pgf@path@lasty=\dimen275
+\pgf@path@lastx=\dimen287
+\pgf@path@lasty=\dimen288
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen276
-\pgf@shorten@start@additional=\dimen277
+\pgf@shorten@end@additional=\dimen289
+\pgf@shorten@start@additional=\dimen290
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorescopes.code.tex
@@ -700,19 +726,19 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box57
 \pgf@hbox=\box58
 \pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count293
+\pgf@picture@serial@count=\count297
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen278
+\pgflinewidth=\dimen291
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen279
-\pgf@pt@y=\dimen280
-\pgf@pt@temp=\dimen281
+\pgf@pt@x=\dimen292
+\pgf@pt@y=\dimen293
+\pgf@pt@temp=\dimen294
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorequick.code.tex
@@ -729,14 +755,14 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen282
+\pgfarrowsep=\dimen295
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen283
-\pgf@sys@shading@range@num=\count294
-\pgf@shadingcount=\count295
+\pgf@max=\dimen296
+\pgf@sys@shading@range@num=\count298
+\pgf@shadingcount=\count299
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoreimage.code.tex
@@ -775,8 +801,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
 bility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen284
-\pgf@nodesepend=\dimen285
+\pgf@nodesepstart=\dimen297
+\pgf@nodesepend=\dimen298
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
 bility/pgfcomp-version-1-18.sty
@@ -798,8 +824,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
 pgfmath.code.tex)
-\pgffor@iter=\dimen286
-\pgffor@skip=\dimen287
+\pgffor@iter=\dimen299
+\pgffor@skip=\dimen300
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
@@ -810,34 +836,34 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count296
-\pgfplotmarksize=\dimen288
+\pgf@plot@mark@count=\count300
+\pgfplotmarksize=\dimen301
 )
-\tikz@lastx=\dimen289
-\tikz@lasty=\dimen290
-\tikz@lastxsaved=\dimen291
-\tikz@lastysaved=\dimen292
-\tikz@lastmovetox=\dimen293
-\tikz@lastmovetoy=\dimen294
-\tikzleveldistance=\dimen295
-\tikzsiblingdistance=\dimen296
+\tikz@lastx=\dimen302
+\tikz@lasty=\dimen303
+\tikz@lastxsaved=\dimen304
+\tikz@lastysaved=\dimen305
+\tikz@lastmovetox=\dimen306
+\tikz@lastmovetoy=\dimen307
+\tikzleveldistance=\dimen308
+\tikzsiblingdistance=\dimen309
 \tikz@figbox=\box62
 \tikz@figbox@bg=\box63
 \tikz@tempbox=\box64
 \tikz@tempbox@bg=\box65
-\tikztreelevel=\count297
-\tikznumberofchildren=\count298
-\tikznumberofcurrentchild=\count299
-\tikz@fig@count=\count300
+\tikztreelevel=\count301
+\tikznumberofchildren=\count302
+\tikznumberofcurrentchild=\count303
+\tikz@fig@count=\count304
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
 es/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count301
-\pgfmatrixcurrentcolumn=\count302
-\pgf@matrix@numberofcolumns=\count303
+\pgfmatrixcurrentrow=\count305
+\pgfmatrixcurrentcolumn=\count306
+\pgf@matrix@numberofcolumns=\count307
 )
-\tikz@expandcount=\count304
+\tikz@expandcount=\count308
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarytopaths.code.tex
@@ -856,9 +882,9 @@ pgfplotscore.code.tex
 \t@pgfplots@toka=\toks42
 \t@pgfplots@tokb=\toks43
 \t@pgfplots@tokc=\toks44
-\pgfplots@tmpa=\dimen297
-\c@pgfplots@coordindex=\count305
-\c@pgfplots@scanlineindex=\count306
+\pgfplots@tmpa=\dimen310
+\c@pgfplots@coordindex=\count309
+\c@pgfplots@scanlineindex=\count310
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
 sys/pgfplotssysgeneric.code.tex))
@@ -876,13 +902,13 @@ liststructure/pgfplotsliststructure.code.tex)
 liststructure/pgfplotsliststructureext.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
 liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count307
+\c@pgfplotsarray@tmp=\count311
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
 liststructure/pgfplotsmatrix.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
 numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count308
+\c@pgfplotstable@counta=\count312
 \t@pgfplotstable@a=\toks45
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
@@ -895,7 +921,7 @@ util/pgfplotsbinary.data.code.tex))
 util/pgfplotsutil.verb.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
 libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count309
+\c@pgfplotslibrarysurf@no=\count313
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
 sys/pgflibrarypgfplots.surfshading.pgfsys-dvips.def)))
@@ -927,14 +953,14 @@ pgfplots.paths.code.tex)
 endlayer/tikz/libraries/tikzlibrarydecorations.code.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
 es/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen298
-\pgfdecoratedremainingdistance=\dimen299
-\pgfdecoratedinputsegmentcompleteddistance=\dimen300
-\pgfdecoratedinputsegmentremainingdistance=\dimen301
-\pgf@decorate@distancetomove=\dimen302
-\pgf@decorate@repeatstate=\count310
-\pgfdecorationsegmentamplitude=\dimen303
-\pgfdecorationsegmentlength=\dimen304
+\pgfdecoratedcompleteddistance=\dimen311
+\pgfdecoratedremainingdistance=\dimen312
+\pgfdecoratedinputsegmentcompleteddistance=\dimen313
+\pgfdecoratedinputsegmentremainingdistance=\dimen314
+\pgf@decorate@distancetomove=\dimen315
+\pgf@decorate@repeatstate=\count314
+\pgfdecorationsegmentamplitude=\dimen316
+\pgfdecorationsegmentlength=\dimen317
 )
 \tikz@lib@dec@box=\box66
 )
@@ -946,13 +972,13 @@ ries/decorations/pgflibrarydecorations.pathmorphing.code.tex))
 endlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count311
-\pgfplots@xmin@reg=\dimen305
-\pgfplots@xmax@reg=\dimen306
-\pgfplots@ymin@reg=\dimen307
-\pgfplots@ymax@reg=\dimen308
-\pgfplots@zmin@reg=\dimen309
-\pgfplots@zmax@reg=\dimen310
+\pgfplots@numplots=\count315
+\pgfplots@xmin@reg=\dimen318
+\pgfplots@xmax@reg=\dimen319
+\pgfplots@ymin@reg=\dimen320
+\pgfplots@ymax@reg=\dimen321
+\pgfplots@zmin@reg=\dimen322
+\pgfplots@zmax@reg=\dimen323
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
@@ -974,10 +1000,10 @@ File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowinset=\dimen311
-\pgfarrowlength=\dimen312
-\pgfarrowwidth=\dimen313
-\pgfarrowlinewidth=\dimen314
+\pgfarrowinset=\dimen324
+\pgfarrowlength=\dimen325
+\pgfarrowwidth=\dimen326
+\pgfarrowlinewidth=\dimen327
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarybending.code.tex
@@ -990,37 +1016,37 @@ File: pgfmodulebending.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
 es/pgfmodulenonlineartransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgftransformnonlinearflatness=\dimen315
+\pgftransformnonlinearflatness=\dimen328
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/pgflibrarycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@curvilinear@time@a=\dimen316
-\pgf@curvilinear@length@a=\dimen317
-\pgf@curvilinear@length@b=\dimen318
-\pgf@curvilinear@length@c=\dimen319
-\pgf@curvilinear@length@d=\dimen320
+\pgf@curvilinear@time@a=\dimen329
+\pgf@curvilinear@length@a=\dimen330
+\pgf@curvilinear@length@b=\dimen331
+\pgf@curvilinear@length@c=\dimen332
+\pgf@curvilinear@length@d=\dimen333
 )
-\pgf@arrows@the@rigidity=\dimen321
+\pgf@arrows@the@rigidity=\dimen334
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibraryfpu.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcirc.defines.tex
-\pgf@circ@count@a=\count312
-\pgf@circ@count@b=\count313
-\pgf@circ@count@c=\count314
-\pgf@circ@res@up=\dimen322
-\pgf@circ@res@down=\dimen323
-\pgf@circ@res@zero=\dimen324
-\pgf@circ@res@left=\dimen325
-\pgf@circ@res@right=\dimen326
-\pgf@circ@res@other=\dimen327
-\pgf@circ@res@step=\dimen328
-\pgf@circ@res@temp=\dimen329
-\pgfstartlinewidth=\dimen330
-\pgf@circ@Rlen=\dimen331
-\pgf@circ@scaled@Rlen=\dimen332
+\pgf@circ@count@a=\count316
+\pgf@circ@count@b=\count317
+\pgf@circ@count@c=\count318
+\pgf@circ@res@up=\dimen335
+\pgf@circ@res@down=\dimen336
+\pgf@circ@res@zero=\dimen337
+\pgf@circ@res@left=\dimen338
+\pgf@circ@res@right=\dimen339
+\pgf@circ@res@other=\dimen340
+\pgf@circ@res@step=\dimen341
+\pgf@circ@res@temp=\dimen342
+\pgfstartlinewidth=\dimen343
+\pgf@circ@Rlen=\dimen344
+\pgf@circ@scaled@Rlen=\dimen345
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcircutils.tex)
@@ -1032,7 +1058,7 @@ z/pgfcircmonopoles.tex)
 z/pgfcircbipoles.tex)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcirctripoles.tex
-\pgf@circ@res@count=\count315
+\pgf@circ@res@count=\count319
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
 z/pgfcircquadpoles.tex)
@@ -1090,7 +1116,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys
 /kvsetkeys.sty
@@ -1120,9 +1146,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 voptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen333
-\Hy@linkcounter=\count316
-\Hy@pagecounter=\count317
+\@linkdim=\dimen346
+\Hy@linkcounter=\count320
+\Hy@pagecounter=\count321
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd
 1enc.def
@@ -1138,7 +1164,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count318
+\Hy@SavedSpaceFactor=\count322
 Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
@@ -1147,14 +1173,14 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count319
+\c@Hy@tempcnt=\count323
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen334
+\XeTeXLinkMargin=\dimen347
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/bitset/bi
 tset.sty
@@ -1165,9 +1191,9 @@ c/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count320
-\Field@Width=\dimen335
-\Fld@charsize=\dimen336
+\Fld@menulength=\count324
+\Field@Width=\dimen348
+\Fld@charsize=\dimen349
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -1182,42 +1208,28 @@ LaTeX Info: Redefining \pageref on input line 6504.
 atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count321
-\c@Item=\count322
-\c@Hfootnote=\count323
+\Hy@abspage=\count325
+\c@Item=\count326
+\c@Hfootnote=\count327
 )
-Package hyperref Info: Driver (default): hdvips.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/hd
-vips.def
-File: hdvips.def 2020/01/14 v7.00d Hyperref driver for dvips
-
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd
-fmark.def
-File: pdfmark.def 2020/01/14 v7.00d Hyperref definitions for pdfmark specials
-
-
-Package hyperref Warning: You have enabled option `breaklinks'.
-(hyperref)                But driver `hdvips.def' does not suppport this.
-(hyperref)                Expect trouble with the link areas of broken links.
-
-\pdf@docset=\toks48
-\pdf@box=\box67
-\pdf@toks=\toks49
-\pdf@defaulttoks=\toks50
-\HyField@AnnotCount=\count324
-\Fld@listcount=\count325
-\c@bookmark@seq@number=\count326
-
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/rerunfilech
-eck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/atveryend/a
 tveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
+\Fld@listcount=\count328
+\c@bookmark@seq@number=\count329
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/uniquecou
 nter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -1226,7 +1238,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip72
-))
+)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
 /tkz-euclide.sty
 2020/03/03 3.05c tkz-euclide.sty
@@ -1248,7 +1260,7 @@ File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen337
+\arrowsize=\dimen350
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarybabel.code.tex
@@ -1266,15 +1278,15 @@ ries/decorations/pgflibrarydecorations.shapes.code.tex))
 endlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/decorations/pgflibrarydecorations.text.code.tex
-\pgf@lib@dec@text@box=\box68
+\pgf@lib@dec@text@box=\box67
 )
-\tikz@lib@dec@te@box=\box69
+\tikz@lib@dec@te@box=\box68
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibraryintersections.code.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
 ries/pgflibraryintersections.code.tex
-\pgf@intersect@solutions=\count327
+\pgf@intersect@solutions=\count330
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarypatterns.code.tex
@@ -1328,31 +1340,31 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/array
 .sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen338
-\ar@mcellbox=\box70
-\extrarowheight=\dimen339
-\NC@list=\toks51
+\col@sep=\dimen351
+\ar@mcellbox=\box69
+\extrarowheight=\dimen352
+\NC@list=\toks48
 \extratabsurround=\skip73
 \backup@length=\skip74
-\ar@cellbox=\box71
+\ar@cellbox=\box70
 )
-\c@nprt@mantissa@digitsbefore=\count328
-\c@nprt@mantissa@digitsafter=\count329
-\c@nprt@exponent@digitsbefore=\count330
-\c@nprt@exponent@digitsafter=\count331
+\c@nprt@mantissa@digitsbefore=\count331
+\c@nprt@mantissa@digitsafter=\count332
+\c@nprt@exponent@digitsbefore=\count333
+\c@nprt@exponent@digitsafter=\count334
 \nprt@digitwidth=\skip75
 \nprt@sepwidth=\skip76
 \nprt@decimalwidth=\skip77
 \nprt@blockwidth=\skip78
-\nprt@digittoks=\toks52
-\nprt@pretoks=\toks53
-\nprt@posttoks=\toks54
-\nprt@thisdigit=\count332
-\nprt@curpos=\count333
-\nprt@rndpos=\count334
-\c@nprt@digitsfirstblock=\count335
-\c@nprt@blockcnt=\count336
-\c@nprt@cntprint=\count337
+\nprt@digittoks=\toks49
+\nprt@pretoks=\toks50
+\nprt@posttoks=\toks51
+\nprt@thisdigit=\count335
+\nprt@curpos=\count336
+\nprt@rndpos=\count337
+\c@nprt@digitsfirstblock=\count338
+\c@nprt@blockcnt=\count339
+\c@nprt@cntprint=\count340
  No configuration file `numprint.cfg' found.)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3packages/
 xfp/xfp.sty
@@ -1361,15 +1373,10 @@ pl3.sty
 Package: expl3 2020-03-06 L3 programming layer (loader) 
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3backend/l
-3backend-dvips.def
-File: l3backend-dvips.def 2020-03-12 L3 backend support: dvips
-\l__pdf_internal_box=\box72
-\g__pdf_backend_object_int=\count338
-\l__pdf_backend_content_box=\box73
-\l__pdf_backend_model_box=\box74
-\g__pdf_backend_annotation_int=\count339
-\g__pdf_backend_link_int=\count340
-\g__pdf_backend_link_sf_int=\count341
+3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count341
+\l__pdf_internal_box=\box71
 ))
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3packages/
 xparse/xparse.sty
@@ -1440,25 +1447,25 @@ Package: fp-upn 1996/10/21
 sty
 Package: fp-eval 1995/04/03
 ))
-\tkzRadius=\dimen340
-\tkzLength=\dimen341
-\tkz@radi=\dimen342
-\tkz@ax=\dimen343
-\tkz@ay=\dimen344
-\tkz@bx=\dimen345
-\tkz@by=\dimen346
-\tkz@cx=\dimen347
-\tkz@cy=\dimen348
-\tkz@dx=\dimen349
-\tkz@dy=\dimen350
-\tkz@tax=\dimen351
-\tkz@tay=\dimen352
-\tkz@tbx=\dimen353
-\tkz@tby=\dimen354
-\tkz@tcx=\dimen355
-\tkz@tcy=\dimen356
-\tkz@tdx=\dimen357
-\tkz@tdy=\dimen358
+\tkzRadius=\dimen353
+\tkzLength=\dimen354
+\tkz@radi=\dimen355
+\tkz@ax=\dimen356
+\tkz@ay=\dimen357
+\tkz@bx=\dimen358
+\tkz@by=\dimen359
+\tkz@cx=\dimen360
+\tkz@cy=\dimen361
+\tkz@dx=\dimen362
+\tkz@dy=\dimen363
+\tkz@tax=\dimen364
+\tkz@tay=\dimen365
+\tkz@tbx=\dimen366
+\tkz@tby=\dimen367
+\tkz@tcx=\dimen368
+\tkz@tcy=\dimen369
+\tkz@tdx=\dimen370
+\tkz@tdy=\dimen371
 \tkz@cntmk=\count357
 
 Local configuration file tkz-base.cfg found and used
@@ -1539,8 +1546,8 @@ z-obj-rep.tex
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
 /tkz-obj-eu-angles.tex
 2020/03/03 3.05c tkz-tool-eu-angles.tex
-\tkz@arcsize=\dimen359
-\tkz@fillsize=\dimen360
+\tkz@arcsize=\dimen372
+\tkz@fillsize=\dimen373
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
 /tkz-obj-eu-arcs.tex
@@ -1615,30 +1622,30 @@ File: tikzlibraryfit.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarymath.code.tex
 \tikz@math@for@depth=\count358
-\tikz@math@dimen=\dimen361
-\tikz@math@toks=\toks55
+\tikz@math@dimen=\dimen374
+\tikz@math@toks=\toks52
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
 stings.sty
 \lst@mode=\count359
-\lst@gtempboxa=\box75
-\lst@token=\toks56
+\lst@gtempboxa=\box72
+\lst@token=\toks53
 \lst@length=\count360
-\lst@currlwidth=\dimen362
+\lst@currlwidth=\dimen375
 \lst@column=\count361
 \lst@pos=\count362
-\lst@lostspace=\dimen363
-\lst@width=\dimen364
+\lst@lostspace=\dimen376
+\lst@width=\dimen377
 \lst@newlines=\count363
 \lst@lineno=\count364
-\lst@maxwidth=\dimen365
+\lst@maxwidth=\dimen378
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/ls
 tmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count365
 \lst@skipnumbers=\count366
-\lst@framebox=\box76
+\lst@framebox=\box73
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
 stings.cfg
@@ -1667,26 +1674,29 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 Package multicol Warning: May not work with the twocolumn option on input line 
 141.
 
-\mult@box=\box77
-\multicol@leftmargin=\dimen366
+\mult@box=\box74
+\multicol@leftmargin=\dimen379
 \c@unbalance=\count368
 \c@collectmore=\count369
 \doublecol@number=\count370
 \multicoltolerance=\count371
 \multicolpretolerance=\count372
-\full@width=\dimen367
-\page@free=\dimen368
-\premulticols=\dimen369
-\postmulticols=\dimen370
+\full@width=\dimen380
+\page@free=\dimen381
+\premulticols=\dimen382
+\postmulticols=\dimen383
 \multicolsep=\skip79
 \multicolbaselineskip=\skip80
-\partial@page=\box78
-\last@line=\box79
-\maxbalancingoverflow=\dimen371
-\mult@rightbox=\box80
-\mult@grightbox=\box81
-\mult@gfirstbox=\box82
-\mult@firstbox=\box83
+\partial@page=\box75
+\last@line=\box76
+\maxbalancingoverflow=\dimen384
+\mult@rightbox=\box77
+\mult@grightbox=\box78
+\mult@gfirstbox=\box79
+\mult@firstbox=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
 \@tempa=\box84
 \@tempa=\box85
 \@tempa=\box86
@@ -1721,17 +1731,14 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \@tempa=\box115
 \@tempa=\box116
 \@tempa=\box117
-\@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
 \c@minrows=\count373
 \c@columnbadness=\count374
 \c@finalcolumnbadness=\count375
-\last@try=\dimen372
-\multicolovershoot=\dimen373
-\multicolundershoot=\dimen374
-\mult@nat@firstbox=\box121
-\colbreak@box=\box122
+\last@try=\dimen385
+\multicolovershoot=\dimen386
+\multicolundershoot=\dimen387
+\mult@nat@firstbox=\box118
+\colbreak@box=\box119
 \mc@col@check@num=\count376
 )
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/chngcntr/ch
@@ -1746,103 +1753,103 @@ LaTeX Warning: Label `fig:bt9' multiply defined.
 )
 \openout1 = `gvv_ncert_prob.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 89.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 90.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-89.
+90.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oml
 txmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 90.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-89.
+90.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
 txsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 90.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-89.
+90.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/omx
 txex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 89.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
-9.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 90.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
+0.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 exa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
-9.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+0.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
 txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 89.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 90.
 
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 89.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 89.
+LaTeX Info: Redefining \celsius on input line 90.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 90.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 89.
-Package gensymb Info: Using \Omega for \ohm on input line 89.
+LaTeX Info: Redefining \ohm on input line 90.
+Package gensymb Info: Using \Omega for \ohm on input line 90.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1858,14 +1865,40 @@ Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count377
+\scratchdimen=\dimen388
+\scratchbox=\box120
+\nofMPsegments=\count378
+\nofMParguments=\count379
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count380
+\MPscratchDim=\dimen389
+\MPnumerator=\count381
+\makeMPintoPDFobject=\count382
+\everyMPtoPDFconversion=\toks55
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pk
+g/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/latexconfig
+/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 89.
+ on input line 90.
 
-\AtBeginShipoutBox=\box123
-Package hyperref Info: Link coloring OFF on input line 89.
+\AtBeginShipoutBox=\box121
+Package hyperref Info: Link coloring OFF on input line 90.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/na
 meref.sty
@@ -1879,74 +1912,107 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count377
+\c@section@level=\count383
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
  (./gvv_ncert_prob.out) (./gvv_ncert_prob.out)
 \@outlinefile=\write4
 \openout4 = `gvv_ncert_prob.out'.
 
-\c@lstlisting=\count378
-\c@theorem=\count379
-\c@problem=\count380
-\c@proposition=\count381
-\c@lemma=\count382
-\c@example=\count383
-\c@rem=\count384
-File: iith_logo.eps Graphic file (type eps)
+\c@lstlisting=\count384
+\c@theorem=\count385
+\c@problem=\count386
+\c@proposition=\count387
+\c@lemma=\count388
+\c@example=\count389
+\c@rem=\count390
 
-<iith_logo.eps>
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 252.
+
+pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
+/logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
+on <1.5> allowed
+<iith_logo.pdf, id=36, 359.3425pt x 486.81876pt>
+File: iith_logo.pdf Graphic file (type pdf)
+<use iith_logo.pdf>
+Package pdftex.def Info: iith_logo.pdf  used on input line 253.
+(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 253.
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 25
-2.
+3.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ur
 sfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-52.
+53.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 mia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-52.
+53.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 sya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-52.
+53.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 syb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-52.
+53.
 
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
 syc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 252.
-File: tlc.eps Graphic file (type eps)
- <tlc.eps>
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 252.
-File: iith_logo.eps Graphic file (type eps)
- <iith_logo.eps>
-File: tlc.eps Graphic file (type eps)
- <tlc.eps>
-File: iith_logo.eps Graphic file (type eps)
- <iith_logo.eps>
-File: tlc.eps Graphic file (type eps)
- <tlc.eps>
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 253.
+<tlc.pdf, id=37, 597.51233pt x 845.0471pt>
+File: tlc.pdf Graphic file (type pdf)
+<use tlc.pdf>
+Package pdftex.def Info: tlc.pdf  used on input line 253.
+(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
+
+Overfull \hbox (14.40588pt too wide) in paragraph at lines 253--253
+[][] 
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 253.
+File: iith_logo.pdf Graphic file (type pdf)
+<use iith_logo.pdf>
+Package pdftex.def Info: iith_logo.pdf  used on input line 253.
+(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
+File: tlc.pdf Graphic file (type pdf)
+<use tlc.pdf>
+Package pdftex.def Info: tlc.pdf  used on input line 253.
+(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
+
+Overfull \hbox (14.40588pt too wide) in paragraph at lines 253--253
+[][] 
+ []
+
+File: iith_logo.pdf Graphic file (type pdf)
+<use iith_logo.pdf>
+Package pdftex.def Info: iith_logo.pdf  used on input line 253.
+(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
+File: tlc.pdf Graphic file (type pdf)
+<use tlc.pdf>
+Package pdftex.def Info: tlc.pdf  used on input line 253.
+(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
+
+Overfull \hbox (14.40588pt too wide) in paragraph at lines 253--253
+[][] 
+ []
+
 (./gvv_ncert_prob.toc)
 \tf@toc=\write5
 \openout5 = `gvv_ncert_prob.toc'.
@@ -1959,29 +2025,91 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 (/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1
 txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)) (./solutions/1-10/chapters/prob_exm/prob2/solution2.tex)
-(./solutions/1-10/chapters/prob_exm/prob3/solution3.tex
+)) (./solutions/1-10/chapters/prob_exm/prob2/solution2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
+Non-PDF special ignored!
+<special> ! /pgfHrgb{/pgfheight exch def 0.75 setlinewidth [] 0 setdash /pg...
+Non-PDF special ignored!
+<special> ! /pgfVrgb{/pgfheight exch def 0.75 setlinewidth [] 0 setdash /pg...
+Non-PDF special ignored!
+<special> ! /pgfArgb{ /pgfdiff 8 index round cvi 8 index round cvi sub 2 mu...
+Non-PDF special ignored!
+<special> ! /pgfR1rgb{ newpath dup dup dup 0 360 arc clip newpath dup /pgfe...
+Non-PDF special ignored!
+<special> ! /pgfR2rgb{ newpath 0.5 add pgfcircx pgfcircy 3 2 roll 0 360 arc...
+Non-PDF special ignored!
+<special> ! /pgfRrgb{ /pgfdiff 8 index round cvi 8 index round cvi sub 4 mu...
+Non-PDF special ignored!
+<special> ! /pgfHcmyk{ /pgfheight exch def 0.75 setlinewidth [] 0 setdash /...
+Non-PDF special ignored!
+<special> ! /pgfVcmyk{ /pgfheight exch def 0.75 setlinewidth [] 0 setdash /...
+Non-PDF special ignored!
+<special> ! /pgfAcmyk{ /pgfdiff 10 index round cvi 10 index round cvi sub 2...
+Non-PDF special ignored!
+<special> ! /pgfR1cmyk{ newpath dup dup dup 0 360 arc clip newpath dup /pgf...
+Non-PDF special ignored!
+<special> ! /pgfR2cmyk{ newpath 0.5 add pgfcircx pgfcircy 3 2 roll 0 360 ar...
+Non-PDF special ignored!
+<special> ! /pgfRcmyk{ /pgfdiff 10 index round cvi 10 index round cvi sub 4...
+Non-PDF special ignored!
+<special> ! /pgfHgray{ /pgfheight exch def 0.75 setlinewidth [] 0 setdash /...
+Non-PDF special ignored!
+<special> ! /pgfVgray{ /pgfheight exch def 0.75 setlinewidth [] 0 setdash /...
+Non-PDF special ignored!
+<special> ! /pgfAgray{ /pgfdiff 4 index round cvi 4 index round cvi sub 2 m...
+Non-PDF special ignored!
+<special> ! /pgfR1gray{ newpath dup dup dup 0 360 arc clip newpath dup /pgf...
+Non-PDF special ignored!
+<special> ! /pgfR2gray{ newpath 0.5 add pgfcircx pgfcircy 3 2 roll 0 360 ar...
+Non-PDF special ignored!
+<special> ! /pgfRgray{ /pgfdiff 4 index round cvi 4 index round cvi sub 4 m...
+Non-PDF special ignored!
+<special> !  /pgfsc{}bind def/pgffc{}bind def/pgfstr{stroke}bind def/pgffil...
+Non-PDF special ignored!
+<special> papersize=614.295pt,794.96999pt
+{/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}
 
 
-])
-(./solutions/1-10/chapters/prob_exm/prob4/solution4.tex)
-(./solutions/1-10/chapters/prob_exm/prob5/solution5.tex)
+Non-PDF special ignored!
+<special> ! /pgf1{gsave exec 1.0 pgfw 2.00002 0.0 moveto -6.00006 4.00005 l...
+Non-PDF special ignored!
+<special> ! /pgf2{gsave exec 1.0 pgfw 0.8 pgfw [ ] 0.0 setdash 1 setlinecap...
+Non-PDF special ignored!
+<special> ! /pgf3{gsave exec 1.0 pgfw [ ] 0.0 setdash 0.0 -5.00005 moveto 0...
+Non-PDF special ignored!
+<special> ! /pgf4{gsave exec 1.0 pgfw [ ] 0.0 setdash -3.00003 -5.00005 mov...
+Non-PDF special ignored!
+<special> ! /pgf5{gsave exec 1.0 pgfw [ ] 0.0 setdash -2.00002 -5.00005 mov...
+Non-PDF special ignored!
+<special> ! /pgf6{gsave exec 1.0 pgfw [ ] 0.0 setdash -4.50003 -5.00005 mov...
+Non-PDF special ignored!
+<special> ! /pgf7{gsave exec 1.0 pgfw -2.50002 0.0 translate [ ] 0.0 setdas...
+Non-PDF special ignored!
+<special> ! /pgf8{gsave exec 1.0 pgfw [ ] 0.0 setdash 1.0 0.0 moveto -5.000...
+
+ </data/data/com.termux/files/home/texmf/tex/latex/logo/iith_logo.pdf> </data/d
+ata/com.termux/files/home/texmf/tex/latex/logo/tlc.pdf>])
+(./solutions/1-10/chapters/prob_exm/prob3/solution3.tex)
+(./solutions/1/1/4/solution.tex
+
+LaTeX Warning: Reference `tab:givendistribution' on page 2 undefined on input l
+ine 5.
+
+(./solutions/1/1/4/sheet_random.tex) (./solutions/1/1/4/sheet_random_2.tex))
+[2] (./solutions/1-10/chapters/prob_exm/prob5/solution5.tex)
 (./solutions/1-10/chapters/prob_exm/prob6/solution6.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
-(./solutions/1-10/chapters/prob_exm/prob7/solution7.tex
-Underfull \vbox (badness 2913) has occurred while \output is active []
+(./solutions/1-10/chapters/prob_exm/prob7/solution7.tex)
+(./solutions/1-10/chapters/prob_exm/prob8/solution8.tex [3])
 
- [2])
-(./solutions/1-10/chapters/prob_exm/prob8/solution8.tex)
-
-LaTeX Warning: Reference `table:prob_exam9' on page 3 undefined on input line 1
-37.
+LaTeX Warning: Reference `table:prob_exam9' on page 4 undefined on input line 1
+38.
 
 (./solutions/1-10/chapters/prob_exm/prob9/solution9.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
@@ -1989,70 +2117,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 171--175
+Underfull \hbox (badness 10000) in paragraph at lines 172--176
 
  []
 
-(./solutions/1-10/chapters/prob_exm/prob10/solution10.tex
-Underfull \vbox (badness 6978) has occurred while \output is active []
-
- [3])
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+(./solutions/1-10/chapters/prob_exm/prob10/solution10.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 196--197
+Underfull \hbox (badness 1939) in paragraph at lines 197--198
 []\OT1/txr/m/n/12 A fam-ily has two chil-dren. What is the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 203--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 211--212
+Underfull \hbox (badness 3009) in paragraph at lines 212--213
 \OT1/txr/m/n/12 Two balls are drawn from the urn one
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
@@ -2060,99 +2185,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--216
 (./solutions/20-30/chapters/prob/examples/docq22.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [5])
+(./solutions/20-30/chapters/prob/examples/docq23.tex)
+(./solutions/20-30/chapters/prob/examples/docq24.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-30/chapters/prob/examples/docq23.tex)
-(./solutions/20-30/chapters/prob/examples/docq24.tex)
-(./solutions/20-30/chapters/prob/examples/docq25.tex
+(./solutions/20-30/chapters/prob/examples/docq25.tex)
+(./solutions/20-30/chapters/prob/examples/docq26.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
-(./solutions/20-30/chapters/prob/examples/docq26.tex)
+ [6])
 (./solutions/20-30/chapters/prob/examples/docq27.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (2.17107pt too wide) detected at line 32
  []$[] \OT1/txr/m/n/12 = [] [] [] [] [] = []$ []  
  []
 
-) (./solutions/20-30/chapters/prob/examples/docq28.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6])
-(./solutions/20-30/chapters/prob/examples/docq29.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-30/chapters/prob/examples/docq30.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-
- []
-
-
+(./solutions/20-30/chapters/prob/examples/docq28.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+ [7])
+(./solutions/20-30/chapters/prob/examples/docq29.tex)
+(./solutions/20-30/chapters/prob/examples/docq30.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 264--265
 []\OT1/txr/m/n/12 Two cards are drawn suc-ces-sively with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-
- []
-
-
-Underfull \hbox (badness 3568) in paragraph at lines 279--280
-[]\OT1/txr/m/n/12 Two cards are drawn si-mul-ta-ne-ously (or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--284
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 280--281
+[]\OT1/txr/m/n/12 Two cards are drawn si-mul-ta-ne-ously (or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--285
 
  []
 
 (./solutions/20-10/prob/chapters/exam41/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
-(./solutions/20-10/prob/chapters/exam42/solution.tex)
+)
+(./solutions/20-10/prob/chapters/exam42/solution.tex [9])
 (./solutions/20-10/prob/tables/boxes43.tex
 \gnumericTableWidth=\skip81
 \gnumericTableWidthComplete=\skip82
@@ -2163,84 +2286,178 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \gnumericColD=\skip87
 \gnumericColE=\skip88
 )
-(./solutions/20-10/prob/chapters/exam43/solution.tex)
-(./solutions/20-10/prob/chapters/exam44/solution.tex [9])
-(./solutions/20-10/prob/chapters/exam45/solution.tex)
-(./solutions/20-10/prob/chapters/exam46/solution.tex
+(./solutions/20-10/prob/chapters/exam43/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-10/prob/chapters/exam47/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10])
-(./solutions/20-10/prob/chapters/exam48/solution.tex)
+(./solutions/20-10/prob/chapters/exam44/solution.tex)
+(./solutions/20-10/prob/chapters/exam45/solution.tex [10])
+(./solutions/20-10/prob/chapters/exam46/solution.tex)
+(./solutions/20-10/prob/chapters/exam47/solution.tex)
+(./solutions/20-10/prob/chapters/exam48/solution.tex [11])
 (./solutions/20-10/prob/chapters/exam49/solution.tex)
-(./solutions/20-10/prob/chapters/exam50/solution.tex
-Underfull \vbox (badness 1838) has occurred while \output is active []
+(./solutions/20-10/prob/chapters/exam50/solution.tex)
+Package epstopdf Info: Source file: <./prob/figs/lake.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 789058 bytes
+(epstopdf)             Output file: <./prob/figs/lake-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-21 07:25:14
+(epstopdf)                    size: 67858 bytes
+(epstopdf)             Command: <repstopdf --outfile=./prob/figs/lake-eps-conve
+rted-to.pdf ./prob/figs/lake.eps>
+(epstopdf)             \includegraphics on input line 377.
+Package epstopdf Info: Output file is already uptodate.
+<./prob/figs/lake-eps-converted-to.pdf, id=404, 362.35374pt x 201.75375pt>
+File: ./prob/figs/lake-eps-converted-to.pdf Graphic file (type pdf)
+<use ./prob/figs/lake-eps-converted-to.pdf>
+Package pdftex.def Info: ./prob/figs/lake-eps-converted-to.pdf  used on input l
+ine 377.
+(pdftex.def)             Requested size: 362.35286pt x 201.75325pt.
 
-)
-File: ./prob/figs/lake.eps Graphic file (type eps)
-
-<./prob/figs/lake.eps>
-Underfull \hbox (badness 1983) in paragraph at lines 374--377
+Underfull \hbox (badness 1983) in paragraph at lines 375--378
 []\OT1/txr/m/n/12 A miss-ing he-li-copter is re-ported to have
  []
 
 
-Overfull \hbox (134.35374pt too wide) in paragraph at lines 374--377
+Overfull \hbox (134.35286pt too wide) in paragraph at lines 375--378
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--377
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 380--384
+Underfull \hbox (badness 10000) in paragraph at lines 375--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--384
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./prob/figs/lake-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
 
  []
 
 ) (./prob/prob_exer.tex
-(./solutions/1-10/chapters/probabilities/problem1/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/1-10/chapters/probabilities/problem2/solution.tex) [12]
+(./solutions/1-10/chapters/probabilities/problem1/solution.tex)
+(./solutions/1-10/chapters/probabilities/problem2/solution.tex)
 (./solutions/1-10/chapters/probabilities/problem3/question.tex
-File: ./solutions/1-10/figures/prob/prob3.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob3.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 23337 bytes
+(epstopdf)             Output file: <./solutions/1-10/figures/prob/prob3-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 13541 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1-10/figures/p
+rob/prob3-eps-converted-to.pdf ./solutions/1-10/figures/prob/prob3.eps>
+(epstopdf)             \includegraphics on input line 3.
+Package epstopdf Info: Output file is already uptodate.
 
-<./solutions/1-10/figures/prob/prob3.eps>)
-(./solutions/1-10/chapters/probabilities/problem3/solution.tex)
-(./solutions/1-10/chapters/probabilities/problem4/solution.tex
-Underfull \vbox (badness 2221) has occurred while \output is active []
 
-)
+pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob3-eps-converte
+d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf, id=437, 462.72874pt 
+x 346.29375pt>
+File: ./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1-10/figures/prob/prob3-eps-converted-to.p
+df  used on input line 3.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+) (./solutions/1-10/chapters/probabilities/problem3/solution.tex [13 <./solutio
+ns/1-10/figures/prob/prob3-eps-converted-to.pdf>])
 (./solutions/1-10/chapters/probabilities/problem4/solution.tex)
-(./solutions/1-10/chapters/probabilities/problem5/solution.tex [13])
-(./solutions/1-10/chapters/probabilities/problem7/solution.tex
-File: ./solutions/1-10/figures/prob/prob7.eps Graphic file (type eps)
+(./solutions/1-10/chapters/probabilities/problem4/solution.tex)
+(./solutions/1-10/chapters/probabilities/problem5/solution.tex)
+(./solutions/1-10/chapters/probabilities/problem7/solution.tex [14]
+Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob7.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 16805 bytes
+(epstopdf)             Output file: <./solutions/1-10/figures/prob/prob7-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 11444 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1-10/figures/p
+rob/prob7-eps-converted-to.pdf ./solutions/1-10/figures/prob/prob7.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
 
-<./solutions/1-10/figures/prob/prob7.eps>)
-(./solutions/1-10/chapters/probabilities/problem6/solution.tex [14]
+
+pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob7-eps-converte
+d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf, id=544, 462.72874pt 
+x 346.29375pt>
+File: ./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1-10/figures/prob/prob7-eps-converted-to.p
+df  used on input line 16.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+) (./solutions/1-10/chapters/probabilities/problem6/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-) (./solutions/1-10/chapters/probabilities/problem9/solution.tex
-File: ./solutions/1-10/figures/prob/prob8.eps Graphic file (type eps)
+) (./solutions/1-10/chapters/probabilities/problem9/solution.tex [15 <./solutio
+ns/1-10/figures/prob/prob7-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob8.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 14238 bytes
+(epstopdf)             Output file: <./solutions/1-10/figures/prob/prob8-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 8905 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1-10/figures/p
+rob/prob8-eps-converted-to.pdf ./solutions/1-10/figures/prob/prob8.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
 
-<./solutions/1-10/figures/prob/prob8.eps>)
-(./solutions/1-10/chapters/probabilities/problem10/solution.tex
-File: ./solutions/1-10/figures/prob/prob10.eps Graphic file (type eps)
 
-<./solutions/1-10/figures/prob/prob10.eps>)
+pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob8-eps-converte
+d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<./solutions/1-10/figures/prob/prob8-eps-converted-to.pdf, id=612, 462.72874pt 
+x 346.29375pt>
+File: ./solutions/1-10/figures/prob/prob8-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/1-10/figures/prob/prob8-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1-10/figures/prob/prob8-eps-converted-to.p
+df  used on input line 16.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+) (./solutions/1-10/chapters/probabilities/problem10/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob10.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 15120 bytes
+(epstopdf)             Output file: <./solutions/1-10/figures/prob/prob10-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 9889 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1-10/figures/p
+rob/prob10-eps-converted-to.pdf ./solutions/1-10/figures/prob/prob10.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob10-eps-convert
+ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
+llowed
+<./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf, id=614, 325.215pt x
+ 216.81pt>
+File: ./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1-10/figures/prob/prob10-eps-converted-to.
+pdf  used on input line 43.
+(pdftex.def)             Requested size: 252.0pt x 168.00284pt.
+)
 Underfull \hbox (badness 10000) in paragraph at lines 206--209
 
  []
@@ -2250,7 +2467,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-[15]
+[16 <./solutions/1-10/figures/prob/prob8-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
@@ -2286,15 +2503,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--236
  []
 
 
+Underfull \vbox (badness 2096) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 237--239
 
  []
 
-(./solutions/20-30/chapters/prob/exercises/docq21.tex
+(./solutions/20-30/chapters/prob/exercises/docq21.tex)
+(./solutions/20-30/chapters/prob/exercises/docq22.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
-(./solutions/20-30/chapters/prob/exercises/docq22.tex
+ [17 <./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2302,25 +2522,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/20-30/chapters/prob/exercises/docq24.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17])
+ [18])
 (./solutions/20-30/chapters/prob/exercises/docq25.tex)
 (./solutions/20-30/chapters/prob/exercises/docq26.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-30/chapters/prob/exercises/docq27.tex
+(./solutions/20-30/chapters/prob/exercises/docq27.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18])
+ [19]
 (./solutions/20-30/chapters/prob/exercises/docq28.tex)
 (./solutions/20-30/chapters/prob/exercises/docq29.tex)
 (./solutions/20-30/chapters/prob/exercises/docq30.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 302--304
@@ -2336,6 +2553,9 @@ Underfull \hbox (badness 1867) in paragraph at lines 305--307
 Underfull \hbox (badness 10000) in paragraph at lines 305--307
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 308--309
@@ -2375,13 +2595,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--3
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19])
-(./solutions/40-50/probability/chapters/Q41/solution.tex
+ [20])
+(./solutions/40-50/probability/chapters/Q41/solution.tex)
+(./solutions/40-50/probability/chapters/Q42/solution.tex)
+(./solutions/40-50/probability/chapters/Q43/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/40-50/probability/chapters/Q42/solution.tex [20])
-(./solutions/40-50/probability/chapters/Q43/solution.tex)
+ [21])
 (./solutions/40-50/probability/chapters/Q44/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 359--2
 
@@ -2402,11 +2622,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--2
 
  []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+)
 (./solutions/40-50/probability/chapters/Q45/solution.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
 (./solutions/40-50/probability/chapters/Q46/solution.tex)
 (./solutions/40-50/probability/chapters/Q47/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2417,22 +2640,23 @@ Overfull \hbox (0.71762pt too wide) detected at line 8
  []$[] \OT1/txr/m/n/9 = []$ []  
  []
 
-) (./solutions/40-50/probability/chapters/Q49/solution.tex [22]
-Overfull \hbox (0.71762pt too wide) detected at line 7
- []$[] \OT1/txr/m/n/9 = []$ []  
- []
-
-) (./solutions/40-50/probability/chapters/Q50/solution.tex
+) (./solutions/40-50/probability/chapters/Q49/solution.tex
 Overfull \hbox (0.71762pt too wide) detected at line 7
  []$[] \OT1/txr/m/n/9 = []$ []  
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2961) has occurred while \output is active []
+
+ [23])
+(./solutions/40-50/probability/chapters/Q50/solution.tex
+Overfull \hbox (0.71762pt too wide) detected at line 7
+ []$[] \OT1/txr/m/n/9 = []$ []  
+ []
 
 
 Overfull \hbox (4.95656pt too wide) detected at line 24
- []$[]   [] [] \OT1/txr/m/n/12 = [] = []$ [][][]  []  
+ []$[]   [] [] \OT1/txr/m/n/12 = [] = []$ [][]  
  []
 
 )
@@ -2465,12 +2689,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 410--411
 
  []
 
-[23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 412--413
 
  []
 
 
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [24]
 Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
@@ -2506,12 +2733,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--432
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 438--446
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 447--454
@@ -2564,9 +2791,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 486--487
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
 Underfull \hbox (badness 2961) in paragraph at lines 488--501
 []\OT1/txr/m/n/12 A ran-dom vari-able X has the fol-low-ing
  []
@@ -2592,6 +2816,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 488--501
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
 Underfull \hbox (badness 10000) in paragraph at lines 502--503
 
  []
@@ -2647,12 +2874,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--518
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 518--520
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 526--528
@@ -2695,14 +2922,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 556--557
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
 Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 Underfull \hbox (badness 10000) in paragraph at lines 560--562
 
  []
@@ -2753,6 +2980,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 586--588
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 593--596
 
  []
@@ -2788,14 +3018,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 612--614
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
 Underfull \hbox (badness 10000) in paragraph at lines 615--616
 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
 Underfull \hbox (badness 10000) in paragraph at lines 617--619
 
  []
@@ -2846,12 +3076,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 644--646
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 647--650
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 5607) in paragraph at lines 651--658
@@ -2888,7 +3118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 679--684
 
  []
 
-[27]
+[28]
 Underfull \hbox (badness 1721) in paragraph at lines 684--689
 []\OT1/txr/m/n/12 Which of the fol-low-ing ex-per-i-ments have
  []
@@ -2898,43 +3128,445 @@ Underfull \hbox (badness 10000) in paragraph at lines 684--689
 
  []
 
-File: ./prob/figs/woman.eps Graphic file (type eps)
-<./prob/figs/woman.eps> (./solutions/20-10/prob/chapters/fish/solution.tex
-[28])
-File: ./prob/figs/clock.eps Graphic file (type eps)
- <./prob/figs/clock.eps>
-(./solutions/20-10/prob/chapters/chance/solution.tex
-Underfull \vbox (badness 5771) has occurred while \output is active []
+Package epstopdf Info: Source file: <./prob/figs/woman.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 152802 bytes
+(epstopdf)             Output file: <./prob/figs/woman-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-21 07:25:16
+(epstopdf)                    size: 13026 bytes
+(epstopdf)             Command: <repstopdf --outfile=./prob/figs/woman-eps-conv
+erted-to.pdf ./prob/figs/woman.eps>
+(epstopdf)             \includegraphics on input line 720.
+Package epstopdf Info: Output file is already uptodate.
+<./prob/figs/woman-eps-converted-to.pdf, id=1033, 102.3825pt x 134.5025pt>
+File: ./prob/figs/woman-eps-converted-to.pdf Graphic file (type pdf)
+<use ./prob/figs/woman-eps-converted-to.pdf>
+Package pdftex.def Info: ./prob/figs/woman-eps-converted-to.pdf  used on input 
+line 720.
+(pdftex.def)             Requested size: 252.0pt x 331.08142pt.
+(./solutions/20-10/prob/chapters/fish/solution.tex)
+Package epstopdf Info: Source file: <./prob/figs/clock.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 110502 bytes
+(epstopdf)             Output file: <./prob/figs/clock-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-21 07:25:17
+(epstopdf)                    size: 10949 bytes
+(epstopdf)             Command: <repstopdf --outfile=./prob/figs/clock-eps-conv
+erted-to.pdf ./prob/figs/clock.eps>
+(epstopdf)             \includegraphics on input line 735.
+Package epstopdf Info: Output file is already uptodate.
+<./prob/figs/clock-eps-converted-to.pdf, id=1035, 84.315pt x 115.43124pt>
+File: ./prob/figs/clock-eps-converted-to.pdf Graphic file (type pdf)
+<use ./prob/figs/clock-eps-converted-to.pdf>
+Package pdftex.def Info: ./prob/figs/clock-eps-converted-to.pdf  used on input 
+line 735.
+(pdftex.def)             Requested size: 252.0pt x 345.00883pt.
 
-)
-(./solutions/20-10/prob/chapters/dice123/solution.tex
+(./solutions/20-10/prob/chapters/chance/solution.tex [29 <./prob/figs/woman-eps
+-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29])
-(./solutions/20-10/prob/chapters/cards125/solution.tex
+)
+(./solutions/20-10/prob/chapters/dice123/solution.tex [30 <./prob/figs/clock-ep
+s-converted-to.pdf>]) (./solutions/20-10/prob/chapters/cards125/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-10/prob/chapters/cards126/solution.tex [30])
-(./solutions/20-10/prob/chapters/pens127/solution.tex)
+(./solutions/20-10/prob/chapters/cards126/solution.tex)
+(./solutions/20-10/prob/chapters/pens127/solution.tex
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+ [31])
 (./solutions/20-10/prob/chapters/exer128/solution.tex)
 (./solutions/20-10/prob/chapters/exer129/solution.tex
-Underfull \vbox (badness 2119) has occurred while \output is active []
+Underfull \vbox (badness 4229) has occurred while \output is active []
 
 )
 (./prob/figs/130.tex) (./solutions/20-10/prob/chapters/exer130/solution.tex
-[31])
-File: ./prob/figs/rectangle.eps Graphic file (type eps)
- <./prob/figs/rectangle.eps> (./solutions/10-1/prob/exer1/solution.tex)
-(./solutions/10-1/prob/exer2/solution.tex) [32]
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
+ [32
+Non-PDF special ignored!
+<special> ps: 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfo
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: 0 setgray 
+Non-PDF special ignored!
+<special> ps:: 0.3985 pgfw 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: 4.51901 8.50412 moveto 
+Non-PDF special ignored!
+<special> ps:: -4.51901 8.50412 lineto 
+Non-PDF special ignored!
+<special> ps:: -6.71996 8.50412 -8.50412 6.71996 -8.50412 4.51901 curveto 
+Non-PDF special ignored!
+<special> ps:: -8.50412 -4.51901 lineto 
+Non-PDF special ignored!
+<special> ps:: -8.50412 -6.71996 -6.71996 -8.50412 -4.51901 -8.50412 curvet...
+Non-PDF special ignored!
+<special> ps:: 4.51901 -8.50412 lineto 
+Non-PDF special ignored!
+<special> ps:: 6.71996 -8.50412 8.50412 -6.71996 8.50412 -4.51901 curveto 
+Non-PDF special ignored!
+<special> ps:: 8.50412 4.51901 lineto 
+Non-PDF special ignored!
+<special> ps:: 8.50412 6.71996 6.71996 8.50412 4.51901 8.50412 curveto 
+Non-PDF special ignored!
+<special> ps:: closepath 
+Non-PDF special ignored!
+<special> ps:: -8.50412 -8.50412 moveto 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 -4.31586 -3.99904 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: 27.19655 8.50412 moveto 
+Non-PDF special ignored!
+<special> ps:: 18.15851 8.50412 lineto 
+Non-PDF special ignored!
+<special> ps:: 15.95757 8.50412 14.1734 6.71996 14.1734 4.51901 curveto 
+Non-PDF special ignored!
+<special> ps:: 14.1734 -4.51901 lineto 
+Non-PDF special ignored!
+<special> ps:: 14.1734 -6.71996 15.95757 -8.50412 18.15851 -8.50412 curveto...
+Non-PDF special ignored!
+<special> ps:: 27.19655 -8.50412 lineto 
+Non-PDF special ignored!
+<special> ps:: 29.39749 -8.50412 31.18166 -6.71996 31.18166 -4.51901 curvet...
+Non-PDF special ignored!
+<special> ps:: 31.18166 4.51901 lineto 
+Non-PDF special ignored!
+<special> ps:: 31.18166 6.71996 29.39749 8.50412 27.19655 8.50412 curveto 
+Non-PDF special ignored!
+<special> ps:: closepath 
+Non-PDF special ignored!
+<special> ps:: 14.1734 -8.50412 moveto 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 18.69043 -3.99904 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: 49.87408 8.50412 moveto 
+Non-PDF special ignored!
+<special> ps:: 40.83604 8.50412 lineto 
+Non-PDF special ignored!
+<special> ps:: 38.6351 8.50412 36.85094 6.71996 36.85094 4.51901 curveto 
+Non-PDF special ignored!
+<special> ps:: 36.85094 -4.51901 lineto 
+Non-PDF special ignored!
+<special> ps:: 36.85094 -6.71996 38.6351 -8.50412 40.83604 -8.50412 curveto...
+Non-PDF special ignored!
+<special> ps:: 49.87408 -8.50412 lineto 
+Non-PDF special ignored!
+<special> ps:: 52.07503 -8.50412 53.85919 -6.71996 53.85919 -4.51901 curvet...
+Non-PDF special ignored!
+<special> ps:: 53.85919 4.51901 lineto 
+Non-PDF special ignored!
+<special> ps:: 53.85919 6.71996 52.07503 8.50412 49.87408 8.50412 curveto 
+Non-PDF special ignored!
+<special> ps:: closepath 
+Non-PDF special ignored!
+<special> ps:: 36.85094 -8.50412 moveto 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 41.36797 -3.91835 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: 4.51901 -14.1734 moveto 
+Non-PDF special ignored!
+<special> ps:: -4.51901 -14.1734 lineto 
+Non-PDF special ignored!
+<special> ps:: -6.71996 -14.1734 -8.50412 -15.95757 -8.50412 -18.15851 curv...
+Non-PDF special ignored!
+<special> ps:: -8.50412 -27.19655 lineto 
+Non-PDF special ignored!
+<special> ps:: -8.50412 -29.39749 -6.71996 -31.18166 -4.51901 -31.18166 cur...
+Non-PDF special ignored!
+<special> ps:: 4.51901 -31.18166 lineto 
+Non-PDF special ignored!
+<special> ps:: 6.71996 -31.18166 8.50412 -29.39749 8.50412 -27.19655 curvet...
+Non-PDF special ignored!
+<special> ps:: 8.50412 -18.15851 lineto 
+Non-PDF special ignored!
+<special> ps:: 8.50412 -15.95757 6.71996 -14.1734 4.51901 -14.1734 curveto 
+Non-PDF special ignored!
+<special> ps:: closepath 
+Non-PDF special ignored!
+<special> ps:: -8.50412 -31.18166 moveto 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 -4.31586 -26.67657 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: 27.19655 -14.1734 moveto 
+Non-PDF special ignored!
+<special> ps:: 18.15851 -14.1734 lineto 
+Non-PDF special ignored!
+<special> ps:: 15.95757 -14.1734 14.1734 -15.95757 14.1734 -18.15851 curvet...
+Non-PDF special ignored!
+<special> ps:: 14.1734 -27.19655 lineto 
+Non-PDF special ignored!
+<special> ps:: 14.1734 -29.39749 15.95757 -31.18166 18.15851 -31.18166 curv...
+Non-PDF special ignored!
+<special> ps:: 27.19655 -31.18166 lineto 
+Non-PDF special ignored!
+<special> ps:: 29.39749 -31.18166 31.18166 -29.39749 31.18166 -27.19655 cur...
+Non-PDF special ignored!
+<special> ps:: 31.18166 -18.15851 lineto 
+Non-PDF special ignored!
+<special> ps:: 31.18166 -15.95757 29.39749 -14.1734 27.19655 -14.1734 curve...
+Non-PDF special ignored!
+<special> ps:: closepath 
+Non-PDF special ignored!
+<special> ps:: 14.1734 -31.18166 moveto 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 19.02518 -26.67657 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0.5 0.5 1 setrgbcolor}def 
+Non-PDF special ignored!
+<special> ps:: 49.87408 -14.1734 moveto 
+Non-PDF special ignored!
+<special> ps:: 40.83604 -14.1734 lineto 
+Non-PDF special ignored!
+<special> ps:: 38.6351 -14.1734 36.85094 -15.95757 36.85094 -18.15851 curve...
+Non-PDF special ignored!
+<special> ps:: 36.85094 -27.19655 lineto 
+Non-PDF special ignored!
+<special> ps:: 36.85094 -29.39749 38.6351 -31.18166 40.83604 -31.18166 curv...
+Non-PDF special ignored!
+<special> ps:: 49.87408 -31.18166 lineto 
+Non-PDF special ignored!
+<special> ps:: 52.07503 -31.18166 53.85919 -29.39749 53.85919 -27.19655 cur...
+Non-PDF special ignored!
+<special> ps:: 53.85919 -18.15851 lineto 
+Non-PDF special ignored!
+<special> ps:: 53.85919 -15.95757 52.07503 -14.1734 49.87408 -14.1734 curve...
+Non-PDF special ignored!
+<special> ps:: closepath 
+Non-PDF special ignored!
+<special> ps:: 36.85094 -31.18166 moveto 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 41.0392 -26.67657 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: pgfc
+Non-PDF special ignored!
+<special> ps::[end]
+])
+Package epstopdf Info: Source file: <./prob/figs/rectangle.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 187059 bytes
+(epstopdf)             Output file: <./prob/figs/rectangle-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-09-21 07:25:19
+(epstopdf)                    size: 1283483 bytes
+(epstopdf)             Command: <repstopdf --outfile=./prob/figs/rectangle-eps-
+converted-to.pdf ./prob/figs/rectangle.eps>
+(epstopdf)             \includegraphics on input line 804.
+Package epstopdf Info: Output file is already uptodate.
+<./prob/figs/rectangle-eps-converted-to.pdf, id=1152, 462.52798pt x 346.89601pt
+>
+File: ./prob/figs/rectangle-eps-converted-to.pdf Graphic file (type pdf)
+<use ./prob/figs/rectangle-eps-converted-to.pdf>
+Package pdftex.def Info: ./prob/figs/rectangle-eps-converted-to.pdf  used on in
+put line 804.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+ (./solutions/10-1/prob/exer1/solution.tex)
+(./solutions/10-1/prob/exer2/solution.tex)
 (./solutions/10-1/prob/codes/tables/input.tex)
 (./solutions/10-1/prob/exer3/solution.tex
 
 LaTeX Warning: Reference `table:1.2.133.2' on page 33 undefined on input line 2
 .
 
+[33 <./prob/figs/rectangle-eps-converted-to.pdf>]
 (./solutions/10-1/prob/codes/tables/output.tex))
-(./solutions/10-1/prob/exer4/solution.tex)
+(./solutions/10-1/prob/exer4/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 850--851
 
  []
@@ -2949,15 +3581,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 853--854
 
  []
 
-[33] (./solutions/10-1/prob/exer5/solution.tex)
+(./solutions/10-1/prob/exer5/solution.tex
+Underfull \vbox (badness 4291) has occurred while \output is active []
+
+ [34])
 (./solutions/10-1/prob/exer6/solution1.tex)
 (./solutions/10-1/prob/exer7/solution.tex
 (./solutions/10-1/prob/tables/prob7_inp.tex)
-(./solutions/10-1/prob/tables/prob7_1.tex) [34]
-(./solutions/10-1/prob/tables/prob7_2.tex)
+(./solutions/10-1/prob/tables/prob7_1.tex)
+(./solutions/10-1/prob/tables/prob7_2.tex) [35]
 (./solutions/10-1/prob/tables/prob7_3.tex))
-File: ./prob/figs/rows.eps Graphic file (type eps)
- <./prob/figs/rows.eps>
+Package epstopdf Info: Source file: <./prob/figs/rows.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 201967 bytes
+(epstopdf)             Output file: <./prob/figs/rows-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-21 07:25:21
+(epstopdf)                    size: 22363 bytes
+(epstopdf)             Command: <repstopdf --outfile=./prob/figs/rows-eps-conve
+rted-to.pdf ./prob/figs/rows.eps>
+(epstopdf)             \includegraphics on input line 881.
+Package epstopdf Info: Output file is already uptodate.
+<./prob/figs/rows-eps-converted-to.pdf, id=1254, 315.1775pt x 173.64874pt>
+File: ./prob/figs/rows-eps-converted-to.pdf Graphic file (type pdf)
+<use ./prob/figs/rows-eps-converted-to.pdf>
+Package pdftex.def Info: ./prob/figs/rows-eps-converted-to.pdf  used on input l
+ine 881.
+(pdftex.def)             Requested size: 252.0pt x 138.84233pt.
+
 (./solutions/10-1/prob/exer8/solution.tex
 Underfull \hbox (badness 2229) in paragraph at lines 879--6
 []\OT1/txr/m/n/12 A die is num-bered in such a way that
@@ -2983,42 +3633,34 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 879--6
 [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 (./solutions/10-1/prob/codes/tables/prob8_probout.tex
 \gnumericColF=\skip89
 \gnumericColG=\skip90
 ))
-(./solutions/10-1/prob/exer9/solution.tex [35])
-(./solutions/10-1/prob/exer10/solution.tex)) (./stats/stats_exam.tex
-(./solutions/1-10/table/statexm/statexm1.tex)
-(./solutions/1-10/chapters/statexm/prob1/solution1.tex)
+(./solutions/10-1/prob/exer9/solution.tex)
+(./solutions/10-1/prob/exer10/solution.tex [36 <./prob/figs/rows-eps-converted-
+to.pdf>])) (./stats/stats_exam.tex (./solutions/1-10/table/statexm/statexm1.tex
+) (./solutions/1-10/chapters/statexm/prob1/solution1.tex)
 (./solutions/1-10/table/statexm/statexm2.tex)
 (./solutions/1-10/chapters/statexm/prob2/solution2.tex)
 (./solutions/1-10/table/statexm/statexm3.tex)
-(./solutions/1-10/chapters/statexm/prob3/solution3.tex [36])
-(./solutions/1-10/chapters/statexm/prob4/solution4.tex)
+(./solutions/1-10/chapters/statexm/prob3/solution3.tex)
+(./solutions/1-10/chapters/statexm/prob4/solution4.tex [37])
 (./solutions/1-10/chapters/statexm/prob5/solution5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 59--3
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/1-10/table/statexm/statexn6.tex)
+) (./solutions/1-10/table/statexm/statexn6.tex)
 (./solutions/1-10/chapters/statexm/prob6/solution6.tex
 (./solutions/1-10/table/statexm/statexn62.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 80--10
 
  []
 
-[37]) (./stats/tables/2.1.7.tex)
+) (./stats/tables/2.1.7.tex)
 (./solutions/1-10/chapters/statexm/prob7/solution7.tex
-(./solutions/1-10/table/statexm/statexn72.tex)
+(./solutions/1-10/table/statexm/statexn72.tex) [38]
 Underfull \hbox (badness 10000) in paragraph at lines 10--24
 \OT1/txr/m/n/12 nearest class to the mid-dle co-mu-la-tive
  []
@@ -3033,14 +3675,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--20
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38])
-(./stats/tables/2.1.9.tex)
+
+Overfull \vbox (140.9895pt too high) has occurred while \output is active []
+
+
+[39]) (./stats/tables/2.1.9.tex)
 (./solutions/1-10/chapters/statexm/prob9/solution9.tex
 (./solutions/1-10/table/statexm/statexn92.tex)
-File: ./solutions/1-10/figures/statexm/statexm9.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <./solutions/1-10/figures/statexm/statexm9.
+eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 31364 bytes
+(epstopdf)             Output file: <./solutions/1-10/figures/statexm/statexm9-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 11912 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1-10/figures/s
+tatexm/statexm9-eps-converted-to.pdf ./solutions/1-10/figures/statexm/statexm9.
+eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
 
-<./solutions/1-10/figures/statexm/statexm9.eps> [39])) (./stats/statexam_pr.tex
 
+pdfTeX warning: pdflatex (file ./solutions/1-10/figures/statexm/statexm9-eps-co
+nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<./solutions/1-10/figures/statexm/statexm9-eps-converted-to.pdf, id=1372, 462.7
+2874pt x 346.29375pt>
+File: ./solutions/1-10/figures/statexm/statexm9-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/1-10/figures/statexm/statexm9-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1-10/figures/statexm/statexm9-eps-converte
+d-to.pdf  used on input line 15.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+)) (./stats/statexam_pr.tex
 Underfull \hbox (badness 1527) in paragraph at lines 4--5
 []\OT1/txr/m/n/12 Consider the marks ob-tained (out of 100
  []
@@ -3060,7 +3728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--33
 
  []
 
-
+[40 <./solutions/1-10/figures/statexm/statexm9-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -3092,6 +3760,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--102
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -3102,9 +3773,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--122
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
 Underfull \hbox (badness 10000) in paragraph at lines 122--142
 
  []
@@ -3120,6 +3788,1020 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--160
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41
+Non-PDF special ignored!
+<special> ps: 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfo
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: 0 setgray 
+Non-PDF special ignored!
+<special> ps:: 0.3985 pgfw 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 0.0 0.0 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 -43.0148 -32.08818 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfo
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: 0 setgray 
+Non-PDF special ignored!
+<special> ps:: 0.3985 pgfw 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: 0.19925 pgfw 
+Non-PDF special ignored!
+<special> ps:: 0.0 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 0.0 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 13.78333 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 13.78333 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 27.56665 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 27.56665 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 41.34998 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 41.34998 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 55.13332 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 55.13332 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 68.91664 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 68.91664 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 82.69997 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 82.69997 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 96.4833 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 96.4833 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 110.26663 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 110.26663 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 124.04996 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 124.04996 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 137.83328 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 137.83328 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 151.61662 -4.2518 moveto 
+Non-PDF special ignored!
+<special> ps:: 151.61662 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 0.0 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 0.0 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 13.78333 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 13.78333 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 27.56665 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 27.56665 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 41.34998 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 41.34998 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 55.13332 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 55.13332 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 68.91664 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 68.91664 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 82.69997 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 82.69997 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 96.4833 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 96.4833 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 110.26663 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 110.26663 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 124.04996 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 124.04996 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 137.83328 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 137.83328 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 151.61662 129.50159 moveto 
+Non-PDF special ignored!
+<special> ps:: 151.61662 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: pgfstr 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: 0.19925 pgfw 
+Non-PDF special ignored!
+<special> ps:: -15.16257 0.0 moveto 
+Non-PDF special ignored!
+<special> ps:: -10.90987 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: -15.16257 32.53223 moveto 
+Non-PDF special ignored!
+<special> ps:: -10.90987 32.53223 lineto 
+Non-PDF special ignored!
+<special> ps:: -15.16257 65.06445 moveto 
+Non-PDF special ignored!
+<special> ps:: -10.90987 65.06445 lineto 
+Non-PDF special ignored!
+<special> ps:: -15.16257 97.5967 moveto 
+Non-PDF special ignored!
+<special> ps:: -10.90987 97.5967 lineto 
+Non-PDF special ignored!
+<special> ps:: 166.77919 0.0 moveto 
+Non-PDF special ignored!
+<special> ps:: 162.52649 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 166.77919 32.53223 moveto 
+Non-PDF special ignored!
+<special> ps:: 162.52649 32.53223 lineto 
+Non-PDF special ignored!
+<special> ps:: 166.77919 65.06445 moveto 
+Non-PDF special ignored!
+<special> ps:: 162.52649 65.06445 lineto 
+Non-PDF special ignored!
+<special> ps:: 166.77919 97.5967 moveto 
+Non-PDF special ignored!
+<special> ps:: 162.52649 97.5967 lineto 
+Non-PDF special ignored!
+<special> ps:: pgfstr 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: -15.16257 0.0 moveto 
+Non-PDF special ignored!
+<special> ps:: -15.16257 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 166.77919 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: 166.77919 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: -15.16257 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: closepath 
+Non-PDF special ignored!
+<special> ps:: pgfstr 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 -11.45656 -21.24976 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 0.98471 -22.73126 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 13.30768 -24.07753 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 27.1544 -22.2642 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 38.58762 -24.61432 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 56.98666 -21.72318 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 72.70377 -19.9035 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 80.87596 -23.67596 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 94.18588 -24.14937 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 111.65503 -22.18813 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 123.21506 -24.41144 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.7071 0.7071 -0.7071 0.7071 137.83105 -23.60413 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 -25.32416 -3.91835 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 -25.32416 28.53317 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 -25.32416 61.06541 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 -25.32416 93.59764 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: -15.16257 0.0 moveto 
+Non-PDF special ignored!
+<special> ps:: 166.77919 0.0 lineto 
+Non-PDF special ignored!
+<special> ps:: 166.77919 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: -15.16257 125.24977 lineto 
+Non-PDF special ignored!
+<special> ps:: closepath 
+Non-PDF special ignored!
+<special> ps:: clip 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0 setgray}def 
+Non-PDF special ignored!
+<special> ps:: 48.79834 4.98138 -2.49069 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 65.06445 4.98138 11.29263 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 32.53223 4.98138 25.07596 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 32.53223 4.98138 38.85928 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 81.33058 4.98138 52.64262 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 16.26611 4.98138 66.42595 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 32.53223 4.98138 80.20927 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 97.5967 4.98138 93.99261 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 48.79834 4.98138 107.77594 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 65.06445 4.98138 121.55927 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 65.06445 4.98138 135.34259 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: 65.06445 4.98138 149.12593 0.0 pgfe 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0 setgray}def 
+Non-PDF special ignored!
+<special> ps:: /pgffc{0 setgray}def 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 -2.98883 53.14366 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 10.7945 69.2484 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 24.57782 36.71616 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 38.36115 36.71616 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 52.14449 85.67589 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 65.92781 20.45004 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 79.71114 36.71616 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 93.49448 101.94202 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 107.2778 53.14366 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 121.06113 69.2484 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 134.84445 69.2484 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 148.62779 69.2484 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: /pgfsc{}def/pgffc{}def 
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [1.0 0.0 0.0 1.0 37.08495 -27.28757 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: [0.0 1.0 -1.0 0.0 -46.0332 24.0689 ] concat 
+Non-PDF special ignored!
+<special> ps:: pgfs
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps: 0 setgray 
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: pgfc
+Non-PDF special ignored!
+<special> ps::[end]
+Non-PDF special ignored!
+<special> ps::[begin]
+Non-PDF special ignored!
+<special> ps:: pgfr
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: save 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: newpath 
+Non-PDF special ignored!
+<special> ps:: restore 
+Non-PDF special ignored!
+<special> ps:: pgfc
+Non-PDF special ignored!
+<special> ps::[end]
+]
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
@@ -3133,9 +4815,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
 Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (12.00015pt too wide) in paragraph at lines 165--170
@@ -3157,17 +4836,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--4
 
  []
 
-) (./solutions/20-30/chapters/statistics/examples/docq23.tex
-(./solutions/20-30/tables/statistics/examples/stat_eg_q3.tex))
-(./solutions/20-30/chapters/statistics/examples/docq24.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+)
+(./solutions/20-30/chapters/statistics/examples/docq23.tex
+(./solutions/20-30/tables/statistics/examples/stat_eg_q3.tex))
+(./solutions/20-30/chapters/statistics/examples/docq24.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
 Underfull \hbox (badness 10000) in paragraph at lines 11--14
 \OT1/txr/m/n/12 We need to ar-range the salaries
  []
@@ -3183,9 +4866,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--14
  []
 
 )) (./stats/stats_exer.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 33--42
 []\OT1/txr/m/n/12 The fol-low-ing dis-tri-bu-tion shows the
  []
@@ -3286,7 +4966,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--82
 
  []
 
-[42]
+
 Underfull \hbox (badness 10000) in paragraph at lines 83--92
 []\OT1/txr/m/n/12 A class teacher has the fol-low-ing
  []
@@ -3342,6 +5022,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--122
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
 Underfull \hbox (badness 2799) in paragraph at lines 122--132
 []\OT1/txr/m/n/12 The fol-low-ing data gives the dis-tri-bu-tion
  []
@@ -3407,9 +5090,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--163
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 1668) in paragraph at lines 163--173
 []\OT1/txr/m/n/12 The fol-low-ing fre-quency dis-tri-bu-tion gives
  []
@@ -3455,6 +5135,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--191
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 8019) in paragraph at lines 191--221
 []\OT1/txr/m/n/12 The lengths of 40 leaves of a plant
  []
@@ -3491,34 +5174,74 @@ Underfull \hbox (badness 4467) in paragraph at lines 191--221
 
 (./solutions/20-30/tables/statistics/exercises/stat_ex_q22_que.tex)
 Underfull \hbox (badness 3657) in paragraph at lines 243--243
-[]\OT1/txr/m/n/12 TABLE 2.2.20: |Fre-quency dis-tri-bu-tion of the
+[]\OT1/txr/m/n/12 TABLE 4.2.20: |Fre-quency dis-tri-bu-tion of the
  []
 
-(./solutions/20-30/chapters/statistics/exercises/docq22.tex [43])
+(./solutions/20-30/chapters/statistics/exercises/docq22.tex [44])
 (./solutions/20-30/tables/statistics/exercises/stat_ex_q23_que.tex)
 (./solutions/20-30/chapters/statistics/exercises/docq23.tex
-File: ./solutions/20-30/figs/statistics/exercises/ex_q23.eps Graphic file (type
- eps)
+Package epstopdf Info: Source file: <./solutions/20-30/figs/statistics/exercise
+s/ex_q23.eps>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 22744 bytes
+(epstopdf)             Output file: <./solutions/20-30/figs/statistics/exercise
+s/ex_q23-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 12938 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/20-30/figs/sta
+tistics/exercises/ex_q23-eps-converted-to.pdf ./solutions/20-30/figs/statistics
+/exercises/ex_q23.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/20-30/figs/statistics/exercises/ex_q23-eps-converted-to.pdf, id=14
+83, 462.52798pt x 346.89601pt>
+File: ./solutions/20-30/figs/statistics/exercises/ex_q23-eps-converted-to.pdf G
+raphic file (type pdf)
+<use ./solutions/20-30/figs/statistics/exercises/ex_q23-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/20-30/figs/statistics/exercises/ex_q23-eps
+-converted-to.pdf  used on input line 11.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-<./solutions/20-30/figs/statistics/exercises/ex_q23.eps>
 (./solutions/20-30/tables/statistics/exercises/stat_ex_q23_ans.tex))
 (./solutions/20-30/tables/statistics/exercises/stat_ex_q24_que.tex)
 Underfull \hbox (badness 3657) in paragraph at lines 286--286
-[]\OT1/txr/m/n/12 TABLE 2.2.22: |Fre-quency dis-tri-bu-tion of the
+[]\OT1/txr/m/n/12 TABLE 4.2.22: |Fre-quency dis-tri-bu-tion of the
  []
 
-(./solutions/20-30/chapters/statistics/exercises/docq24.tex [44]
+(./solutions/20-30/chapters/statistics/exercises/docq24.tex
+Underfull \vbox (badness 3746) has occurred while \output is active []
+
+ [45 <./solutions/20-30/figs/statistics/exercises/ex_q23-eps-converted-to.pdf>]
+
 (./solutions/20-30/tables/statistics/exercises/stat_ex_q24_ans.tex)
 Underfull \hbox (badness 3657) in paragraph at lines 27--27
-[]\OT1/txr/m/n/12 TABLE 2.2.22: |Fre-quency dis-tri-bu-tion of the
+[]\OT1/txr/m/n/12 TABLE 4.2.22: |Fre-quency dis-tri-bu-tion of the
  []
 
 ) (./solutions/20-30/tables/statistics/exercises/stat_ex_q25_que.tex)
 (./solutions/20-30/chapters/statistics/exercises/docq25.tex
-File: ./solutions/20-30/figs/statistics/exercises/ex_q25.eps Graphic file (type
- eps)
+Package epstopdf Info: Source file: <./solutions/20-30/figs/statistics/exercise
+s/ex_q25.eps>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 20020 bytes
+(epstopdf)             Output file: <./solutions/20-30/figs/statistics/exercise
+s/ex_q25-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 13147 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/20-30/figs/sta
+tistics/exercises/ex_q25-eps-converted-to.pdf ./solutions/20-30/figs/statistics
+/exercises/ex_q25.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/20-30/figs/statistics/exercises/ex_q25-eps-converted-to.pdf, id=15
+34, 462.52798pt x 346.89601pt>
+File: ./solutions/20-30/figs/statistics/exercises/ex_q25-eps-converted-to.pdf G
+raphic file (type pdf)
+<use ./solutions/20-30/figs/statistics/exercises/ex_q25-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/20-30/figs/statistics/exercises/ex_q25-eps
+-converted-to.pdf  used on input line 12.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-<./solutions/20-30/figs/statistics/exercises/ex_q25.eps>
 (./solutions/20-30/tables/statistics/exercises/stat_ex_q25_ans.tex)))
 (./stats/statexer_pr.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -3533,11 +5256,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 (./solutions/20-30/chapters/statistics/exercises/docq28.tex
 (./solutions/20-30/tables/statistics/exercises/stat_ex_q28_que.tex))
 (./solutions/20-30/chapters/statistics/exercises/docq29.tex
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q29_que.tex) [45])
+(./solutions/20-30/tables/statistics/exercises/stat_ex_q29_que.tex) [46 <./solu
+tions/20-30/figs/statistics/exercises/ex_q25-eps-converted-to.pdf>])
 (./solutions/20-30/chapters/statistics/exercises/docq30.tex
 Underfull \hbox (badness 3942) in paragraph at lines 16--3
-\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 See Ta-ble [][]2.2.28[][][] . Since 
-the
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 See Ta-ble []4.2.28[] . Since the
  []
 
 
@@ -3565,9 +5288,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
-[46] (./solutions/20-10/stat/tables/exer32/sulphur.tex)
+(./solutions/20-10/stat/tables/exer32/sulphur.tex)
 (./solutions/20-10/stat/chapters/exer32/solution.tex
-(./solutions/20-10/stat/tables/exer32/out32.tex))
+(./solutions/20-10/stat/tables/exer32/out32.tex) [47])
 (./solutions/20-10/stat/chapters/exer33/problem.tex
 (./solutions/20-10/stat/tables/exer33/heads33.tex))
 (./solutions/20-10/stat/chapters/exer33/solution.tex
@@ -3595,7 +5318,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1--19
 \OT1/txr/m/n/12 3.141592653589793238462643383279502884197 
  []
 
-[47]) (./solutions/20-10/stat/chapters/exer35/problem.tex
+) (./solutions/20-10/stat/chapters/exer35/problem.tex [48]
 (./solutions/20-10/stat/tables/exer35/inp35.tex))
 (./solutions/20-10/stat/chapters/exer35/solution.tex
 (./solutions/20-10/stat/tables/exer35/out35.tex))
@@ -3607,12 +5330,31 @@ Underfull \hbox (badness 1622) in paragraph at lines 9--12
  \OT1/txr/m/n/12 The grouped fre-quency dis-tri-bu-tion ta-ble
  []
 
-) (./solutions/20-10/stat/chapters/exer37/problem.tex [48]
+) (./solutions/20-10/stat/chapters/exer37/problem.tex [49]
 (./solutions/20-10/stat/tables/exer37/femalefatality.tex))
 (./solutions/20-10/stat/chapters/exer37/solution.tex
-File: ./solutions/20-10/stat/codes/pyfigs/exer37.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer37
+.eps>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 24329 bytes
+(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer37
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 13999 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
+es/pyfigs/exer37-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer3
+7.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/20-10/stat/codes/pyfigs/exer37-eps-converted-to.pdf, id=1659, 462.
+52798pt x 346.89601pt>
+File: ./solutions/20-10/stat/codes/pyfigs/exer37-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use ./solutions/20-10/stat/codes/pyfigs/exer37-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer37-eps-convert
+ed-to.pdf  used on input line 4.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-<./solutions/20-10/stat/codes/pyfigs/exer37.eps>
 Underfull \hbox (badness 1430) in paragraph at lines 9--11
 []\OT1/txr/m/n/12 (i) Rep-re-sent the in-for-ma-tion given above
  []
@@ -3620,15 +5362,54 @@ Underfull \hbox (badness 1430) in paragraph at lines 9--11
 ) (./solutions/20-10/stat/chapters/exer38/problem.tex
 (./solutions/20-10/stat/tables/exer38/inp38.tex))
 (./solutions/20-10/stat/chapters/exer38/solution.tex
-File: ./solutions/20-10/stat/codes/pyfigs/exer38.eps Graphic file (type eps)
-
-<./solutions/20-10/stat/codes/pyfigs/exer38.eps>)
+Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer38
+.eps>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 29217 bytes
+(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer38
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 16898 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
+es/pyfigs/exer38-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer3
+8.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/20-10/stat/codes/pyfigs/exer38-eps-converted-to.pdf, id=1663, 462.
+52798pt x 346.89601pt>
+File: ./solutions/20-10/stat/codes/pyfigs/exer38-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use ./solutions/20-10/stat/codes/pyfigs/exer38-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer38-eps-convert
+ed-to.pdf  used on input line 4.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+)
 (./solutions/20-10/stat/chapters/exer39/problem.tex
 (./solutions/20-10/stat/tables/exer39/inp39.tex))
 (./solutions/20-10/stat/chapters/exer39/solution.tex
-File: ./solutions/20-10/stat/codes/pyfigs/exer39.eps Graphic file (type eps)
-
-<./solutions/20-10/stat/codes/pyfigs/exer39.eps> [49])
+Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer39
+.eps>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 23464 bytes
+(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer39
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 15179 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
+es/pyfigs/exer39-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer3
+9.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/20-10/stat/codes/pyfigs/exer39-eps-converted-to.pdf, id=1665, 462.
+52798pt x 346.89601pt>
+File: ./solutions/20-10/stat/codes/pyfigs/exer39-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use ./solutions/20-10/stat/codes/pyfigs/exer39-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer39-eps-convert
+ed-to.pdf  used on input line 4.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+ [50 <./solutions/20-10/stat/codes/pyfigs/exer37-eps-converted-to.pdf> <./solut
+ions/20-10/stat/codes/pyfigs/exer38-eps-converted-to.pdf>])
 (./solutions/20-10/stat/chapters/exer40/problem.tex
 (./solutions/20-10/stat/tables/exer40/inp40.tex))
 (./solutions/20-10/stat/chapters/exer40/solution.tex
@@ -3642,9 +5423,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
  []
 
 (./solutions/20-10/stat/tables/exer40/cont40.tex)
-File: ./solutions/20-10/stat/codes/pyfigs/exer40.eps Graphic file (type eps)
-
-<./solutions/20-10/stat/codes/pyfigs/exer40.eps>)
+Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer40
+.eps>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 20208 bytes
+(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer40
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 12656 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
+es/pyfigs/exer40-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer4
+0.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/20-10/stat/codes/pyfigs/exer40-eps-converted-to.pdf, id=1763, 462.
+52798pt x 346.89601pt>
+File: ./solutions/20-10/stat/codes/pyfigs/exer40-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use ./solutions/20-10/stat/codes/pyfigs/exer40-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer40-eps-convert
+ed-to.pdf  used on input line 15.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+)
 Underfull \hbox (badness 1365) in paragraph at lines 23--101
 \OT1/txr/m/n/12 (iii)No, the max-i-mum leaves have lengths
  []
@@ -3661,34 +5461,129 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[50]
-File: ./solutions/20-10/stat/codes/pyfigs/exer41.eps Graphic file (type eps)
- <./solutions/20-10/stat/codes/pyfigs/exer41.eps>)
+[51 <./solutions/20-10/stat/codes/pyfigs/exer39-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer41
+.eps>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 20307 bytes
+(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer41
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 12826 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
+es/pyfigs/exer41-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer4
+1.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/20-10/stat/codes/pyfigs/exer41-eps-converted-to.pdf, id=1823, 462.
+52798pt x 346.89601pt>
+File: ./solutions/20-10/stat/codes/pyfigs/exer41-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use ./solutions/20-10/stat/codes/pyfigs/exer41-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer41-eps-convert
+ed-to.pdf  used on input line 8.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+)
 (./solutions/40-50/statistics/chapters/Q42/problem.tex
 (./solutions/40-50/statistics/tables/Q42/prob.tex))
 (./solutions/40-50/statistics/chapters/Q42/solution.tex
-File: ./solutions/40-50/statistics/figs/Q42.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <./solutions/40-50/statistics/figs/Q42.eps>
 
-<./solutions/40-50/statistics/figs/Q42.eps> [51])
-(./solutions/40-50/statistics/chapters/Q43/problem.tex
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 1872702 bytes
+(epstopdf)             Output file: <./solutions/40-50/statistics/figs/Q42-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 73879 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/40-50/statisti
+cs/figs/Q42-eps-converted-to.pdf ./solutions/40-50/statistics/figs/Q42.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/40-50/statistics/figs/Q42-eps-converted-to.pdf, id=1825, 252.945pt
+ x 189.70876pt>
+File: ./solutions/40-50/statistics/figs/Q42-eps-converted-to.pdf Graphic file (
+type pdf)
+<use ./solutions/40-50/statistics/figs/Q42-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/40-50/statistics/figs/Q42-eps-converted-to
+.pdf  used on input line 4.
+(pdftex.def)             Requested size: 252.0pt x 189.00485pt.
+ [52 <./solutions/20-10/stat/codes/pyfigs/exer40-eps-converted-to.pdf> <./solut
+ions/20-10/stat/codes/pyfigs/exer41-eps-converted-to.pdf> <./solutions/40-50/st
+atistics/figs/Q42-eps-converted-to.pdf>]) (./solutions/40-50/statistics/chapter
+s/Q43/problem.tex
 (./solutions/40-50/statistics/tables/Q43/prob.tex))
 (./solutions/40-50/statistics/chapters/Q43/solution.tex
 (./solutions/40-50/statistics/tables/Q43/sol.tex)
-File: ./solutions/40-50/statistics/figs/Q43.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <./solutions/40-50/statistics/figs/Q43.eps>
 
-<./solutions/40-50/statistics/figs/Q43.eps>)
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 1872702 bytes
+(epstopdf)             Output file: <./solutions/40-50/statistics/figs/Q43-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 78701 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/40-50/statisti
+cs/figs/Q43-eps-converted-to.pdf ./solutions/40-50/statistics/figs/Q43.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/40-50/statistics/figs/Q43-eps-converted-to.pdf, id=1905, 252.945pt
+ x 189.70876pt>
+File: ./solutions/40-50/statistics/figs/Q43-eps-converted-to.pdf Graphic file (
+type pdf)
+<use ./solutions/40-50/statistics/figs/Q43-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/40-50/statistics/figs/Q43-eps-converted-to
+.pdf  used on input line 11.
+(pdftex.def)             Requested size: 252.0pt x 189.00485pt.
+)
 (./solutions/40-50/statistics/chapters/Q44/problem.tex
 (./solutions/40-50/statistics/tables/Q44/prob.tex))
 (./solutions/40-50/statistics/chapters/Q44/solution.tex
-File: ./solutions/40-50/statistics/figs/Q44.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <./solutions/40-50/statistics/figs/Q44.eps>
 
-<./solutions/40-50/statistics/figs/Q44.eps> [52])
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 1872702 bytes
+(epstopdf)             Output file: <./solutions/40-50/statistics/figs/Q44-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 21324 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/40-50/statisti
+cs/figs/Q44-eps-converted-to.pdf ./solutions/40-50/statistics/figs/Q44.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/40-50/statistics/figs/Q44-eps-converted-to.pdf, id=1907, 252.945pt
+ x 189.70876pt>
+File: ./solutions/40-50/statistics/figs/Q44-eps-converted-to.pdf Graphic file (
+type pdf)
+<use ./solutions/40-50/statistics/figs/Q44-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/40-50/statistics/figs/Q44-eps-converted-to
+.pdf  used on input line 4.
+(pdftex.def)             Requested size: 252.0pt x 189.00485pt.
+)
 (./solutions/40-50/statistics/chapters/Q45/problem.tex
 (./solutions/40-50/statistics/tables/Q45/prob.tex))
-(./solutions/40-50/statistics/chapters/Q45/solution.tex
-File: ./solutions/40-50/statistics/figs/Q45.eps Graphic file (type eps)
+(./solutions/40-50/statistics/chapters/Q45/solution.tex [53 <./solutions/40-50/
+statistics/figs/Q43-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./solutions/40-50/statistics/figs/Q45.eps>
 
-<./solutions/40-50/statistics/figs/Q45.eps>)
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 1872702 bytes
+(epstopdf)             Output file: <./solutions/40-50/statistics/figs/Q45-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:02
+(epstopdf)                    size: 24925 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/40-50/statisti
+cs/figs/Q45-eps-converted-to.pdf ./solutions/40-50/statistics/figs/Q45.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/40-50/statistics/figs/Q45-eps-converted-to.pdf, id=1933, 252.945pt
+ x 189.70876pt>
+File: ./solutions/40-50/statistics/figs/Q45-eps-converted-to.pdf Graphic file (
+type pdf)
+<use ./solutions/40-50/statistics/figs/Q45-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/40-50/statistics/figs/Q45-eps-converted-to
+.pdf  used on input line 5.
+(pdftex.def)             Requested size: 252.0pt x 189.00485pt.
+)
 (./solutions/40-50/statistics/chapters/Q46/problem.tex)
 (./solutions/40-50/statistics/chapters/Q46/solution.tex)
 (./solutions/40-50/statistics/chapters/Q47/problem.tex)
@@ -3713,7 +5608,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--4
 \OT1/txr/m/n/12 39,40,40,41,42,46,48,52,52,52,54,60,62,96,98
  []
 
-[53]) (./solutions/40-50/statistics/chapters/Q48/problem.tex)
+[54 <./solutions/40-50/statistics/figs/Q44-eps-converted-to.pdf> <./solutions/4
+0-50/statistics/figs/Q45-eps-converted-to.pdf>])
+(./solutions/40-50/statistics/chapters/Q48/problem.tex)
 (./solutions/40-50/statistics/chapters/Q48/solution.tex)
 (./solutions/40-50/statistics/chapters/Q49/problem.tex)
 (./solutions/40-50/statistics/chapters/Q49/solution.tex)
@@ -3722,15 +5619,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--4
 (./solutions/40-50/statistics/chapters/Q50/solution.tex
 (./solutions/40-50/statistics/tables/Q50/sol.tex))
 (./solutions/40-50/statistics/chapters/Q51/problem.tex)
-(./solutions/40-50/statistics/chapters/Q51/solution.tex)) [54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+(./solutions/40-50/statistics/chapters/Q51/solution.tex)) [55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
 
 (./gvv_ncert_prob.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
 Package rerunfilecheck Info: File `gvv_ncert_prob.out' has not changed.
-(rerunfilecheck)             Checksum: 3372367821B30397DEF69247E0A35D01;321.
+(rerunfilecheck)             Checksum: D6355F548C5F6AFF03A60D31EA672053;408.
 
 
 LaTeX Warning: There were undefined references.
@@ -3738,15 +5635,38 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
  ) 
 Here is how much of TeX's memory you used:
- 50108 strings out of 480609
- 1277879 string characters out of 5892832
- 1787592 words of memory out of 5000000
- 64497 multiletter control sequences out of 15000+600000
- 618701 words of font info for 244 fonts, out of 8000000 for 9000
+ 51877 strings out of 480608
+ 1302926 string characters out of 5892806
+ 1795040 words of memory out of 5000000
+ 64992 multiletter control sequences out of 15000+600000
+ 641071 words of font info for 279 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,14n,98p,733b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,98p,733b,2374s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
+public/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/share/texlive/texmf-d
+ist/fonts/type1/public/txfonts/rtxb.pfb></data/data/com.termux/files/usr/share/
+texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/
+files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></data/d
+ata/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rt
+xsc.pfb></data/data/com.termux/files/home/texmf/fonts/type1/tfrupee/tfrupee.pfb
+></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/t
+xfonts/txex.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts
+/type1/public/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/txsya.pfb></data/data/com.termux/files/usr
+/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></data/data/com.
+termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></da
+ta/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+bi8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
+urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on gvv_ncert_prob.pdf (55 pages, 2621692 bytes).
+PDF statistics:
+ 2284 PDF objects out of 2487 (max. 8388607)
+ 1828 compressed objects within 19 object streams
+ 1215 named destinations out of 1440 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on gvv_ncert_prob.dvi (54 pages, 619396 bytes).
