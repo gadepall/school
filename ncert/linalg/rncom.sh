@@ -5,16 +5,17 @@
 #git clone https://github.com/saurabh13002/EE5609 solutions/point_vector/18
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
-#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment7_Matrix_Theory  /storage/emulated/0/tlc/school/rams/solutions/3/4/1
 
 
 
-#git clone https://github.com/satyam463/matrix-theory-Assignment3 /storage/emulated/0/tlc/school/rams/solutions/4/1/5
+#svn co https://github.com/Matish007/Matrix-Theory-EE5609-/trunk/Assignment_5 /storage/emulated/0/tlc/school/rams/solutions/4/1/2
+
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
 
 
-#svn co https://github.com/saranshbali/EE5609/trunk/Asssignment4 /storage/emulated/0/tlc/school/loney/solutions/13/13
+
+#svn co https://github.com/Arko98/EE5609/trunk/Assignment_8 /storage/emulated/0/tlc/school/loney/solutions/40/2
 
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord

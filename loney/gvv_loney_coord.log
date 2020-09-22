@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  21 SEP 2020 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  22 SEP 2020 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1944,7 +1944,7 @@ File: ot1txtt.fd 2000/12/15 v3.1
 pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
 /logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<iith_logo.pdf, id=35, 359.3425pt x 486.81876pt>
+<iith_logo.pdf, id=39, 359.3425pt x 486.81876pt>
 File: iith_logo.pdf Graphic file (type pdf)
 <use iith_logo.pdf>
 Package pdftex.def Info: iith_logo.pdf  used on input line 244.
@@ -1956,7 +1956,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 15.95987pt on input line 244.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 244.
-<tlc.pdf, id=36, 597.51233pt x 845.0471pt>
+<tlc.pdf, id=40, 597.51233pt x 845.0471pt>
 File: tlc.pdf Graphic file (type pdf)
 <use tlc.pdf>
 Package pdftex.def Info: tlc.pdf  used on input line 244.
@@ -2003,7 +2003,7 @@ Overfull \hbox (14.40588pt too wide) in paragraph at lines 244--244
 \tf@toc=\write5
 \openout5 = `gvv_loney_coord.toc'.
 
- (./chapters/pair.tex (./solutions/13/ex2/solution.tex
+ (./chapters/6/13.tex (./solutions/13/ex2/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--21
 
  []
@@ -2027,7 +2027,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/13/ex2/st1.png, id=90, 433.62pt x 289.08pt>
+<./solutions/13/ex2/st1.png, id=95, 433.62pt x 289.08pt>
 File: ./solutions/13/ex2/st1.png Graphic file (type png)
 <use ./solutions/13/ex2/st1.png>
 Package pdftex.def Info: ./solutions/13/ex2/st1.png  used on input line 79.
@@ -2037,7 +2037,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
-<./solutions/13/ex2/st2.png, id=133, 433.62pt x 289.08pt>
+<./solutions/13/ex2/st2.png, id=138, 433.62pt x 289.08pt>
 File: ./solutions/13/ex2/st2.png Graphic file (type png)
 <use ./solutions/13/ex2/st2.png>
 Package pdftex.def Info: ./solutions/13/ex2/st2.png  used on input line 136.
@@ -2053,7 +2053,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/13/3/solution.tex [3 <./solutions/13/ex2/st2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/13/3/hw4plot.png, id=170, 462.528pt x 346.896pt>
+<./solutions/13/3/hw4plot.png, id=175, 462.528pt x 346.896pt>
 File: ./solutions/13/3/hw4plot.png Graphic file (type png)
 <use ./solutions/13/3/hw4plot.png>
 Package pdftex.def Info: ./solutions/13/3/hw4plot.png  used on input line 67.
@@ -2069,7 +2069,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-<./solutions/13/4/Figure_2.png, id=229, 1110.0672pt x 549.9747pt>
+<./solutions/13/4/Figure_2.png, id=234, 1110.0672pt x 549.9747pt>
 File: ./solutions/13/4/Figure_2.png Graphic file (type png)
 <use ./solutions/13/4/Figure_2.png>
 Package pdftex.def Info: ./solutions/13/4/Figure_2.png  used on input line 91.
@@ -2082,7 +2082,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./solutions/13/4/Figure_2.png>]
-<./solutions/13/6/a6_graph.png, id=273, 385.44pt x 279.0425pt>
+<./solutions/13/6/a6_graph.png, id=278, 385.44pt x 279.0425pt>
 File: ./solutions/13/6/a6_graph.png Graphic file (type png)
 <use ./solutions/13/6/a6_graph.png>
 Package pdftex.def Info: ./solutions/13/6/a6_graph.png  used on input line 81.
@@ -2101,7 +2101,7 @@ Underfull \hbox (badness 1902) in paragraph at lines 104--105
 []\OT1/txr/m/n/12 Substituting [],[],[],[]
  []
 
-<./solutions/13/8/Figure1.png, id=323, 433.62pt x 289.08pt>
+<./solutions/13/8/Figure1.png, id=328, 433.62pt x 289.08pt>
 File: ./solutions/13/8/Figure1.png Graphic file (type png)
 <use ./solutions/13/8/Figure1.png>
 Package pdftex.def Info: ./solutions/13/8/Figure1.png  used on input line 113.
@@ -2129,7 +2129,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/13/9/Lines.png, id=454, 385.44pt x 262.9825pt>
+<./solutions/13/9/Lines.png, id=459, 385.44pt x 262.9825pt>
 File: ./solutions/13/9/Lines.png Graphic file (type png)
 <use ./solutions/13/9/Lines.png>
 Package pdftex.def Info: ./solutions/13/9/Lines.png  used on input line 96.
@@ -2140,7 +2140,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 92--48
  []
 
 (./solutions/13/11/solution.tex [11 <./solutions/13/9/Lines.png>]
-<./solutions/13/11/assignment5.png, id=490, 392.46625pt x 279.0425pt>
+<./solutions/13/11/assignment5.png, id=495, 392.46625pt x 279.0425pt>
 File: ./solutions/13/11/assignment5.png Graphic file (type png)
 <use ./solutions/13/11/assignment5.png>
 Package pdftex.def Info: ./solutions/13/11/assignment5.png  used on input line 
@@ -2171,32 +2171,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/13/13/Latex/assignment4fig.jpg, id=575, 276.28218pt x 201.00093pt>
+<./solutions/13/13/Latex/assignment4fig.jpg, id=580, 276.28218pt x 201.00093pt>
 
 File: ./solutions/13/13/Latex/assignment4fig.jpg Graphic file (type jpg)
 <use ./solutions/13/13/Latex/assignment4fig.jpg>
 Package pdftex.def Info: ./solutions/13/13/Latex/assignment4fig.jpg  used on in
 put line 111.
 (pdftex.def)             Requested size: 252.0pt x 183.33437pt.
-)) [14]
-[15
+))
+(./chapters/15/40.tex [14] (./solutions/40/2/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- <./solutions/13/13/Latex/assignment4fig.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
- (./gvv_loney_coord.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./solutions/13/13/Latex/assignment4fig.jpg>]
+<./solutions/40/2/Ellipse.png, id=654, 397.485pt x 264.99pt>
+File: ./solutions/40/2/Ellipse.png Graphic file (type png)
+<use ./solutions/40/2/Ellipse.png>
+Package pdftex.def Info: ./solutions/40/2/Ellipse.png  used on input line 88.
+(pdftex.def)             Requested size: 252.0pt x 168.00395pt.
+)) [16
+
+ <./solutions/40/2/Ellipse.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+
+(./gvv_loney_coord.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
 Package rerunfilecheck Info: File `gvv_loney_coord.out' has not changed.
-(rerunfilecheck)             Checksum: B41315D9C1AF8BC688FB92E21CE1F50B;57.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
+(rerunfilecheck)             Checksum: FD786300EB9A4C27406863BE131278A6;127.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 42824 strings out of 480608
- 999621 string characters out of 5892806
- 1389488 words of memory out of 5000000
- 57467 multiletter control sequences out of 15000+600000
- 621962 words of font info for 220 fonts, out of 8000000 for 9000
+ 42901 strings out of 480608
+ 1000989 string characters out of 5892806
+ 1390336 words of memory out of 5000000
+ 57501 multiletter control sequences out of 15000+600000
+ 626979 words of font info for 234 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,91p,507b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
@@ -2206,15 +2219,16 @@ ist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/share/
 texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/data/com.termux/
 files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></data/d
 ata/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
-sy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_loney_coord.pdf (15 pages, 792108 bytes).
+sy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/txfonts/txsyc.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dis
+t/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.ter
+mux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on gvv_loney_coord.pdf (16 pages, 818685 bytes).
 PDF statistics:
- 719 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
- 357 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 786 PDF objects out of 1000 (max. 8388607)
+ 707 compressed objects within 8 object streams
+ 392 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
