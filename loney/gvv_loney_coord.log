@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  22 SEP 2020 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  22 SEP 2020 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2075,14 +2075,29 @@ File: ./solutions/13/4/Figure_2.png Graphic file (type png)
 Package pdftex.def Info: ./solutions/13/4/Figure_2.png  used on input line 91.
 (pdftex.def)             Requested size: 252.0pt x 124.8467pt.
 )
-(./solutions/13/6/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./solutions/13/5/solution.tex
+Overfull \hbox (1.53143pt too wide) in paragraph at lines 18--18
+[] 
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./solutions/13/4/Figure_2.png>]
-<./solutions/13/6/a6_graph.png, id=278, 385.44pt x 279.0425pt>
+<./solutions/13/5/Straight_lines.png, id=282, 365.365pt x 247.92625pt>
+File: ./solutions/13/5/Straight_lines.png Graphic file (type png)
+<use ./solutions/13/5/Straight_lines.png>
+Package pdftex.def Info: ./solutions/13/5/Straight_lines.png  used on input lin
+e 75.
+(pdftex.def)             Requested size: 252.0pt x 171.00119pt.
+) (./solutions/13/6/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./solutions/13/5/Straight_lines.png>]
+<./solutions/13/6/a6_graph.png, id=326, 385.44pt x 279.0425pt>
 File: ./solutions/13/6/a6_graph.png Graphic file (type png)
 <use ./solutions/13/6/a6_graph.png>
 Package pdftex.def Info: ./solutions/13/6/a6_graph.png  used on input line 81.
@@ -2090,10 +2105,7 @@ Package pdftex.def Info: ./solutions/13/6/a6_graph.png  used on input line 81.
 ) (./solutions/13/8/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./solutions/13/6/a6_graph.png>]
+ [8 <./solutions/13/6/a6_graph.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2101,7 +2113,7 @@ Underfull \hbox (badness 1902) in paragraph at lines 104--105
 []\OT1/txr/m/n/12 Substituting [],[],[],[]
  []
 
-<./solutions/13/8/Figure1.png, id=328, 433.62pt x 289.08pt>
+<./solutions/13/8/Figure1.png, id=377, 433.62pt x 289.08pt>
 File: ./solutions/13/8/Figure1.png Graphic file (type png)
 <use ./solutions/13/8/Figure1.png>
 Package pdftex.def Info: ./solutions/13/8/Figure1.png  used on input line 113.
@@ -2109,13 +2121,13 @@ Package pdftex.def Info: ./solutions/13/8/Figure1.png  used on input line 113.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+ [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./solutions/13/8/Figure1.png>]
+ [10 <./solutions/13/8/Figure1.png>]
 Underfull \hbox (badness 1902) in paragraph at lines 187--188
 []\OT1/txr/m/n/12 Substituting [],[],[],[]
  []
@@ -2126,21 +2138,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/13/9/Lines.png, id=459, 385.44pt x 262.9825pt>
+<./solutions/13/9/Lines.png, id=511, 385.44pt x 262.9825pt>
 File: ./solutions/13/9/Lines.png Graphic file (type png)
 <use ./solutions/13/9/Lines.png>
 Package pdftex.def Info: ./solutions/13/9/Lines.png  used on input line 96.
 (pdftex.def)             Requested size: 252.0pt x 171.93576pt.
 )
-Underfull \hbox (badness 1466) in paragraph at lines 92--48
+Underfull \hbox (badness 1466) in paragraph at lines 92--56
 \OT1/txr/m/n/12 The fig-ure be-low cor-re-sponds to the pair
  []
 
-(./solutions/13/11/solution.tex [11 <./solutions/13/9/Lines.png>]
-<./solutions/13/11/assignment5.png, id=495, 392.46625pt x 279.0425pt>
+(./solutions/13/11/solution.tex [12 <./solutions/13/9/Lines.png>]
+<./solutions/13/11/assignment5.png, id=546, 392.46625pt x 279.0425pt>
 File: ./solutions/13/11/assignment5.png Graphic file (type png)
 <use ./solutions/13/11/assignment5.png>
 Package pdftex.def Info: ./solutions/13/11/assignment5.png  used on input line 
@@ -2161,17 +2173,17 @@ Underfull \hbox (badness 1796) in paragraph at lines 74--76
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./solutions/13/11/assignment5.png>]
+ [13 <./solutions/13/11/assignment5.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/13/13/Latex/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/13/13/Latex/assignment4fig.jpg, id=580, 276.28218pt x 201.00093pt>
+<./solutions/13/13/Latex/assignment4fig.jpg, id=632, 276.28218pt x 201.00093pt>
 
 File: ./solutions/13/13/Latex/assignment4fig.jpg Graphic file (type jpg)
 <use ./solutions/13/13/Latex/assignment4fig.jpg>
@@ -2179,19 +2191,19 @@ Package pdftex.def Info: ./solutions/13/13/Latex/assignment4fig.jpg  used on in
 put line 111.
 (pdftex.def)             Requested size: 252.0pt x 183.33437pt.
 ))
-(./chapters/15/40.tex [14] (./solutions/40/2/solution.tex
+(./chapters/15/40.tex [15] (./solutions/40/2/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <./solutions/13/13/Latex/assignment4fig.jpg>]
-<./solutions/40/2/Ellipse.png, id=654, 397.485pt x 264.99pt>
+ [16 <./solutions/13/13/Latex/assignment4fig.jpg>]
+<./solutions/40/2/Ellipse.png, id=706, 397.485pt x 264.99pt>
 File: ./solutions/40/2/Ellipse.png Graphic file (type png)
 <use ./solutions/40/2/Ellipse.png>
 Package pdftex.def Info: ./solutions/40/2/Ellipse.png  used on input line 88.
 (pdftex.def)             Requested size: 252.0pt x 168.00395pt.
-)) [16
+)) [17
 
  <./solutions/40/2/Ellipse.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
@@ -2205,13 +2217,13 @@ Package rerunfilecheck Info: File `gvv_loney_coord.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 42901 strings out of 480608
- 1000989 string characters out of 5892806
- 1390336 words of memory out of 5000000
- 57501 multiletter control sequences out of 15000+600000
+ 42955 strings out of 480608
+ 1002010 string characters out of 5892806
+ 1391097 words of memory out of 5000000
+ 57520 multiletter control sequences out of 15000+600000
  626979 words of font info for 234 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,20n,91p,507b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,20n,91p,507b,874s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/texmf-d
@@ -2225,10 +2237,10 @@ t/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.ter
 mux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_loney_coord.pdf (16 pages, 818685 bytes).
+Output written on gvv_loney_coord.pdf (17 pages, 830729 bytes).
 PDF statistics:
- 786 PDF objects out of 1000 (max. 8388607)
- 707 compressed objects within 8 object streams
- 392 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 843 PDF objects out of 1000 (max. 8388607)
+ 761 compressed objects within 8 object streams
+ 423 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

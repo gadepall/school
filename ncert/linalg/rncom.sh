@@ -14,14 +14,14 @@
 #tex2pdf.sh gvv_ramsey
 
 
+#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment8_Matrix_Theory 
 
-#svn co https://github.com/Arko98/EE5609/trunk/Assignment_8 /storage/emulated/0/tlc/school/loney/solutions/40/2
-
+#svn co https://github.com/pranaya14014/EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/loney/solutions/13/5
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
 
-cd /storage/emulated/0/tlc/college/linalg/
-tex2pdf.sh gvv_linalg
+#cd /storage/emulated/0/tlc/college/linalg/
+#tex2pdf.sh gvv_linalg
 
 
 
@@ -41,14 +41,14 @@ tex2pdf.sh gvv_linalg
 #python codes/line/skew_svd.py
 
 
-
-#git clone https://github.com/KUSUMAPRIYAPULAVARTY/assignment5 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/4
+#svn co https://github.com/Vaibhav11002/EE5609/trunk/Assignment_6 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/15
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
 
 #cd /storage/emulated/0/tlc/phylayer/
 cd /storage/emulated/0/tlc/school/
+#cd /storage/emulated/0/tlc/college/
 git add .
 git commit -m "Add existing files"
 git push origin
@@ -66,7 +66,8 @@ git push origin
 
 #git clone https://github.com/gadepall/aiml  /storage/emulated/0/tlc/aiml
 
-#svn co https://github.com/rsgirishkumar/EE5600/trunk/Assignment1  /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/17
+
+#git clone https://github.com/EE20RESCH14003/Assignment-1_7 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/62
 
 #tex2pdf.sh gvv_ncert_linalg
-cd /storage/emulated/0/tlc/school/ncert/linalg
+#cd /storage/emulated/0/tlc/school/ncert/linalg

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  21 SEP 2020 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  22 SEP 2020 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2095,14 +2095,36 @@ Package pdftex.def Info: ./solutions/1/12/Assignment_7.png  used on input line
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 39.
 
-[7 <./solutions/1/12/Assignment_7.png>]
+(./solutions/1/15/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./solutions/1/12/Assignment_7.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/1/15/assignment_6.png, id=332, 387.4475pt x 262.9825pt>
+File: ./solutions/1/15/assignment_6.png Graphic file (type png)
+<use ./solutions/1/15/assignment_6.png>
+Package pdftex.def Info: ./solutions/1/15/assignment_6.png  used on input line 
+86.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 2894) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./solutions/1/15/assignment_6.png>]) (./chapters/qr.tex (./solutions/2/1/s
+olution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./chapters/qr.tex (./solutions/2/1/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8])
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -2131,9 +2153,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
@@ -2170,7 +2189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-) [9]
+) [10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
  (./gvv_linalg_exer.aux)
@@ -2181,13 +2200,13 @@ Package rerunfilecheck Info: File `gvv_linalg_exer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
  ) 
 Here is how much of TeX's memory you used:
- 42633 strings out of 480608
- 995344 string characters out of 5892806
- 1379050 words of memory out of 5000000
- 57376 multiletter control sequences out of 15000+600000
+ 42681 strings out of 480608
+ 996224 string characters out of 5892806
+ 1381274 words of memory out of 5000000
+ 57387 multiletter control sequences out of 15000+600000
  626979 words of font info for 234 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,19n,91p,507b,978s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,24n,91p,507b,940s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/texmf-d
@@ -2203,10 +2222,10 @@ exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files
 .termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></d
 ata/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on gvv_linalg_exer.pdf (9 pages, 798729 bytes).
+Output written on gvv_linalg_exer.pdf (10 pages, 817141 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 263 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 551 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 295 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
