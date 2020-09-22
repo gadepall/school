@@ -20,6 +20,8 @@
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
 
+cd /storage/emulated/0/tlc/college/linalg/
+tex2pdf.sh gvv_linalg
 
 
 
