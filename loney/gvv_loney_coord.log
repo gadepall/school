@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  22 SEP 2020 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  23 SEP 2020 08:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2191,21 +2191,47 @@ Package pdftex.def Info: ./solutions/13/13/Latex/assignment4fig.jpg  used on in
 put line 111.
 (pdftex.def)             Requested size: 252.0pt x 183.33437pt.
 ))
-(./chapters/15/40.tex [15] (./solutions/40/2/solution.tex
+(./chapters/15/40.tex (./solutions/40/1/solution.tex [15]
+Underfull \hbox (badness 1389) in paragraph at lines 21--23
+\OT1/txr/m/n/12 rep-re-sents the hy-per-bola The char-ac-ter-is-tic
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16 <./solutions/13/13/Latex/assignment4fig.jpg>]
-<./solutions/40/2/Ellipse.png, id=706, 397.485pt x 264.99pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/40/1/Assignment 8.png, id=711, 568.1225pt x 527.9725pt>
+File: ./solutions/40/1/Assignment 8.png Graphic file (type png)
+<use ./solutions/40/1/Assignment 8.png>
+Package pdftex.def Info: ./solutions/40/1/Assignment 8.png  used on input line 
+189.
+(pdftex.def)             Requested size: 252.0pt x 234.19376pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17])
+(./solutions/40/2/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./solutions/40/1/Assignment 8.png>]
+<./solutions/40/2/Ellipse.png, id=783, 397.485pt x 264.99pt>
 File: ./solutions/40/2/Ellipse.png Graphic file (type png)
 <use ./solutions/40/2/Ellipse.png>
 Package pdftex.def Info: ./solutions/40/2/Ellipse.png  used on input line 88.
 (pdftex.def)             Requested size: 252.0pt x 168.00395pt.
-)) [17
-
- <./solutions/40/2/Ellipse.png>]
+)) [19 <./solutions/40/2/Ellipse.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
 
@@ -2217,10 +2243,10 @@ Package rerunfilecheck Info: File `gvv_loney_coord.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 42955 strings out of 480608
- 1002010 string characters out of 5892806
- 1391097 words of memory out of 5000000
- 57520 multiletter control sequences out of 15000+600000
+ 43035 strings out of 480608
+ 1003465 string characters out of 5892806
+ 1392373 words of memory out of 5000000
+ 57544 multiletter control sequences out of 15000+600000
  626979 words of font info for 234 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,91p,507b,874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2237,10 +2263,10 @@ t/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.ter
 mux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_loney_coord.pdf (17 pages, 830729 bytes).
+Output written on gvv_loney_coord.pdf (19 pages, 865896 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 761 compressed objects within 8 object streams
- 423 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 936 PDF objects out of 1000 (max. 8388607)
+ 849 compressed objects within 9 object streams
+ 475 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

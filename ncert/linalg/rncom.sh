@@ -8,15 +8,15 @@
 
 
 
-#svn co https://github.com/Matish007/Matrix-Theory-EE5609-/trunk/Assignment_5 /storage/emulated/0/tlc/school/rams/solutions/4/1/2
+
+#svn co https://github.com/pavanmanesh/EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/rams/solutions/4/2/1
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
 
 
-#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment8_Matrix_Theory 
+#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment8_Matrix_Theory /storage/emulated/0/tlc/school/loney/solutions/40/1
 
-#svn co https://github.com/pranaya14014/EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/loney/solutions/13/5
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
 
@@ -41,14 +41,15 @@
 #python codes/line/skew_svd.py
 
 
-#svn co https://github.com/Vaibhav11002/EE5609/trunk/Assignment_6 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/15
+
+#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment9_Matrix_Theory /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/17
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
 
 #cd /storage/emulated/0/tlc/phylayer/
-cd /storage/emulated/0/tlc/school/
 #cd /storage/emulated/0/tlc/college/
+cd /storage/emulated/0/tlc/school/
 git add .
 git commit -m "Add existing files"
 git push origin
@@ -67,7 +68,13 @@ git push origin
 #git clone https://github.com/gadepall/aiml  /storage/emulated/0/tlc/aiml
 
 
-#git clone https://github.com/EE20RESCH14003/Assignment-1_7 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/62
+#git clone https://github.com/cs19resch11004/EE5600/  
+
+
+
+#svn co https://github.com/Rishab9991/EE5609/trunk/Assignments/Assignment2 
+
+#git clone https://github.com/upender20/EE5600 /storage/emulated/0/tlc/school/ncert/linalg/solutions/rline_plane/107
 
 #tex2pdf.sh gvv_ncert_linalg
 #cd /storage/emulated/0/tlc/school/ncert/linalg
