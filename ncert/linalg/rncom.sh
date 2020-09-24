@@ -6,8 +6,7 @@
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
 
-
-#git clone https://github.com/KUSUMAPRIYAPULAVARTY/assignment6 /storage/emulated/0/tlc/school/rams/solutions/3/4/9
+#svn co https://github.com/ayushkesh/Matrix-Theory-EE5609/trunk/A5 /storage/emulated/0/tlc/school/rams/solutions/4/1/4
 
 
 #cd /storage/emulated/0/tlc/school/rams/
@@ -41,15 +40,16 @@
 
 
 
-#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment9_Matrix_Theory 
 
-#svn co https://github.com/poojah15/EE5609_AI20MTECH14003/trunk/Assignment_7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/14
+#git clone https://github.com/KUSUMAPRIYAPULAVARTY/QRdecomposition  /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/18
+
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
 
 #cd /storage/emulated/0/tlc/phylayer/
 #cd /storage/emulated/0/tlc/college/
+#cd /storage/emulated/0/tlc/resources
 cd /storage/emulated/0/tlc/school/
 git add .
 git commit -m "Add existing files"
