@@ -16,9 +16,11 @@
 %\restoresymbol{TXF}{iint}
 %\usepackage{wasysym}
 \usepackage{amsthm}
+%\usepackage{iithtlc}
 \usepackage{mathrsfs}
 \usepackage{txfonts}
 \usepackage{stfloats}
+\usepackage{bm}
 \usepackage{cite}
 \usepackage{cases}
 \usepackage{subfig}
@@ -29,13 +31,16 @@
 %\usepackage{algpseudocode}
 \usepackage{enumitem}
 \usepackage{mathtools}
+\usepackage{steinmetz}
 \usepackage{tikz}
 \usepackage{circuitikz}
 \usepackage{verbatim}
-\usepackage{hyperref}
+\usepackage{tfrupee}
+\usepackage[breaklinks=true]{hyperref}
 %\usepackage{stmaryrd}
 \usepackage{tkz-euclide} % loads  TikZ and tkz-base
 %\usetkzobj{all}
+\usetikzlibrary{calc,math}
 \usepackage{listings}
     \usepackage{color}                                            %%
     \usepackage{array}                                            %%
@@ -67,10 +72,16 @@
 \def\inputGnumericTable{}                                 %%
 
 \lstset{
-language=tex,
+%language=C,
 frame=single, 
-breaklines=true
+breaklines=true,
+columns=fullflexible
 }
+%\lstset{
+%language=tex,
+%frame=single, 
+%breaklines=true
+%}
 
 \begin{document}
 %
@@ -90,11 +101,8 @@ breaklines=true
 \newcommand{\BEQA}{\begin{eqnarray}}
 \newcommand{\EEQA}{\end{eqnarray}}
 \newcommand{\define}{\stackrel{\triangle}{=}}
-
 \bibliographystyle{IEEEtran}
 %\bibliographystyle{ieeetr}
-
-
 \providecommand{\mbf}{\mathbf}
 \providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
 \providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
@@ -132,35 +140,24 @@ breaklines=true
 \makeatletter
 \@addtoreset{figure}{problem}
 \makeatother
-
 \let\StandardTheFigure\thefigure
 \let\vec\mathbf
 %\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
 \renewcommand{\thefigure}{\theproblem}
 %\setlist[enumerate,1]{before=\renewcommand\theequation{\theenumi.\arabic{equation}}
 %\counterwithin{equation}{enumi}
-
-
 %\renewcommand{\theequation}{\arabic{subsection}.\arabic{equation}}
-
 \def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
      \def\rightbox#1{\makebox[0in][r]{#1}}
      \def\centbox#1{\makebox[0in]{#1}}
      \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
      \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
-
 \vspace{3cm}
-
-\title{
-%	\logo{
-Problems in Linear Algebra 
-%	}
-}
+\title{Matrix theory Assignment 2}
+\author{Sahil Kumar Singh}
 %\title{
 %	\logo{Matrix Analysis through Octave}{\begin{center}\includegraphics[scale=.24]{tlc}\end{center}}{}{HAMDSP}
 %}
-
-
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
 %\title{Matrix Analysis through Octave}
@@ -174,7 +171,6 @@ Problems in Linear Algebra
 % a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
 % was not built to handle multiple paragraphs
 %
-
 %\author{<-this % stops a space
 %\thanks{}}
 %}
@@ -195,9 +191,6 @@ Problems in Linear Algebra
 % you are supposed to have spaces between the names. For what it is worth,
 % this is a minor point as most people would not even notice if the said evil
 % space somehow managed to creep in.
-
-
-
 % The paper headers
 %\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
 %{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
@@ -208,31 +201,19 @@ Problems in Linear Algebra
 % *** name in the headers of peer review papers.                   ***
 % You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
 % you desire.
-
-
-
-
 % If you want to put a publisher's ID mark on the page you can do it like
 % this:
 %\IEEEpubid{0000--0000/00\$00.00~\copyright~2007 IEEE}
 % Remember, if you use this you must call \IEEEpubidadjcol in the second
 % column for its text to clear the IEEEpubid mark.
-
-
-
 % make the title area
 \maketitle
-
 \newpage
-
-\tableofcontents
-
+%\tableofcontents
 \bigskip
-
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 %\renewcommand{\theequation}{\theenumi}
-
 %\begin{abstract}
 %%\boldmath
 %In this letter, an algorithm for evaluating the exact analytical bit error rate  (BER)  for the piecewise linear (PL) combiner for  multiple relays is presented. Previous results were available only for upto three relays. The algorithm is unique in the sense that  the actual mathematical expressions, that are prohibitively large, need not be explicitly obtained. The diversity gain due to multiple relays is shown through plots of the analytical BER, well supported by simulations. 
@@ -244,14 +225,10 @@ Problems in Linear Algebra
 % then you can use LaTeX's standard command \boldmath at the very start
 % of the abstract to achieve this. Many IEEE journals frown on math
 % in the abstract anyway.
-
 % Note that keywords are not normally used for peerreview papers.
 %\begin{IEEEkeywords}
 %Cooperative diversity, decode and forward, piecewise linear
 %\end{IEEEkeywords}
-
-
-
 % For peer review papers, you can put extra information on the cover
 % page as needed:
 % \ifCLASSOPTIONpeerreview
@@ -261,104 +238,5 @@ Problems in Linear Algebra
 % For peerreview papers, this IEEEtran command inserts a page break and
 % creates the second title. It will be ignored for other modes.
 %\IEEEpeerreviewmaketitle
-
-%\begin{abstract}
-%\end{abstract}
-
-\section{Introduction}
-%\subsection{Properties}
-%\input{./chapters/1/1.0.tex} 
-\subsection{Points}
-\input{./chapters/1/1.1.tex} 
-\subsection{Loci}
-\input{./chapters/1/1.2.tex} 
-%\newpage
-\section{The Straight Line}
-%\subsection{Properties}
-%\input{./chapters/2/2.0.tex}
-\subsection{Intercepts}
-\input{./chapters/2/2.1.tex}
-\subsection{Line Equation}
-\input{./chapters/2/2.2.tex} 
-\subsection{Point of Intersection}
-\input{./chapters/2/2.3.tex} 
-\subsection{Perpendiculars and Bisectors}
-\input{./chapters/2/2.4.tex} 
-\subsection{Angle Between Lines}
-\input{./chapters/2/2.5.tex} 
-\subsection{Miscellaneous}
-\input{./chapters/2/2.6.tex} 
-%\newpage
-\section{Curves}
-%\subsection{Properties}
-%\input{./chapters/3/3.0.tex} 
-%\subsection{Circle}
-%\input{./chapters/4/circle.tex} 
-%\subsection{Parabola}
-%\input{./chapters/5/5.0.tex} 
-%\subsection{Affine Transformation}
-%\input{./chapters/3/affine.tex} 
-%\subsection{Ellipse}
-%\input{./chapters/6/6.0.tex} 
-%\subsection{Hyperbola}
-%\input{./chapters/3/hyper.tex} 
-\subsection{Tangent}
-\input{./chapters/3/3.1.tex} 
-\subsection{More on Tangents}
-\input{./chapters/3/3.2.tex} 
-\subsection{Normal}
-\input{./chapters/3/3.3.tex} 
-\subsection{Affine Transformation: Exercises}
-\input{./chapters/3/3.4.tex} 
-%\newpage
-\section{Circle}
-%\subsection{Properties}
-%\input{./chapters/4/4.0.tex} 
-\subsection{Equation}
-\input{./chapters/4/4.1.tex} 
-\subsection{Tangent and Normal}
-\input{./chapters/4/4.2.tex} 
-\subsection{Pole and Polar}
-\input{./chapters/4/4.3.tex} 
-\subsection{Systems of Circles}
-\input{./chapters/4/4.4.tex} 
-\subsection{Miscellaneous}
-\input{./chapters/4/4.5.tex} 
-\section{Parabola}
-\subsection{Tangent and Normal}
-\input{./chapters/5/5.1.tex} 
-\subsection{Miscellaneous}
-\input{./chapters/5/5.2.tex} 
-\section{The Ellipse}
-\subsection{Properties}
-\input{./chapters/6/6.1.tex} 
-\subsection{Pole and Polar}
-\input{./chapters/6/6.2.tex} 
-\subsection{Eccentric Angles}
-\input{./chapters/6/6.3.tex} 
-\subsection{Miscellaneous}
-\input{./chapters/6/6.4.tex} 
-\subsection{Hyperbola}
-\input{./chapters/7/7.1.tex} 
-\section{Polar Coordinates}
-\input{./chapters/8/8.1.tex} 
-\section{Easy Problems}
-\subsection{The Straight Line}
-\input{./chapters/9/9.1.tex} 
-\subsection{Curves and Loci}
-\input{./chapters/9/9.2.tex} 
-\subsection{The Circle}
-\input{./chapters/9/9.3.tex}		 
-\subsection{The Parabola}	
-\input{./chapters/9/9.4.tex} 
-\subsection{The Ellipse}
-\input{./chapters/9/9.5.tex} 
-\subsection{The Hyperbola}
-\input{./chapters/9/9.6.tex} 
-
-
-
-
+\input{chapters/es17btech11019}
 \end{document}
-
-

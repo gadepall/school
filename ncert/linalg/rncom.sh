@@ -7,9 +7,8 @@
 
 
 
+#git clone https://github.com/KUSUMAPRIYAPULAVARTY/assignment6 /storage/emulated/0/tlc/school/rams/solutions/3/4/9
 
-
-#svn co https://github.com/pavanmanesh/EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/rams/solutions/4/2/1
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
@@ -27,7 +26,7 @@
 
 
 
-#svn co https://github.com/pavanmanesh/EE5609/trunk/Assignment3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/18
+#svn co https://github.com/utkarshsurwade/Matrix_Theory_EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/16
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -42,7 +41,9 @@
 
 
 
-#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment9_Matrix_Theory /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/17
+#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment9_Matrix_Theory 
+
+#svn co https://github.com/poojah15/EE5609_AI20MTECH14003/trunk/Assignment_7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/14
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -55,7 +56,6 @@ git commit -m "Add existing files"
 git push origin
 
 
-#rm -rf /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/30
 
 
 
@@ -72,9 +72,10 @@ git push origin
 
 
 
-#svn co https://github.com/Rishab9991/EE5609/trunk/Assignments/Assignment2 
 
-#git clone https://github.com/upender20/EE5600 /storage/emulated/0/tlc/school/ncert/linalg/solutions/rline_plane/107
+#git clone https://github.com/upender20/EE5600 
 
+#svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/69
+
+#git clone https://github.com/upender20/EE5600 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/106
 #tex2pdf.sh gvv_ncert_linalg
-#cd /storage/emulated/0/tlc/school/ncert/linalg
