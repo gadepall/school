@@ -23,9 +23,7 @@
 
 
 
-
-
-#svn co https://github.com/utkarshsurwade/Matrix_Theory_EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/16
+#svn co https://github.com/priya6971/matrix_theory_EE5609/trunk/Assignment3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/27
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
