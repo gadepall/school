@@ -6,7 +6,8 @@
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
 
-#svn co https://github.com/ayushkesh/Matrix-Theory-EE5609/trunk/A5 /storage/emulated/0/tlc/school/rams/solutions/4/1/4
+#svn co https://github.com/harshachinta/EE5609-Matrix-Theory/trunk/Assignments/Assignment8 /storage/emulated/0/tlc/school/rams/solutions/3/4/6
+
 
 
 #cd /storage/emulated/0/tlc/school/rams/
