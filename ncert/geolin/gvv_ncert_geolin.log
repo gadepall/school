@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  24 SEP 2020 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  25 SEP 2020 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2257,13 +2257,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
-) (./solutions/1/27/solution.tex (./solutions/1/27/Figure.tex)
+) (./solutions/1/26/solution.tex (./solutions/1/26/quadrilateral.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
+Overfull \hbox (49.59293pt too wide) detected at line 87
+ []$[]   \OT1/txr/m/n/12 = [][] + [][] \OMS/txsy/m/n/12 ^^@ \OT1/txr/m/n/12 (\O
+T1/txr/bx/n/12 A \OMS/txsy/m/n/12 ^^@ \OT1/txr/bx/n/12 B\OT1/txr/m/n/12 )[](\OT
+1/txr/bx/n/12 A \OMS/txsy/m/n/12 ^^@ \OT1/txr/bx/n/12 C\OT1/txr/m/n/12 ) \OMS/t
+xsy/m/n/12 ^^@ \OT1/txr/m/n/12 (\OT1/txr/bx/n/12 A \OMS/txsy/m/n/12 ^^@ \OT1/tx
+r/bx/n/12 C\OT1/txr/m/n/12 )[](\OT1/txr/bx/n/12 A \OMS/txsy/m/n/12 ^^@ \OT1/txr
+/bx/n/12 B\OT1/txr/m/n/12 )$ 
+ []
+
+
+Overfull \hbox (42.92636pt too wide) detected at line 87
+ []$[] \OMS/txsy/m/n/12 ^^@ [][] ^^@ [][] \OT1/txr/m/n/12 + (\OT1/txr/bx/n/12 A
+ \OMS/txsy/m/n/12 ^^@ \OT1/txr/bx/n/12 D\OT1/txr/m/n/12 )[](\OT1/txr/bx/n/12 A 
+\OT1/txr/m/n/12 + \OT1/txr/bx/n/12 E\OT1/txr/m/n/12 ) + (\OT1/txr/bx/n/12 A \OM
+S/txsy/m/n/12 ^^@ \OT1/txr/bx/n/12 E\OT1/txr/m/n/12 )[](\OT1/txr/bx/n/12 A \OMS
+/txsy/m/n/12 ^^@ \OT1/txr/bx/n/12 D\OT1/txr/m/n/12 )$ []  
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
+(./solutions/1/27/solution.tex (./solutions/1/27/Figure.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (./solutions/1/29/latex/solution.tex
 (./solutions/1/29/latex/figs/es17btech11009_fig1.tex)
 Overfull \hbox (15.7285pt too wide) detected at line 21
@@ -2272,9 +2298,6 @@ Overfull \hbox (15.7285pt too wide) detected at line 21
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
 Overfull \hbox (15.7285pt too wide) detected at line 28
  []$[]  \OT1/txr/m/n/12 =[]\OMS/txsy/m/n/12 )  [][] [] \OT1/txr/m/n/12 = [][] [
 ] = 0$ []  
@@ -2283,19 +2306,17 @@ Overfull \hbox (15.7285pt too wide) detected at line 28
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/1/30/solution.tex (./solutions/1/30/Figure.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
+ [19])
+(./solutions/1/30/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+(./solutions/1/30/Figure.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) [20]
 Overfull \hbox (15.56342pt too wide) detected at line 53
  []$[]   [][] \OT1/txr/m/n/12 + [][][] + [][][] =$ 
  []
@@ -2308,9 +2329,6 @@ Overfull \hbox (4.62213pt too wide) detected at line 53
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2318,26 +2336,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 343.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 343.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 343.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 360.
+LaTeX Warning: Command \textendash invalid in math mode on input line 346.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 365.
+LaTeX Warning: Command \textendash invalid in math mode on input line 346.
 
-) (./chapters/quad_geo_exer.tex
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 346.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 363.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 368.
+
+) (./chapters/quad_geo_exer.tex [23]
 Underfull \hbox (badness 2495) in paragraph at lines 46--48
 []\OT1/txr/m/n/12 In $\OMS/txsy/m/n/12 4\OML/txmi/m/it/12 ABC$ \OT1/txr/m/n/12 
 and $\OMS/txsy/m/n/12 4\OML/txmi/m/it/12 DEF; AB \OT1/txr/m/n/12 = \OML/txmi/m/
@@ -2347,30 +2368,27 @@ it/12 DE; AB \OMS/txsy/m/n/12 k
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./chapters/circ_geo_exer.tex [25] [26]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 106.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 106.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 106.
-
-) (./chapters/geo_misc.tex [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [25])
+(./chapters/circ_geo_exer.tex [26]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 106.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 106.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 106.
+
+[27]) (./chapters/geo_misc.tex [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2379,14 +2397,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [30]
 [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [33]
 
 LaTeX Warning: File `./figs/11-1/5/5.6.eps' not found on input line 368.
 
@@ -2398,7 +2419,7 @@ Package epstopdf Info: Source file: <./figs/11-1/5/5.6.eps>
 erted-to.pdf ./figs/11-1/5/5.6.eps>
 (epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/5/5.6-eps-converted-to.pdf, id=1236, 381.425pt x 166.6225pt>
+<./figs/11-1/5/5.6-eps-converted-to.pdf, id=1269, 381.425pt x 166.6225pt>
 File: ./figs/11-1/5/5.6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/5/5.6-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/5/5.6-eps-converted-to.pdf  used on input 
@@ -2415,7 +2436,7 @@ Package epstopdf Info: Source file: <./figs/11-1/5/5.8.eps>
 erted-to.pdf ./figs/11-1/5/5.8.eps>
 (epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/5/5.8-eps-converted-to.pdf, id=1238, 379.4175pt x 192.72pt>
+<./figs/11-1/5/5.8-eps-converted-to.pdf, id=1271, 379.4175pt x 192.72pt>
 File: ./figs/11-1/5/5.8-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/5/5.8-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/5/5.8-eps-converted-to.pdf  used on input 
@@ -2432,7 +2453,7 @@ Package epstopdf Info: Source file: <./figs/11-1/5/5.11.eps>
 verted-to.pdf ./figs/11-1/5/5.11.eps>
 (epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/5/5.11-eps-converted-to.pdf, id=1240, 374.39874pt x 180.675pt>
+<./figs/11-1/5/5.11-eps-converted-to.pdf, id=1273, 374.39874pt x 180.675pt>
 File: ./figs/11-1/5/5.11-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/5/5.11-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/5/5.11-eps-converted-to.pdf  used on input
@@ -2441,11 +2462,11 @@ Package pdftex.def Info: ./figs/11-1/5/5.11-eps-converted-to.pdf  used on input
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [34 <./figs/11-1/5/5.6-eps-converted-to.pdf> <./figs/11-1/5/5.8-eps-converted-
 to.pdf> <./figs/11-1/5/5.11-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Warning: File `./figs/11-1/6/6.6.eps' not found on input line 414.
 
@@ -2457,7 +2478,7 @@ Package epstopdf Info: Source file: <./figs/11-1/6/6.6.eps>
 erted-to.pdf ./figs/11-1/6/6.6.eps>
 (epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/6/6.6-eps-converted-to.pdf, id=1291, 215.80624pt x 219.82124pt>
+<./figs/11-1/6/6.6-eps-converted-to.pdf, id=1304, 215.80624pt x 219.82124pt>
 File: ./figs/11-1/6/6.6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/6/6.6-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/6/6.6-eps-converted-to.pdf  used on input 
@@ -2474,12 +2495,13 @@ Package epstopdf Info: Source file: <./figs/11-1/6/6.15.eps>
 verted-to.pdf ./figs/11-1/6/6.15.eps>
 (epstopdf)             \includegraphics on input line 421.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/6/6.15-eps-converted-to.pdf, id=1293, 251.94125pt x 226.8475pt>
+<./figs/11-1/6/6.15-eps-converted-to.pdf, id=1306, 251.94125pt x 226.8475pt>
 File: ./figs/11-1/6/6.15-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/6/6.15-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/6/6.15-eps-converted-to.pdf  used on input
  line 421.
 (pdftex.def)             Requested size: 252.0pt x 226.90231pt.
+[35 <./figs/11-1/6/6.6-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./figs/11-1/6/6.16.eps' not found on input line 438.
 
@@ -2491,7 +2513,7 @@ Package epstopdf Info: Source file: <./figs/11-1/6/6.16.eps>
 verted-to.pdf ./figs/11-1/6/6.16.eps>
 (epstopdf)             \includegraphics on input line 438.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/6/6.16-eps-converted-to.pdf, id=1295, 401.5pt x 199.74625pt>
+<./figs/11-1/6/6.16-eps-converted-to.pdf, id=1331, 401.5pt x 199.74625pt>
 File: ./figs/11-1/6/6.16-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/6/6.16-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/6/6.16-eps-converted-to.pdf  used on input
@@ -2508,14 +2530,12 @@ Package epstopdf Info: Source file: <./figs/11-1/6/6.17.eps>
 verted-to.pdf ./figs/11-1/6/6.17.eps>
 (epstopdf)             \includegraphics on input line 447.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/6/6.17-eps-converted-to.pdf, id=1297, 336.25626pt x 203.76125pt>
+<./figs/11-1/6/6.17-eps-converted-to.pdf, id=1333, 336.25626pt x 203.76125pt>
 File: ./figs/11-1/6/6.17-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/6/6.17-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/6/6.17-eps-converted-to.pdf  used on input
  line 447.
 (pdftex.def)             Requested size: 252.0pt x 152.7055pt.
-[35 <./figs/11-1/6/6.6-eps-converted-to.pdf> <./figs/11-1/6/6.15-eps-converted-
-to.pdf>]
 
 LaTeX Warning: File `./figs/11-1/7/7.11.eps' not found on input line 455.
 
@@ -2527,12 +2547,14 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.11.eps>
 verted-to.pdf ./figs/11-1/7/7.11.eps>
 (epstopdf)             \includegraphics on input line 455.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.11-eps-converted-to.pdf, id=1323, 365.365pt x 281.05pt>
+<./figs/11-1/7/7.11-eps-converted-to.pdf, id=1335, 365.365pt x 281.05pt>
 File: ./figs/11-1/7/7.11-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.11-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.11-eps-converted-to.pdf  used on input
  line 455.
 (pdftex.def)             Requested size: 252.0pt x 193.8475pt.
+[36 <./figs/11-1/6/6.15-eps-converted-to.pdf> <./figs/11-1/6/6.16-eps-converted
+-to.pdf> <./figs/11-1/6/6.17-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./figs/11-1/7/7.27.eps' not found on input line 462.
 
@@ -2544,7 +2566,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.27.eps>
 verted-to.pdf ./figs/11-1/7/7.27.eps>
 (epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.27-eps-converted-to.pdf, id=1325, 178.6675pt x 308.15125pt>
+<./figs/11-1/7/7.27-eps-converted-to.pdf, id=1362, 178.6675pt x 308.15125pt>
 File: ./figs/11-1/7/7.27-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.27-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.27-eps-converted-to.pdf  used on input
@@ -2561,7 +2583,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.35.eps>
 verted-to.pdf ./figs/11-1/7/7.35.eps>
 (epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.35-eps-converted-to.pdf, id=1327, 344.28625pt x 320.19624pt>
+<./figs/11-1/7/7.35-eps-converted-to.pdf, id=1364, 344.28625pt x 320.19624pt>
 File: ./figs/11-1/7/7.35-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.35-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.35-eps-converted-to.pdf  used on input
@@ -2576,8 +2598,7 @@ File: ts1txr.fd 2000/12/15 v3.1
 )
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
- [36 <./figs/11-1/6/6.16-eps-converted-to.pdf> <./figs/11-1/6/6.17-eps-converte
-d-to.pdf> <./figs/11-1/7/7.11-eps-converted-to.pdf>]
+
 
 LaTeX Warning: File `./figs/11-1/7/7.39.eps' not found on input line 486.
 
@@ -2589,14 +2610,14 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.39.eps>
 verted-to.pdf ./figs/11-1/7/7.39.eps>
 (epstopdf)             \includegraphics on input line 486.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.39-eps-converted-to.pdf, id=1358, 437.635pt x 275.0275pt>
+<./figs/11-1/7/7.39-eps-converted-to.pdf, id=1366, 437.635pt x 275.0275pt>
 File: ./figs/11-1/7/7.39-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.39-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.39-eps-converted-to.pdf  used on input
  line 486.
 (pdftex.def)             Requested size: 252.0pt x 158.3662pt.
-[37 <./figs/11-1/7/7.27-eps-converted-to.pdf> <./figs/11-1/7/7.35-eps-converted
--to.pdf> <./figs/11-1/7/7.39-eps-converted-to.pdf>]
+[37 <./figs/11-1/7/7.11-eps-converted-to.pdf> <./figs/11-1/7/7.27-eps-converted
+-to.pdf>]
 Underfull \hbox (badness 7595) in paragraph at lines 502--503
 \OT1/txr/m/n/12 with his two arms out-stretched. The
  []
@@ -2604,7 +2625,8 @@ Underfull \hbox (badness 7595) in paragraph at lines 502--503
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [38 <./figs/11-1/7/7.35-eps-converted-to.pdf> <./figs/11-1/7/7.39-eps-converte
+d-to.pdf>]
 
 LaTeX Warning: File `./figs/11-1/7/7.40.eps' not found on input line 527.
 
@@ -2616,7 +2638,7 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.40.eps>
 verted-to.pdf ./figs/11-1/7/7.40.eps>
 (epstopdf)             \includegraphics on input line 527.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.40-eps-converted-to.pdf, id=1378, 388.45125pt x 290.08376pt>
+<./figs/11-1/7/7.40-eps-converted-to.pdf, id=1413, 388.45125pt x 290.08376pt>
 File: ./figs/11-1/7/7.40-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.40-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.40-eps-converted-to.pdf  used on input
@@ -2625,10 +2647,10 @@ Package pdftex.def Info: ./figs/11-1/7/7.40-eps-converted-to.pdf  used on input
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+
 Underfull \vbox (badness 4120) has occurred while \output is active []
 
-
+ [39 <./figs/11-1/7/7.40-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./figs/11-1/7/7.41.eps' not found on input line 551.
 
@@ -2640,14 +2662,12 @@ Package epstopdf Info: Source file: <./figs/11-1/7/7.41.eps>
 verted-to.pdf ./figs/11-1/7/7.41.eps>
 (epstopdf)             \includegraphics on input line 551.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/7/7.41-eps-converted-to.pdf, id=1407, 390.45876pt x 247.92625pt>
+<./figs/11-1/7/7.41-eps-converted-to.pdf, id=1440, 390.45876pt x 247.92625pt>
 File: ./figs/11-1/7/7.41-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/7/7.41-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/7/7.41-eps-converted-to.pdf  used on input
  line 551.
 (pdftex.def)             Requested size: 252.0pt x 160.01144pt.
-[39 <./figs/11-1/7/7.40-eps-converted-to.pdf> <./figs/11-1/7/7.41-eps-converted
--to.pdf>]
 
 LaTeX Warning: File `./figs/11-1/8/8.5.eps' not found on input line 575.
 
@@ -2659,7 +2679,7 @@ Package epstopdf Info: Source file: <./figs/11-1/8/8.5.eps>
 erted-to.pdf ./figs/11-1/8/8.5.eps>
 (epstopdf)             \includegraphics on input line 575.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/8/8.5-eps-converted-to.pdf, id=1434, 327.2225pt x 289.08pt>
+<./figs/11-1/8/8.5-eps-converted-to.pdf, id=1443, 327.2225pt x 289.08pt>
 File: ./figs/11-1/8/8.5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/8/8.5-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/8/8.5-eps-converted-to.pdf  used on input 
@@ -2676,16 +2696,14 @@ Package epstopdf Info: Source file: <./figs/11-1/8/8.10.eps>
 verted-to.pdf ./figs/11-1/8/8.10.eps>
 (epstopdf)             \includegraphics on input line 582.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/11-1/8/8.10-eps-converted-to.pdf, id=1436, 272.01625pt x 114.4275pt>
+<./figs/11-1/8/8.10-eps-converted-to.pdf, id=1445, 272.01625pt x 114.4275pt>
 File: ./figs/11-1/8/8.10-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/11-1/8/8.10-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/11-1/8/8.10-eps-converted-to.pdf  used on input
  line 582.
 (pdftex.def)             Requested size: 252.0pt x 106.01314pt.
-) [40
-
- <./figs/11-1/8/8.5-eps-converted-to.pdf> <./figs/11-1/8/8.10-eps-converted-to.
-pdf>]
+) [40 <./figs/11-1/7/7.41-eps-converted-to.pdf> <./figs/11-1/8/8.5-eps-converte
+d-to.pdf> <./figs/11-1/8/8.10-eps-converted-to.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (./gvv_ncert_geolin.aux)
@@ -2696,10 +2714,10 @@ Package rerunfilecheck Info: File `gvv_ncert_geolin.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
  ) 
 Here is how much of TeX's memory you used:
- 44310 strings out of 480608
- 1025176 string characters out of 5892806
- 1387509 words of memory out of 5000000
- 58147 multiletter control sequences out of 15000+600000
+ 44352 strings out of 480608
+ 1026021 string characters out of 5892806
+ 1388371 words of memory out of 5000000
+ 58166 multiletter control sequences out of 15000+600000
  641054 words of font info for 269 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,16n,100p,588b,1234s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2719,10 +2737,10 @@ are/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux
 /files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/dat
 a/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on gvv_ncert_geolin.pdf (40 pages, 1032023 bytes).
+Output written on gvv_ncert_geolin.pdf (40 pages, 1035828 bytes).
 PDF statistics:
- 1699 PDF objects out of 1728 (max. 8388607)
- 1548 compressed objects within 16 object streams
- 1000 named destinations out of 1000 (max. 500000)
+ 1725 PDF objects out of 1728 (max. 8388607)
+ 1574 compressed objects within 16 object streams
+ 1017 named destinations out of 1200 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

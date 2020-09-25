@@ -24,7 +24,8 @@
 
 
 
-#svn co https://github.com/priya6971/matrix_theory_EE5609/trunk/Assignment3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/27
+
+#svn co https://github.com/abhishekt711/EE5609/trunk/Assignment_3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/26
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -75,6 +76,8 @@ git push origin
 
 
 
-#svn co https://github.com/saurabh13002/EE5609/trunk/Assignment2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/75
+
+#git clone https://github.com/KOLLI11017/linear-algebra-A1 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/44
+
 
 #tex2pdf.sh gvv_ncert_linalg
