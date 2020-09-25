@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  23 SEP 2020 08:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  25 SEP 2020 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2177,13 +2177,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/13/13/Latex/solution.tex
+(./solutions/13/12/solution.tex
+Overfull \hbox (12.7942pt too wide) in paragraph at lines 22--22
+[] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/13/13/Latex/assignment4fig.jpg, id=632, 276.28218pt x 201.00093pt>
+<./solutions/13/12/lines.png, id=629, 371.3875pt x 248.93pt>
+File: ./solutions/13/12/lines.png Graphic file (type png)
+<use ./solutions/13/12/lines.png>
+Package pdftex.def Info: ./solutions/13/12/lines.png  used on input line 103.
+(pdftex.def)             Requested size: 252.0pt x 168.9131pt.
+)
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [15 <./solutions/13/12/lines.png>] (./solutions/13/13/Latex/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+\OT1/txr/m/n/12 Substituing [] and [] in
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+<./solutions/13/13/Latex/assignment4fig.jpg, id=707, 276.28218pt x 201.00093pt>
 
 File: ./solutions/13/13/Latex/assignment4fig.jpg Graphic file (type jpg)
 <use ./solutions/13/13/Latex/assignment4fig.jpg>
@@ -2191,7 +2216,11 @@ Package pdftex.def Info: ./solutions/13/13/Latex/assignment4fig.jpg  used on in
 put line 111.
 (pdftex.def)             Requested size: 252.0pt x 183.33437pt.
 ))
-(./chapters/15/40.tex (./solutions/40/1/solution.tex [15]
+(./chapters/15/40.tex
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+
+(./solutions/40/1/solution.tex
 Underfull \hbox (badness 1389) in paragraph at lines 21--23
 \OT1/txr/m/n/12 rep-re-sents the hy-per-bola The char-ac-ter-is-tic
  []
@@ -2199,13 +2228,14 @@ Underfull \hbox (badness 1389) in paragraph at lines 21--23
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [17 <./solutions/13/13/Latex/assignment4fig.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./solutions/13/13/Latex/assignment4fig.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<./solutions/40/1/Assignment 8.png, id=711, 568.1225pt x 527.9725pt>
+ [18]
+<./solutions/40/1/Assignment 8.png, id=779, 568.1225pt x 527.9725pt>
 File: ./solutions/40/1/Assignment 8.png Graphic file (type png)
 <use ./solutions/40/1/Assignment 8.png>
 Package pdftex.def Info: ./solutions/40/1/Assignment 8.png  used on input line 
@@ -2218,24 +2248,42 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17])
+)
 (./solutions/40/2/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [19 <./solutions/40/1/Assignment 8.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./solutions/40/1/Assignment 8.png>]
-<./solutions/40/2/Ellipse.png, id=783, 397.485pt x 264.99pt>
+<./solutions/40/2/Ellipse.png, id=822, 397.485pt x 264.99pt>
 File: ./solutions/40/2/Ellipse.png Graphic file (type png)
 <use ./solutions/40/2/Ellipse.png>
 Package pdftex.def Info: ./solutions/40/2/Ellipse.png  used on input line 88.
 (pdftex.def)             Requested size: 252.0pt x 168.00395pt.
-)) [19 <./solutions/40/2/Ellipse.png>]
+)
+(./solutions/40/5/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./solutions/40/2/Ellipse.png>]
+<./solutions/40/5/A6.png, id=894, 385.44pt x 279.0425pt>
+File: ./solutions/40/5/A6.png Graphic file (type png)
+<use ./solutions/40/5/A6.png>
+Package pdftex.def Info: ./solutions/40/5/A6.png  used on input line 98.
+(pdftex.def)             Requested size: 252.0pt x 182.43567pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [22 <./solutions/40/5/A6.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
-
-(./gvv_loney_coord.aux)
+ (./gvv_loney_coord.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
 Package rerunfilecheck Info: File `gvv_loney_coord.out' has not changed.
@@ -2243,10 +2291,10 @@ Package rerunfilecheck Info: File `gvv_loney_coord.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 43035 strings out of 480608
- 1003465 string characters out of 5892806
- 1392373 words of memory out of 5000000
- 57544 multiletter control sequences out of 15000+600000
+ 43164 strings out of 480608
+ 1005819 string characters out of 5892806
+ 1395423 words of memory out of 5000000
+ 57587 multiletter control sequences out of 15000+600000
  626979 words of font info for 234 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,91p,507b,874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2263,10 +2311,10 @@ t/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.ter
 mux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_loney_coord.pdf (19 pages, 865896 bytes).
+Output written on gvv_loney_coord.pdf (22 pages, 903567 bytes).
 PDF statistics:
- 936 PDF objects out of 1000 (max. 8388607)
- 849 compressed objects within 9 object streams
- 475 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1064 PDF objects out of 1200 (max. 8388607)
+ 968 compressed objects within 10 object streams
+ 553 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,15 @@
+\renewcommand{\theequation}{\theenumi}
+%\begin{enumerate}[label=\arabic*.,ref=\theenumi]
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+  
+\item Find the shortest distance between the lines
+\begin{align}
+\vec{x}=\myvec{1\\1\\0}+\lambda_1\myvec{2\\-1\\1}\\
+\vec{x}=\myvec{2\\1\\-1}+\lambda_2\myvec{3\\-5\\2}
+\end{align}
+\solution
+\input{./solutions/3/1/solution.tex}
+
+\end{enumerate}

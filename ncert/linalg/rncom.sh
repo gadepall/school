@@ -6,15 +6,15 @@
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
 
-#svn co https://github.com/harshachinta/EE5609-Matrix-Theory/trunk/Assignments/Assignment8 /storage/emulated/0/tlc/school/rams/solutions/3/4/6
 
-
+#svn co https://github.com/shivangi-975/EE5609-Matrix_Theory/trunk/Assignment6 /storage/emulated/0/tlc/school/rams/solutions/3/4/2
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
 
 
-#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment8_Matrix_Theory /storage/emulated/0/tlc/school/loney/solutions/40/1
+#svn co https://github.com/ayushkesh/Matrix-Theory-EE5609/trunk/A6 /storage/emulated/0/tlc/school/loney/solutions/40/5
+
 
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
@@ -40,8 +40,9 @@
 
 
 
-#git clone https://github.com/KUSUMAPRIYAPULAVARTY/QRdecomposition  /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/18
 
+
+#svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_9 /storage/emulated/0/tlc/school/ncert/linexer/solutions/3/1
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -72,9 +73,8 @@ git push origin
 
 
 
-#git clone https://github.com/upender20/EE5600 
 
-#svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/69
 
-#git clone https://github.com/upender20/EE5600 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/106
+#svn co https://github.com/saurabh13002/EE5609/trunk/Assignment2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/75
+
 #tex2pdf.sh gvv_ncert_linalg
