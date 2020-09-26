@@ -9,6 +9,8 @@
 
 #svn co https://github.com/shivangi-975/EE5609-Matrix_Theory/trunk/Assignment6 /storage/emulated/0/tlc/school/rams/solutions/3/4/2
 
+#svn co https://github.com/kranthiakssy/AI20RESCH14002_PhD_IITH/trunk/EE5609_Matrix_Theory/Assignment-6 /storage/emulated/0/tlc/school/rams/solutions/3/4/8
+
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
 
@@ -19,13 +21,12 @@
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
 
-#cd /storage/emulated/0/tlc/college/linalg/
-#tex2pdf.sh gvv_linalg
+#cd /storage/emulated/0/tlc/college/ugc/linalg/
+#tex2pdf.sh gvv_ugc_linalg
 
 
 
-
-#svn co https://github.com/abhishekt711/EE5609/trunk/Assignment_3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/26
+#svn co https://github.com/Ritesh622/Assignment_EE5609/trunk/Assignment_3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/31
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -43,8 +44,7 @@
 
 
 
-
-#svn co https://github.com/saipranavkr/EE5609/trunk/Assignment_7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/13
+#svn co https://github.com/shivangi-975/EE5609-Matrix_Theory/trunk/Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/20
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
