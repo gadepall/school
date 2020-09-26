@@ -43,7 +43,8 @@
 
 
 
-#svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_9 /storage/emulated/0/tlc/school/ncert/linexer/solutions/3/1
+
+#svn co https://github.com/saipranavkr/EE5609/trunk/Assignment_7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/13
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -77,7 +78,7 @@ git push origin
 
 
 
-#git clone https://github.com/KOLLI11017/linear-algebra-A1 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/44
 
-
+#git clone https://github.com/Shweta-SV/EE5609Assignment2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/det/56
+ 
 #tex2pdf.sh gvv_ncert_linalg
