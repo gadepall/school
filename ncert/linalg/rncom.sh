@@ -5,11 +5,8 @@
 #git clone https://github.com/saurabh13002/EE5609 solutions/point_vector/18
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
+#svn co https://github.com/Matish007/Matrix-Theory-EE5609-/trunk/Assignment_6 /storage/emulated/0/tlc/school/rams/solutions/3/4/10
 
-
-#svn co https://github.com/shivangi-975/EE5609-Matrix_Theory/trunk/Assignment6 /storage/emulated/0/tlc/school/rams/solutions/3/4/2
-
-#svn co https://github.com/kranthiakssy/AI20RESCH14002_PhD_IITH/trunk/EE5609_Matrix_Theory/Assignment-6 /storage/emulated/0/tlc/school/rams/solutions/3/4/8
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
