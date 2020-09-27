@@ -22,8 +22,7 @@
 #cd /storage/emulated/0/tlc/college/ugc/linalg/
 #tex2pdf.sh gvv_ugc_linalg
 
-
-#svn co https://github.com/Sairam13001/AI5006/trunk/Assignment_4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/100/a
+#git clone https://github.com/Atul191/Assignment-3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/35/
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -39,8 +38,8 @@
 
 
 
-#svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/21
 
+#svn co https://github.com/Arko98/EE5609/trunk/Assignment_10 /storage/emulated/0/tlc/school/ncert/linexer/solutions/3/2
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
