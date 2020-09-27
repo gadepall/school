@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  26 SEP 2020 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  27 SEP 2020 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2265,9 +2265,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-))
-(./chapters/svd.tex (./solutions/3/1/solution.tex [17]
+)
+(./solutions/2/21/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]))
+(./chapters/svd.tex (./solutions/3/1/solution.tex
+Underfull \vbox (badness 1466) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2278,8 +2282,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]))
-[20
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/3/2/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]))
+[22
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
@@ -2292,10 +2309,10 @@ Package rerunfilecheck Info: File `gvv_linalg_exer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
  ) 
 Here is how much of TeX's memory you used:
- 43047 strings out of 480608
- 1002652 string characters out of 5892806
- 1393878 words of memory out of 5000000
- 57485 multiletter control sequences out of 15000+600000
+ 43139 strings out of 480608
+ 1004144 string characters out of 5892806
+ 1398884 words of memory out of 5000000
+ 57504 multiletter control sequences out of 15000+600000
  628329 words of font info for 236 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,24n,91p,738b,876s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2314,10 +2331,10 @@ exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files
 .termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></d
 ata/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on gvv_linalg_exer.pdf (20 pages, 918003 bytes).
+Output written on gvv_linalg_exer.pdf (22 pages, 932554 bytes).
 PDF statistics:
- 947 PDF objects out of 1000 (max. 8388607)
- 843 compressed objects within 9 object streams
- 523 named destinations out of 1000 (max. 500000)
+ 1055 PDF objects out of 1200 (max. 8388607)
+ 947 compressed objects within 10 object streams
+ 590 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

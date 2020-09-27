@@ -6,7 +6,10 @@
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
 
-#svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment6 /storage/emulated/0/tlc/school/rams/solutions/3/4/4
+#svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment6 
+
+#git clone https://github.com/satyam463/Matrix-Theory-Assignment4 /storage/emulated/0/tlc/school/rams/solutions/3/4/5
+
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
@@ -22,7 +25,7 @@
 #cd /storage/emulated/0/tlc/college/ugc/linalg/
 #tex2pdf.sh gvv_ugc_linalg
 
-#git clone https://github.com/Atul191/Assignment-3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/35/
+#svn co https://github.com/AddagallaSatyanarayana/AI5006/trunk/Assignment3  /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/101
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -37,9 +40,9 @@
 
 
 
+#svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/21
 
 
-#svn co https://github.com/Arko98/EE5609/trunk/Assignment_10 /storage/emulated/0/tlc/school/ncert/linexer/solutions/3/2
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -68,9 +71,10 @@ git push origin
 #git clone https://github.com/cs19resch11004/EE5600/  
 
 
+#svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_10 /storage/emulated/0/tlc/college/hoffman/solutions/1/1/5
 
-
-
+#cd /storage/emulated/0/tlc/college/hoffman
+#tex2pdf.sh gvv_hoffman
 
 
 
@@ -80,3 +84,5 @@ git push origin
 
 
 #startarch
+
+
