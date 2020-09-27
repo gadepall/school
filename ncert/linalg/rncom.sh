@@ -5,14 +5,15 @@
 #git clone https://github.com/saurabh13002/EE5609 solutions/point_vector/18
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
-#svn co https://github.com/Matish007/Matrix-Theory-EE5609-/trunk/Assignment_6 /storage/emulated/0/tlc/school/rams/solutions/3/4/10
 
+#svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment6 /storage/emulated/0/tlc/school/rams/solutions/3/4/4
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
 
 
-#svn co https://github.com/ayushkesh/Matrix-Theory-EE5609/trunk/A6 /storage/emulated/0/tlc/school/loney/solutions/40/5
+
+#git clone  https://github.com/ankuraditya13/EE5609-Assignment5 /storage/emulated/0/tlc/school/loney/solutions/13/10
 
 
 #cd /storage/emulated/0/tlc/school/loney/
@@ -22,8 +23,7 @@
 #tex2pdf.sh gvv_ugc_linalg
 
 
-
-#svn co https://github.com/Ritesh622/Assignment_EE5609/trunk/Assignment_3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/31
+#svn co https://github.com/Sairam13001/AI5006/trunk/Assignment_4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/100/a
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -39,9 +39,8 @@
 
 
 
+#svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/21
 
-
-#svn co https://github.com/shivangi-975/EE5609-Matrix_Theory/trunk/Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/20
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -79,3 +78,6 @@ git push origin
 #git clone https://github.com/Shweta-SV/EE5609Assignment2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/det/56
  
 #tex2pdf.sh gvv_ncert_linalg
+
+
+#startarch
