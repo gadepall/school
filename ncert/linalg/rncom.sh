@@ -8,6 +8,8 @@
 
 #svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment6 
 
+
+
 #git clone https://github.com/satyam463/Matrix-Theory-Assignment4 /storage/emulated/0/tlc/school/rams/solutions/3/4/5
 
 
@@ -55,6 +57,8 @@ git add .
 git commit -m "Add existing files"
 git push origin
 
+#cd /storage/emulated/0/tlc/phylayer/
+#tex2pdf.sh gvv_phydes
 
 
 
