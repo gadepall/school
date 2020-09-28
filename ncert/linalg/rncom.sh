@@ -27,8 +27,10 @@
 #cd /storage/emulated/0/tlc/college/ugc/linalg/
 #tex2pdf.sh gvv_ugc_linalg
 
-#svn co https://github.com/AddagallaSatyanarayana/AI5006/trunk/Assignment3  /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/101
+#svn co https://github.com/Zeeshan-IITH/IITH-EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/32
 
+
+#svn co https://github.com/AddagallaSatyanarayana/AI5006/trunk/Assignment3  
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
 
