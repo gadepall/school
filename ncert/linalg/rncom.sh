@@ -42,9 +42,8 @@
 
 
 
-#svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/21
 
-
+#svn co https://github.com/rubeenaafreen20/EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/16
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
