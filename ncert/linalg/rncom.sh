@@ -76,7 +76,8 @@ git push origin
 #git clone https://github.com/cs19resch11004/EE5600/  
 
 
-#svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_10 /storage/emulated/0/tlc/college/hoffman/solutions/1/1/5
+#svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_11 /storage/emulated/0/tlc/college/hoffman/solutions/1/2/7
+
 
 #cd /storage/emulated/0/tlc/college/hoffman
 #tex2pdf.sh gvv_hoffman
