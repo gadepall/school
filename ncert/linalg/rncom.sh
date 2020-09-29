@@ -27,9 +27,8 @@
 #cd /storage/emulated/0/tlc/college/ugc/linalg/
 #tex2pdf.sh gvv_ugc_linalg
 
-#svn co https://github.com/Zeeshan-IITH/IITH-EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/32
 
-
+#svn co https://github.com/jvinaykumar12/EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/34
 
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
@@ -44,9 +43,8 @@
 #python codes/line/skew_svd.py
 
 
+#svn co https://github.com/poojah15/EE5609_AI20MTECH14003/trunk/Assignment_8  /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/23
 
-
-#svn co https://github.com/rubeenaafreen20/EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/16
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
