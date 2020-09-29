@@ -18,8 +18,8 @@
 
 
 
-#git clone  https://github.com/ankuraditya13/EE5609-Assignment5 /storage/emulated/0/tlc/school/loney/solutions/13/10
 
+#svn co https://github.com/Shantanu2508/Matrix_Theory/trunk/Assignment_6 /storage/emulated/0/tlc/school/loney/solutions/40/6
 
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
@@ -43,8 +43,8 @@
 #python codes/line/skew_svd.py
 
 
-#svn co https://github.com/poojah15/EE5609_AI20MTECH14003/trunk/Assignment_8  /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/23
 
+#git clone https://github.com/KUSUMAPRIYAPULAVARTY/assignment8 /storage/emulated/0/tlc/school/ncert/linexer/solutions/3/4
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -75,7 +75,8 @@ git push origin
 #git clone https://github.com/cs19resch11004/EE5600/  
 
 
-#svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_11 /storage/emulated/0/tlc/college/hoffman/solutions/1/2/7
+
+#svn co https://github.com/Arko98/EE5609/trunk/Assignment_1 /storage/emulated/0/tlc/college/hoffman/solutions/1/1/8
 
 
 #cd /storage/emulated/0/tlc/college/hoffman
