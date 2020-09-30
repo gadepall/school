@@ -28,8 +28,8 @@
 #tex2pdf.sh gvv_ugc_linalg
 
 
-#svn co https://github.com/jvinaykumar12/EE5609/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/34
 
+#svn co https://github.com/sachinomdubey/Matrix-theory/trunk/Assignment5 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/9
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -43,8 +43,8 @@
 #python codes/line/skew_svd.py
 
 
+#svn co https://github.com/EE20MTECH14019/EE5609/trunk/QR_Decomposition /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/24
 
-#git clone https://github.com/KUSUMAPRIYAPULAVARTY/assignment8 /storage/emulated/0/tlc/school/ncert/linexer/solutions/3/4
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
