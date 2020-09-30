@@ -29,7 +29,9 @@
 
 
 
-#svn co https://github.com/sachinomdubey/Matrix-theory/trunk/Assignment5 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/9
+#svn co https://github.com/sachinomdubey/Matrix-theory/trunk/Assignment5 
+
+#svn co https://github.com/anshum0302/EE5609/trunk/assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/38
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -43,8 +45,8 @@
 #python codes/line/skew_svd.py
 
 
-#svn co https://github.com/EE20MTECH14019/EE5609/trunk/QR_Decomposition /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/24
 
+#git clone https://github.com/ankuraditya13/EE5609-Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/26
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -84,7 +86,7 @@ git push origin
 
 
 
-#git clone https://github.com/Shweta-SV/EE5609Assignment2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/det/56
+#git clone https://github.com/KOLLI11017/matrix-theory-A2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/77
  
 #tex2pdf.sh gvv_ncert_linalg
 
