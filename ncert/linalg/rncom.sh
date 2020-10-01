@@ -23,9 +23,7 @@
 #tex2pdf.sh gvv_ugc_linalg
 
 
-
-
-#svn co https://github.com/anshum0302/EE5609/trunk/assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/38
+#svn co https://github.com/sachinomdubey/Matrix-theory/trunk/Assignment5 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/9
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -71,15 +69,14 @@ git push origin
 
 
 
-#svn co https://github.com/Arko98/EE5609/trunk/Assignment_1 /storage/emulated/0/tlc/college/hoffman/solutions/1/1/8
+#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment11_Matrix_Theory  /storage/emulated/0/tlc/college/hoffman/solutions/1/1/7
+
 
 
 #cd /storage/emulated/0/tlc/college/hoffman
 #tex2pdf.sh gvv_hoffman
 
-
-
-#git clone https://github.com/KOLLI11017/matrix-theory-A2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/77
+#git clone https://github.com/Shweta-SV/Assignment-3 /storage/emulated/0/tlc/school/ncert/linalg/solutions/det/56
  
 #tex2pdf.sh gvv_ncert_linalg
 
