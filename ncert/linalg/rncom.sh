@@ -6,20 +6,15 @@
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
 
-#svn co https://github.com/Bharat437/Matrix_Theory/trunk/Assignment6 
-
-
-
-#git clone https://github.com/satyam463/Matrix-Theory-Assignment4 /storage/emulated/0/tlc/school/rams/solutions/3/4/5
+#svn co https://github.com/pranaya14014/EE5609/trunk/Assignment5 /storage/emulated/0/tlc/school/rams/solutions/3/4/11
 
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
 
 
+#svn co https://github.com/surbhi0912/EE5609/trunk/Assignment3 /storage/emulated/0/tlc/school/loney/solutions/13/2
 
-
-#svn co https://github.com/Shantanu2508/Matrix_Theory/trunk/Assignment_6 /storage/emulated/0/tlc/school/loney/solutions/40/6
 
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
@@ -29,7 +24,6 @@
 
 
 
-#svn co https://github.com/sachinomdubey/Matrix-theory/trunk/Assignment5 
 
 #svn co https://github.com/anshum0302/EE5609/trunk/assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/38
 
@@ -45,8 +39,7 @@
 #python codes/line/skew_svd.py
 
 
-
-#git clone https://github.com/ankuraditya13/EE5609-Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/26
+#svn co https://github.com/ayushkesh/Matrix-Theory-EE5609/trunk/A8 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/28
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
