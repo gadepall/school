@@ -84,3 +84,5 @@ git push origin
 #startarch
 
 
+#cd /storage/emulated/0/Download/book_2
+#tex2pdf.sh main
