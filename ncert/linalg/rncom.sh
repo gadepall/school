@@ -29,19 +29,25 @@
 #tex2pdf.sh gvv_ncert_geolin
 
 
-#svn co https://github.com/Shantanu2508/Matrix_Theory/trunk/Assignment_5 /storage/emulated/0/tlc/school/ncert/linman/challenge/pair
-
-
 #cd /storage/emulated/0/tlc/school/ncert/linman
 #tex2pdf.sh gvv_linalg_manual
+
 #python codes/line/skew_svd.py
+#python codes/line/skew_svd.py
+#cd /storage/emulated/0/tlc/school/ncert/linman
+#python codes/asymp/hyper_tangent.py
+
+#svn co https://github.com/pranaya14014/EE5609/trunk/Assignment6 
 
 
-#svn co https://github.com/ayushkesh/Matrix-Theory-EE5609/trunk/A8 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/28
+#svn co https://github.com/Matish007/Matrix-Theory-EE5609-/trunk/Assignment_7 
+
+#svn co https://github.com/utkarshsurwade/Matrix_Theory_EE5609/trunk/Assignment6 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/20
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
 
+#cd /storage/emulated/0/tlc/papers
 #cd /storage/emulated/0/tlc/phylayer/
 #cd /storage/emulated/0/tlc/college/
 #cd /storage/emulated/0/tlc/resources
@@ -86,3 +92,6 @@ git push origin
 
 #cd /storage/emulated/0/Download/book_2
 #tex2pdf.sh main
+
+#cd /storage/emulated/0/tlc/papers
+#git clone https://github.com/gadepall/papers
