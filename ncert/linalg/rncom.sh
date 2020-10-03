@@ -30,12 +30,11 @@
 
 
 #cd /storage/emulated/0/tlc/school/ncert/linman
+#python codes/asymp/hyper_asymp.py
 #tex2pdf.sh gvv_linalg_manual
 
 #python codes/line/skew_svd.py
 #python codes/line/skew_svd.py
-#cd /storage/emulated/0/tlc/school/ncert/linman
-#python codes/asymp/hyper_tangent.py
 
 #svn co https://github.com/pranaya14014/EE5609/trunk/Assignment6 
 

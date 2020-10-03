@@ -121,22 +121,87 @@ and minor axes parameters \begin{align} \sqrt{\frac{\lambda_1}{\vec{u}^T\vec{V}^
 \sqrt{\frac{\lambda_2}{f-\vec{u}^T\vec{V}^{-1}\vec{u}}}, \end{align} The centre is obtained from 
 \eqref{eq:conic_centre} as \eqref{eq:conic_nonparab_c}. 
 
-\item ({\em Pair of straight lines:}) In \eqref{eq:quad_form_hyper}, if 
+\item ({\em Pair of straight lines:}) The {\em asymptotes} of the hyperbola \eqref{eq:conic_quad_form} are defined as the pair of intersecting straight lines 
+\begin{align}
+\label{eq:asymp_quad_form}
+\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+K=0
+\end{align}
+such that 
 \begin{align} 
-\label{eq:quad_form_pair_cond}
- \vec{u}^T\vec{V}^{-1}\vec{u} -f = 0,
+\label{eq:quad_form_asymp_cond}
+K =  \vec{u}^T\vec{V}^{-1}\vec{u}
 \\
-\myvec{\sqrt{\lambda_1} & \pm \sqrt{\lambda_2}}\vec{y} = 0
+\abs{\vec{V}} < 0
+\label{eq:quad_pair_det}
 \end{align} 
 %
-and the hyperbola reduces to a pair of straight lines given by
+From \eqref{eq:quad_form_hyper} and \eqref{eq:quad_form_asymp_cond} the equation of the asymptotes for \eqref{eq:quad_form_hyper} is
+\begin{align} 
+\myvec{\sqrt{\abs{\lambda_1}} & \pm \sqrt{\abs{\lambda_2}}}\vec{y} = 0
+\end{align} 
+%
+and the asymptotes for the hyperbola are obtained using \eqref{eq:conic_affine} as
+%
 \begin{align} 
 \label{eq:quad_form_pair}
-\myvec{\sqrt{\lambda_1} & \pm \sqrt{\lambda_2}}\vec{P}^T\brak{\vec{x}-\vec{c}} = 0
+\myvec{\sqrt{\abs{\lambda_1}} & \pm \sqrt{\abs{\lambda_2}}}\vec{P}^T\brak{\vec{x}-\vec{c}} = 0
 \end{align} 
 %
-and $\vec{c}$ is the point of intersection of the lines.
-Apart from \eqref{eq:quad_form_pair_cond}, another condition for \eqref{eq:conic_quad_form} to represent a pair of straight lines is
+Thus, $\vec{c}$ is the point of intersection of the lines and the normal vectors of the lines in \eqref{eq:quad_form_pair} are 
+\begin{align} 
+\label{eq:quad_form_pair_normvecs}
+\begin{split}
+\vec{n}_1 &= \vec{P}\myvec{\sqrt{\abs{\lambda_1}} \\[2mm]  \sqrt{\abs{\lambda_2}}}
+\\
+\vec{n}_2 &= \vec{P}\myvec{\sqrt{\abs{\lambda_1}} \\[2mm] - \sqrt{\abs{\lambda_2}}}
+\end{split}
+\end{align} 
+%
+\item The angle between the asymptotes is given by 
+\begin{align} 
+\label{eq:quad_form_pair_ang_exp}
+\cos\theta=\frac{\vec{n_1}^T\vec{n_2}}{\norm{\vec{n_1}}\norm{\vec{n_2}}}
+\end{align} 
+The orthogonal matrix $\vec{P}$ preserves the norm, i.e.
+\begin{align} 
+\norm{\vec{n_1}} = \norm{\vec{P}\myvec{\sqrt{\abs{\lambda_1}} \\[2mm]  \sqrt{\abs{\lambda_2}}}}
+\\
+=\norm{\myvec{\sqrt{\abs{\lambda_1}} \\[2mm]  \sqrt{\abs{\lambda_2}}}}
+=\sqrt{\abs{\lambda_1}+\abs{\lambda_2}} = \norm{\vec{n_2}}
+\end{align} 
+It is easy to verify that 
+\begin{align} 
+\vec{n_1}^T\vec{n_2} = \abs{\lambda_1}-\abs{\lambda_2}
+\end{align} 
+%
+Thus, the angle between the asymptotes is obtained from \eqref{eq:quad_form_pair_ang_exp} as
+\begin{align} 
+\label{eq:quad_form_pair_ang}
+\cos\theta=\frac{\abs{\lambda_1}-\abs{\lambda_2}}
+{\abs{\lambda_1}+\abs{\lambda_2}}
+\end{align} 
+%\item ({\em Conjugate Hyperbola:}) Another hyperbola with the same asymptotes as \eqref{eq:quad_form_pair} can be obtained by rotating the hyperbola with the angle in \eqref{eq:quad_form_pair_ang} and the rotation matrix 
+%\begin{align}
+%\label{eq:quad_form_pair_ang_rot}
+%\vec{Q} = \myvec{
+%\cos \theta & -\sin \theta
+%\\
+%\sin \theta & \cos \theta 
+%} 
+%\end{align}
+%%
+%where 
+%\begin{align}
+%\sin \theta = 2\frac{\sqrt{\abs{\lambda_1}\abs{\lambda_2}}}
+%{\abs{\lambda_1}+\abs{\lambda_2}}
+%\end{align}
+%%
+%The equation of the conjugate hyperbola is then obtained as\begin{align}
+%\label{eq:conic_quad_form_conjugate}
+%\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{Q}\vec{x}+f=0
+%\end{align}
+%
+\item Apart from \eqref{eq:quad_form_asymp_cond}, another condition for \eqref{eq:conic_quad_form} to represent a pair of straight lines is
 \begin{align}
 \mydet{
 \vec{V}&\vec{u}
