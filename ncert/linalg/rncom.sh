@@ -41,7 +41,10 @@
 
 #svn co https://github.com/Matish007/Matrix-Theory-EE5609-/trunk/Assignment_7 
 
-#svn co https://github.com/utkarshsurwade/Matrix_Theory_EE5609/trunk/Assignment6 /storage/emulated/0/tlc/school/ncert/linexer/solutions/1/20
+#svn co https://github.com/utkarshsurwade/Matrix_Theory_EE5609/trunk/Assignment6 
+
+#svn co https://github.com/kranthiakssy/AI20RESCH14002_PhD_IITH/trunk/EE5609_Matrix_Theory/Assignment-8 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/32
+
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -74,9 +77,8 @@ git push origin
 
 
 
-#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment11_Matrix_Theory  /storage/emulated/0/tlc/college/hoffman/solutions/1/1/7
 
-
+#git clone https://github.com/satyam463/Assignment-7 /storage/emulated/0/tlc/college/hoffman/solutions/1/1/1
 
 #cd /storage/emulated/0/tlc/college/hoffman
 #tex2pdf.sh gvv_hoffman
@@ -94,3 +96,9 @@ git push origin
 
 #cd /storage/emulated/0/tlc/papers
 #git clone https://github.com/gadepall/papers
+
+#svn co https://github.com/EE20MTECH14019/EE5609/trunk/Assignment_6 /storage/emulated/0/tlc/school/dresden/solutions/4/45/1
+
+
+#cd /storage/emulated/0/tlc/school/dresden
+#tex2pdf.sh gvv_dresden
