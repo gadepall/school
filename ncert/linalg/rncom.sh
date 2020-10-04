@@ -23,9 +23,8 @@
 #tex2pdf.sh gvv_ugc_linalg
 
 
-#svn co https://github.com/pulkitsaxena92/EE20MTECH14016_MatrixEE5609/trunk/Assignment3 
 
-#svn co https://github.com/neharani289/eemtech14014/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/15
+#svn co https://github.com/saurabh13002/EE5609/trunk/Assignment3_1 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/42
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
