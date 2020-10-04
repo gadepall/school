@@ -13,7 +13,7 @@
 #tex2pdf.sh gvv_ramsey
 
 
-#svn co https://github.com/surbhi0912/EE5609/trunk/Assignment3 /storage/emulated/0/tlc/school/loney/solutions/13/2
+#svn co https://github.com/pavanmanesh/EE5609/trunk/Assignment5 /storage/emulated/0/tlc/school/loney/solutions/40/ex
 
 
 #cd /storage/emulated/0/tlc/school/loney/
@@ -22,9 +22,10 @@
 #cd /storage/emulated/0/tlc/college/ugc/linalg/
 #tex2pdf.sh gvv_ugc_linalg
 
-#svn co https://github.com/pulkitsaxena92/EE20MTECH14016_MatrixEE5609/trunk/Assignment3 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/36
 
-#svn co https://github.com/sachinomdubey/Matrix-theory/trunk/Assignment5 
+#svn co https://github.com/pulkitsaxena92/EE20MTECH14016_MatrixEE5609/trunk/Assignment3 
+
+#svn co https://github.com/neharani289/eemtech14014/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/15
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -48,6 +49,7 @@
 
 #svn co https://github.com/abhishekt711/EE5609/trunk/Assignment_4 
 
+#svn co https://github.com/shivangi-975/EE5609-Matrix_Theory/trunk/Assignment8 /storage/emulated/0/tlc/school/ncert/linexer/solutions/3/8
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -79,9 +81,7 @@ git push origin
 #git clone https://github.com/cs19resch11004/EE5600/  
 
 
-#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment12_Matrix_Theory /storage/emulated/0/tlc/college/hoffman/solutions/1/2/6
-
-
+#git clone https://github.com/ankuraditya13/EE5609-Assignment9 /storage/emulated/0/tlc/college/hoffman/solutions/1/2/4
 
 #cd /storage/emulated/0/tlc/college/hoffman
 #tex2pdf.sh gvv_hoffman
@@ -102,7 +102,9 @@ git push origin
 
 #svn co https://github.com/EE20MTECH14019/EE5609/trunk/Assignment_6 
 
-#git clone https://github.com/ankuraditya13/EE5609-Assignment8 /storage/emulated/0/tlc/school/dresden/solutions/4/45/2/1
+#git clone https://github.com/ankuraditya13/EE5609-Assignment8 /
+
+#svn co https://github.com/ayushkesh/Matrix-Theory-EE5609/trunk/A9 /storage/emulated/0/tlc/school/dresden/solutions/4/45/2/2
 
 #cd /storage/emulated/0/tlc/school/dresden
 #tex2pdf.sh gvv_dresden

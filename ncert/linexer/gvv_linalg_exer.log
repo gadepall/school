@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  3 OCT 2020 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  4 OCT 2020 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2498,7 +2498,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [43]
+)
+(./solutions/3/8/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)) [45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
 
@@ -2510,10 +2523,10 @@ Package rerunfilecheck Info: File `gvv_linalg_exer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
  ) 
 Here is how much of TeX's memory you used:
- 43988 strings out of 480608
- 1018592 string characters out of 5892806
- 1412783 words of memory out of 5000000
- 57712 multiletter control sequences out of 15000+600000
+ 44049 strings out of 480608
+ 1019585 string characters out of 5892806
+ 1413543 words of memory out of 5000000
+ 57725 multiletter control sequences out of 15000+600000
  628329 words of font info for 236 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,24n,91p,738b,877s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2532,10 +2545,10 @@ exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files
 .termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></d
 ata/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on gvv_linalg_exer.pdf (43 pages, 1150904 bytes).
+Output written on gvv_linalg_exer.pdf (45 pages, 1160914 bytes).
 PDF statistics:
- 1991 PDF objects out of 2073 (max. 8388607)
- 1813 compressed objects within 19 object streams
- 1168 named destinations out of 1200 (max. 500000)
+ 2067 PDF objects out of 2073 (max. 8388607)
+ 1886 compressed objects within 19 object streams
+ 1213 named destinations out of 1440 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
