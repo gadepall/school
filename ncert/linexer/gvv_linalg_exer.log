@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  4 OCT 2020 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  4 OCT 2020 14:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1944,7 +1944,7 @@ File: ot1txtt.fd 2000/12/15 v3.1
 pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
 /logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<iith_logo.pdf, id=43, 359.3425pt x 486.81876pt>
+<iith_logo.pdf, id=47, 359.3425pt x 486.81876pt>
 File: iith_logo.pdf Graphic file (type pdf)
 <use iith_logo.pdf>
 Package pdftex.def Info: iith_logo.pdf  used on input line 248.
@@ -1956,7 +1956,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 15.95987pt on input line 248.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 248.
-<tlc.pdf, id=44, 597.51233pt x 845.0471pt>
+<tlc.pdf, id=48, 597.51233pt x 845.0471pt>
 File: tlc.pdf Graphic file (type pdf)
 <use tlc.pdf>
 Package pdftex.def Info: tlc.pdf  used on input line 248.
@@ -2004,7 +2004,7 @@ Overfull \hbox (14.40588pt too wide) in paragraph at lines 248--248
 \openout5 = `gvv_linalg_exer.toc'.
 
  (./chapters/conics.tex (./solutions/1/1/solution.tex
-Underfull \vbox (badness 5446) has occurred while \output is active []
+Underfull \vbox (badness 2158) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2029,7 +2029,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<./solutions/1/1/Assignment_5.png, id=136, 462.528pt x 346.896pt>
+<./solutions/1/1/Assignment_5.png, id=141, 462.528pt x 346.896pt>
 File: ./solutions/1/1/Assignment_5.png Graphic file (type png)
 <use ./solutions/1/1/Assignment_5.png>
 Package pdftex.def Info: ./solutions/1/1/Assignment_5.png  used on input line 9
@@ -2040,14 +2040,14 @@ Package pdftex.def Info: ./solutions/1/1/Assignment_5.png  used on input line 9
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./solutions/1/1/Assignment_5.png>]
-<./solutions/1/2/assignment5.png, id=182, 396.48125pt x 337.26pt>
+<./solutions/1/2/assignment5.png, id=187, 396.48125pt x 337.26pt>
 File: ./solutions/1/2/assignment5.png Graphic file (type png)
 <use ./solutions/1/2/assignment5.png>
 Package pdftex.def Info: ./solutions/1/2/assignment5.png  used on input line 66
 .
 (pdftex.def)             Requested size: 252.0pt x 214.36356pt.
 ) (./solutions/1/4/solution.tex
-<./solutions/1/4/plot.png, id=187, 462.528pt x 346.896pt>
+<./solutions/1/4/plot.png, id=192, 462.528pt x 346.896pt>
 File: ./solutions/1/4/plot.png Graphic file (type png)
 <use ./solutions/1/4/plot.png>
 Package pdftex.def Info: ./solutions/1/4/plot.png  used on input line 38.
@@ -2059,7 +2059,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [4 <./solutions/1/2/assignment5.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/1/6/fig1.JPG, id=221, 316.18124pt x 232.61906pt>
+<./solutions/1/6/fig1.JPG, id=226, 316.18124pt x 232.61906pt>
 File: ./solutions/1/6/fig1.JPG Graphic file (type jpg)
 <use ./solutions/1/6/fig1.JPG>
 Package pdftex.def Info: ./solutions/1/6/fig1.JPG  used on input line 39.
@@ -2071,7 +2071,7 @@ Underfull \hbox (badness 6220) in paragraph at lines 12--17
 \OT1/txr/m/n/12 The di-rec-tion vec-tor of the given line
  []
 
-<./solutions/1/7/circle.png, id=249, 433.62pt x 289.08pt>
+<./solutions/1/7/circle.png, id=254, 433.62pt x 289.08pt>
 File: ./solutions/1/7/circle.png Graphic file (type png)
 <use ./solutions/1/7/circle.png>
 Package pdftex.def Info: ./solutions/1/7/circle.png  used on input line 27.
@@ -2100,7 +2100,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--58
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-<./solutions/1/10/assignment4.JPG, id=330, 316.68312pt x 203.25937pt>
+<./solutions/1/10/assignment4.JPG, id=335, 316.68312pt x 203.25937pt>
 File: ./solutions/1/10/assignment4.JPG Graphic file (type jpg)
 <use ./solutions/1/10/assignment4.JPG>
 Package pdftex.def Info: ./solutions/1/10/assignment4.JPG  used on input line 9
@@ -2123,7 +2123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
-<./solutions/1/11/circle.png, id=332, 462.528pt x 346.896pt>
+<./solutions/1/11/circle.png, id=337, 462.528pt x 346.896pt>
 File: ./solutions/1/11/circle.png Graphic file (type png)
 <use ./solutions/1/11/circle.png>
 Package pdftex.def Info: ./solutions/1/11/circle.png  used on input line 19.
@@ -2145,7 +2145,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-<./solutions/1/12/Assignment_7.png, id=434, 462.528pt x 346.896pt>
+<./solutions/1/12/Assignment_7.png, id=439, 462.528pt x 346.896pt>
 File: ./solutions/1/12/Assignment_7.png Graphic file (type png)
 <use ./solutions/1/12/Assignment_7.png>
 Package pdftex.def Info: ./solutions/1/12/Assignment_7.png  used on input line 
@@ -2164,7 +2164,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [11 <./solutions/1/12/Assignment_7.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/1/13/Assignment_7_Plot.png, id=475, 396.48125pt x 262.9825pt>
+<./solutions/1/13/Assignment_7_Plot.png, id=480, 396.48125pt x 262.9825pt>
 File: ./solutions/1/13/Assignment_7_Plot.png Graphic file (type png)
 <use ./solutions/1/13/Assignment_7_Plot.png>
 Package pdftex.def Info: ./solutions/1/13/Assignment_7_Plot.png  used on input 
@@ -2181,7 +2181,7 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 51.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/1/14/graph7.png, id=501, 387.4475pt x 262.9825pt>
+<./solutions/1/14/graph7.png, id=506, 387.4475pt x 262.9825pt>
 File: ./solutions/1/14/graph7.png Graphic file (type png)
 <use ./solutions/1/14/graph7.png>
 Package pdftex.def Info: ./solutions/1/14/graph7.png  used on input line 65.
@@ -2190,7 +2190,7 @@ Package pdftex.def Info: ./solutions/1/14/graph7.png  used on input line 65.
 (./solutions/1/15/solution.tex [13 <./solutions/1/14/graph7.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/1/15/assignment_6.png, id=539, 387.4475pt x 262.9825pt>
+<./solutions/1/15/assignment_6.png, id=544, 387.4475pt x 262.9825pt>
 File: ./solutions/1/15/assignment_6.png Graphic file (type png)
 <use ./solutions/1/15/assignment_6.png>
 Package pdftex.def Info: ./solutions/1/15/assignment_6.png  used on input line 
@@ -2204,7 +2204,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-<./solutions/1/16/ellipse.png, id=604, 387.4475pt x 271.0125pt>
+<./solutions/1/16/ellipse.png, id=609, 387.4475pt x 271.0125pt>
 File: ./solutions/1/16/ellipse.png Graphic file (type png)
 <use ./solutions/1/16/ellipse.png>
 Package pdftex.def Info: ./solutions/1/16/ellipse.png  used on input line 67.
@@ -2216,7 +2216,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [16 <./solutions/1/16/ellipse.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/1/19/Figure_1.png, id=654, 462.528pt x 346.896pt>
+<./solutions/1/19/Figure_1.png, id=659, 462.528pt x 346.896pt>
 File: ./solutions/1/19/Figure_1.png Graphic file (type png)
 <use ./solutions/1/19/Figure_1.png>
 Package pdftex.def Info: ./solutions/1/19/Figure_1.png  used on input line 102.
@@ -2227,7 +2227,7 @@ Package pdftex.def Info: ./solutions/1/19/Figure_1.png  used on input line 102.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./solutions/1/19/Figure_1.png>]
-<./solutions/1/20/Figure_1.png, id=680, 462.528pt x 346.896pt>
+<./solutions/1/20/Figure_1.png, id=685, 462.528pt x 346.896pt>
 File: ./solutions/1/20/Figure_1.png Graphic file (type png)
 <use ./solutions/1/20/Figure_1.png>
 Package pdftex.def Info: ./solutions/1/20/Figure_1.png  used on input line 51.
@@ -2511,44 +2511,306 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [44]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [45]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
+))
+(./chapters/lp_exer.tex
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 37--41
+[]\OT1/txr/m/n/12 Maximise Z=5x+3y sub-ject to 3x+5y$\OMS/txsy/m/n/12 ^^T$\OT1/
+txr/m/n/12 15,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 43--45
+[]\OT1/txr/m/n/12 Maximise Z=3x+2y sub-ject to x+2y$\OMS/txsy/m/n/12 ^^T$\OT1/t
+xr/m/n/12 10,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+[]\OT1/txr/m/n/12 Minimise Z=x+2y sub-ject to 2x+y$\OMS/txsy/m/n/12 ^^U$\OT1/tx
+r/m/n/12 3,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
+
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 61--65
+[]\OT1/txr/m/n/12 One kind of cake re-quires 200g of flour
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 61--65
+\OT1/txr/m/n/12 re-quires 100g of flour and 50g of fat.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--65
+
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 65--74
+\OT1/txr/m/n/12 bats. A ten-nis racket takes 1.5 hours of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--90
+
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 90--99
+[]\OT1/txr/m/n/12 A cot-tage in-dus-try man-u-fac-tures pedestal
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 90--99
+\OT1/txr/m/n/12 lamps and wooden shades, each re-quir-ing
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 90--99
+\OT1/txr/m/n/12 ma-chine and 3 hours on the sprayer to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--106
+
+ []
+
+[46]
+Underfull \hbox (badness 5681) in paragraph at lines 106--112
+\OT1/txr/m/n/12 re-spec-tively. He es-ti-mates that the to-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--119
+
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 119--125
+\OT1/txr/m/n/12 con-di-tions, a farmer finds that she needs
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 119--125
+\OT1/txr/m/n/12 atleast 14 kg of ni-tro-gen and 14 kg of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--125
+
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 125--134
+[]\OT1/txr/m/n/12 The cor-ner points of the fea-si-ble re-gion
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 125--134
+\OT1/txr/m/n/12 (0,0), (5,0),(3,4) and (0,5).Let Z=px+qy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--145
+
+ []
+
+
+Overfull \hbox (6.70403pt too wide) in paragraph at lines 145--161
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Underfull \hbox (badness 1371) in paragraph at lines 183--189
+\OT1/txr/m/n/12 The air-line re-serves at least 20 seats for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--189
+
+ []
+
+
+Overfull \hbox (14.924pt too wide) in paragraph at lines 189--207
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--233
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--261
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \hbox (badness 10000) in paragraph at lines 301--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--316
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [49]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
 
 (./gvv_linalg_exer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
 Package rerunfilecheck Info: File `gvv_linalg_exer.out' has not changed.
-(rerunfilecheck)             Checksum: 15160F22AAF37BC20C84FB2B347C07CD;155.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
+(rerunfilecheck)             Checksum: 11C586CCADDF94F24AB142B30F48ED16;208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
  ) 
 Here is how much of TeX's memory you used:
- 44049 strings out of 480608
- 1019585 string characters out of 5892806
+ 44118 strings out of 480608
+ 1020211 string characters out of 5892806
  1413543 words of memory out of 5000000
- 57725 multiletter control sequences out of 15000+600000
+ 57727 multiletter control sequences out of 15000+600000
  628329 words of font info for 236 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,24n,91p,738b,877s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
-public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/texmf-d
-ist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/share/
-texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/data/com.termux/
-files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></data/d
+public/txfonts/rtxb.pfb></data/data/com.termux/files/usr/share/texlive/texmf-di
+st/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/
+texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/f
+iles/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/d
 ata/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
-sy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/txfonts/txsya.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/txsyc.pfb></data/data/com.termux/files/usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com
-.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></d
-ata/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on gvv_linalg_exer.pdf (45 pages, 1160914 bytes).
+ex.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist
+/fonts/type1/public/txfonts/txsya.pfb></data/data/com.termux/files/usr/share/te
+xlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></data/data/com.termux/fi
+les/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/c
+om.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
+</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on gvv_linalg_exer.pdf (49 pages, 1182202 bytes).
 PDF statistics:
- 2067 PDF objects out of 2073 (max. 8388607)
- 1886 compressed objects within 19 object streams
- 1213 named destinations out of 1440 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2165 PDF objects out of 2487 (max. 8388607)
+ 1978 compressed objects within 20 object streams
+ 1277 named destinations out of 1440 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

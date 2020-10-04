@@ -32,24 +32,16 @@
 
 
 #cd /storage/emulated/0/tlc/school/ncert/linman
-#python codes/asymp/hyper_asymp.py
 #tex2pdf.sh gvv_linalg_manual
+#python codes/asymp/hyper_asymp.py
+#find . -type f -name  *.eps -delete
 
 #python codes/line/skew_svd.py
 #python codes/line/skew_svd.py
 
-#svn co https://github.com/pranaya14014/EE5609/trunk/Assignment6 
 
 
-#svn co https://github.com/Matish007/Matrix-Theory-EE5609-/trunk/Assignment_7 
-
-#svn co https://github.com/utkarshsurwade/Matrix_Theory_EE5609/trunk/Assignment6 
-
-
-
-#svn co https://github.com/abhishekt711/EE5609/trunk/Assignment_4 
-
-#svn co https://github.com/shivangi-975/EE5609-Matrix_Theory/trunk/Assignment8 /storage/emulated/0/tlc/school/ncert/linexer/solutions/3/8
+#svn co https://github.com/abhishekt711/EE5600/trunk/Assignment_3 /storage/emulated/0/tlc/school/ncert/linexer/solutions/4/5
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
