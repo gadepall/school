@@ -1,5 +1,5 @@
 \renewcommand{\theequation}{\theenumi}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
 
 \item Solve
@@ -313,6 +313,13 @@ of food Q contains 3 units of calcium, 20 units of iron, 4 units of cholesterol 
 of vitamin A. The diet requires atleast 240 units of calcium, atleast 460 units of iron and
 at most 300 units of cholesterol. How many packets of each food should be used to
 minimise the amount of vitamin A in the diet? What is the minimum amount of vitamin A?\\
-
+\item Solve:
+\begin{align}
+    \max_{\{x\}} Z=\myvec{4 & 1}\vec{x}\label{eq:solutions/4/38/eq:1}\\
+    s.t\quad \myvec{1 & 1\\3 & 1} \leq \myvec{50\\90}\label{eq:solutions/4/38/eq:2}\\
+    \Vec{x}\geq 0 \label{eq:solutions/4/38/eq:3}
+\end{align}
+\solution
+\input{./solutions/4/38/solution.tex}
 \end{enumerate}
 %\end{document}

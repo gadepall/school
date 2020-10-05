@@ -39,16 +39,19 @@
 #python codes/line/skew_svd.py
 
 
-#svn co https://github.com/abhishekt711/EE5600/trunk/Assignment_3 /storage/emulated/0/tlc/school/ncert/linexer/solutions/4/5
+#svn co https://github.com/rubeenaafreen20/EE5600AI-ML/trunk/Assignment3 /storage/emulated/0/tlc/school/ncert/linexer/solutions/4/38
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
 
 #cd /storage/emulated/0/tlc/papers
 #cd /storage/emulated/0/tlc/phylayer/
-#cd /storage/emulated/0/tlc/college/
 #cd /storage/emulated/0/tlc/resources
 cd /storage/emulated/0/tlc/school/
+git add .
+git commit -m "Add existing files"
+git push origin
+cd /storage/emulated/0/tlc/college/
 git add .
 git commit -m "Add existing files"
 git push origin
@@ -78,7 +81,9 @@ git push origin
 #cd /storage/emulated/0/tlc/college/hoffman
 #tex2pdf.sh gvv_hoffman
 
-#git clone https://github.com/nprafulraj/EE5600-ASSIGNMENT-1 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/99
+
+#git clone https://github.com/EE20RESCH14003/Assignment1_part2_4 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/73
+#git clone https://github.com/nprafulraj/EE5600-ASSIGNMENT-1 
  
 #tex2pdf.sh gvv_ncert_linalg
 
