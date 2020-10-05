@@ -142,6 +142,7 @@ columns=fullflexible
 \newcommand{\cmyvec}[1]{\ensuremath{\begin{pmatrix*}[c]#1\end{pmatrix*}}}
 \newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
 \newcommand{\proj}[2]{\textbf{proj}_{\vec{#1}}\vec{#2}}
+\newcommand\hlight[1]{\tikz[overlay, remember picture,baseline=-\the\dimexpr\fontdimen22\textfont2\relax]\node[rectangle,fill=blue!50,rounded corners,fill opacity = 0.2,draw,thick,text opacity =1] {$#1$};}
 %\numberwithin{equation}{section}
 \numberwithin{equation}{subsection}
 %\numberwithin{problem}{section}
@@ -298,6 +299,8 @@ The content and exercises are based on  NCERT textbooks from Class 6-12.
 \input{./chapters/svd.tex}
 \section{Linear Programming}
 \input{./chapters/lp_exer.tex}
+\section{Gradient Descent}
+\input{./chapters/grad_des.tex}
 
 \end{document}
 

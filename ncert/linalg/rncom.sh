@@ -39,7 +39,6 @@
 #python codes/line/skew_svd.py
 
 
-
 #svn co https://github.com/abhishekt711/EE5600/trunk/Assignment_3 /storage/emulated/0/tlc/school/ncert/linexer/solutions/4/5
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
@@ -72,12 +71,14 @@ git push origin
 #git clone https://github.com/cs19resch11004/EE5600/  
 
 
-#git clone https://github.com/ankuraditya13/EE5609-Assignment9 /storage/emulated/0/tlc/college/hoffman/solutions/1/2/4
+#git clone https://github.com/ankuraditya13/EE5609-Assignment9 
+
+#svn co https://github.com/Arko98/EE5609/trunk/Assignment_12 /storage/emulated/0/tlc/college/hoffman/solutions/1/2/8
 
 #cd /storage/emulated/0/tlc/college/hoffman
 #tex2pdf.sh gvv_hoffman
 
-#git clone https://github.com/Shweta-SV/Assignment-3 /storage/emulated/0/tlc/school/ncert/linalg/solutions/det/56
+#git clone https://github.com/nprafulraj/EE5600-ASSIGNMENT-1 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/99
  
 #tex2pdf.sh gvv_ncert_linalg
 
