@@ -82,8 +82,8 @@ git push origin
 #tex2pdf.sh gvv_hoffman
 
 
-#git clone https://github.com/EE20RESCH14003/Assignment1_part2_4 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/73
-#git clone https://github.com/nprafulraj/EE5600-ASSIGNMENT-1 
+
+#git clone https://github.com/EE20RESCH14003/Assignmnet-1-part2-_5 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/73
  
 #tex2pdf.sh gvv_ncert_linalg
 
