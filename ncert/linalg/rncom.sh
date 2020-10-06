@@ -6,8 +6,7 @@
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
 
-#svn co https://github.com/pranaya14014/EE5609/trunk/Assignment5 /storage/emulated/0/tlc/school/rams/solutions/3/4/11
-
+#svn co https://github.com/Sairam13001/AI5006/trunk/Assignment_5 /storage/emulated/0/tlc/school/rams/solutions/4/2/3
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
@@ -23,8 +22,7 @@
 #tex2pdf.sh gvv_ugc_linalg
 
 
-
-#svn co https://github.com/saurabh13002/EE5609/trunk/Assignment3_1 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/42
+#git clone https://github.com/JayatiD93/EE5609_Assignment_5 /storage/emulated/0/tlc/school/ncert/geolin/solutions/1/33
 
 #cd /storage/emulated/0/tlc/school/ncert/geolin
 #tex2pdf.sh gvv_ncert_geolin
@@ -39,7 +37,7 @@
 #python codes/line/skew_svd.py
 
 
-#svn co https://github.com/rubeenaafreen20/EE5600AI-ML/trunk/Assignment3 /storage/emulated/0/tlc/school/ncert/linexer/solutions/4/38
+#svn co https://github.com/utkarshsurwade/Matrix_Theory_EE5609/trunk/Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/34
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -71,19 +69,18 @@ git push origin
 #git clone https://github.com/gadepall/aiml  /storage/emulated/0/tlc/aiml
 
 
-#git clone https://github.com/cs19resch11004/EE5600/  
 
 
-#git clone https://github.com/ankuraditya13/EE5609-Assignment9 
+#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment13_Matrix_Theory /storage/emulated/0/tlc/college/hoffman/solutions/1/3/5
 
-#svn co https://github.com/Arko98/EE5609/trunk/Assignment_12 /storage/emulated/0/tlc/college/hoffman/solutions/1/2/8
 
 #cd /storage/emulated/0/tlc/college/hoffman
 #tex2pdf.sh gvv_hoffman
 
 
 
-#git clone https://github.com/EE20RESCH14003/Assignmnet-1-part2-_5 /storage/emulated/0/tlc/school/ncert/linalg/solutions/matrix/73
+
+#svn co https://github.com/vishalashok98/AI5006/trunk/Assignment1 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/101
  
 #tex2pdf.sh gvv_ncert_linalg
 
