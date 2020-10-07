@@ -49,10 +49,10 @@ cd /storage/emulated/0/tlc/school/
 git add .
 git commit -m "Add existing files"
 git push origin
-cd /storage/emulated/0/tlc/college/
-git add .
-git commit -m "Add existing files"
-git push origin
+#cd /storage/emulated/0/tlc/college/
+#git add .
+#git commit -m "Add existing files"
+#git push origin
 #
 #cd /storage/emulated/0/tlc/phylayer/
 #tex2pdf.sh gvv_phydes
@@ -77,8 +77,7 @@ git push origin
 
 
 
-
-#svn co https://github.com/vishalashok98/AI5006/trunk/Assignment1 /storage/emulated/0/tlc/school/ncert/linalg/solutions/line_plane/101
+#svn co https://github.com/vishalashok98/AI5006/trunk/Assignment_2 /storage/emulated/0/tlc/school/ncert/linalg/solutions/det/77
  
 #tex2pdf.sh gvv_ncert_linalg
 
