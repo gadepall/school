@@ -1,0 +1,127 @@
+Let orthogonal vectors be $\vec{m_1}$ and $\vec{m_2}$ to the given normal vector $\vec{n}$. Let, $\vec{m}$ = $\myvec{a\\b\\c}$, then
+\begin{align}
+\vec{m^T}\vec{n} = 0\\
+\myvec{a&b&c}\myvec{2\\-3\\1} = 0\\
+\implies-5a+b+3c = 0
+\end{align}
+Let a=1 and b=0 we get,
+\begin{align}
+\vec{m_1} = \myvec{1\\0\\-2} \label{eq:solutions/4/45/2/3/eq:1}
+\end{align}
+Let a=0 and b=1 we get,
+\begin{align}
+\vec{m_2} = \myvec{0\\1\\3} \label{eq:solutions/4/45/2/3/eq:2}
+\end{align}
+From \eqref{eq:solutions/4/45/2/3/eq:1} and \eqref{eq:solutions/4/45/2/3/eq:2},
+\begin{align}
+\vec{M}= \myvec{1&0\\0&1\\-2&3} \label{eq:solutions/4/45/2/3/eq:3}
+\end{align}
+Now solving the equation
+\begin{align}
+\vec{M}\vec{x} = \vec{b}\label{eq:solutions/4/45/2/3/eq:4}
+\end{align}
+Substituting the given point and \eqref{eq:solutions/4/45/2/3/eq:3} in \eqref{eq:solutions/4/45/2/3/eq:4}
+\begin{align}
+\myvec{1&0\\0&1\\-2&3}\vec{x}=\myvec{-5\\1\\3}\label{eq:solutions/4/45/2/3/eq:5}
+\end{align}
+Using the Singular value decomposition to solve \eqref{eq:solutions/4/45/2/3/eq:5} as follows,
+\begin{align}
+\vec{M}=\vec{U}\vec{\Sigma}\vec{V}^T\label{eq:solutions/4/45/2/3/eq:6}
+\end{align}
+Where the columns of $\vec{V}$ are the eigen vectors of $\vec{M}^T\vec{M}$ ,the columns of $\vec{U}$ are the eigen vectors of $\vec{M}\vec{M}^T$ and $\vec{\Sigma}$ is diagonal matrix of singular value of eigenvalues of $\vec{M}^T\vec{M}$.
+\begin{align}
+\vec{M}^T\vec{M}=\myvec{5&-6\\-6&10}\label{eq:solutions/4/45/2/3/eq:7}\\
+\vec{M}\vec{M}^T =\myvec{1&0&-2\\0&1&3\\-2&3&13}
+\end{align}
+Substituting \eqref{eq:solutions/4/45/2/3/eq:6} in \eqref{eq:solutions/4/45/2/3/eq:4}
+\begin{align}
+\vec{U}\vec{\Sigma}\vec{V}^T\vec{x} = \vec{b}\\
+\vec{x} = \vec{V}\vec{\Sigma^{-1}}\vec{U^T}\vec{b}\label{eq:solutions/4/45/2/3/eq:8}
+\end{align}
+where $\vec{\Sigma^{-1}}$ is Moore-Penrose Pseudo-Inverse of $\vec{\Sigma}$.\\ Now finding the eigen values of $\vec{M}\vec{M}^T$
+\begin{align}
+\mydet{\vec{M}\vec{M}^T - \lambda\vec{I}} = 0
+\end{align}
+\begin{align}
+\mydet{1-\lambda&0&-2\\0&1-\lambda&3\\-2&3&13-\lambda}=0\\
+\implies \lambda^3-15\lambda^2+14\lambda=0
+\end{align}
+Hence eigen values of $\vec{M}\vec{M}^T$,
+\begin{align}
+\lambda_1 = 1 \quad \lambda_2 =14 \quad \lambda_3=0
+\end{align}
+Therefore eigen vectors of $\vec{M}\vec{M}^T$,
+\begin{align}
+\vec{u_1}=\myvec{\frac{3}{2}\\1\\0} \quad
+\vec{u_2}=\myvec{\frac{-2}{13}\\\frac{3}{13}\\1} \quad
+\vec{u_3}=\myvec{2\\-3\\1}
+\end{align}
+Normalizing the eigen vectors,
+\begin{align}
+\vec{u_1}=\myvec{\frac{3}{\sqrt{13}}\\\frac{2}{\sqrt{13}}\\0}\quad
+\vec{u_2}=\myvec{\frac{-2}{\sqrt{182}}\\\frac{3}{\sqrt{182}}\\\frac{13}{\sqrt{182}}}\quad
+\vec{u_3}=\myvec{\frac{2}{\sqrt{14}}\\\frac{-3}{\sqrt{14}}\\\frac{1}{\sqrt{14}}}
+\end{align}
+Hence from the above we get,
+\begin{align}
+\vec{U}=\myvec{\frac{3}{\sqrt{13}}&\frac{-2}{\sqrt{182}}&\frac{2}{\sqrt{14}}\\\frac{2}{\sqrt{13}}&\frac{3}{\sqrt{182}}&\frac{-3}{\sqrt{14}}\\0&\frac{13}{\sqrt{182}}&\frac{1}{\sqrt{14}}}\label{eq:solutions/4/45/2/3/eq:9}
+\end{align}
+By computing the singular values from eigen values $\lambda_1, \lambda_2, \lambda_3$ we get $\vec{\Sigma}$ as,
+\begin{align}
+\vec{\Sigma} = \myvec{1&0\\0&14\\0&0}
+\end{align}
+Now calculating eigen values of $\vec{M}^T\vec{M}$
+\begin{align}
+\mydet{\vec{M}^T\vec{M}-\lambda I}=0\\
+\mydet{5-\lambda&-6\\-6&10-\lambda}=0\\
+\implies\lambda^2-15\lambda+14 =0
+\end{align}
+hence the eigen values of $\vec{M}^T\vec{M}$
+\begin{align}
+\lambda_1 = 1 \quad \lambda_2 =14
+\end{align}
+Therefore eigen vectors $\vec{M}^T\vec{M}$ are,
+\begin{align}
+\vec{v_1}=\myvec{\frac{3}{2}\\1}\quad \vec{v_2}=\myvec{\frac{-2}{3}\\1}
+\end{align}
+Normalizing the eigen vectors,
+\begin{align}
+\vec{v_1}=\myvec{\frac{3}{\sqrt{13}}\\\frac{2}{\sqrt{13}}} \quad
+\vec{v_2}=\myvec{\frac{-2}{\sqrt{13}}\\\frac{3}{\sqrt{13}}}
+\end{align}
+Hence $\vec{V}$ is given as,
+\begin{align}
+\vec{V}= \myvec{\frac{3}{\sqrt{13}}&\frac{-2}{\sqrt{13}}\\\frac{2}{\sqrt{13}}&\frac{3}{\sqrt{13}}} \label{eq:solutions/4/45/2/3/eq:10}
+\end{align}
+Moore Pseudo inverse of $\Sigma$ is,
+\begin{align}
+\vec{\Sigma^{-1}} = \myvec{1&0&0\\0&\frac{1}{\sqrt{14}}&0} \label{eq:solutions/4/45/2/3/eq:11}
+\end{align}
+Substituting \eqref{eq:solutions/4/45/2/3/eq:9}, \eqref{eq:solutions/4/45/2/3/eq:10} and \eqref{eq:solutions/4/45/2/3/eq:11} in \eqref{eq:solutions/4/45/2/3/eq:8},
+\begin{align}
+\vec{U}^T\vec{b}=\myvec{\frac{3}{\sqrt{13}}&\frac{2}{\sqrt{13}}&0\\\frac{-2}{\sqrt{182}}&\frac{3}{\sqrt{182}}&\frac{13}{\sqrt{182}}\\\frac{2}{\sqrt{14}}&\frac{-3}{\sqrt{14}}&\frac{1}{\sqrt{14}}}\myvec{-5\\1\\3} = \myvec{\frac{-13}{\sqrt{13}}\\\frac{52}{\sqrt{182}}\\\frac{-10}{\sqrt{1}}}\\
+\vec{\Sigma^{-1}}\vec{U}^T\vec{b}=\myvec{1&0&0\\0&\frac{1}{\sqrt{14}}&0}\myvec{\frac{-13}{\sqrt{13}}\\\frac{52}{\sqrt{182}}\\\frac{-10}{\sqrt{14}}}=\myvec{\frac{-13}{\sqrt{13}}\\\frac{26}{7\sqrt{13}}}\\
+\vec{V}\vec{\Sigma^{-1}}\vec{U}^T\vec{b}=\myvec{\frac{3}{\sqrt{13}}&\frac{-2}{\sqrt{13}}\\\frac{2}{\sqrt{13}}&\frac{3}{\sqrt{13}}}\myvec{\frac{-13}{\sqrt{13}}\\\frac{26}{7\sqrt{13}}}=\myvec{\frac{-25}{7}\\\frac{-8}{7}}\\
+\implies\vec{x}=\myvec{\frac{-25}{7}\\\frac{-8}{7}}\label{eq:solutions/4/45/2/3/eq:12}
+\end{align}
+Now verifying \eqref{eq:solutions/4/45/2/3/eq:12} using \eqref{eq:solutions/4/45/2/3/eq:4}
+\begin{align}
+\vec{M}\vec{x}=\vec{b}
+\implies\vec{M}^T\vec{M}\vec{x} = \vec{M}^T\vec{b}\label{eq:solutions/4/45/2/3/eq:13}
+\end{align}
+Substituting \eqref{eq:solutions/4/45/2/3/eq:3}, \eqref{eq:solutions/4/45/2/3/eq:7} and given point in \eqref{eq:solutions/4/45/2/3/eq:13}
+\begin{align}
+\myvec{5&-6\\-6&10}\vec{x} = \myvec{-11\\10}\\
+\end{align}
+Solving the augmented matrix.
+\begin{align}
+\myvec{5&-6&-11\\-6&10&10}\xleftrightarrow{R_1=\frac{R_1}{5}}\myvec{1&\frac{-6}{5}&\frac{-11}{5}\\-6&10&10}\\
+\xleftrightarrow{R_2=R_2+6R_1}\myvec{1&\frac{-6}{5}&\frac{-11}{5}\\0&\frac{14}{5}&\frac{-16}{5}}\\
+\xleftrightarrow{R_2=\frac{5R_2}{14}}\myvec{1&\frac{-6}{5}&\frac{-11}{5}\\0&1&\frac{-8}{7}}\\
+\xleftrightarrow{R_1=R_1+\frac{6R_2}{5}}\myvec{1&0&\frac{-25}{7}\\0&1&\frac{-8}{7}}\label{eq:solutions/4/45/2/3/eq:14}
+\end{align}
+From \eqref{eq:solutions/4/45/2/3/eq:14} we get,
+\begin{align}
+\vec{x}=\myvec{\frac{-25}{7}\\\frac{-8}{7}}\label{eq:solutions/4/45/2/3/eq:15}
+\end{align}
+Hence from \eqref{eq:solutions/4/45/2/3/eq:12} and \eqref{eq:solutions/4/45/2/3/eq:15} the $\vec{x}$ is verified

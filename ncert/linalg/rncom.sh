@@ -53,7 +53,7 @@ cd /storage/emulated/0/tlc/college/
 git add .
 git commit -m "Add existing files"
 git push origin
-
+#
 #cd /storage/emulated/0/tlc/phylayer/
 #tex2pdf.sh gvv_phydes
 
@@ -70,9 +70,7 @@ git push origin
 
 
 
-
-#svn co https://github.com/venkateshelangovan/IIT-Hyderabad-Assignments/trunk/Assignment13_Matrix_Theory /storage/emulated/0/tlc/college/hoffman/solutions/1/3/5
-
+#svn co https://github.com/Adarsh1310/EE5609/trunk/Assignment_12  /storage/emulated/0/tlc/college/hoffman/solutions/1/2/10
 
 #cd /storage/emulated/0/tlc/college/hoffman
 #tex2pdf.sh gvv_hoffman
@@ -94,11 +92,13 @@ git push origin
 #cd /storage/emulated/0/tlc/papers
 #git clone https://github.com/gadepall/papers
 
-#svn co https://github.com/EE20MTECH14019/EE5609/trunk/Assignment_6 
 
-#git clone https://github.com/ankuraditya13/EE5609-Assignment8 /
 
-#svn co https://github.com/ayushkesh/Matrix-Theory-EE5609/trunk/A9 /storage/emulated/0/tlc/school/dresden/solutions/4/45/2/2
+#svn co https://github.com/pranaya14014/EE5609/trunk/Assignment7 /storage/emulated/0/tlc/school/dresden/solutions/4/45/2/3
 
 #cd /storage/emulated/0/tlc/school/dresden
 #tex2pdf.sh gvv_dresden
+
+#cd /storage/emulated/0/tlc/school/ncert/probman
+#python codes/uniform/rect.py
+#wtex2pdf.sh gvv_ncert_probman
