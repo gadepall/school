@@ -5,15 +5,14 @@
 #git clone https://github.com/saurabh13002/EE5609 solutions/point_vector/18
 #svn co https://github.com/sahilsin/MatrixTheory/trunk/Assignment1 solutions/complex/11
 
+#git clone https://github.com/Atul191/Assignment-4 /storage/emulated/0/tlc/school/rams/solutions/4/2/5
 
-#svn co https://github.com/Sairam13001/AI5006/trunk/Assignment_5 /storage/emulated/0/tlc/school/rams/solutions/4/2/3
 
 #cd /storage/emulated/0/tlc/school/rams/
 #tex2pdf.sh gvv_ramsey
 
 
-#svn co https://github.com/pavanmanesh/EE5609/trunk/Assignment5 /storage/emulated/0/tlc/school/loney/solutions/40/ex
-
+#git clone https://github.com/JayatiD93/EE5609_Assignment_6 /storage/emulated/0/tlc/school/loney/solutions/40/9
 
 #cd /storage/emulated/0/tlc/school/loney/
 #tex2pdf.sh gvv_loney_coord
@@ -37,7 +36,7 @@
 #python codes/line/skew_svd.py
 
 
-#svn co https://github.com/utkarshsurwade/Matrix_Theory_EE5609/trunk/Assignment7 /storage/emulated/0/tlc/school/ncert/linexer/solutions/2/34
+#svn co https://github.com/rsgirishkumar/EE5600/trunk/Assignment4 /storage/emulated/0/tlc/school/ncert/linexer/solutions/4/8
 
 #cd /storage/emulated/0/tlc/school/ncert/linexer
 #tex2pdf.sh gvv_linalg_exer
@@ -91,9 +90,8 @@ git push origin
 #cd /storage/emulated/0/tlc/papers
 #git clone https://github.com/gadepall/papers
 
+#svn co https://github.com/Shantanu2508/Matrix_Theory/trunk/Assignment_8 /storage/emulated/0/tlc/school/dresden/solutions/4/45/1/2
 
-
-#svn co https://github.com/pranaya14014/EE5609/trunk/Assignment7 /storage/emulated/0/tlc/school/dresden/solutions/4/45/2/3
 
 #cd /storage/emulated/0/tlc/school/dresden
 #tex2pdf.sh gvv_dresden

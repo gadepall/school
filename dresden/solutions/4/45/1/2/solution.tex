@@ -1,0 +1,217 @@
+Let us consider orthogonal vectors $\vec{m}_1$ and $\vec{m}_2$ to the given
+normal vector $\vec{n}$. Let $\vec{m} = \myvec{a\\ b\\ c}$.
+
+Then, 
+\begin{align}
+	\vec{m}^T\vec{n} = 0 \\
+	\implies \quad \myvec{a & b & c}\myvec{2\\ 3\\-4} = 0   \label{eq:solutions/4/45/1/2/mTn} \\
+	\implies \quad 2a + 3b -4c = 0 
+\end{align}
+Let $a=1$, \ $b=0$, so that
+\begin{align}
+	\vec{m}_1 = \myvec{1 \\ 0 \\ \frac{1}{2}} 
+\end{align}
+and $a=0$, \ $b=1$, so that
+\begin{align}
+	\vec{m}_2 = \myvec{0 \\ 1 \\ \frac{3}{4}} 
+\end{align}
+We, now, solve the equation
+\begin{align}
+	\vec{M}\vec{x} = \vec{b} 	\label{eq:solutions/4/45/1/2/matrixeq}
+\end{align}
+which, upon substitution, becomes
+\begin{align}
+\myvec{1 & 0\\ 0 & 1 \\ \frac{1}{2} & \frac{3}{4}}\vec{x}=\myvec{3 \\ -2 \\ 0} 
+\end{align}
+	Any $m\times n$ matrix $\vec{M}$ can be factorized in SVD form as
+\begin{align}
+	\vec{M} = \vec{U}\vec{S}\vec{V}^T	\label{eq:solutions/4/45/1/2/svd}
+\end{align}
+where $\vec{U}$ and $\vec{V}$ are matrices of eigen vectors which are orthogonal. Columns of $\vec{V}$ are the eigen vectors of $\vec{M}^T\vec{M}$,columns of $\vec{U}$ are the eigen vectors of $\vec{M}\vec{M}^T$ and $\vec{S}$ is the diagonal matrix of singular values of $\vec{M}$ of the eigenvalues of $\vec{M}^T\vec{M}$.
+\begin{align}
+	\vec{M}^T\vec{M} = 
+	\myvec{\frac{10}{8} & \frac{3}{8} \\ \frac{3}{8} & \frac{25}{16} }
+\end{align}
+Putting (\ref{eq:solutions/4/45/1/2/svd}) into (\ref{eq:solutions/4/45/1/2/matrixeq}), we get
+\begin{align}
+	\vec{U}\vec{S} \vec{V}^T\vec{x} = \vec{b} \\
+    \implies \qquad \vec{x} = \vec{V}\vec{S}_{+}\vec{U}^T\vec{b} \label{eq:solutions/4/45/1/2/calcx}
+\end{align}
+where \ $\vec{S}_{+}$ is the Moore-Penrose Pseudoinverse of $\vec{S}$.
+
+The eigenvalues of $\vec{M}^T\vec{M}$:
+\begin{align}
+	\mydet{\vec{M}^T\vec{M}-\lambda \vec{I}} = 0 \\
+	\implies \quad
+	\mydet{\frac{10}{8}-\lambda & \frac{3}{8} \\ \frac{3}{8} & \frac{25}{16}-\lambda } = 0 \\
+	\implies \quad
+	\lambda^2 - \frac{45}{16}\lambda + \frac{116}{64} = 0
+\end{align}
+	So, the eigenvalues are 
+\begin{align}
+	\lambda_1 = \frac{29}{16}	\\
+	\lambda_2 = 1
+\end{align}
+For $\lambda_1 = \frac{29}{16}$, the eigen vector $\vec{v_1}$ can be calculated using row reduction as :
+\begin{align}
+	\myvec{-\frac{9}{16} & \frac{3}{8} \\ \frac{3}{8} & -\frac{4}{16}} 
+	\xleftrightarrow[]{R_1 \leftarrow - \frac{16}{9}R_1}
+	\myvec{1 & -\frac{2}{3} \\ \frac{3}{8} & -\frac{4}{16}} \\
+	\xleftrightarrow[]{R_2 \leftarrow R_2-R_1}
+	\myvec{1 & -\frac{2}{3} \\ 0 & 0} 
+\end{align}
+Hence, 
+\begin{align}
+	\vec{v_1}= \myvec{\frac{2}{\sqrt{13}} \\ \frac{3}{\sqrt{13}}}
+\end{align}
+Similarly, for $\lambda_2=1$, 
+\begin{align}
+	\vec{v_2}= \myvec{-\frac{3}{\sqrt{13}} \\ \frac{2}{\sqrt{13}}}
+\end{align}
+Thus, 
+\begin{align}
+	\vec{V}= \myvec{\frac{2}{\sqrt{13}} & -\frac{3}{\sqrt{13}} \\
+		\frac{3}{\sqrt{13}} & \frac{2}{\sqrt{13}} }
+\end{align}
+Now, 
+\begin{align}
+	\vec{M}\vec{M}^T = 
+	\myvec{1 & 0 & \frac{1}{2} \\ 0 & 1 & \frac{3}{4} \\
+		\frac{1}{2} & \frac{3}{4} & \frac{13}{16} }
+\end{align}
+Now, calculating eigenvalues of $\vec{M}\vec{M}^T$
+\begin{align}
+	\mydet{1-\lambda & 0 & \frac{1}{2} \\ 0 & 1-\lambda & \frac{3}{4} \\
+		\frac{1}{2} & \frac{3}{4} & \frac{13}{16}-\lambda } = 0  
+\end{align}
+	So, the eigenvalues are 
+\begin{align}
+	\lambda_1 = \frac{29}{16}	\\
+	\lambda_2 = 1	\\
+	\lambda_3 = 0
+\end{align}
+For $\lambda_1 = \frac{29}{16}$, the eigen vector can be computed as:
+\begin{align}
+	\myvec{1-\frac{29}{16} & 0 & \frac{1}{2} \\
+	 0 & 1 - \frac{29}{16} & \frac{3}{4} \\
+	\frac{1}{2} & \frac{3}{4} & \frac{13}{16}-\frac{29}{16} }  \\
+	\xleftrightarrow[]{}
+	\myvec{-\frac{13}{16} & 0 & \frac{1}{2}\\ 
+	0 & -\frac{13}{16} & \frac{3}{4} \\
+	\frac{1}{2} & \frac{3}{4} & -1} \\
+	\xleftrightarrow[]{R_1 \leftarrow - \frac{16}{13}R_1}
+	\myvec{1 & 0 & -\frac{8}{3} \\ 0 & -\frac{13}{16} & \frac{3}{4} \\
+	\frac{1}{2} & \frac{3}{4} & -1} \\
+	\xleftrightarrow[]{R_3 \leftarrow R_3-\frac{1}{2}R_1}
+	\myvec{1 & 0 & -\frac{8}{3} \\ 0 & -\frac{13}{16} & \frac{3}{4} \\
+	0 & \frac{3}{4} & -\frac{9}{13} } \\
+	\xleftrightarrow[]{R_2 \leftarrow -\frac{16}{13}R_2}
+	\myvec{1 & 0 & -\frac{8}{3} \\ 0 & 1 & -\frac{12}{13} \\
+	0 & \frac{3}{4} & -\frac{9}{13} } 
+\end{align}
+\begin{align}
+	\xleftrightarrow[]{R_2 \leftarrow R_3-\frac{3}{4}R_2}
+	\myvec{1 & 0 & -\frac{8}{3} \\ 0 & 1 & -\frac{12}{13} \\
+	0 & 0 & 0 }
+\end{align}
+Hence, the eigen vector $\vec{u}_1$:
+\begin{align}
+	\vec{u_1}= \myvec{\frac{8}{\sqrt{377}} \\ \frac{12}{\sqrt{377}} \\
+	\frac{13}{\sqrt{377}} }
+\end{align}
+For $\lambda_2=1$, the eigen vector is:
+\begin{align}
+	\myvec{1-1 & 0 & \frac{1}{2} \\ 0 & 1-1 & \frac{3}{4} \\
+	\frac{1}{2} & \frac{3}{4} & \frac{13}{16}-1 }  \\
+	\xleftrightarrow[]{}
+	\myvec{0 & 0 & \frac{1}{2} \\ 0 & 0 & \frac{3}{4} \\
+	\frac{1}{2} & \frac{3}{4} & -\frac{3}{16} }  
+\end{align}
+Hence, the eigen vector $\vec{u}_2$:
+\begin{align}
+	\vec{u_2}= \myvec{\frac{3}{\sqrt{13}} \\ -\frac{2}{\sqrt{13}} \\ 0 }
+\end{align}
+Similarly, for $\lambda_3=0$, the eigen vector is:
+\begin{align}
+	\myvec{1 & 0 & \frac{1}{2} \\ 0 & 1 & \frac{3}{4} \\
+	\frac{1}{2} & \frac{3}{4} & \frac{13}{16} }  \\
+	\xleftrightarrow[]{R_3 \leftarrow R_3-\frac{1}{2}R_1-\frac{3}{4}R_2}
+	\myvec{0 & 0 & \frac{1}{2} \\ 0 & 0 & \frac{3}{4} \\
+	0	& 	0	&	0 } 
+\end{align}
+Hence, the eigen vector $\vec{u}_3$:
+\begin{align}
+	\vec{u_3}= \myvec{\frac{2}{\sqrt{29}} \\ \frac{3}{\sqrt{29}} \\ 
+	-\frac{4}{\sqrt{29}} }
+\end{align}
+So, the orthonormal matrix $\vec{U}$ of eigen vectors is:
+\begin{align}
+   \vec{U}= \myvec{
+	   \frac{8}{\sqrt{377}} & \frac{3}{\sqrt{13}} & \frac{2}{\sqrt{29}}  \\ 
+	   \frac{12}{\sqrt{377}} & -\frac{2}{\sqrt{13}} & \frac{3}{\sqrt{29}}\\ 
+	   \frac{13}{\sqrt{377}} & 0 & -\frac{4}{\sqrt{29}} }
+\end{align}
+The matrix of singular values of $\vec{M}$ is: 
+\begin{align}
+   \vec{S}= \myvec{ \frac{\sqrt{29}}{4} & 0 & 0 \\
+	   0 & 1 & 0 \\ 0 & 0 & 0}
+\end{align}
+The Moore-Penrose pseudoinverse of $\vec{S}$ is computed as
+\begin{align}
+	\vec{S}_{+} &= (\vec{S}\vec{S}^T)^{-1}\vec{S}^T 	\\
+		&= \myvec{ \frac{4}{\sqrt{29}} & 0 & 0 \\ 0 & 1 & 0 }
+\end{align}
+To solve for $\vec{x}$ in (\ref{eq:solutions/4/45/1/2/calcx}), noting that $\vec{b}=\myvec{3 \\ -2 \\ 0}$, 
+\begin{align}
+\vec{U}^T\vec{b} = \myvec{
+	0 \\ \sqrt{13} \\ 0 } \\
+\vec{S}_{+}\vec{U}^T\vec{b} = \myvec{ 0 \\ \sqrt{13} }
+\end{align}
+Thus, the foot of perpendicular is:
+\begin{align}
+\vec{x} = \vec{V}\vec{S}_{+}\vec{U}^T\vec{b} 
+	&= \myvec{\frac{2}{\sqrt{13}} & -\frac{3}{\sqrt{13}} \\
+		\frac{3}{\sqrt{13}} & \frac{2}{\sqrt{13}} }
+	  \myvec{ 0 \\ \sqrt{13} }
+	\\
+	\implies \quad
+\vec{x} &= \myvec{ -3 \\ 2 }  	\label{eq:solutions/4/45/1/2/xeq}
+\end{align}
+
+The solution can be verified using
+\begin{align}
+	\vec{M}^T\vec{M}\vec{x} = \vec{M}^T\vec{b}
+\end{align}
+The LHS gives
+\begin{align}
+	& \vec{M}^T\vec{M}\vec{x} 
+	= \myvec{\frac{10}{8} & \frac{3}{8} \\ \frac{3}{8} & \frac{25}{16} }
+	\myvec{-3 \\ 2} \\
+	\implies
+	& \vec{M}^T\vec{M}\vec{x} = \myvec{-3 \\ 2} 
+\end{align}
+Now, finding $\vec{x}$ from 
+\begin{align}
+	\myvec{\frac{10}{8} & \frac{3}{8} \\ \frac{3}{8} & \frac{25}{16} }
+	\vec{x} = \myvec{-3 \\ 2} 
+\end{align}
+Solving the augmented matrix, we get
+\begin{align}
+     \myvec{\frac{10}{8} & \frac{3}{8} & -3 \\ \frac{3}{8} & \frac{25}{16} & 2}
+	\xleftrightarrow[]{R_1 \leftarrow -\frac{3}{10}R_1}
+     \myvec{1 & \frac{3}{10} &-\frac{24}{10} \\ \frac{3}{8} & \frac{25}{16} & 2}
+	\\
+	\xleftrightarrow[]{R_2 \leftarrow R_2-\frac{3}{8}R_1}
+	\myvec{1 & \frac{3}{10} &-\frac{24}{10} \\ 
+		0 & \frac{29}{20} & \frac{58}{20} }
+	\xleftrightarrow[]{R_2 \leftarrow \frac{20}{29}R_2} \myvec{1 & \frac{3}{10} &-\frac{24}{10} \\ 0 & 1 & 2 } \\
+	\xleftrightarrow[]{R_1 \leftarrow R_1-\frac{3}{10}R_2}
+	\myvec{1 & 0 & -3 \\ 0 & 1 & 2}
+\end{align}
+Hence, the solution is given by
+\begin{align}
+	\vec{x} = \myvec{ -3 \\ 2 } 	\label{eq:solutions/4/45/1/2/xverifyeq}
+\end{align}
+Comparing the results in Eq.(\ref{eq:solutions/4/45/1/2/xeq}) and (\ref{eq:solutions/4/45/1/2/xverifyeq}), it is
+concluded that the solution is verified.
+
