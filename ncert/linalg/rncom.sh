@@ -29,6 +29,7 @@
 
 #cd /storage/emulated/0/tlc/school/ncert/linman
 #tex2pdf.sh gvv_linalg_manual
+
 #python codes/asymp/hyper_asymp.py
 #find . -type f -name  *.eps -delete
 
