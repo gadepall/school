@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  9 OCT 2020 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  9 OCT 2020 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3129,11 +3129,35 @@ File: ./solutions/4/38/LPP.png Graphic file (type png)
 Package pdftex.def Info: ./solutions/4/38/LPP.png  used on input line 55.
 (pdftex.def)             Requested size: 252.0pt x 165.37334pt.
 ))
-(./chapters/opt/grad_des.tex) [63 <./solutions/4/38/LPP.png>]
+(./chapters/opt/grad_des.tex (./solutions/5/2/1/2/solution.tex
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]\OT1/txr/m/n/12 The lo-cal min-i-mum oc-curs at -
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 40--41
+[]\OT1/txr/m/n/12 The value of f(x) at min-ima is -
+ []
+
+<./solutions/5/2/1/2/Parabola.png, id=2347, 395.4775pt x 279.0425pt>
+File: ./solutions/5/2/1/2/Parabola.png Graphic file (type png)
+<use ./solutions/5/2/1/2/Parabola.png>
+Package pdftex.def Info: ./solutions/5/2/1/2/Parabola.png  used on input line 4
+6.
+(pdftex.def)             Requested size: 252.0pt x 177.80739pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./solutions/4/38/LPP.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [64 <./solutions/5/2/1/2/Parabola.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
-
-(./gvv_linalg_exer.aux)
+ (./gvv_linalg_exer.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `gvv_linalg_exer.out' has not changed.
@@ -3141,10 +3165,10 @@ Package rerunfilecheck Info: File `gvv_linalg_exer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 44716 strings out of 480608
- 1031727 string characters out of 5892806
- 1411711 words of memory out of 5000000
- 57920 multiletter control sequences out of 15000+600000
+ 44747 strings out of 480608
+ 1032345 string characters out of 5892806
+ 1411827 words of memory out of 5000000
+ 57928 multiletter control sequences out of 15000+600000
  628567 words of font info for 237 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,24n,91p,745b,1045s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3164,10 +3188,10 @@ om.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
 </data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on gvv_linalg_exer.pdf (63 pages, 1313732 bytes).
+Output written on gvv_linalg_exer.pdf (64 pages, 1328653 bytes).
 PDF statistics:
- 2752 PDF objects out of 2984 (max. 8388607)
- 2535 compressed objects within 26 object streams
- 1632 named destinations out of 1728 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2783 PDF objects out of 2984 (max. 8388607)
+ 2563 compressed objects within 26 object streams
+ 1651 named destinations out of 1728 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
