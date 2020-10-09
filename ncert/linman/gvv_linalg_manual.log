@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  8 OCT 2020 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  9 OCT 2020 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1944,7 +1944,7 @@ File: ot1txtt.fd 2000/12/15 v3.1
 pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
 /logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<iith_logo.pdf, id=123, 359.3425pt x 486.81876pt>
+<iith_logo.pdf, id=147, 359.3425pt x 486.81876pt>
 File: iith_logo.pdf Graphic file (type pdf)
 <use iith_logo.pdf>
 Package pdftex.def Info: iith_logo.pdf  used on input line 248.
@@ -1956,7 +1956,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 15.95987pt on input line 248.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 248.
-<tlc.pdf, id=124, 597.51233pt x 845.0471pt>
+<tlc.pdf, id=148, 597.51233pt x 845.0471pt>
 File: tlc.pdf Graphic file (type pdf)
 <use tlc.pdf>
 Package pdftex.def Info: tlc.pdf  used on input line 248.
@@ -2014,18 +2014,24 @@ ap/pdftex.map}
  </data/data/com.termux/files/home/texmf/tex/latex/logo/iith_logo.pdf> </data/d
 ata/com.termux/files/home/texmf/tex/latex/logo/tlc.pdf>]
 (./figs/constr/triangle/tri_polar.tex) (./figs/constr/triangle/tri_sss.tex)
+[2]) (./chapters/constr/quad.tex (./figs/constr/quad/pgm_sas.tex)
+(./figs/constr/quad/pgm_sss.tex) (./figs/constr/quad/rhom_sss.tex) [3]
+(./figs/constr/quad/square.tex)) (./chapters/quadforms/calculus.tex
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 46--50
+\OT1/txr/m/n/12 which, upon tak-ing the trans-pose, yields
+ []
+
+
+Underfull \vbox (badness 4899) has occurred while \output is active []
+
+ [4])
+(./chapters/linforms/ineq.tex) (./chapters/linforms/line.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2])
-(./chapters/constr/quad.tex (./figs/constr/quad/pgm_sas.tex)
-(./figs/constr/quad/pgm_sss.tex) (./figs/constr/quad/rhom_sss.tex)
-Underfull \vbox (badness 1442) has occurred while \output is active []
-
- [3]
-(./figs/constr/quad/square.tex)) (./chapters/linforms/line.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
+ [5]
 
 LaTeX Warning: File `./figs/line/line_points.eps' not found on input line 94.
 
@@ -2038,17 +2044,13 @@ df>
 s-converted-to.pdf ./figs/line/line_points.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/line/line_points-eps-converted-to.pdf, id=275, 462.52798pt x 346.89601p
+<./figs/line/line_points-eps-converted-to.pdf, id=346, 462.52798pt x 346.89601p
 t>
 File: ./figs/line/line_points-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/line/line_points-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/line/line_points-eps-converted-to.pdf  used on 
 input line 94.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Warning: File `./figs/line/line_slope.eps' not found on input line 124.
 
@@ -2061,7 +2063,7 @@ f>
 -converted-to.pdf ./figs/line/line_slope.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/line/line_slope-eps-converted-to.pdf, id=282, 462.52798pt x 346.89601pt
+<./figs/line/line_slope-eps-converted-to.pdf, id=353, 462.52798pt x 346.89601pt
 >
 File: ./figs/line/line_slope-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/line/line_slope-eps-converted-to.pdf>
@@ -2069,9 +2071,13 @@ Package pdftex.def Info: ./figs/line/line_slope-eps-converted-to.pdf  used on i
 nput line 124.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-Underfull \vbox (badness 1377) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./figs/line/line_points-eps-converted-to.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./figs/line/line_points-eps-converted-to.pdf> <./figs/line/line_slope-eps-
+converted-to.pdf>]
 
 LaTeX Warning: File `./figs/line/points_collinear.eps' not found on input line 
 175.
@@ -2085,7 +2091,7 @@ Package epstopdf Info: Source file: <./figs/line/points_collinear.eps>
 ar-eps-converted-to.pdf ./figs/line/points_collinear.eps>
 (epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/line/points_collinear-eps-converted-to.pdf, id=336, 462.52798pt x 346.8
+<./figs/line/points_collinear-eps-converted-to.pdf, id=421, 462.52798pt x 346.8
 9601pt>
 File: ./figs/line/points_collinear-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2100,14 +2106,6 @@ that the three
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./figs/line/line_slope-eps-converted-to.pdf> <./figs/line/points_collinear
--eps-converted-to.pdf>]
-
 LaTeX Warning: File `./figs/line/points_triangle.eps' not found on input line 2
 42.
 
@@ -2120,7 +2118,7 @@ to.pdf>
 e-eps-converted-to.pdf ./figs/line/points_triangle.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/line/points_triangle-eps-converted-to.pdf, id=409, 462.52798pt x 346.89
+<./figs/line/points_triangle-eps-converted-to.pdf, id=428, 462.52798pt x 346.89
 601pt>
 File: ./figs/line/points_triangle-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/line/points_triangle-eps-converted-to.pdf>
@@ -2136,46 +2134,74 @@ the points
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [7 <./figs/line/points_collinear-eps-converted-to.pdf> <./figs/line/points_tri
+angle-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./figs/line/points_triangle-eps-converted-to.pdf>]
-Underfull \hbox (badness 2221) in paragraph at lines 324--327
-\OT1/txr/m/n/12 Substituting the val-ues from [] and
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 393--398
+\OT1/txr/m/n/12 upon sub-sti-tut-ing from [] in
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 393--398
+[]\OT1/txr/m/n/12 . It can be ver-i-fied that the
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./chapters/linforms/plane.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
-(./chapters/linforms/plane.tex) (./chapters/linforms/pseudo.tex
-Underfull \vbox (badness 2197) has occurred while \output is active []
-
- [9]
+ [9])
+(./chapters/linforms/pseudo.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./figs/pseudo/assignment2.jpg, id=534, 490.83376pt x 361.85187pt>
+ [10]
+Underfull \hbox (badness 3803) in paragraph at lines 102--104
+[]\OT1/txr/m/n/12 Substituting the val-ues from [] in
+ []
+
+<./figs/pseudo/assignment2.jpg, id=600, 490.83376pt x 361.85187pt>
 File: ./figs/pseudo/assignment2.jpg Graphic file (type jpg)
 <use ./figs/pseudo/assignment2.jpg>
 Package pdftex.def Info: ./figs/pseudo/assignment2.jpg  used on input line 150.
 
 (pdftex.def)             Requested size: 252.0pt x 185.77881pt.
-)
-(./chapters/quadforms/quad_forms.tex [10 <./figs/pseudo/assignment2.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) (./chapters/quadforms/quad_forms.tex
+Underfull \vbox (badness 4291) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-Underfull \hbox (badness 2418) in paragraph at lines 204--205
-[]\OT1/txr/m/n/12 Apart from [], an-other con-di-tion for
+Underfull \hbox (badness 6978) in paragraph at lines 59--73
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Proofs for [], [],
  []
 
-) (./chapters/conics/tangent_normal.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./figs/pseudo/assignment2.jpg>]
+Underfull \hbox (badness 2401) in paragraph at lines 108--110
+\OT1/txr/m/n/12 The cen-tre is ob-tained from [] as
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 121--123
+\OT1/txr/m/n/12 The cen-tre is ob-tained from [] as
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12])
+(./chapters/conics/tangent_normal.tex
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 40.
 
@@ -2189,7 +2215,7 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 40.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
+ [13]
 (./tables/conics.tex
 \gnumericTableWidth=\skip89
 \gnumericTableWidthComplete=\skip90
@@ -2222,7 +2248,7 @@ Overfull \hbox (10.73796pt too wide) in paragraph at lines 260--260
 )) (./chapters/conics/circle.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [14]
 
 LaTeX Warning: File `./figs/circex/CircOr.eps' not found on input line 110.
 
@@ -2235,7 +2261,7 @@ Package epstopdf Info: Source file: <./figs/circex/CircOr.eps>
 onverted-to.pdf ./figs/circex/CircOr.eps>
 (epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/circex/CircOr-eps-converted-to.pdf, id=759, 462.52798pt x 346.89601pt>
+<./figs/circex/CircOr-eps-converted-to.pdf, id=811, 462.52798pt x 346.89601pt>
 File: ./figs/circex/CircOr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/circex/CircOr-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/circex/CircOr-eps-converted-to.pdf  used on inp
@@ -2245,9 +2271,6 @@ ut line 110.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./figs/circex/CircOr-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./figs/circex/CircTangent.eps' not found on input line 155
 .
@@ -2261,17 +2284,27 @@ Package epstopdf Info: Source file: <./figs/circex/CircTangent.eps>
 eps-converted-to.pdf ./figs/circex/CircTangent.eps>
 (epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/circex/CircTangent-eps-converted-to.pdf, id=804, 462.52798pt x 346.8960
+<./figs/circex/CircTangent-eps-converted-to.pdf, id=816, 462.52798pt x 346.8960
 1pt>
 File: ./figs/circex/CircTangent-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/circex/CircTangent-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/circex/CircTangent-eps-converted-to.pdf  used o
 n input line 155.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/conics/ellipse.tex
+) (./chapters/conics/ellipse.tex [15 <./figs/circex/CircOr-eps-converted-to.pdf
+>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <./figs/circex/CircTangent-eps-converted-to.pdf>]
+
+Underfull \hbox (badness 1383) in paragraph at lines 81--84
+\OT1/txr/m/n/12 In Fig. []3.4.1[] the ac-tual el-lipse el-lipse in
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 81--84
+[] \OT1/txr/m/n/12 is ob-tained from [] us-ing
+ []
+
 
 LaTeX Warning: File `./figs/ellipse/ellipse_tangent.eps' not found on input lin
 e 112.
@@ -2285,7 +2318,7 @@ ed-to.pdf>
 gent-eps-converted-to.pdf ./figs/ellipse/ellipse_tangent.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/ellipse/ellipse_tangent-eps-converted-to.pdf, id=875, 462.52798pt x 346
+<./figs/ellipse/ellipse_tangent-eps-converted-to.pdf, id=884, 462.52798pt x 346
 .89601pt>
 File: ./figs/ellipse/ellipse_tangent-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2296,10 +2329,10 @@ sed on input line 112.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [16 <./figs/circex/CircTangent-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./figs/ellipse/ellipse_tangent-eps-converted-to.pdf>]
+
 
 LaTeX Warning: File `./figs/ellipse/ellipse_secant.eps' not found on input line
  182.
@@ -2313,7 +2346,7 @@ d-to.pdf>
 ant-eps-converted-to.pdf ./figs/ellipse/ellipse_secant.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/ellipse/ellipse_secant-eps-converted-to.pdf, id=942, 462.52798pt x 346.
+<./figs/ellipse/ellipse_secant-eps-converted-to.pdf, id=947, 462.52798pt x 346.
 89601pt>
 File: ./figs/ellipse/ellipse_secant-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2321,7 +2354,17 @@ File: ./figs/ellipse/ellipse_secant-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: ./figs/ellipse/ellipse_secant-eps-converted-to.pdf  us
 ed on input line 182.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/conics/hyperbola.tex
+) (./chapters/conics/hyperbola.tex [17 <./figs/ellipse/ellipse_tangent-eps-conv
+erted-to.pdf> <./figs/ellipse/ellipse_secant-eps-converted-to.pdf>]
+Underfull \hbox (badness 2035) in paragraph at lines 41--46
+\OT1/txr/m/n/12 Fig. []3.5.1[] shows the ac-tual hy-per-bola in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
+[] \OT1/txr/m/n/12 ob-tained from [] us-ing
+ []
+
 
 LaTeX Warning: File `./figs/hyper/hyper_tangent.eps' not found on input line 65
 .
@@ -2335,35 +2378,37 @@ o.pdf>
 -eps-converted-to.pdf ./figs/hyper/hyper_tangent.eps>
 (epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/hyper/hyper_tangent-eps-converted-to.pdf, id=958, 462.52798pt x 346.896
-01pt>
+<./figs/hyper/hyper_tangent-eps-converted-to.pdf, id=1047, 462.52798pt x 346.89
+601pt>
 File: ./figs/hyper/hyper_tangent-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/hyper/hyper_tangent-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/hyper/hyper_tangent-eps-converted-to.pdf  used 
 on input line 65.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (./chapters/conics/asymptotes.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17 <./figs/ellipse/ellipse_secant-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18 <./figs/hyper/hyper_tangent-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./figs/asymp/hyper_asymp.png, id=1096, 462.528pt x 346.896pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+<./figs/asymp/hyper_asymp.png, id=1165, 462.528pt x 346.896pt>
 File: ./figs/asymp/hyper_asymp.png Graphic file (type png)
 <use ./figs/asymp/hyper_asymp.png>
 Package pdftex.def Info: ./figs/asymp/hyper_asymp.png  used on input line 223.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 ))
-(./chapters/conics/parabola.tex [19]
-Underfull \vbox (badness 1242) has occurred while \output is active []
+(./chapters/conics/parabola.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [20 <./figs/asymp/hyper_asymp.png>]
 
 LaTeX Warning: File `./figs/parab/parab_tangent.eps' not found on input line 69
 .
@@ -2377,7 +2422,7 @@ o.pdf>
 -eps-converted-to.pdf ./figs/parab/parab_tangent.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/parab/parab_tangent-eps-converted-to.pdf, id=1138, 462.52798pt x 346.89
+<./figs/parab/parab_tangent-eps-converted-to.pdf, id=1200, 462.52798pt x 346.89
 601pt>
 File: ./figs/parab/parab_tangent-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/parab/parab_tangent-eps-converted-to.pdf>
@@ -2387,8 +2432,7 @@ on input line 69.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./figs/asymp/hyper_asymp.png> <./figs/parab/parab_tangent-eps-converted-t
-o.pdf>]
+
 
 LaTeX Warning: File `./figs/parab/parab_tangent_secant.eps' not found on input 
 line 138.
@@ -2402,7 +2446,7 @@ erted-to.pdf>
 _secant-eps-converted-to.pdf ./figs/parab/parab_tangent_secant.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/parab/parab_tangent_secant-eps-converted-to.pdf, id=1198, 462.52798pt x
+<./figs/parab/parab_tangent_secant-eps-converted-to.pdf, id=1208, 462.52798pt x
  346.89601pt>
 File: ./figs/parab/parab_tangent_secant-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2410,37 +2454,29 @@ File: ./figs/parab/parab_tangent_secant-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: ./figs/parab/parab_tangent_secant-eps-converted-to.pdf
   used on input line 138.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/quadforms/calculus.tex
+) (./chapters/decomp/qr.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 3343) in paragraph at lines 46--50
-\OT1/txr/m/n/12 which, upon tak-ing the trans-pose, yields
- []
-
-) (./chapters/linforms/ineq.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21 <./figs/parab/parab_tangent_secant-eps-converted-to.pdf>]) (./chapters/dec
-omp/qr.tex
-Underfull \vbox (badness 3872) has occurred while \output is active []
+ [21 <./figs/parab/parab_tangent-eps-converted-to.pdf>]
+Underfull \vbox (badness 4108) has occurred while \output is active []
 
 )
-(./chapters/decomp/svd.tex
-Underfull \vbox (badness 2418) has occurred while \output is active []
-
- [22])
-(./chapters/opt/defn.tex
-Underfull \hbox (badness 1895) in paragraph at lines 137--140
-\OT1/txr/m/n/12 be-tween $\OT1/txr/bx/n/12 P$ \OT1/txr/m/n/12 and $\OML/txmi/m/
-it/12 L$ \OT1/txr/m/n/12 is then ob-tained from
+(./chapters/decomp/svd.tex [22 <./figs/parab/parab_tangent_secant-eps-converted
+-to.pdf>]) (./chapters/opt/defn.tex
+Underfull \hbox (badness 1881) in paragraph at lines 126--134
+\OT1/txr/m/n/12 from []. Sub-sti-tut-ing $\OML/txmi/m/it/12 ^^U[] \OT1/txr/m/n/
+12 = 0$ in
  []
 
 
+Underfull \hbox (badness 1668) in paragraph at lines 137--140
+\OT1/txr/m/n/12 upon sub-sti-tut-ing from []. The dis-
+ []
+
+) (./chapters/opt/conv.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])
-(./chapters/opt/conv.tex
+ [23]
 
 LaTeX Warning: File `./figs/opt/convex.eps' not found on input line 50.
 
@@ -2452,14 +2488,13 @@ Package epstopdf Info: Source file: <./figs/opt/convex.eps>
 erted-to.pdf ./figs/opt/convex.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/opt/convex-eps-converted-to.pdf, id=1365, 462.52798pt x 346.89601pt>
+<./figs/opt/convex-eps-converted-to.pdf, id=1399, 462.52798pt x 346.89601pt>
 File: ./figs/opt/convex-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/opt/convex-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/opt/convex-eps-converted-to.pdf  used on input 
 line 50.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/opt/grad_des.tex) (./chapters/opt/lagrange.tex [24 <./figs/opt/co
-nvex-eps-converted-to.pdf>]
+) (./chapters/opt/grad_des.tex) (./chapters/opt/lagrange.tex
 
 LaTeX Warning: File `./figs/opt/concirc.eps' not found on input line 41.
 
@@ -2471,14 +2506,14 @@ Package epstopdf Info: Source file: <./figs/opt/concirc.eps>
 verted-to.pdf ./figs/opt/concirc.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/opt/concirc-eps-converted-to.pdf, id=1437, 462.52798pt x 346.89601pt>
+<./figs/opt/concirc-eps-converted-to.pdf, id=1410, 462.52798pt x 346.89601pt>
 File: ./figs/opt/concirc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/opt/concirc-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/opt/concirc-eps-converted-to.pdf  used on input
  line 41.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \vbox (badness 1867) has occurred while \output is active []
+[24 <./figs/opt/convex-eps-converted-to.pdf>]
+Underfull \vbox (badness 5217) has occurred while \output is active []
 
 )
 (./chapters/opt/qp.tex [25 <./figs/opt/concirc-eps-converted-to.pdf>]
@@ -2498,7 +2533,7 @@ Package epstopdf Info: Source file: <./figs/opt/qp_parab.eps>
 nverted-to.pdf ./figs/opt/qp_parab.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/opt/qp_parab-eps-converted-to.pdf, id=1514, 462.52798pt x 346.89601pt>
+<./figs/opt/qp_parab-eps-converted-to.pdf, id=1550, 462.52798pt x 346.89601pt>
 File: ./figs/opt/qp_parab-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/opt/qp_parab-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/opt/qp_parab-eps-converted-to.pdf  used on inpu
@@ -2520,14 +2555,24 @@ f>
 -converted-to.pdf ./figs/opt/lp_feas_reg.eps>
 (epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/opt/lp_feas_reg-eps-converted-to.pdf, id=1582, 462.52798pt x 346.89601p
+<./figs/opt/lp_feas_reg-eps-converted-to.pdf, id=1616, 462.52798pt x 346.89601p
 t>
 File: ./figs/opt/lp_feas_reg-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/opt/lp_feas_reg-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/opt/lp_feas_reg-eps-converted-to.pdf  used on i
 nput line 65.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-[27 <./figs/opt/lp_feas_reg-eps-converted-to.pdf>]
+
+Underfull \vbox (badness 3271) has occurred while \output is active []
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <./figs/opt/lp_feas_reg-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./figs/opt/lp_diet.eps' not found on input line 193.
 
@@ -2539,7 +2584,7 @@ Package epstopdf Info: Source file: <./figs/opt/lp_diet.eps>
 verted-to.pdf ./figs/opt/lp_diet.eps>
 (epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/opt/lp_diet-eps-converted-to.pdf, id=1638, 462.52798pt x 346.89601pt>
+<./figs/opt/lp_diet-eps-converted-to.pdf, id=1669, 462.52798pt x 346.89601pt>
 File: ./figs/opt/lp_diet-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/opt/lp_diet-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/opt/lp_diet-eps-converted-to.pdf  used on input
@@ -2558,20 +2603,20 @@ pdf>
 ps-converted-to.pdf ./figs/opt/lp_allocation.eps>
 (epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/opt/lp_allocation-eps-converted-to.pdf, id=1641, 462.52798pt x 346.8960
+<./figs/opt/lp_allocation-eps-converted-to.pdf, id=1672, 462.52798pt x 346.8960
 1pt>
 File: ./figs/opt/lp_allocation-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/opt/lp_allocation-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/opt/lp_allocation-eps-converted-to.pdf  used on
  input line 238.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-[28 <./figs/opt/lp_diet-eps-converted-to.pdf> <./figs/opt/lp_allocation-eps-con
-verted-to.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 250--256
 
  []
 
-
+[28 <./figs/opt/lp_diet-eps-converted-to.pdf> <./figs/opt/lp_allocation-eps-con
+verted-to.pdf>]
 Overfull \hbox (31.70001pt too wide) in paragraph at lines 257--269
 [][] 
  []
@@ -2589,20 +2634,13 @@ to.pdf>
 g-eps-converted-to.pdf ./figs/opt/lp_manufacturing.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/opt/lp_manufacturing-eps-converted-to.pdf, id=1722, 462.52798pt x 346.8
+<./figs/opt/lp_manufacturing-eps-converted-to.pdf, id=1754, 462.52798pt x 346.8
 9601pt>
 File: ./figs/opt/lp_manufacturing-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/opt/lp_manufacturing-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/opt/lp_manufacturing-eps-converted-to.pdf  used
  on input line 291.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1796) has occurred while \output is active []
-
-
 
 LaTeX Warning: File `./figs/opt/lp_transport.eps' not found on input line 339.
 
@@ -2615,7 +2653,7 @@ df>
 s-converted-to.pdf ./figs/opt/lp_transport.eps>
 (epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/opt/lp_transport-eps-converted-to.pdf, id=1725, 462.52798pt x 346.89601
+<./figs/opt/lp_transport-eps-converted-to.pdf, id=1757, 462.52798pt x 346.89601
 pt>
 File: ./figs/opt/lp_transport-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/opt/lp_transport-eps-converted-to.pdf>
@@ -2635,23 +2673,23 @@ Underfull \hbox (badness 2503) in paragraph at lines 29--37
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ) [30 <./figs/opt/lp_transport-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
  (./gvv_linalg_manual.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
 Package rerunfilecheck Info: File `gvv_linalg_manual.out' has not changed.
-(rerunfilecheck)             Checksum: 64A39A745313BFB0897037884FD04E68;1189.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 368.
+(rerunfilecheck)             Checksum: 07B7C3D167C96056F708917FC33E2008;1803.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
- 44539 strings out of 480608
- 1032711 string characters out of 5892806
- 1415419 words of memory out of 5000000
- 58635 multiletter control sequences out of 15000+600000
+ 44551 strings out of 480608
+ 1033038 string characters out of 5892806
+ 1405692 words of memory out of 5000000
+ 58641 multiletter control sequences out of 15000+600000
  647601 words of font info for 277 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,29n,98p,509b,1331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,29n,98p,509b,2289s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/rtxb.pfb></data/data/com.termux/files/usr/share/texlive/texmf-di
@@ -2670,10 +2708,10 @@ c.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw
 ts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_linalg_manual.pdf (30 pages, 1020880 bytes).
+Output written on gvv_linalg_manual.pdf (30 pages, 1021575 bytes).
 PDF statistics:
- 2048 PDF objects out of 2073 (max. 8388607)
- 1524 compressed objects within 16 object streams
- 762 named destinations out of 1000 (max. 500000)
- 408 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2079 PDF objects out of 2487 (max. 8388607)
+ 1555 compressed objects within 16 object streams
+ 768 named destinations out of 1000 (max. 500000)
+ 456 words of extra memory for PDF output out of 10000 (max. 10000000)
 
