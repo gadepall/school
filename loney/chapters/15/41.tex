@@ -1,0 +1,15 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+%
+\item Trace the curve
+\begin{align}
+14x^2 - 4xy + 11y^2 - 44x - 58y + 71 =0  \label{eq:solutions/41/ex1/given_curve_eq}
+\end{align}
+
+\solution
+\input{./solutions/41/ex1/solution.tex}
+
+\end{enumerate}
