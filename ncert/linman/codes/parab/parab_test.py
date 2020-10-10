@@ -50,14 +50,15 @@ x = parab_gen(y,foc)
 #c1 = np.array(([-(u@V@u-2*u@u+f)/(2*u@p),0]))
 #c = -P@u+c1
 #print(c1)
-
+#p = -p
 cA = np.vstack((u+eta*p,V))
 cb = np.vstack((-f,(eta*p-u).reshape(-1,1)))
 c = LA.lstsq(cA,cb,rcond=None)[0]
 c = c.flatten()
-#c = np.array(([-2/5,7/5]))
-#print(c,2/5,7/5,foc)
 print(c,-29/25,22/25,foc)
+#print(cA,cb)
+#print(p,c)
+
 c1 = np.array(([(u@V@u-2*D_vec[1]*u@u+D_vec[1]**2*f)/(eta*D_vec[1]**2),0]))
 xStandardparab = np.vstack((x,y))
 #xActualparab = P@(xStandardparab - c1[:,np.newaxis])-u[:,np.newaxis]/D_vec[1]
