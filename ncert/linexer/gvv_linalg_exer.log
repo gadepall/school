@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  9 OCT 2020 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  10 OCT 2020 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2639,24 +2639,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-))
+)
+(./solutions/4/1/36/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38])
+(./solutions/4/1/37/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]))
 (./chapters/decomp/svd.tex (./solutions/3/1/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2671) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40])
-(./solutions/3/2/solution.tex
+ [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2665,11 +2666,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./solutions/3/2/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42])
-(./solutions/3/3/solution.tex
+ [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2678,10 +2679,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./solutions/3/3/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \hbox (117.09546pt too wide) in paragraph at lines 156--156
 [] 
  []
@@ -2689,24 +2700,14 @@ Overfull \hbox (117.09546pt too wide) in paragraph at lines 156--156
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [46])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+
 (./solutions/3/4/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47])
-(./solutions/3/5/solution.tex
+ [47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2715,11 +2716,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./solutions/3/5/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49])
-(./solutions/3/7/solution.tex
+ [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2728,11 +2729,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./solutions/3/7/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51])
-(./solutions/3/8/solution.tex
+ [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2741,11 +2742,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./solutions/3/8/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53])
-(./solutions/3/9/solution.tex
+ [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2754,7 +2755,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
+(./solutions/3/9/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
 Overfull \hbox (1.63448pt too wide) detected at line 112
  []$[]   [] \OT1/txr/m/n/12 = []$ 
  []
@@ -2762,10 +2773,10 @@ Overfull \hbox (1.63448pt too wide) detected at line 112
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-))
+ [57]))
 (./chapters/opt/lp_exer.tex
 Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
@@ -2785,8 +2796,7 @@ txr/m/n/12 15,
 
 Underfull \vbox (badness 4036) has occurred while \output is active []
 
- [56]
-<./solutions/4/5/Figure_1.png, id=2231, 462.528pt x 346.896pt>
+<./solutions/4/5/Figure_1.png, id=2278, 462.528pt x 346.896pt>
 File: ./solutions/4/5/Figure_1.png Graphic file (type png)
 <use ./solutions/4/5/Figure_1.png>
 Package pdftex.def Info: ./solutions/4/5/Figure_1.png  used on input line 41.
@@ -2794,7 +2804,7 @@ Package pdftex.def Info: ./solutions/4/5/Figure_1.png  used on input line 41.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [58 <./solutions/4/5/Figure_1.png>])
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
@@ -2828,7 +2838,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./solutions/4/5/Figure_1.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
@@ -2838,7 +2848,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--45
 
  []
 
-<./solutions/4/7/Figure_1.png, id=2261, 385.44pt x 262.9825pt>
+<./solutions/4/7/Figure_1.png, id=2307, 385.44pt x 262.9825pt>
 File: ./solutions/4/7/Figure_1.png Graphic file (type png)
 <use ./solutions/4/7/Figure_1.png>
 Package pdftex.def Info: ./solutions/4/7/Figure_1.png  used on input line 52.
@@ -2856,7 +2866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [59 <./solutions/4/7/Figure_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -2900,7 +2910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <./solutions/4/7/Figure_1.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
@@ -2908,7 +2918,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [60]
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
@@ -2916,8 +2926,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
-<./solutions/4/8/minimize.png, id=2314, 379.4175pt x 263.98625pt>
+<./solutions/4/8/minimize.png, id=2365, 379.4175pt x 263.98625pt>
 File: ./solutions/4/8/minimize.png Graphic file (type png)
 <use ./solutions/4/8/minimize.png>
 Package pdftex.def Info: ./solutions/4/8/minimize.png  used on input line 94.
@@ -2965,7 +2974,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
 Underfull \vbox (badness 6268) has occurred while \output is active []
 
-
+ [61 <./solutions/4/8/minimize.png>]
 Underfull \hbox (badness 1881) in paragraph at lines 70--79
 \OT1/txr/m/n/12 bats. A ten-nis racket takes 1.5 hours of
  []
@@ -3005,7 +3014,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--104
 
  []
 
-[60 <./solutions/4/8/minimize.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 104--111
 
  []
@@ -3025,7 +3034,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--124
 
  []
 
-
+[62]
 Underfull \hbox (badness 1728) in paragraph at lines 124--130
 \OT1/txr/m/n/12 con-di-tions, a farmer finds that she needs
  []
@@ -3075,7 +3084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--166
 
  []
 
-[61]
+
 Underfull \hbox (badness 10000) in paragraph at lines 184--188
 
  []
@@ -3108,7 +3117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [63]
 Underfull \hbox (badness 10000) in paragraph at lines 216--234
 
  []
@@ -3126,7 +3135,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--266
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
+
 Underfull \hbox (badness 10000) in paragraph at lines 306--314
 
  []
@@ -3139,23 +3148,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--321
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [64]
 (./solutions/4/38/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
-<./solutions/4/38/LPP.png, id=2382, 385.44pt x 252.945pt>
+<./solutions/4/38/LPP.png, id=2432, 385.44pt x 252.945pt>
 File: ./solutions/4/38/LPP.png Graphic file (type png)
 <use ./solutions/4/38/LPP.png>
 Package pdftex.def Info: ./solutions/4/38/LPP.png  used on input line 55.
 (pdftex.def)             Requested size: 252.0pt x 165.37334pt.
 ))
-(./chapters/opt/grad_des.tex (./solutions/5/2/1/1/solution.tex
+(./chapters/opt/grad_des.tex (./solutions/5/2/1/1/solution.tex [65 <./solutions
+/4/38/LPP.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-<./solutions/5/2/1/1/Figure_1.png, id=2387, 462.528pt x 346.896pt>
+<./solutions/5/2/1/1/Figure_1.png, id=2468, 462.528pt x 346.896pt>
 File: ./solutions/5/2/1/1/Figure_1.png Graphic file (type png)
 <use ./solutions/5/2/1/1/Figure_1.png>
 Package pdftex.def Info: ./solutions/5/2/1/1/Figure_1.png  used on input line 4
@@ -3164,10 +3173,10 @@ Package pdftex.def Info: ./solutions/5/2/1/1/Figure_1.png  used on input line 4
 ) (./solutions/5/2/1/2/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64 <./solutions/4/38/LPP.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [66 <./solutions/5/2/1/1/Figure_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 []\OT1/txr/m/n/12 The lo-cal min-i-mum oc-curs at -
  []
@@ -3177,16 +3186,13 @@ Underfull \hbox (badness 2941) in paragraph at lines 40--41
 []\OT1/txr/m/n/12 The value of f(x) at min-ima is -
  []
 
-<./solutions/5/2/1/2/Parabola.png, id=2421, 395.4775pt x 279.0425pt>
+<./solutions/5/2/1/2/Parabola.png, id=2497, 395.4775pt x 279.0425pt>
 File: ./solutions/5/2/1/2/Parabola.png Graphic file (type png)
 <use ./solutions/5/2/1/2/Parabola.png>
 Package pdftex.def Info: ./solutions/5/2/1/2/Parabola.png  used on input line 4
 6.
 (pdftex.def)             Requested size: 252.0pt x 177.80739pt.
-) [65 <./solutions/5/2/1/1/Figure_1.png> <./solutions/5/2/1/2/Parabola.png>])
-[66
-
-]
+)) [67 <./solutions/5/2/1/2/Parabola.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (./gvv_linalg_exer.aux)
@@ -3197,10 +3203,10 @@ Package rerunfilecheck Info: File `gvv_linalg_exer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 45085 strings out of 480608
- 1035923 string characters out of 5892806
- 1412765 words of memory out of 5000000
- 58219 multiletter control sequences out of 15000+600000
+ 45162 strings out of 480608
+ 1037416 string characters out of 5892806
+ 1419143 words of memory out of 5000000
+ 58246 multiletter control sequences out of 15000+600000
  628567 words of font info for 237 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,24n,91p,745b,1278s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3220,10 +3226,10 @@ om.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
 </data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on gvv_linalg_exer.pdf (66 pages, 1392458 bytes).
+Output written on gvv_linalg_exer.pdf (67 pages, 1400918 bytes).
 PDF statistics:
- 2852 PDF objects out of 2984 (max. 8388607)
- 2626 compressed objects within 27 object streams
- 1690 named destinations out of 1728 (max. 500000)
+ 2926 PDF objects out of 2984 (max. 8388607)
+ 2699 compressed objects within 27 object streams
+ 1734 named destinations out of 2073 (max. 500000)
  333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
