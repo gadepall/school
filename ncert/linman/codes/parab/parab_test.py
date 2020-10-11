@@ -51,6 +51,8 @@ x = parab_gen(y,foc)
 #c = -P@u+c1
 #print(c1)
 #p = -p
+#cA = np.vstack((u+eta*p,V))
+#cb = np.vstack((-f,(eta*p-u).reshape(-1,1)))
 cA = np.vstack((u+eta*p,V))
 cb = np.vstack((-f,(eta*p-u).reshape(-1,1)))
 c = LA.lstsq(cA,cb,rcond=None)[0]
