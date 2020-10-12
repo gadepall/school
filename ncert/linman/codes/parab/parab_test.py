@@ -53,8 +53,8 @@ x = parab_gen(y,foc)
 #p = -p
 #cA = np.vstack((u+eta*p,V))
 #cb = np.vstack((-f,(eta*p-u).reshape(-1,1)))
-cA = np.vstack((u+eta*p,V))
-cb = np.vstack((-f,(eta*p-u).reshape(-1,1)))
+cA = np.vstack((u+eta*p*0.5,V))
+cb = np.vstack((-f,(0.5*eta*p-u).reshape(-1,1)))
 c = LA.lstsq(cA,cb,rcond=None)[0]
 c = c.flatten()
 print(c,-29/25,22/25,foc)
