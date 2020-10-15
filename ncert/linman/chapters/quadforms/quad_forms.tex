@@ -124,18 +124,21 @@ and minor axes parameters \begin{align} \sqrt{\frac{\lambda_1}{\vec{u}^T\vec{V}^
 \item ({\em Pair of straight lines:}) The {\em asymptotes} of the hyperbola \eqref{eq:conic_quad_form} are defined as the pair of intersecting straight lines 
 \begin{align}
 \label{eq:asymp_quad_form}
-\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+K=0
+\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+\vec{u}^T\vec{V}^{-1}\vec{u}=0
 \end{align}
 such that 
 \begin{align} 
-\label{eq:quad_form_asymp_cond}
-K =  \vec{u}^T\vec{V}^{-1}\vec{u}
-\\
+%\label{eq:quad_form_asymp_cond}
+%K =  \vec{u}^T\vec{V}^{-1}\vec{u}
+%\\
 \abs{\vec{V}} < 0
 \label{eq:quad_pair_det}
 \end{align} 
 %
-From \eqref{eq:quad_form_hyper} and \eqref{eq:quad_form_asymp_cond} the equation of the asymptotes for \eqref{eq:quad_form_hyper} is
+From \eqref{eq:asymp_quad_form},
+%
+%\eqref{eq:quad_form_hyper} and \eqref{eq:quad_form_asymp_cond} 
+the equation of the asymptotes for \eqref{eq:quad_form_hyper} is
 \begin{align} 
 \myvec{\sqrt{\abs{\lambda_1}} & \pm \sqrt{\abs{\lambda_2}}}\vec{y} = 0
 \end{align} 
@@ -180,28 +183,15 @@ Thus, the angle between the asymptotes is obtained from \eqref{eq:quad_form_pair
 \cos\theta=\frac{\abs{\lambda_1}-\abs{\lambda_2}}
 {\abs{\lambda_1}+\abs{\lambda_2}}
 \end{align} 
-%\item ({\em Conjugate Hyperbola:}) Another hyperbola with the same asymptotes as \eqref{eq:quad_form_pair} can be obtained by rotating the hyperbola with the angle in \eqref{eq:quad_form_pair_ang} and the rotation matrix 
-%\begin{align}
-%\label{eq:quad_form_pair_ang_rot}
-%\vec{Q} = \myvec{
-%\cos \theta & -\sin \theta
-%\\
-%\sin \theta & \cos \theta 
-%} 
-%\end{align}
-%%
-%where 
-%\begin{align}
-%\sin \theta = 2\frac{\sqrt{\abs{\lambda_1}\abs{\lambda_2}}}
-%{\abs{\lambda_1}+\abs{\lambda_2}}
-%\end{align}
-%%
-%The equation of the conjugate hyperbola is then obtained as\begin{align}
-%\label{eq:conic_quad_form_conjugate}
-%\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{Q}\vec{x}+f=0
-%\end{align}
+\item ({\em Conjugate Hyperbola:}) Another hyperbola with the same asymptotes as \eqref{eq:quad_form_pair} can be obtained from \eqref{eq:conic_quad_form} and \eqref{eq:asymp_quad_form} as
+\begin{align}
+\label{eq:hyper_conj_quad_form}
+\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+2\vec{u}^T\vec{V}^{-1}\vec{u}-f=0
+\end{align}
 %
-\item Apart from \eqref{eq:quad_form_asymp_cond}, another condition for \eqref{eq:conic_quad_form} to represent a pair of straight lines is
+\item 
+%Apart from \eqref{eq:quad_form_asymp_cond}, 
+Another condition for \eqref{eq:conic_quad_form} to represent a pair of straight lines is
 \begin{align}
 \mydet{
 \vec{V}&\vec{u}

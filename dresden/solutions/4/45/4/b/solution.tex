@@ -1,0 +1,100 @@
+Equation of plane can be expressed as 
+\begin{align}\label{eq:solutions/4/45/4/b/eq1}
+	\vec{n}^T\vec{x} = c
+\end{align}
+Rewriting given equation of plane in \eqref{eq:solutions/4/45/4/b/eq1} form
+\begin{align}\label{eq:solutions/4/45/4/b/eq2}
+	\myvec{5 & 0 & -2}\myvec{x\\y\\z} = 3
+\end{align}
+where :
+$\vec{n}=\myvec{5\\0\\-2}$, $\vec{x} = \myvec{x\\y\\z}$  and $c=3$\\
+We need to represent equation of plane in parametric form,
+\begin{equation}\label{eq:solutions/4/45/4/b/eq3}
+	\vec{x} = \vec{p} + \lambda_1\vec{q} + \lambda_2\vec{r}
+\end{equation}
+Here $p$ is any point on plane and $\vec{q}, \vec{r}$ are two vectors parallel to plane and hence $\perp$ to $\vec{n}$. Find two vectors that are $\perp$ to $\vec{n}$
+\begin{align}\label{eq:solutions/4/45/4/b/eq4}
+	\myvec{5 & 0 &-2}\myvec{a\\b\\c} = 0
+\end{align}
+Put $a=0$ and $b=1$ in \eqref{eq:solutions/4/45/4/b/eq3}, $\implies c=0$\\
+Put $a=1$ and $b=0$ in \eqref{eq:solutions/4/45/4/b/eq3}, $\implies c=\frac{5}{2}$\\
+Hence $\vec{q} = \myvec{1\\0\\\frac{5}{2}}, \vec{r} = \myvec{0\\1\\0}$\\
+Let us find point $\vec{p}$ on the plane. Put $x=1,y=0$ in \eqref{eq:solutions/4/45/4/b/eq2}, we get $\vec{p} = \myvec{1\\0\\1}$\\
+Since given plane is parallel to y-axis, we can use any point $P$ on y-axis to compute shortest distance. 
+\begin{equation}\label{eq:solutions/4/45/4/b/eq5}
+	\vec{P} = \myvec{0\\0\\0}
+\end{equation}
+Let $\vec{Q}$ be the point on plane with shortest distance to $\vec{P}$. $\vec{Q}$ can be expressed in \eqref{eq:solutions/4/45/4/b/eq4} form as
+\begin{align}\label{eq:solutions/4/45/4/b/eq6}
+	\vec{Q} = \myvec{1\\0\\1} + \lambda_1\myvec{1\\0\\\frac{5}{2}} + \lambda_2\myvec{0\\1\\0}
+\end{align}
+Equation $\vec{P}$ and $\vec{Q}$, and computing pseudo inverse using SVD should give the value of $\lambda_1$ and $\lambda_2$ (since plane and y-axis never intersect pseudo inverse should give the points which are closest)
+\begin{align}
+	\label{eq:solutions/4/45/4/b/eq7}\myvec{1\\0\\1} + \lambda_1\myvec{1\\0\\\frac{5}{2}} + \lambda_2\myvec{0\\1\\0} &= \myvec{0\\0\\0}\\
+	\label{eq:solutions/4/45/4/b/eq8}\lambda_1\myvec{1\\0\\\frac{5}{2}} + \lambda_2\myvec{0\\1\\0} &= \myvec{-1\\0\\-1}\\
+	\label{eq:solutions/4/45/4/b/eq9}\myvec{1 & 0\\0 & 1\\\frac{5}{2} & 0} \myvec{\lambda_1 \\ \lambda_2} &=\myvec{-1\\0\\-1}\\
+	\label{eq:solutions/4/45/4/b/eq10}\vec{M}\vec{x} &= \vec{b}\\
+	\label{eq:solutions/4/45/4/b/eq11}\vec{x} &= \vec{M}^{+}\vec{b}
+\end{align}
+where $\vec{M} = \myvec{1 & 0\\0 & 1\\\frac{5}{2} & 0}$, $\vec{x}= \myvec{\lambda_1 \\ \lambda_2}$ and $\vec{b}=\myvec{-1\\0\\-1}$\\
+\\
+Diagonalize $\vec{M}\vec{M}^T$
+\begin{align}
+	\label{eq:solutions/4/45/4/b/eq12}\vec{M}\vec{M}^T &= \myvec{1 & 0\\0 & 1\\\frac{5}{2} & 0}\myvec{1 & 0 & \frac{5}{2}\\0 & 1 & 0} = \myvec{1 & 0 & \frac{5}{2}\\0 & 1 & 0\\\frac{5}{2} & 0 & \frac{25}{4}}\\
+	\label{eq:solutions/4/45/4/b/eq13}&= \myvec{0 & \frac{2}{5} & -\frac{5}{2}\\1 & 0 & 0\\0 & 1 & 1}\myvec{\frac{29}{4} & 0 & 0\\0 & 1 & 0\\0 & 0 & 0}\myvec{0 & 1 & 0\\\frac{2}{5} & 0 & 1\\-\frac{5}{2} & 0 & 1}\\
+	&= \vec{U}\Sigma^T\Sigma\vec{U}^T
+\end{align}
+Verify \eqref{eq:solutions/4/45/4/b/eq13} from,
+\begin{lstlisting}
+codes/diagonalize1.py
+\end{lstlisting}
+Diagonalize $\vec{M}^T\vec{M}$
+\begin{align}
+	\label{eq:solutions/4/45/4/b/e14}\vec{M}^T\vec{M} &= \myvec{1 & 0 & \frac{5}{2}\\0 & 1 & 0}\myvec{1 & 0\\0 & 1\\\frac{5}{2} & 0} = \myvec{\frac{29}{4} & 0\\0 & 1}\\
+	\label{eq:solutions/4/45/4/b/eq15}&= \myvec{0 & 1\\1 & 0}\myvec{1 & 0\\0 & \frac{29}{4}}\myvec{0 & 1\\1 & 0}\\
+	&= \vec{V}\Sigma^T\Sigma\vec{V}^T
+\end{align}
+Verify \eqref{eq:solutions/4/45/4/b/eq15} from,
+\begin{lstlisting}
+codes/diagonalize2.py
+\end{lstlisting}
+Compute SVD of $\vec{M}$ from \eqref{eq:solutions/4/45/4/b/eq13} and \eqref{eq:solutions/4/45/4/b/eq16},
+\begin{align}
+	\label{eq:solutions/4/45/4/b/eq16}\vec{M} &= \vec{U}\Sigma\vec{V}^T\\
+	\label{eq:solutions/4/45/4/b/eq17}\myvec{1 & 0\\0 & 1\\\frac{5}{2} & 0} &= \myvec{0 & \frac{2}{5} & -\frac{5}{2}\\1 & 0 & 0\\0 & 1 & 1}\myvec{\frac{\sqrt{29}}{2} & 0 \\0 & 1\\0 & 0} \myvec{1 & 0\\0 & 1}\\
+	\label{eq:solutions/4/45/4/b/eq18}\vec{M}^{+} &= \vec{V}\Sigma^T\vec{U}^T\\
+	\label{eq:solutions/4/45/4/b/eq19}&= \myvec{1 & 0\\0 & 1}\myvec{\frac{\sqrt{29}}{2} & 0 & 0\\0 & 1 & 0}\myvec{0 & 1 & 0\\\frac{2}{5} & 0 & 1\\-\frac{5}{2} & 0 & 1}\\
+	\label{eq:solutions/4/45/4/b/eq20}&=\myvec{\frac{4}{29} & 0 & \frac{10}{29}\\0 & 1 & 0}
+\end{align}
+Verify \eqref{eq:solutions/4/45/4/b/eq20} from,
+\begin{lstlisting}
+codes/pseudo_inverse.py
+\end{lstlisting}
+Substitute \eqref{eq:solutions/4/45/4/b/eq20} in \eqref{eq:solutions/4/45/4/b/eq11},
+\begin{align}\label{eq:solutions/4/45/4/b/23}
+	\vec{x} = \myvec{\frac{4}{29} & 0 & \frac{10}{29}\\0 & 1 & 0}\myvec{-1\\0\\-1} = \myvec{-\frac{14}{29}\\0} = \myvec{\lambda_1 \\ \lambda_2}
+\end{align}
+Substituting $\lambda_1$, $\lambda_2$ in \eqref{eq:solutions/4/45/4/b/eq6}
+\begin{equation}
+	\vec{Q} = \myvec{\frac{15}{29}\\0\\-\frac{6}{29}}
+\end{equation}
+Distance between point $\vec{P}$ and $\vec{Q}$ is
+\begin{align}
+	\norm{\vec{P}-\vec{Q}} = \sqrt{\left(\frac{15}{29}\right)^2 + 0 + \left(-\frac{6}{29}\right)^2} = \frac{3}{\sqrt{29}}
+\end{align}
+Hence, distance from y-axis to $5x - 2z - 3 = 0$ is $\frac{3}{\sqrt{29}}$.\\\\
+Verifying solution to \eqref{eq:solutions/4/45/4/b/eq10} by least squares method
+\begin{align}
+	\vec{M}^T(\vec{b} - \vec{M}\vec{x}) &= 0\\
+	\label{eq:solutions/4/45/4/b/eq30}\implies \vec{M}^T\vec{M}\vec{x} &= \vec{M}^T\vec{b}
+\end{align}
+Substituting $\vec{M}, \vec{b}$ from \eqref{eq:solutions/4/45/4/b/eq9} in \eqref{eq:solutions/4/45/4/b/eq30}
+\begin{align}
+	\myvec{1 & 0 & \frac{5}{2}\\0 & 1 & 0}\myvec{1 & 0\\0 & 1\\\frac{5}{2} & 0}\vec{x} &= \myvec{1 & 0 & \frac{5}{2}\\0 & 1 & 0}\myvec{-1\\0\\-1}\\
+	\myvec{\frac{29}{4} & 0\\0 & 1}\myvec{\lambda_1\\\lambda_2} &= \myvec{-\frac{7}{2}\\0}\\
+	\implies\frac{29}{4}\lambda_1 &= -\frac{7}{2}\\
+	\lambda_1 &= -\frac{7}{2} \times \frac{4}{29} = -\frac{14}{29}\\
+	\text{and }\lambda_2 &= 0\\
+	\label{eq:solutions/4/45/4/b/31}\vec{x} &= \myvec{-\frac{14}{29}\\0}
+\end{align}
+Comparing \eqref{eq:solutions/4/45/4/b/23} and \eqref{eq:solutions/4/45/4/b/31} solution is verified.
