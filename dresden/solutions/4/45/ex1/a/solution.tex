@@ -1,0 +1,122 @@
+The given equation of plane can be represented as
+\begin{align}
+    \myvec{2 & 3 & -4}\Vec{x}=-5\label{eq:solutions/4/45/ex1/a/eq1}\\
+    \vec{n}=\myvec{2\\3\\-4}
+\end{align}
+We need to find two vectors $\vec{m_1}$ and $\Vec{m_2}$ that are $\perp$ to $\vec{n}$
+\begin{align}\label{eq:solutions/4/45/ex1/a/eq2}
+	\implies\myvec{2 & 3 & -4}\myvec{a\\b\\c} = 0
+\end{align}
+Put $a=1$ and $b=0$ in \eqref{eq:solutions/4/45/ex1/a/eq2},we get,
+\begin{align}
+    \Vec{m_1}=\myvec{1\\0\\\frac{1}{2}}
+\end{align}
+Put $a=0$ and $b=1$ in \eqref{eq:solutions/4/45/ex1/a/eq2},we get,
+\begin{align}
+    \Vec{m_2}=\myvec{0\\1\\\frac{3}{4}}
+\end{align}
+Now, solving the equation
+\begin{align}
+	\label{eq:solutions/4/45/ex1/a/eq3}\vec{M}\Vec{x} &= \vec{b}
+\end{align}
+where,
+\begin{align}
+\Vec{M}=\myvec{1&0\\0&1\\\frac{1}{2}&\frac{3}{4}}&\\
+    \vec{b}=\myvec{3\\-2\\0}&
+\end{align}
+Now, to solve equation \eqref{eq:solutions/4/45/ex1/a/eq3}, we perform Singular Value Decomposition on $\vec{M}$ as follows,
+\begin{align}
+\vec{M}=\vec{U}\vec{S}\vec{V}^T\label{eq:solutions/4/45/ex1/a/eqSVD}
+\end{align}
+Substituting the value of $\Vec{M}$ from equation \eqref{eq:solutions/4/45/ex1/a/eqSVD} to\eqref{eq:solutions/4/45/ex1/a/eq3},
+\begin{align}
+    \vec{U}\vec{S}\vec{V}^T\Vec{x}=\vec{b}\\
+    \implies \vec{x}=\vec{V}\vec{S_+}\vec{U}^T\Vec{b} \label{eq:solutions/4/45/ex1/a/eqX}
+\end{align}
+Where, $\Vec{S_+}$ is the Moore-Pen-rose Pseudo-Inverse of $\Vec{S}$. Columns of $\vec{V}$ are the eigen vectors of $\vec{M}^T\vec{M}$, columns of $\vec{U}$ are the eigen vectors of $\vec{M}\vec{M}^T$ and $\vec{S}$ is diagonal matrix of singular value of eigenvalues of $\vec{M}^T\vec{M}$.
+\begin{align}
+\vec{M}^T\vec{M}=\myvec{\frac{5}{4}&\frac{3}{8}\\\frac{3}{8}&\frac{25}{16}}\label{eq:solutions/4/45/ex1/a/eqMTM}
+\end{align}
+Eigen values corresponding to $\Vec{M}^T\Vec{M}$ are given by,
+\begin{align}
+\mydet{\vec{M}^T\vec{M}-\lambda\vec{I}} &= 0\\
+\implies\mydet{\myvec{\frac{5}{4}-\lambda&\frac{3}{8}\\\frac{3}{8}&\frac{25}{16}-\lambda}} &=0\\
+\implies \lambda^2-\frac{45}{16}\lambda+\frac{29}{16}=0
+\end{align}
+Hence eigen values of $\vec{M}^T\vec{M}$ are,
+\begin{align}
+\lambda_1 &= \frac{29}{16}\\
+\lambda_2 &= 1
+\end{align}
+Hence the eigen vectors of $\vec{M}^T\vec{M}$ are,
+\begin{align}
+\vec{v}_1=\myvec{\frac{2}{3}\\1}\\
+\vec{v}_2=\myvec{-\frac{3}{2}\\1}
+\end{align}
+Normalizing the eigen vectors, we obtain $\vec{V}$ of \eqref{eq:solutions/4/45/ex1/a/eqSVD} as follows,
+\begin{align}
+\vec{V}=\myvec{\frac{2}{\sqrt{13}}&-\frac{3}{\sqrt{13}}\\ \frac{3}{\sqrt{13}}&\frac{2}{\sqrt{13}}}\label{eq:solutions/4/45/ex1/a/eqV}
+\end{align}
+$\vec{S}$ of the diagonal matrix of \eqref{eq:solutions/4/45/ex1/a/eqSVD} is:
+\begin{align}
+\vec{S}=\myvec{\frac{\sqrt{29}}{4}&0\\0&1\\0&0}\label{eq:solutions/4/45/ex1/a/eqS}
+\end{align}
+Now, calculating eigen value of $\vec{M}\vec{M}^T$,
+\begin{align}
+    \Vec{M}\Vec{M}^T=\myvec{1&0&\frac{1}{2}\\0&1&\frac{3}{4}\\\frac{1}{2}&\frac{3}{4}&\frac{13}{16}}
+\end{align}
+Eigen values corresponding to $\vec{M}\Vec{M}^T$ are given by
+\begin{align}
+\mydet{\vec{M}\vec{M}^T-\lambda\vec{I}} &= 0\\
+\implies \mydet{\myvec{1-\lambda&0&\frac{1}{2}\\0&1-\lambda&\frac{3}{4}\\\frac{1}{2}&\frac{3}{4}&\frac{13}{16}-\lambda}}=0\\
+\implies \lambda^3-\frac{45}{16}\lambda^2+\frac{29}{16}\lambda=0
+\end{align}
+Hence eigen values of $\vec{M}^T\vec{M}$ are,
+\begin{align}
+\lambda_3 &=\frac{29}{16}\\
+\lambda_4 &= 1\\
+\lambda_5 &= 0
+\end{align}
+Hence we obtain $\vec{U}$ of \eqref{eq:solutions/4/45/ex1/a/eqSVD} as follows,
+\begin{align}
+\vec{U}=\label{eq:solutions/4/45/ex1/a/eqU}\myvec{\frac{8}{\sqrt{377}}&-\frac{3}{\sqrt{13}}&-\frac{2}{\sqrt{29}}\\\frac{12}{\sqrt{377}}&\frac{2}{\sqrt{13}}&-\frac{3}{29}\\\sqrt{\frac{13}{29}}&0&\frac{4}{\sqrt{29}}}
+\end{align}
+Finally from \eqref{eq:solutions/4/45/ex1/a/eqSVD} we get the Singular Value Decomposition of $\vec{M}$ as follows,
+\begin{align}
+\vec{M} = \myvec{\frac{8}{\sqrt{377}}&-\frac{3}{\sqrt{13}}&-\frac{2}{\sqrt{29}}\\\frac{12}{\sqrt{377}}&\frac{2}{\sqrt{13}}&-\frac{3}{29}\\\sqrt{\frac{13}{29}}&0&\frac{4}{\sqrt{29}}}\myvec{\frac{\sqrt{29}}{4}&0\\0&1\\0&0}\myvec{\frac{2}{\sqrt{13}}&-\frac{3}{\sqrt{13}}\\ \frac{3}{\sqrt{13}}&\frac{2}{\sqrt{13}}}^T
+\end{align}
+Now, Moore-Penrose Pseudo inverse of $\vec{S}$ is given by,
+\begin{align}
+\vec{S_+} = \myvec{\frac{\sqrt{29}}{4}&0&0\\0&1&0}\label{eq:solutions/4/45/ex1/a/eqS+}
+\end{align}
+Substituting the values of \eqref{eq:solutions/4/45/ex1/a/eqU},\eqref{eq:solutions/4/45/ex1/a/eqV},\eqref{eq:solutions/4/45/ex1/a/eqS+} in \eqref{eq:solutions/4/45/ex1/a/eqX}  we get,
+\begin{align}
+\vec{U}^T\vec{b}&=\myvec{0\\-\sqrt{13}\\0}\\
+\vec{S_+}\vec{U}^T\vec{b}&=\myvec{0\\-\sqrt{13}}\\
+\vec{x} = \vec{V}\vec{S_+}\vec{U}^T\vec{b} &= \myvec{3\\-2}\label{eq:solutions/4/45/ex1/a/eqXSol1}
+\end{align}
+Verifying the solution of \eqref{eq:solutions/4/45/ex1/a/eqXSol1} using,
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} = \vec{M}^T\vec{b}\label{eq:solutions/4/45/ex1/a/eqVerify}
+\end{align}
+Evaluating the R.H.S in \eqref{eq:solutions/4/45/ex1/a/eqVerify} we get,
+\begin{align}
+\vec{M}^T\vec{b} &= \myvec{1&0&\frac{1}{2}\\0&1&\frac{3}{4}}\myvec{3\\-2\\0}=\myvec{3\\-2}\\
+&\implies\myvec{\frac{5}{4}&\frac{3}{8}\\\frac{3}{8}&\frac{25}{16}}\vec{x} = \myvec{3\\-2}&\label{eq:solutions/4/45/ex1/a/eqMateq}
+\end{align}
+The augmented matrix of \eqref{eq:solutions/4/45/ex1/a/eqMateq} is,
+\begin{align}
+\myvec{\frac{5}{4}&\frac{3}{8} &3\\\frac{3}{8}&\frac{25}{16}&-2} & \label{eq:solutions/4/45/ex1/a/eqAugment}
+\end{align}
+Solving the augmented matrix into Row reduced echelon form of \eqref{eq:solutions/4/45/ex1/a/eqAugment} we get,
+\begin{align}
+\myvec{\frac{5}{4}&\frac{3}{8} &3\\\frac{3}{8}&\frac{25}{16}&-2}\xleftrightarrow[]{R_1\leftarrow\frac{4}{5}R_1}\myvec{1&\frac{3}{10}&\frac{1}{5}\\\frac{3}{8}&\frac{25}{16}&-2}\\
+\xleftrightarrow[]{R_2\leftarrow R_2-\frac{3}{8}R_1}\myvec{1&\frac{3}{10}&\frac{1}{5}\\0&\frac{29}{20}&-\frac{29}{10}}\\
+\xleftrightarrow[]{R_2\leftarrow \frac{20}{29}R_2}\myvec{1&\frac{3}{10}&\frac{1}{5}\\0&1&-2}\\
+\xleftrightarrow[]{R_1\leftarrow R_1-\frac{3}{10}R_2}\myvec{1&0&3\\0&1&-2}
+\end{align}
+Therefore,
+\begin{align}
+   \vec{x}&=\myvec{3\\-2}\label{eq:solutions/4/45/ex1/a/eqrref}
+\end{align}
+Comparing results of $\vec{x}$ from \eqref{eq:solutions/4/45/ex1/a/eqXSol1} and \eqref{eq:solutions/4/45/ex1/a/eqrref} we conclude that the solution is verified.
