@@ -1,0 +1,142 @@
+Equation of plane can be expressed as 
+\begin{align}\label{eq:solutions/4/45/4/c/eq1}
+	\vec{n}^T\vec{x} &= c
+\end{align}
+Rewriting given equation of plane in \eqref{eq:solutions/4/45/4/c/eq1} form
+\begin{align}\label{eq:solutions/4/45/4/c/eq2}
+	\myvec{5 & -12 & 0}\myvec{x\\y\\z} &= 8
+\end{align}
+where the value of 
+\begin{align}
+    \vec{n} &= \myvec{5\\-12\\0} \\
+    \vec{x} &= \myvec{x\\y\\z} \\
+    c &= 8
+\end{align}
+We need to represent the equation of plane in parametric form,
+\begin{equation}\label{eq:solutions/4/45/4/c/eq3}
+	\vec{Q} = \vec{p} + \lambda_1\vec{q} + \lambda_2\vec{r}
+\end{equation}
+Here $p$ is any point on plane and $\vec{q}, \vec{r}$ are two vectors parallel to plane and hence $\perp$ to $\vec{n}$. Now, we need to find these two vectors $\vec{q}$ and $\vec{r}$ which are $\perp$ to $\vec{n}$
+\begin{align}
+	\myvec{5 & -12 & 0}\myvec{a\\b\\c} = 0
+	\implies 5a - 12b &= 0 \label{eq:solutions/4/45/4/c/eq4}
+\end{align}
+Put $a=0$ and $c=1$ in \eqref{eq:solutions/4/45/4/c/eq4}, $\implies b=0$\\
+Put $a=1$ and $c=0$ in \eqref{eq:solutions/4/45/4/c/eq4}, $\implies b=\frac{5}{12}$\\
+Hence $\vec{q} = \myvec{1\\\frac{5}{12}\\0}, \vec{r} = \myvec{0\\0\\1}$\\
+Let us find point $\vec{p}$ on the plane. Put $x=1,z=0$ in \eqref{eq:solutions/4/45/4/c/eq2}, we get $\vec{p} = \myvec{1\\1\\0}$\\
+Since given plane is parallel to Z-axis, we can use any point $P$ on Z-axis to compute shortest distance. 
+\begin{equation}\label{eq:solutions/4/45/4/c/eq5}
+	\vec{P} = \myvec{0\\0\\0}
+\end{equation}
+Let $\vec{Q}$ be the point on plane with shortest distance to $\vec{P}$.
+$\vec{Q}$ can be expressed in \eqref{eq:solutions/4/45/4/c/eq4} form as
+\begin{align}\label{eq:solutions/4/45/4/c/eq6}
+	\vec{Q} = \myvec{1\\1\\0} + \lambda_1\myvec{1\\\frac{5}{12}\\0} + \lambda_2\myvec{0\\0\\1}
+\end{align}
+Computation of Pseudo Inverse using SVD in order to determine the value of $\lambda_1$ and $\lambda_2$ :
+\begin{align}
+	\label{eq:solutions/4/45/4/c/eq7}\myvec{1\\1\\0} + \lambda_1\myvec{1\\\frac{5}{12}\\0} + \lambda_2\myvec{0\\0\\1} &= \myvec{0\\0\\0}\\\label{eq:solutions/4/45/4/c/eq8}
+	\lambda_1\myvec{1\\\frac{5}{12}\\0} + \lambda_2\myvec{0\\0\\1} &= \myvec{-1\\-1\\0}\\\label{eq:solutions/4/45/4/c/eq9}
+	\myvec{1 & 0\\\frac{5}{12} & 0\\0 & 1} \myvec{\lambda_1 \\ \lambda_2} &=\myvec{-1\\-1\\0}\\\label{eq:solutions/4/45/4/c/eq10}
+	\vec{M}\vec{x} &= \vec{b}\\\label{eq:solutions/4/45/4/c/eq11} 
+	\implies\vec{x} &= \vec{M}^{+}\vec{b}
+\end{align}
+where,
+\begin{align}
+    \vec{M} &= \myvec{1 & 0\\\frac{5}{12} & 0\\0 & 1} \\
+    \vec{x} &= \myvec{\lambda_1 \\ \lambda_2} \\
+    \vec{b} &= \myvec{-1\\-1\\0}
+\end{align}
+Applying Singular Value Decomposition on $\vec{M}$,
+\begin{align} \label{eq:solutions/4/45/4/c/eq:eq_6}
+    \vec{M}=\vec{U}\vec{S}\vec{V}^T
+\end{align}
+Where the columns of $\vec{V}$ are the eigenvectors of $\vec{M}^T\vec{M}$, the columns of $\vec{U}$ are the eigenvectors of $\vec{M}\vec{M}^T$ and $\vec{S}$ is diagonal matrix of Singular values of $\vec{M}^T\vec{M}$.
+\begin{align}
+    \vec{M}^T\vec{M} &= \myvec{\frac{169}{144} & 0\\0 & 1} \\
+    \vec{M}\vec{M}^T &= \myvec{1 & \frac{5}{12} & 0\\\frac{5}{12} & \frac{25}{144} & 0\\ 0 & 0 & 1} 
+\end{align}
+As we know that,
+\begin{align}
+    \vec{U} \vec{S} \vec{V}^T \vec{x} = \vec{b} \nonumber \\
+    \implies \vec{x} = \vec{V} \vec{S_+} \vec{U^T} \vec{b} \label{eq:solutions/4/45/4/c/eq:eq_9}
+\end{align}
+Where $\vec{S_+}$ is Moore-Penrose Pseudo-Inverse of $\vec{S}$. Calculating eigenvalues of $\vec{M}\vec{M}^T$,
+\begin{align}
+    \mydet{\vec{M} \vec{M}^T - \lambda \vec{I}} = 0 \nonumber \\
+    \implies \mydet{1-\lambda & \frac{5}{12} & 0 \\ \frac{5}{12} & \frac{25}{144}-\lambda & 0 \\ 0 & 0 & 1-\lambda} &= 0 \nonumber \\
+    \implies \lambda^3 - \frac{313}{144}\lambda^2 + \frac{169}{144}\lambda =0 \nonumber
+\end{align}
+Hence eigenvalues of $\vec{M}\vec{M}^T$ are,
+\begin{align} \label{eq:solutions/4/45/4/c/eq:eq_10}
+    \lambda_1 = \frac{169}{144}; \quad \lambda_2 = 1; \quad \lambda_3 =0
+\end{align}
+And the corresponding eigenvectors are,
+\begin{align}
+    \vec{u_1} = \myvec{1 \\ \frac{5}{12} \\ 0}; \quad \vec{u_2} = \myvec{0 \\ 0 \\ 1}; \quad
+    \vec{u_3} = \myvec{-\frac{5}{12} \\ 1 \\ 0} \label{eq:solutions/4/45/4/c/eq:eq_11} 
+\end{align}
+\begin{align} \label{eq:solutions/4/45/4/c/eq:eq_13}
+    \vec{U} = \myvec{1 & 0 & -\frac{5}{12} \\ \frac{5}{12} & 0 & 1 \\ 0 & 1 & 0}
+\end{align}
+Using values from \eqref{eq:solutions/4/45/4/c/eq:eq_10},
+\begin{align} \label{eq:solutions/4/45/4/c/eq:eq_14}
+    \vec{S} = \myvec{\frac{13}{12} & 0 \\ 0 & 1 \\ 0 & 0} 
+\end{align}
+Calculating the eigenvalues of $\vec{M}^T\vec{M}$,
+\begin{align}
+    \mydet{\vec{M}^T\vec{M} - \lambda \vec{I}} = 0 \nonumber \\
+    \implies \mydet{\frac{169}{144}-\lambda & 0 \\ 0 & 1-\lambda} &= 0 \nonumber \\
+    \implies \lambda^2 - \frac{313}{144}\lambda + \frac{169}{144} &= 0 \nonumber
+\end{align}
+Hence, eigenvalues of $\vec{M}^T\vec{M}$ are,
+\begin{align}
+    \lambda_4 = \frac{169}{144}; \quad \lambda_5 = 1 \nonumber
+\end{align}
+And the corresponding eigenvectors are,
+\begin{align}
+    \vec{v}_1 = \myvec{1 \\ 0}; \quad 
+    \vec{v}_2 = \myvec{0 \\ 1} \label{eq:solutions/4/45/4/c/eq:eq_15}
+\end{align}
+From \eqref{eq:solutions/4/45/4/c/eq:eq_15} we obtain $\vec{V}$ as,
+\begin{align} \label{eq:solutions/4/45/4/c/eq:eq_16}
+    \vec{V} = \myvec{1 & 0 \\ 0 & 1}
+\end{align}
+Now, we can compute $\textit{SVD}$ of $\vec{M}$ :
+\begin{align}
+	\label{eq:solutions/4/45/4/c/eq16}\vec{M} &= \vec{U}\Vec{S}\vec{V}^T\\
+	\label{eq:solutions/4/45/4/c/eq17} &= \myvec{1 & 0 & -\frac{5}{12}\\ \frac{5}{12} & 0 & 1 \\0 & 1 & 0}\myvec{\frac{13}{12} & 0 \\0 & 1\\0 & 0} \myvec{1 & 0\\0 & 1}\\
+	\label{eq:solutions/4/45/4/c/eq18}\vec{M}^{+} &= \vec{V}\Vec{S}^T\vec{U}^T\\
+	\label{eq:solutions/4/45/4/c/eq20}&=\myvec{\frac{144}{169} & \frac{60}{169} & 0\\0 & 0 & 1}
+\end{align}
+Substitute \eqref{eq:solutions/4/45/4/c/eq20} in \eqref{eq:solutions/4/45/4/c/eq11},
+\begin{align}\label{eq:solutions/4/45/4/c/23}
+	\vec{x} &= \myvec{\frac{144}{169} & \frac{60}{169} & 0\\0 & 0 & 1}\myvec{-1\\-1\\0} \\
+	\vec{x} &= \myvec{-\frac{204}{169}\\0} \\
+	\implies\myvec{\lambda_1 \\ \lambda_2} &= \myvec{-\frac{204}{169}\\0}
+\end{align}
+Substituting $\lambda_1$, $\lambda_2$ in \eqref{eq:solutions/4/45/4/c/eq6}
+\begin{equation}
+	\vec{Q} = \myvec{-\frac{204}{169}\\-\frac{85}{169}\\0}
+\end{equation}
+Distance between point $\vec{P}$ and $\vec{Q}$ is
+\begin{align}
+	\norm{\vec{P}-\vec{Q}} &= \sqrt{\left(-\frac{204}{169}\right)^2 +\left(-\frac{85}{169}\right)^2 + 0}\\
+	\norm{\vec{P}-\vec{Q}} &= \frac{17}{13} 
+\end{align}
+Hence, the distance from the Z-axis to the plane $5x - 12y - 8 = 0$ is $\frac{17}{13}$. Now, we can verify the solution using Least Squares Method,
+\begin{align}
+	\vec{M}^T(\vec{b} - \vec{M}\vec{x}) &= 0\\
+	\label{eq:solutions/4/45/4/c/eq30}\implies \vec{M}^T\vec{M}\vec{x} &= \vec{M}^T\vec{b}
+\end{align}
+Substituting $\vec{M}, \vec{b}$ from \eqref{eq:solutions/4/45/4/c/eq9} in \eqref{eq:solutions/4/45/4/c/eq30}
+\begin{align}
+	\myvec{1 & 0\\\frac{5}{12} & 0\\0 & 1}\myvec{1 & \frac{5}{12} & 0\\0 & 0 & 1}\vec{x} &= \myvec{1 & \frac{5}{12} & 0\\0 & 0 & 1}\myvec{-1\\-1\\0}\\
+	\myvec{\frac{169}{144} & 0\\0 & 1}\myvec{\lambda_1\\\lambda_2} &= \myvec{-\frac{17}{12}\\0}\\
+	\implies\frac{169}{144}\lambda_1 &= -\frac{17}{12}\\
+	\lambda_1 &= -\frac{17}{12} \times \frac{144}{169} = -\frac{204}{169}\\
+	\text{and }\lambda_2 &= 0\\
+	\label{eq:solutions/4/45/4/c/31}\implies\vec{x} &= \myvec{-\frac{204}{169}\\0}
+\end{align}
+Comparing \eqref{eq:solutions/4/45/4/c/23} and \eqref{eq:solutions/4/45/4/c/31} solution is verified.

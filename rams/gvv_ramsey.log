@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  16 OCT 2020 07:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  19 OCT 2020 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1898,31 +1898,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 )
 (./chapters/3/3.1.tex [7]) (./chapters/3/3.2.tex) (./chapters/3/3.3.tex
 [8]) (./chapters/3/3.4.tex (./solutions/3/4/1/solution.tex
-Underfull \hbox (badness 1946) in paragraph at lines 49--50
-[]\OT1/txr/m/n/12 From equa-tions [] ,[] $\OT1/txr/bx/n/12 V$ \OT1/txr/m/n/12 d
-oesn't
- []
-
-<./solutions/3/4/1/Assignment 7.png, id=572, 360.34625pt x 333.245pt>
-File: ./solutions/3/4/1/Assignment 7.png Graphic file (type png)
-<use ./solutions/3/4/1/Assignment 7.png>
-Package pdftex.def Info: ./solutions/3/4/1/Assignment 7.png  used on input line
- 57.
-(pdftex.def)             Requested size: 252.0pt x 233.04616pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 5050) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
+<./solutions/3/4/1/Figure_1.png, id=595, 486.618pt x 451.6875pt>
+File: ./solutions/3/4/1/Figure_1.png Graphic file (type png)
+<use ./solutions/3/4/1/Figure_1.png>
+Package pdftex.def Info: ./solutions/3/4/1/Figure_1.png  used on input line 82.
+
+(pdftex.def)             Requested size: 312.9803pt x 290.52637pt.
+
+Overfull \hbox (60.9803pt too wide) in paragraph at lines 82--83
+ [][] 
+ []
+
+) (./solutions/3/4/2/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/3/4/2/solution.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./solutions/3/4/1/Assignment 7.png>]
+ [10 <./solutions/3/4/1/Figure_1.png>]
 Overfull \hbox (31.98897pt too wide) detected at line 38
 [][]  \OT1/txr/m/n/12 =[]\OMS/txsy/m/n/12 )  \OT1/txr/bx/n/12 x[]Vx \OT1/txr/m/
 n/12 + 2\OT1/txr/bx/n/12 c[]Vx \OT1/txr/m/n/12 + \OT1/txr/bx/n/12 c[]Vc \OT1/tx
@@ -1941,21 +1940,21 @@ Underfull \hbox (badness 4805) in paragraph at lines 254--256
 \OT1/txr/m/n/12 Substituting equa-tion [], in equa-tion
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<./solutions/3/4/2/Assignment 6.png, id=688, 397.485pt x 262.9825pt>
+<./solutions/3/4/2/Assignment 6.png, id=678, 397.485pt x 262.9825pt>
 File: ./solutions/3/4/2/Assignment 6.png Graphic file (type png)
 <use ./solutions/3/4/2/Assignment 6.png>
 Package pdftex.def Info: ./solutions/3/4/2/Assignment 6.png  used on input line
  264.
 (pdftex.def)             Requested size: 252.0pt x 166.73119pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 )
 (./solutions/3/4/4/solution.tex
-Underfull \vbox (badness 1082) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./solutions/3/4/2/Assignment 6.png>]
-<./solutions/3/4/4/Figure.png, id=726, 433.62pt x 289.08pt>
+<./solutions/3/4/4/Figure.png, id=714, 433.62pt x 289.08pt>
 File: ./solutions/3/4/4/Figure.png Graphic file (type png)
 <use ./solutions/3/4/4/Figure.png>
 Package pdftex.def Info: ./solutions/3/4/4/Figure.png  used on input line 57.
@@ -1965,10 +1964,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--62
 \OT1/txr/m/n/12 Substitute [],[],[],[] in
  []
 
-
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+
 (./solutions/3/4/5/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1980,7 +1979,7 @@ Underfull \hbox (badness 10000) detected at line 50
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/3/4/5/parabola.png, id=767, 385.44pt x 289.08pt>
+<./solutions/3/4/5/parabola.png, id=756, 385.44pt x 289.08pt>
 File: ./solutions/3/4/5/parabola.png Graphic file (type png)
 <use ./solutions/3/4/5/parabola.png>
 Package pdftex.def Info: ./solutions/3/4/5/parabola.png  used on input line 58.
@@ -2014,7 +2013,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-<./solutions/3/4/6/hyperbola.png, id=852, 346.29375pt x 348.30125pt>
+<./solutions/3/4/6/hyperbola.png, id=841, 346.29375pt x 348.30125pt>
 File: ./solutions/3/4/6/hyperbola.png Graphic file (type png)
 <use ./solutions/3/4/6/hyperbola.png>
 Package pdftex.def Info: ./solutions/3/4/6/hyperbola.png  used on input line 11
@@ -2027,7 +2026,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 (./solutions/3/4/8/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/3/4/8/circle.png, id=855, 433.62pt x 289.08pt>
+<./solutions/3/4/8/circle.png, id=844, 433.62pt x 289.08pt>
 File: ./solutions/3/4/8/circle.png Graphic file (type png)
 <use ./solutions/3/4/8/circle.png>
 Package pdftex.def Info: ./solutions/3/4/8/circle.png  used on input line 14.
@@ -2045,7 +2044,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/3/4/10/plot.png, id=930, 462.528pt x 346.896pt>
+<./solutions/3/4/10/plot.png, id=919, 462.528pt x 346.896pt>
 File: ./solutions/3/4/10/plot.png Graphic file (type png)
 <use ./solutions/3/4/10/plot.png>
 Package pdftex.def Info: ./solutions/3/4/10/plot.png  used on input line 67.
@@ -2063,7 +2062,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/3/4/11/Ellipse.png, id=1032, 371.3875pt x 248.93pt>
+<./solutions/3/4/11/Ellipse.png, id=1021, 371.3875pt x 248.93pt>
 File: ./solutions/3/4/11/Ellipse.png Graphic file (type png)
 <use ./solutions/3/4/11/Ellipse.png>
 Package pdftex.def Info: ./solutions/3/4/11/Ellipse.png  used on input line 142
@@ -2072,7 +2071,7 @@ Package pdftex.def Info: ./solutions/3/4/11/Ellipse.png  used on input line 142
 ))
 (./chapters/4/4.1.tex (./solutions/4/1/1/a/solution.tex [20 <./solutions/3/4/11
 /Ellipse.png>]
-<./solutions/4/1/1/a/A4.png, id=1065, 397.485pt x 262.9825pt>
+<./solutions/4/1/1/a/A4.png, id=1054, 397.485pt x 262.9825pt>
 File: ./solutions/4/1/1/a/A4.png Graphic file (type png)
 <use ./solutions/4/1/1/a/A4.png>
 Package pdftex.def Info: ./solutions/4/1/1/a/A4.png  used on input line 35.
@@ -2080,7 +2079,7 @@ Package pdftex.def Info: ./solutions/4/1/1/a/A4.png  used on input line 35.
 ) (./solutions/4/1/1/c/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/4/1/1/c/circle.png, id=1071, 462.528pt x 346.896pt>
+<./solutions/4/1/1/c/circle.png, id=1060, 462.528pt x 346.896pt>
 File: ./solutions/4/1/1/c/circle.png Graphic file (type png)
 <use ./solutions/4/1/1/c/circle.png>
 Package pdftex.def Info: ./solutions/4/1/1/c/circle.png  used on input line 25.
@@ -2093,14 +2092,14 @@ Underfull \vbox (badness 6758) has occurred while \output is active []
  [21 <./solutions/4/1/1/a/A4.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/4/1/2/Circle.png, id=1106, 389.455pt x 271.0125pt>
+<./solutions/4/1/2/Circle.png, id=1095, 389.455pt x 271.0125pt>
 File: ./solutions/4/1/2/Circle.png Graphic file (type png)
 <use ./solutions/4/1/2/Circle.png>
 Package pdftex.def Info: ./solutions/4/1/2/Circle.png  used on input line 38.
 (pdftex.def)             Requested size: 252.0pt x 175.35791pt.
 )
 (./solutions/4/1/3/solution.tex
-<./solutions/4/1/3/Circle.png, id=1108, 462.528pt x 346.896pt>
+<./solutions/4/1/3/Circle.png, id=1097, 462.528pt x 346.896pt>
 File: ./solutions/4/1/3/Circle.png Graphic file (type png)
 <use ./solutions/4/1/3/Circle.png>
 Package pdftex.def Info: ./solutions/4/1/3/Circle.png  used on input line 20.
@@ -2116,7 +2115,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23 <./solutions/4/1/3/Circle.png>]
-<./solutions/4/1/4/5.png, id=1167, 397.485pt x 263.98625pt>
+<./solutions/4/1/4/5.png, id=1156, 397.485pt x 263.98625pt>
 File: ./solutions/4/1/4/5.png Graphic file (type png)
 <use ./solutions/4/1/4/5.png>
 Package pdftex.def Info: ./solutions/4/1/4/5.png  used on input line 38.
@@ -2124,7 +2123,7 @@ Package pdftex.def Info: ./solutions/4/1/4/5.png  used on input line 38.
 ) (./solutions/4/1/5/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/4/1/5/circle.png, id=1169, 462.528pt x 346.896pt>
+<./solutions/4/1/5/circle.png, id=1158, 462.528pt x 346.896pt>
 File: ./solutions/4/1/5/circle.png Graphic file (type png)
 <use ./solutions/4/1/5/circle.png>
 Package pdftex.def Info: ./solutions/4/1/5/circle.png  used on input line 38.
@@ -2132,7 +2131,7 @@ Package pdftex.def Info: ./solutions/4/1/5/circle.png  used on input line 38.
 ))
 (./chapters/4/4.2.tex [24 <./solutions/4/1/4/5.png> <./solutions/4/1/5/circle.p
 ng>] (./solutions/4/2/1/solution.tex
-<./solutions/4/2/1/assign4.png, id=1197, 462.528pt x 346.896pt>
+<./solutions/4/2/1/assign4.png, id=1186, 462.528pt x 346.896pt>
 File: ./solutions/4/2/1/assign4.png Graphic file (type png)
 <use ./solutions/4/2/1/assign4.png>
 Package pdftex.def Info: ./solutions/4/2/1/assign4.png  used on input line 41.
@@ -2154,7 +2153,7 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 80.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/4/2/2/figure.png, id=1236, 387.4475pt x 262.9825pt>
+<./solutions/4/2/2/figure.png, id=1225, 387.4475pt x 262.9825pt>
 File: ./solutions/4/2/2/figure.png Graphic file (type png)
 <use ./solutions/4/2/2/figure.png>
 Package pdftex.def Info: ./solutions/4/2/2/figure.png  used on input line 119.
@@ -2165,7 +2164,7 @@ Underfull \vbox (badness 6575) has occurred while \output is active []
  [26 <./solutions/4/2/2/figure.png>] (./solutions/4/2/3/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/4/2/3/assignment_5_fig.png, id=1279, 462.528pt x 344.0052pt>
+<./solutions/4/2/3/assignment_5_fig.png, id=1267, 462.528pt x 344.0052pt>
 File: ./solutions/4/2/3/assignment_5_fig.png Graphic file (type png)
 <use ./solutions/4/2/3/assignment_5_fig.png>
 Package pdftex.def Info: ./solutions/4/2/3/assignment_5_fig.png  used on input 
@@ -2180,7 +2179,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 57.
 
-<./solutions/4/2/4/CircleTangent.jpg, id=1319, 433.62pt x 289.08pt>
+<./solutions/4/2/4/CircleTangent.jpg, id=1308, 433.62pt x 289.08pt>
 File: ./solutions/4/2/4/CircleTangent.jpg Graphic file (type jpg)
 <use ./solutions/4/2/4/CircleTangent.jpg>
 Package pdftex.def Info: ./solutions/4/2/4/CircleTangent.jpg  used on input lin
@@ -2195,7 +2194,7 @@ Underfull \hbox (badness 2134) in paragraph at lines 11--14
 \OT1/txr/m/n/12 Substituting [] in [], we rewrite
  []
 
-<./solutions/4/2/5/circle new.png, id=1357, 373.395pt x 248.93pt>
+<./solutions/4/2/5/circle new.png, id=1346, 373.395pt x 248.93pt>
 File: ./solutions/4/2/5/circle new.png Graphic file (type png)
 <use ./solutions/4/2/5/circle new.png>
 Package pdftex.def Info: ./solutions/4/2/5/circle new.png  used on input line 5
@@ -2219,7 +2218,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./solutions/4/2/6/Circle.png, id=1398, 462.528pt x 346.896pt>
+<./solutions/4/2/6/Circle.png, id=1387, 462.528pt x 346.896pt>
 File: ./solutions/4/2/6/Circle.png Graphic file (type png)
 <use ./solutions/4/2/6/Circle.png>
 Package pdftex.def Info: ./solutions/4/2/6/Circle.png  used on input line 185.
@@ -2234,7 +2233,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<./solutions/4/2/7/circle.png, id=1460, 392.46625pt x 266.9975pt>
+<./solutions/4/2/7/circle.png, id=1449, 392.46625pt x 266.9975pt>
 File: ./solutions/4/2/7/circle.png Graphic file (type png)
 <use ./solutions/4/2/7/circle.png>
 Package pdftex.def Info: ./solutions/4/2/7/circle.png  used on input line 62.
@@ -2257,7 +2256,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--84
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 88.
 
-<./solutions/4/2/8/Figure_1.png, id=1498, 462.528pt x 346.896pt>
+<./solutions/4/2/8/Figure_1.png, id=1487, 462.528pt x 346.896pt>
 File: ./solutions/4/2/8/Figure_1.png Graphic file (type png)
 <use ./solutions/4/2/8/Figure_1.png>
 Package pdftex.def Info: ./solutions/4/2/8/Figure_1.png  used on input line 90.
@@ -2300,7 +2299,7 @@ Package epstopdf Info: Source file: <./figs/parabola.eps>
 ted-to.pdf ./figs/parabola.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/parabola-eps-converted-to.pdf, id=1696, 1044.90375pt x 1304.875pt>
+<./figs/parabola-eps-converted-to.pdf, id=1684, 1044.90375pt x 1304.875pt>
 File: ./figs/parabola-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/parabola-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/parabola-eps-converted-to.pdf  used on input li
@@ -2433,10 +2432,10 @@ Package rerunfilecheck Info: File `gvv_ramsey.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 362.
  ) 
 Here is how much of TeX's memory you used:
- 41710 strings out of 480608
- 947522 string characters out of 5892806
- 1527201 words of memory out of 5000000
- 54974 multiletter control sequences out of 15000+600000
+ 41713 strings out of 480608
+ 947661 string characters out of 5892806
+ 1528202 words of memory out of 5000000
+ 54976 multiletter control sequences out of 15000+600000
  611520 words of font info for 189 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,19n,91p,502b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2455,10 +2454,10 @@ les/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/c
 om.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on gvv_ramsey.pdf (54 pages, 1007167 bytes).
+Output written on gvv_ramsey.pdf (54 pages, 1041964 bytes).
 PDF statistics:
- 2604 PDF objects out of 2984 (max. 8388607)
- 2446 compressed objects within 25 object streams
- 1606 named destinations out of 1728 (max. 500000)
+ 2593 PDF objects out of 2984 (max. 8388607)
+ 2437 compressed objects within 25 object streams
+ 1608 named destinations out of 1728 (max. 500000)
  528 words of extra memory for PDF output out of 10000 (max. 10000000)
 
