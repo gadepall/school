@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  19 OCT 2020 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  20 OCT 2020 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2236,14 +2236,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--93
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
-[]\OT1/txr/m/n/12 ,[],[] in []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/4/45/ex1/c/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+\OT1/txr/m/n/12 Substituting the val-ues of
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [21]
+)) [23]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
 
@@ -2255,10 +2268,10 @@ Package rerunfilecheck Info: File `gvv_dresden.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 43188 strings out of 480608
- 1003755 string characters out of 5892806
- 1413680 words of memory out of 5000000
- 57713 multiletter control sequences out of 15000+600000
+ 43255 strings out of 480608
+ 1004989 string characters out of 5892806
+ 1414730 words of memory out of 5000000
+ 57729 multiletter control sequences out of 15000+600000
  622200 words of font info for 221 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,91p,503b,1277s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2277,10 +2290,10 @@ usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.
 termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></da
 ta/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on gvv_dresden.pdf (21 pages, 682006 bytes).
+Output written on gvv_dresden.pdf (23 pages, 692584 bytes).
 PDF statistics:
- 895 PDF objects out of 1000 (max. 8388607)
- 829 compressed objects within 9 object streams
- 479 named destinations out of 1000 (max. 500000)
+ 978 PDF objects out of 1000 (max. 8388607)
+ 909 compressed objects within 10 object streams
+ 527 named destinations out of 1000 (max. 500000)
  135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
