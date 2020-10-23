@@ -1,0 +1,179 @@
+Given a point $\vec{A} = \myvec{3 \\4\\-1}$  and a plane $\myvec{2 & -1 & 2}\vec{x}=5$. We know that the equation of a plane is given by
+\begin{align}
+	\vec{n^Tx}= c
+\end{align}
+Hence, normal vector $\vec{n}$ is given by
+\begin{align}
+	\vec{n} = \myvec{2 \\ -1\\ 2 }
+\end{align}
+Let $\vec{m_1}$ and $\vec{m_2}$ be two vectors that are normal to normal vector $\vec{n}$.
+Let $\vec{m}= \myvec{a\\b\\c}$, then if
+\begin{align}
+& \vec{n^Tm}= 0 \\
+& \myvec{2 & -1 &2}\myvec{a\\b\\c} = 0
+\end{align}
+Taking $a =1$, $b=0$, we get $c=-1$, and hence
+\begin{align}
+	\vec{m_1}= \myvec{1\\0\\-1}
+\end{align}
+Take $a=0$ and $b=1$, we get $c=\frac{1}{2}$, and hence
+\begin{align}
+	\vec{m_2}= \myvec{0\\1\\\frac{1}{2}}
+\end{align}
+Since  foot of perpendicular is the point where the plane is met by a line perpendicular to the same plane. So, to get foot of perpendicular, we solve
+\begin{align}
+\vec{Mx=b} \label{eq:solutions/4/50/5/1}
+\end{align}
+where
+\begin{align}
+\vec{M} = \myvec{1 & 0 \\ 0 & 1 \\ -1 & \frac{1}{2}},b = \myvec{3 \\4\\-1}\label{eq:solutions/4/50/5/2}	
+\end{align}
+To solve \eqref{eq:solutions/4/50/5/1}, we perform singular value decomposition on $\vec{M}$ given as 
+\begin{align}
+	\vec{M = USV^T }\label{eq:solutions/4/50/5/3}
+\end{align}
+Substituting the value of $\vec{M}$ from \eqref{eq:solutions/4/50/5/3} in \eqref{eq:solutions/4/50/5/1}, we get
+\begin{align}
+	&\vec{USV^T}\vec{x} = \vec{b} \\
+\implies& \vec{x} = \vec{VS_+U^T}\vec{b}\label{eq:solutions/4/50/5/4}
+\end{align}
+where, $\vec{S_+}$ is Moore-Pen-rose Pseudo-Inverse of $\vec{S}$. Columns of $\vec{U}$ are eigen-vectors of $\vec{MM^T}$, columns of $\vec{V}$ are eigenvectors of $\vec{M^TM}$ and $\vec{S}$ is diagonal matrix of singular value of eigenvalues of $\vec{M^TM}$. First calculating the eigenvectors corresponding to $\vec{M^TM}$.
+\begin{align}
+\vec{M^TM} = \myvec{1 & 0 & -1 \\ 0 & 1 & \frac{1}{2} } \myvec{1 & 0 \\ 0 & 1 \\ -1 & \frac{1}{2}} = \myvec{2 & \frac{-1}{2} \\ \frac{-1}{2} & \frac{5}{4}}
+\end{align}
+Eigen values of $\vec{M^TM}$ can be found out as
+\begin{align}
+	& \abs{\vec{M^TM-\lambda I}} = 0 \\
+	& \abs{\myvec{2-\lambda & \frac{-1}{2} \\ \frac{-1}{2} & \frac{5}{4} -\lambda}} = 0 \\
+	& \brak{\frac{5}{4}-\lambda}\brak{2-\lambda} - \frac{1}{4} = 0 \\
+	& \brak{\lambda-\frac{9}{4}}\brak{\lambda-1} = 0 
+\end{align}
+Hence,
+\begin{align}
+\lambda_1 = \frac{9}{4}, \lambda_2 = 1
+\end{align}
+Eigen-vector corresponding to $\lambda=\frac{9}{4}$,
+\begin{align}
+\vec{v_1} = \myvec{2 \\ -1} 
+\end{align}
+Eigen-vector corresponding to $\lambda = 1$,
+\begin{align}
+\vec{v_2} = \myvec{1 \\ 2}
+\end{align}
+Normalizing, the eigen vectors $\vec{v_1}$ and $\vec{v_2}$, we get
+\begin{align}
+& \vec{v_1} = \frac{1}{\sqrt{5}}\myvec{2 \\ -1} \\
+& \vec{v_2} = \frac{1}{\sqrt{5}}\myvec{1 \\ 2} 
+\end{align}
+Hence,
+\begin{align}
+	\vec{V} = \frac{1}{\sqrt{5}}\myvec{2 & 1 \\ -1 & 2 } \label{eq:solutions/4/50/5/5}
+\end{align}
+Now calculating the eigenvectors corresponding to $\vec{MM^T}$
+\begin{multline}
+\vec{MM^T} = \myvec{1 & 0 \\ 0 & 1 \\ -1 & \frac{1}{2}}\myvec{1 & 0 & -1 \\ 0 & 1 & \frac{1}{2} } \\ =
+\myvec{1 & 0 &-1 \\ 0 & 1 & \frac{1}{2} \\ -1 & \frac{1}{2} & \frac{5}{4}}
+\end{multline}
+Eigen values of $\vec{MM^T}$ can be found out as
+\begin{align}
+	& \abs{\vec{MM^T-\lambda I}} = 0 \\
+	& \abs{\myvec{1-\lambda & 0 & -1 \\ 0 & 1-\lambda & \frac{1}{2} \\ -1 & \frac{1}{2} & \frac{5}{4}-\lambda}} = 0 \\
+	& \brak{1-\lambda}\brak{\brak{1-\lambda}\brak{\frac{5}{4}-\lambda}-\frac{1}{4}}
+	-1+\lambda = 0 \\
+	& \lambda\brak{\lambda-\frac{9}{4}}\brak{\lambda-1} = 0  
+\end{align}
+Hence,
+\begin{align}
+\lambda_3 = 0, \lambda_4 = 1, \lambda_5=\frac{9}{4}
+\end{align}
+Eigen-vector corresponding to $\lambda=0$,
+\begin{align}
+	\vec{v_3} = \myvec{2 \\ -1 \\ 2}
+\end{align}
+Eigen-vector corresponding to $\lambda=1$,
+\begin{align}
+	\vec{v_4} = \myvec{1 \\ 2 \\ 0}
+\end{align}
+Eigen-vector corresponding to $\lambda=\frac{9}{4}$,
+\begin{align}
+	\vec{v_5} = \myvec{4 \\ -2 \\ -5}
+\end{align}
+Normalizing, the eigen vectors $\vec{v_3}$, $\vec{v_4}$ and $\vec{v_5}$, we get
+\begin{align}
+	& \vec{v_3} = \frac{1}{3}\myvec{2 \\ -1 \\ 2} = \myvec{\frac{2}{3} \\ \frac{-1}{3} \\ \frac{2}{3}} \\
+	& \vec{v_4} = \frac{1}{\sqrt{5}}\myvec{1 \\ 2 \\ 0} = \myvec{\frac{1}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} \\ 0} \\ 
+	& \vec{v_5} = \frac{1}{3\sqrt{5}}\myvec{4 \\ -2 \\ -5} =  \myvec{\frac{4}{3\sqrt{5}} \\ \frac{-2}{3\sqrt{5}} \\ \frac{-5}{3\sqrt{5}}}
+\end{align}
+Hence,
+\begin{align}
+	\vec{U} = \myvec{\frac{4}{3\sqrt{5}} & \frac{1}{\sqrt{5}} & \frac{2}{3} \\ \frac{-2}{3\sqrt{5}}  & \frac{2}{\sqrt{5}} & \frac{-1}{3} \\ \frac{-5}{3\sqrt{5}}  & 0 & \frac{2}{3} } \label{eq:solutions/4/50/5/6}
+\end{align}
+Now $\vec{S}$ corresponding to eigenvalues $\lambda_5$, $\lambda_4$ and $\lambda_3$ is as follows,
+\begin{align}
+	\vec{S} = \myvec{\frac{3}{2} & 0 \\ 0 & 1  \\ 0 & 0}\label{eq:solutions/4/50/5/7}
+\end{align}
+Now, Moore-Pen-Rose Pseudo inverse of $\vec{S}$ is given by,
+\begin{align}
+	\vec{S_+} = \myvec{\frac{2}{3} & 0 & 0 \\ 0 & 1 & 0}
+\end{align}
+Hence, we get singular value decomposition of $\vec{M}$ as,
+\begin{align}
+\vec{M} = \myvec{\frac{4}{3\sqrt{5}} & \frac{1}{\sqrt{5}} & \frac{2}{3} \\ \frac{-2}{3\sqrt{5}}  & \frac{2}{\sqrt{5}} & \frac{-1}{3} \\ \frac{-5}{3\sqrt{5}}  & 0 & \frac{2}{3} } \myvec{\frac{3}{2} & 0 \\ 0 & 1  \\ 0 & 0} \frac{1}{\sqrt{5}}\myvec{2 & -1 \\ 1 & 2 }
+\end{align}
+Substituting values of \eqref{eq:solutions/4/50/5/2}, \eqref{eq:solutions/4/50/5/5}, \eqref{eq:solutions/4/50/5/6} and \eqref{eq:solutions/4/50/5/7} into \eqref{eq:solutions/4/50/5/4}, we get
+\begin{align}
+& \vec{U^Tb} =  \myvec{\frac{4}{3\sqrt{5}} & \frac{-2}{3\sqrt{5}} & \frac{-5}{3\sqrt{5}} \\ \frac{1}{\sqrt{5}}   & \frac{2}{\sqrt{5}} & 0 \\ \frac{2}{3} & \frac{-1}{3} & \frac{2}{3}}
+\myvec{3 \\4\\-1} \\
+& \qquad \qquad\implies \vec{U^Tb} = \myvec{\frac{3}{\sqrt{5}} \\ \frac{11}{\sqrt{5}} \\ 0} 
+\end{align}
+Now,
+\begin{align}
+& \vec{VS_+} = \frac{1}{\sqrt{5}}\myvec{2 & 1 \\ -1 & 2 }\myvec{\frac{2}{3} & 0 & 0 \\ 0 & 1 & 0}\\
+& \qquad \qquad \implies \vec{VS_+} = \frac{1}{\sqrt{5}}\myvec{\frac{4}{3} & 1 &0 \\ \frac{-2}{3} & 2 & 0 }
+\end{align}
+Now, by \eqref{eq:solutions/4/50/5/4}, we have
+\begin{align}
+& \vec{x} = \frac{1}{\sqrt{5}}\myvec{\frac{4}{3} & 1 &0 \\ \frac{-2}{3} & 2 & 0 } 
+\myvec{\frac{3}{\sqrt{5}} \\ \frac{11}{\sqrt{5}} \\ 0}  \\
+& \qquad \qquad \implies \vec{x} = \myvec{3 \\ 4}
+\end{align}
+Now, we verify our solution using
+\begin{align}
+&	\vec{M^TMx = M^Tb} \\
+\implies & \myvec{1 & 0 & -1  \\ 0 & 1 & \frac{1}{2} }\myvec{1 & 0 \\ 0 & 1 \\ -1 & \frac{1}{2} }\vec{x} = \myvec{1 & 0 & -1  \\ 0 & 1 & \frac{1}{2} }\myvec{3 \\4\\-1} 
+\end{align}
+\begin{align}
+\implies & \myvec{2 & \frac{-1}{2} \\ \frac{-1}{2} & \frac{5}{4}}\vec{x} =\myvec{4 \\\frac{7}{2}}
+\end{align}
+Solving the augumented matrix, we get
+\begin{align}
+& \myvec{2 & \frac{-1}{2} & 4 \\ \frac{-1}{2} & \frac{5}{4} & \frac{7}{2}} 
+&\xleftrightarrow[]{r_1 = (1/2)*(r_1) } & \myvec{1 & \frac{-1}{4} & 2 \\ \frac{-1}{2} & \frac{5}{4} & \frac{7}{2}} \\
+& \myvec{1 & \frac{-1}{4} & 2 \\ \frac{-1}{2} & \frac{5}{4} & \frac{7}{2}} & \xleftrightarrow[]{r_2 = r_2 + (1/2)*(r_1)} & \myvec{1 & \frac{-1}{4} & 2 \\ 0 & \frac{9}{8} & \frac{9}{2}} \\
+&\myvec{1 & \frac{-1}{4} & 2 \\ 0 & \frac{9}{8} & \frac{9}{2}} &\xleftrightarrow[]{r_2 =(8/9)*(r_2)} & \myvec{1 & \frac{-1}{4} & 2 \\ 0 & 1 & 4} \\
+& \myvec{1 & \frac{-1}{4} & 2 \\ 0 & 1 & 4} &\xleftrightarrow[]{r_1 = r_1 + (-1/4)*(r_2)} & \myvec{1 & 0 & 3 \\ 0 & 1 & 4}
+\end{align}
+Thus,
+\begin{align}
+	\vec{x} = \myvec{3\\4} 
+\end{align}
+verifying the result from SVD.
+
+Now, we solve for third coordinate of foot of perpendicular by,
+\begin{align}
+&\vec{n^Tx} = 5 \\
+& \myvec{2 & -1 & 2}\myvec{3 \\ -4 \\ z} = 5\\
+& z = \frac{-5}{2}
+\end{align}
+Normalizing z, we get
+\begin{align}
+	& z = \frac{\brak{\frac{-5}{2}}}{3} \implies z = \frac{-5}{6}
+\end{align}
+Hence, coordinate of foot of perpendicular is
+\begin{align}
+	\vec{x} = \myvec{3 \\ 4\\\frac{-5}{6}}
+\end{align}
+Now, we try to find equation of straight line through $\vec{P}= \myvec{3\\4\\-1}$ and having direction cosines as $\vec{Q}= \myvec{2 \\-1 \\ 2}$
+\begin{align}
+	L_1 :  \vec{x} = \myvec{3\\4\\-1} + \lambda\myvec{2 \\-1\\2}
+\end{align}
