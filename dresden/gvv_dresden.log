@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  23 OCT 2020 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  26 OCT 2020 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1944,7 +1944,7 @@ File: ot1txtt.fd 2000/12/15 v3.1
 pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
 /logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<iith_logo.pdf, id=43, 359.3425pt x 486.81876pt>
+<iith_logo.pdf, id=47, 359.3425pt x 486.81876pt>
 File: iith_logo.pdf Graphic file (type pdf)
 <use iith_logo.pdf>
 Package pdftex.def Info: iith_logo.pdf  used on input line 244.
@@ -1956,7 +1956,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 15.95987pt on input line 244.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 244.
-<tlc.pdf, id=44, 597.51233pt x 845.0471pt>
+<tlc.pdf, id=48, 597.51233pt x 845.0471pt>
 File: tlc.pdf Graphic file (type pdf)
 <use tlc.pdf>
 Package pdftex.def Info: tlc.pdf  used on input line 244.
@@ -2004,7 +2004,7 @@ Overfull \hbox (14.40588pt too wide) in paragraph at lines 244--244
 \openout5 = `gvv_dresden.toc'.
 
  (./chapters/4/45.tex (./solutions/4/45/1/1/solution.tex
-Underfull \vbox (badness 2165) has occurred while \output is active []
+Underfull \vbox (badness 1931) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--20
@@ -2288,7 +2288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--94
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]))
-(./chapters/4/50.tex (./solutions/4/50/3/solution.tex
+(./chapters/4/48.tex (./solutions/4/48/6/b/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
@@ -2297,11 +2297,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27])
-(./solutions/4/50/5/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+ [27]))
+(./chapters/4/50.tex (./solutions/4/50/3/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
@@ -2311,6 +2308,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/4/50/5/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
 Underfull \hbox (badness 1622) in paragraph at lines 122--124
 \OT1/txr/m/n/12 Substituting val-ues of [], [],
  []
@@ -2321,24 +2331,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]))
-[31
+ [32]))
+[33
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
  (./gvv_dresden.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
 Package rerunfilecheck Info: File `gvv_dresden.out' has not changed.
-(rerunfilecheck)             Checksum: E82A770073D870CC0239509A787B3427;223.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
+(rerunfilecheck)             Checksum: 42A63119BDFF888FD2CC6B713021E094;282.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 299.
  ) 
 Here is how much of TeX's memory you used:
- 43484 strings out of 480608
- 1008747 string characters out of 5892806
- 1419401 words of memory out of 5000000
- 57770 multiletter control sequences out of 15000+600000
+ 43566 strings out of 480608
+ 1010138 string characters out of 5892806
+ 1420067 words of memory out of 5000000
+ 57787 multiletter control sequences out of 15000+600000
  622200 words of font info for 221 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,91p,503b,1275s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2357,10 +2367,10 @@ usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.
 termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></da
 ta/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on gvv_dresden.pdf (31 pages, 731859 bytes).
+Output written on gvv_dresden.pdf (33 pages, 745370 bytes).
 PDF statistics:
- 1263 PDF objects out of 1440 (max. 8388607)
- 1182 compressed objects within 12 object streams
- 703 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1362 PDF objects out of 1440 (max. 8388607)
+ 1278 compressed objects within 13 object streams
+ 762 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
