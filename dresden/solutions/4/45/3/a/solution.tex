@@ -1,0 +1,129 @@
+ Let the point be $\myvec{2\\3\\-5}$,
+First we find orthogonal vectors $\vec{m_1}$ and $\vec{m_2}$ to the given normal vector $\vec{n}$. Let, $\vec{m}$ = $\myvec{a\\b\\c}$, then
+\begin{align}
+\vec{m^T}\vec{n} &= 0\\
+\implies\myvec{a&b&c}\myvec{14\\-3\\18} &= 0\\
+\implies 14a-3b+18c &= 0
+\end{align}
+Putting a=1 and b=0 we get,
+\begin{align}
+\vec{m_1} &= \myvec{1\\0\\\frac{-7}{9}}\end{align}
+Putting a=0 and b=1 we get,
+\begin{align}
+\vec{m_2} &= \myvec{0\\1\\\frac{1}{6}}
+\end{align}
+Now we solve the equation,
+\begin{align}
+\vec{M}\vec{x} &= \vec{b}\label{eq:solutions/4/45/3/a/eq1}\\
+\intertext{Putting values in \eqref{eq:solutions/4/45/3/a/eq1},}
+\myvec{1&0\\0&1\\\frac{-7}{9}&\frac{1}{6}}\vec{x} &= \myvec{2\\3\\-5}\label{eq:solutions/4/45/3/a/eq2}
+\end{align}
+In order to solve \eqref{eq:solutions/4/45/3/a/eq2},  perform Singular Value Decomposition on $\vec{M}$ as follows,
+\begin{align}
+\vec{M}=\vec{U}\vec{S}\vec{V}^T\label{eq:solutions/4/45/3/a/eq100}
+\end{align}
+Where the columns of $\vec{V}$ are the eigen vectors of $\vec{M}^T\vec{M}$ ,the columns of $\vec{U}$ are the eigen vectors of $\vec{M}\vec{M}^T$ and $\vec{S}$ is diagonal matrix of singular value of eigenvalues of $\vec{M}^T\vec{M}$.
+\begin{align}
+\vec{M}^T\vec{M}=\myvec{\frac{130}{81}&\frac{-7}{54}\\\frac{-7}{54}&\frac{37}{36}}\label{eq:solutions/4/45/3/a/eqMTM}\\
+\vec{M}\vec{M}^T=\myvec{1&0&\frac{-7}{9}\\0&1&\frac{1}{6}\\\frac{-7}{9}&\frac{1}{6}&\frac{205}{324}}
+\end{align}
+From \eqref{eq:solutions/4/45/3/a/eq1} putting \eqref{eq:solutions/4/45/3/a/eq100} we get,
+\begin{align}\label{eq:solutions/4/45/3/a/eqX}
+\vec{U}\vec{S}\vec{V}^T\vec{x} & = \vec{b}\\
+\implies\vec{x} &= \vec{V}\vec{S_+}\vec{U^T}\vec{b}
+\end{align}
+Where $\vec{S_+}$ is Moore-Penrose Pseudo-Inverse of $\vec{S}$.Now, calculating eigen value of $\vec{M}\vec{M}^T$,
+\begin{align}
+\mydet{\vec{M}\vec{M}^T - \lambda\vec{I}} &= 0\\
+\implies\myvec{1-\lambda&0&\frac{1}{2}\\0&1-\lambda&1\\\frac{1}{2}&1&\frac{205}{324}-\lambda} &=0\\
+\implies-\lambda^3+\frac{853}{324} \lambda^2-\frac{529}{324}\lambda &=0
+\end{align}
+Hence eigen values of $\vec{M}\vec{M}^T$ are,
+\begin{align}
+\lambda_1 &=\frac{529}{324}\\
+\lambda_2 &= 1\\
+\lambda_3 &=0
+\end{align}
+Hence the eigen vectors of $\vec{M}\vec{M}^T$ are,
+\begin{align}
+\vec{u}_1=\myvec{\frac{-252}{205}\\\frac{54}{205}\\1},
+\vec{u}_2=\myvec{\frac{3}{4}\\1\\0},
+\vec{u}_3=\myvec{\frac{7}{9}\\\frac{-1}{6}\\1}
+\end{align}
+Normalizing the eigen vectors we get,
+\begin{align}
+\vec{u}_1=\myvec{\frac{-252}{23\sqrt{205}}\\\frac{54}{23\sqrt{205}}\\\frac{\sqrt{205}}{{23}}},
+\vec{u}_2=\myvec{\frac{3}{\sqrt{205}}\\\frac{14}{\sqrt{205}}\\0},
+\vec{u}_3=\myvec{\frac{14}{23}\\\frac{-3}{23}\\\frac{18}{23}}
+\end{align}
+Hence we obtain $\vec{U}$ of \eqref{eq:solutions/4/45/3/a/eq100} as follows,
+ $\vec{U}$\begin{align}\label{eq:solutions/4/45/3/a/eqU}
+\myvec{\frac{-252}{23\sqrt{205}}& \frac{3}{\sqrt{205}}&\frac{14}{23}\\
+\frac{54}{23\sqrt{205}}&\frac{14}{\sqrt{205}}&-\frac{3}{23}\\
+\frac{\sqrt{205}}{{23}}&0&\frac{18}{23}}
+\end{align}
+After computing the singular values from eigen values $\lambda_1, \lambda_2, \lambda_3$ we get $\vec{S}$ of \eqref{eq:solutions/4/45/3/a/eq100} as follows,
+\begin{align}\label{eq:solutions/4/45/3/a/eqS}
+\vec{S}=\myvec{\frac{23}{18}&0\\0&1\\0&0}
+\end{align}
+Now, calculating eigen value of $\vec{M}^T\vec{M}$,
+\begin{align}
+\mydet{\vec{M}^T\vec{M} - \lambda\vec{I}} &= 0\\
+\implies\myvec{\frac{130}{81}-\lambda&\frac{-7}{54}\\\frac{-7}{54}&\frac{37}{36}-\lambda} &=0\\
+\implies\lambda^2-\frac{853}{324}\lambda+\frac{529}{324} &=0
+\end{align}
+Hence eigen values of $\vec{M}^T\vec{M}$ are,
+\begin{align}
+\lambda_4 &= \frac{529}{324}\\
+\lambda_5 &=1
+\end{align}
+Hence the eigen vectors of $\vec{M}^T\vec{M}$ are,
+\begin{align}
+\vec{v}_1=\myvec{\frac{-14}{3}\\1},
+\vec{v}_2=\myvec{\frac{3}{14}\\1}
+\intertext{Normalizing the eigen vectors we get,}
+\vec{v}_1=\myvec{\frac{-14}{\sqrt{205}}\\\frac{3}{\sqrt{205}}},
+\vec{v}_2=\myvec{\frac{3}{\sqrt{205}}\\\frac{14}{\sqrt{205}}}
+\end{align}
+Hence we obtain $\vec{V}$ of \eqref{eq:solutions/4/45/3/a/eq100} as follows,
+\begin{align}
+\vec{V}=\myvec{\frac{-14}{\sqrt{205}}&\frac{3}{\sqrt{205}}\\\frac{3}{\sqrt{205}}&\frac{14}{\sqrt{205}}}
+\end{align}
+ From \eqref{eq:solutions/4/45/3/a/eq100} we get the Singular Value Decomposition of $\vec{M}$ ,
+\begin{align}
+\vec{M} = \myvec{\frac{-252}{23\sqrt{205}}& \frac{3}{\sqrt{205}}&\frac{14}{23}\\
+\frac{54}{23\sqrt{205}}&\frac{14}{\sqrt{205}}&-\frac{3}{23}\\
+\frac{\sqrt{205}}{{23}}&0&\frac{18}{23}}\myvec{\frac{23}{18}&0\\0&1\\0&0}\myvec{\frac{-14}{\sqrt{205}}&\frac{3}{\sqrt{205}}\\\frac{3}{\sqrt{205}}&\frac{14}{\sqrt{205}}}^T
+\end{align}
+Moore-Penrose Pseudo inverse of $\vec{S}$ is given by,
+\begin{align}
+\vec{S_+} = \myvec{\frac{18}{23}&0&0\\0&1&0}
+\end{align}
+From \eqref{eq:solutions/4/45/3/a/eqX} we get,
+\begin{align}
+\vec{U}^T\vec{b}&=\myvec{-\frac{1367}{23\sqrt{205}}\\\frac{48}{\sqrt{205}}\\-\frac{71}{23}}\\
+\vec{S_+}\vec{U}^T\vec{b}&=\myvec{-\frac{24606}{529\sqrt{205}}\\\frac{48}{\sqrt{205}}}\\
+\vec{x} = \vec{V}\vec{S_+}\vec{U}^T\vec{b} &= \myvec{\frac{2052}{529}\\\frac{1374}{529}}\label{eq:solutions/4/45/3/a/eq85}
+\end{align}
+Verifying the solution of \eqref{eq:solutions/4/45/3/a/eq85} using,
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} = \vec{M}^T\vec{b}\label{eq:solutions/4/45/3/a/eqVerify}
+\end{align}
+Evaluating the R.H.S in \eqref{eq:solutions/4/45/3/a/eqVerify} we get,
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} &= \myvec{\frac{53}{9}\\\frac{13}{6}}\\
+\implies\myvec{\frac{130}{81}&\frac{-7}{54}\\\frac{-7}{54}&\frac{37}{36}}\vec{x} &= \myvec{\frac{53}{9}\\\frac{13}{6}}\label{eq:solutions/4/45/3/a/eq:eq17}
+\end{align}
+Solving the augmented matrix of \eqref{eq:solutions/4/45/3/a/eq:eq17} we get,
+\begin{align}
+\myvec{\frac{130}{81}&\frac{-7}{54}&\frac{53}{9}\\\frac{-7}{54}&\frac{37}{36}&\frac{13}{6}} &\xleftrightarrow{R_1=\frac{81}{130}R_1}\myvec{1&\frac{-21}{260}&\frac{477}{130}\\\frac{-7}{54}&\frac{37}{36}&\frac{13}{6}}\\
+&\xleftrightarrow{R_2=R_2+\frac{7}{54}R_1}\myvec{1&\frac{-21}{260}&\frac{477}{130}\\0&\frac{529}{520}&\frac{687}{260}}\\
+&\xleftrightarrow{R_2=\frac{520}{529}R_2}\myvec{1&\frac{-21}{260}&\frac{477}{130}\\0&1&\frac{1374}{529}}\\
+&\xleftrightarrow{R_1=R_1+\frac{21}{260}R_2}\myvec{1&0&\frac{2052}{529}\\0&1&\frac{1374}{529}}\label{eq:solutions/4/45/3/a/eq:eq13}
+\end{align}
+From equation \eqref{eq:solutions/4/45/3/a/eq:eq13}, solution is given by,
+\begin{align}\label{eq:solutions/4/45/3/a/eq:eq14}
+\vec{x}=\myvec{\frac{2052}{529}\\\frac{1374}{529}}
+\end{align}
+Comparing results of $\vec{x}$ from \eqref{eq:solutions/4/45/3/a/eq85} and \eqref{eq:solutions/4/45/3/a/eq:eq14}, we can say that the solution is verified.
+ 
