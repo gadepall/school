@@ -45,6 +45,10 @@ https://github.com/gadepall/school/blob/master/training/teqip/begin/overleaf/qua
 ------------------------------------------------------------
 #Colab Beginner
 ------------------------------------------------------------
+
+#Youtube link
+https://youtu.be/HWWF6sSrso8
+
 #Open a new file in
 
 colab.research.google.com
@@ -53,3 +57,17 @@ colab.research.google.com
 https://github.com/gadepall/school/blob/master/training/teqip/begin/colab/codes/quad1.py
 
 #to the new file.  Rename the new file in colab as quad1.ipynb and execute (you need to click a play icon on the top left side of the user interface)
+
+------------------------------------------------------------
+#Creating Directories in Google Drive
+------------------------------------------------------------
+
+#Go to colab and mount google drive.  Open an empty notebook and execute
+
+cd /content/drive/My Drive/teqip/2020/TE1722/solutions
+
+#Then in the next line, execute
+
+!mkdir {1..30}
+
+#This will create 30 folders in the directory
